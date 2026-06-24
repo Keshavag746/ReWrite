@@ -1,0 +1,199 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { createRoot, Root } from 'react-dom/client';
+import { SelectionTracker, SelectionInfo } from './selection/SelectionTracker';
+import { FloatingButton } from './injection/FloatingButton';
+import { RewritePopup } from './injection/RewritePopup';
+import { RewriteMode } from '../shared/types/index';
+
+// ─── Command Palette ──────────────────────────────────────────────────────────
+const QUICK_MODES: { label: string; mode: RewriteMode }[] = [
+  { label: 'Professional', mode: 'professional' },
+  { label: 'Shorter', mode: 'shorten' },
+  { label: 'Fix Grammar', mode: 'grammar' },
+  { label: 'Friendly', mode: 'friendly' },
+  { label: 'Persuasive', mode: 'persuasive' },
+];
+
+const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+  const [value, setValue] = useState('');
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
+  const handleSubmit = (mode: RewriteMode, customPrompt?: string) => {
+    const selection = window.getSelection();
+    const text = selection?.toString().trim() ?? '';
+    if (!text) { onClose(); return; }
+    chrome.runtime.sendMessage({
+      type: 'REWRITE_TEXT',
+      payload: { text, mode, customPrompt },
+    });
+    onClose();
+  };
+
+  return (
+    <div
+      style={{
+        position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
+        zIndex: 2147483647, display: 'flex', alignItems: 'center', justifyContent: 'center',
+        background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(4px)',
+      }}
+      onClick={onClose}
+    >
+      <div
+        style={{
+          background: '#1A1A1E', borderRadius: '12px', border: '1px solid #2A2A32',
+          boxShadow: '0 8px 40px rgba(0,0,0,0.6)', padding: '20px', width: '480px',
+          fontFamily: 'Inter, system-ui, sans-serif',
+        }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div style={{ color: '#8B8B9A', fontSize: '12px', marginBottom: '10px' }}>
+          ⚡ AI Rewrite Command Palette
+        </div>
+        <input
+          ref={inputRef}
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') handleSubmit('custom', value);
+            if (e.key === 'Escape') onClose();
+          }}
+          placeholder="e.g. Rewrite for LinkedIn, Make this persuasive..."
+          style={{
+            width: '100%', background: '#0F0F10', border: '1px solid #2A2A32',
+            borderRadius: '8px', padding: '10px 12px', color: '#F0F0F2',
+            fontSize: '14px', outline: 'none', boxSizing: 'border-box' as const,
+          }}
+        />
+        <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' as const }}>
+          {QUICK_MODES.map((q) => (
+            <button
+              key={q.mode}
+              onClick={() => handleSubmit(q.mode)}
+              style={{
+                padding: '5px 12px', borderRadius: '999px', background: '#2A2A32',
+                border: '1px solid #3A3A45', color: '#F0F0F2', cursor: 'pointer',
+                fontSize: '12px', transition: 'all 0.15s',
+              }}
+            >
+              {q.label}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ─── Content Script Root ──────────────────────────────────────────────────────
+let root: Root | null = null;
+let container: HTMLDivElement | null = null;
+
+function getOrCreateContainer(): { container: HTMLDivElement; root: Root } {
+  if (!container || !document.body.contains(container)) {
+    container = document.createElement('div');
+    container.id = 'ai-rewrite-anywhere-root';
+    document.body.appendChild(container);
+    root = createRoot(container);
+  }
+  return { container, root: root! };
+}
+
+// ─── App Component ────────────────────────────────────────────────────────────
+type AppView =
+  | { type: 'none' }
+  | { type: 'button'; selection: SelectionInfo }
+  | { type: 'popup'; text: string; rect: DOMRect; mode: RewriteMode }
+  | { type: 'commandPalette' };
+
+const App: React.FC = () => {
+  const [view, setView] = useState<AppView>({ type: 'none' });
+
+  useEffect(() => {
+    const tracker = new SelectionTracker((info) => {
+      if (info) {
+        setView((v) => (v.type === 'none' || v.type === 'button' ? { type: 'button', selection: info } : v));
+      } else {
+        setView((v) => (v.type === 'button' ? { type: 'none' } : v));
+      }
+    });
+    tracker.start();
+
+    // Listen for messages from background (context menu / command palette)
+    const listener = (message: { type: string; payload?: { text?: string; mode?: RewriteMode } }) => {
+      if (message.type === 'OPEN_REWRITE_POPUP' && message.payload?.text) {
+        const selection = window.getSelection();
+        const rect = selection?.rangeCount
+          ? selection.getRangeAt(0).getBoundingClientRect()
+          : new DOMRect(window.innerWidth / 2, window.innerHeight / 2, 0, 0);
+        setView({
+          type: 'popup',
+          text: message.payload.text,
+          rect,
+          mode: message.payload.mode ?? 'improve',
+        });
+      }
+      if (message.type === 'OPEN_COMMAND_PALETTE') {
+        setView({ type: 'commandPalette' });
+      }
+    };
+
+    chrome.runtime.onMessage.addListener(listener);
+
+    // Click-away to close button or popup
+    const handleDocClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.closest('#ai-rewrite-anywhere-root')) return;
+      setView((v) => (v.type === 'button' || v.type === 'popup' ? { type: 'none' } : v));
+    };
+    document.addEventListener('click', handleDocClick, true);
+
+    return () => {
+      tracker.stop();
+      chrome.runtime.onMessage.removeListener(listener);
+      document.removeEventListener('click', handleDocClick, true);
+    };
+  }, []);
+
+  if (view.type === 'none') return null;
+
+  if (view.type === 'button') {
+    return (
+      <FloatingButton
+        rect={view.selection.rect}
+        onClick={() =>
+          setView({
+            type: 'popup',
+            text: view.selection.text,
+            rect: view.selection.rect,
+            mode: 'improve',
+          })
+        }
+      />
+    );
+  }
+
+  if (view.type === 'popup') {
+    return (
+      <RewritePopup
+        selectedText={view.text}
+        initialMode={view.mode}
+        rect={view.rect}
+        onClose={() => setView({ type: 'none' })}
+      />
+    );
+  }
+
+  if (view.type === 'commandPalette') {
+    return <CommandPalette onClose={() => setView({ type: 'none' })} />;
+  }
+
+  return null;
+};
+
+// ─── Mount ────────────────────────────────────────────────────────────────────
+const { root: appRoot } = getOrCreateContainer();
+appRoot.render(<App />);
