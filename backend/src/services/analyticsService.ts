@@ -1,17 +1,3 @@
-import { PostHog } from 'posthog-node';
-
-let client: PostHog | null = null;
-
-function getClient(): PostHog | null {
-  if (!process.env.POSTHOG_API_KEY) return null;
-  if (!client) {
-    client = new PostHog(process.env.POSTHOG_API_KEY, {
-      host: 'https://app.posthog.com',
-    });
-  }
-  return client;
-}
-
 export interface RewriteEventProps {
   userId: string;
   mode: string;
@@ -22,43 +8,19 @@ export interface RewriteEventProps {
 }
 
 export function trackRewrite(props: RewriteEventProps): void {
-  const posthog = getClient();
-  if (!posthog) return;
-  posthog.capture({
-    distinctId: props.userId,
-    event: 'rewrite_completed',
-    properties: {
-      mode: props.mode,
-      model_used: props.modelUsed,
-      switched_from: props.switchedFrom,
-      tokens_used: props.tokensUsed,
-      plan: props.plan,
-    },
-  });
+  console.log(`[Analytics] Rewrite completed - User: ${props.userId}, Mode: ${props.mode}, Model: ${props.modelUsed}, Tokens: ${props.tokensUsed}`);
 }
 
 export function trackLogin(userId: string, plan: string): void {
-  const posthog = getClient();
-  if (!posthog) return;
-  posthog.capture({
-    distinctId: userId,
-    event: 'user_login',
-    properties: { plan },
-  });
+  console.log(`[Analytics] User login - User: ${userId}, Plan: ${plan}`);
 }
 
 export function trackLimitReached(userId: string, count: number): void {
-  const posthog = getClient();
-  if (!posthog) return;
-  posthog.capture({
-    distinctId: userId,
-    event: 'daily_limit_reached',
-    properties: { count },
-  });
+  console.log(`[Analytics] Daily limit reached - User: ${userId}, Count: ${count}`);
 }
 
 export async function shutdownAnalytics(): Promise<void> {
-  if (client) {
-    await client.shutdown();
-  }
+  // No-op since we don't have a third-party client to flush
+  return Promise.resolve();
 }
+

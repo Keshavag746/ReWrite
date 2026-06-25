@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { User, UsageInfo, ChromeMessage } from '../../shared/types/index';
 
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
 
 export const Settings: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);

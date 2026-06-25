@@ -2,7 +2,7 @@ import { AIProvider } from './AIProvider';
 import { AIModel, RewriteMode } from '../../shared/types/index';
 import { getStoredJWT } from '../auth/googleAuth';
 
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
 
 export class OpenAIProvider implements AIProvider {
   modelName: AIModel = 'gpt-5-mini';

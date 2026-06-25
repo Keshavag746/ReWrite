@@ -2,7 +2,7 @@ import { ChromeMessage, RewriteRequest } from '../../shared/types/index';
 import { rewriteWithFallback } from '../ai/AIProviderFactory';
 import { loginWithGoogle, logout, getStoredUser } from '../auth/googleAuth';
 
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
 
 async function getJWT(): Promise<string> {
   const result = await chrome.storage.local.get('ai_rewrite_jwt');

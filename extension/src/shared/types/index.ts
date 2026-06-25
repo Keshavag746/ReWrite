@@ -13,7 +13,7 @@ export type RewriteMode =
   | 'humanize'
   | 'custom';
 
-export type AIModel = 'gpt-oss-120b' | 'groq-llama';
+export type AIModel = 'gpt-oss-120b' | 'groq-llama' | 'claude-sonnet' | 'gemini-2.5-flash' | 'gpt-5-mini';
 
 export type UserPlan = 'free' | 'pro';
 

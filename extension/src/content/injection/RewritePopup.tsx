@@ -22,8 +22,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   const [state, setState] = useState<PopupState>('idle');
   const [output, setOutput] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
-  const [modelUsed, setModelUsed] = useState('');
-  const [switchedFrom, setSwitchedFrom] = useState('');
+
   const [copied, setCopied] = useState(false);
   const [showOriginal, setShowOriginal] = useState(false);
 
@@ -37,6 +36,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   const POPUP_MAX_HEIGHT = 520;
   const MARGIN = 12;
 
+  // Position it just starting at the end of highlighted text
   let top = rect.bottom + window.scrollY + MARGIN;
   let left = rect.left + window.scrollX;
 
@@ -44,6 +44,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   if (left + POPUP_WIDTH > vpWidth - MARGIN) left = vpWidth - POPUP_WIDTH - MARGIN;
   if (left < MARGIN) left = MARGIN;
 
+  // If there's not enough space below the new top position, shift it up
   const spaceBelow = window.innerHeight - rect.bottom;
   if (spaceBelow < POPUP_MAX_HEIGHT && rect.top > POPUP_MAX_HEIGHT) {
     top = rect.top + window.scrollY - POPUP_MAX_HEIGHT - MARGIN;
@@ -53,7 +54,6 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
     setState('loading');
     setOutput('');
     setErrorMsg('');
-    setSwitchedFrom('');
 
     try {
       const response = await new Promise<RewriteResponse>((resolve, reject) => {
@@ -69,8 +69,6 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
       });
 
       setOutput(response.output);
-      setModelUsed(response.modelUsed);
-      if (response.switchedFrom) setSwitchedFrom(response.switchedFrom);
       setState('done');
     } catch (err) {
       setErrorMsg(err instanceof Error ? err.message : 'Rewrite failed');
@@ -222,12 +220,6 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
         {state === 'done' && (
           <>
             <p style={{ margin: 0, color: '#F0F0F2', fontSize: '14px', whiteSpace: 'pre-wrap' }}>{output}</p>
-            {modelUsed && (
-              <div style={{ marginTop: '8px', fontSize: '11px', color: '#8B8B9A' }}>
-                Model: {modelUsed}
-                {switchedFrom && ` (switched from ${switchedFrom})`}
-              </div>
-            )}
           </>
         )}
         {state === 'error' && (
