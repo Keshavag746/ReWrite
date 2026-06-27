@@ -16,13 +16,24 @@ const QUICK_MODES: { label: string; mode: RewriteMode }[] = [
 
 const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   const [value, setValue] = useState('');
+  const [userPlan, setUserPlan] = useState<string>('free');
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     inputRef.current?.focus();
+    chrome.storage.local.get('ai_rewrite_user', (result) => {
+      const user = result['ai_rewrite_user'];
+      if (user && user.plan) {
+        setUserPlan(user.plan);
+      }
+    });
   }, []);
 
   const handleSubmit = (mode: RewriteMode, customPrompt?: string) => {
+    if (userPlan === 'free' && mode !== 'improve') {
+      alert('Only the "Improve" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all features.');
+      return;
+    }
     const selection = window.getSelection();
     const text = selection?.toString().trim() ?? '';
     if (!text) { onClose(); return; }
@@ -50,8 +61,15 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div style={{ color: '#8B8B9A', fontSize: '12px', marginBottom: '10px' }}>
-          ⚡ AI Rewrite Command Palette
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+          <div style={{ color: '#8B8B9A', fontSize: '12px' }}>
+            ⚡ AI Rewrite Command Palette
+          </div>
+          {userPlan === 'free' && (
+            <div style={{ color: '#f59e0b', fontSize: '11px', fontWeight: 600 }}>
+              ⚠️ Free Plan (Custom prompts locked)
+            </div>
+          )}
         </div>
         <input
           ref={inputRef}
@@ -61,27 +79,39 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             if (e.key === 'Enter') handleSubmit('custom', value);
             if (e.key === 'Escape') onClose();
           }}
-          placeholder="e.g. Rewrite for LinkedIn, Make this persuasive..."
+          disabled={userPlan === 'free'}
+          placeholder={userPlan === 'free' ? "Custom prompt is locked on Free Plan..." : "e.g. Rewrite for LinkedIn, Make this persuasive..."}
           style={{
             width: '100%', background: '#0F0F10', border: '1px solid #2A2A32',
-            borderRadius: '8px', padding: '10px 12px', color: '#F0F0F2',
+            borderRadius: '8px', padding: '10px 12px', color: userPlan === 'free' ? '#5B5B6A' : '#F0F0F2',
             fontSize: '14px', outline: 'none', boxSizing: 'border-box' as const,
+            cursor: userPlan === 'free' ? 'not-allowed' : 'text'
           }}
         />
         <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' as const }}>
-          {QUICK_MODES.map((q) => (
-            <button
-              key={q.mode}
-              onClick={() => handleSubmit(q.mode)}
-              style={{
-                padding: '5px 12px', borderRadius: '999px', background: '#2A2A32',
-                border: '1px solid #3A3A45', color: '#F0F0F2', cursor: 'pointer',
-                fontSize: '12px', transition: 'all 0.15s',
-              }}
-            >
-              {q.label}
-            </button>
-          ))}
+          {QUICK_MODES.map((q) => {
+            const isLocked = userPlan === 'free';
+            return (
+              <button
+                key={q.mode}
+                onClick={() => {
+                  if (isLocked) {
+                    alert('Only the "Improve" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all modes.');
+                  } else {
+                    handleSubmit(q.mode);
+                  }
+                }}
+                style={{
+                  padding: '5px 12px', borderRadius: '999px', background: '#2A2A32',
+                  border: '1px solid #3A3A45', color: isLocked ? '#5B5B6A' : '#F0F0F2', cursor: 'pointer',
+                  fontSize: '12px', transition: 'all 0.15s',
+                  opacity: isLocked ? 0.6 : 1
+                }}
+              >
+                {q.label} {isLocked && '🔒'}
+              </button>
+            );
+          })}
         </div>
       </div>
     </div>

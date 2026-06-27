@@ -35,6 +35,11 @@ router.post(
 
       const user = req.user!;
 
+      if ((user.plan === 'free' || !user.plan) && mode !== 'improve') {
+        res.status(403).json({ error: 'Only the "Improve" mode is available on the free plan. Please upgrade to unlock all 13 rewrite modes.' });
+        return;
+      }
+
       const result = await rewriteWithAI(text, mode, undefined, customPrompt);
 
       // Save rewrite to history

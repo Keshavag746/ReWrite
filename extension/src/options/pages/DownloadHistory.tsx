@@ -1,11 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import html2canvas from 'html2canvas';
 
 export const DownloadHistory: React.FC = () => {
-  const [format, setFormat] = useState('JSON');
+  const [format, setFormat] = useState('PDF');
   const [filenameFormat, setFilenameFormat] = useState('date');
   const [customTitle, setCustomTitle] = useState('');
   const [exporting, setExporting] = useState(false);
+  const [userPlan, setUserPlan] = useState<string>('free');
+
+  useEffect(() => {
+    chrome.storage.local.get('ai_rewrite_user', (result) => {
+      const user = result['ai_rewrite_user'];
+      if (user && user.plan) {
+        setUserPlan(user.plan);
+        if (user.plan === 'free') {
+          setFormat('PDF');
+        }
+      }
+    });
+  }, []);
 
   const formats = [
     { id: 'PDF', label: 'PDF', icon: '📄' },
@@ -339,28 +352,43 @@ export const DownloadHistory: React.FC = () => {
         <h2 style={{ fontSize: '16px', margin: '0 0 20px 0', color: 'var(--text-main)' }}>Export Format</h2>
         
         <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginBottom: '32px' }}>
-          {formats.map(f => (
-            <button
-              key={f.id}
-              onClick={() => setFormat(f.id)}
-              style={{
-                background: format === f.id ? 'var(--primary-bg)' : 'var(--bg-main)',
-                border: `1px solid ${format === f.id ? 'var(--primary)' : 'var(--border)'}`,
-                borderRadius: '12px', padding: '20px', display: 'flex', flexDirection: 'column',
-                alignItems: 'center', gap: '12px', cursor: 'pointer', width: '110px',
-                color: 'var(--text-main)', transition: 'all 0.2s', position: 'relative'
-              }}
-            >
-              <div style={{ 
-                width: '12px', height: '12px', borderRadius: '50%', 
-                border: format === f.id ? '4px solid var(--primary)' : '2px solid var(--text-muted)',
-                background: format === f.id ? 'white' : 'transparent',
-                marginBottom: '4px'
-              }} />
-              <div style={{ fontSize: '28px' }}>{f.icon}</div>
-              <div style={{ fontSize: '14px', fontWeight: 600 }}>{f.label}</div>
-            </button>
-          ))}
+          {formats.map(f => {
+            const isLocked = userPlan === 'free' && f.id !== 'PDF';
+            return (
+              <button
+                key={f.id}
+                onClick={() => {
+                  if (isLocked) {
+                    alert('Only PDF export is available on the free plan. Please upgrade to Pro/Premium to unlock other export formats.');
+                    return;
+                  }
+                  setFormat(f.id);
+                }}
+                style={{
+                  background: format === f.id ? 'var(--primary-bg)' : 'var(--bg-main)',
+                  border: `1px solid ${format === f.id ? 'var(--primary)' : 'var(--border)'}`,
+                  borderRadius: '12px', padding: '20px', display: 'flex', flexDirection: 'column',
+                  alignItems: 'center', gap: '12px', cursor: isLocked ? 'not-allowed' : 'pointer', width: '110px',
+                  color: 'var(--text-main)', transition: 'all 0.2s', position: 'relative',
+                  opacity: isLocked ? 0.6 : 1
+                }}
+              >
+                {isLocked && (
+                  <div style={{ position: 'absolute', top: '8px', right: '8px', fontSize: '14px' }}>
+                    🔒
+                  </div>
+                )}
+                <div style={{ 
+                  width: '12px', height: '12px', borderRadius: '50%', 
+                  border: format === f.id ? '4px solid var(--primary)' : '2px solid var(--text-muted)',
+                  background: format === f.id ? 'white' : 'transparent',
+                  marginBottom: '4px'
+                }} />
+                <div style={{ fontSize: '28px' }}>{f.icon}</div>
+                <div style={{ fontSize: '14px', fontWeight: 600 }}>{f.label}</div>
+              </button>
+            );
+          })}
         </div>
 
         <div style={{ marginBottom: '32px' }}>
@@ -406,27 +434,39 @@ export const DownloadHistory: React.FC = () => {
           </button>
           
           <button 
-            onClick={() => handleExport('dropbox')}
+            onClick={() => {
+              if (userPlan === 'free') {
+                alert('Cloud backup is only available on paid plans. Please upgrade to Pro/Premium.');
+                return;
+              }
+              handleExport('dropbox');
+            }}
             disabled={exporting}
             style={{
               background: '#0061FE', color: 'white', border: 'none', borderRadius: '8px',
               padding: '12px 16px', fontWeight: 600, cursor: exporting ? 'not-allowed' : 'pointer', fontSize: '14px',
-              display: 'flex', alignItems: 'center', gap: '8px', opacity: exporting ? 0.7 : 1, flex: '1 1 200px', justifyContent: 'center'
+              display: 'flex', alignItems: 'center', gap: '8px', opacity: (exporting || userPlan === 'free') ? 0.6 : 1, flex: '1 1 200px', justifyContent: 'center'
             }}
           >
-            {exporting ? 'Exporting...' : 'Save to Dropbox 📦'}
+            {exporting ? 'Exporting...' : 'Save to Dropbox 📦'} {userPlan === 'free' && '🔒'}
           </button>
 
           <button 
-            onClick={() => handleExport('gdrive')}
+            onClick={() => {
+              if (userPlan === 'free') {
+                alert('Cloud backup is only available on paid plans. Please upgrade to Pro/Premium.');
+                return;
+              }
+              handleExport('gdrive');
+            }}
             disabled={exporting}
             style={{
               background: '#ffffff', color: '#555', border: '1px solid #ccc', borderRadius: '8px',
               padding: '12px 16px', fontWeight: 600, cursor: exporting ? 'not-allowed' : 'pointer', fontSize: '14px',
-              display: 'flex', alignItems: 'center', gap: '8px', opacity: exporting ? 0.7 : 1, flex: '1 1 200px', justifyContent: 'center'
+              display: 'flex', alignItems: 'center', gap: '8px', opacity: (exporting || userPlan === 'free') ? 0.6 : 1, flex: '1 1 200px', justifyContent: 'center'
             }}
           >
-            {exporting ? 'Exporting...' : 'Save to Google Drive ☁️'}
+            {exporting ? 'Exporting...' : 'Save to Google Drive ☁️'} {userPlan === 'free' && '🔒'}
           </button>
         </div>
       </div>

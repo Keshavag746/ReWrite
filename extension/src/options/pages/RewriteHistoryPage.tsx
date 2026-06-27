@@ -48,10 +48,51 @@ export const RewriteHistoryPage: React.FC = () => {
     setTimeout(() => setCopiedId(null), 2000);
   };
 
+  const deleteItem = async (id: string) => {
+    if (!confirm('Are you sure you want to delete this rewrite history item?')) return;
+    try {
+      const response = await new Promise<{ success?: boolean; error?: string }>((resolve, reject) => {
+        chrome.runtime.sendMessage(
+          { type: 'DELETE_HISTORY_ITEM', payload: { id } } as ChromeMessage,
+          (res) => {
+            if (chrome.runtime.lastError) reject(new Error(chrome.runtime.lastError.message));
+            else resolve(res);
+          }
+        );
+      });
+      if (response.error) throw new Error(response.error);
+      setItems((prev) => prev.filter((item) => item.id !== id));
+    } catch (err) {
+      alert('Failed to delete item: ' + (err instanceof Error ? err.message : err));
+    }
+  };
+
+  const clearAllHistory = async () => {
+    if (!confirm('Are you sure you want to permanently delete your entire rewrite history? This cannot be undone.')) return;
+    try {
+      const response = await new Promise<{ success?: boolean; error?: string }>((resolve, reject) => {
+        chrome.runtime.sendMessage(
+          { type: 'CLEAR_HISTORY' } as ChromeMessage,
+          (res) => {
+            if (chrome.runtime.lastError) reject(new Error(chrome.runtime.lastError.message));
+            else resolve(res);
+          }
+        );
+      });
+      if (response.error) throw new Error(response.error);
+      setItems([]);
+      setHasMore(false);
+    } catch (err) {
+      alert('Failed to clear history: ' + (err instanceof Error ? err.message : err));
+    }
+  };
+
   if (!loading && items.length === 0) {
     return (
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-        <h1 style={{ fontSize: '28px', fontWeight: 700, marginBottom: '24px', color: 'var(--text-main)' }}>Rewrite History</h1>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
+          <h1 style={{ fontSize: '28px', fontWeight: 700, margin: 0, color: 'var(--text-main)' }}>Rewrite History</h1>
+        </div>
         <div style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '60px 20px', background: 'var(--bg-card)', borderRadius: '12px', border: '1px solid var(--border)' }}>
           <div style={{ fontSize: '48px', marginBottom: '16px' }}>📋</div>
           <div style={{ fontSize: '18px', fontWeight: 600, color: 'var(--text-main)', marginBottom: '8px' }}>No rewrites yet</div>
@@ -65,7 +106,19 @@ export const RewriteHistoryPage: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-      <h1 style={{ fontSize: '28px', fontWeight: 700, marginBottom: '24px', color: 'var(--text-main)' }}>Rewrite History</h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
+        <h1 style={{ fontSize: '28px', fontWeight: 700, margin: 0, color: 'var(--text-main)' }}>Rewrite History</h1>
+        <button
+          onClick={clearAllHistory}
+          style={{
+            background: '#ef4444', color: 'white', border: 'none', borderRadius: '8px',
+            padding: '8px 16px', fontWeight: 600, cursor: 'pointer', fontSize: '13px',
+            transition: 'all 0.2s', outline: 'none'
+          }}
+        >
+          🗑️ Clear All History
+        </button>
+      </div>
       
       <div>
         {items.map((item) => (
@@ -103,14 +156,26 @@ export const RewriteHistoryPage: React.FC = () => {
               </div>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '16px' }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '16px', gap: '12px' }}>
+              <button
+                onClick={() => deleteItem(item.id)}
+                style={{
+                  background: 'transparent',
+                  color: '#ef4444',
+                  border: '1px solid #ef4444',
+                  borderRadius: '8px', padding: '8px 16px', cursor: 'pointer', fontSize: '13px', fontWeight: 600,
+                  transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '6px', outline: 'none'
+                }}
+              >
+                🗑️ Delete
+              </button>
               <button
                 style={{
                   background: copiedId === item.id ? '#10b981' : 'var(--bg-main)',
                   color: copiedId === item.id ? 'white' : 'var(--text-main)',
                   border: `1px solid ${copiedId === item.id ? '#10b981' : 'var(--border)'}`,
                   borderRadius: '8px', padding: '8px 16px', cursor: 'pointer', fontSize: '13px', fontWeight: 600,
-                  transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '6px'
+                  transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '6px', outline: 'none'
                 }}
                 onClick={() => copyToClipboard(item.rewrittenText, item.id)}
               >
@@ -127,7 +192,7 @@ export const RewriteHistoryPage: React.FC = () => {
             style={{
               width: '100%', padding: '16px', background: 'var(--bg-card)', border: '1px solid var(--border)',
               borderRadius: '12px', color: 'var(--text-main)', cursor: 'pointer', fontSize: '14px', fontWeight: 600,
-              marginTop: '8px', transition: 'all 0.2s'
+              marginTop: '8px', transition: 'all 0.2s', outline: 'none'
             }}
           >
             {loading ? 'Loading...' : 'Load older rewrites'}

@@ -15,7 +15,7 @@ router.post('/google', async (req: Request, res: Response) => {
     }
 
     const googlePayload = googleToken === 'mock-dev-token'
-      ? { sub: 'mock-google-id-123', email: 'dev@example.com', name: 'Dev User' }
+      ? { sub: 'mock-google-id-123', email: 'keshoraai@gmail.com', name: 'Dev User' }
       : await verifyGoogleToken(googleToken);
 
     const user = await upsertUser(googlePayload);

@@ -40,4 +40,33 @@ router.get('/', authMiddleware, async (req: AuthRequest, res: Response) => {
   }
 });
 
+// DELETE /api/history/all
+router.delete('/all', authMiddleware, async (req: AuthRequest, res: Response) => {
+  try {
+    const user = req.user!;
+    await Rewrite.deleteMany({ userId: user._id });
+    res.json({ success: true, message: 'All history cleared successfully' });
+  } catch (err) {
+    console.error('[History] Clear all error:', err);
+    res.status(500).json({ error: 'Failed to clear history' });
+  }
+});
+
+// DELETE /api/history/:id
+router.delete('/:id', authMiddleware, async (req: AuthRequest, res: Response) => {
+  try {
+    const user = req.user!;
+    const { id } = req.params;
+    const result = await Rewrite.deleteOne({ _id: id, userId: user._id });
+    if (result.deletedCount === 0) {
+      res.status(404).json({ error: 'History item not found' });
+      return;
+    }
+    res.json({ success: true, message: 'History item deleted successfully' });
+  } catch (err) {
+    console.error('[History] Delete item error:', err);
+    res.status(500).json({ error: 'Failed to delete history item' });
+  }
+});
+
 export default router;

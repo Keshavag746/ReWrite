@@ -15,7 +15,7 @@ export const PopupMain: React.FC = () => {
   const [authLoading, setAuthLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
+  const BACKEND_URL = 'http://140.245.6.232:3001';
 
   useEffect(() => {
     loadUserData();

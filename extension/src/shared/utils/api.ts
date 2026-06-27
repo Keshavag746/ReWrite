@@ -1,4 +1,4 @@
-const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
+const BACKEND_URL = 'http://140.245.6.232:3001';
 
 async function getJWT(): Promise<string> {
   const result = await chrome.storage.local.get('ai_rewrite_jwt');

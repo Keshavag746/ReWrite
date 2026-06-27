@@ -56,7 +56,9 @@ export type MessageType =
   | 'GET_HISTORY'
   | 'OPEN_SIDEPANEL'
   | 'AUTH_LOGIN'
-  | 'AUTH_LOGOUT';
+  | 'AUTH_LOGOUT'
+  | 'DELETE_HISTORY_ITEM'
+  | 'CLEAR_HISTORY';
 
 export interface ChromeMessage {
   type: MessageType;

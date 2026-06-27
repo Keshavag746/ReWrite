@@ -3,3 +3,5 @@ dist/
 .env
 .env.local
 .DS_Store
+.bun_cache/
+.sst/

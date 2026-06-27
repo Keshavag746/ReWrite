@@ -2,7 +2,7 @@ import { ChromeMessage, RewriteRequest } from '../../shared/types/index';
 import { rewriteWithFallback } from '../ai/AIProviderFactory';
 import { loginWithGoogle, logout, getStoredUser } from '../auth/googleAuth';
 
-const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
+const BACKEND_URL = 'http://140.245.6.232:3001';
 
 async function getJWT(): Promise<string> {
   const result = await chrome.storage.local.get('ai_rewrite_jwt');
@@ -36,6 +36,25 @@ async function handleMessage(message: ChromeMessage): Promise<unknown> {
         `${BACKEND_URL}/api/history?page=${page}&limit=${limit}`,
         { headers: { Authorization: `Bearer ${jwt}` } }
       );
+      return res.json();
+    }
+
+    case 'DELETE_HISTORY_ITEM': {
+      const jwt = await getJWT();
+      const { id } = message.payload as { id: string };
+      const res = await fetch(`${BACKEND_URL}/api/history/${id}`, {
+        method: 'DELETE',
+        headers: { Authorization: `Bearer ${jwt}` },
+      });
+      return res.json();
+    }
+
+    case 'CLEAR_HISTORY': {
+      const jwt = await getJWT();
+      const res = await fetch(`${BACKEND_URL}/api/history/all`, {
+        method: 'DELETE',
+        headers: { Authorization: `Bearer ${jwt}` },
+      });
       return res.json();
     }
 

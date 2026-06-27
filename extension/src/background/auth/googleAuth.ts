@@ -1,6 +1,6 @@
 import { User } from '../../shared/types/index';
 
-const BACKEND_URL = 'https://rewrite-8jxg.onrender.com';
+const BACKEND_URL = 'http://140.245.6.232:3001';
 const JWT_KEY = 'ai_rewrite_jwt';
 const USER_KEY = 'ai_rewrite_user';
 

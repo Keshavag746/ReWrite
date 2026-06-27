@@ -19,6 +19,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   onClose,
 }) => {
   const [mode, setMode] = useState<RewriteMode>(initialMode);
+  const [userPlan, setUserPlan] = useState<string>('free');
   const [state, setState] = useState<PopupState>('idle');
   const [output, setOutput] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
@@ -56,6 +57,14 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
     setErrorMsg('');
 
     try {
+      const result = await chrome.storage.local.get('ai_rewrite_user');
+      const user = result['ai_rewrite_user'];
+      const plan = user?.plan || 'free';
+
+      if (plan === 'free' && selectedMode !== 'improve') {
+        throw new Error('Only the "Improve" mode is available on the free plan. Please upgrade to Pro to unlock all 13 modes.');
+      }
+
       const response = await new Promise<RewriteResponse>((resolve, reject) => {
         const msg: ChromeMessage = {
           type: 'REWRITE_TEXT',
@@ -76,8 +85,14 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
     }
   }, [selectedText]);
 
-  // Auto-rewrite on mount
+  // Load user plan on mount and auto-rewrite
   useEffect(() => {
+    chrome.storage.local.get('ai_rewrite_user', (result) => {
+      const user = result['ai_rewrite_user'];
+      if (user && user.plan) {
+        setUserPlan(user.plan);
+      }
+    });
     doRewrite(initialMode);
   }, [doRewrite, initialMode]);
 
@@ -103,6 +118,10 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   };
 
   const handleModeChange = (newMode: RewriteMode) => {
+    if (userPlan === 'free' && newMode !== 'improve') {
+      alert('Only the "Improve" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all 13 rewrite modes.');
+      return;
+    }
     setMode(newMode);
     doRewrite(newMode);
   };
@@ -155,25 +174,29 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
 
       {/* Mode selector chips */}
       <div style={{ display: 'flex', flexWrap: 'wrap' as const, gap: '6px', marginBottom: '12px' }}>
-        {MODES.map((m) => (
-          <button
-            key={m}
-            className="ai-chip"
-            onClick={() => handleModeChange(m)}
-            style={{
-              padding: '4px 10px',
-              borderRadius: '999px',
-              border: `1px solid ${mode === m ? '#7C6EF8' : '#2A2A32'}`,
-              background: mode === m ? '#7C6EF8' : 'transparent',
-              color: mode === m ? 'white' : '#8B8B9A',
-              cursor: 'pointer',
-              fontSize: '12px',
-              fontWeight: mode === m ? 600 : 400,
-            }}
-          >
-            {REWRITE_MODE_LABELS[m]}
-          </button>
-        ))}
+        {MODES.map((m) => {
+          const isLocked = userPlan === 'free' && m !== 'improve';
+          return (
+            <button
+              key={m}
+              className="ai-chip"
+              onClick={() => handleModeChange(m)}
+              style={{
+                padding: '4px 10px',
+                borderRadius: '999px',
+                border: `1px solid ${mode === m ? '#7C6EF8' : '#2A2A32'}`,
+                background: mode === m ? '#7C6EF8' : 'transparent',
+                color: mode === m ? 'white' : (isLocked ? '#4A4A52' : '#8B8B9A'),
+                cursor: 'pointer',
+                fontSize: '12px',
+                fontWeight: mode === m ? 600 : 400,
+                opacity: isLocked ? 0.6 : 1,
+              }}
+            >
+              {REWRITE_MODE_LABELS[m]} {isLocked && '🔒'}
+            </button>
+          );
+        })}
       </div>
 
       {/* Original text (collapsible) */}

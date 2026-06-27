@@ -8,6 +8,7 @@ import authRouter from './routes/auth';
 import rewriteRouter from './routes/rewrite';
 import usageRouter from './routes/usage';
 import historyRouter from './routes/history';
+import billingRouter from './routes/billing';
 import { shutdownAnalytics } from './services/analyticsService';
 
 const app = express();
@@ -45,6 +46,7 @@ app.use('/api/auth', authRouter);
 app.use('/api/rewrite', rewriteRouter);
 app.use('/api/usage', usageRouter);
 app.use('/api/history', historyRouter);
+app.use('/api/billing', billingRouter);
 
 // Health check
 app.get('/health', (_req, res) => {
