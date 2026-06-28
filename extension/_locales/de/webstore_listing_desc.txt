@@ -1,0 +1,44 @@
+✨ Schreiben Sie Text überall im Web mithilfe modernster KI sofort um.
+
+Sind Sie es leid, Text in Chat-Fenster zu kopieren und einzufügen, um Ihre Texte zu verbessern? Mit AI Rewrite Anywhere können Sie jeden Text auf jeder Website (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X und mehr) hervorheben oder auswählen und ihn sofort umschreiben.
+
+Die Erweiterung basiert auf einer intelligenten KI-Fallback-Kette mit erstklassigen großen Sprachmodellen (einschließlich OpenAI GPT, Google Gemini, Anthropic Claude und Groq Open-Source Llama) und sorgt für maximale Verfügbarkeit und blitzschnelle Antworten, indem Anfragen automatisch an den nächsten verfügbaren Anbieter weitergeleitet werden, wenn eine Dienstunterbrechung auftritt.
+
+🚀 HAUPTMERKMALE:
+- 🖱️ Hervorheben und umschreiben: Markieren Sie einfach Text auf einer beliebigen Webseite. In der Nähe Ihres Cursors erscheint eine schwebende Zauberstab-Schaltfläche. Klicken Sie darauf, um es sofort neu zu schreiben.
+- 🖱️ Kontextmenü-Integration: Klicken Sie mit der rechten Maustaste auf eine beliebige Auswahl, um direkt über das Kontextmenü des Browsers auf 13 verschiedene Umschreibungsmodi zuzugreifen.
+- ⌨️ Befehlspalette (Ctrl+Shift+K): Öffnen Sie eine schnelle, tastaturorientierte Oberfläche, um benutzerdefinierte Eingabeaufforderungen einzugeben oder schnelle Voreinstellungen auszulösen, ohne die Maus zu berühren.
+- 📋 Vollständiger Umschreibungsverlauf und Einstellungen: Greifen Sie auf ein schönes Dashboard-Seitenfeld zu, um frühere Umschreibungen zu überprüfen, Protokolle in mehreren Formaten zu exportieren und Einstellungen zu konfigurieren.
+- 🔄 Nahtloser KI-Fallback: Genießen Sie unterbrechungsfreien Service. Wenn das primäre Modell ausfällt, wechselt die Erweiterung automatisch und transparent zum nächsten verfügbaren Modell.
+- 🔐 Sichere Google-Anmeldung: Schnelle, geschützte Authentifizierung, die Ihre Einstellungen sicher geräteübergreifend synchronisiert.
+
+🎯 13 DYNAMISCHE REWRITE-MODI:
+1. Verbessern Sie automatisch die polnische Schreibstruktur und den Wortschatz.
+2. Grammatik: Korrigieren Sie Rechtschreib-, Zeichensetzungs- und Syntaxfehler.
+3. Professionell: Erweitern Sie Ihre Sprache für die professionelle Korrespondenz.
+4. Freundlich: Verleihen Sie Ihren Nachrichten Wärme und Zugänglichkeit.
+5. Formell: Passen Sie die Formulierung für offizielle Dokumente und Geschäftsbriefe an.
+6. Lässig: Erstellen Sie entspannte, gesprächige Texte für soziale Anlässe.
+7. Überzeugend: Strukturieren Sie Ideen, um sie zu überzeugen, zu präsentieren oder effektiv zu vermarkten.
+8. Selbstbewusst: Projektsicherheit, Autorität und starke Überzeugung.
+9. Kürzen: Verdichten Sie lange Absätze zu prägnanten Hervorhebungen.
+10. Erweitern: Sprechen Sie kurze Stichpunkte oder Phrasen aus und bauen Sie darauf auf.
+11. Vereinfachen: Übersetzen Sie Fachjargon oder komplexe Gedanken in eine klare, lesbare Sprache.
+12. Humanisieren: Roboter-KI-Entwürfe so umstrukturieren, dass sie natürlich lesbar sind.
+13. Benutzerdefinierte Eingabeaufforderung: Geben Sie genau ein, was die KI mit der Auswahl tun soll.
+
+📂 PREMIUM-EXPORTFORMATE:
+Exportieren Sie Ihren Umschreibungsverlauf lokal oder synchronisieren Sie ihn direkt mit Cloud-Diensten:
+- PDF (kostenlos und Premium)
+- Abschlag (MD)
+- TXT
+- Bild (IMG)
+- JSON
+- Kopieren in die Zwischenablage
+- Cloud-Integration: Direkt in Dropbox oder Google Drive speichern.
+
+🔒 DATENSCHUTZ UND SICHERHEIT DURCH DESIGN:
+Datenschutz ist unsere oberste Verpflichtung. Wir verarbeiten nur den spezifischen Text, den Sie für das aktive Umschreiben auswählen. Ihre Auswahl wird sicher durch SSL-Verschlüsselung an unsere Backend-API übertragen, um die Anfrage auszuführen, und wird nicht langfristig auf unseren Servern gespeichert. Ihr persönlicher Browserverlauf ist vollständig geschützt.
+
+📧 KONTAKT & SUPPORT:
+Haben Sie Fragen, Vorschläge oder Fehlerberichte? Kontaktieren Sie uns direkt unterkeshoraai@gmail.com. Wir legen großen Wert auf regelmäßige Updates und Feature-Anfragen!

@@ -8,11 +8,11 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
   const navItems = [
-    { id: 'account', label: 'Account & Usage', icon: User },
-    { id: 'history', label: 'Rewrite History', icon: History },
-    { id: 'settings', label: 'Settings', icon: Settings },
-    { id: 'download', label: 'Download', icon: FileDown },
-    { id: 'help', label: 'Help & FAQ', icon: HelpCircle },
+    { id: 'account', labelKey: 'sidebarAccountUsage', icon: User },
+    { id: 'history', labelKey: 'sidebarRewriteHistory', icon: History },
+    { id: 'settings', labelKey: 'sidebarSettings', icon: Settings },
+    { id: 'download', labelKey: 'sidebarDownload', icon: FileDown },
+    { id: 'help', labelKey: 'sidebarHelpFAQ', icon: HelpCircle },
   ];
 
   return (
@@ -23,7 +23,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
       display: 'flex',
       flexDirection: 'column',
       padding: '24px 16px',
-      height: '100vh',
+      minHeight: '100vh',
+      boxSizing: 'border-box',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '40px', paddingLeft: '8px' }}>
         <div style={{ background: 'var(--primary)', borderRadius: '8px', padding: '6px', display: 'flex' }}>
@@ -32,7 +33,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
             <path d="M19 3L19.8 5.2L22 6L19.8 6.8L19 9L18.2 6.8L16 6L18.2 5.2L19 3Z" fill="#FFF" opacity="0.8"/>
           </svg>
         </div>
-        <span style={{ fontSize: '15px', fontWeight: 700, color: 'var(--text-main)' }}>AI Rewrite Dashboard</span>
+        <span style={{ fontSize: '15px', fontWeight: 700, color: 'var(--text-main)' }}>{chrome.i18n.getMessage('sidebarDashboardTitle')}</span>
       </div>
 
       <nav style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
@@ -59,11 +60,12 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
               }}
             >
               <item.icon size={18} color={isActive ? 'var(--primary)' : 'var(--text-muted)'} />
-              <span style={{ flexGrow: 1 }}>{item.label}</span>
+              <span style={{ flexGrow: 1 }}>{chrome.i18n.getMessage(item.labelKey)}</span>
             </button>
           );
         })}
       </nav>
+
     </div>
   );
 };

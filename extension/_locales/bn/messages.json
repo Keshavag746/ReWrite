@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "যে কোন জায়গায় পুনঃলিখন - এআই টেক্সট রিরাইটার",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "যে কোন জায়গায় টেক্সট হাইলাইট করুন। AI দিয়ে অবিলম্বে পুনরায় লিখুন।",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "এআই রিরাইট কমান্ড প্যালেট খুলুন",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "এআই পুনর্লিখন →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ লেখার উন্নতি করুন",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ ব্যাকরণ ঠিক করুন",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 পেশাদার করুন",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 বন্ধুত্বপূর্ণ করুন",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 আনুষ্ঠানিক করুন",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 নৈমিত্তিক করুন",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 প্ররোচিত করুন",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 আত্মবিশ্বাসী করুন",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 মানবীকরণ",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ কাস্টম প্রম্পট...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ উন্নতি করুন",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ ব্যাকরণ",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 পেশাদার",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 বন্ধুত্বপূর্ণ",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 আনুষ্ঠানিক",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 নৈমিত্তিক",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 প্ররোচিত",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 আত্মবিশ্বাসী",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ ছোট করুন",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 প্রসারিত করুন",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 সরলীকৃত করুন",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 মানবীকরণ",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ কাস্টম",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "লোড হচ্ছে...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "যে কোন জায়গায় টেক্সট পুনরায় লিখুন",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI দিয়ে যেকোনো ওয়েবসাইটে পাঠ্য পুনঃলিখন শুরু করতে Google-এর সাথে সাইন ইন করুন।",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "সাইন ইন করা হচ্ছে...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google দিয়ে সাইন ইন করুন",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ প্রো",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "বিনামূল্যে",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "দৈনিক ব্যবহার",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(সীমাহীন)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 যেকোনো পৃষ্ঠায় পাঠ্য নির্বাচন করুন → পুনরায় লিখতে ✨ বোতামে ক্লিক করুন। অথবাCtrl+Shift+Kটিপুন",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 ইতিহাস ও সেটিংস খুলুন",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "সাইন আউট",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "লগইন ব্যর্থ হয়েছে",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "পুনর্লিখন ব্যর্থ হয়েছে",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "এই বিভাগটি বর্তমানে নির্মাণাধীন।",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "সেটিংস দেখতে সাইন ইন করুন.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "অ্যাকাউন্ট এবং ব্যবহার",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "ইতিহাস পুনর্লিখন",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "সেটিংস",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ডাউনলোড করুন",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "সাহায্য এবং FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "এআই রিরাইট ড্যাশবোর্ড",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "সাধারণ কনফিগারেশন",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "ইন্টারফেস থিম",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "ডার্ক মোড",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "হালকা মোড",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "ডিফল্ট পুনর্লিখন টোন",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ সমস্ত ইতিহাস সাফ করুন",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "এখনও কোন পুনর্লিখন",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "যেকোনো পৃষ্ঠায় পাঠ্য হাইলাইট করুন এবং শুরু করতে ✨ ক্লিক করুন। আপনার ইতিহাস এখানে প্রদর্শিত হবে.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "আপনি কি এই পুনঃলিখন ইতিহাস আইটেম মুছে ফেলার বিষয়ে নিশ্চিত?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "আপনি কি আপনার সম্পূর্ণ পুনর্লিখন ইতিহাস স্থায়ীভাবে মুছে ফেলার বিষয়ে নিশ্চিত? এটি পূর্বাবস্থায় ফেরানো যাবে না।",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "আইটেম মুছে ফেলতে ব্যর্থ হয়েছে:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "ইতিহাস সাফ করতে ব্যর্থ হয়েছে:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "মূল পাঠ্য",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "পুনঃলিখিত পাঠ্য",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ মুছুন",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 অনুলিপি পুনর্লিখন",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ কপি করা হয়েছে!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "পুরানো পুনর্লিখন লোড করুন",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "সমর্থন এবং ব্যবসা অনুসন্ধান",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "এখানে পৌঁছান:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "সাহায্যের জন্য বা একটি বাগ রিপোর্ট করার জন্য",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "ইমেলkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "দৈনিক বিনামূল্যের সীমা",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "বিনামূল্যের স্তর: 5টি পুনর্লিখন/দিন। প্রতিদিন মধ্যরাতে রিসেট হয়।",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "সীমা ছাড়া যে কোনো জায়গায় টেক্সট পুনরায় লিখুন.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "ব্যাচ আপনার সমস্ত বিষয়বস্তু পুনর্লিখন. ক্লাউডে সিঙ্ক করুন। কোন সীমাবদ্ধতা নেই.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 প্রারম্ভিক অ্যাডপ্টার অফার: 500 প্রিমিয়াম ব্যবহারকারীদের জন্য পরবর্তী মূল্য বৃদ্ধি। আজীবন এই হারে লক!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 মার্কিন বাজার ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 ভারতীয় বাজার (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "ইউএস ডলারের অর্থপ্রদান বর্তমানে রক্ষণাবেক্ষণের অধীনে রয়েছে। অনুগ্রহ করে ভারতীয় বাজার (₹) প্ল্যানে স্যুইচ করুন বা সহায়তার জন্যkeshoraai@gmail.comএ আমাদের সাথে যোগাযোগ করুন৷",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "সাপ্তাহিক",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(মাত্র 57¢ / দিন)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "মাসিক ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(মাত্র 33¢ / দিন)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "বার্ষিক 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(মাত্র 21¢ / দিন)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(মাত্র ₹২১/দিন)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(মাত্র ₹13/দিন)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(মাত্র ₹8 / দিন)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ সপ্তাহ",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ মাস",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ বছর",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "মাঝে মাঝে ব্যবহারের জন্য ভাল",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "বেশিরভাগ ব্যবহারকারী এই প্ল্যানটি বেছে নেন",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "পাওয়ার ব্যবহারকারীদের জন্য সেরা মান",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "সর্বাধিক জনপ্রিয়",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "সেরা মূল্য - 2 মাস বিনামূল্যে",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 রেটিং • 🔒 নিরাপদ পেমেন্ট • ✔️ যেকোন সময় বাতিল করুন",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "আপনি কি একজন ছাত্র বা গবেষক যিনি সাবস্ক্রিপশন দিতে পারেন না? অনুগ্রহ করে ইমেল করুনkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "ইতিমধ্যে একটি লাইসেন্স কী আছে?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "লাইসেন্স কী লিখুন...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "সক্রিয় করুন",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "প্রতি সপ্তাহে 140টি পুনর্লিখন",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "বাল্ক রিরাইট আনলক করুন",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "প্রিমিয়াম সেটিংস অ্যাক্সেস",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "জিড্রাইভ, ড্রপবক্স সিঙ্ক",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "প্রিমিয়াম থিম",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "স্মার্ট ফোল্ডার সংস্থা",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "বিজ্ঞাপন-মুক্ত অভিজ্ঞতা",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "প্রতি মাসে 600টি পুনর্লিখন",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "প্রতি বছর 9,000 পুনর্লিখন",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "অন্যান্য এক্সটেনশনে 50% ছাড়",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "অগ্রাধিকার ইমেল সমর্থন",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "রপ্তানি বিন্যাস",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "বিনামূল্যের প্ল্যানে শুধুমাত্র পিডিএফ এক্সপোর্ট পাওয়া যায়। অন্যান্য এক্সপোর্ট ফরম্যাট আনলক করতে অনুগ্রহ করে প্রো/প্রিমিয়ামে আপগ্রেড করুন।",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "ফাইলের নাম বিন্যাস",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "রপ্তানি করা ফাইলগুলি কীভাবে নাম দেওয়া হয় তা চয়ন করুন৷",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "ইতিহাস পুনঃলিখন - তারিখ (যেমন RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "কাস্টম শিরোনাম",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "কাস্টম ফাইলের নাম লিখুন...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "স্থানীয় ফাইল রপ্তানি করুন",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "ড্রপবক্সে সংরক্ষণ করুন 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google ড্রাইভে সংরক্ষণ করুন ☁️৷",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "ক্লাউড ব্যাকআপ শুধুমাত্র পেইড প্ল্যানে পাওয়া যায়। অনুগ্রহ করে প্রো/প্রিমিয়ামে আপগ্রেড করুন।",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "ড্রপবক্স প্রমাণীকরণ বাতিল করা হয়েছে৷",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "ড্রপবক্স অ্যাক্সেস টোকেন পেতে ব্যর্থ হয়েছে৷",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google ড্রাইভ প্রমাণীকরণ ব্যর্থ হয়েছে৷",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google ড্রাইভ আপলোড ব্যর্থ হয়েছে:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "ড্রপবক্স API ত্রুটি৷",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "রপ্তানির কোনো ইতিহাস পাওয়া যায়নি।",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "ইতিহাস সুন্দরভাবে ফরম্যাট করা এবং ক্লিপবোর্ডে অনুলিপি করা হয়েছে!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "ইতিহাস নিরাপদে আপনার ড্রপবক্সে সংরক্ষিত!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "ইতিহাস নিরাপদে আপনার Google ড্রাইভে সংরক্ষিত!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "রপ্তানি সম্পূর্ণ!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "এআই দিয়ে আবার লিখুন",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "এআই পুনর্লিখন",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "বন্ধ",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "মূল লেখা",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "পুনরায় লেখার জন্য একটি মোড নির্বাচন করুন...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "প্রতিস্থাপন করুন",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "কপি",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ কপি করা হয়েছে",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ আবার চেষ্টা করুন",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "সংরক্ষণ করুন",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "বিনামূল্যের প্ল্যানে শুধুমাত্র \"উন্নত\" মোড উপলব্ধ। সমস্ত 13টি মোড আনলক করতে অনুগ্রহ করে প্রো-তে আপগ্রেড করুন।",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "বিনামূল্যের প্ল্যানে শুধুমাত্র \"উন্নত\" মোড উপলব্ধ। সমস্ত 13টি পুনর্লিখন মোড আনলক করতে অনুগ্রহ করে প্রো/প্রিমিয়ামে আপগ্রেড করুন৷",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI পুনর্লিখন কমান্ড প্যালেট",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ বিনামূল্যের পরিকল্পনা (কাস্টম প্রম্পট লক করা হয়েছে)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "ফ্রি প্ল্যানে কাস্টম প্রম্পট লক করা আছে...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "যেমন লিঙ্কডইনের জন্য পুনরায় লিখুন, এটিকে প্ররোচিত করুন...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "বিনামূল্যের প্ল্যানে শুধুমাত্র \"উন্নত\" মোড উপলব্ধ। সমস্ত বৈশিষ্ট্য আনলক করতে অনুগ্রহ করে প্রো/প্রিমিয়ামে আপগ্রেড করুন।",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "বিনামূল্যের প্ল্যানে শুধুমাত্র \"উন্নত\" মোড উপলব্ধ। সমস্ত মোড আনলক করতে অনুগ্রহ করে প্রো/প্রিমিয়ামে আপগ্রেড করুন।",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 ইতিহাস",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ সেটিংস",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "এখনও কোন পুনর্লিখন.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "যেকোনো পৃষ্ঠায় পাঠ্য হাইলাইট করুন এবং শুরু করতে ✨ ক্লিক করুন।",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "মূল:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ পুনঃলিখিত:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "আরো লোড",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "হিসাব",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "আজ পুনর্লিখন",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "রিসেট",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "সক্রিয় ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "এআই ইঞ্জিন",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ এআই পুনর্লিখন ইঞ্জিন",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "আমি কিভাবে একটি ওয়েবসাইটে টেক্সট পুনরায় লিখতে পারি?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "যেকোন ওয়েবপেজে যেকোন টেক্সট হাইলাইট বা সিলেক্ট করুন। একটি ফ্লোটিং ম্যাজিক ওয়ান্ড বোতাম ('✨') স্বয়ংক্রিয়ভাবে আপনার কার্সারের কাছে উপস্থিত হবে। এই আইকনে ক্লিক করলে ইন্টারেক্টিভ রিরাইট পপআপ খোলে, যেখানে আপনি এআইকে আপনার জন্য বিষয়বস্তু পুনর্লিখন করতে দেওয়ার জন্য একটি পুনর্লিখন টোন (যেমন উন্নতি, ব্যাকরণ, পেশাদার, নৈমিত্তিক, প্রসারিত বা সংক্ষিপ্ত) নির্বাচন করতে পারেন। আপনি কমান্ড প্যালেট শর্টকাট (Windows/Linux-এCtrl+Shift+Pবা macOS-এCmd+Shift+P) এর মাধ্যমেও ইন্টারফেসটিকে ট্রিগার করতে পারেন।",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "কোন এআই মডেল সমর্থিত?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "আমরা বর্তমানে উচ্চ-কর্মক্ষমতা, বিদ্যুত-দ্রুত পাঠ্য প্রক্রিয়াকরণের জন্য OpenAI-এর GPT (যেমন, GPT-4o-mini), Google-এর Gemini, Anthropic's Claude, এবং Groq ওপেন-সোর্স মডেলগুলি (যেমন Llama 3) সহ অত্যাধুনিক LLM সমর্থন করি৷",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "আমার ডেটা নিরাপদ?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "হ্যাঁ, গোপনীয়তা একটি মূল অগ্রাধিকার। আমরা কেবলমাত্র আপনার পুনর্লিখনের জন্য নির্বাচিত নির্দিষ্ট পাঠ্য প্রক্রিয়া করি। অনুরোধটি সম্পাদন করার জন্য পাঠ্যটি নিরাপদে আমাদের ব্যাকএন্ড API এ প্রেরণ করা হয়। আমরা আমাদের সার্ভারে আপনার টেক্সট লগ ইতিহাস দীর্ঘমেয়াদী সংরক্ষণ করি না, বা আমরা এটি তৃতীয় পক্ষের সাথে ভাগ করি না বা AI মডেলগুলিকে প্রশিক্ষণের জন্য ব্যবহার করি না। উপরন্তু, আপনার ব্যক্তিগত ব্রাউজিং ইতিহাস সুরক্ষিত আছে তা নিশ্চিত করতে এক্সটেনশনটি স্যান্ডবক্সযুক্ত পরিবেশে চলে।",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "ফ্রি এবং প্রো প্ল্যানের মধ্যে পার্থক্য কী?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "বিনামূল্যের প্ল্যানটি প্রতিদিন 5টি পুনর্লিখন প্রদান করে, শুধুমাত্র 'উন্নত' টোন এবং 'পিডিএফ' ডাউনলোড/রপ্তানি বিন্যাসে সীমাবদ্ধ। ড্রপবক্স এবং গুগল ড্রাইভ ইন্টিগ্রেশনও লক করা আছে। প্রদত্ত পরিকল্পনা (সাপ্তাহিক, মাসিক প্রো এবং বার্ষিক আল্টিমেট) সমস্ত 6 টোন, সমস্ত 6টি ডাউনলোড ফর্ম্যাট (পিডিএফ, মার্কডাউন, TXT, IMG, JSON, এবং ক্লিপবোর্ড কপি) আনলক করে এবং প্রিমিয়াম, সীমাবদ্ধতা-মুক্ত অভিজ্ঞতার জন্য ক্লাউড ব্যাকআপ ইন্টিগ্রেশন।",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "কেন নির্দিষ্ট পুনর্লিখন টোন, রপ্তানি বিন্যাস, এবং ক্লাউড ব্যাকআপ বিনামূল্যে প্ল্যানে লক করা আছে?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "অত্যাধুনিক AI মডেলগুলি চালানোর জন্য (যেমন GPT-4o-mini, Gemini, এবং Claude) এবং ক্লাউড সিঙ্ক্রোনাইজেশন পরিচালনার জন্য যথেষ্ট সার্ভার পরিকাঠামো, গণনার শক্তি এবং প্রতিটি কাজের জন্য সরাসরি API খরচ প্রয়োজন। একটি সম্পূর্ণ কার্যকরী বিনামূল্যে বিকল্প অফার করার সাথে সাথে আমাদের পরিষেবাকে টেকসই করতে, বিনামূল্যের পরিকল্পনাটি মৌলিক প্রয়োজনীয়তাগুলিকে কভার করে ('উন্নত' টোন এবং স্থানীয় PDF জেনারেশন সহ 5টি দৈনিক পুনর্লিখন)। সাবস্ক্রিপশন প্ল্যানগুলি প্রিমিয়াম টোন (ব্যাকরণ, পেশাদার, নৈমিত্তিক, প্রসারিত, সংক্ষিপ্ত), ক্লাউড সংযোগকারী (ড্রপবক্স, গুগল ড্রাইভ) এবং একাধিক ফর্ম্যাট রপ্তানি (মার্কডাউন, TXT, IMG, JSON, কপি) এর খরচে ভর্তুকি দেয়, যাতে আমরা উচ্চ কার্যক্ষমতা, সক্রিয় আপডেট এবং কঠোর বিজ্ঞাপন ছাড়াই সমর্থন করতে পারি।",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "আমি কিভাবে আমার লাইসেন্স কী সক্রিয় করব?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "আপনার সাবস্ক্রিপশন ক্রয় সম্পূর্ণ করার পরে, ড্যাশবোর্ডে 'অ্যাকাউন্ট এবং ব্যবহার' পৃষ্ঠার নীচে কী যাচাইকরণ ক্ষেত্রে আপনার লাইসেন্স কী পেস্ট করুন এবং 'অ্যাক্টিভেট লাইসেন্স'-এ ক্লিক করুন। আপনার অ্যাকাউন্ট প্ল্যানের বিশদ আপনার ব্রাউজার স্টোরেজে অবিলম্বে আপডেট হবে।",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "এটি কি Google ডক্স বা ধারণাতে কাজ করে?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "হ্যাঁ, এক্সটেনশনটি জনপ্রিয় সম্পাদক এবং Google ডক্স, নোটশন, জিমেইল, লিঙ্কডইন, স্ল্যাক ওয়েব এবং টুইটার/এক্সের মতো সমৃদ্ধ পাঠ্য পোর্টালগুলির সাথে সম্পূর্ণরূপে সামঞ্জস্যপূর্ণ। যদি একটি কাস্টম অ্যাপ্লিকেশনে ভাসমান বোতামটি অক্ষম করা থাকে, তাহলে আপনি আপনার নির্বাচন পুনরায় লিখতে কমান্ড প্যালেট কীবোর্ড শর্টকাট ব্যবহার করতে পারেন।",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "আমি কি আমার নিজের API কী ব্যবহার করতে পারি?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "একটি নির্বিঘ্ন, প্লাগ-এন্ড-প্লে অভিজ্ঞতা প্রদান করতে, সমস্ত API ব্যবহারের খরচ আপনার সাবস্ক্রিপশন প্ল্যানের অধীনে সম্পূর্ণভাবে কভার করা হয়। বর্তমানে, আপনার নিজের API কী কনফিগার করার দরকার নেই। যাইহোক, আমরা ভবিষ্যতে ডেভেলপার-ভিত্তিক আপডেটে কাস্টম ব্যবহারকারী API কনফিগারেশন সমর্থন করার পরিকল্পনা করছি।",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "আমি কিভাবে ডিফল্ট পুনর্লিখন টোন পরিবর্তন করব?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "আপনি এই বিকল্প প্যানেলের সেটিংস ট্যাবে আপনার ডিফল্ট পুনর্লিখন টোন সেট করতে পারেন। ম্যাজিক ওয়ান্ড আইকনে ক্লিক করার সময় আপনার পছন্দ সেভ করা স্বয়ংক্রিয়ভাবে সেই টোনে ডিফল্ট হয়ে যাবে, যদিও আপনি প্রয়োজনে পপআপে টোন পরিবর্তন করতে পারেন।",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "কেন ভাসমান বোতাম মাঝে মাঝে প্রদর্শিত হয় না?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "দুর্ঘটনাজনিত ওভারলে রোধ করতে ম্যাজিক ওয়ান্ড বোতামের জন্য পাঠ্যের ন্যূনতম নির্বাচন দৈর্ঘ্য প্রয়োজন। অধিকন্তু, মানক ব্রাউজার নিরাপত্তা নীতিগুলি নির্দিষ্ট বিশেষ সুবিধাপ্রাপ্ত পৃষ্ঠাগুলিতে কন্টেন্ট ইনজেকশনকে কঠোরভাবে ব্লক করে, যেমন Chrome ওয়েব স্টোর (chrome.google.com) এবং অভ্যন্তরীণ কনফিগারেশন পৃষ্ঠাগুলি (chrome://)৷",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "আমি কি আসলটি প্রতিস্থাপন না করে পুনরায় লিখিত পাঠ্যটি অনুলিপি করতে পারি?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "হ্যাঁ, ফ্লোটিং রিরাইট পপআপের ভিতরে, আপনি 'কপি' আইকনে ক্লিক করতে পারেন। এটি নতুন পুনঃলিখিত সংস্করণটিকে সরাসরি আপনার ক্লিপবোর্ডে অনুলিপি করে, আপনাকে ওয়েবপৃষ্ঠার মূল বিষয়বস্তু প্রতিস্থাপন বা প্রভাবিত না করে আপনার পছন্দ মতো যে কোনো জায়গায় পেস্ট করতে দেয়।",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "আমি কিভাবে আমার সাবস্ক্রিপশন বাতিল করব?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "আপনি আপনার ক্রয় নিশ্চিতকরণ ইমেলে দেওয়া গ্রাহক বিলিং পোর্টাল লিঙ্কে ক্লিক করে যেকোনো সময় আপনার সদস্যতা পরিচালনা বা বাতিল করতে পারেন। আপনি যদি ইমেলটি সনাক্ত করতে না পারেন তবেkeshoraai@gmail.comএ আমাদের সাথে যোগাযোগ করুন এবং আমরা আপনাকে সহায়তা করব৷",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'প্রসারিত' স্বর কি করে?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'প্রসারিত' টোনটি আপনার নির্বাচিত পাঠ্যকে তৈরি করতে এবং বিশদভাবে বিস্তৃত করতে জেনারেটিভ বুদ্ধিমত্তা ব্যবহার করে, মূল অভিপ্রায় অক্ষুণ্ন রেখে সংক্ষিপ্ত চিন্তা, বুলেট পয়েন্ট বা বাক্যাংশগুলিতে সমৃদ্ধ বিবরণ, প্রসঙ্গ এবং সঠিক ব্যাকরণগত কাঠামো যোগ করে।",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "আপনি একটি ছাত্র ডিসকাউন্ট প্রস্তাব?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "হ্যাঁ, আমরা ছাত্র, শিক্ষাবিদ এবং একাডেমিক গবেষকদের সমর্থন করি। আমরা সমস্ত প্রদত্ত সাবস্ক্রিপশন প্ল্যান জুড়ে 30% ডিসকাউন্ট অফার করি। আপনার ডিসকাউন্ট কোডের অনুরোধ করতে আপনার অফিসিয়াল স্কুল বা বিশ্ববিদ্যালয়ের ইমেল ঠিকানা (.edu বা একাডেমিক ডোমেন) থেকেkeshoraai@gmail.comএ আমাদের ইমেল করুন।",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "একটি বাল্ক পুনর্লিখন বিকল্প আছে?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "হ্যাঁ, প্রিমিয়াম স্তরের ব্যবহারকারীরা বাল্ক রিরাইটিং ব্যবহার করতে পারেন। পৃথক বিভাগগুলি নির্বাচন করার পরিবর্তে, আপনি এক্সটেনশন সাইড প্যানেল খুলতে পারেন এবং সম্পূর্ণ নথি বা অনুচ্ছেদগুলিকে একবারে পরিবর্তন করতে পেস্ট করতে পারেন৷",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "আমি কিভাবে একটি বাগ রিপোর্ট করব?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "আপনিkeshoraai@gmail.comএ আমাদের সহায়তা দলকে সরাসরি বাগ রিপোর্ট ইমেল করতে পারেন৷ 'অ্যাকাউন্ট এবং ব্যবহার' ট্যাবে সহায়তা উইজেটে ক্লিক করলে সমস্যাটি নির্ণয় করতে সাহায্য করার জন্য এক্সটেনশনের বিশদ সমন্বিত একটি সমর্থন টেমপ্লেট আগে থেকেই তৈরি হবে।",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "কেন বলা হয় 'কোটা ছাড়িয়ে গেছে'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "একটি 'কোটা অতিক্রম' সতর্কতা মানে আপনি আপনার পরিকল্পনার সক্রিয় চক্রের জন্য আপনার বরাদ্দকৃত ব্যবহার গ্রহণ করেছেন: বিনামূল্যে ব্যবহারকারীরা 5টি দৈনিক পুনর্লিখনের মধ্যে সীমাবদ্ধ; সাপ্তাহিক ব্যবহারকারীরা 140টি পুনর্লিখন পান; মাসিক প্রো ব্যবহারকারীরা 600টি পুনর্লিখন পান; এবং বার্ষিক আলটিমেট ব্যবহারকারীরা 9,000টি পুনর্লিখন পান। চক্রের উপর ভিত্তি করে কোটা স্বয়ংক্রিয়ভাবে পুনরায় সেট করা হয় (প্রতিদিন মধ্যরাতে স্থানীয় সময়, বা সাপ্তাহিক/মাসিক/বার্ষিক সীমারেখায়)। অবিলম্বে পরিষেবা পুনরায় শুরু করতে আপনি 'অ্যাকাউন্ট ও ব্যবহার' পৃষ্ঠায় একটি উচ্চ স্তরে আপগ্রেড করতে পারেন৷",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "এক্সপোর্ট চলছে",
+    "description": "Locale key: exportingStatus"
+  }
+}

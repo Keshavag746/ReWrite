@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "הדגש טקסט בכל מקום. כתוב מחדש באופן מיידי עם AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "פתח את לוח הפקודות AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ שיפור הכתיבה",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ תיקון דקדוק",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 הפוך מקצועי",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 הפוך לידידותי",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 הפוך לרשמי",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 הפוך קז'ואל",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 הפוך לשכנוע",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 הפוך בטוח",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 אנושיים",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ הנחיה מותאמת אישית...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ לשפר",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ דקדוק",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 מקצועי",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 ידידותי",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 פורמלי",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 מזדמן",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 משכנע",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 בטוח בעצמו",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ לקצר",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 הרחב",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 פשט",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 אנושיים",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ מותאם אישית",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "טוען...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "כתוב מחדש טקסט בכל מקום",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "היכנס עם Google כדי להתחיל לשכתב טקסט בכל אתר אינטרנט עם AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "נכנס...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 היכנס עם גוגל",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ פרו",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "חינם",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "שימוש יומיומי",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ללא הגבלה)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 בחר טקסט בכל עמוד → לחץ על כפתור ✨ כדי לכתוב מחדש. או הקשCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 פתח את ההיסטוריה וההגדרות",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "צא",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "הכניסה נכשלה",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "השכתוב נכשל",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "חלק זה נמצא בשלבי בנייה.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "אנא היכנס כדי להציג הגדרות.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "חשבון ושימוש",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "שכתוב את ההיסטוריה",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "הגדרות",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "הורד",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "עזרה ושאלות נפוצות",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite לוח מחוונים",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "תצורה כללית",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "נושא ממשק",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "מצב כהה",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "מצב אור",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "טון ברירת המחדל לשכתוב",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ נקה את כל ההיסטוריה",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "עדיין אין שכתובים",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "הדגש טקסט בכל עמוד ולחץ על ✨ כדי להתחיל. ההיסטוריה שלך תופיע כאן.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "האם אתה בטוח שברצונך למחוק את פריט היסטוריית השכתוב הזה?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "האם אתה בטוח שברצונך למחוק לצמיתות את כל היסטוריית השכתוב שלך? לא ניתן לבטל זאת.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "מחיקת הפריט נכשלה:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "נכשל ניקוי ההיסטוריה:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "טקסט מקורי",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "טקסט משוכתב",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ מחק",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 העתק נכתב מחדש",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ מועתק!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "טען שכתובים ישנים יותר",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "תמיכה ופניות עסקיות",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "פנה בכתובת:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "שאלות נפוצות",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "לעזרה או לדיווח על באג",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "דוא\"לkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "מגבלת חינם יומית",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "שכבה חינם: 5 שכתובים ליום. מתאפס מדי יום בחצות.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "שכתוב טקסט בכל מקום ללא גבולות.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "כתוב מחדש את כל התוכן שלך באצווה. סנכרון לענן. אין הגבלות.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 הצעה לאמץ מוקדם: עליית המחיר הבאה ב-500 משתמשי פרימיום. נעל את התעריף הזה לכל החיים!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 שוק ארה\"ב ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 שוק הודי (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "תשלומים בדולר ארה\"ב נמצאים כעת בתחזוקה. אנא עבור לתוכנית השוק ההודי (₹) או צור איתנו קשר בכתובתkeshoraai@gmail.comלקבלת סיוע.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "שבועי",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(רק 57¢ ליום)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "חודשי ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(רק 33¢ ליום)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "שנתי 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(רק 21¢ ליום)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(רק ₹21 ליום)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(רק ₹13 ליום)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(רק ₹8 ליום)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ שבוע",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ חודש",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ שנה",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "טוב לשימוש מדי פעם",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "רוב המשתמשים בוחרים בתוכנית זו",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "התמורה הטובה ביותר עבור משתמשים חזקים",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "הכי פופולרי",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "התמורה הטובה ביותר - חודשיים בחינם",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ דירוג 5.0 • 🔒 תשלומים מאובטחים • ✔️ בטל בכל עת",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "האם אתה סטודנט או חוקר שלא יכול להרשות לעצמך מנוי? נא לשלוח דוא\"ל ל-keshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "יש לך כבר מפתח רישיון?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "הזן מפתח רישיון...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "הפעל",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 שכתובים בשבוע",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "בטל את הנעילה של שכתוב בכמות גדולה",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "גישה להגדרות פרימיום",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "ערכות נושא פרימיום",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "ארגון תיקיות חכם",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "חוויה ללא פרסומות",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 שכתובים בחודש",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 שכתובים בשנה",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% הנחה על הרחבות אחרות",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "תמיכת דוא\"ל עדיפות",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "פורמט ייצוא",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "רק ייצוא PDF זמין בתוכנית החינמית. שדרג ל-Pro/Premium כדי לבטל את הנעילה של פורמטי ייצוא אחרים.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "פורמט שם קובץ",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "בחר כיצד נקראים קבצים מיוצאים.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "שכתוב היסטוריה - תאריך (למשל RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "כותרת מותאמת אישית",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "הזן שם קובץ מותאם אישית...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "ייצוא קובץ מקומי",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "שמור בדרופבוקס 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "שמור ב-Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "גיבוי בענן זמין רק בתוכניות בתשלום. נא לשדרג ל-Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "אימות Dropbox בוטל.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "השגת אסימון הגישה של Dropbox נכשל.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "האימות של Google Drive נכשל.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "העלאת Google Drive נכשלה:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "שגיאת API של Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "לא נמצאה היסטוריה לייצוא.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "היסטוריה מעוצבת להפליא והועתקה ללוח!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "ההיסטוריה נשמרת בצורה מאובטחת בדרופבוקס שלך!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "ההיסטוריה נשמרת בצורה מאובטחת ב-Google Drive שלך!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "הייצוא הושלם!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "כתוב מחדש עם AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "סגור",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "טקסט מקורי",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "בחר מצב לשכתוב...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "החלף",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "העתק",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ הועתק",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ נסה שוב",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "שמור",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "רק מצב \"שיפור\" זמין בתוכנית החינמית. אנא שדרג ל-Pro כדי לפתוח את כל 13 המצבים.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "רק מצב \"שיפור\" זמין בתוכנית החינמית. אנא שדרג ל-Pro/Premium כדי לפתוח את כל 13 מצבי השכתוב.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ לוח פקודות AI Rewrite",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ תוכנית חינם (הנחיות מותאמות אישית ננעלות)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "הנחיה מותאמת אישית נעולה בתוכנית החינמית...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "למשל שכתוב עבור LinkedIn, הפוך את זה למשכנע...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "רק מצב \"שיפור\" זמין בתוכנית החינמית. אנא שדרג ל-Pro/Premium כדי לפתוח את כל התכונות.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "רק מצב \"שיפור\" זמין בתוכנית החינמית. אנא שדרג ל-Pro/Premium כדי לפתוח את כל המצבים.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 היסטוריה",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ הגדרות",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "עדיין אין שכתובים.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "הדגש טקסט בכל עמוד ולחץ על ✨ כדי להתחיל.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "מקורי:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ נכתב מחדש:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "טען עוד",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "חשבון",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "משכתב היום",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "מאפס",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "פעיל ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "מנוע AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "איך אני משכתב טקסט באתר?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "כל שעליך לעשות הוא להדגיש או לבחור כל טקסט בכל דף אינטרנט. לחצן שרביט קסמים צף ('✨') יופיע אוטומטית ליד הסמן שלך. לחיצה על סמל זה פותחת את חלון השכתוב האינטראקטיבי הקופץ, שבו אתה יכול לבחור טון שכתוב (כגון שיפור, דקדוק, מקצועי, מזדמן, הרחב או קיצור) כדי לאפשר ל-AI לשכתב את התוכן עבורך. אתה יכול גם להפעיל את הממשק באמצעות קיצור לוח הפקודות (Ctrl+Shift+Pב-Windows/Linux אוCmd+Shift+Pב-macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "אילו דגמי AI נתמכים?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "אנו תומכים כיום ב-LLMs מתקדמים, כולל ה-GPT של OpenAI (למשל, GPT-4o-mini), ה-Gemini של Google, Claude של Anthropic ו-Groq של קוד פתוח (כגון Llama 3) לעיבוד טקסט מהיר בזק עם ביצועים גבוהים.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "האם הנתונים שלי מאובטחים?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "כן, פרטיות היא בראש סדר העדיפויות. אנו מעבדים רק את הטקסט הספציפי שאתה בוחר לשכתוב. הטקסט מועבר בבטחה ל-API העורפי שלנו כדי לבצע את הבקשה. אנחנו לא מאחסנים את היסטוריית יומן הטקסט שלך לטווח ארוך בשרתים שלנו, וגם לא משתפים אותה עם צדדים שלישיים או משתמשים בה כדי להכשיר מודלים של AI. בנוסף, התוסף פועל בסביבת ארגז חול כדי להבטיח שהיסטוריית הגלישה האישית שלך מוגנת.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "מה ההבדל בין תוכניות חינם ל-Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "התוכנית החינמית מספקת 5 שכתובים ליום, מוגבלים אך ורק לצליל 'שיפור' ובפורמט הורדה/ייצוא 'PDF'. גם שילובי Dropbox ו-Google Drive נעולים. תוכניות בתשלום (Weekly, Monthly Pro ו- Yearly Ultimate) פותחות את כל 6 הצלילים, כל 6 פורמטי ההורדות (PDF, Markdown, TXT, IMG, JSON ו-Clipboard Copy), ושילובי גיבוי בענן לחוויה מעולה ללא הגבלות.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "מדוע צלילי שכתוב מסוימים, פורמטי ייצוא וגיבויים ענן נעולים בתוכנית החינמית?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "הפעלת דגמי AI חדישים (כגון GPT-4o-mini, Gemini וקלוד) וניהול סנכרון בענן דורשים תשתית שרת משמעותית, כוח מחשוב ועלויות API ישירות לכל פעולה. כדי להפוך את השירות שלנו לבר-קיימא ועדיין להציע אפשרות חינמית פונקציונלית מלאה, התוכנית החינמית מכסה דרישות בסיסיות (5 שכתובים יומיומיים עם הטון 'שיפור' ויצירת PDF מקומית). תוכניות המנוי מסבסדות את העלויות של צלילי פרימיום (דקדוק, מקצועי, מזדמן, הרחב, קצר), מחברי ענן (Dropbox, Google Drive), וייצוא פורמטים מרובים (Markdown, TXT, IMG, JSON, COPY), מה שמבטיח שנוכל לתמוך בביצועים גבוהים, עדכונים פעילים ופרטיות קפדנית ללא מודעות.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "כיצד אוכל להפעיל את מפתח הרישיון שלי?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "לאחר השלמת רכישת המנוי, הדבק את מפתח הרישיון שלך בשדה אימות המפתח בתחתית הדף 'חשבון ושימוש' בלוח המחוונים ולחץ על 'הפעל רישיון'. פרטי תוכנית החשבון שלך יתעדכנו באופן מיידי באחסון הדפדפן שלך.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "האם זה עובד ב-Google Docs או ב-Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "כן, התוסף תואם באופן מלא עם עורכים פופולריים ופורטלי טקסט עשיר כמו Google Docs, Notion, Gmail, LinkedIn, Slack web ו-Twitter/X. אם הכפתור הצף מושבת ביישום מותאם אישית, אתה יכול להשתמש בקיצור המקלדת של לוח הפקודות כדי לשכתב את הבחירה שלך.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "האם אני יכול להשתמש במפתח API משלי?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "כדי לספק חוויית הכנס והפעל חלקה, כל עלויות השימוש ב-API מכוסות במלואן במסגרת תוכנית המנוי שלך. נכון לעכשיו, אינך צריך להגדיר את מפתחות ה-API שלך. עם זאת, אנו מתכננים לתמוך בתצורות משתמש API מותאמות אישית בעדכון עתידי המכוון למפתחים.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "כיצד אוכל לשנות את צליל ברירת המחדל לשכתוב?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "אתה יכול להגדיר את צליל השכתוב המוגדר כברירת מחדל בכרטיסייה הגדרות של חלונית אפשרויות זו. שמירת ההעדפה שלך תגרום אוטומטית לטון זה בעת לחיצה על סמל שרביט הקסם, אם כי עדיין תוכל להחליף צלילים בחלון הקופץ בעת הצורך.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "למה הכפתור הצף לא מופיע לפעמים?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "לחצן שרביט הקסם דורש אורך בחירה מינימלי של טקסט כדי למנוע שכבות-על מקריות. יתר על כן, מדיניות אבטחה סטנדרטית של דפדפן חוסמת באופן קפדני את הזרקת תוכן בדפים מועדפים מסוימים, כגון חנות האינטרנט של Chrome (chrome.google.com) ודפי תצורה פנימיים (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "האם אוכל להעתיק את הטקסט המשוכתב מבלי להחליף את המקור?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "כן, בתוך החלון הקופץ לשכתוב מחדש, אתה יכול ללחוץ על סמל 'העתק'. פעולה זו מעתיקה את הגרסה שכתובה מחדש ישירות ללוח שלך, מה שמאפשר לך להדביק אותה בכל מקום שתרצה מבלי להחליף או להשפיע על התוכן המקורי בדף האינטרנט.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "איך אני מבטל את המנוי שלי?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "אתה יכול לנהל או לבטל את המנוי שלך בכל עת על ידי לחיצה על הקישור לפורטל חיוב לקוחות המסופק בדוא\"ל אישור הרכישה שלך. אם אינך מצליח לאתר את האימייל, צור איתנו קשר בכתובתkeshoraai@gmail.comואנו נסייע לך.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "מה עושה הטון 'הרחב'?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "הטון 'הרחב' משתמש באינטליגנציה יצירתית כדי לבנות ולפרט את הטקסט שבחרת, הוספת פרטים עשירים, הקשר ומבנה דקדוקי נכון למחשבות קצרות, נקודות תבליט או ביטויים תוך שמירה על הכוונה המקורית על כנה.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "האם אתם מציעים הנחה לסטודנטים?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "כן, אנו תומכים בסטודנטים, מחנכים וחוקרים אקדמיים. אנו מציעים הנחה של 30% בכל תוכניות המנויים בתשלום. שלח לנו דוא\"ל לכתובתkeshoraai@gmail.comמכתובת הדוא\"ל הרשמית של בית הספר או האוניברסיטה שלך (.edu או דומיין אקדמי) כדי לבקש את קוד ההנחה שלך.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "האם יש אפשרות לשכתוב בכמות גדולה?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "כן, משתמשי שכבת פרימיום יכולים לעשות שימוש בשכתוב בכמות גדולה. במקום לבחור פלחים בודדים, אתה יכול לפתוח את חלונית הצד של ההרחבה ולהדביק מסמכים או פסקאות שלמות כדי לשנות אותם במכה אחת.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "איך אני מדווח על באג?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "אתה יכול לשלוח דוחות באגים ישירות אל צוות התמיכה שלנו בכתובתkeshoraai@gmail.com. לחיצה על ווידג'ט העזרה בכרטיסייה 'חשבון ושימוש' תאכלס מראש תבנית תמיכה המכילה פרטי תוסף כדי לעזור לנו לאבחן את הבעיה.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "למה כתוב 'חריגה מהמכסה'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "אזהרת 'חרגת מכסה' פירושה שצרכת את השימוש המוקצב שלך עבור המחזור הפעיל של התוכנית שלך: משתמשים בחינם מוגבלים ל-5 שכתובים יומיומיים; משתמשים שבועיים מקבלים 140 שכתובים; משתמשי Pro חודשיים מקבלים 600 שכתובים; ומשתמשי Ultimate השנתי מקבלים 9,000 שכתובים. מכסות מתאפסות אוטומטית על סמך המחזור (יומי בחצות זמן מקומי, או על גבולות שבועיים/חודשיים/שנתיים). אתה יכול לשדרג לרמה גבוהה יותר בדף 'חשבון ושימוש' כדי לחדש את השירות באופן מיידי.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "מייצא...",
+    "description": "Locale key: exportingStatus"
+  }
+}

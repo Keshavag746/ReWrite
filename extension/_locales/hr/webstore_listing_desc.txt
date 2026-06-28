@@ -1,0 +1,44 @@
+✨ Trenutačno prepišite tekst bilo gdje na webu pomoću najsuvremenije umjetne inteligencije.
+
+Umorni ste od kopiranja i lijepljenja teksta u prozore za chat kako biste popravili svoje pisanje? Uz AI Rewrite Anywhere možete označiti ili odabrati bilo koji tekst na bilo kojoj web stranici (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X i više) i odmah ga prepisati.
+
+Pokreće ga pametni zamjenski lanac umjetne inteligencije koji koristi vrhunske modele velikih jezika (uključujući OpenAI GPT, Google Gemini, Anthropic Claude i Groq open-source Llama), proširenje osigurava maksimalno vrijeme rada i munjevito brze odgovore automatskim usmjeravanjem zahtjeva sljedećem dostupnom pružatelju ako naiđe na prekid usluge.
+
+🚀 KLJUČNE ZNAČAJKE:
+- 🖱️ Istakni i prepiši: jednostavno označite tekst na bilo kojoj web stranici. Gumb plutajućeg čarobnog štapića pojavljuje se blizu pokazivača. Pritisnite za trenutačno ponovno pisanje.
+- 🖱️ Integracija kontekstnog izbornika: Desnom tipkom miša kliknite bilo koji odabir za pristup 13 različitih načina prepisivanja izravno iz kontekstnog izbornika preglednika.
+- ⌨️ Paleta naredbi (Ctrl+Shift+K): otvorite brzo sučelje usmjereno na tipkovnicu za upisivanje prilagođenih upita ili pokretanje brzih unaprijed postavljenih postavki bez dodirivanja miša.
+- 📋 Potpuna povijest i postavke prepisivanja: pristupite prekrasnoj bočnoj ploči nadzorne ploče za pregled prošlih prepisivanja, izvoz zapisnika u više formata i konfiguriranje postavki.
+- 🔄 Besprijekorna AI zamjena: uživajte u neprekinutoj usluzi. Ako primarni model ne uspije, proširenje se automatski transparentno prebacuje na sljedeći dostupni model.
+- 🔐 Sigurna Google prijava: brza, zaštićena autentifikacija koja sigurno sinkronizira vaše postavke na svim uređajima.
+
+🎯 13 DINAMIČKIH NAČINA PISANJA:
+1. Poboljšajte: strukturu poljskog pisma i vokabular automatski.
+2. Gramatika: Ispravite pravopisne, interpunkcijske i sintaktičke pogreške.
+3. Profesionalno: unaprijedite svoj jezik za profesionalno dopisivanje.
+4. Prijateljski: dodajte toplinu i pristupačnost svojim porukama.
+5. Formalno: prilagodite fraze za službene dokumente i poslovna pisma.
+6. Ležerno: Stvorite opušteni, razgovorni tekst za društvena okruženja.
+7. Uvjerljivo: Strukturirajte ideje kako biste ih uvjerili, predstavili ili učinkovito plasirali na tržište.
+8. Samopouzdanje: projektirajte sigurnost, autoritet i snažno uvjerenje.
+9. Skratite: sažmite dugačke odlomke u sažete naglaske.
+10. Proširite: Izgovarajte i gradite na kratkim točkama ili frazama.
+11. Pojednostavite: Prevedite žargon ili složene misli na jasan, čitljiv jezik.
+12. Humanizirajte: Restrukturirajte robotske AI nacrte za prirodno čitanje.
+13. Prilagođeni upit: Upišite točno ono što želite da AI učini s odabirom.
+
+📂 PREMIUM IZVOZNI FORMATI:
+Izvezite svoju povijest ponovnog pisanja lokalno ili sinkronizirajte izravno s uslugama u oblaku:
+- PDF (besplatno i premium)
+- smanjenje (MD)
+- TXT
+- Slika (IMG)
+- JSON
+- Kopiraj međuspremnika
+- Integracija u oblak: Spremite izravno u Dropbox ili Google Drive.
+
+🔒 PRIVATNOST I SIGURNOST PO DIZAJNU:
+Privatnost je naša primarna obveza. Obrađujemo samo određeni tekst koji odaberete za aktivno prepisivanje. Vaš odabir sigurno se prenosi putem SSL enkripcije u naš backend API za izvođenje zahtjeva i ne pohranjuje se dugoročno na našim poslužiteljima. Vaša osobna povijest pregledavanja potpuno je zaštićena.
+
+📧 KONTAKT & PODRŠKA:
+Imate pitanja, prijedloga ili izvješća o greškama? Kontaktirajte nas izravno nakeshoraai@gmail.com. Predani smo redovitim ažuriranjima i zahtjevima za značajke!

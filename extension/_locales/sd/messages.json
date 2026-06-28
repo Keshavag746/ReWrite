@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "ڪٿي به ٻيهر لکو - AI ٽيڪسٽ ري رائيٽر",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "ڪٿي به متن کي نمايان ڪريو. AI سان فوري طور تي ٻيهر لکو.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewrite ڪمانڊ پيلٽ کوليو",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI ٻيهر لکو →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ لکڻ بهتر ڪريو",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ گرامر درست ڪريو",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 پروفيشنل بڻيو",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 دوستي ڪريو",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 رسمي ڪريو",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 آرام سان ٺاهيو",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 قائل ڪرڻ",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 يقين رکو",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 انسانيت ڪرڻ",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ حسب ضرورت پرامپ...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ سڌارو",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ گرامر",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 پيشه ور",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 دوستانه",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 رسمي",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 آرامده",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 قائل ڪندڙ",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 يقين",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ مختصر ڪريو",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 وڌايو",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 آسان ڪريو",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 انسانيت ڪرڻ",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ حسب ضرورت",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "لوڊ ٿي رهيو آهي...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "ڪٿي به متن ٻيهر لکو",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI سان ڪنهن به ويب سائيٽ تي ٽيڪسٽ ٻيهر لکڻ شروع ڪرڻ لاءِ گوگل سان سائن ان ٿيو.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "سائن ان ٿي رهيو آهي...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 گوگل سان سائن ان ڪريو",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ پرو",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "مفت",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "روزاني استعمال",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(لامحدود)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 ڪنهن به صفحي تي متن چونڊيو → ٻيهر لکڻ لاءِ ✨ بٽڻ تي ڪلڪ ڪريو. يا دٻايوCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 کوليو تاريخ ۽ سيٽنگون",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "سائن آئوٽ",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "لاگ ان ناڪام ٿيو",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "ٻيهر لکڻ ناڪام ٿيو",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "هي حصو هن وقت تعمير هيٺ آهي.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "مھرباني ڪري سائن ان ڪريو سيٽنگون ڏسڻ لاءِ.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "اڪائونٽ ۽ استعمال",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "تاريخ ٻيهر لکو",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "سيٽنگون",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ڊائون لوڊ ڪريو",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "مدد ۽ FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI ري رائٽ ڊيش بورڊ",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "عام ترتيب",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "انٽرفيس موضوع",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "ڊارڪ موڊ",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "روشني موڊ",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Default Rewrite Tone",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ سڀ تاريخ صاف ڪريو",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "اڃان تائين نه وري لکندو آهي",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "ڪنهن به صفحي تي متن کي نمايان ڪريو ۽ شروع ڪرڻ لاءِ ✨ تي ڪلڪ ڪريو. توهان جي تاريخ هتي ظاهر ٿيندي.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "ڇا توهان پڪ سان هن ٻيهر لکڻ جي تاريخ واري شيءِ کي حذف ڪرڻ چاهيو ٿا؟",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "ڇا توهان کي پڪ آهي ته توهان پنهنجي سموري ٻيهر لکڻ جي تاريخ کي مستقل طور ختم ڪرڻ چاهيو ٿا؟ هن کي رد نٿو ڪري سگهجي.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "شيء کي ختم ڪرڻ ۾ ناڪام ٿيو:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "تاريخ کي صاف ڪرڻ ۾ ناڪام ٿيو:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "اصل متن",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "ٻيهر لکيل متن",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ حذف ڪريو",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 ڪاپي ٻيهر لکجي",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ نقل ٿيل!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "پراڻيون لکڻيون لوڊ ڪريو",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "سپورٽ ۽ ڪاروباري پڇا ڳاڇا",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "پهچي وڃو:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "اڪثر پڇيا ويا سوال",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "مدد لاءِ يا بگ جي رپورٽ ڪرڻ لاءِ",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "اي ميلkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "روزاني مفت جي حد",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "مفت ٽائر: 5 ٻيهر لکندا / ڏينهن. روزانو اڌ رات جو ري سيٽ.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "بغير ڪنهن حد جي متن کي ٻيهر لکو.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "بيچ توهان جي سڀني مواد کي ٻيهر لکو. بادل سان هم وقت سازي ڪريو. ڪابه پابنديون ناهي.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 ابتدائي ايڊاپٽر آفر: 500 پريميئم استعمال ڪندڙن تي ايندڙ قيمت ۾ واڌ. زندگي لاء هن شرح ۾ بند ڪريو!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 آمريڪي مارڪيٽ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 انڊين مارڪيٽ (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "يو ايس ڊالر جي ادائيگين هن وقت سار سنڀال هيٺ آهن. مھرباني ڪري انڊين مارڪيٽ (₹) پلان ڏانھن وڃو يا مدد لاءِkeshoraai@gmail.comتي اسان سان رابطو ڪريو.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "هفتيوار",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(صرف 57¢ / ڏينهن)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "مهيني ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(صرف 33¢ / ڏينهن)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "سالانه 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(صرف 21¢ / ڏينهن)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(صرف ₹ 21 / ڏينهن)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(صرف ₹ 13 / ڏينهن)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(صرف 8 رپيا / ڏينهن)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ هفتو",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ مهينو",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ سال",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "ڪڏهن ڪڏهن استعمال لاء سٺو",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "اڪثر صارفين هن منصوبي کي چونڊيندا آهن",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "پاور استعمال ڪندڙن لاء بهترين قيمت",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "سڀ کان وڌيڪ مشهور",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "بهترين قيمت - 2 مهينا مفت",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 درجه بندي • 🔒 محفوظ ادائگيون • ✔️ منسوخ ڪريو ڪنهن به وقت",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "ڇا توهان هڪ شاگرد يا محقق آهيو جيڪو سبسڪرپشن برداشت نٿو ڪري سگهي؟ مهرباني ڪري اي ميل ڪريوkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "اڳ ۾ ئي هڪ لائسنس چيڪ آهي؟",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "لائسنس چيڪ داخل ڪريو...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "چالو ڪريو",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 هر هفتي ٻيهر لکندو آهي",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "انلاڪ بلڪ ٻيهر لکڻ",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "پريميئم سيٽنگون رسائي",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive، Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "پريميئم موضوعات",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "سمارٽ فولڊر آرگنائيزيشن",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "اشتهارن کان پاڪ تجربو",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "هر مهيني 600 ٻيهر لکندا",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "هر سال 9,000 ٻيهر لکندا آهن",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50٪ بند ٻين واڌارن",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "ترجيحي اي ميل سپورٽ",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "ايڪسپورٽ فارميٽ",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "مفت منصوبي تي صرف PDF برآمد موجود آهي. مھرباني ڪري ٻين ايڪسپورٽ فارميٽ کي انلاڪ ڪرڻ لاءِ پرو/پريميئم ڏانھن اپڊيٽ ڪريو.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "فائل جو نالو فارميٽ",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "چونڊيو ته ڪيئن برآمد ٿيل فائلون نالا آهن.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "تاريخ ٻيهر لکو - تاريخ (مثال طور RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "حسب ضرورت عنوان",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "ڪسٽم فائل جو نالو داخل ڪريو...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "مقامي فائل برآمد ڪريو",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox ۾ محفوظ ڪريو 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "گوگل ڊرائيو ۾ محفوظ ڪريو ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "ڪلائوڊ بيڪ اپ صرف ادا ڪيل منصوبن تي دستياب آهي. مھرباني ڪري پرو/پريميئم ڏانھن اپڊيٽ ڪريو.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "ڊروپباڪس جي تصديق منسوخ ڪئي وئي.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox رسائي ٽوڪن حاصل ڪرڻ ۾ ناڪام.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "گوگل ڊرائيو جي تصديق ناڪام ٿي.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "گوگل ڊرائيو اپلوڊ ناڪام ٿيو:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API غلطي",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "برآمد ڪرڻ لاءِ ڪا تاريخ نه ملي.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "تاريخ خوبصورت طور تي فارميٽ ڪئي وئي ۽ ڪلپ بورڊ تي ڪاپي ڪئي وئي!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "تاريخ محفوظ طور تي توهان جي ڊراپ باڪس ۾ محفوظ ڪئي وئي!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "تاريخ محفوظ طور تي توهان جي گوگل ڊرائيو تي محفوظ ڪئي وئي!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "برآمد مڪمل ٿيو!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI سان ٻيهر لکو",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI ٻيهر لکو",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "بند",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "اصل متن",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "ٻيهر لکڻ لاءِ موڊ چونڊيو...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "بدلائڻ",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "ڪاپي",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ ڪاپي ٿيل",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ ٻيهر ڪوشش ڪريو",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "بچايو",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "صرف \"بهتر\" موڊ مفت منصوبي تي موجود آهي. مھرباني ڪري سڀني 13 طريقن کي انلاڪ ڪرڻ لاءِ پرو ڏانھن اپڊيٽ ڪريو.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "صرف \"بهتر\" موڊ مفت منصوبي تي موجود آهي. مھرباني ڪري سڀني 13 ري رائٽ موڊس کي انلاڪ ڪرڻ لاءِ پرو/پريميئم ڏانھن اپڊيٽ ڪريو.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ مفت منصوبو (ڪسٽم پرامپٽس بند ٿيل)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "ڪسٽم پرامٽ مفت پلان تي بند ٿيل آهي...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "مثال LinkedIn لاءِ ٻيهر لکو، هن کي قائل ڪيو ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "صرف \"بهتر\" موڊ مفت منصوبي تي موجود آهي. مھرباني ڪري سڀني خصوصيتن کي کولڻ لاءِ پرو/پريميئم ڏانھن اپڊيٽ ڪريو.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "صرف \"بهتر\" موڊ مفت منصوبي تي موجود آهي. مھرباني ڪري سڀني طريقن کي انلاڪ ڪرڻ لاءِ پرو/پريميئم ڏانھن اپڊيٽ ڪريو.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 تاريخ",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ سيٽنگون",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "اڃان تائين نه وري لکندو آهي.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "ڪنهن به صفحي تي متن کي نمايان ڪريو ۽ شروع ڪرڻ لاءِ ✨ تي ڪلڪ ڪريو.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "اصل:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ ٻيهر لکيل:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "وڌيڪ لوڊ ڪريو",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "کاتو",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "اڄ ٻيهر لکي ٿو",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "ري سيٽ",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "فعال ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI انجڻ",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI ري رائٽ انجڻ",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "ويب سائيٽ تي ٽيڪسٽ ٻيهر ڪيئن لکجي؟",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "ڪنهن به ويب پيج تي ڪنهن به متن کي صرف نمايان يا چونڊيو. هڪ سچل جادو ڇنڊو بٽڻ ('✨') خودڪار طور تي توهان جي ڪرسر جي ويجهو ظاهر ٿيندو. هن آئڪن کي ڪلڪ ڪرڻ سان انٽرايڪٽو ري رائٽ پاپ اپ کوليندو آهي، جتي توهان AI کي توهان جي لاءِ مواد ٻيهر لکڻ جي اجازت ڏيڻ لاءِ ٻيهر لکندڙ ٽون (جهڙوڪ بهتر، گرامر، پروفيشنل، آرامده، وڌايو، يا مختصر) چونڊي سگهو ٿا. توھان انٽرفيس کي ڪمانڊ پيلٽ شارٽ ڪٽ (Ctrl+Shift+PWindows/Linux تي ياCmd+Shift+PmacOS تي) ذريعي پڻ ٽرگر ڪري سگھو ٿا.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "ڪهڙا AI ماڊل سپورٽ آهن؟",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "اسان في الحال جديد ترين LLMs کي سپورٽ ڪريون ٿا جن ۾ OpenAI جي GPT (مثال طور GPT-4o-mini)، Google جي Gemini، Anthropic's Claude، ۽ Groq اوپن سورس ماڊلز (جهڙوڪ Llama 3) اعليٰ ڪارڪردگي، تيز رفتار ٽيڪسٽ پروسيسنگ لاءِ.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "ڇا منهنجي ڊيٽا محفوظ آهي؟",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "ها، رازداري هڪ بنيادي ترجيح آهي. اسان صرف ان مخصوص متن تي عمل ڪريون ٿا جيڪو توهان ٻيهر لکڻ لاءِ چونڊيو آهي. متن محفوظ طور تي اسان جي پس منظر API ڏانهن منتقل ڪيو ويو آهي درخواست ڪرڻ لاء. اسان توهان جي ٽيڪسٽ لاگ جي تاريخ کي اسان جي سرورز تي ڊگھي مدت تائين محفوظ نه ڪندا آهيون، نه ئي اسين ان کي ٽئين پارٽين سان حصيداري ڪندا آهيون يا ان کي AI ماڊل کي تربيت ڏيڻ لاء استعمال ڪندا آهيون. اضافي طور تي، ايڪسٽينشن سينڊ باڪس ٿيل ماحول ۾ هلندي آهي انهي کي يقيني بڻائڻ لاءِ ته توهان جي ذاتي برائوزنگ تاريخ محفوظ آهي.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "مفت ۽ پرو منصوبن جي وچ ۾ ڇا فرق آهي؟",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "مفت منصوبو روزانو 5 ٻيهر لکڻيون مهيا ڪري ٿو، خاص طور تي 'بهتر' ٽون ۽ 'PDF' ڊائون لوڊ/ايڪسپورٽ فارميٽ تائين محدود. ڊروپباڪس ۽ گوگل ڊرائيو انضمام پڻ بند ٿيل آهن. ادا ڪيل منصوبا (هفتيوار، ماهوار پرو، ۽ سالياني الٽيميٽ) ان لاڪ ڪريو سڀ 6 ٽونز، سڀ 6 ڊائون لوڊ فارميٽ (PDF، Markdown، TXT، IMG، JSON، ۽ ڪلپ بورڊ ڪاپي)، ۽ ڪلائوڊ بيڪ اپ انضمام هڪ پريميئم، پابندي کان آزاد تجربو لاءِ.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "مفت پلان تي ڪجهه ري رائٽ ٽونز، ايڪسپورٽ فارميٽ ۽ ڪلائوڊ بيڪ اپ ڇو بند ٿيل آهن؟",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "جديد ترين AI ماڊلز کي هلائڻ (جهڙوڪ GPT-4o-mini، Gemini، ۽ Claude) ۽ ڪلائوڊ سنڪرونائيزيشن کي منظم ڪرڻ لاءِ هر عمل لاءِ ڪافي سرور انفراسٽرڪچر، ڪمپيوٽر پاور، ۽ سڌو API خرچن جي ضرورت آهي. اسان جي خدمت کي پائيدار بڻائڻ لاءِ اڃا تائين مڪمل طور تي فعال مفت آپشن پيش ڪري رهيا آهيون، مفت پلان بنيادي ضرورتن کي ڍڪي ٿو (5 روزاني ٻيهر لکن ٿا 'بهتر' ٽون سان ۽ مقامي PDF نسل). سبسڪرپشن منصوبا پريميئم ٽونز (گرامر، پروفيشنل، آرامده، توسيع، مختصر)، ڪلائوڊ ڪنيڪٽرز (ڊراپ باڪس، گوگل ڊرائيو)، ۽ گھڻن فارميٽ جي برآمدات (مارڪ ڊائون، TXT، IMG، JSON، COPY) جي قيمتن تي سبسڊي ڏين ٿا، ان ڳالهه کي يقيني بڻائي ته اسان اعليٰ ڪارڪردگي، فعال اپڊيٽس، ۽ سخت اشتهارن جي بغير مدد ڪري سگهون ٿا.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "مان پنهنجي لائسنس جي چاٻي کي ڪيئن چالو ڪري سگهان ٿو؟",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "توهان جي رڪنيت جي خريداري مڪمل ڪرڻ کان پوء، ڊيش بورڊ تي 'اڪائونٽ ۽ استعمال' صفحي جي تري ۾ اهم تصديق واري فيلڊ ۾ پنهنجي لائسنس جي چيڪ کي پيسٽ ڪريو ۽ 'لائسنس فعال ڪريو' تي ڪلڪ ڪريو. توهان جي اڪائونٽ پلان جا تفصيل توهان جي برائوزر اسٽوريج ۾ فوري طور تي اپڊيٽ ٿي ويندا.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "ڇا اهو ڪم Google Docs يا Notion تي آهي؟",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "ها، توسيع مڪمل طور تي مشهور ايڊيٽرن ۽ رچ ٽيڪسٽ پورٽلز جهڙوڪ Google Docs، Notion، Gmail، LinkedIn، Slack web، ۽ Twitter/X سان مطابقت رکي ٿي. جيڪڏهن سچل بٽڻ هڪ ڪسٽم ايپليڪيشن تي بند ٿيل آهي، توهان پنهنجي چونڊ کي ٻيهر لکڻ لاءِ ڪمانڊ پيلٽ ڪيبورڊ شارٽ ڪٽ استعمال ڪري سگهو ٿا.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "ڇا مان پنهنجي API ڪيئي استعمال ڪري سگهان ٿو؟",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "هڪ بيحد، پلگ ان ۽ راند جو تجربو مهيا ڪرڻ لاءِ، سڀ API استعمال جا خرچ مڪمل طور تي توهان جي سبسڪرپشن پلان تحت ڍڪيل آهن. في الحال، توهان کي پنهنجي API ڪنجيون ترتيب ڏيڻ جي ضرورت ناهي. تنهن هوندي، اسان مستقبل جي ڊولپر-ايجنڊا تازه ڪاري ۾ ڪسٽم صارف API ترتيبن جي حمايت ڪرڻ جو منصوبو ٺاهيو.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "مان ڊفالٽ ري رائٽ ٽون کي ڪيئن بدلائي سگهان ٿو؟",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "توھان سيٽ ڪري سگھوٿا پنھنجي ڊفالٽ ري رائٽ ٽون ھن آپشن پينل جي سيٽنگون ٽيب ۾. توهان جي ترجيحن کي محفوظ ڪرڻ خود بخود ان ٽون تي ڊفالٽ ٿي ويندو جڏهن جادو وينڊ آئڪن تي ڪلڪ ڪيو، جيتوڻيڪ توهان اڃا به پاپ اپ ۾ ٽون کي تبديل ڪري سگهو ٿا جڏهن ضرورت هجي.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "ڪڏهن ڪڏهن سچل بٽڻ ڇو نٿو ظاهر ٿئي؟",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "جادو جي ڇنڊ ڇاڻ جي ضرورت آهي متن جي گھٽ ۾ گھٽ چونڊ ڊگھائي کي حادثاتي اوورليز کي روڪڻ لاءِ. ان کان علاوه، معياري برائوزر سيڪيورٽي پاليسيون سختي سان مواد جي انجيڪشن کي ڪجهه خاص خصوصي صفحن تي بلاڪ ڪن ٿيون، جهڙوڪ Chrome ويب اسٽور (chrome.google.com) ۽ اندروني ترتيب جا صفحا (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "ڇا مان اصل کي تبديل ڪرڻ کان سواءِ ٻيهر لکيل متن نقل ڪري سگهان ٿو؟",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "ها، سچل ٻيهر لکندڙ پاپ اپ جي اندر، توهان 'ڪاپي' آئڪن تي ڪلڪ ڪري سگهو ٿا. هي نئون ٻيهر لکيل نسخو سڌو سنئون توهان جي ڪلپ بورڊ تي نقل ڪري ٿو، توهان کي اجازت ڏئي ٿو ته توهان ان کي پيسٽ ڪري سگهو ٿا جتي توهان چاهيو ته ويب پيج تي اصل مواد کي تبديل ڪرڻ يا متاثر ڪرڻ کان سواءِ.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "مان پنهنجي رڪنيت کي ڪيئن منسوخ ڪريان؟",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "توهان پنهنجي خريداري جي تصديق واري اي ميل ۾ مهيا ڪيل ڪسٽمر بلنگ پورٽل لنڪ تي ڪلڪ ڪري ڪنهن به وقت پنهنجي رڪنيت کي منظم يا منسوخ ڪري سگهو ٿا. جيڪڏهن توهان اي ميل نه ڳولي سگهو ٿا، اسان سان رابطو ڪريوkeshoraai@gmail.com۽ اسان توهان جي مدد ڪنداسين.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "ڇا ڪندو آھي 'وڌائي' ٽون؟",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'وڌائي' ٽون توهان جي چونڊيل متن جي تعمير ۽ وضاحت ڪرڻ لاءِ جنريٽيو انٽيليجنس استعمال ڪري ٿو، اصل ارادي کي برقرار رکڻ دوران مختصر خيالن، بلٽ پوائنٽس، يا جملن ۾ ڀرپور تفصيل، حوالا، ۽ مناسب گراماتي ڍانچي شامل ڪري ٿو.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "ڇا توهان شاگردن جي رعايت پيش ڪندا آهيو؟",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "ها، اسان شاگردن، استادن، ۽ تعليمي محققن جي حمايت ڪريون ٿا. اسان سڀني ادا ڪيل سبسڪرپشن منصوبن تي 30٪ رعايت پيش ڪندا آهيون. اسان کي اي ميل ڪريوkeshoraai@gmail.comتي توهان جي سرڪاري اسڪول يا يونيورسٽي جي اي ميل پتي (.edu يا تعليمي ڊومين) مان توهان جي رعايت واري ڪوڊ جي درخواست ڪرڻ لاءِ.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "ڇا اتي ھڪڙو بلڪ ري رائٽ اختيار آھي؟",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "ها، پريميئم ٽائر استعمال ڪندڙ استعمال ڪري سگھن ٿا بلڪ ري رائيٽنگ. انفرادي حصن کي چونڊڻ جي بدران، توهان کوليو ٿا ايڪسٽينشن سائڊ پينل ۽ پيسٽ ڪري سگهو ٿا سمورا دستاويز يا پيراگراف انهن کي هڪ ڀيرو ۾ تبديل ڪرڻ لاءِ.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "مان هڪ بگ جي رپورٽ ڪيئن ڪريان؟",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "توهانkeshoraai@gmail.comتي اسان جي سپورٽ ٽيم کي سڌي طرح بگ رپورٽون اي ميل ڪري سگهو ٿا. 'اڪائونٽ ۽ استعمال' ٽئب ۾ مدد واري ويجيٽ تي ڪلڪ ڪرڻ سان اسان کي مسئلي جي تشخيص ڪرڻ ۾ مدد ڏيڻ لاءِ ايڪسٽينشن جي تفصيلن تي مشتمل هڪ سپورٽ ٽيمپليٽ اڳ ۾ اچي ويندو.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "ان کي ڇو چوندا آهن 'ڪوٽا وڌي وئي'؟",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "هڪ 'ڪوٽا وڌي وئي' وارننگ جو مطلب آهي ته توهان استعمال ڪيو آهي توهان جو مختص ڪيل استعمال توهان جي منصوبي جي فعال چڪر لاءِ: مفت استعمال ڪندڙ 5 روزاني ٻيهر لکڻ تائين محدود آهن؛ هفتيوار صارفين کي 140 ٻيهر لکندا آهن؛ مھينا پرو استعمال ڪندڙ 600 ٻيهر لکندا آھن؛ ۽ سالياني الٽيميٽ استعمال ڪندڙ 9,000 ٻيهر لکن ٿا. ڪوٽا خود بخود ري سيٽ ڪيو ويو چڪر جي بنياد تي (روزانو اڌ رات جو مقامي وقت تي، يا رولنگ هفتيوار/ماهوار/سالانه حدن تي). توهان 'اڪائونٽ ۽ استعمال' جي صفحي تي هڪ اعلي درجي تي اپ گريڊ ڪري سگهو ٿا فوري طور تي سروس ٻيهر شروع ڪرڻ لاء.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "برآمد ڪري پيو...",
+    "description": "Locale key: exportingStatus"
+  }
+}

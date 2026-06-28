@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "எங்கும் மீண்டும் எழுது - AI உரை மறுபதிப்பு",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "எங்கும் உரையை முன்னிலைப்படுத்தவும். AI உடன் உடனடியாக மீண்டும் எழுதவும்.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewrite கட்டளைத் தட்டுகளைத் திறக்கவும்",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI மீண்டும் எழுது →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ எழுதுவதை மேம்படுத்தவும்",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ இலக்கணத்தை சரிசெய்யவும்",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 நிபுணத்துவம் பெறுங்கள்",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 நட்பாக இருக்கவும்",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 முறைப்படுத்தவும்",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 கேசுவல் ஆக்கு",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 வற்புறுத்தவும்",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 நம்பிக்கையுடன் இருங்கள்",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 மனிதாபிமானம்",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ தனிப்பயன் அறிவிப்பு...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ மேம்படுத்தவும்",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ இலக்கணம்",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 தொழில்முறை",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 நட்பு",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 முறையானது",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 சாதாரண",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 வற்புறுத்தல்",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 நம்பிக்கை",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ சுருக்கவும்",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 விரிவாக்கு",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 எளிமையாக்கு",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 மனிதாபிமானம் செய்",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ தனிப்பயன்",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "ஏற்றுகிறது...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "எங்கு வேண்டுமானாலும் உரையை மீண்டும் எழுதவும்",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI உடன் எந்த இணையதளத்திலும் உரையை மீண்டும் எழுதத் தொடங்க Google உடன் உள்நுழையவும்.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "உள்நுழைகிறது...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google மூலம் உள்நுழையவும்",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ புரோ",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "இலவசம்",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "தினசரி பயன்பாடு",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(வரம்பற்ற)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 எந்தப் பக்கத்திலும் உள்ள உரையைத் தேர்ந்தெடுக்கவும் → மீண்டும் எழுத ✨ பொத்தானைக் கிளிக் செய்யவும். அல்லதுCtrl+Shift+Kஅழுத்தவும்",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 வரலாறு & அமைப்புகளைத் திறக்கவும்",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "வெளியேறு",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "உள்நுழைவு தோல்வியடைந்தது",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "மீண்டும் எழுத முடியவில்லை",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "இந்த பகுதி தற்போது கட்டப்பட்டு வருகிறது.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "அமைப்புகளைப் பார்க்க உள்நுழையவும்.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "கணக்கு & பயன்பாடு",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "வரலாற்றை மீண்டும் எழுதுங்கள்",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "அமைப்புகள்",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "பதிவிறக்கவும்",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "உதவி & அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI ரீரைட் டாஷ்போர்டு",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "பொது கட்டமைப்பு",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "இடைமுக தீம்",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "இருண்ட பயன்முறை",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "ஒளி முறை",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "இயல்புநிலை மீண்டும் எழுதும் தொனி",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ அனைத்து வரலாற்றையும் அழிக்கவும்",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "இன்னும் மீண்டும் எழுதவில்லை",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "எந்தப் பக்கத்திலும் உரையைத் தனிப்படுத்தி, தொடங்குவதற்கு ✨ என்பதைக் கிளிக் செய்யவும். உங்கள் வரலாறு இங்கே தோன்றும்.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "இந்த மீண்டும் எழுதும் வரலாற்று உருப்படியை நிச்சயமாக நீக்க விரும்புகிறீர்களா?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "மீண்டும் எழுதப்பட்ட முழு வரலாற்றையும் நிரந்தரமாக நீக்க விரும்புகிறீர்களா? இதை செயல்தவிர்க்க முடியாது.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "உருப்படியை நீக்க முடியவில்லை:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "வரலாற்றை அழிக்க முடியவில்லை:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "அசல் உரை",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "மீண்டும் எழுதப்பட்ட உரை",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ நீக்கவும்",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 நகல் மீண்டும் எழுதப்பட்டது",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ நகலெடுக்கப்பட்டது!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "பழைய மாற்றங்களை ஏற்றவும்",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "ஆதரவு & வணிக விசாரணைகள்",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "அணுகவும்:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "உதவிக்கு அல்லது பிழையைப் புகாரளிக்க",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "மின்னஞ்சல்keshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "தினசரி இலவச வரம்பு",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "இலவச அடுக்கு: 5 மீண்டும் எழுதுதல்/நாள். தினமும் நள்ளிரவில் மீட்டமைக்கப்படும்.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "வரம்புகள் இல்லாமல் எங்கும் உரையை மீண்டும் எழுதவும்.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "உங்கள் எல்லா உள்ளடக்கத்தையும் மீண்டும் எழுதவும். மேகக்கணியுடன் ஒத்திசைக்கவும். கட்டுப்பாடுகள் இல்லை.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 எர்லி அடாப்டர் ஆஃபர்: அடுத்த விலை உயர்வு 500 பிரீமியம் பயனர்களுக்கு. வாழ்க்கைக்கு இந்த விகிதத்தில் பூட்டு!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 அமெரிக்க சந்தை ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 இந்திய சந்தை (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "அமெரிக்க டாலர் கொடுப்பனவுகள் தற்போது பராமரிப்பில் உள்ளன. தயவுசெய்து இந்திய சந்தை (₹) திட்டத்திற்கு மாறவும் அல்லது உதவிக்கு எங்களைkeshoraai@gmail.comஇல் தொடர்பு கொள்ளவும்.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "வாரந்தோறும்",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(வெறும் 57¢ / நாள்)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "மாதாந்திர ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(வெறும் 33¢ / நாள்)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "ஆண்டுதோறும் 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(வெறும் 21¢ / நாள்)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(ஒரு நாளைக்கு ₹21 மட்டுமே)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(ஒரு நாளைக்கு ₹13 மட்டுமே)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(ஒரு நாளைக்கு ₹8 மட்டுமே)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ வாரம்",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ மாதம்",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ வருடம்",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "அவ்வப்போது பயன்படுத்த நல்லது",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "பெரும்பாலான பயனர்கள் இந்த திட்டத்தை தேர்வு செய்கிறார்கள்",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "ஆற்றல் பயனர்களுக்கு சிறந்த மதிப்பு",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "மிகவும் பிரபலமானது",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "சிறந்த மதிப்பு - 2 மாதங்கள் இலவசம்",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 மதிப்பீடு • 🔒 பாதுகாப்பான கொடுப்பனவுகள் • ✔️ எப்போது வேண்டுமானாலும் ரத்து செய்யலாம்",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "நீங்கள் சந்தா செலுத்த முடியாத மாணவரா அல்லது ஆராய்ச்சியாளரா? மின்னஞ்சல்keshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "ஏற்கனவே உரிம விசை உள்ளதா?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "உரிம விசையை உள்ளிடவும்...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "செயல்படுத்து",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "வாரத்திற்கு 140 மீண்டும் எழுதுகிறது",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "மொத்தமாக மீண்டும் எழுதுவதைத் திறக்கவும்",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "பிரீமியம் அமைப்புகள் அணுகல்",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "பிரீமியம் தீம்கள்",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "ஸ்மார்ட் கோப்புறை அமைப்பு",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "விளம்பரமில்லா அனுபவம்",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "மாதத்திற்கு 600 மீண்டும் எழுதுகிறது",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "ஆண்டுக்கு 9,000 மீண்டும் எழுதுகிறார்கள்",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "மற்ற நீட்டிப்புகளுக்கு 50% தள்ளுபடி",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "முன்னுரிமை மின்னஞ்சல் ஆதரவு",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "ஏற்றுமதி வடிவம்",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "இலவச திட்டத்தில் PDF ஏற்றுமதி மட்டுமே கிடைக்கும். பிற ஏற்றுமதி வடிவங்களைத் திறக்க, ப்ரோ/பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "கோப்பு பெயர் வடிவம்",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "ஏற்றுமதி செய்யப்பட்ட கோப்புகள் எவ்வாறு பெயரிடப்படுகின்றன என்பதைத் தேர்ந்தெடுக்கவும்.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "வரலாற்றை மீண்டும் எழுது - தேதி (எ.கா. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "விருப்ப தலைப்பு",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "தனிப்பயன் கோப்பு பெயரை உள்ளிடவும்...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "உள்ளூர் கோப்பை ஏற்றுமதி செய்யவும்",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox இல் சேமிக்கவும் 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google இயக்ககத்தில் சேமிக்கவும் ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "கட்டணத் திட்டங்களில் மட்டுமே கிளவுட் காப்புப் பிரதி கிடைக்கும். ப்ரோ/பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "டிராப்பாக்ஸ் அங்கீகாரம் ரத்து செய்யப்பட்டது.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "டிராப்பாக்ஸ் அணுகல் டோக்கனைப் பெறுவதில் தோல்வி.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google இயக்கக அங்கீகாரம் தோல்வியடைந்தது.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google இயக்ககப் பதிவேற்றம் தோல்வியடைந்தது:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "டிராப்பாக்ஸ் ஏபிஐ பிழை",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "ஏற்றுமதி செய்ய வரலாறு இல்லை.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "வரலாறு அழகாக வடிவமைக்கப்பட்டு கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "உங்கள் டிராப்பாக்ஸில் வரலாறு பாதுகாப்பாக சேமிக்கப்பட்டது!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "உங்கள் Google இயக்ககத்தில் வரலாறு பாதுகாப்பாகச் சேமிக்கப்பட்டது!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "ஏற்றுமதி முடிந்தது!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI உடன் மீண்டும் எழுதவும்",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI மீண்டும் எழுதுதல்",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "மூடு",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "அசல் உரை",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "மீண்டும் எழுத ஒரு பயன்முறையைத் தேர்ந்தெடுக்கவும்...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "மாற்றவும்",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "நகலெடுக்கவும்",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ நகலெடுக்கப்பட்டது",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ மீண்டும் முயற்சிக்கவும்",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "சேமிக்கவும்",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "இலவச திட்டத்தில் \"மேம்படுத்து\" பயன்முறை மட்டுமே உள்ளது. அனைத்து 13 முறைகளையும் திறக்க Pro க்கு மேம்படுத்தவும்.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "இலவச திட்டத்தில் \"மேம்படுத்து\" பயன்முறை மட்டுமே உள்ளது. அனைத்து 13 மீண்டும் எழுதும் முறைகளையும் திறக்க, ப்ரோ/பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI மீண்டும் எழுதும் கட்டளை தட்டு",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ இலவச திட்டம் (தனிப்பயன் தூண்டுதல்கள் பூட்டப்பட்டுள்ளன)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "இலவசத் திட்டத்தில் தனிப்பயன் அறிவிப்பு பூட்டப்பட்டுள்ளது...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "எ.கா. LinkedInக்கு மீண்டும் எழுதவும், இதை வற்புறுத்தவும்...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "இலவச திட்டத்தில் \"மேம்படுத்து\" பயன்முறை மட்டுமே உள்ளது. அனைத்து அம்சங்களையும் திறக்க, ப்ரோ/பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "இலவச திட்டத்தில் \"மேம்படுத்து\" பயன்முறை மட்டுமே உள்ளது. அனைத்து முறைகளையும் திறக்க, ப்ரோ/பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 வரலாறு",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ அமைப்புகள்",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "இன்னும் மீண்டும் எழுதவில்லை.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "எந்தப் பக்கத்திலும் உரையைத் தனிப்படுத்தி, தொடங்குவதற்கு ✨ என்பதைக் கிளிக் செய்யவும்.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "அசல்:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ மீண்டும் எழுதப்பட்டது:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "மேலும் ஏற்றவும்",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "கணக்கு",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "இன்று மீண்டும் எழுதுகிறார்",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "மீட்டமைக்கிறது",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "செயலில் ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI இன்ஜின்",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI ரீரைட் இன்ஜின்",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "இணையதளத்தில் உரையை எப்படி மீண்டும் எழுதுவது?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "எந்தவொரு வலைப்பக்கத்திலும் எந்த உரையையும் தனிப்படுத்தவும் அல்லது தேர்ந்தெடுக்கவும். மிதக்கும் மந்திரக்கோலை பொத்தான் ('✨') உங்கள் கர்சருக்கு அருகில் தானாகவே தோன்றும். இந்த ஐகானைக் கிளிக் செய்வதன் மூலம், ஊடாடும் மறுஎழுத்து பாப்அப் திறக்கும், அங்கு நீங்கள் மீண்டும் எழுதும் தொனியைத் தேர்ந்தெடுக்கலாம் (மேம்படுத்துதல், இலக்கணம், தொழில்முறை, சாதாரண, விரிவாக்கம் அல்லது சுருக்கம் போன்றவை) உங்களுக்கான உள்ளடக்கத்தை AI மீண்டும் எழுத அனுமதிக்கும். கட்டளைத் தட்டு குறுக்குவழி (Windows/Linux இல்Ctrl+Shift+Pஅல்லது macOS இல்Cmd+Shift+P) வழியாகவும் இடைமுகத்தைத் தூண்டலாம்.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "எந்த AI மாதிரிகள் ஆதரிக்கப்படுகின்றன?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "நாங்கள் தற்போது OpenAI இன் GPT (எ.கா., GPT-4o-mini), Google இன் ஜெமினி, Anthropic's Claude மற்றும் Groq திறந்த மூல மாதிரிகள் (Llama 3 போன்றவை) உள்ளிட்ட அதிநவீன LLMகளை உயர் செயல்திறன், மின்னல் வேக உரை செயலாக்கத்திற்கு ஆதரிக்கிறோம்.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "எனது தரவு பாதுகாப்பானதா?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "ஆம், தனியுரிமை ஒரு முக்கிய முன்னுரிமை. மீண்டும் எழுதுவதற்கு நீங்கள் தேர்ந்தெடுத்த குறிப்பிட்ட உரையை மட்டுமே நாங்கள் செயலாக்குகிறோம். கோரிக்கையை நிறைவேற்ற, எங்கள் பின்தள API க்கு உரை பாதுகாப்பாக அனுப்பப்படும். உங்கள் உரை பதிவு வரலாற்றை நாங்கள் எங்கள் சேவையகங்களில் நீண்ட காலத்திற்குச் சேமிப்பதில்லை அல்லது மூன்றாம் தரப்பினருடன் பகிர்ந்து கொள்ள மாட்டோம் அல்லது AI மாதிரிகளைப் பயிற்றுவிக்கப் பயன்படுத்த மாட்டோம். கூடுதலாக, உங்கள் தனிப்பட்ட உலாவல் வரலாறு பாதுகாக்கப்படுவதை உறுதிசெய்ய சாண்ட்பாக்ஸ் செய்யப்பட்ட சூழலில் நீட்டிப்பு இயங்குகிறது.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "இலவச மற்றும் ப்ரோ திட்டங்களுக்கு என்ன வித்தியாசம்?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "இலவசத் திட்டம் ஒரு நாளைக்கு 5 மறுபதிப்புகளை வழங்குகிறது, இது 'மேம்படுத்து' தொனி மற்றும் 'PDF' பதிவிறக்கம்/ஏற்றுமதி வடிவத்திற்கு மட்டுமே கட்டுப்படுத்தப்பட்டுள்ளது. டிராப்பாக்ஸ் மற்றும் கூகுள் டிரைவ் ஒருங்கிணைப்புகளும் பூட்டப்பட்டுள்ளன. கட்டணத் திட்டங்கள் (வாராந்திர, மாதாந்திர ப்ரோ மற்றும் வருடாந்திர அல்டிமேட்) அனைத்து 6 டோன்களையும், அனைத்து 6 பதிவிறக்க வடிவங்களையும் (PDF, Markdown, TXT, IMG, JSON மற்றும் கிளிப்போர்டு நகல்) திறக்கும் மற்றும் பிரீமியம், கட்டுப்பாடுகள் இல்லாத அனுபவத்திற்கான கிளவுட் காப்புப் பிரதி ஒருங்கிணைப்புகள்.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "இலவசத் திட்டத்தில் சில ரீரைட் டோன்கள், ஏற்றுமதி வடிவங்கள் மற்றும் கிளவுட் பேக்கப்கள் ஏன் பூட்டப்பட்டுள்ளன?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "அதிநவீன AI மாடல்களை (GPT-4o-mini, Gemini, மற்றும் Claude போன்றவை) இயக்குவதற்கும் கிளவுட் ஒத்திசைவை நிர்வகிப்பதற்கும் கணிசமான சர்வர் உள்கட்டமைப்பு, கணக்கீட்டு சக்தி மற்றும் ஒவ்வொரு செயலுக்கும் நேரடி API செலவுகள் தேவை. முழுமையான செயல்பாட்டு இலவச விருப்பத்தை வழங்கும் அதே வேளையில் எங்கள் சேவையை நிலையானதாக மாற்ற, இலவச திட்டம் அடிப்படைத் தேவைகளை உள்ளடக்கியது (5 தினசரி 'மேம்படுத்து' தொனி மற்றும் உள்ளூர் PDF உருவாக்கம் மூலம் மீண்டும் எழுதப்படும்). சந்தா திட்டங்கள் பிரீமியம் டோன்களின் (இலக்கணம், நிபுணத்துவம், சாதாரணம், விரிவுபடுத்துதல், சுருக்குதல்), கிளவுட் இணைப்பிகள் (டிராப்பாக்ஸ், கூகுள் டிரைவ்) மற்றும் பல வடிவ ஏற்றுமதிகள் (மார்க்டவுன், TXT, IMG, JSON, COPY) ஆகியவற்றின் விலைகளுக்கு மானியம் அளிக்கின்றன.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "எனது உரிம விசையை எவ்வாறு செயல்படுத்துவது?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "உங்கள் சந்தா வாங்குதலை முடித்த பிறகு, டாஷ்போர்டில் உள்ள 'கணக்கு & பயன்பாடு' பக்கத்தின் கீழே உள்ள முக்கிய சரிபார்ப்பு புலத்தில் உங்கள் உரிம விசையை ஒட்டவும் மற்றும் 'உரிமத்தை செயல்படுத்து' என்பதைக் கிளிக் செய்யவும். உங்கள் கணக்குத் திட்ட விவரங்கள் உங்கள் உலாவி சேமிப்பகத்தில் உடனடியாக புதுப்பிக்கப்படும்.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "இது Google டாக்ஸ் அல்லது நோஷனில் வேலை செய்யுமா?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "ஆம், Google டாக்ஸ், நோஷன், ஜிமெயில், லிங்க்ட்இன், ஸ்லாக் வெப் மற்றும் ட்விட்டர்/எக்ஸ் போன்ற பிரபலமான எடிட்டர்கள் மற்றும் ரிச் டெக்ஸ்ட் போர்டல்களுடன் இந்த நீட்டிப்பு முழுமையாக இணக்கமாக உள்ளது. தனிப்பயன் பயன்பாட்டில் மிதக்கும் பொத்தான் முடக்கப்பட்டிருந்தால், உங்கள் தேர்வை மீண்டும் எழுத கட்டளைத் தட்டு விசைப்பலகை குறுக்குவழியைப் பயன்படுத்தலாம்.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "எனது சொந்த API விசையை நான் பயன்படுத்தலாமா?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "தடையற்ற, பிளக் அண்ட் ப்ளே அனுபவத்தை வழங்க, அனைத்து API பயன்பாட்டுச் செலவுகளும் உங்கள் சந்தா திட்டத்தின் கீழ் முழுமையாகப் பாதுகாக்கப்படும். தற்போது, ​​உங்கள் சொந்த API விசைகளை நீங்கள் கட்டமைக்க தேவையில்லை. இருப்பினும், எதிர்கால டெவலப்பர் சார்ந்த புதுப்பிப்பில் தனிப்பயன் பயனர் API உள்ளமைவுகளை ஆதரிக்க திட்டமிட்டுள்ளோம்.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "இயல்புநிலை மீண்டும் எழுதும் தொனியை எவ்வாறு மாற்றுவது?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "இந்த விருப்பங்கள் பேனலின் அமைப்புகள் தாவலில் உங்கள் இயல்புநிலை மீண்டும் எழுதும் தொனியை அமைக்கலாம். மேஜிக் வாண்ட் ஐகானைக் கிளிக் செய்யும் போது, ​​உங்கள் விருப்பத்தைச் சேமிப்பது தானாகவே அந்த தொனியில் இயல்பாக இருக்கும், இருப்பினும் தேவைப்படும்போது பாப்அப்பில் டோன்களை மாற்றலாம்.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "மிதக்கும் பொத்தான் ஏன் சில நேரங்களில் தோன்றாது?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "தற்செயலான மேலடுக்குகளைத் தடுக்க மந்திரக்கோல் பொத்தானுக்கு குறைந்தபட்ச தேர்வு நீளமான உரை தேவை. மேலும், நிலையான உலாவி பாதுகாப்புக் கொள்கைகள் Chrome இணைய அங்காடி (chrome.google.com) மற்றும் உள் கட்டமைப்பு பக்கங்கள் (chrome://) போன்ற சில சிறப்புரிமை பெற்ற பக்கங்களில் உள்ளடக்க உட்செலுத்துதல்களை கண்டிப்பாகத் தடுக்கிறது.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "அசலை மாற்றாமல் மீண்டும் எழுதப்பட்ட உரையை நகலெடுக்க முடியுமா?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "ஆம், ஃப்ளோட்டிங் ரிரைட் பாப்அப் உள்ளே, 'நகல்' ஐகானைக் கிளிக் செய்யலாம். இது புதிதாக மீண்டும் எழுதப்பட்ட பதிப்பை நேரடியாக உங்கள் கிளிப்போர்டுக்கு நகலெடுக்கிறது, வலைப்பக்கத்தில் உள்ள அசல் உள்ளடக்கத்தை மாற்றாமல் அல்லது பாதிக்காமல் நீங்கள் விரும்பும் இடத்தில் ஒட்ட அனுமதிக்கிறது.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "எனது சந்தாவை எப்படி ரத்து செய்வது?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "உங்கள் கொள்முதல் உறுதிப்படுத்தல் மின்னஞ்சலில் வழங்கப்பட்டுள்ள வாடிக்கையாளர் பில்லிங் போர்டல் இணைப்பைக் கிளிக் செய்வதன் மூலம் எந்த நேரத்திலும் உங்கள் சந்தாவை நிர்வகிக்கலாம் அல்லது ரத்து செய்யலாம். உங்களால் மின்னஞ்சலைக் கண்டுபிடிக்க முடியாவிட்டால்,keshoraai@gmail.comஇல் எங்களைத் தொடர்பு கொள்ளுங்கள், நாங்கள் உங்களுக்கு உதவுவோம்.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'விரிவாக்கு' தொனி என்ன செய்கிறது?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'விரிவாக்கு' தொனியானது, நீங்கள் தேர்ந்தெடுத்த உரையை உருவாக்குவதற்கும் விரிவுபடுத்துவதற்கும் உருவாக்கும் நுண்ணறிவைப் பயன்படுத்துகிறது, அசல் நோக்கத்தை அப்படியே வைத்திருக்கும் அதே வேளையில் சிறிய எண்ணங்கள், புல்லட் புள்ளிகள் அல்லது சொற்றொடர்களுக்கு வளமான விவரங்கள், சூழல் மற்றும் சரியான இலக்கண அமைப்பைச் சேர்க்கிறது.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "நீங்கள் மாணவர் தள்ளுபடியை வழங்குகிறீர்களா?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "ஆம், நாங்கள் மாணவர்கள், கல்வியாளர்கள் மற்றும் கல்வி ஆராய்ச்சியாளர்களை ஆதரிக்கிறோம். அனைத்து கட்டண சந்தா திட்டங்களிலும் 30% தள்ளுபடியை வழங்குகிறோம். உங்கள் தள்ளுபடிக் குறியீட்டைக் கோர, உங்களின் அதிகாரப்பூர்வ பள்ளி அல்லது பல்கலைக்கழக மின்னஞ்சல் முகவரியிலிருந்து (.edu அல்லது academic domain)keshoraai@gmail.comக்கு எங்களுக்கு மின்னஞ்சல் அனுப்புங்கள்.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "மொத்தமாக மீண்டும் எழுத விருப்பம் உள்ளதா?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "ஆம், பிரீமியம் அடுக்கு பயனர்கள் மொத்தமாக மீண்டும் எழுதுவதைப் பயன்படுத்தலாம். தனிப்பட்ட பிரிவுகளைத் தேர்ந்தெடுப்பதற்குப் பதிலாக, நீட்டிப்புப் பக்கப் பேனலைத் திறந்து, முழு ஆவணங்களையும் அல்லது பத்திகளையும் ஒரே நேரத்தில் மாற்றியமைக்க ஒட்டலாம்.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "பிழையை எப்படிப் புகாரளிப்பது?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "பிழை அறிக்கைகளைkeshoraai@gmail.comஇல் எங்கள் ஆதரவுக் குழுவிற்கு நேரடியாக மின்னஞ்சல் செய்யலாம். 'கணக்கு & பயன்பாடு' தாவலில் உள்ள உதவி விட்ஜெட்டைக் கிளிக் செய்வதன் மூலம், சிக்கலைக் கண்டறிய எங்களுக்கு உதவ, நீட்டிப்பு விவரங்களைக் கொண்ட ஆதரவு டெம்ப்ளேட்டை முன்கூட்டியே நிரப்பும்.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "'ஒதுக்கீடு அதிகமாகிவிட்டது' என்று சொல்வது ஏன்?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "'ஒதுக்கீடு மீறப்பட்டது' என்ற எச்சரிக்கையானது, உங்கள் திட்டத்தின் செயலில் உள்ள சுழற்சிக்காக ஒதுக்கப்பட்ட பயன்பாட்டை நீங்கள் பயன்படுத்தியுள்ளீர்கள் என்று அர்த்தம்: இலவச பயனர்கள் தினசரி 5 மறுபதிப்புகளுக்கு மட்டுப்படுத்தப்பட்டுள்ளனர்; வாராந்திர பயனர்கள் 140 மீண்டும் எழுதுகிறார்கள்; மாதாந்திர ப்ரோ பயனர்கள் 600 மீண்டும் எழுதுகிறார்கள்; மற்றும் வருடாந்திர அல்டிமேட் பயனர்கள் 9,000 மீண்டும் எழுதுகிறார்கள். சுழற்சியின் அடிப்படையில் ஒதுக்கீடுகள் தானாக மீட்டமைக்கப்படும் (தினமும் உள்ளூர் நேரப்படி நள்ளிரவில், அல்லது வாரந்தோறும்/மாதாந்திரம்/வருடாந்திர எல்லைகள்). சேவையை உடனடியாகத் தொடங்க, 'கணக்கு & பயன்பாடு' பக்கத்தில் உயர் அடுக்குக்கு மேம்படுத்தலாம்.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "& ஏற்றுமதி",
+    "description": "Locale key: exportingStatus"
+  }
+}

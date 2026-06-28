@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Muling Isulat Kahit Saan - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "I-highlight ang text kahit saan. Isulat muli kaagad gamit ang AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Buksan ang AI Rewrite command palette",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Muling Isulat →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Pagbutihin ang Pagsusulat",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Ayusin ang Grammar",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Maging Propesyonal",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Maging Friendly",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Gawing Pormal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Maging Casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Gawing Mapanghikayat",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Magtiwala",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Magpakatao",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Custom na Prompt...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Pagbutihin",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Balarila",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Propesyonal",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Friendly",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Pormal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Kaswal",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Mapanghikayat",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Kumpiyansa",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Paikliin",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Palawakin",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Pasimplehin",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Magpakatao",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Custom",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Naglo-load...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Isulat muli ang teksto kahit saan",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Mag-sign in sa Google upang simulan ang muling pagsusulat ng text sa anumang website na may AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Nagsa-sign in...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Mag-sign in gamit ang Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Libre",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Pang-araw-araw na Paggamit",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(walang limitasyon)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Pumili ng text sa alinmang page → i-click ang ✨ button para muling magsulat. O pindutin angCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Buksan ang History at Mga Setting",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Mag-sign Out",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Nabigo ang pag-login",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Nabigo ang muling pagsulat",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Ang seksyong ito ay kasalukuyang ginagawa.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Mangyaring mag-sign in upang tingnan ang mga setting.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Account at Paggamit",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Isulat muli ang Kasaysayan",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Mga setting",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "I-download",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Tulong at FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Pangkalahatang Configuration",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Tema ng Interface",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Dark Mode",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Light Mode",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Default na Rewrite Tone",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ I-clear ang Lahat ng History",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Wala pang rewrite",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "I-highlight ang text sa anumang page at i-click ang ✨ para makapagsimula. Lalabas dito ang iyong kasaysayan.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Sigurado ka bang gusto mong tanggalin ang rewrite history item na ito?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Sigurado ka bang gusto mong permanenteng tanggalin ang iyong buong kasaysayan ng muling pagsulat? Hindi na ito maaaring bawiin.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Nabigong tanggalin ang item:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Nabigong i-clear ang kasaysayan:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Orihinal na Teksto",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Muling Isinulat na Teksto",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Tanggalin",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Copy Rewritten",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kinopya!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "I-load ang mga mas lumang rewrite",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Suporta at Mga Tanong sa Negosyo",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Makipag-ugnayan sa:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Mga Madalas Itanong",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Para sa tulong o para mag-ulat ng bug",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Emailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Pang-araw-araw na Libreng Limitasyon",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Libreng tier: 5 muling pagsulat/araw. Nire-reset araw-araw sa hatinggabi.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Muling isulat ang teksto kahit saan nang walang limitasyon.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch na muling isulat ang lahat ng iyong nilalaman. I-sync sa cloud. Walang mga paghihigpit.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter Offer: Susunod na pagtaas ng presyo sa 500 Premium user. I-lock ang rate na ito habang buhay!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 US Market ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indian Market (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Ang mga pagbabayad sa US Dollar ay kasalukuyang nasa ilalim ng pagpapanatili. Mangyaring lumipat sa Indian Market (₹) plan o makipag-ugnayan sa amin sakeshoraai@gmail.compara sa tulong.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Linggu-linggo",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(57¢ lang / araw)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Buwanang ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(33¢ lang / araw)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Taun-taon 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(21¢ lang / araw)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(₹21 lang / araw)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(₹13 lang / araw)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(₹8 lang / araw)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ linggo",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ buwan",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ taon",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Mabuti para sa paminsan-minsang paggamit",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Pinipili ng karamihan sa mga user ang planong ito",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Pinakamahusay na halaga para sa mga power user",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "PINAKA SIKAT",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "PINAKAMAHUSAY NA HALAGA - LIBRE NG 2 BUWAN",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Rating • 🔒 Mga Secure na Pagbabayad • ✔️ Kanselahin anumang oras",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ikaw ba ay isang mag-aaral o mananaliksik na hindi kayang bayaran ang isang subscription? Mangyaring mag-email sakeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Mayroon ka nang susi ng lisensya?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Ilagay ang susi ng lisensya...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "I-activate",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Rewrite bawat linggo",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "I-unlock ang Bulk Rewrite",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Access sa Mga Setting ng Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Mga Premium na Tema",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Smart Folder Organization",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Karanasan na walang ad",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Rewrite bawat buwan",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 Rewrite bawat taon",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% diskwento sa iba pang mga extension",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Mahalagang Suporta sa Email",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "I-export ang Format",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Tanging PDF export ang available sa libreng plan. Mangyaring mag-upgrade sa Pro/Premium upang i-unlock ang iba pang mga format ng pag-export.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Format ng Filename",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Piliin kung paano pinangalanan ang mga na-export na file.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Muling Isulat ang Kasaysayan - Petsa (hal. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Custom na Pamagat",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Ilagay ang custom na filename...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "I-export ang Lokal na File",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "I-save sa Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "I-save sa Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Available lang ang cloud backup sa mga bayad na plano. Mangyaring mag-upgrade sa Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Kinansela ang pagpapatotoo ng Dropbox.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Nabigong makuha ang Dropbox access token.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Nabigo ang pagpapatotoo ng Google Drive.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Nabigo ang pag-upload ng Google Drive:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Error sa Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Walang nakitang kasaysayan upang i-export.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Ang kasaysayan ay maganda ang pagkaka-format at kinopya sa clipboard!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Ligtas na na-save ang kasaysayan sa iyong Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Ligtas na na-save ang kasaysayan sa iyong Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Tapos na ang pag-export!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Isulat muli gamit ang AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Muling Isulat",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Isara",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Orihinal na teksto",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Pumili ng mode na muling isusulat...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Palitan",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopyahin",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kinopya",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Subukan muli",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "I-save",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Tanging ang \"Improve\" mode lang ang available sa libreng plan. Mangyaring mag-upgrade sa Pro upang i-unlock ang lahat ng 13 mode.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Tanging ang \"Improve\" mode lang ang available sa libreng plan. Mangyaring mag-upgrade sa Pro/Premium upang i-unlock ang lahat ng 13 rewrite mode.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Libreng Plano (naka-lock ang mga custom na prompt)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Naka-lock ang custom na prompt sa Libreng Plano...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "hal. Isulat muli para sa LinkedIn, Gawin itong mapanghikayat...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Tanging ang \"Improve\" mode lang ang available sa libreng plan. Mangyaring mag-upgrade sa Pro/Premium upang i-unlock ang lahat ng feature.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Tanging ang \"Improve\" mode lang ang available sa libreng plan. Mangyaring mag-upgrade sa Pro/Premium upang i-unlock ang lahat ng mga mode.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Kasaysayan",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Mga Setting",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Wala pang rewrite.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "I-highlight ang text sa anumang page at i-click ang ✨ para makapagsimula.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Orihinal:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Muling isinulat:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Mag-load pa",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Account",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Muling isinulat ngayon",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Nire-reset",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktibo ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI Engine",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Paano ko muling isusulat ang teksto sa isang website?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "I-highlight o pumili ng anumang teksto sa anumang webpage. Awtomatikong lalabas ang isang floating magic wand button ('✨') malapit sa iyong cursor. Ang pag-click sa icon na ito ay magbubukas ng interactive na muling pagsulat ng popup, kung saan maaari kang pumili ng isang muling pagsulat na tono (tulad ng Pagbutihin, Grammar, Propesyonal, Kaswal, Palawakin, o Paikliin) upang hayaan ang AI na muling isulat ang nilalaman para sa iyo. Maaari mo ring i-trigger ang interface sa pamamagitan ng Command Palette shortcut (Ctrl+Shift+Psa Windows/Linux oCmd+Shift+Psa macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Aling mga modelo ng AI ang sinusuportahan?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Kasalukuyan naming sinusuportahan ang mga makabagong LLM kabilang ang OpenAI's GPT (hal., GPT-4o-mini), Google's Gemini, Anthropic's Claude, at Groq open-source na mga modelo (gaya ng Llama 3) para sa mataas na pagganap, mabilis na pagpoproseso ng text.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Secure ba ang data ko?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Oo, ang privacy ay isang pangunahing priyoridad. Pinoproseso lang namin ang partikular na text na pipiliin mo para muling isulat. Ang teksto ay ligtas na ipinadala sa aming backend API upang maisagawa ang kahilingan. Hindi namin iniimbak ang iyong history ng text log nang pangmatagalan sa aming mga server, o ibinabahagi namin ito sa mga third party o ginagamit ito upang sanayin ang mga modelo ng AI. Bilang karagdagan, ang extension ay tumatakbo sa isang sandboxed na kapaligiran upang matiyak na ang iyong personal na kasaysayan ng pagba-browse ay protektado.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Ano ang pagkakaiba sa pagitan ng Libre at Pro na mga plano?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Ang Libreng plano ay nagbibigay ng 5 muling pagsulat bawat araw, na limitado lamang sa 'Pagbutihin' na tono at 'PDF' na format sa pag-download/pag-export. Naka-lock din ang mga pagsasama ng Dropbox at Google Drive. Ina-unlock ng mga bayad na plano (Lingguhan, Buwanang Pro, at Yearly Ultimate) ang lahat ng 6 na tono, lahat ng 6 na format ng pag-download (PDF, Markdown, TXT, IMG, JSON, at Clipboard Copy), at mga pagsasama ng cloud backup para sa isang premium, walang limitasyong karanasan.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Bakit naka-lock sa Libreng plan ang ilang partikular na rewrite tone, mga format ng pag-export, at cloud backup?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Ang pagpapatakbo ng mga makabagong modelo ng AI (gaya ng GPT-4o-mini, Gemini, at Claude) at pamamahala sa cloud synchronization ay nangangailangan ng malaking imprastraktura ng server, compute power, at direktang gastos sa API para sa bawat aksyon. Upang gawing sustainable ang aming serbisyo habang nag-aalok pa rin ng fully functional na libreng opsyon, sinasaklaw ng Libreng plan ang mga pangunahing kinakailangan (5 araw-araw na muling pagsusulat gamit ang tono na 'Pagbutihin' at lokal na pagbuo ng PDF). Ang mga subscription plan ay nagbibigay ng subsidiya sa mga gastos ng mga premium na tono (Grammar, Professional, Casual, Expand, Shorten), cloud connectors (Dropbox, Google Drive), at maramihang format na pag-export (Markdown, TXT, IMG, JSON, COPY), na tinitiyak na masusuportahan namin ang mataas na performance, aktibong update, at mahigpit na privacy nang walang mga ad.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Paano ko ia-activate ang aking susi ng lisensya?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Pagkatapos makumpleto ang iyong pagbili ng subscription, i-paste ang iyong license key sa key validation field sa ibaba ng 'Account & Usage' na pahina sa dashboard at i-click ang 'Activate License'. Agad na maa-update ang mga detalye ng iyong account plan sa storage ng iyong browser.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Gumagana ba ito sa Google Docs o Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Oo, ang extension ay ganap na tugma sa mga sikat na editor at rich text portal tulad ng Google Docs, Notion, Gmail, LinkedIn, Slack web, at Twitter/X. Kung ang lumulutang na button ay hindi pinagana sa isang custom na application, maaari mong gamitin ang Command Palette na keyboard shortcut upang muling isulat ang iyong pinili.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Maaari ko bang gamitin ang sarili kong API key?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Upang makapagbigay ng tuluy-tuloy, plug-and-play na karanasan, ang lahat ng gastos sa paggamit ng API ay ganap na sakop sa ilalim ng iyong subscription plan. Sa kasalukuyan, hindi mo kailangang i-configure ang sarili mong mga API key. Gayunpaman, plano naming suportahan ang mga custom na configuration ng API ng user sa hinaharap na update na nakatuon sa developer.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Paano ko babaguhin ang default na rewrite tone?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Maaari mong itakda ang iyong default na rewrite tone sa tab na Mga Setting ng panel ng mga opsyon na ito. Ang pag-save ng iyong kagustuhan ay awtomatikong magiging default sa tono na iyon kapag nag-click sa icon ng magic wand, kahit na maaari ka pa ring magpalit ng mga tono sa popup kapag kinakailangan.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Bakit hindi lumalabas minsan ang floating button?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Ang pindutan ng magic wand ay nangangailangan ng pinakamababang haba ng pagpili ng teksto upang maiwasan ang mga hindi sinasadyang overlay. Higit pa rito, mahigpit na hinaharangan ng mga karaniwang patakaran sa seguridad ng browser ang mga iniksyon ng content sa ilang partikular na privileged page, gaya ng Chrome Web Store (chrome.google.com) at mga internal configuration page (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Maaari ko bang kopyahin ang muling isinulat na teksto nang hindi pinapalitan ang orihinal?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Oo, sa loob ng lumulutang na rewrite popup, maaari mong i-click ang icon na 'Kopyahin'. Kinokopya nito ang bagong rewritten na bersyon diretso sa iyong clipboard, na nagbibigay-daan sa iyong i-paste ito kahit saan mo gusto nang hindi pinapalitan o naaapektuhan ang orihinal na nilalaman sa webpage.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Paano ko kakanselahin ang aking subscription?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Maaari mong pamahalaan o kanselahin ang iyong subscription anumang oras sa pamamagitan ng pag-click sa link ng portal ng pagsingil ng customer na ibinigay sa iyong email sa pagkumpirma ng pagbili. Kung hindi mo mahanap ang email, makipag-ugnayan sa amin sakeshoraai@gmail.comat tutulungan ka namin.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Ano ang ginagawa ng 'Expand' tone?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Ang tono na 'Palawakin' ay gumagamit ng generative intelligence upang bumuo at magdetalye sa iyong napiling teksto, pagdaragdag ng mga detalyadong detalye, konteksto, at wastong gramatikal na istraktura sa mga maiikling kaisipan, bullet point, o parirala habang pinananatiling buo ang orihinal na layunin.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Nag-aalok ka ba ng diskwento sa mag-aaral?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Oo, sinusuportahan namin ang mga mag-aaral, tagapagturo, at akademikong mananaliksik. Nag-aalok kami ng 30% na diskwento sa lahat ng binabayarang plano ng subscription. Mag-email sa amin sakeshoraai@gmail.commula sa iyong opisyal na email address ng paaralan o unibersidad (.edu o academic domain) upang hilingin ang iyong discount code.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Mayroon bang maramihang pagpipilian sa muling pagsulat?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Oo, ang mga gumagamit ng premium na antas ay maaaring gumamit ng maramihang muling pagsulat. Sa halip na pumili ng mga indibidwal na segment, maaari mong buksan ang extension side panel at i-paste ang buong mga dokumento o talata upang baguhin ang mga ito nang sabay-sabay.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Paano ako mag-uulat ng bug?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Maaari kang direktang mag-email ng mga ulat ng bug sa aming team ng suporta sakeshoraai@gmail.com. Ang pag-click sa widget ng tulong sa tab na 'Account at Paggamit' ay paunang maglalagay ng template ng suporta na naglalaman ng mga detalye ng extension upang matulungan kaming masuri ang isyu.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Bakit may nakasulat na 'Quota Exeeded'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Ang babalang 'Nalampasan ang Quota' ay nangangahulugan na naubos mo na ang iyong inilaan na paggamit para sa aktibong cycle ng iyong plano: Ang mga libreng user ay limitado sa 5 araw-araw na muling pagsulat; Ang mga lingguhang user ay nakakakuha ng 140 na muling pagsusulat; Ang buwanang mga gumagamit ng Pro ay nakakakuha ng 600 na muling pagsusulat; at ang mga Yearly Ultimate user ay tumatanggap ng 9,000 rewrite. Awtomatikong nagre-reset ang mga quota batay sa cycle (araw-araw sa hatinggabi lokal na oras, o sa lumilipas na lingguhan/buwanang/taon-taon na mga hangganan). Maaari kang mag-upgrade sa mas mataas na antas sa pahina ng 'Account at Paggamit' upang ipagpatuloy kaagad ang serbisyo.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Ine-export",
+    "description": "Locale key: exportingStatus"
+  }
+}

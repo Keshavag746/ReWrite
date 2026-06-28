@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Reescribir en cualquier lugar: reescritor de texto con IA",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Resalta el texto en cualquier lugar. Reescribe instantáneamente con IA.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Abra la paleta de comandos AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "Reescritura de IA →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Mejorar la escritura",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Reparar gramática",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Hazte profesional",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Haz amigable",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Hacer formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Hacer informal",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Hacer persuasivo",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Confía",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanizar",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Aviso personalizado...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Mejorar",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Gramática",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesional",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Amistoso",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formales",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋Informal",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Persuasivo",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Confiado",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Acortar",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Ampliar",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Simplificar",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanizar",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Personalizado",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Cargando...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Reescribe texto en cualquier lugar",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Inicia sesión con Google para comenzar a reescribir texto en cualquier sitio web con IA.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Iniciando sesión...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Iniciar sesión con Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Gratis",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Uso diario",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ilimitado)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Seleccione texto en cualquier página → haga clic en el botón ✨ para reescribir. O presioneCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Historial abierto y configuración",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Cerrar sesión",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Error al iniciar sesión",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Reescritura fallida",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Este tramo se encuentra actualmente en construcción.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Inicie sesión para ver la configuración.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Cuenta y uso",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Reescribir la historia",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Configuración",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Descargar",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Ayuda y preguntas frecuentes",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "Panel de reescritura de IA",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Configuración general",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Tema de interfaz",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Modo oscuro",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Modo de luz",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Tono de reescritura predeterminado",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Borrar todo el historial",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Aún no hay reescrituras",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Resalte el texto en cualquier página y haga clic en ✨ para comenzar. Tu historial aparecerá aquí.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "¿Está seguro de que desea eliminar este elemento del historial de reescritura?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "¿Estás seguro de que deseas eliminar permanentemente todo tu historial de reescritura? Esto no se puede deshacer.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "No se pudo eliminar el elemento:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "No se pudo borrar el historial:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Texto Original",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Texto reescrito",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Eliminar",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Copia reescrita",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ ¡Copiado!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Cargar reescrituras más antiguas",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Soporte y consultas comerciales",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Comuníquese con:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Preguntas frecuentes",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Para obtener ayuda o informar un error",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Correo electrónicokeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Límite gratuito diario",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Nivel gratuito: 5 reescrituras/día. Se reinicia diariamente a medianoche.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Reescribe texto en cualquier lugar sin límites.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Reescribe por lotes todo tu contenido. Sincronización con la nube. Sin restricciones.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Oferta para usuarios pioneros: próximo aumento de precio en 500 usuarios Premium. ¡Fija esta tarifa de por vida!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Mercado estadounidense ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Mercado indio ($)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Los pagos en dólares estadounidenses se encuentran actualmente en mantenimiento. Cambie al plan Indian Market ($) o contáctenos alkeshoraai@gmail.compara obtener ayuda.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Semanal",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Sólo 57¢/día)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Mensual ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Solo 33¢/día)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Anual 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Solo 21¢/día)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Solo ₹21/día)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Solo ₹13/día)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Solo ₹8/día)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ semana",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ mes",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ año",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Bueno para uso ocasional",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "La mayoría de los usuarios eligen este plan.",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "El mejor valor para usuarios avanzados",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "MÁS POPULAR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "MEJOR VALOR - 2 MESES GRATIS",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Calificación 5.0 • 🔒 Pagos Seguros • ✔️ Cancela en cualquier momento",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "¿Es usted un estudiante o investigador que no puede pagar una suscripción? Envíe un correo electrónico akeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "¿Ya tienes una clave de licencia?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Introduzca la clave de licencia...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activar",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 reescrituras por semana",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Desbloquear reescritura masiva",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Acceso a la configuración premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, sincronización con Dropbox",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Temas Premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Organización de carpetas inteligentes",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Experiencia sin publicidad",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 reescrituras por mes",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 reescrituras por año",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% de descuento en otras extensiones",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Soporte prioritario por correo electrónico",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Formato de exportación",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Solo la exportación de PDF está disponible en el plan gratuito. Actualice a Pro/Premium para desbloquear otros formatos de exportación.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Formato de nombre de archivo",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Elija cómo se nombran los archivos exportados.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Reescribir historial: fecha (por ejemplo, RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Título personalizado",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Introduzca un nombre de archivo personalizado...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Exportar archivo local",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Guardar en Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Guardar en Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "La copia de seguridad en la nube solo está disponible en planes pagos. Actualice a Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Autenticación de Dropbox cancelada.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "No se pudo obtener el token de acceso a Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Error de autenticación de Google Drive.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "La carga de Google Drive falló:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Error de API de Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "No se encontró ningún historial para exportar.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "¡Historia bellamente formateada y copiada al portapapeles!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "¡Historial guardado de forma segura en tu Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "¡Historial guardado de forma segura en tu Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "¡Exportación completa!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Reescribir con IA",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Reescritura de IA",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Cerrar",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Texto original",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Seleccione un modo para reescribir...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Reemplazar",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Copiar",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Copiado",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Reintentar",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Guardar",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Sólo el modo \"Mejorar\" está disponible en el plan gratuito. Actualice a Pro para desbloquear los 13 modos.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Sólo el modo \"Mejorar\" está disponible en el plan gratuito. Actualice a Pro/Premium para desbloquear los 13 modos de reescritura.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Paleta de comandos de reescritura de IA",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Plan gratuito (indicaciones personalizadas bloqueadas)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "El mensaje personalizado está bloqueado en el plan gratuito...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "por ej. Reescribe para LinkedIn, haz que esto sea persuasivo...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Sólo el modo \"Mejorar\" está disponible en el plan gratuito. Actualice a Pro/Premium para desbloquear todas las funciones.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Sólo el modo \"Mejorar\" está disponible en el plan gratuito. Actualice a Pro/Premium para desbloquear todos los modos.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Historia",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Configuración",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Aún no hay reescrituras.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Resalte el texto en cualquier página y haga clic en ✨ para comenzar.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Originales:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Reescrito:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Cargar más",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "cuenta",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Reescribe hoy",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Se reinicia",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Activo ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Motor de IA",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Motor de reescritura de IA",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "¿Cómo reescribo texto en un sitio web?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Simplemente resalte o seleccione cualquier texto en cualquier página web. Un botón de varita mágica flotante ('✨') aparecerá automáticamente cerca del cursor. Al hacer clic en este icono, se abre la ventana emergente de reescritura interactiva, donde puede seleccionar un tono de reescritura (como Mejorar, Gramática, Profesional, Informal, Expandir o Acortar) para permitir que la IA reescriba el contenido por usted. También puede activar la interfaz a través del acceso directo de la paleta de comandos (Ctrl+Shift+Pen Windows/Linux oCmd+Shift+Pen macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "¿Qué modelos de IA son compatibles?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Actualmente admitimos LLM de última generación, incluidos GPT de OpenAI (por ejemplo, GPT-4o-mini), Gemini de Google, Claude de Anthropic y modelos de código abierto Groq (como Llama 3) para un procesamiento de texto ultrarrápido y de alto rendimiento.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "¿Están mis datos seguros?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Sí, la privacidad es una prioridad fundamental. Solo procesamos el texto específico que usted seleccione para reescribir. El texto se transmite de forma segura a nuestra API backend para realizar la solicitud. No almacenamos su historial de registro de texto a largo plazo en nuestros servidores, ni lo compartimos con terceros ni lo utilizamos para entrenar modelos de IA. Además, la extensión se ejecuta en un entorno aislado para garantizar que su historial de navegación personal esté protegido.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "¿Cuál es la diferencia entre los planes Free y Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "El plan gratuito proporciona 5 reescrituras por día, restringidas exclusivamente al tono \"Mejorar\" y al formato de descarga/exportación \"PDF\". Las integraciones de Dropbox y Google Drive también están bloqueadas. Los planes pagos (Weekly, Monthly Pro y Yearly Ultimate) desbloquean los 6 tonos, los 6 formatos de descarga (PDF, Markdown, TXT, IMG, JSON y Clipboard Copy) e integraciones de respaldo en la nube para una experiencia premium sin restricciones.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "¿Por qué ciertos tonos de reescritura, formatos de exportación y copias de seguridad en la nube están bloqueados en el plan gratuito?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Ejecutar modelos de IA de última generación (como GPT-4o-mini, Gemini y Claude) y gestionar la sincronización en la nube requiere una infraestructura de servidor sustancial, potencia informática y costos directos de API para cada acción. Para que nuestro servicio sea sostenible y al mismo tiempo ofrecer una opción gratuita completamente funcional, el plan gratuito cubre los requisitos básicos (5 reescrituras diarias con el tono 'Mejorar' y generación de PDF local). Los planes de suscripción subsidian los costos de los tonos premium (Grammar, Professional, Casual, Expand, Shorten), conectores de nube (Dropbox, Google Drive) y exportaciones de múltiples formatos (Markdown, TXT, IMG, JSON, COPY), lo que garantiza que podamos admitir un alto rendimiento, actualizaciones activas y una privacidad estricta sin anuncios.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "¿Cómo activo mi clave de licencia?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Después de completar la compra de su suscripción, pegue su clave de licencia en el campo de validación de clave en la parte inferior de la página \"Cuenta y uso\" en el panel y haga clic en \"Activar licencia\". Los detalles del plan de su cuenta se actualizarán instantáneamente en el almacenamiento de su navegador.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "¿Funciona esto en Google Docs o Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Sí, la extensión es totalmente compatible con editores populares y portales de texto enriquecido como Google Docs, Notion, Gmail, LinkedIn, Slack web y Twitter/X. Si el botón flotante está deshabilitado en una aplicación personalizada, puede usar el método abreviado de teclado de la paleta de comandos para reescribir su selección.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "¿Puedo usar mi propia clave API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Para brindar una experiencia perfecta, plug-and-play, todos los costos de uso de API están completamente cubiertos por su plan de suscripción. Actualmente, no es necesario configurar sus propias claves API. Sin embargo, planeamos admitir configuraciones de API de usuario personalizadas en una futura actualización orientada a desarrolladores.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "¿Cómo cambio el tono de reescritura predeterminado?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Puede configurar su tono de reescritura predeterminado en la pestaña Configuración de este panel de opciones. Al guardar su preferencia, se establecerá automáticamente ese tono de forma predeterminada al hacer clic en el ícono de la varita mágica, aunque aún puede cambiar los tonos en la ventana emergente cuando sea necesario.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "¿Por qué a veces no aparece el botón flotante?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "El botón de la varita mágica requiere una longitud mínima de selección de texto para evitar superposiciones accidentales. Además, las políticas de seguridad estándar del navegador bloquean estrictamente las inyecciones de contenido en determinadas páginas privilegiadas, como Chrome Web Store (chrome.google.com) y páginas de configuración interna (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "¿Puedo copiar el texto reescrito sin reemplazar el original?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Sí, dentro de la ventana emergente de reescritura flotante, puedes hacer clic en el icono 'Copiar'. Esto copia la versión recién reescrita directamente a su portapapeles, lo que le permite pegarla en cualquier lugar que desee sin reemplazar ni afectar el contenido original de la página web.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "¿Cómo cancelo mi suscripción?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Puede administrar o cancelar su suscripción en cualquier momento haciendo clic en el enlace del portal de facturación del cliente que se encuentra en el correo electrónico de confirmación de compra. Si no puede localizar el correo electrónico, contáctenos alkeshoraai@gmail.comy lo ayudaremos.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "¿Qué hace el tono 'Expandir'?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "El tono 'Expandir' utiliza inteligencia generativa para desarrollar y elaborar el texto seleccionado, agregando detalles ricos, contexto y estructura gramatical adecuada a pensamientos breves, viñetas o frases mientras se mantiene intacta la intención original.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "¿Ofrecen un descuento para estudiantes?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Sí, apoyamos a estudiantes, educadores e investigadores académicos. Ofrecemos un 30% de descuento en todos los planes de suscripción paga. Envíenos un correo electrónico akeshoraai@gmail.comdesde la dirección de correo electrónico oficial de su escuela o universidad (.edu o dominio académico) para solicitar su código de descuento.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "¿Existe una opción de reescritura masiva?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Sí, los usuarios del nivel premium pueden utilizar la reescritura masiva. En lugar de seleccionar segmentos individuales, puede abrir el panel lateral de la extensión y pegar documentos o párrafos completos para modificarlos de una sola vez.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "¿Cómo informo un error?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Puede enviar informes de errores por correo electrónico directamente a nuestro equipo de soporte alkeshoraai@gmail.com. Al hacer clic en el widget de ayuda en la pestaña \"Cuenta y uso\", se completará previamente una plantilla de soporte que contiene detalles de la extensión para ayudarnos a diagnosticar el problema.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "¿Por qué dice \"Cuota excedida\"?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Una advertencia de 'Cuota excedida' significa que ha consumido el uso asignado para el ciclo activo de su plan: los usuarios gratuitos están limitados a 5 reescrituras diarias; Los usuarios semanales obtienen 140 reescrituras; Los usuarios mensuales de Pro obtienen 600 reescrituras; y los usuarios de Yearly Ultimate reciben 9.000 reescrituras. Las cuotas se restablecen automáticamente según el ciclo (diariamente a medianoche, hora local, o según límites semanales/mensuales/anuales). Puede actualizar a un nivel superior en la página \"Cuenta y uso\" para reanudar el servicio de inmediato.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Exportando...",
+    "description": "Locale key: exportingStatus"
+  }
+}

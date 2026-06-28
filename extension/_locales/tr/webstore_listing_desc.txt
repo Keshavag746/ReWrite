@@ -1,0 +1,44 @@
+✨ En son teknolojiye sahip yapay zekayı kullanarak web'in herhangi bir yerindeki metni anında yeniden yazın.
+
+Yazınızı düzeltmek için sohbet pencerelerine metin kopyalayıp yapıştırmaktan bıktınız mı? AI Rewrite Anywhere ile herhangi bir web sitesindeki (Google Dokümanlar, Notion, Gmail, LinkedIn, Slack, Twitter/X ve daha fazlası) herhangi bir metni vurgulayabilir veya seçebilir ve anında yeniden yazabilirsiniz.
+
+Üst düzey büyük dil modellerini (OpenAI GPT, Google Gemini, Anthropic Claude ve Groq açık kaynaklı Llama dahil) kullanan akıllı bir yapay zeka geri dönüş zinciriyle desteklenen uzantı, bir hizmet kesintisi ile karşılaşıldığında istekleri otomatik olarak bir sonraki uygun sağlayıcıya yönlendirerek maksimum çalışma süresi ve ışık hızında yanıtlar sağlar.
+
+🚀 ANAHTAR ÖZELLİKLER:
+- 🖱️ Vurgula ve Yeniden Yaz: Herhangi bir web sayfasındaki metni vurgulamanız yeterlidir. İmlecinizin yanında yüzen bir sihirli değnek düğmesi belirir. Anında yeniden yazmak için tıklayın.
+- 🖱️ İçerik Menüsü Entegrasyonu: Doğrudan tarayıcının içerik menüsünden 13 farklı yeniden yazma moduna erişmek için herhangi bir seçime sağ tıklayın.
+- ⌨️ Komut Paleti (Ctrl+Shift+K): Fareye dokunmadan özel istemler yazmak veya hızlı ön ayarları tetiklemek için hızlı, klavye merkezli bir arayüz açın.
+- 📋 Tam Yeniden Yazma Geçmişi ve Ayarları: Geçmişteki yeniden yazma işlemlerini incelemek, günlükleri birden fazla biçimde dışa aktarmak ve tercihleri ​​yapılandırmak için güzel bir kontrol paneli yan paneline erişin.
+- 🔄 Sorunsuz Yapay Zeka Geri Dönüşü: Kesintisiz hizmetin keyfini çıkarın. Birincil model başarısız olursa, uzantı otomatik olarak bir sonraki kullanılabilir modele şeffaf bir şekilde geçiş yapar.
+- 🔐 Güvenli Google Oturum Açma: Ayarlarınızı cihazlar arasında güvenli bir şekilde senkronize eden hızlı, korumalı kimlik doğrulama.
+
+🎯 13 DİNAMİK YENİDEN YAZMA MODU:
+1. Geliştirin: Lehçe yazı yapısı ve sözcük dağarcığı otomatik olarak.
+2. Dilbilgisi: Yazım, noktalama işaretleri ve sözdizimi hatalarını düzeltin.
+3. Profesyonel: Profesyonel yazışmalar için dilinizi geliştirin.
+4. Dost canlısı: Mesajlarınıza sıcaklık ve yaklaşılabilirlik katın.
+5. Resmi: Resmi belgeler ve iş mektupları için ifadeleri ayarlayın.
+6. Gündelik: Sosyal ortamlar için rahat, konuşmaya dayalı metinler oluşturun.
+7. İkna Edici: Fikirleri etkili bir şekilde ikna etmek, sunmak veya pazarlamak için yapılandırın.
+8. Kendinden emin: Kesinliği, otoriteyi ve güçlü inancı yansıtın.
+9. Kısaltın: Uzun paragrafları kısa ve öz vurgulara yoğunlaştırın.
+10. Genişletin: Kısa madde işaretlerini veya cümleleri vurgulayın ve geliştirin.
+11. Basitleştirin: Jargonu veya karmaşık düşünceleri açık, okunabilir bir dile çevirin.
+12. İnsancıllaştırın: Robotik yapay zeka taslaklarını doğal olarak okunacak şekilde yeniden yapılandırın.
+13. Özel İstem: Seçimle yapay zekanın tam olarak ne yapmasını istediğinizi yazın.
+
+📂 PREMIUM İHRACAT FORMATLARI:
+Yeniden yazma geçmişinizi yerel olarak dışa aktarın veya doğrudan bulut hizmetlerine senkronize edin:
+- PDF (Ücretsiz ve Premium)
+- Markdown (MD)
+- TXT
+- Resim (IMG)
+-JSON
+- Pano Kopyası
+- Bulut Entegrasyonu: Doğrudan Dropbox'a veya Google Drive'a kaydedin.
+
+🔒 TASARIM İLE GİZLİLİK VE GÜVENLİK:
+Gizlilik birincil taahhüdümüzdür. Yalnızca aktif yeniden yazma için seçtiğiniz belirli metni işleriz. Seçiminiz, isteğin gerçekleştirilmesi için SSL şifreleme yoluyla arka uç API'mize güvenli bir şekilde iletilir ve sunucularımızda uzun süre saklanmaz. Kişisel tarama geçmişiniz tamamen korunur.
+
+📧 İLETİŞİM VE DESTEK:
+Sorularınız, önerileriniz veya hata raporlarınız mı var?keshoraai@gmail.comadresinden doğrudan bizimle iletişime geçin. Düzenli güncellemelere ve özellik isteklerine bağlıyız!

@@ -1,0 +1,44 @@
+✨ Tulis ulang teks ing endi wae ing web kanthi cepet nggunakake AI sing paling canggih.
+
+Bosen nyalin lan nempel teks menyang jendhela obrolan kanggo ndandani tulisan sampeyan? Kanthi AI Rewrite Anywhere, sampeyan bisa nyorot utawa milih teks apa wae ing situs web apa wae (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, lan liya-liyane) lan nulis maneh kanthi cepet.
+
+Didhukung dening chain fallback AI sing cerdas nggunakake model basa gedhe tingkat paling dhuwur (kalebu OpenAI GPT, Google Gemini, Anthropic Claude, lan Groq open-source Llama), ekstensi kasebut njamin uptime maksimal lan respon cepet kilat kanthi otomatis nuntun panjalukan menyang panyedhiya sabanjure sing kasedhiya yen ana gangguan layanan.
+
+🚀 FITUR UTAMA:
+- 🖱️ Sorot & Tulis Ulang: Cukup nyorot teks ing kaca web apa wae. Tombol tongkat sihir ngambang katon ing cedhak kursor sampeyan. Klik kanggo nulis maneh kanthi cepet.
+- 🖱️ Integrasi Menu Konteks: Klik-tengen pilihan kanggo ngakses 13 mode nulis ulang sing beda langsung saka menu konteks browser.
+- ⌨️ Command Palette (Ctrl+Shift+K): Bukak antarmuka sing cepet lan fokus ing keyboard kanggo ngetik pituduh khusus utawa micu prasetel cepet tanpa ndemek mouse.
+- 📋 Riwayat & Setelan Tulis Ulang Lengkap: Ngakses sidepanel dashboard sing apik kanggo mriksa ulang tulisan sing kepungkur, ekspor log ing pirang-pirang format, lan ngatur preferensi.
+- 🔄 Mundur AI Seamless: Seneng layanan tanpa gangguan. Yen model utami gagal, ekstensi kanthi otomatis ngalih menyang model sing kasedhiya sabanjure kanthi transparan.
+- 🔐 Mlebu Google Aman: Otentikasi cepet lan dilindhungi sing nyelarasake setelan sampeyan ing antarane piranti kanthi aman.
+
+🎯 13 MODE TULIS DINAMIS:
+1. Nambah: struktur nulis Polandia lan Vocabulary otomatis.
+2. Tata basa: Kaluputan ejaan, tanda baca, lan sintaksis sing bener.
+3. Profesional: Tingkatake basa sampeyan kanggo korespondensi profesional.
+4. Friendly: Tambah anget lan pendekatan kanggo pesen.
+5. Formal: Nyetel frase kanggo dokumen resmi lan surat bisnis.
+6. Kasual: Nggawe teks obrolan sing santai kanggo setelan sosial.
+7. Persuasif: Struktur gagasan kanggo ngyakinake, pitch, utawa pasar kanthi efektif.
+8. Percaya diri: Kepastian proyek, wewenang, lan kapercayan sing kuat.
+9. Shorten: Kondensasi paragraf sing dawa dadi sorotan sing ringkes.
+10. Expand: Elocute lan mbangun titik peluru cendhak utawa frase.
+11. Nyederhanakake: Nerjemahake jargon utawa pikiran sing rumit menyang basa sing cetha lan bisa diwaca.
+12. Humanize: Ngatur maneh draf AI robot kanggo maca kanthi alami.
+13. Custom Prompt: Ketik persis apa sing arep AI apa karo pilihan.
+
+📂 FORMAT EKSPOR PREMIUM:
+Ekspor riwayat nulis ulang kanthi lokal utawa nyelarasake langsung menyang layanan awan:
+- PDF (Gratis & Premium)
+- Markdown (MD)
+- TXT
+- Gambar (IMG)
+- JSON
+- Clipboard Copy
+- Integrasi Cloud: Simpen langsung menyang Dropbox utawa Google Drive.
+
+🔒 PRIVASI & KEAMANAN DESIGN:
+Privasi minangka komitmen utama kita. Kita mung ngolah teks tartamtu sing sampeyan pilih kanggo nulis ulang aktif. Pilihan sampeyan dikirim kanthi aman liwat enkripsi SSL menyang API backend kita kanggo nindakake panyuwunan lan ora disimpen ing server kita ing wektu sing suwe. Riwayat browsing pribadi sampeyan wis dilindhungi kanthi lengkap.
+
+📧 KONTAK & DUKUNGAN:
+Duwe pitakonan, saran, utawa laporan bug? Hubungi kita langsung ingkeshoraai@gmail.com. Kita setya nganyari biasa lan panjaluk fitur!

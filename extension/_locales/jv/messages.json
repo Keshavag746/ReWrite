@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Tulis ulang ing endi wae - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Sorot teks ing endi wae. Tulis maneh kanthi cepet nganggo AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Bukak palet printah AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Ngapikake Nulis",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Ndandani Grammar",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Gawe Profesional",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Gawe mesra",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Gawe Formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Gawe santai",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Gawe Persuasif",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Gawe Percoyo",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Manungsa",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Prompt Kustom...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Ngapikake",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Tata basa",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesional",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Ramah",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Santai",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Persuasif",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Percaya diri",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Singkat",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Ngembangake",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Sederhana",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Manungsa",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Custom",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Tulis maneh teks ing ngendi wae",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Mlebu karo Google kanggo miwiti nulis ulang teks ing situs web apa wae sing nganggo AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Mlebu...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Mlebu nganggo Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Gratis",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Panggunaan saben dina",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(tanpa wates)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Pilih teks ing kaca apa wae → klik tombol ✨ kanggo nulis ulang. Utawa pencetCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Bukak Riwayat & Setelan",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Mlebu metu",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Mlebet gagal",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Gagal nulis ulang",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Bagian iki lagi dibangun.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Mangga mlebu kanggo ndeleng setelan.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Akun & Panggunaan",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Tulis maneh Sejarah",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Setelan",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Ngundhuh",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Bantuan & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Konfigurasi Umum",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Tema Antarmuka",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Mode peteng",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Mode cahya",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Default Rewrite Tone",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Busak Kabeh Sejarah",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Durung ditulis ulang",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Sorot teks ing kaca apa wae banjur klik ✨ kanggo miwiti. Riwayat sampeyan bakal katon ing kene.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Apa sampeyan yakin arep mbusak item riwayat nulis ulang iki?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Apa sampeyan yakin pengin mbusak kabeh riwayat nulis ulang kanthi permanen? Iki ora bisa dibatalake.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Gagal mbusak item:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Gagal mbusak riwayat:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Teks Asli",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Teks sing Ditulis maneh",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Mbusak",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Salinan ditulis maneh",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Disalin!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Muat rewrites lawas",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Dhukungan & Pitakonan Bisnis",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Tekan ing:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Pitakonan sing Sering Ditakoni",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Kanggo bantuan utawa laporan bug",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Emailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Limit Gratis saben dina",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Tingkat gratis: 5 nulis ulang / dina. Reset saben dina ing tengah wengi.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Tulis ulang teks ing ngendi wae tanpa watesan.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch nulis ulang kabeh konten sampeyan. Nyelarasake menyang awan. Ora ana watesan.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Penawaran Adopter Awal: Tambah rega sabanjure ing 500 pangguna Premium. Kunci tarif iki kanggo urip!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Pasar AS ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Pasar India (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Pembayaran dolar AS saiki ana ing pangopènan. Mangga ngalih menyang rencana Pasar India (₹) utawa hubungi kita ingkeshoraai@gmail.comkanggo pitulungan.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Mingguan",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Mung 57¢ / dina)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Saben wulan ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Mung 33¢ / dina)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Taunan 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Mung 21¢ / dina)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Mung ₹21 / dina)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Mung ₹13 / dina)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Mung ₹8 / dina)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ minggu",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ wulan",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ taun",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Apik kanggo nggunakake sok-sok",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Umume pangguna milih rencana iki",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Nilai paling apik kanggo pangguna daya",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "PALING POPULAR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "Nilai paling apik - 2 Wulan GRATIS",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Rating 5.0 • 🔒 Pembayaran Aman • ✔️ Batal kapan wae",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Apa sampeyan mahasiswa utawa peneliti sing ora bisa mbayar langganan? Mangga emailkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Wis duwe kunci lisensi?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Ketik kunci lisensi...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktifake",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Nulis ulang saben minggu",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Mbukak kunci Tulis Ulang Bulk",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Akses Setelan Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Tema Premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Organisasi Folder Cerdas",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Pengalaman tanpa iklan",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Rewrite saben wulan",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 Rewrite saben taun",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% mati ekstensi liyane",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Dhukungan Email Prioritas",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Format ekspor",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Mung ekspor PDF sing kasedhiya ing rencana gratis. Mangga upgrade menyang Pro/Premium kanggo mbukak kunci format ekspor liyane.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Format jeneng berkas",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Pilih carane file sing diekspor dijenengi.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Riwayat Tulis Ulang - Tanggal (contone RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Judhul khusus",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Ketik jeneng berkas khusus...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Ekspor File Lokal",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Simpen menyang Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Simpen menyang Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Serep awan mung kasedhiya ing rencana mbayar. Mangga upgrade menyang Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Otentikasi Dropbox dibatalake.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Gagal entuk token akses Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Otentikasi Google Drive gagal.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Ngunggah Google Drive gagal:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Kesalahan Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Ora ana riwayat sing bisa diekspor.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Sejarah diformat kanthi apik lan disalin menyang clipboard!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Sejarah disimpen kanthi aman menyang Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Sejarah disimpen kanthi aman ing Google Drive sampeyan!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Ekspor rampung!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Tulis maneh nganggo AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Nutup",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Teks asli",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Pilih mode kanggo nulis ulang...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Ganti",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Nyalin",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Disalin",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Coba maneh",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Simpen",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Mung mode \"Ngapikake\" kasedhiya ing rencana gratis. Mangga upgrade menyang Pro kanggo mbukak kunci kabeh 13 mode.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Mung mode \"Ngapikake\" kasedhiya ing rencana gratis. Mangga upgrade menyang Pro/Premium kanggo mbukak kunci kabeh 13 mode nulis ulang.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Palet Komando Tulis Ulang AI",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Rencana Gratis (Pandhuan khusus dikunci)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Pandhuan khusus dikunci ing Rencana Gratis...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "contone. Tulis ulang kanggo LinkedIn, Gawe iki persuasif ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Mung mode \"Ngapikake\" kasedhiya ing rencana gratis. Mangga upgrade menyang Pro/Premium kanggo mbukak kunci kabeh fitur.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Mung mode \"Ngapikake\" kasedhiya ing rencana gratis. Mangga upgrade menyang Pro/Premium kanggo mbukak kunci kabeh mode.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Riwayat",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Setelan",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Durung ditulis ulang.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Sorot teks ing kaca apa wae banjur klik ✨ kanggo miwiti.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "asli:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Ditulis maneh:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Muat liyane",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Akun",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Rewrites dina iki",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Reset",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktif ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI Engine",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Kepiye carane nulis ulang teks ing situs web?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Cukup sorot utawa pilih teks apa wae ing kaca web. Tombol tongkat sihir ngambang ('✨') bakal kanthi otomatis katon ing cedhak kursor sampeyan. Ngeklik lambang iki bakal mbukak pop-up nulis ulang interaktif, ing ngendi sampeyan bisa milih nada nulis ulang (kayata Nambah, Grammar, Professional, Casual, Expand, utawa Shorten) supaya AI nulis ulang isi kanggo sampeyan. Sampeyan uga bisa micu antarmuka liwat trabasan Command Palette (Ctrl+Shift+Ping Windows/Linux utawaCmd+Shift+Ping macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Model AI sing didhukung?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Saiki kita ndhukung LLM sing paling canggih kalebu OpenAI's GPT (contone, GPT-4o-mini), Google Gemini, Anthropic's Claude, lan model open-source Groq (kayata Llama 3) kanggo kinerja dhuwur, pangolahan teks cepet kilat.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Apa dataku aman?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ya, privasi minangka prioritas utama. Kita mung ngolah teks tartamtu sing sampeyan pilih kanggo nulis ulang. Teks kasebut dikirim kanthi aman menyang API backend kanggo nindakake panjaluk kasebut. Kita ora nyimpen riwayat log teks kanggo jangka panjang ing server kita, uga ora nuduhake karo pihak katelu utawa digunakake kanggo nglatih model AI. Kajaba iku, ekstensi kasebut mlaku ing lingkungan kothak wedhi kanggo mesthekake riwayat telusuran pribadi sampeyan dilindhungi.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Apa prabédan antarane rencana Free lan Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Rencana Gratis nyedhiyakake 5 rewrite saben dina, diwatesi sacara eksklusif kanggo nada 'Nambah' lan format download/ekspor 'PDF'. Integrasi Dropbox lan Google Drive uga dikunci. Rencana mbayar (Weekly, Monthly Pro, lan Yearly Ultimate) mbukak kunci kabeh 6 nada, kabeh 6 format download (PDF, Markdown, TXT, IMG, JSON, lan Clipboard Copy), lan integrasi serep maya kanggo pengalaman premium, tanpa watesan.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Apa sing muni nulis ulang tartamtu, format ekspor, lan maya serep dikunci ing Free rencana?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Nganggo model AI canggih (kayata GPT-4o-mini, Gemini, lan Claude) lan ngatur sinkronisasi awan mbutuhake infrastruktur server sing akeh, daya komputasi, lan biaya API langsung kanggo saben tumindak. Kanggo nggawe layanan sustainable nalika isih nawakake pilihan gratis sing fungsional, rencana Gratis kalebu syarat dhasar (5 nulis ulang saben dina kanthi nada 'Ningkatake' lan generasi PDF lokal). Rencana langganan menehi subsidi kanggo biaya nada premium (Grammar, Professional, Casual, Expand, Shorten), konektor awan (Dropbox, Google Drive), lan macem-macem format ekspor (Markdown, TXT, IMG, JSON, COPY), njamin kita bisa ndhukung kinerja dhuwur, nganyari aktif, lan privasi sing ketat tanpa iklan.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Kepiye cara ngaktifake kunci lisensi?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Sawise rampung tuku langganan, tempel kunci lisensi ing kolom validasi kunci ing sisih ngisor kaca 'Akun & Panggunaan' ing dashboard banjur klik 'Aktifake Lisensi'. Rincian rencana akun sampeyan bakal langsung dianyari ing panyimpenan browser sampeyan.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Apa iki bisa digunakake ing Google Docs utawa Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ya, ekstensi kasebut kompatibel karo editor populer lan portal teks kaya Google Docs, Notion, Gmail, LinkedIn, Slack web, lan Twitter/X. Yen tombol ngambang dipateni ing aplikasi khusus, sampeyan bisa nggunakake trabasan keyboard Command Palette kanggo nulis ulang pilihan sampeyan.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Apa aku bisa nggunakake kunci API dhewe?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Kanggo nyedhiyakake pengalaman plug-and-play sing mulus, kabeh biaya panggunaan API ditanggung kanthi lengkap miturut rencana langganan sampeyan. Saiki, sampeyan ora perlu ngatur kunci API dhewe. Nanging, kita rencana ndhukung konfigurasi API pangguna khusus ing nganyari sing berorientasi pangembang ing mangsa ngarep.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Kepiye carane ngganti nada nulis ulang standar?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Sampeyan bisa nyetel nada nulis ulang standar ing tab Setelan ing panel pilihan iki. Nyimpen pilihan sampeyan bakal kanthi otomatis nyetel nada kasebut nalika ngeklik lambang tongkat sihir, sanajan sampeyan isih bisa ngalih nada ing popup yen dibutuhake.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Apa tombol ngambang kadhangkala ora katon?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Tombol tongkat sihir mbutuhake dawa pilihan teks minimal kanggo nyegah overlay sing ora disengaja. Salajengipun, kabijakan keamanan browser standar mblokir injeksi konten ing kaca khusus tartamtu, kayata Toko Web Chrome (chrome.google.com) lan kaca konfigurasi internal (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Apa aku bisa nyalin teks sing ditulis maneh tanpa ngganti sing asli?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ya, ing popup nulis ulang ngambang, sampeyan bisa ngeklik lambang 'Salin'. Iki nyalin versi sing mentas ditulis maneh langsung menyang clipboard, ngidini sampeyan nempel ing ngendi wae sing disenengi tanpa ngganti utawa mengaruhi konten asli ing kaca web.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Kepiye carane mbatalake langgananku?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Sampeyan bisa ngatur utawa mbatalake langganan sawayah-wayah kanthi ngeklik link portal tagihan pelanggan sing kasedhiya ing email konfirmasi tuku. Yen sampeyan ora bisa nemokake email, hubungi kita ingkeshoraai@gmail.comlan kita bakal nulung sampeyan.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Apa sing ditindakake nada 'Expand'?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Nada 'Expand' nggunakake intelijen generatif kanggo mbangun lan njlentrehake teks sing dipilih, nambahake rincian sing sugih, konteks, lan struktur gramatikal sing tepat kanggo pikiran singkat, titik peluru, utawa frase nalika njaga maksud asline.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Apa sampeyan nawakake diskon siswa?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ya, kita ndhukung siswa, pendidik, lan peneliti akademik. Kita nawakake diskon 30% ing kabeh rencana langganan mbayar. Kirimi email menyangkeshoraai@gmail.comsaka alamat email sekolah utawa universitas resmi (.edu utawa domain akademik) kanggo njaluk kode diskon sampeyan.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Apa ana opsi nulis ulang akeh?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ya, pangguna tingkat premium bisa nggunakake nulis ulang akeh. Tinimbang milih segmen individu, sampeyan bisa mbukak panel sisih ekstensi lan nempel kabeh dokumen utawa paragraf kanggo ngowahi kanthi siji.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Kepiye cara nglaporake bug?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Sampeyan bisa ngirim email laporan bug langsung menyang tim dhukungan ingkeshoraai@gmail.com. Ngeklik widget pitulung ing tab 'Akun & Panggunaan' bakal ngisi template dhukungan sing ngemot rincian ekstensi kanggo mbantu kita diagnosa masalah kasebut.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Napa tulisane 'Kuota Luwih'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Bebaya 'Kuota Ngluwihi' tegese sampeyan wis nggunakake panggunaan sing diwenehake kanggo siklus aktif rencana sampeyan: Pangguna gratis diwatesi nganti 5 nulis ulang saben dina; Pangguna saben minggu entuk 140 nulis ulang; Pangguna Pro saben wulan entuk 600 nulis ulang; lan pangguna Ultimate Taunan nampa 9.000 rewrite. Kuota ngreset kanthi otomatis adhedhasar siklus (saben dina ing wektu lokal tengah wengi, utawa ing wates mingguan / saben wulan / taunan). Sampeyan bisa nganyarke menyang tingkat sing luwih dhuwur ing kaca 'Akun & Panggunaan' kanggo nerusake layanan langsung.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Ngèkspor...",
+    "description": "Locale key: exportingStatus"
+  }
+}

@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Rewrite Anywhere - AI Text Rewriter",
+  "name": "__MSG_appName__",
   "version": "1.0.0",
-  "description": "Highlight text anywhere. Rewrite instantly with AI.",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
   "permissions": [
     "activeTab",
     "contextMenus",
@@ -17,7 +18,7 @@
   },
   "action": {
     "default_popup": "src/popup/index.html",
-    "default_title": "Rewrite Anywhere - AI Text Rewriter"
+    "default_title": "__MSG_appName__"
   },
   "side_panel": {
     "default_path": "src/sidepanel/index.html"
@@ -25,7 +26,7 @@
   "commands": {
     "open-command-palette": {
       "suggested_key": { "default": "Ctrl+Shift+K", "mac": "Command+Shift+K" },
-      "description": "Open AI Rewrite command palette"
+      "description": "__MSG_commandDesc__"
     }
   },
   "icons": {
@@ -34,7 +35,7 @@
     "128": "icons/icon128.png"
   },
   "oauth2": {
-    "client_id": "72413022520-tocl0sfli59g2l665r0er9s4mv9r4j7a.apps.googleusercontent.com",
+    "client_id": "90039201935-g2vd9gkusq017pjonkn0gfg3hlk7av17.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/userinfo.email",
       "https://www.googleapis.com/auth/userinfo.profile",

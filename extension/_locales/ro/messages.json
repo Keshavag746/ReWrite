@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rescrie oriunde - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Evidențiați textul oriunde. Rescrie instantaneu cu AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Deschideți paleta de comenzi AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "Rescrierea AI →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Îmbunătățiți scrierea",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Remediați gramatica",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Fă profesionist",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Fă-te prietenos",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Fă formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Faceți casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Faceți persuasiune",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Fă-ți încredere",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Umanizați",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Solicitare personalizată...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Îmbunătățiți",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Gramatica",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesionist",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Prietenos",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Casual",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Persuasiv",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Încrezător",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Scurtați",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Extindeți",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Simplificați",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Umanizați",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Personalizat",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Se încarcă...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Rescrie text oriunde",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Conectați-vă cu Google pentru a începe să rescrieți textul pe orice site web cu inteligență artificială.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Conectare...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Conectați-vă cu Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Gratuit",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Utilizare zilnică",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(nelimitat)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Selectați text pe orice pagină → faceți clic pe butonul ✨ pentru a rescrie. Sau apăsațiCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Deschide Istoricul și Setările",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Deconectați-vă",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Conectarea a eșuat",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Rescrierea eșuată",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Această secțiune este în prezent în construcție.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Vă rugăm să vă conectați pentru a vedea setările.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Cont și utilizare",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Rescrie Istoria",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Setări",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Descărcați",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Ajutor și întrebări frecvente",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "Tabloul de bord rescriere AI",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Configurație generală",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Tema interfeței",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Modul întunecat",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Modul de lumină",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Ton de rescriere implicit",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Ștergeți tot istoricul",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Încă nu există rescrieri",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Evidențiați textul pe orice pagină și faceți clic pe ✨ pentru a începe. Istoricul tău va apărea aici.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Sigur doriți să ștergeți acest element din istoricul rescrierii?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Sigur doriți să ștergeți definitiv întregul istoric al rescrierii? Acest lucru nu poate fi anulat.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Elementul nu a fost șters:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Istoricul nu a fost șters:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Textul original",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Text rescris",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Ștergeți",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Copie rescrisă",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Copiat!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Încărcați rescrieri mai vechi",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Asistență și întrebări de afaceri",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Luați legătura la:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Întrebări frecvente",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Pentru ajutor sau pentru a raporta o eroare",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-mailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Limită zilnică gratuită",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Nivel gratuit: 5 rescrieri/zi. Se resetează zilnic la miezul nopții.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Rescrie text oriunde fără limite.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Rescrie în lot tot conținutul tău. Sincronizare cu cloud. Fără restricții.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Oferta Early Adopter: Următoarea creștere de preț la 500 de utilizatori Premium. Blocați acest tarif pe viață!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Piața SUA ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Piața indiană (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Plățile în dolari americani sunt în prezent în întreținere. Treceți la planul Indian Market (₹) sau contactați-ne lakeshoraai@gmail.compentru asistență.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Săptămânal",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Doar 57 ¢ / zi)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Lunar ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Doar 33 ¢ / zi)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Anual 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Doar 21 ¢ / zi)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Doar 21 INR/zi)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Doar 13 INR/zi)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(doar 8 INR/zi)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ săptămână",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/luna",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/an",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Bun pentru utilizare ocazională",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Majoritatea utilizatorilor aleg acest plan",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Cea mai bună valoare pentru utilizatorii cu putere",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "CEL MAI POPULAR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "CEL MAI BUN VALOARE - 2 LUNI GRATUIT",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Evaluare 5.0 • 🔒 Plăți sigure • ✔️ Anulați oricând",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Sunteți student sau cercetător care nu își permite un abonament? Vă rugăm să trimiteți un e-mail lakeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Aveți deja o cheie de licență?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Introduceți cheia de licență...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activați",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 de rescrieri pe săptămână",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Deblocați rescrierea în bloc",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Acces Setări Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Teme premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Organizare inteligentă a folderelor",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Experiență fără anunțuri",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 de rescrieri pe lună",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 de rescrieri pe an",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% reducere la alte extensii",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Asistență prin e-mail prioritară",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Format de export",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Doar exportul PDF este disponibil pe planul gratuit. Vă rugăm să faceți upgrade la Pro/Premium pentru a debloca alte formate de export.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Format nume de fișier",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Alegeți cum sunt denumite fișierele exportate.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Istoricul rescrierii - Data (de exemplu, RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Titlu personalizat",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Introduceți un nume de fișier personalizat...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Exportați fișierul local",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Salvați în Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Salvați pe Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Backup-ul în cloud este disponibil numai pentru planurile plătite. Vă rugăm să faceți upgrade la Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Autentificare Dropbox anulată.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Nu s-a putut obține indicativul de acces Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Autentificarea Google Drive a eșuat.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Încărcarea pe Google Drive a eșuat:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Eroare API Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Nu s-a găsit istoric de export.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Istoria frumos formatată și copiată în clipboard!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Istoricul salvat în siguranță în Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Istoricul salvat în siguranță pe Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Export finalizat!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Rescrie cu AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Rescrierea AI",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Închide",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Textul original",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Selectați un mod pentru a rescrie...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Înlocuiește",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Copiere",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Copiat",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Reîncercați",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Salvați",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Doar modul „Îmbunătățire” este disponibil în planul gratuit. Vă rugăm să faceți upgrade la Pro pentru a debloca toate cele 13 moduri.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Doar modul „Îmbunătățire” este disponibil în planul gratuit. Vă rugăm să faceți upgrade la Pro/Premium pentru a debloca toate cele 13 moduri de rescriere.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Paleta de comenzi de rescriere AI",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Plan gratuit (solicitari personalizate blocate)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Solicitarea personalizată este blocată în planul gratuit...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "de ex. Rescrieți pentru LinkedIn, faceți acest lucru persuasiv...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Doar modul „Îmbunătățire” este disponibil în planul gratuit. Vă rugăm să faceți upgrade la Pro/Premium pentru a debloca toate funcțiile.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Doar modul „Îmbunătățire” este disponibil în planul gratuit. Vă rugăm să faceți upgrade la Pro/Premium pentru a debloca toate modurile.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Istorie",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Setări",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Încă nu există rescrieri.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Evidențiați textul pe orice pagină și faceți clic pe ✨ pentru a începe.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Original:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Rescris:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Încărcați mai multe",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Cont",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Rescrie astăzi",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Resetează",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Activ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Motor AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Cum rescriu textul pe un site web?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Pur și simplu evidențiați sau selectați orice text de pe orice pagină web. Un buton plutitor al baghetei magice („✨”) va apărea automat lângă cursor. Făcând clic pe această pictogramă, se deschide fereastra interactivă de rescriere, unde puteți selecta un ton de rescriere (cum ar fi Îmbunătățire, Gramatică, Profesional, Ocazional, Extindere sau Scurtare) pentru a permite AI să rescrie conținutul pentru tine. De asemenea, puteți declanșa interfața prin comanda rapidă a paletei de comenzi (Ctrl+Shift+Ppe Windows/Linux sauCmd+Shift+Ppe macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Ce modele AI sunt acceptate?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "În prezent, acceptăm LLM-uri de ultimă generație, inclusiv GPT OpenAI (de exemplu, GPT-4o-mini), modelele Google Gemini, Claude Anthropic și Groq (cum ar fi Llama 3) pentru procesarea textului de înaltă performanță și rapidă.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Sunt datele mele securizate?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Da, confidențialitatea este o prioritate de bază. Procesăm doar textul pe care îl selectați pentru rescriere. Textul este transmis în siguranță către API-ul nostru backend pentru a efectua solicitarea. Nu stocăm istoricul jurnalului dvs. de text pe termen lung pe serverele noastre, nici nu îl partajăm cu terțe părți sau îl folosim pentru a antrena modele AI. În plus, extensia rulează într-un mediu sandbox pentru a vă asigura că istoricul dvs. personal de navigare este protejat.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Care este diferența dintre planurile Free și Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Planul gratuit oferă 5 rescrieri pe zi, limitate exclusiv la tonul „Îmbunătățire” și formatul de descărcare/exportare „PDF”. Sunt blocate și integrările Dropbox și Google Drive. Planurile plătite (Săptămânal, Lunar Pro și Anual Ultimate) deblochează toate cele 6 tonuri, toate cele 6 formate de descărcare (PDF, Markdown, TXT, IMG, JSON și Clipboard Copy) și integrări de backup în cloud pentru o experiență premium, fără restricții.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "De ce sunt blocate anumite tonuri de rescriere, formate de export și backup în cloud în planul gratuit?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Rularea modelelor AI de ultimă generație (cum ar fi GPT-4o-mini, Gemini și Claude) și gestionarea sincronizării în cloud necesită o infrastructură substanțială a serverului, putere de calcul și costuri directe API pentru fiecare acțiune. Pentru a face serviciul nostru durabil, oferind în același timp o opțiune gratuită complet funcțională, planul gratuit acoperă cerințele de bază (5 rescrieri zilnice cu tonul „Îmbunătățire” și generarea locală de PDF). Planurile de abonament subvenționează costurile tonurilor premium (Grammar, Professional, Casual, Expand, Shorten), conectorilor cloud (Dropbox, Google Drive) și exporturilor în formate multiple (Markdown, TXT, IMG, JSON, COPY), asigurându-ne că putem accepta performanță ridicată, actualizări active și confidențialitate strictă fără anunțuri.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Cum îmi activez cheia de licență?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "După finalizarea achiziției abonamentului, inserați cheia de licență în câmpul de validare a cheii din partea de jos a paginii „Cont și utilizare” de pe tabloul de bord și faceți clic pe „Activați licența”. Detaliile planului de cont se vor actualiza instantaneu în stocarea browserului.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Funcționează acest lucru pe Google Docs sau Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Da, extensia este pe deplin compatibilă cu editorii populari și portalurile de text îmbogățit precum Google Docs, Notion, Gmail, LinkedIn, Slack web și Twitter/X. Dacă butonul plutitor este dezactivat într-o aplicație personalizată, puteți utiliza comanda rapidă de la tastatură pentru paleta de comenzi pentru a rescrie selecția.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Pot folosi propria mea cheie API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Pentru a oferi o experiență fără probleme, plug-and-play, toate costurile de utilizare a API-ului sunt acoperite integral prin planul dvs. de abonament. În prezent, nu trebuie să configurați propriile chei API. Cu toate acestea, intenționăm să acceptăm configurațiile API personalizate ale utilizatorului într-o viitoare actualizare orientată către dezvoltatori.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Cum schimb tonul de rescriere implicit?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Puteți seta tonul de rescriere implicit în fila Setări a acestui panou de opțiuni. Salvarea preferinței dvs. va fi automat implicit la acel ton când faceți clic pe pictograma baghetă magică, deși puteți comuta în continuare tonurile în fereastra pop-up atunci când este necesar.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "De ce nu apare uneori butonul plutitor?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Butonul baghetă magică necesită o lungime minimă de selecție a textului pentru a preveni suprapunerile accidentale. În plus, politicile standard de securitate a browserului blochează strict injecțiile de conținut în anumite pagini privilegiate, cum ar fi Magazinul web Chrome (chrome.google.com) și paginile de configurare internă (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Pot copia textul rescris fără a înlocui originalul?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Da, în interiorul ferestrei pop-up de rescriere plutitoare, puteți face clic pe pictograma „Copiați”. Aceasta copiază versiunea recent rescrisă direct în clipboard, permițându-vă să o lipiți oriunde doriți, fără a înlocui sau a afecta conținutul original de pe pagina web.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Cum îmi anulez abonamentul?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Vă puteți gestiona sau anula abonamentul în orice moment făcând clic pe linkul portalului de facturare pentru clienți furnizat în e-mailul de confirmare a achiziției. Dacă nu puteți găsi e-mailul, contactați-ne lakeshoraai@gmail.comși vă vom ajuta.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Ce face tonul „Expand”?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Tonul „Extindere” folosește inteligența generativă pentru a construi și a elabora textul selectat, adăugând detalii bogate, context și structură gramaticală adecvată gândurilor scurte, punctelor marcatoare sau expresiilor, păstrând în același timp intactă intenția originală.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Oferiţi o reducere pentru studentţ?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Da, sprijinim studenții, educatorii și cercetătorii academicieni. Oferim o reducere de 30% la toate planurile de abonament cu plată. Trimiteți-ne un e-mail lakeshoraai@gmail.comde la adresa de e-mail oficială a școlii sau a universității (.edu sau domeniul academic) pentru a solicita codul dvs. de reducere.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Există o opțiune de rescriere în bloc?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Da, utilizatorii de nivel premium pot folosi rescrierea în bloc. În loc să selectați segmente individuale, puteți deschide panoul lateral de extensie și puteți lipi documente sau paragrafe întregi pentru a le modifica dintr-o singură mișcare.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Cum raportez o eroare?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Puteți trimite prin e-mail rapoarte de eroare direct echipei noastre de asistență lakeshoraai@gmail.com. Făcând clic pe widgetul de ajutor din fila „Cont și utilizare”, se va completa în prealabil un șablon de asistență care conține detalii despre extensie pentru a ne ajuta să diagnosticăm problema.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "De ce scrie „Cota depășită”?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Un avertisment „Cotă depășită” înseamnă că ați consumat utilizarea alocată pentru ciclul activ al planului dvs.: utilizatorii gratuiti sunt limitati la 5 rescrieri zilnice; Utilizatorii săptămânal primesc 140 de rescrieri; Utilizatorii lunar Pro primesc 600 de rescrieri; și utilizatorii Anual Ultimate primesc 9.000 de rescrieri. Cotele se resetează automat în funcție de ciclu (zilnic la miezul nopții, ora locală, sau în funcție de limitele săptămânale/lunar/anual). Puteți trece la un nivel superior pe pagina „Cont și utilizare” pentru a relua imediat serviciul.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Se exportă...",
+    "description": "Locale key: exportingStatus"
+  }
+}

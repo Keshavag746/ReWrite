@@ -1,0 +1,44 @@
+✨ Ən müasir süni intellektdən istifadə edərək mətni internetdə istənilən yerdə dərhal yenidən yazın.
+
+Yazılarınızı düzəltmək üçün mətni chat pəncərələrinə kopyalayıb yapışdırmaqdan bezdiniz? AI Rewrite Anywhere ilə siz istənilən vebsaytda (Google Sənədlər, Notion, Gmail, LinkedIn, Slack, Twitter/X və s.) istənilən mətni vurğulaya və ya seçə və onu dərhal yenidən yaza bilərsiniz.
+
+Ən yüksək səviyyəli böyük dil modellərindən (OpenAI GPT, Google Gemini, Anthropic Claude və Groq açıq mənbəli Llama daxil olmaqla) istifadə edən ağıllı AI ehtiyat zənciri ilə təchiz edilmiş genişləndirmə, xidmət kəsilməsi ilə qarşılaşdıqda, sorğuları avtomatik olaraq növbəti mövcud provayderə yönləndirməklə maksimum iş vaxtı və ildırım sürəti ilə cavabları təmin edir.
+
+🚀 ƏSAS XÜSUSİYYƏTLƏR:
+- 🖱️ Vurğulayın və Yenidən Yazın: İstənilən veb-səhifədəki mətni sadəcə vurğulayın. Kursorun yanında üzən sehrli çubuq düyməsi görünür. Dərhal yenidən yazmaq üçün üzərinə klikləyin.
+- 🖱️ Kontekst Menyu İnteqrasiyası: Brauzerin kontekst menyusundan birbaşa 13 fərqli yenidən yazma rejiminə daxil olmaq üçün istənilən seçimə sağ klikləyin.
+- ⌨️ Komanda Palitrası (Ctrl+Shift+K): Siçana toxunmadan fərdi göstərişlər daxil etmək və ya sürətli ilkin parametrləri işə salmaq üçün sürətli, klaviatura mərkəzli interfeys açın.
+- 📋 Tam Yenidən Yazma Tarixçəsi və Parametrlər: Keçmiş yenidən yazıları nəzərdən keçirmək, qeydləri bir çox formatda ixrac etmək və seçimləri konfiqurasiya etmək üçün gözəl idarə paneli yan panelinə daxil olun.
+- 🔄 Problemsiz AI Fallback: Fasiləsiz xidmətdən həzz alın. Əsas model uğursuz olarsa, genişləndirmə avtomatik olaraq şəffaf şəkildə növbəti mövcud modelə keçir.
+- 🔐 Təhlükəsiz Google Girişi: Parametrlərinizi cihazlar arasında təhlükəsiz sinxronizasiya edən sürətli, qorunan autentifikasiya.
+
+🎯 13 DİNAMİK YENİDƏN YAZMA REJİMİ:
+1. Təkmilləşdirin: Polyak yazı strukturu və lüğəti avtomatik olaraq.
+2. Qrammatika: Orfoqrafiya, durğu işarələri və sintaksis səhvlərini düzəldin.
+3. Peşəkar: Peşəkar yazışmalar üçün dilinizi yüksəldin.
+4. Dostluq: Mesajlarınıza hərarət və yaxınlaşma əlavə edin.
+5. Formal: Rəsmi sənədlər və iş məktubları üçün ifadələri tənzimləyin.
+6. Təsadüfi: Sosial parametrlər üçün rahat, danışıq mətni yaradın.
+7. İnandırıcı: İdeyaları effektiv şəkildə inandırmaq, təklif etmək və ya bazara çıxarmaq üçün strukturlaşdırın.
+8. Emin: Layihənin əminliyi, səlahiyyəti və güclü inamı.
+9. Qısaldın: Uzun abzasları lakonik məqamlara birləşdirin.
+10. Genişləndirin: Qısa güllə nöqtələri və ya ifadələr üzərində ifadə edin və qurun.
+11. Sadələşdirin: Jarqonu və ya mürəkkəb fikirləri aydın, oxunaqlı dilə tərcümə edin.
+12. İnsanlaşdırın: Robotik süni intellekt layihələrini təbii oxumaq üçün yenidən strukturlaşdırın.
+13. Fərdi İcazə: Seçimlə AI-nin nə etməsini istədiyinizi dəqiq yazın.
+
+📂 PREMIUM İXRAC FORMATLARI:
+Yenidən yazma tarixçənizi yerli olaraq ixrac edin və ya birbaşa bulud xidmətlərinə sinxronizasiya edin:
+- PDF (Pulsuz və Premium)
+- Markdown (MD)
+- TXT
+- Şəkil (IMG)
+- JSON
+- Mübadilə buferinin surəti
+- Bulud İnteqrasiyası: Birbaşa Dropbox və ya Google Diskdə yadda saxlayın.
+
+🔒 DİZAYN GÖRƏ MƏXFİLLİK və TƏHLÜKƏSİZLİK:
+Məxfilik bizim əsas öhdəliyimizdir. Biz yalnız aktiv yenidən yazmaq üçün seçdiyiniz konkret mətni emal edirik. Seçiminiz sorğunu yerinə yetirmək üçün SSL şifrələməsi vasitəsilə arxa uç API-mizə təhlükəsiz şəkildə ötürülür və serverlərimizdə uzun müddət saxlanmır. Şəxsi baxış tarixçəniz tamamilə qorunur.
+
+📧 ƏLAQƏ VƏ DƏSTƏK:
+Suallarınız, təklifləriniz və ya səhv hesabatlarınız var? Bizimlə birbaşakeshoraai@gmail.coməlaqə saxlayın. Biz müntəzəm yeniləmələrə və xüsusiyyət sorğularına sadiqik!

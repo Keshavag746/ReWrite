@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI 文本重写器",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "突出显示任意位置的文本。用人工智能立即重写。",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "打开 AI Rewrite 命令面板",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "人工智能重写 →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ 提高写作水平",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ 修正语法",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 做专业",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 友善相处",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 变得正式",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 休闲一点",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 要有说服力",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 增强自信",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 人性化",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ 自定义提示...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ 改善",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ 语法",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 专业",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 友善",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 正式",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋休闲",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 有说服力",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 自信",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️缩短",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 展开",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 简化",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 人性化",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ 定制",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "正在加载...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "在任何地方重写文本",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "登录 Google，开始使用 AI 重写任何网站上的文本。",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "正在登录...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 使用 Google 登录",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ 专业版",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "免费",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "日常使用",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "（无限制）",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 选择任意页面上的文本 → 单击 ✨ 按钮进行重写。或者按Ctrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 打开历史记录和设置",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "退出",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "登录失败",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "重写失败",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "该路段目前正在建设中。",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "请登录以查看设置。",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "账户及使用情况",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "改写历史",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "设置",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "下载",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "帮助和常见问题解答",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI重写仪表板",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "总体配置",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "界面主题",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "深色模式",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "灯光模式",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "默认重写提示音",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️清除所有历史记录",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "还没有重写",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "突出显示任何页面上的文本，然后单击 ✨ 开始。您的历史记录将出现在这里。",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "您确定要删除此重写历史记录项目吗？",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "您确定要永久删除整个重写历史记录吗？此操作无法撤消。",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "删除项目失败：",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "清除历史记录失败：",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "原文",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "重写的文本",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️删除",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 复制重写",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ 已复制！",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "加载旧的重写",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "支持和业务咨询",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "请联系：",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "常见问题解答",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "寻求帮助或报告错误",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "电子邮件keshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "每日免费限额",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "免费层：每天 5 次重写。每天午夜重置。",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "不受限制地在任何地方重写文本。",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "批量重写您的所有内容。同步到云端。没有限制。",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 早期采用者优惠：下一次价格上涨为 500 名高级用户。终身锁定此利率！",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 美国市场 ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 印度市场 ($)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "美元支付目前正在维护中。请切换到印度市场 ($) 计划或通过keshoraai@gmail.com联系我们寻求帮助。",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "每周",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "（只需 57 美分/天）",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "每月⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "（只需 33 美分/天）",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "每年💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "（只需 21 美分/天）",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "（只需 21 卢比/天）",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "（只需 13 卢比/天）",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "（只需 8 卢比/天）",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ 周",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/月",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/年",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "适合偶尔使用",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "大多数用户选择此计划",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "为高级用户提供最佳价值",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "最受欢迎",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "最超值 - 2 个月免费",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 评级 • 🔒 安全付款 • ✔️ 随时取消",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "您是无力订阅的学生或研究人员吗？请发送电子邮件至keshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "已经有许可证密钥？",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "输入许可证密钥...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "激活",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "每周重写 140 次",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "解锁批量重写",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "高级设置访问",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive、Dropbox 同步",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "高级主题",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "智能文件夹组织",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "无广告体验",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "每月 600 次重写",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "每年 9,000 次重写",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "其他扩展 50% 折扣",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "优先电子邮件支持",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "导出格式",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "免费计划仅提供 PDF 导出功能。请升级到专业版/高级版以解锁其他导出格式。",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "文件名格式",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "选择导出文件的命名方式。",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "重写历史记录 - 日期（例如 RewriteHistory_2026-06-23）",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "自定义标题",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "输入自定义文件名...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "导出本地文件",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "保存到 Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "保存到 Google 云端硬盘☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "云备份仅适用于付费计划。请升级到专业版/高级版。",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox 身份验证已取消。",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "无法获取 Dropbox 访问令牌。",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google 云端硬盘身份验证失败。",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google 云端硬盘上传失败：",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API 错误",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "未找到可导出的历史记录。",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "历史记录格式精美并复制到剪贴板！",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "历史记录安全保存到您的 Dropbox！",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "历史记录安全保存到您的 Google 云端硬盘！",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "导出完成！",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "用人工智能重写",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "人工智能重写",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "关闭",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "原文",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "选择一种模式来重写...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "更换",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "复制",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ 已复制",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ 重试",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "保存",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "免费计划仅提供“改进”模式。请升级至专业版以解锁全部 13 种模式。",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "免费计划仅提供“改进”模式。请升级到 Pro/Premium 以解锁全部 13 种重写模式。",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI重写命令面板",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ 免费计划（自定义提示已锁定）",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "自定义提示已锁定在免费计划上...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "例如为 LinkedIn 重写，使其具有说服力......",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "免费计划仅提供“改进”模式。请升级到专业版/高级版以解锁所有功能。",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "免费计划仅提供“改进”模式。请升级到专业版/高级版以解锁所有模式。",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋历史",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ 设置",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "还没有重写。",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "突出显示任何页面上的文本，然后单击 ✨ 开始。",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "原文：",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ 重写：",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "加载更多",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "账户",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "今天重写",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "重置",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "活跃 ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "人工智能引擎",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI重写引擎",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "如何重写网站上的文本？",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "只需突出显示或选择任何网页上的任何文本即可。浮动魔棒按钮（“✨”）将自动出现在您的光标附近。单击此图标将打开交互式重写弹出窗口，您可以在其中选择重写语气（例如改进、语法、专业、休闲、扩展或缩短），让 AI 为您重写内容。您还可以通过命令面板快捷方式（Windows/Linux 上的Ctrl+Shift+P或 macOS 上的Cmd+Shift+P）触发该界面。",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "支持哪些AI模型？",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "我们目前支持最先进的法学硕士，包括 OpenAI 的 GPT（例如 GPT-4o-mini）、Google 的 Gemini、Anthropic 的 Claude 和 Groq 开源模型（例如 Llama 3），以实现高性能、快如闪电的文本处理。",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "我的数据安全吗？",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "是的，隐私是核心优先事项。我们仅处理您选择重写的特定文本。文本被安全地传输到我们的后端 API 以执行请求。我们不会将您的文本日志历史记录长期存储在我们的服务器上，也不会与第三方共享或使用它来训练人工智能模型。此外，该扩展程序在沙盒环境中运行，以确保您的个人浏览历史记录受到保护。",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "免费计划和专业计划有什么区别？",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "免费计划每天提供 5 次重写，仅限于“改进”语气和“PDF”下载/导出格式。 Dropbox 和 Google Drive 集成也被锁定。付费计划（每周、每月专业版和每年终极版）可解锁所有 6 种铃声、所有 6 种下载格式（PDF、Markdown、TXT、IMG、JSON 和剪贴板复制）以及云备份集成，提供优质、无限制的体验。",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "为什么某些重写音调、导出格式和云备份被锁定在免费计划中？",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "运行最先进的人工智能模型（例如 GPT-4o-mini、Gemini 和 Claude）和管理云同步需要大量的服务器基础设施、计算能力和每个操作的直接 API 成本。为了使我们的服务可持续发展，同时仍然提供功能齐全的免费选项，免费计划涵盖了基本要求（每日 5 次重写，带有“改进”语气和本地 PDF 生成）。订阅计划补贴高级音调（语法、专业、休闲、扩展、缩短）、云连接器（Dropbox、Google Drive）和多种格式导出（Markdown、TXT、IMG、JSON、COPY）的成本，确保我们能够支持高性能、主动更新和严格的隐私，无需广告。",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "如何激活我的许可证密钥？",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "完成订阅购买后，将您的许可证密钥粘贴到仪表板上“帐户和使用情况”页面底部的密钥验证字段中，然后单击“激活许可证”。您的帐户计划详细信息将立即在您的浏览器存储中更新。",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "这适用于 Google Docs 或 Notion 吗？",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "是的，该扩展与流行的编辑器和富文本门户完全兼容，例如 Google Docs、Notion、Gmail、LinkedIn、Slack web 和 Twitter/X。如果自定义应用程序上禁用了浮动按钮，您可以使用命令面板键盘快捷键来重写您的选择。",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "我可以使用自己的 API 密钥吗？",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "为了提供无缝、即插即用的体验，所有 API 使用费用都包含在您的订阅计划中。目前，您不需要配置自己的 API 密钥。不过，我们计划在未来面向开发人员的更新中支持自定义用户 API 配置。",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "如何更改默认重写音？",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "您可以在此选项面板的“设置”选项卡中设置默认重写音。单击魔棒图标时，保存您的首选项将自动默认为该音调，但您仍然可以在需要时在弹出窗口中切换音调。",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "为什么浮动按钮有时不出现？",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "魔棒按钮需要最小选择文本长度，以防止意外重叠。此外，标准浏览器安全策略严格阻止某些特权页面上的内容注入，例如 Chrome Web Store (chrome.google.com) 和内部配置页面 (chrome://)。",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "我可以复制重写后的文本而不替换原始文本吗？",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "是的，在浮动重写弹出窗口中，您可以单击“复制”图标。这会将新重写的版本直接复制到剪贴板，使您可以将其粘贴到您喜欢的任何位置，而不会替换或影响网页上的原始内容。",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "我如何取消我的订阅？",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "您可以随时通过单击购买确认电子邮件中提供的客户计费门户链接来管理或取消您的订阅。如果您找不到该电子邮件，请通过keshoraai@gmail.com联系我们，我们将为您提供帮助。",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "“展开”音有什么作用？",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "“扩展”语气使用生成智能来构建和详细说明您选择的文本，为简短的想法、要点或短语添加丰富的细节、上下文和正确的语法结构，同时保持原始意图完整。",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "你们提供学生折扣吗？",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "是的，我们支持学生、教育工作者和学术研究人员。我们为所有付费订阅计划提供 30% 的折扣。使用您的学校或大学的官方电子邮件地址（.edu 或学术域名）发送电子邮件至keshoraai@gmail.com来请求您的折扣代码。",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "是否有批量重写选项？",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "是的，高级用户可以使用批量重写。您可以打开扩展侧面板并粘贴整个文档或段落以一次性修改它们，而不是选择单个片段。",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "如何报告错误？",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "您可以通过电子邮件将错误报告直接发送给我们的支持团队：keshoraai@gmail.com。单击“帐户和使用情况”选项卡中的帮助小部件将预先填充包含扩展详细信息的支持模板，以帮助我们诊断问题。",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "为什么会显示“超出配额”？",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "“超出配额”警告意味着您已消耗了计划有效周期内分配的使用量：免费用户每天只能重写 5 次；每周用户获得 140 次重写；每月 Pro 用户可获得 600 次重写；每年 Ultimate 用户可获得 9,000 次重写。配额根据周期自动重置（当地时间每天午夜，或按周/月/年滚动边界）。您可以在“帐户和使用情况”页面升级到更高级别以立即恢复服务。",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "正在导出…",
+    "description": "Locale key: exportingStatus"
+  }
+}

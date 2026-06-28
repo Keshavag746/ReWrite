@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Кез келген жерде қайта жазу - AI мәтінді қайта жазу",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Мәтінді кез келген жерде бөлектеңіз. AI көмегімен бірден қайта жазыңыз.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI қайта жазу пәрмендер палитрасын ашыңыз",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Қайта жазу →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Жазуды жетілдіріңіз",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Грамматиканы түзетіңіз",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Кәсіби болыңыз",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Дос болыңыз",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Ресми түрде жасаңыз",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Кездейсоқ жасаңыз",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Сендіруді жасаңыз",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Өзіңізге сенімді болыңыз",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Адамгершілік",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Арнаулы сұрау...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Жақсарту",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Грамматика",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Кәсіби",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Достық",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Ресми",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Кездейсоқ",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Сендіруші",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Сенімді",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Қысқарту",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Кеңейту",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Жеңілдетіңіз",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Адамгершілік",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Арнайы",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Жүктелуде...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Мәтінді кез келген жерде қайта жазыңыз",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI көмегімен кез келген веб-сайтта мәтінді қайта жазуды бастау үшін Google жүйесіне кіріңіз.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Жүйеге кіру...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google арқылы жүйеге кіріңіз",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Тегін",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Күнделікті қолдану",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(шексіз)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Кез келген бетте мәтінді таңдаңыз → қайта жазу үшін ✨ түймесін басыңыз. НемесеCtrl+Shift+Kтүймесін басыңыз",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Тарих пен параметрлерді ашыңыз",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Шығу",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Жүйеге кіру сәтсіз аяқталды",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Қайта жазу сәтсіз аяқталды",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Бұл бөлім қазір салынып жатыр.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Параметрлерді көру үшін жүйеге кіріңіз.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Тіркелгі және пайдалану",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Тарихты қайта жазу",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Параметрлер",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Жүктеп алу",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Анықтама және жиі қойылатын сұрақтар",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI қайта жазу бақылау тақтасы",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Жалпы конфигурация",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Интерфейс тақырыбы",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Қараңғы режим",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Жарық режимі",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Әдепкі қайта жазу үні",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Барлық тарихты өшіріңіз",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Әзірге қайта жазулар жоқ",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Кез келген беттегі мәтінді бөлектеп, бастау үшін ✨ түймесін басыңыз. Тарихыңыз осы жерде пайда болады.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Осы қайта жазу тарихы элементін шынымен жойғыңыз келе ме?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Қайта жазу тарихын толығымен жойғыңыз келетініне сенімдісіз бе? Бұл әрекетті қайтару мүмкін емес.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Элементті жою мүмкін болмады:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Тарихты тазалау мүмкін болмады:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Түпнұсқа мәтін",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Қайта жазылған мәтін",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Жою",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Қайта жазылған көшірме",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Көшірілген!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Ескі қайта жазуларды жүктеңіз",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Қолдау және іскерлік сұраулар",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Хабарласыңыз:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Жиі қойылатын сұрақтар",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Анықтама немесе қате туралы хабарлау үшін",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Электрондық поштаkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Күнделікті тегін лимит",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Тегін деңгей: күніне 5 қайта жазу. Күнделікті түн ортасында қалпына келтіріледі.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Мәтінді кез келген жерде шектеусіз қайта жазыңыз.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Топтама барлық мазмұнды қайта жазыңыз. Бұлтқа синхрондау. Ешқандай шектеулер жоқ.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ерте қолданушы ұсынысы: 500 Premium пайдаланушысы үшін келесі баға өсімі. Бұл тарифті өмір бойы құлыптаңыз!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 АҚШ нарығы ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Үнді нарығы (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "АҚШ доллары төлемдері қазіргі уақытта қолдау көрсетуде. Үнді нарығы (₹) жоспарына ауысыңыз немесе көмек алу үшінkeshoraai@gmail.comмекенжайы бойынша бізге хабарласыңыз.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Апта сайын",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Тәулігіне небәрі 57¢)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Ай сайын ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Тәулігіне небәрі 33¢)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Жыл сайын 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Тәулігіне небәрі 21¢)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Тәулігіне бар болғаны ₹21)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Тәулігіне бар болғаны ₹13)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Тәулігіне бар болғаны ₹8)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/апта",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ай",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ жыл",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Кездейсоқ пайдалануға жақсы",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Көптеген пайдаланушылар осы жоспарды таңдайды",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Қуатты пайдаланушылар үшін ең жақсы баға",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "ЕҢ ТАНЫМАЛ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ҮЗДІК ҚҰН - 2 АЙ ТЕГІН",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 рейтингі • 🔒 Қауіпсіз төлемдер • ✔️ Кез келген уақытта бас тарту",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Жазылымға қол жеткізе алмайтын студент немесе зерттеушісіз бе?keshoraai@gmail.comэлектрондық поштасын жіберіңіз",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Лицензия кілті әлдеқашан бар ма?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Лицензия кілтін енгізіңіз...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Іске қосу",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "Аптасына 140 қайта жазу",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Жаппай қайта жазудың құлпын ашыңыз",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Премиум параметрлерге қол жеткізу",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Премиум тақырыптар",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Ақылды қалта ұйымы",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Жарнамасыз тәжірибе",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "Айына 600 қайта жазу",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "Жылына 9 000 қайта жазу",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Басқа кеңейтімдерге 50% жеңілдік",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Басымдық электрондық поштаны қолдау",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Экспорт пішімі",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Тегін жоспарда тек PDF экспорты қолжетімді. Басқа экспорт пішімдерінің құлпын ашу үшін Pro/Premium нұсқасына жаңартыңыз.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Файл атауы пішімі",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Экспортталған файлдар қалай аталатынын таңдаңыз.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Тарихты қайта жазу - күні (мысалы, RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Теңшелетін тақырып",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Арнаулы файл атауын енгізіңіз...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Жергілікті файлды экспорттау",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox-қа сақтаңыз 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google Drive-қа сақтаңыз ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Бұлттық сақтық көшірме тек ақылы жоспарларда қолжетімді. Pro/Premium нұсқасына жаңартыңыз.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox аутентификациясы тоқтатылды.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox кіру таңбалауышын алу сәтсіз аяқталды.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive аутентификациясы орындалмады.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive жүктеп салу сәтсіз аяқталды:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API қатесі",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Экспортталатын тарих табылмады.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Тарих әдемі пішімделген және алмасу буферіне көшірілген!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Тарих Dropbox-қа қауіпсіз сақталды!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Тарих Google Drive-қа қауіпсіз түрде сақталды!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Экспорттау аяқталды!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI көмегімен қайта жазыңыз",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI қайта жазу",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Жабу",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Түпнұсқа мәтін",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Қайта жазу үшін режимді таңдаңыз...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Ауыстыру",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Көшіру",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Көшірілген",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Қайталап көріңіз",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Сақтау",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Тегін жоспарда тек «Жақсарту» режимі қол жетімді. Барлық 13 режимнің құлпын ашу үшін Pro нұсқасына жаңартыңыз.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Тегін жоспарда тек «Жақсарту» режимі қол жетімді. Барлық 13 қайта жазу режимінің құлпын ашу үшін Pro/Premium нұсқасына жаңартыңыз.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI қайта жазу пәрмендер палитрасы",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Тегін жоспар (арнаулы сұраулар құлыпталған)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Теңшелетін сұрау тегін жоспарда құлыпталған...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "мысалы LinkedIn үшін қайта жазыңыз, оны нанымды етіңіз...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Тегін жоспарда тек «Жақсарту» режимі қол жетімді. Барлық мүмкіндіктердің құлпын ашу үшін Pro/Premium нұсқасына жаңартыңыз.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Тегін жоспарда тек «Жақсарту» режимі қол жетімді. Барлық режимдердің құлпын ашу үшін Pro/Premium нұсқасына жаңартыңыз.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Тарих",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Параметрлер",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Әзірге қайта жазулар жоқ.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Кез келген беттегі мәтінді бөлектеп, бастау үшін ✨ түймесін басыңыз.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Түпнұсқа:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Қайта жазылған:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Көбірек жүктеңіз",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Есептік жазба",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Бүгін қайта жазады",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Қалпына келтіреді",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Белсенді ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI қозғалтқышы",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI қайта жазу қозғалтқышы",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Веб-сайттағы мәтінді қалай қайта жазуға болады?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Кез келген веб-беттегі кез келген мәтінді жай бөлектеңіз немесе таңдаңыз. Жүгіргіңіздің жанында қалқымалы сиқырлы таяқша түймесі ('✨') автоматты түрде пайда болады. Осы белгішені басу интерактивті қайта жазу қалқымалы терезесін ашады, онда AI сізге мазмұнды қайта жазуға мүмкіндік беру үшін қайта жазу үнін (Жақсарту, Грамматика, Кәсіби, Кездейсоқ, Кеңейту немесе Қысқарту сияқты) таңдауға болады. Сондай-ақ интерфейсті пәрмендер палитрасы таңбашасы арқылы іске қосуға болады (Windows/Linux жүйесіндеCtrl+Shift+Pнемесе macOS жүйесіндеCmd+Shift+P).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Қандай AI үлгілеріне қолдау көрсетіледі?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Біз қазіргі уақытта жоғары өнімді, найзағайдай жылдам мәтінді өңдеуге арналған OpenAI GPT (мысалы, GPT-4o-mini), Google Gemini, Anthropic's Claude және Groq ашық бастапқы код үлгілерін (мысалы, Llama 3) қоса алғанда, заманауи LLM-ге қолдау көрсетеміз.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Менің деректерім қауіпсіз бе?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Иә, құпиялылық - басты басымдық. Қайта жазу үшін таңдаған нақты мәтінді ғана өңдейміз. Сұрауды орындау үшін мәтін серверлік API интерфейсіне қауіпсіз жіберіледі. Біз сіздің мәтін журналының тарихын серверлерімізде ұзақ мерзімді сақтамаймыз, оны үшінші тараптармен бөліспейміз немесе оны AI үлгілерін үйрету үшін пайдаланбаймыз. Сонымен қатар, кеңейтім жеке шолу журналының қорғалғанын қамтамасыз ету үшін құм жәшігінде жұмыс істейді.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Тегін және Pro жоспарларының айырмашылығы неде?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Тегін жоспар тәулігіне 5 қайта жазуды қамтамасыз етеді, тек «Жақсарту» үнімен және «PDF» жүктеп алу/экспорттау пішімімен шектеледі. Dropbox және Google Drive интеграциялары да құлыпталған. Ақылы жоспарлар (Апталық, Айлық Pro және Жылдық Ultimate) барлық 6 тонды, барлық 6 жүктеп алу пішімдерін (PDF, Markdown, TXT, IMG, JSON және алмасу буферінің көшірмесі) және премиум, шектеусіз тәжірибе үшін бұлттық сақтық көшірме интеграцияларының құлпын ашады.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Неліктен белгілі бір қайта жазу үндері, экспорт пішімдері және бұлттық сақтық көшірмелер Тегін жоспарда құлыпталған?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Соңғы үлгідегі AI үлгілерін (мысалы, GPT-4o-mini, Gemini және Claude) іске қосу және бұлтты синхрондауды басқару әр әрекет үшін айтарлықтай сервер инфрақұрылымын, есептеу қуатын және тікелей API шығындарын талап етеді. Толық жұмыс істейтін тегін опцияны ұсына отырып, қызметімізді тұрақты ету үшін Тегін жоспар негізгі талаптарды қамтиды («Жақсарту» үнімен күнделікті 5 қайта жазу және жергілікті PDF құру). Жазылым жоспарлары жоғары өнімділікті, белсенді жаңартуларды және жарнамасыз қатаң құпиялылықты қолдауды қамтамасыз ете отырып, премиум тондар (Грамматика, кәсіби, кездейсоқ, кеңейту, қысқарту), бұлттық қосқыштар (Dropbox, Google Drive) және бірнеше форматты экспорттау (Markdown, TXT, IMG, JSON, COPY) шығындарын субсидиялайды.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Лицензия кілтін қалай белсендіремін?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Жазылымды сатып алуды аяқтағаннан кейін бақылау тақтасындағы «Тіркелгі және пайдалану» бетінің төменгі жағындағы кілтті тексеру өрісіне лицензия кілтін қойып, «Лицензияны белсендіру» түймесін басыңыз. Есептік жазба жоспарының мәліметтері браузер жадында бірден жаңартылады.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Бұл Google Docs немесе Notion жүйесінде жұмыс істей ме?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Иә, кеңейтім Google Docs, Notion, Gmail, LinkedIn, Slack web және Twitter/X сияқты танымал редакторлармен және бай мәтіндік порталдармен толық үйлесімді. Теңшелетін қолданбада қалқымалы түйме өшірілген болса, таңдауды қайта жазу үшін Пәрмендер палитрасы пернелер тіркесімін пайдалануға болады.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Мен өз API кілтімді пайдалана аламын ба?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Үздіксіз, қосу және ойнату тәжірибесін қамтамасыз ету үшін барлық API пайдалану шығындары жазылым жоспары аясында толығымен жабылады. Қазіргі уақытта өзіңіздің API кілттеріңізді конфигурациялаудың қажеті жоқ. Дегенмен, біз болашақ әзірлеушіге бағытталған жаңартуда пайдаланушы API конфигурацияларына қолдау көрсетуді жоспарлап отырмыз.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Әдепкі қайта жазу үнін қалай өзгертуге болады?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Әдепкі қайта жазу үнін осы опциялар тақтасының Параметрлер қойындысында орнатуға болады. Таңдауыңызды сақтау сиқырлы таяқша белгішесін басқан кезде автоматты түрде әдепкі бойынша сол үнге айналады, дегенмен қажет кезде қалқымалы терезеде үндерді ауыстыра аласыз.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Неліктен қалқымалы түйме кейде пайда болмайды?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Сиқырлы таяқша түймесі кездейсоқ қабаттасуды болдырмау үшін мәтіннің ең аз таңдау ұзындығын қажет етеді. Бұған қоса, стандартты шолғыш қауіпсіздік саясаттары Chrome Web Store (chrome.google.com) және ішкі конфигурация беттері (chrome://) сияқты белгілі бір артықшылықты беттердегі мазмұнды енгізуді қатаң түрде бұғаттайды.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Түпнұсқаны ауыстырмай қайта жазылған мәтінді көшіруге бола ма?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Иә, қалқымалы қайта жазу қалқымалы терезесінде «Көшіру» белгішесін басуға болады. Бұл жаңадан жазылған нұсқаны тікелей алмасу буферіне көшіреді, бұл веб-беттегі бастапқы мазмұнды ауыстырмай немесе оған әсер етпей, оны қалаған жеріңізге қоюға мүмкіндік береді.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Жазылымнан қалай бас тартамын?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Сатып алуды растау электрондық поштасында берілген тұтынушы төлем порталының сілтемесін басу арқылы жазылымды кез келген уақытта басқаруға немесе бас тартуға болады. Электрондық поштаны таба алмасаңыз,keshoraai@gmail.comмекенжайы бойынша бізге хабарласыңыз, біз сізге көмектесеміз.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "«Кеңейту» үні не істейді?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "\"Кеңейту\" үні таңдалған мәтінді құрастыру және өңдеу үшін генеративті интеллектті пайдаланады, бастапқы ниетті сақтай отырып, қысқа ойларға, таңбаша нүктелеріне немесе сөз тіркестеріне бай мәліметтерді, контекстті және дұрыс грамматикалық құрылымды қосады.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Студенттік жеңілдік ұсынасыз ба?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Иә, біз студенттерді, оқытушыларды және академиялық зерттеушілерді қолдаймыз. Біз барлық ақылы жазылым жоспарлары бойынша 30% жеңілдік ұсынамыз. Жеңілдік кодын сұрау үшін бізге ресми мектеп немесе университет электрондық пошта мекенжайы (.edu немесе академиялық домен) арқылыkeshoraai@gmail.comэлектрондық поштасына жіберіңіз.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Жаппай қайта жазу мүмкіндігі бар ма?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Иә, премиум деңгейдегі пайдаланушылар жаппай қайта жазуды пайдалана алады. Жеке сегменттерді таңдаудың орнына кеңейтім бүйірлік тақтасын ашып, оларды бір әрекетте өзгерту үшін бүкіл құжаттарды немесе абзацтарды қоюға болады.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Қате туралы қалай хабарлауға болады?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Қате туралы есептердіkeshoraai@gmail.comмекенжайы бойынша тікелей қолдау көрсету тобына жіберуге болады. «Тіркелгі және пайдалану» қойындысындағы анықтама виджетін басу мәселені диагностикалауға көмектесу үшін кеңейтім мәліметтерін қамтитын қолдау үлгісін алдын ала толтырады.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Неліктен «Квота асып кетті» деп жазылған?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "«Квота асып кетті» ескертуі сіздің жоспарыңыздың белсенді циклі үшін бөлінген пайдалануды тұтынғаныңызды білдіреді: Тегін пайдаланушылар күнделікті 5 қайта жазумен шектеледі; Апталық пайдаланушылар 140 қайта жазуды алады; Ай сайынғы Pro пайдаланушылары 600 қайта жазуды алады; және Yearly Ultimate пайдаланушылары 9 000 қайта жазуды алады. Квоталар цикл негізінде автоматты түрде қалпына келтіріледі (жергілікті уақыт бойынша күн сайын түн ортасында немесе апталық/айлық/жылдық шекаралар бойынша). Қызметті бірден жалғастыру үшін \"Тіркелгі және пайдалану\" бетінде жоғарырақ деңгейге дейін жаңартуға болады.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Экспорттау",
+    "description": "Locale key: exportingStatus"
+  }
+}

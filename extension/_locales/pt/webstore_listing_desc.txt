@@ -1,0 +1,44 @@
+✨ Reescreva texto em qualquer lugar da web instantaneamente usando IA de última geração.
+
+Cansado de copiar e colar texto em janelas de bate-papo para corrigir sua escrita? Com o AI Rewrite Anywhere, você pode destacar ou selecionar qualquer texto em qualquer site (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X e mais) e reescrevê-lo instantaneamente.
+
+Alimentada por uma cadeia de fallback de IA inteligente usando grandes modelos de linguagem de primeira linha (incluindo OpenAI GPT, Google Gemini, Anthropic Claude e Groq open-source Llama), a extensão garante tempo de atividade máximo e respostas extremamente rápidas, roteando automaticamente solicitações para o próximo provedor disponível se houver uma interrupção de serviço.
+
+🚀 RECURSOS PRINCIPAIS:
+- 🖱️ Destacar e reescrever: basta destacar o texto em qualquer página da web. Um botão flutuante de varinha mágica aparece próximo ao cursor. Clique nele para reescrever instantaneamente.
+- 🖱️ Integração do menu de contexto: clique com o botão direito em qualquer seleção para acessar 13 modos de reescrita distintos diretamente do menu de contexto do navegador.
+- ⌨️ Paleta de comandos (Ctrl+Shift+K): Abra uma interface rápida centrada no teclado para digitar prompts personalizados ou acionar predefinições rápidas sem tocar no mouse.
+- 📋 Histórico e configurações completos de reescrita: acesse um belo painel lateral para revisar reescritas anteriores, exportar logs em vários formatos e configurar preferências.
+- 🔄 Fallback de IA contínuo: aproveite um serviço ininterrupto. Se o modelo primário falhar, a extensão muda automaticamente para o próximo modelo disponível de forma transparente.
+- 🔐 Login seguro do Google: autenticação rápida e protegida que sincroniza suas configurações entre dispositivos com segurança.
+
+🎯 13 MODOS DE REESCRITA DINÂMICA:
+1. Melhorar: Estrutura e vocabulário da escrita polonesa automaticamente.
+2. Gramática: corrija erros de ortografia, pontuação e sintaxe.
+3. Profissional: Eleve seu idioma para correspondência profissional.
+4. Amigável: adicione cordialidade e acessibilidade às suas mensagens.
+5. Formal: Ajuste o fraseado para documentos oficiais e cartas comerciais.
+6. Casual: Crie textos descontraídos e coloquiais para ambientes sociais.
+7. Persuasivo: estruture ideias para convencer, apresentar ou comercializar de forma eficaz.
+8. Confiante: Segurança do projeto, autoridade e forte convicção.
+9. Encurtar: Condense parágrafos longos em destaques concisos.
+10. Expanda: elogue e desenvolva tópicos ou frases curtas.
+11. Simplifique: traduza jargões ou pensamentos complexos em uma linguagem clara e legível.
+12. Humanizar: reestruture os rascunhos de IA robótica para ler naturalmente.
+13. Prompt personalizado: digite exatamente o que deseja que a IA faça com a seleção.
+
+📂 FORMATOS DE EXPORTAÇÃO PREMIUM:
+Exporte seu histórico de reescrita localmente ou sincronize diretamente com serviços em nuvem:
+- PDF (gratuito e premium)
+- Remarcação (MD)
+-Texto
+- Imagem (IMG)
+- JSON
+- Cópia da área de transferência
+- Integração na nuvem: salve diretamente no Dropbox ou Google Drive.
+
+🔒 PRIVACIDADE E SEGURANÇA POR DESIGN:
+A privacidade é o nosso principal compromisso. Processamos apenas o texto específico que você seleciona para reescrita ativa. Sua seleção é transmitida com segurança por meio de criptografia SSL para nossa API de back-end para realizar a solicitação e não é armazenada por longo prazo em nossos servidores. Seu histórico de navegação pessoal está totalmente protegido.
+
+📧 CONTATO E SUPORTE:
+Tem dúvidas, sugestões ou relatórios de bugs? Contate-nos diretamente emkeshoraai@gmail.com. Estamos comprometidos com atualizações regulares e solicitações de recursos!

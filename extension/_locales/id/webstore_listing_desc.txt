@@ -1,0 +1,44 @@
+✨ Tulis ulang teks di mana saja di web secara instan menggunakan AI tercanggih.
+
+Bosan menyalin dan menempelkan teks ke jendela obrolan untuk memperbaiki tulisan Anda? Dengan AI Rewrite Anywhere, Anda dapat menyorot atau memilih teks apa pun di situs web mana pun (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, dan lainnya) dan menulis ulang secara instan.
+
+Didukung oleh rantai cadangan AI cerdas yang menggunakan model bahasa besar tingkat atas (termasuk OpenAI GPT, Google Gemini, Anthropic Claude, dan Llama sumber terbuka Groq), ekstensi ini memastikan waktu aktif maksimum dan respons secepat kilat dengan secara otomatis merutekan permintaan ke penyedia berikutnya yang tersedia jika ada gangguan layanan.
+
+🚀 FITUR UTAMA:
+- 🖱️ Sorot & Tulis Ulang: Cukup sorot teks di halaman web mana pun. Tombol tongkat ajaib mengambang muncul di dekat kursor Anda. Klik untuk menulis ulang secara instan.
+- 🖱️ Integrasi Menu Konteks: Klik kanan pilihan mana pun untuk mengakses 13 mode penulisan ulang yang berbeda langsung dari menu konteks browser.
+- ⌨️ Palet Perintah (Ctrl+Shift+K): Buka antarmuka cepat yang berpusat pada keyboard untuk mengetik perintah khusus atau memicu preset cepat tanpa menyentuh mouse.
+- 📋 Riwayat & Pengaturan Penulisan Ulang Lengkap: Akses panel samping dasbor yang indah untuk meninjau penulisan ulang sebelumnya, mengekspor log dalam berbagai format, dan mengonfigurasi preferensi.
+- 🔄 Penggantian AI Tanpa Batas: Nikmati layanan tanpa gangguan. Jika model utama gagal, ekstensi secara otomatis beralih ke model berikutnya yang tersedia secara transparan.
+- 🔐 Masuk dengan Google Aman: Autentikasi cepat dan terlindungi yang menyinkronkan pengaturan Anda di seluruh perangkat dengan aman.
+
+🎯 13 MODE PENULISAN ULANG DINAMIS:
+1. Meningkatkan: Struktur penulisan dan kosakata bahasa Polandia secara otomatis.
+2. Tata Bahasa: Memperbaiki kesalahan ejaan, tanda baca, dan sintaksis.
+3. Profesional: Tingkatkan bahasa Anda untuk korespondensi profesional.
+4. Ramah: Tambahkan kehangatan dan kemudahan untuk didekati pada pesan Anda.
+5. Formal: Sesuaikan frasa untuk dokumen resmi dan surat bisnis.
+6. Santai: Buat teks percakapan yang santai untuk suasana sosial.
+7. Persuasif: Menyusun ide untuk meyakinkan, melakukan promosi, atau memasarkan secara efektif.
+8. Percaya Diri : Kepastian proyek, wibawa, dan keyakinan yang kuat.
+9. Persingkat: Padatkan paragraf yang panjang menjadi sorotan yang ringkas.
+10. Perluas: Ucapkan dengan jelas dan kembangkan poin-poin atau frasa-frasa singkat.
+11. Sederhanakan: Terjemahkan jargon atau pemikiran kompleks ke dalam bahasa yang jelas dan mudah dibaca.
+12. Memanusiakan: Merestrukturisasi draf robot AI agar terbaca secara alami.
+13. Prompt Kustom: Ketikkan apa yang Anda ingin AI lakukan dengan pilihan tersebut.
+
+📂 FORMAT EKSPOR PREMIUM:
+Ekspor riwayat penulisan ulang Anda secara lokal atau sinkronkan langsung ke layanan cloud:
+- PDF (Gratis & Premium)
+- Penurunan harga (MD)
+- TXT
+- Gambar (IMG)
+-JSON
+- Salinan Papan Klip
+- Integrasi Cloud: Simpan langsung ke Dropbox atau Google Drive.
+
+🔒 PRIVASI & KEAMANAN BERDASARKAN DESAIN:
+Privasi adalah komitmen utama kami. Kami hanya memproses teks tertentu yang Anda pilih untuk penulisan ulang aktif. Pilihan Anda dikirimkan dengan aman melalui enkripsi SSL ke API backend kami untuk melaksanakan permintaan dan tidak disimpan dalam jangka panjang di server kami. Riwayat penelusuran pribadi Anda sepenuhnya terlindungi.
+
+📧 KONTAK & DUKUNGAN:
+Punya pertanyaan, saran, atau laporan bug? Hubungi kami langsung dikeshoraai@gmail.com. Kami berkomitmen untuk pembaruan rutin dan permintaan fitur!

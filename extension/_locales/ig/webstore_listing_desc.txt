@@ -1,0 +1,44 @@
+✨ Degharịa ederede ebe ọ bụla na webụ ozugbo site na iji AI ọgbara ọhụrụ.
+
+Ike agwụla gị idegharị na mado ederede na windo nkata iji dozie ederede gị? Site na AI Rewrite ebe ọ bụla, ị nwere ike ime ka ọ pụta ìhè ma ọ bụ họrọ ederede ọ bụla na weebụsaịtị ọ bụla (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, na ndị ọzọ) wee degharịa ya ozugbo.
+
+Kwadoro site na yinye ọdịda AI mara mma site na iji ụdị asụsụ buru ibu nke elu-ọkwa (gụnyere OpenAI GPT, Google Gemini, Anthropic Claude na Groq open-source Llama), ndọtị ahụ na-eme ka oge kachasị elu na nzaghachi ọkụ ọkụ site na ịrịọ arịrịọ na-akpaghị aka nye onye na-eweta ya ma ọ bụrụ na mmadụ ezute nkwụsị ọrụ.
+
+🚀 Akụkụ dị mkpa:
+- 🖱️ Mee ka ọ pụta ìhè & degharịa: mee ka ọ pụta ìhè naanị ederede na ibe weebụ ọ bụla. Bọtịnụ wand anwansi na-ese n'elu mmiri na-egosi n'akụkụ cursor gị. Pịa ya ka idegharị ozugbo.
+- 🖱️ Njikọ Menu Context: Pịa aka nri nhọrọ ọ bụla iji nweta ụdị ndegharị 13 dị iche ozugbo site na nchịkọta ihe nchọgharị ahụ.
+- ⌨️ Palette Command (Ctrl+Shift+K): Mepee ngwa ngwa na-ahụ maka ahụigodo-centric interface iji pịnye ngwa ngwa ma ọ bụ kpalite presets ngwa ngwa na-enweghị imetụ òké ahụ aka.
+- 📋 Akụkọ ndekọ na ntọala zuru ezu: Nweta akụkụ akụkụ dashboard mara mma iji nyochaa ndegharị gara aga, ndekọ mbupụ n'ọtụtụ usoro, wee hazie mmasị.
+- 🔄 AI Fallback na-enweghị ntụpọ: Nwee obi ụtọ ọrụ anaghị akwụsị akwụsị. Ọ bụrụ na ụdị nke mbụ ada ada, ndọtị ahụ ga-agbanwe na-akpaghị aka gaa na ụdị ọzọ dị n'ụzọ doro anya.
+- 🔐 Chekwaa nbanye Google: Ngwa ngwa, njirimara echedoro nke na-emekọrịta ntọala gị n'ofe ngwaọrụ n'enweghị nsogbu.
+
+🎯 13 DYNAMIC Edegharịa ụdịdị:
+1. Melite: nhazi ederede na okwu okwu na-akpaghị aka.
+2. Ụtọ Ụtọ Ụtọ Ụtọ: Ezi mkpoputa, akara edemede na njehie syntax ziri ezi.
+3. Ọkachamara: welie asụsụ gị elu maka akwụkwọ ozi ndị ọkachamara.
+4. Enyi na enyi: Tinye ịhụnanya na ịbịaru nso na ozi gị.
+5. Formal: Gbanwee nkebiokwu maka akwụkwọ gọọmentị na akwụkwọ ozi azụmahịa.
+6. Casual: Mepụta izu ike, ederede mkparịta ụka maka ntọala mmekọrịta.
+7. Na-ekwenye ekwenye: Hazie echiche iji kwenye, ịkọ ụda, ma ọ bụ ahịa nke ọma.
+8. Ntụkwasị obi: Nzube oru ngo, ikike, na nkwenye siri ike.
+9. Kpebisie ike: Kpochie paragraf ndị dị ogologo ka ọ bụrụ nkọwa dị nkenke.
+10. Gbasawanye: Kwupụta ma wuo n'isi obere mgbọ ma ọ bụ nkebiokwu.
+11. Mee ka ọ dị mfe: Tụgharịa asụsụ jargon ma ọ bụ echiche mgbagwoju anya ka ọ bụrụ asụsụ doro anya, enwere ike ịgụ.
+12. Humanize: Megharia robotic AI drafts ka ọ na-agụ ndammana.
+13. Nkwado omenala: Pịnye kpọmkwem ihe ịchọrọ ka AI mee na nhọrọ ahụ.
+
+📂 PREMIUM EXPORT FORMATS:
+Bupụ akụkọ ndegharị gị na mpaghara ma ọ bụ mekọrịta ozugbo na ọrụ igwe ojii:
+- PDF (N'efu na adịchaghị)
+- Markdown (MD)
+- TXT
+- Foto (IMG)
+- JSON
+- Mpempe akwụkwọ mpịakọta
+- Ngwakọta igwe ojii: Chekwa ozugbo na Dropbox ma ọ bụ Google Drive.
+
+🔒 Nzuzo & Nchekwa site n'ichepụta:
+Nzuzo bụ isi nkwa anyị. Anyị na-ahazi naanị ederede akọwapụtara nke ị họọrọ maka idegharị arụ ọrụ. A na-ebufe nhọrọ gị n'enweghị nsogbu site na SSL ezoro ezo na API backend anyị iji mee arịrịọ ahụ ma anaghị echekwa ya ogologo oge na sava anyị. A na-echekwa akụkọ ihe nchọgharị nkeonwe gị kpamkpam.
+
+📧 Kpọtụrụ & Nkwado:
+Nwere ajụjụ, ntụnye, ma ọ bụ mkpesa ahụhụ? Kpọtụrụ anyị ozugbo nakeshoraai@gmail.com. Anyị na-agba mbọ na mmelite oge niile yana arịrịọ njirimara!

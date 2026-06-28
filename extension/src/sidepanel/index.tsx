@@ -41,14 +41,14 @@ const SidePanel: React.FC = () => {
       <div style={s.header}>
         <div style={s.title}>
           <span>✨</span>
-          <span>AI Rewrite Anywhere</span>
+          <span>{chrome.i18n.getMessage('appName')}</span>
         </div>
         <div style={s.tabs}>
           <button style={s.tab(activeTab === 'history')} onClick={() => setActiveTab('history')}>
-            📋 History
+            {chrome.i18n.getMessage('sidepanelHistoryTab')}
           </button>
           <button style={s.tab(activeTab === 'settings')} onClick={() => setActiveTab('settings')}>
-            ⚙️ Settings
+            {chrome.i18n.getMessage('sidepanelSettingsTab')}
           </button>
         </div>
       </div>

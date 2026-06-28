@@ -1,0 +1,44 @@
+✨ Okamžite prepíšte text kdekoľvek na webe pomocou najmodernejšej AI.
+
+Už vás nebaví kopírovať a vkladať text do okien rozhovoru, aby ste si opravili svoje písanie? Pomocou AI Rewrite Anywhere môžete zvýrazniť alebo vybrať ľubovoľný text na ľubovoľnom webe (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X a ďalšie) a okamžite ho prepísať.
+
+Rozšírenie poháňané inteligentným záložným reťazcom AI využívajúcim špičkové veľké jazykové modely (vrátane OpenAI GPT, Google Gemini, Anthropic Claude a Groq open-source Llama) zaisťuje maximálnu dostupnosť a bleskurýchle reakcie automatickým smerovaním požiadaviek k ďalšiemu dostupnému poskytovateľovi, ak dôjde k prerušeniu služby.
+
+🚀 KĽÚČOVÉ VLASTNOSTI:
+- 🖱️ Zvýraznenie a prepísanie: Jednoducho zvýraznite text na ľubovoľnej webovej stránke. V blízkosti kurzora sa zobrazí plávajúce tlačidlo kúzelnej paličky. Kliknutím naň okamžite prepíšete.
+- 🖱️ Integrácia kontextového menu: Kliknutím pravým tlačidlom myši na ľubovoľný výber získate prístup k 13 rôznym režimom prepisovania priamo z kontextového menu prehliadača.
+- ⌨️ Paleta príkazov (Ctrl+Shift+K): Otvorte rýchle rozhranie zamerané na klávesnicu na zadávanie vlastných výziev alebo spúšťanie rýchlych predvolieb bez dotyku myši.
+- 📋 Úplná história prepisov a nastavenia: Získajte prístup k nádhernému bočnému panelu ovládacieho panela, kde si môžete prezrieť predchádzajúce prepisy, exportovať protokoly vo viacerých formátoch a nakonfigurovať predvoľby.
+- 🔄 Bezproblémová AI Fallback: Užite si neprerušovanú službu. Ak primárny model zlyhá, rozšírenie sa automaticky transparentne prepne na ďalší dostupný model.
+- 🔐 Bezpečné prihlásenie cez Google: Rýchle a chránené overenie, ktoré bezpečne synchronizuje vaše nastavenia medzi zariadeniami.
+
+🎯 13 REŽIMOV DYNAMICKÉHO PREPISU:
+1. Zlepšenie: Poľská štruktúra písania a slovná zásoba automaticky.
+2. Gramatika: Opravte pravopisné, interpunkčné a syntaktické chyby.
+3. Profesionál: Zvýšte svoj jazyk na profesionálnu korešpondenciu.
+4. Priateľský: Dodajte svojim správam vrúcnosť a prístupnosť.
+5. Formálne: Upravte frázovanie pre oficiálne dokumenty a obchodné listy.
+6. Neformálne: Vytvorte uvoľnený, konverzačný text pre sociálne prostredie.
+7. Presvedčivé: Štruktúrujte nápady tak, aby ste ich presvedčili, prezentovali alebo predstavili efektívne.
+8. Sebavedomý: Istota projektu, autorita a silné presvedčenie.
+9. Skrátiť: Skrátiť dlhé odseky do stručných zvýraznení.
+10. Rozbaľte: Vyjadrujte sa a stavajte na krátkych odrážkach alebo frázach.
+11. Zjednodušte: Preložte žargón alebo zložité myšlienky do jasného a čitateľného jazyka.
+12. Humanizácia: Zmeňte štruktúru robotických návrhov AI na prirodzené čítanie.
+13. Vlastná výzva: Napíšte presne to, čo má AI urobiť s výberom.
+
+📂 PREMIUM EXPORTNÉ FORMÁTY:
+Exportujte svoju históriu prepisov lokálne alebo synchronizujte priamo s cloudovými službami:
+- PDF (zadarmo a Premium)
+- Markdown (MD)
+- TXT
+- Obrázok (IMG)
+- JSON
+- Kópia schránky
+- Integrácia cloudu: Uložte priamo na Dropbox alebo Disk Google.
+
+🔒 SÚKROMIE A BEZPEČNOSŤ PODĽA DIZAJNU:
+Ochrana osobných údajov je naším prvoradým záväzkom. Spracujeme iba konkrétny text, ktorý vyberiete na aktívne prepísanie. Váš výber je bezpečne prenášaný prostredníctvom šifrovania SSL do nášho backendového API na vykonanie požiadavky a nie je dlhodobo uložený na našich serveroch. Vaša osobná história prehliadania je úplne chránená.
+
+📧 KONTAKT A PODPORA:
+Máte otázky, návrhy alebo hlásenia chýb? Kontaktujte nás priamo nakeshoraai@gmail.com. Zaviazali sme sa k pravidelným aktualizáciám a požiadavkám na funkcie!

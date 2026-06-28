@@ -1,0 +1,44 @@
+✨ Tun ọrọ kọ nibikibi lori oju opo wẹẹbu lesekese ni lilo AI-ti-ti-aworan.
+
+Ṣe o bani o ti didakọ ati sisọ ọrọ sinu awọn window iwiregbe lati ṣatunṣe kikọ rẹ? Pẹlu AI Rewrite Nibikibi, o le ṣe afihan tabi yan ọrọ eyikeyi lori oju opo wẹẹbu eyikeyi (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, ati diẹ sii) ati tun kọ lesekese.
+
+Agbara nipasẹ pq ijapada AI ọlọgbọn kan nipa lilo awọn awoṣe ede nla ti ipele oke (pẹlu OpenAI GPT, Google Gemini, Anthropic Claude, ati Groq ìmọ-orisun Llama), ifaagun ṣe idaniloju akoko ti o pọju ati awọn idahun iyara-ina nipasẹ awọn ibeere lilọ kiri laifọwọyi si olupese atẹle ti o wa ti ẹnikan ba pade idalọwọduro iṣẹ kan.
+
+🚀 Awọn ẹya pataki:
+- 🖱️ Saami & Tun-kọ: Kan ṣe afihan ọrọ lori oju opo wẹẹbu eyikeyi. Bọtini wand idan lilefoofo han nitosi kọsọ rẹ. Tẹ ẹ lati tun kọ lesekese.
+- 🖱️ Isopọpọ Akojọ ọrọ: Tẹ-ọtun eyikeyi aṣayan lati wọle si awọn ipo atunko pato 13 taara lati inu akojọ ọrọ aṣawakiri naa.
+- ⌨️ Paleti Aṣẹ (Ctrl+Shift+K): Ṣii iyara kan, wiwo bọtini aarin-centric lati tẹ awọn itọsi aṣa tabi ṣe okunfa awọn tito tẹlẹ laifọwọkan asin naa.
+- 📋 Itan Atunkọ ni kikun & Awọn eto: Wọle si ẹgbẹ ẹgbẹ dasibodu ẹlẹwa lati ṣe atunyẹwo awọn atunko ti o kọja, awọn iforukọsilẹ okeere ni awọn ọna kika lọpọlọpọ, ati tunto awọn yiyan.
+- 🔄 Ipadabọ AI Ailopin: Gbadun iṣẹ ti ko ni idilọwọ. Ti awoṣe akọkọ ba kuna, itẹsiwaju yoo yipada laifọwọyi si awoṣe atẹle ti o wa ni gbangba.
+- 🔐 Wọle Google ni aabo: Iyara, ijẹrisi aabo ti o mu awọn eto rẹ ṣiṣẹpọ lori awọn ẹrọ lailewu.
+
+🎯 13 Awọn ọna Atunkọ DYNAMIC:
+1. Mu: Polish kikọ be ati fokabulari laifọwọyi.
+2. Giramu: Akọtọ ti o tọ, ami ifamisi, ati awọn aṣiṣe sintasi.
+3. Ọjọgbọn: Gbe ede rẹ ga fun ifọrọranṣẹ ọjọgbọn.
+4. Ore: Fi iferan ati isunmọ si awọn ifiranṣẹ rẹ.
+5. Formal: Ṣatunṣe awọn gbolohun ọrọ fun awọn iwe aṣẹ osise ati awọn lẹta iṣowo.
+6. Casual: Ṣẹda isinmi, ọrọ ibaraẹnisọrọ fun awọn eto awujọ.
+7. Persuasive: Awọn imọran igbekalẹ lati ṣe idaniloju, ipolowo, tabi ọja ni imunadoko.
+8. Igbẹkẹle: Idaniloju agbese, aṣẹ, ati idalẹjọ to lagbara.
+9. Kúrú: Ṣètò àwọn ìpínrọ̀ gígùn sínú àwọn kókó pàtàkì.
+10. Faagun: Elocute ati kọ lori awọn aaye ọta ibọn kukuru tabi awọn gbolohun ọrọ.
+11. Rọrun: Tumọ jargon tabi awọn ero ti o ni idiwọn si ede ti o ṣe kedere, ti o le ka.
+12. Humanize: Tunṣe roboti AI Akọpamọ lati ka nipa ti ara.
+13. Aṣa Tọ: Tẹ gangan ohun ti o fẹ AI lati ṣe pẹlu yiyan.
+
+📂 PREMIUM EXPORT FORMATS:
+Ṣe okeere itan atunkọ rẹ ni agbegbe tabi muṣiṣẹpọ taara si awọn iṣẹ awọsanma:
+- PDF (Ọfẹ ati Ere)
+- Markdown (MD)
+- TXT
+Aworan (IMG)
+- JSON
+- Apẹrẹ agekuru
+- Awọsanma Integration: Fipamọ taara si Dropbox tabi Google Drive.
+
+🔒 ASIRI & AABO NIPA Apẹrẹ:
+Aṣiri jẹ ifaramo akọkọ wa. A ṣe ilana ọrọ kan pato ti o yan fun atunkọ lọwọ. Aṣayan rẹ ti wa ni gbigbe lailewu nipasẹ fifi ẹnọ kọ nkan SSL si API ẹhin wa lati ṣe ibeere naa ko si ni ipamọ igba pipẹ lori olupin wa. Itan lilọ kiri ayelujara ti ara ẹni jẹ aabo patapata.
+
+📧 Olubasọrọ & Atilẹyin:
+Ni awọn ibeere, awọn didaba, tabi awọn ijabọ kokoro? Kan si wa taara nikeshoraai@gmail.com. A ṣe ileri si awọn imudojuiwọn deede ati awọn ibeere ẹya!

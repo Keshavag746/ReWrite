@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { RewriteHistoryItem, ChromeMessage, PaginatedHistory } from '../../shared/types/index';
-import { REWRITE_MODE_LABELS } from '../../shared/constants/rewriteModes';
 
 export const RewriteHistory: React.FC = () => {
   const [items, setItems] = useState<RewriteHistoryItem[]>([]);
@@ -71,9 +70,9 @@ export const RewriteHistory: React.FC = () => {
     return (
       <div style={{ textAlign: 'center' as const, color: '#8B8B9A', padding: '40px 20px' }}>
         <div style={{ fontSize: '32px', marginBottom: '12px' }}>📋</div>
-        <div>No rewrites yet.</div>
+        <div>{chrome.i18n.getMessage('sidepanelNoHistory')}</div>
         <div style={{ fontSize: '12px', marginTop: '8px' }}>
-          Highlight text on any page and click ✨ to get started.
+          {chrome.i18n.getMessage('sidepanelHighlightText')}
         </div>
       </div>
     );
@@ -85,7 +84,7 @@ export const RewriteHistory: React.FC = () => {
         <div key={item.id} style={s.item}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '8px' }}>
             <div style={{ display: 'flex', gap: '6px' }}>
-              <span style={s.badge}>{REWRITE_MODE_LABELS[item.mode]}</span>
+              <span style={s.badge}>{chrome.i18n.getMessage('mode_' + item.mode)}</span>
             </div>
             <span style={s.mutedText}>
               {new Date(item.createdAt).toLocaleDateString('en-US', {
@@ -94,12 +93,12 @@ export const RewriteHistory: React.FC = () => {
             </span>
           </div>
 
-          <div style={{ ...s.mutedText, marginBottom: '4px' }}>Original:</div>
+          <div style={{ ...s.mutedText, marginBottom: '4px' }}>{chrome.i18n.getMessage('sidepanelOriginal')}</div>
           <div style={{ ...s.text, color: '#8B8B9A', marginBottom: '6px', fontStyle: 'italic' }}>
             {item.originalText.slice(0, 120)}{item.originalText.length > 120 ? '...' : ''}
           </div>
 
-          <div style={{ ...s.mutedText, marginBottom: '4px' }}>→ Rewritten:</div>
+          <div style={{ ...s.mutedText, marginBottom: '4px' }}>{chrome.i18n.getMessage('sidepanelRewritten')}</div>
           <div style={{ ...s.text, marginBottom: '10px' }}>
             {item.rewrittenText.slice(0, 200)}{item.rewrittenText.length > 200 ? '...' : ''}
           </div>
@@ -108,7 +107,7 @@ export const RewriteHistory: React.FC = () => {
             style={{ ...s.copyBtn, color: copiedId === item.id ? '#4ADE80' : '#8B8B9A' }}
             onClick={() => copyToClipboard(item.rewrittenText, item.id)}
           >
-            {copiedId === item.id ? '✓ Copied' : 'Copy'}
+            {copiedId === item.id ? chrome.i18n.getMessage('btnCopied') : chrome.i18n.getMessage('btnCopy')}
           </button>
         </div>
       ))}
@@ -122,7 +121,7 @@ export const RewriteHistory: React.FC = () => {
             borderRadius: '8px', color: '#F0F0F2', cursor: 'pointer', fontSize: '13px',
           }}
         >
-          {loading ? 'Loading...' : 'Load more'}
+          {loading ? chrome.i18n.getMessage('loading') : chrome.i18n.getMessage('sidepanelLoadMore')}
         </button>
       )}
     </div>

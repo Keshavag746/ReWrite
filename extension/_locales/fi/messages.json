@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Kirjoita uudelleen missä tahansa - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Korosta tekstiä missä tahansa. Kirjoita välittömästi uudelleen tekoälyllä.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Avaa AI Rewrite -komentopaletti",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Paranna kirjoittamista",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Korjaa kielioppi",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Tee ammattilaiseksi",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Ole ystävällinen",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Tee muodollinen",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Tee rentoa",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Tee vakuuttava",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Ole itsevarma",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanisoi",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Mukautettu kehote...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Paranna",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Kielioppi",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Ammattilainen",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Ystävällinen",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Muodollinen",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Rento",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 vakuuttava",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Itsevarma",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Lyhennä",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Laajenna",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Yksinkertaista",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Inhimillistää",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Mukautettu",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Ladataan...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Kirjoita tekstiä uudelleen missä tahansa",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Kirjaudu sisään Googlella, niin voit aloittaa tekstin kirjoittamisen uudelleen millä tahansa verkkosivustolla tekoälyn avulla.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Kirjaudutaan sisään...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Kirjaudu sisään Googlella",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Ammattilainen",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Ilmainen",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Päivittäinen käyttö",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(rajaton)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Valitse teksti millä tahansa sivulla → napsauta ✨-painiketta kirjoittaaksesi uudelleen. Tai painaCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Avaa Historia ja asetukset",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Kirjaudu ulos",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Kirjautuminen epäonnistui",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Uudelleenkirjoitus epäonnistui",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Tämä osio on parhaillaan rakenteilla.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Kirjaudu sisään nähdäksesi asetukset.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Tili ja käyttö",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Kirjoita historia uudelleen",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Asetukset",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Lataa",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Ohje ja UKK",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Yleiset asetukset",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Käyttöliittymän teema",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Tumma tila",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Valotila",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Oletusarvoinen uudelleenkirjoitusääni",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Tyhjennä koko historia",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Ei vielä kirjoituksia",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Korosta teksti millä tahansa sivulla ja napsauta ✨ aloittaaksesi. Historiasi näkyy täällä.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Haluatko varmasti poistaa tämän uudelleenkirjoitushistorian kohteen?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Haluatko varmasti poistaa pysyvästi koko uudelleenkirjoitushistoriasi? Tätä ei voi kumota.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Kohteen poistaminen epäonnistui:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Historian tyhjennys epäonnistui:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Alkuperäinen teksti",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Uudelleenkirjoitettu teksti",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Poista",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopioi uudelleenkirjoitettu",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kopioitu!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Lataa vanhemmat uudelleenkirjoitukset",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Tuki & yritystiedustelut",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Ota yhteyttä osoitteeseen:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Usein kysytyt kysymykset",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Apua tai virheilmoitusta varten",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Sähköpostikeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Päivittäinen ilmainen raja",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Ilmainen taso: 5 uudelleenkirjoitusta/päivä. Nollautuu päivittäin keskiyöllä.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Kirjoita tekstiä uudelleen missä tahansa ilman rajoituksia.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Eräkirjoita kaikki sisältösi uudelleen. Synkronoi pilveen. Ei rajoituksia.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter -tarjous: Seuraava hinnankorotus 500 Premium-käyttäjälle. Lukitse tämä hinta koko elämäksi!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Yhdysvaltain markkinat ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Intian markkinat (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Yhdysvaltain dollarimaksuja ylläpidetään parhaillaan. Vaihda Indian Market (₹) -suunnitelmaan tai ota yhteyttä osoitteeseenkeshoraai@gmail.comsaadaksesi apua.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "viikoittain",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Vain 57 ¢ / päivä)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Kuukausittain ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Vain 33 ¢ / päivä)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Joka vuosi 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(vain 21 ¢ / päivä)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Vain 21 ₹ / päivä)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Vain 13 ₹ / päivä)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Vain 8 ₹ / päivä)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ viikko",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ kuukausi",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ vuosi",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Hyvä satunnaiseen käyttöön",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Useimmat käyttäjät valitsevat tämän suunnitelman",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Paras hinta-laatusuhde tehokäyttäjille",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "SUOSITTUIN",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "PARAS ARVIO - 2 KUUKAUTA ILMAISEKSI",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 luokitus • 🔒 Turvalliset maksut • ✔️ Peru milloin tahansa",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Oletko opiskelija tai tutkija, jolla ei ole varaa tilaukseen? Lähetä sähköpostia osoitteeseenkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Onko sinulla jo lisenssiavain?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Anna lisenssiavain...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktivoi",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 uudelleenkirjoitusta viikossa",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Avaa joukkouudelleenkirjoitus",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Premium-asetusten käyttöoikeus",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium-teemat",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Älykäs kansioorganisaatio",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Kokemus ilman mainoksia",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 uudelleenkirjoitusta kuukaudessa",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9000 uudelleenkirjoitusta vuodessa",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% alennus muista laajennuksista",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Ensisijainen sähköpostituki",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Vie muoto",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Vain PDF-vienti on saatavilla ilmaisessa paketissa. Päivitä Pro/Premium-versioon avataksesi muita vientimuotoja.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Tiedostonimen muoto",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Valitse, kuinka vietyjä tiedostoja nimetään.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Uudelleenkirjoitushistoria – päivämäärä (esim. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Mukautettu otsikko",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Anna mukautettu tiedostonimi...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Vie paikallinen tiedosto",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Tallenna Dropboxiin 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Tallenna Google Driveen ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Pilvivarmuuskopiointi on saatavilla vain maksullisissa sopimuksissa. Päivitä Pro/Premium-versioon.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox-todennus peruutettu.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox-käyttötunnuksen saaminen epäonnistui.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive -todennus epäonnistui.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Driven lataus epäonnistui:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API -virhe",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Vietävää historiaa ei löytynyt.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Historia kauniisti muotoiltu ja kopioitu leikepöydälle!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Historia tallennettu turvallisesti Dropboxiin!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Historia tallennettu turvallisesti Google Driveen!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Vienti valmis!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Kirjoita uudelleen tekoälyllä",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Sulje",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Alkuperäinen teksti",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Valitse uudelleenkirjoitettava tila...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Vaihda",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopioi",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kopioitu",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Yritä uudelleen",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Tallenna",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Vain \"Paranna\"-tila on käytettävissä ilmaisessa paketissa. Päivitä Pro-versioon avataksesi kaikki 13 tilaa.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Vain \"Paranna\"-tila on käytettävissä ilmaisessa paketissa. Päivitä Pro/Premium-versioon avataksesi kaikki 13 uudelleenkirjoitustilaa.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Ilmainen sopimus (muokatut kehotteet lukittu)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Mukautettu kehote on lukittu ilmaiseen sopimukseen...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "esim. Kirjoita uudelleen LinkedIniin, tee tästä vakuuttava...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Vain \"Paranna\"-tila on käytettävissä ilmaisessa paketissa. Päivitä Pro/Premium-versioon avataksesi kaikki ominaisuudet.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Vain \"Paranna\"-tila on käytettävissä ilmaisessa paketissa. Päivitä Pro/Premium-versioon avataksesi kaikki tilat.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Historiaa",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Asetukset",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Ei vielä kirjoituksia.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Korosta teksti millä tahansa sivulla ja napsauta ✨ aloittaaksesi.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Alkuperäinen:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Uudelleenkirjoitettu:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Lataa lisää",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Tili",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Uudelleenkirjoitus tänään",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Nollaa",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktiivinen ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI moottori",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Kuinka kirjoitan tekstiä uudelleen verkkosivustolle?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Korosta tai valitse mikä tahansa teksti millä tahansa verkkosivulla. Kelluva taikasauvapainike ('✨') ilmestyy automaattisesti kohdistimen lähelle. Tämän kuvakkeen napsauttaminen avaa interaktiivisen uudelleenkirjoitusponnahdusikkunan, jossa voit valita uudelleenkirjoitusäänen (kuten Paranna, Kielioppi, Professional, Casual, Expand tai Lyhennä), jotta tekoäly kirjoittaa sisällön uudelleen puolestasi. Voit myös käynnistää käyttöliittymän komentopaletin pikakuvakkeen kautta (Ctrl+Shift+PWindowsissa/Linuxissa taiCmd+Shift+PmacOS:ssä).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Mitä tekoälymalleja tuetaan?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Tuemme tällä hetkellä huippuluokan LLM:itä, mukaan lukien OpenAI:n GPT (esim. GPT-4o-mini), Googlen Gemini, Anthropic's Claude ja Groq avoimen lähdekoodin mallit (kuten Llama 3) tehokkaaseen ja salamannopeaan tekstinkäsittelyyn.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Ovatko tietoni turvassa?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Kyllä, yksityisyys on tärkein prioriteetti. Käsittelemme vain tietyn tekstin, jonka valitset uudelleenkirjoitettavaksi. Teksti lähetetään turvallisesti tausta-API:lle pyynnön suorittamista varten. Emme tallenna tekstilokihistoriaasi pitkällä aikavälillä palvelimillemme, emmekä jaa sitä kolmansille osapuolille tai käytä sitä tekoälymallien kouluttamiseen. Lisäksi laajennus toimii hiekkalaatikkoympäristössä, jotta henkilökohtainen selaushistoriasi on suojattu.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Mitä eroa on ilmaisilla ja Pro-suunnitelmilla?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Ilmainen suunnitelma sisältää 5 uudelleenkirjoitusta päivässä, ja ne on rajoitettu yksinomaan \"Paranna\"-ääneen ja \"PDF\"-lataus-/vientimuotoon. Myös Dropbox- ja Google Drive -integraatiot on lukittu. Maksulliset suunnitelmat (Weekly, Monthly Pro ja Yearly Ultimate) vapauttavat kaikki 6 ääntä, kaikki 6 latausmuotoa (PDF, Markdown, TXT, IMG, JSON ja Clipboard Copy) ja pilvivarmuuskopiointiintegraatiot laadukkaaseen, rajoituksettomaan käyttökokemukseen.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Miksi tietyt uudelleenkirjoitusäänet, vientimuodot ja pilvivarmuuskopiot on lukittu ilmaiseen sopimukseen?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Huippuluokan tekoälymallien (kuten GPT-4o-mini, Gemini ja Claude) käyttäminen ja pilvisynkronoinnin hallinta vaatii huomattavaa palvelininfrastruktuuria, laskentatehoa ja suoria API-kustannuksia jokaisesta toiminnasta. Jotta palvelustamme tulisi kestävä ja silti täysin toimiva ilmainen vaihtoehto, ilmainen paketti kattaa perusvaatimukset (5 päivittäistä uudelleenkirjoitusta \"Paranna\"-sävyllä ja paikallinen PDF-sukupolvi). Tilaussuunnitelmat tukevat premium-äänien (Kielioppi, Professional, Casual, Expand, Shorten), pilviliittimien (Dropbox, Google Drive) ja useiden muotojen viennin (Markdown, TXT, IMG, JSON, COPY) kustannuksia varmistaen, että voimme tukea korkeaa suorituskykyä, aktiivisia päivityksiä ja tiukkaa yksityisyyttä ilman mainoksia.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Kuinka aktivoin lisenssiavaimeni?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Kun olet ostanut tilauksen, liitä lisenssiavaimesi avaimen vahvistuskenttään kojelaudan Tili ja käyttö -sivun alareunassa ja napsauta Aktivoi lisenssi. Tilisuunnitelmasi tiedot päivittyvät välittömästi selaimesi tallennustilaan.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Toimiiko tämä Google Docsissa tai Notionissa?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Kyllä, laajennus on täysin yhteensopiva suosittujen editorien ja rich text -portaalien, kuten Google Docs, Notion, Gmail, LinkedIn, Slack web ja Twitter/X, kanssa. Jos kelluva painike on poistettu käytöstä mukautetussa sovelluksessa, voit kirjoittaa valinnan uudelleen komentopaletin pikanäppäimen avulla.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Voinko käyttää omaa API-avainta?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Saumattoman plug-and-play-kokemuksen tarjoamiseksi kaikki sovellusliittymän käyttökustannukset katetaan kokonaan tilaussopimuksessasi. Tällä hetkellä sinun ei tarvitse määrittää omia API-avaimia. Aiomme kuitenkin tukea mukautettuja sovellusliittymämäärityksiä tulevassa kehittäjäkohtaisessa päivityksessä.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Kuinka vaihdan oletusarvoisen uudelleenkirjoitusäänen?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Voit määrittää oletusarvoisen uudelleenkirjoitusäänen tämän asetuspaneelin Asetukset-välilehdessä. Kun tallennat asetuksesi, oletusarvoisesti kyseinen ääni tulee automaattisesti napsautettua taikasauvakuvaketta, mutta voit silti vaihtaa ääniä ponnahdusikkunassa tarvittaessa.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Miksi kelluva painike ei joskus näy?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Taikasauvapainike vaatii tekstin valinnan vähimmäispituuden tahattomien peittokuvien välttämiseksi. Lisäksi tavalliset selaimen suojauskäytännöt estävät tiukasti sisällön lisäämisen tietyillä etuoikeutetuilla sivuilla, kuten Chrome Web Storessa (chrome.google.com) ja sisäisillä määrityssivuilla (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Voinko kopioida uudelleen kirjoitetun tekstin vaihtamatta alkuperäistä?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Kyllä, kelluvan uudelleenkirjoitusponnahdusikkunan sisällä voit napsauttaa Kopioi-kuvaketta. Tämä kopioi äskettäin uudelleen kirjoitetun version suoraan leikepöydällesi, jolloin voit liittää sen minne tahansa ilman, että korvaat verkkosivun alkuperäistä sisältöä tai vaikutat siihen.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Kuinka peruutan tilaukseni?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Voit hallita tai peruuttaa tilauksesi milloin tahansa napsauttamalla ostovahvistussähköpostissasi olevaa asiakaslaskutusportaalin linkkiä. Jos et löydä sähköpostia, ota meihin yhteyttä osoitteeseenkeshoraai@gmail.com, niin autamme sinua.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Mitä \"Laajenna\"-sävy tekee?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "\"Laajenna\"-sävy käyttää generatiivista älykkyyttä valitsemasi tekstin rakentamiseen ja tarkentamiseen, lisäämällä lyhyisiin ajatuksiin, luettelomerkkikohtiin tai lauseisiin monipuolisia yksityiskohtia, kontekstia ja oikeanlaista kielioppirakennetta säilyttäen samalla alkuperäisen tarkoituksen.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Tarjoatko opiskelijaalennuksia?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Kyllä, tuemme opiskelijoita, kouluttajia ja akateemisia tutkijoita. Tarjoamme 30 % alennuksen kaikista maksullisista tilauksista. Lähetä meille sähköpostia osoitteeseenkeshoraai@gmail.comvirallisesta koulusi tai yliopistosi sähköpostiosoitteesta (.edu tai akateeminen verkkotunnus) pyytääksesi alennuskoodia.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Onko olemassa joukkouudelleenkirjoitusvaihtoehtoa?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Kyllä, premium-tason käyttäjät voivat käyttää joukkokirjoitusta. Yksittäisten segmenttien valitsemisen sijaan voit avata laajennuksen sivupaneelin ja liittää kokonaisia ​​asiakirjoja tai kappaleita muokataksesi niitä yhdellä kertaa.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Miten ilmoitan virheestä?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Voit lähettää virheraportteja sähköpostitse suoraan tukitiimillemme osoitteeseenkeshoraai@gmail.com. Napsauttamalla Ohje-widgetiä Tili ja käyttö -välilehdellä esitäytetään tukimalli, joka sisältää laajennuksen tiedot, jotta voimme diagnosoida ongelman.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Miksi siinä lukee \"Kiintiö ylitetty\"?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "\"Kiintiö ylitetty\" -varoitus tarkoittaa, että olet käyttänyt suunnitelmasi aktiiviselle jaksolle varatun käyttömäärän: Ilmaiset käyttäjät ovat rajoitettu 5 päivittäiseen uudelleenkirjoitukseen; Viikoittaiset käyttäjät saavat 140 uudelleenkirjoitusta; Kuukausittaiset Pro-käyttäjät saavat 600 uudelleenkirjoitusta; ja Yearly Ultimate -käyttäjät saavat 9 000 uudelleenkirjoitusta. Kiintiöt nollataan automaattisesti syklin perusteella (päivittäin keskiyöllä paikallista aikaa tai liukuvan viikoittaisen/kuukausi-/vuosirajan mukaan). Voit päivittää korkeammalle tasolle Tili ja käyttö -sivulla jatkaaksesi palvelua välittömästi.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Viedään...",
+    "description": "Locale key: exportingStatus"
+  }
+}

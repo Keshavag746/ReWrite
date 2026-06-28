@@ -7,7 +7,7 @@ const USER_KEY = 'ai_rewrite_user';
 export async function getStoredJWT(): Promise<string> {
   const result = await chrome.storage.local.get(JWT_KEY);
   const token = result[JWT_KEY] as string | undefined;
-  if (!token) throw new Error('Not authenticated. Please login.');
+  if (!token) throw new Error(chrome.i18n.getMessage('loginRequiredSettings'));
   return token;
 }
 
@@ -21,7 +21,13 @@ export async function loginWithGoogle(): Promise<{ token: string; user: User }> 
   try {
     // Get Google OAuth token from Chrome identity API
     googleToken = await new Promise<string>((resolve, reject) => {
-      chrome.identity.getAuthToken({ interactive: true }, (token) => {
+      chrome.identity.getAuthToken({ 
+        interactive: true,
+        scopes: [
+          'https://www.googleapis.com/auth/userinfo.email',
+          'https://www.googleapis.com/auth/userinfo.profile'
+        ]
+      }, (token) => {
         if (chrome.runtime.lastError || !token) {
           reject(new Error(chrome.runtime.lastError?.message ?? 'Auth failed'));
         } else {
@@ -29,9 +35,9 @@ export async function loginWithGoogle(): Promise<{ token: string; user: User }> 
         }
       });
     });
-  } catch (err) {
-    console.warn('[Auth] Google OAuth failed or not configured, using mock dev login:', err);
-    googleToken = 'mock-dev-token';
+  } catch (err: any) {
+    console.warn('[Auth] Google OAuth failed:', err);
+    throw new Error(err.message || 'Google OAuth failed');
   }
 
   // Exchange with backend
@@ -43,7 +49,7 @@ export async function loginWithGoogle(): Promise<{ token: string; user: User }> 
 
   if (!res.ok) {
     const err = await res.json().catch(() => ({})) as { error?: string };
-    throw new Error(err.error ?? 'Login failed');
+    throw new Error(err.error ?? chrome.i18n.getMessage('loginFailed'));
   }
 
   const data = await res.json() as { token: string; user: User };

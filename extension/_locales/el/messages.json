@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Επισημάνετε το κείμενο οπουδήποτε. Ξαναγράψτε αμέσως με AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Ανοίξτε την παλέτα εντολών AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Βελτιώστε τη γραφή",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Διόρθωση γραμματικής",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Γίνε Επαγγελματίας",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Κάντε φιλικό",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Κάντε επίσημη",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Κάντε Casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Κάντε πειστικό",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Κάνε αυτοπεποίθηση",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Εξανθρωπίστε",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Προσαρμοσμένη προτροπή...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Βελτιώστε",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Γραμματική",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Επαγγελματίας",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Φιλικό",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Επίσημο",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Casual",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Πειστικό",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Με αυτοπεποίθηση",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Κοντύνετε",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Επέκταση",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Απλοποίηση",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Εξανθρωπίστε",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Προσαρμοσμένο",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Φόρτωση...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Ξαναγράψτε κείμενο οπουδήποτε",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Συνδεθείτε με το Google για να ξεκινήσετε να ξαναγράφετε κείμενο σε οποιονδήποτε ιστότοπο με AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Σύνδεση...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Συνδεθείτε με το Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Επαγγελματίας",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Δωρεάν",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Καθημερινή χρήση",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(απεριόριστο)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Επιλέξτε κείμενο σε οποιαδήποτε σελίδα → κάντε κλικ στο κουμπί ✨ για να ξαναγράψετε. Ή πατήστεCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Ανοίξτε το Ιστορικό και τις Ρυθμίσεις",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Αποσύνδεση",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Η σύνδεση απέτυχε",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Η επανεγγραφή απέτυχε",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Αυτό το τμήμα βρίσκεται υπό κατασκευή.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Συνδεθείτε για να δείτε τις ρυθμίσεις.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Λογαριασμός & Χρήση",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Ξαναγράψτε την Ιστορία",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Ρυθμίσεις",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Λήψη",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Βοήθεια & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Γενική Διαμόρφωση",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Θέμα διεπαφής",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Σκοτεινή λειτουργία",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Λειτουργία φωτός",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Προεπιλεγμένος τόνος επανεγγραφής",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Εκκαθάριση όλης της ιστορίας",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Καμία επανεγγραφή ακόμα",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Επισημάνετε κείμενο σε οποιαδήποτε σελίδα και κάντε κλικ στο ✨ για να ξεκινήσετε. Το ιστορικό σας θα εμφανιστεί εδώ.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο ιστορικού επανεγγραφής;",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά ολόκληρο το ιστορικό επανεγγραφής; Αυτό δεν μπορεί να αναιρεθεί.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Απέτυχε η διαγραφή του στοιχείου:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Απέτυχε η εκκαθάριση του ιστορικού:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Πρωτότυπο Κείμενο",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Ξαναγραμμένο κείμενο",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Διαγραφή",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Αντιγράψτε ξανά",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Αντιγράφηκε!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Φόρτωση παλιότερων εγγραφών",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Υποστήριξη & Επιχειρηματικές Ερωτήσεις",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Απευθυνθείτε στο:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Συχνές Ερωτήσεις",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Για βοήθεια ή για αναφορά σφάλματος",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Emailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Ημερήσιο Δωρεάν Όριο",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Δωρεάν βαθμίδα: 5 επανεγγραφές/ημέρα. Μηδενίζεται καθημερινά τα μεσάνυχτα.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Ξαναγράψτε κείμενο οπουδήποτε χωρίς όρια.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Μαζική επανεγγραφή όλου του περιεχομένου σας. Συγχρονισμός με το σύννεφο. Χωρίς περιορισμούς.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Προσφορά έγκαιρης υιοθέτησης: Επόμενη αύξηση τιμής σε 500 Premium χρήστες. Κλείστε αυτό το ποσοστό για μια ζωή!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Αγορά των ΗΠΑ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Ινδική Αγορά (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Οι πληρωμές σε δολάρια ΗΠΑ βρίσκονται επί του παρόντος υπό συντήρηση. Μεταβείτε στο πρόγραμμα Indian Market (₹) ή επικοινωνήστε μαζί μας στοkeshoraai@gmail.comγια βοήθεια.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Εβδομαδιαία",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Μόλις 57 ¢ / ημέρα)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Μηνιαίο ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Μόλις 33 ¢ / ημέρα)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Ετήσιο 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Μόλις 21 ¢ / ημέρα)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Μόλις 21 ₹ / ημέρα)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Μόλις 13 ₹ / ημέρα)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Μόλις 8 ₹ / ημέρα)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ εβδομάδα",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ μήνα",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ έτος",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Καλό για περιστασιακή χρήση",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Οι περισσότεροι χρήστες επιλέγουν αυτό το σχέδιο",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Η καλύτερη τιμή για ισχυρούς χρήστες",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "ΠΙΟ ΔΗΜΟΦΗΤΙΚΟ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ΚΑΛΥΤΕΡΗ ΑΞΙΑ - 2 ΜΗΝΕΣ ΔΩΡΕΑΝ",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Βαθμολογία • 🔒 Ασφαλείς πληρωμές • ✔️ Ακύρωση ανά πάσα στιγμή",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Είστε φοιτητής ή ερευνητής που δεν μπορείτε να αντέξετε οικονομικά μια συνδρομή; Παρακαλώ στείλτε emailkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Έχετε ήδη κλειδί άδειας χρήσης;",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Εισαγάγετε το κλειδί άδειας χρήσης...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Ενεργοποίηση",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Επανεγγραφές την εβδομάδα",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Ξεκλείδωμα μαζικής επανεγγραφής",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Πρόσβαση στις ρυθμίσεις Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium Θέματα",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Οργάνωση έξυπνων φακέλων",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Εμπειρία χωρίς διαφημίσεις",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Επανεγγραφές το μήνα",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 Επανεγγραφές ετησίως",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Έκπτωση 50% σε άλλες επεκτάσεις",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Υποστήριξη με email προτεραιότητας",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Μορφή εξαγωγής",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Μόνο η εξαγωγή PDF είναι διαθέσιμη στο δωρεάν πρόγραμμα. Κάντε αναβάθμιση σε Pro/Premium για να ξεκλειδώσετε άλλες μορφές εξαγωγής.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Μορφή ονόματος αρχείου",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Επιλέξτε πώς ονομάζονται τα εξαγόμενα αρχεία.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Επανεγγραφή ιστορικού - Ημερομηνία (π.χ. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Προσαρμοσμένος τίτλος",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Εισαγάγετε προσαρμοσμένο όνομα αρχείου...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Εξαγωγή τοπικού αρχείου",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Αποθήκευση στο Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Αποθήκευση στο Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Η δημιουργία αντιγράφων ασφαλείας στο cloud είναι διαθέσιμη μόνο σε προγράμματα επί πληρωμή. Κάντε αναβάθμιση σε Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Ο έλεγχος ταυτότητας Dropbox ακυρώθηκε.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Αποτυχία λήψης διακριτικού πρόσβασης Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Ο έλεγχος ταυτότητας του Google Drive απέτυχε.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Η μεταφόρτωση του Google Drive απέτυχε:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Σφάλμα Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Δεν βρέθηκε ιστορικό για εξαγωγή.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Το ιστορικό μορφοποιήθηκε όμορφα και αντιγράφηκε στο πρόχειρο!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Το ιστορικό αποθηκεύτηκε με ασφάλεια στο Dropbox σας!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Το ιστορικό αποθηκεύτηκε με ασφάλεια στο Google Drive σας!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Η εξαγωγή ολοκληρώθηκε!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Ξαναγράψτε με AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Κλείσιμο",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Πρωτότυπο κείμενο",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Επιλέξτε μια λειτουργία για επανεγγραφή...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Αντικαταστήστε",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Αντιγραφή",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Αντιγράφηκε",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Επανάληψη",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Αποθήκευση",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Μόνο η λειτουργία \"Βελτίωση\" είναι διαθέσιμη στο δωρεάν πρόγραμμα. Κάντε αναβάθμιση σε Pro για να ξεκλειδώσετε και τις 13 λειτουργίες.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Μόνο η λειτουργία \"Βελτίωση\" είναι διαθέσιμη στο δωρεάν πρόγραμμα. Κάντε αναβάθμιση σε Pro/Premium για να ξεκλειδώσετε και τις 13 λειτουργίες επανεγγραφής.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Παλέτα εντολών AI Rewrite",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Δωρεάν πρόγραμμα (Τα προσαρμοσμένα μηνύματα είναι κλειδωμένα)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Το προσαρμοσμένο μήνυμα προτροπής είναι κλειδωμένο στο Δωρεάν πρόγραμμα...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "π.χ. Ξαναγράψτε για το LinkedIn, κάντε αυτό πειστικό...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Μόνο η λειτουργία \"Βελτίωση\" είναι διαθέσιμη στο δωρεάν πρόγραμμα. Κάντε αναβάθμιση σε Pro/Premium για να ξεκλειδώσετε όλες τις λειτουργίες.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Μόνο η λειτουργία \"Βελτίωση\" είναι διαθέσιμη στο δωρεάν πρόγραμμα. Κάντε αναβάθμιση σε Pro/Premium για να ξεκλειδώσετε όλες τις λειτουργίες.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Ιστορία",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Ρυθμίσεις",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Καμία επανεγγραφή ακόμα.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Επισημάνετε κείμενο σε οποιαδήποτε σελίδα και κάντε κλικ στο ✨ για να ξεκινήσετε.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Πρωτότυπο:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Ξαναγράφτηκε:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Φορτώστε περισσότερα",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Λογαριασμός",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Ξαναγράφει σήμερα",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Επαναφέρει",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Ενεργός ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI Engine",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Πώς μπορώ να ξαναγράψω κείμενο σε έναν ιστότοπο;",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Απλώς επισημάνετε ή επιλέξτε οποιοδήποτε κείμενο σε οποιαδήποτε ιστοσελίδα. Ένα αιωρούμενο κουμπί μαγικού ραβδιού ('✨') θα εμφανιστεί αυτόματα κοντά στον κέρσορα σας. Κάνοντας κλικ σε αυτό το εικονίδιο ανοίγει το διαδραστικό αναδυόμενο παράθυρο επανεγγραφής, όπου μπορείτε να επιλέξετε έναν τόνο επανεγγραφής (όπως Βελτίωση, Γραμματική, Επαγγελματική, Περιστασιακή, Επέκταση ή Συντόμευση) για να επιτρέψετε στο AI να ξαναγράψει το περιεχόμενο για εσάς. Μπορείτε επίσης να ενεργοποιήσετε τη διεπαφή μέσω της συντόμευσης της παλέτας εντολών (Ctrl+Shift+Pσε Windows/Linux ήCmd+Shift+Pσε macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Ποια μοντέλα AI υποστηρίζονται;",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Αυτήν τη στιγμή υποστηρίζουμε LLM τελευταίας τεχνολογίας, συμπεριλαμβανομένων των μοντέλων ανοιχτού κώδικα GPT του OpenAI (π.χ. GPT-4o-mini), Gemini της Google, Anthropic's Claude και Groq (όπως το Llama 3) για επεξεργασία κειμένου υψηλής απόδοσης, αστραπιαία.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Είναι ασφαλή τα δεδομένα μου;",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ναι, το απόρρητο είναι βασική προτεραιότητα. Επεξεργαζόμαστε μόνο το συγκεκριμένο κείμενο που επιλέγετε για επανεγγραφή. Το κείμενο μεταδίδεται με ασφάλεια στο backend API μας για την εκτέλεση του αιτήματος. Δεν αποθηκεύουμε το ιστορικό αρχείου καταγραφής κειμένου σας μακροπρόθεσμα στους διακομιστές μας, ούτε το μοιραζόμαστε με τρίτους ή το χρησιμοποιούμε για την εκπαίδευση μοντέλων τεχνητής νοημοσύνης. Επιπλέον, η επέκταση εκτελείται σε περιβάλλον sandbox για να διασφαλίσει ότι το προσωπικό σας ιστορικό περιήγησης προστατεύεται.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Ποια είναι η διαφορά μεταξύ δωρεάν και Pro σχεδίων;",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Το δωρεάν πρόγραμμα παρέχει 5 επανεγγραφές ανά ημέρα, που περιορίζονται αποκλειστικά στον τόνο «Βελτίωση» και τη μορφή λήψης/εξαγωγής «PDF». Οι ενσωματώσεις Dropbox και Google Drive είναι επίσης κλειδωμένες. Τα προγράμματα επί πληρωμή (εβδομαδιαία, μηνιαία Pro και ετήσια Ultimate) ξεκλειδώνουν και τους 6 τόνους, και τις 6 μορφές λήψης (PDF, Markdown, TXT, IMG, JSON και Clipboard Copy) και ενσωματώσεις δημιουργίας αντιγράφων ασφαλείας στο cloud για μια premium εμπειρία χωρίς περιορισμούς.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Γιατί ορισμένοι τόνοι επανεγγραφής, μορφές εξαγωγής και αντίγραφα ασφαλείας cloud είναι κλειδωμένα στο Δωρεάν πρόγραμμα;",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Η εκτέλεση μοντέλων τεχνητής νοημοσύνης τελευταίας τεχνολογίας (όπως τα GPT-4o-mini, Gemini και Claude) και η διαχείριση του συγχρονισμού cloud απαιτεί σημαντική υποδομή διακομιστή, υπολογιστική ισχύ και άμεσο κόστος API για κάθε ενέργεια. Για να κάνουμε την υπηρεσία μας βιώσιμη ενώ εξακολουθεί να προσφέρει μια πλήρως λειτουργική δωρεάν επιλογή, το δωρεάν πρόγραμμα καλύπτει βασικές απαιτήσεις (5 καθημερινές επαναλήψεις με τον τόνο «Βελτίωση» και τοπική παραγωγή PDF). Τα προγράμματα συνδρομής επιδοτούν το κόστος των τόνων premium (Γραμματική, Επαγγελματική, Περιστασιακή, Επέκταση, Συντόμευση), συνδέσμων cloud (Dropbox, Google Drive) και εξαγωγών πολλαπλών μορφών (Markdown, TXT, IMG, JSON, COPY), διασφαλίζοντας ότι μπορούμε να υποστηρίξουμε υψηλή απόδοση, ενεργές ενημερώσεις και αυστηρό απόρρητο χωρίς διαφημίσεις.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Πώς μπορώ να ενεργοποιήσω το κλειδί άδειας χρήσης;",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Αφού ολοκληρώσετε την αγορά της συνδρομής σας, επικολλήστε το κλειδί άδειας χρήσης στο πεδίο επικύρωσης κλειδιού στο κάτω μέρος της σελίδας «Λογαριασμός και χρήση» στον πίνακα ελέγχου και κάντε κλικ στην «Ενεργοποίηση άδειας χρήσης». Τα στοιχεία του προγράμματος του λογαριασμού σας θα ενημερωθούν αμέσως στον αποθηκευτικό χώρο του προγράμματος περιήγησής σας.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Λειτουργεί στα Έγγραφα Google ή στο Notion;",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ναι, η επέκταση είναι πλήρως συμβατή με δημοφιλείς επεξεργαστές και πύλες εμπλουτισμένων κειμένων όπως τα Έγγραφα Google, το Notion, το Gmail, το LinkedIn, το Slack web και το Twitter/X. Εάν το αιωρούμενο κουμπί είναι απενεργοποιημένο σε μια προσαρμοσμένη εφαρμογή, μπορείτε να χρησιμοποιήσετε τη συντόμευση πληκτρολογίου Command Palette για να ξαναγράψετε την επιλογή σας.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Μπορώ να χρησιμοποιήσω το δικό μου κλειδί API;",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Για να παρέχετε μια απρόσκοπτη εμπειρία plug-and-play, όλα τα έξοδα χρήσης API καλύπτονται πλήρως από το πρόγραμμα συνδρομής σας. Προς το παρόν, δεν χρειάζεται να διαμορφώσετε τα δικά σας κλειδιά API. Ωστόσο, σκοπεύουμε να υποστηρίξουμε προσαρμοσμένες διαμορφώσεις API χρηστών σε μια μελλοντική ενημέρωση προσανατολισμένη στους προγραμματιστές.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Πώς μπορώ να αλλάξω τον προεπιλεγμένο τόνο επανεγγραφής;",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Μπορείτε να ορίσετε τον προεπιλεγμένο τόνο επανεγγραφής στην καρτέλα Ρυθμίσεις αυτού του πίνακα επιλογών. Η αποθήκευση της προτίμησής σας θα γίνει αυτόματα από προεπιλογή σε αυτόν τον τόνο όταν κάνετε κλικ στο εικονίδιο του μαγικού ραβδιού, αν και μπορείτε ακόμα να αλλάξετε τόνους στο αναδυόμενο παράθυρο όταν χρειάζεται.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Γιατί το αιωρούμενο κουμπί δεν εμφανίζεται μερικές φορές;",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Το κουμπί μαγικού ραβδιού απαιτεί ένα ελάχιστο μήκος επιλογής κειμένου για την αποφυγή τυχαίων επικαλύψεων. Επιπλέον, οι τυπικές πολιτικές ασφαλείας του προγράμματος περιήγησης αποκλείουν αυστηρά τις ενέσεις περιεχομένου σε ορισμένες προνομιακές σελίδες, όπως το Chrome Web Store (chrome.google.com) και τις εσωτερικές σελίδες διαμόρφωσης (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Μπορώ να αντιγράψω το ξαναγραμμένο κείμενο χωρίς να αντικαταστήσω το πρωτότυπο;",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ναι, μέσα στο αναδυόμενο παράθυρο επανεγγραφής, μπορείτε να κάνετε κλικ στο εικονίδιο «Αντιγραφή». Αυτό αντιγράφει τη νέα έκδοση που ξαναγράφτηκε απευθείας στο πρόχειρό σας, επιτρέποντάς σας να την επικολλήσετε οπουδήποτε θέλετε χωρίς να αντικαταστήσετε ή να επηρεάσετε το αρχικό περιεχόμενο στην ιστοσελίδα.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Πώς μπορώ να ακυρώσω τη συνδρομή μου;",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Μπορείτε να διαχειριστείτε ή να ακυρώσετε τη συνδρομή σας ανά πάσα στιγμή κάνοντας κλικ στον σύνδεσμο της πύλης χρέωσης πελατών που παρέχεται στο email επιβεβαίωσης αγοράς. Εάν δεν μπορείτε να εντοπίσετε το email, επικοινωνήστε μαζί μας στοkeshoraai@gmail.comκαι θα σας βοηθήσουμε.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Τι κάνει ο τόνος \"Επέκταση\";",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Ο τόνος \"Ανάπτυξη\" χρησιμοποιεί γενετική ευφυΐα για να δημιουργήσει και να επεξεργαστεί το επιλεγμένο κείμενο, προσθέτοντας πλούσιες λεπτομέρειες, πλαίσιο και σωστή γραμματική δομή σε σύντομες σκέψεις, κουκκίδες ή φράσεις, διατηρώντας παράλληλα ανέπαφη την αρχική πρόθεση.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Προσφέρετε φοιτητική έκπτωση;",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ναι, υποστηρίζουμε φοιτητές, εκπαιδευτικούς και ακαδημαϊκούς ερευνητές. Προσφέρουμε έκπτωση 30% σε όλα τα προγράμματα συνδρομής επί πληρωμή. Στείλτε μας email στοkeshoraai@gmail.comαπό την επίσημη διεύθυνση ηλεκτρονικού ταχυδρομείου του σχολείου ή του πανεπιστημίου σας (.edu ή ακαδημαϊκό τομέα) για να ζητήσετε τον εκπτωτικό σας κωδικό.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Υπάρχει επιλογή μαζικής επανεγγραφής;",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ναι, οι χρήστες premium επιπέδου μπορούν να κάνουν χρήση της μαζικής επανεγγραφής. Αντί να επιλέξετε μεμονωμένα τμήματα, μπορείτε να ανοίξετε το πλαϊνό πλαίσιο επέκτασης και να επικολλήσετε ολόκληρα έγγραφα ή παραγράφους για να τα τροποποιήσετε με μία κίνηση.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Πώς μπορώ να αναφέρω ένα σφάλμα;",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Μπορείτε να στείλετε αναφορές σφαλμάτων μέσω email απευθείας στην ομάδα υποστήριξής μας στη διεύθυνσηkeshoraai@gmail.com. Κάνοντας κλικ στο γραφικό στοιχείο βοήθειας στην καρτέλα \"Λογαριασμός και χρήση\" θα συμπληρωθεί εκ των προτέρων ένα πρότυπο υποστήριξης που περιέχει λεπτομέρειες επέκτασης για να μας βοηθήσει να διαγνώσουμε το πρόβλημα.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Γιατί λέει \"Υπέρβαση ποσόστωσης\";",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Η προειδοποίηση \"Υπέρβαση ποσόστωσης\" σημαίνει ότι έχετε καταναλώσει τη χρήση που σας έχει παραχωρηθεί για τον ενεργό κύκλο του σχεδίου σας: Οι δωρεάν χρήστες περιορίζονται σε 5 καθημερινές επαναλήψεις. Οι εβδομαδιαίες χρήστες λαμβάνουν 140 επανεγγραφές. Οι χρήστες Monthly Pro λαμβάνουν 600 επανεγγραφές. και οι χρήστες του Yearly Ultimate λαμβάνουν 9.000 επανεγγραφές. Οι ποσοστώσεις επαναφέρονται αυτόματα με βάση τον κύκλο (καθημερινά τα μεσάνυχτα τοπική ώρα ή σε κυλιόμενα εβδομαδιαία/μηνιαία/ετήσια όρια). Μπορείτε να κάνετε αναβάθμιση σε υψηλότερο επίπεδο στη σελίδα \"Λογαριασμός και χρήση\" για να συνεχίσετε αμέσως την υπηρεσία.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Εξαγωγή",
+    "description": "Locale key: exportingStatus"
+  }
+}

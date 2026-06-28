@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "เขียนซ้ำได้ทุกที่ - นักเขียนข้อความ AI ใหม่",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "เน้นข้อความได้ทุกที่ เขียนใหม่ได้ทันทีด้วย AI",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "เปิดชุดคำสั่ง AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI เขียนใหม่ →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ปรับปรุงการเขียน",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅แก้แกรมม่า",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 ทำให้เป็นมืออาชีพ",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 สร้างมิตรภาพ",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 ทำให้เป็นทางการ",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "😏 ทำลำลอง",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 สร้างความมั่นใจ",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 สร้างความมั่นใจ",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 มีมนุษยธรรม",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ พร้อมท์แบบกำหนดเอง...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ปรับปรุง",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ไวยากรณ์",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 มืออาชีพ",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊เป็นกันเอง",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 เป็นทางการ",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "😏 สบายๆ",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 โน้มน้าวใจ",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 มั่นใจ",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✉️ ย่อให้สั้นลง",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 ขยาย",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 ลดความซับซ้อน",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 มีมนุษยธรรม",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ กำหนดเอง",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "กำลังโหลด...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "เขียนข้อความใหม่ได้ทุกที่",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "ลงชื่อเข้าใช้ด้วย Google เพื่อเริ่มเขียนข้อความใหม่บนเว็บไซต์ใดๆ ด้วย AI",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "กำลังลงชื่อเข้าใช้...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 ลงชื่อเข้าใช้ด้วย Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡โปร",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "ฟรี",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "การใช้งานรายวัน",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ไม่จำกัด)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 เลือกข้อความในหน้าใดก็ได้ → คลิกปุ่ม ✨ เพื่อเขียนใหม่ หรือกดCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 เปิดประวัติและการตั้งค่า",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "ออกจากระบบ",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "การเข้าสู่ระบบล้มเหลว",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "การเขียนซ้ำล้มเหลว",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "ส่วนนี้อยู่ระหว่างการก่อสร้าง",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "กรุณาลงชื่อเข้าใช้เพื่อดูการตั้งค่า",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "บัญชีและการใช้งาน",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "เขียนใหม่ประวัติศาสตร์",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "การตั้งค่า",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ดาวน์โหลด",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "ความช่วยเหลือและคำถามที่พบบ่อย",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI เขียนแดชบอร์ดใหม่",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "การกำหนดค่าทั่วไป",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "ธีมอินเทอร์เฟซ",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "โหมดมืด",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "โหมดแสง",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "เสียงเขียนซ้ำเริ่มต้น",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ ล้างประวัติทั้งหมด",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "ยังไม่มีการเขียนซ้ำ",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "ไฮไลต์ข้อความบนหน้าใดก็ได้แล้วคลิก ✨ เพื่อเริ่มต้น ประวัติของคุณจะปรากฏที่นี่",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการประวัติการเขียนซ้ำนี้",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบประวัติการเขียนซ้ำทั้งหมดของคุณอย่างถาวร สิ่งนี้ไม่สามารถยกเลิกได้",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "ไม่สามารถลบรายการ:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "ไม่สามารถล้างประวัติได้:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "ข้อความต้นฉบับ",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "ข้อความที่เขียนใหม่",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ ลบ",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 คัดลอกเขียนใหม่",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ คัดลอกแล้ว!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "โหลดการเขียนใหม่ที่เก่ากว่า",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "การสนับสนุนและสอบถามข้อมูลทางธุรกิจ",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "ติดต่อได้ที่:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "เพื่อขอความช่วยเหลือหรือรายงานข้อผิดพลาด",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "อีเมลkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "ขีด จำกัด ฟรีรายวัน",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "ระดับฟรี: เขียนซ้ำ 5 ครั้ง/วัน รีเซ็ตทุกวันเวลาเที่ยงคืน",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "เขียนข้อความใหม่ได้ทุกที่โดยไม่มีขีดจำกัด",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "แบทช์เขียนเนื้อหาของคุณใหม่ทั้งหมด ซิงค์กับคลาวด์ ไม่มีข้อจำกัด",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 ข้อเสนอสำหรับผู้ใช้ล่วงหน้า: ราคาเพิ่มขึ้นครั้งถัดไปที่ผู้ใช้ระดับพรีเมียม 500 ราย ล็อคเรทนี้ตลอดชีวิต!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇮🇹 ตลาดสหรัฐฯ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮รี ตลาดอินเดีย (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "ขณะนี้การชำระเงินด้วยสกุลเงินดอลลาร์สหรัฐอยู่ระหว่างการบำรุงรักษา โปรดเปลี่ยนไปใช้แผนตลาดอินเดีย (₹) หรือติดต่อเราที่keshoraai@gmail.comเพื่อขอความช่วยเหลือ",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "รายสัปดาห์",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(เพียง 57¢ / วัน)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "รายเดือน⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(เพียง 33¢ / วัน)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "รายปี💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(เพียง 21¢ / วัน)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(เพียง ₹21 / วัน)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(เพียง₹ 13 / วัน)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(เพียง₹ 8 / วัน)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/สัปดาห์",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/เดือน",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ ปี",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "เหมาะสำหรับใช้เป็นครั้งคราว",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "ผู้ใช้ส่วนใหญ่เลือกแผนนี้",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "คุ้มค่าที่สุดสำหรับผู้ใช้ระดับสูง",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "ยอดนิยมที่สุด",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "คุ้มค่าที่สุด - ฟรี 2 เดือน",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 คะแนน • 🔒 การชำระเงินที่ปลอดภัย • ✔️ ยกเลิกได้ตลอดเวลา",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "คุณเป็นนักเรียนหรือนักวิจัยที่ไม่สามารถสมัครสมาชิกได้? กรุณาส่งอีเมลถึงkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "มีรหัสใบอนุญาตอยู่แล้ว?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "ป้อนรหัสใบอนุญาต...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "เปิดใช้งาน",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "เขียนซ้ำ 140 ครั้งต่อสัปดาห์",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "ปลดล็อกการเขียนซ้ำจำนวนมาก",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "การเข้าถึงการตั้งค่าระดับพรีเมียม",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, ดรอปบ็อกซ์ซิงค์",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "ธีมพรีเมียม",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "การจัดระเบียบโฟลเดอร์อัจฉริยะ",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "ประสบการณ์ที่ไม่มีโฆษณา",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "เขียนซ้ำ 600 ครั้งต่อเดือน",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "เขียนซ้ำ 9,000 ครั้งต่อปี",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "ส่วนลด 50% สำหรับส่วนขยายอื่น ๆ",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "การสนับสนุนทางอีเมลลำดับความสำคัญ",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "รูปแบบการส่งออก",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "เฉพาะการส่งออก PDF เท่านั้นที่มีให้บริการในแผนบริการฟรี โปรดอัปเกรดเป็น Pro/Premium เพื่อปลดล็อกรูปแบบการส่งออกอื่นๆ",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "รูปแบบชื่อไฟล์",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "เลือกวิธีตั้งชื่อไฟล์ที่ส่งออก",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "เขียนประวัติใหม่ - วันที่ (เช่น RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "ชื่อที่กำหนดเอง",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "ป้อนชื่อไฟล์ที่กำหนดเอง...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "ส่งออกไฟล์ในเครื่อง",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "บันทึกลงในดรอปบ็อกซ์ 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "บันทึกลงใน Google ไดรฟ์ ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "การสำรองข้อมูลบนคลาวด์มีเฉพาะในแผนชำระเงินเท่านั้น โปรดอัปเกรดเป็น Pro/Premium",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "การรับรองความถูกต้องของ Dropbox ถูกยกเลิก",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "ไม่สามารถรับโทเค็นการเข้าถึง Dropbox",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "การตรวจสอบสิทธิ์ Google ไดรฟ์ล้มเหลว",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "การอัปโหลด Google Drive ล้มเหลว:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "ข้อผิดพลาด Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "ไม่พบประวัติที่จะส่งออก",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "ประวัติศาสตร์จัดรูปแบบอย่างสวยงามและคัดลอกไปยังคลิปบอร์ด!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "บันทึกประวัติอย่างปลอดภัยไปยัง Dropbox ของคุณ!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "บันทึกประวัติอย่างปลอดภัยไปยัง Google Drive ของคุณ!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "ส่งออกเสร็จแล้ว!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "เขียนใหม่ด้วย AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI เขียนใหม่",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "ปิด",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "ข้อความต้นฉบับ",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "เลือกโหมดที่จะเขียนใหม่...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "แทนที่",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "คัดลอก",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ คัดลอกแล้ว",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ ลองอีกครั้ง",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "บันทึก",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "เฉพาะโหมด \"ปรับปรุง\" เท่านั้นที่มีในแผนบริการฟรี โปรดอัปเกรดเป็น Pro เพื่อปลดล็อกโหมดทั้งหมด 13 โหมด",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "เฉพาะโหมด \"ปรับปรุง\" เท่านั้นที่มีในแผนบริการฟรี โปรดอัปเกรดเป็น Pro/Premium เพื่อปลดล็อกโหมดการเขียนซ้ำทั้งหมด 13 โหมด",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ จานคำสั่ง AI เขียนใหม่",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ แผนฟรี (ล็อคข้อความเตือนแบบกำหนดเอง)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "ข้อความแจ้งที่กำหนดเองถูกล็อคในแผนฟรี...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "เช่น เขียนใหม่สำหรับ LinkedIn ทำให้สิ่งนี้โน้มน้าวใจ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "เฉพาะโหมด \"ปรับปรุง\" เท่านั้นที่มีในแผนบริการฟรี โปรดอัปเกรดเป็น Pro/Premium เพื่อปลดล็อกคุณสมบัติทั้งหมด",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "เฉพาะโหมด \"ปรับปรุง\" เท่านั้นที่มีในแผนบริการฟรี โปรดอัปเกรดเป็น Pro/Premium เพื่อปลดล็อกโหมดทั้งหมด",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 ประวัติศาสตร์",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ การตั้งค่า",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "ยังไม่มีการเขียนซ้ำ",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "ไฮไลต์ข้อความบนหน้าใดก็ได้แล้วคลิก ✨ เพื่อเริ่มต้น",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "ต้นฉบับ:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ เขียนใหม่:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "โหลดเพิ่ม",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "บัญชี",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "วันนี้เขียนใหม่",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "รีเซ็ต",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "ใช้งานอยู่ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "เครื่องยนต์เอไอ",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI เขียนโปรแกรมใหม่",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "ฉันจะเขียนข้อความใหม่บนเว็บไซต์ได้อย่างไร",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "เพียงเน้นหรือเลือกข้อความใด ๆ บนหน้าเว็บใดก็ได้ ปุ่มไม้กายสิทธิ์แบบลอย ('✨') จะปรากฏขึ้นใกล้กับเคอร์เซอร์ของคุณโดยอัตโนมัติ การคลิกไอคอนนี้จะเปิดป๊อปอัปการเขียนซ้ำเชิงโต้ตอบ ซึ่งคุณสามารถเลือกโทนการเขียนใหม่ (เช่น ปรับปรุง ไวยากรณ์ มืออาชีพ ไม่เป็นทางการ ขยาย หรือย่อให้สั้นลง) เพื่อให้ AI เขียนเนื้อหาใหม่ให้กับคุณ คุณยังสามารถทริกเกอร์อินเทอร์เฟซผ่านทางทางลัด Command Palette (Ctrl+Shift+Pบน Windows/Linux หรือCmd+Shift+Pบน macOS)",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "รองรับโมเดล AI ใดบ้าง",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "ขณะนี้เราสนับสนุน LLM ที่ล้ำสมัย รวมถึง GPT ของ OpenAI (เช่น GPT-4o-mini), Gemini ของ Google, Claude ของ Anthropic และ Groq โอเพ่นซอร์ส (เช่น Llama 3) เพื่อการประมวลผลข้อความที่มีประสิทธิภาพสูงและรวดเร็วปานสายฟ้า",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "ข้อมูลของฉันปลอดภัยหรือไม่?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "ใช่แล้ว ความเป็นส่วนตัวถือเป็นสิ่งสำคัญอันดับแรก เราประมวลผลเฉพาะข้อความที่คุณเลือกสำหรับการเขียนใหม่เท่านั้น ข้อความจะถูกส่งไปยัง API แบ็กเอนด์ของเราอย่างปลอดภัยเพื่อดำเนินการตามคำขอ เราไม่เก็บประวัติบันทึกข้อความของคุณไว้ในระยะยาวบนเซิร์ฟเวอร์ของเรา และเราจะไม่แชร์กับบุคคลที่สามหรือใช้เพื่อฝึกโมเดล AI นอกจากนี้ ส่วนขยายยังทำงานในสภาพแวดล้อมแบบแซนด์บ็อกซ์เพื่อให้แน่ใจว่าประวัติการเข้าชมส่วนตัวของคุณจะได้รับการปกป้อง",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "อะไรคือความแตกต่างระหว่างแผนฟรีและแผน Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "แผนฟรีมีการเขียนซ้ำ 5 ครั้งต่อวัน โดยจำกัดเฉพาะรูปแบบ 'ปรับปรุง' และรูปแบบการดาวน์โหลด/ส่งออก 'PDF' การรวม Dropbox และ Google Drive ก็ถูกล็อคเช่นกัน แผนแบบชำระเงิน (Weekly, Monthly Pro และ Yearly Ultimate) จะปลดล็อกโทนเสียงทั้งหมด 6 แบบ, รูปแบบการดาวน์โหลดทั้งหมด 6 รูปแบบ (PDF, Markdown, TXT, IMG, JSON และ Clipboard Copy) และการผสานรวมการสำรองข้อมูลบนคลาวด์เพื่อประสบการณ์ระดับพรีเมียมที่ไร้ข้อจำกัด",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "เหตุใดเสียงการเขียนซ้ำ รูปแบบการส่งออก และการสำรองข้อมูลบนคลาวด์จึงถูกล็อกในแผนแบบฟรี",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "การใช้งานโมเดล AI ที่ล้ำสมัย (เช่น GPT-4o-mini, Gemini และ Claude) และการจัดการการซิงโครไนซ์บนคลาวด์ต้องใช้โครงสร้างพื้นฐานเซิร์ฟเวอร์จำนวนมาก พลังในการประมวลผล และต้นทุน API โดยตรงสำหรับทุกการดำเนินการ เพื่อให้บริการของเรามีความยั่งยืนในขณะที่ยังคงเสนอตัวเลือกฟรีที่ทำงานได้อย่างสมบูรณ์ แผนฟรีจึงครอบคลุมข้อกำหนดพื้นฐาน (เขียนใหม่ 5 ครั้งต่อวันโดยใช้โทนเสียง 'ปรับปรุง' และการสร้าง PDF ในเครื่อง) แผนการสมัครสมาชิกจะอุดหนุนค่าใช้จ่ายของเสียงพรีเมียม (ไวยากรณ์, มืออาชีพ, ไม่เป็นทางการ, ขยาย, ย่อให้สั้นลง), ตัวเชื่อมต่อคลาวด์ (Dropbox, Google Drive) และการส่งออกหลายรูปแบบ (Markdown, TXT, IMG, JSON, COPY) ทำให้มั่นใจได้ว่าเราสามารถรองรับประสิทธิภาพสูง การอัปเดตที่ใช้งานอยู่ และความเป็นส่วนตัวที่เข้มงวดโดยไม่มีโฆษณา",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "ฉันจะเปิดใช้งานรหัสใบอนุญาตของฉันได้อย่างไร",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "หลังจากเสร็จสิ้นการซื้อการสมัครสมาชิกของคุณ ให้วางรหัสใบอนุญาตของคุณในช่องตรวจสอบรหัสที่ด้านล่างของหน้า 'บัญชีและการใช้งาน' บนแดชบอร์ด และคลิก 'เปิดใช้งานใบอนุญาต' รายละเอียดแผนบัญชีของคุณจะอัปเดตทันทีในพื้นที่เก็บข้อมูลเบราว์เซอร์ของคุณ",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "สิ่งนี้ใช้ได้กับ Google Docs หรือ Notion หรือไม่",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "ใช่ ส่วนขยายนี้เข้ากันได้อย่างสมบูรณ์กับโปรแกรมแก้ไขยอดนิยมและพอร์ทัลข้อความที่หลากหลาย เช่น Google Docs, Notion, Gmail, LinkedIn, Slack web และ Twitter/X หากปุ่มลอยถูกปิดใช้งานในแอปพลิเคชันแบบกำหนดเอง คุณสามารถใช้แป้นพิมพ์ลัด Command Palette เพื่อเขียนการเลือกของคุณใหม่",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "ฉันสามารถใช้คีย์ API ของตัวเองได้หรือไม่",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "เพื่อมอบประสบการณ์ Plug-and-Play ที่ราบรื่น ต้นทุนการใช้งาน API ทั้งหมดจึงครอบคลุมอยู่ภายใต้แผนการสมัครสมาชิกของคุณ ขณะนี้คุณไม่จำเป็นต้องกำหนดค่าคีย์ API ของคุณเอง อย่างไรก็ตาม เราวางแผนที่จะรองรับการกำหนดค่า API ของผู้ใช้แบบกำหนดเองในการอัปเดตที่มุ่งเน้นนักพัฒนาในอนาคต",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "ฉันจะเปลี่ยนโทนการเขียนซ้ำเริ่มต้นได้อย่างไร",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "คุณสามารถตั้งค่าเสียงการเขียนซ้ำเริ่มต้นได้ในแท็บการตั้งค่าของแผงตัวเลือกนี้ การบันทึกการตั้งค่าของคุณจะเป็นค่าเริ่มต้นเป็นเสียงนั้นโดยอัตโนมัติเมื่อคลิกไอคอนไม้กายสิทธิ์ แม้ว่าคุณจะยังคงสามารถเปลี่ยนเสียงในป๊อปอัปได้เมื่อจำเป็น",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "ทำไมบางครั้งปุ่มลอยไม่ปรากฏ?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "ปุ่มไม้กายสิทธิ์ต้องมีความยาวข้อความขั้นต่ำในการเลือกเพื่อป้องกันการซ้อนทับโดยไม่ตั้งใจ นอกจากนี้ นโยบายความปลอดภัยของเบราว์เซอร์มาตรฐานจะบล็อกการแทรกเนื้อหาบนหน้าที่มีสิทธิ์บางหน้าอย่างเคร่งครัด เช่น Chrome เว็บสโตร์ (chrome.google.com) และหน้าการกำหนดค่าภายใน (chrome://)",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "ฉันสามารถคัดลอกข้อความที่เขียนใหม่โดยไม่ต้องแทนที่ต้นฉบับได้หรือไม่",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "ใช่ ภายในป๊อปอัปการเขียนซ้ำแบบลอย คุณสามารถคลิกไอคอน 'คัดลอก' การดำเนินการนี้จะคัดลอกเวอร์ชันที่เขียนใหม่ไปยังคลิปบอร์ดของคุณโดยตรง ทำให้คุณสามารถวางได้ทุกที่ที่ต้องการโดยไม่ต้องแทนที่หรือส่งผลกระทบต่อเนื้อหาต้นฉบับบนหน้าเว็บ",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "ฉันจะยกเลิกการสมัครสมาชิกของฉันได้อย่างไร?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "คุณสามารถจัดการหรือยกเลิกการสมัครสมาชิกของคุณได้ตลอดเวลาโดยคลิกลิงก์พอร์ทัลการเรียกเก็บเงินของลูกค้าที่ให้ไว้ในอีเมลยืนยันการซื้อของคุณ หากคุณไม่พบอีเมล โปรดติดต่อเราที่keshoraai@gmail.comแล้วเราจะช่วยเหลือคุณ",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "โทนเสียง 'ขยาย' ทำหน้าที่อะไร?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "น้ำเสียง 'ขยาย' ใช้ความฉลาดเชิงกำเนิดเพื่อสร้างและขยายความในข้อความที่คุณเลือก โดยเพิ่มรายละเอียด บริบท และโครงสร้างไวยากรณ์ที่เหมาะสมให้กับความคิดสั้นๆ หัวข้อย่อย หรือวลี โดยที่ยังคงรักษาเจตนาดั้งเดิมเอาไว้",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "คุณเสนอส่วนลดนักเรียนหรือไม่?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "ใช่ เราสนับสนุนนักเรียน นักการศึกษา และนักวิจัยทางวิชาการ เราเสนอส่วนลด 30% สำหรับแผนการสมัครสมาชิกแบบชำระเงินทั้งหมด ส่งอีเมลถึงเราที่keshoraai@gmail.comจากที่อยู่อีเมลของโรงเรียนหรือมหาวิทยาลัยอย่างเป็นทางการของคุณ (.edu หรือโดเมนทางวิชาการ) เพื่อขอรหัสส่วนลด",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "มีตัวเลือกการเขียนซ้ำจำนวนมากหรือไม่?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "ใช่ ผู้ใช้ระดับพรีเมียมสามารถใช้การเขียนซ้ำจำนวนมากได้ แทนที่จะเลือกแต่ละส่วน คุณสามารถเปิดแผงด้านข้างของส่วนขยายและวางเอกสารหรือย่อหน้าทั้งหมดเพื่อแก้ไขได้ในคราวเดียว",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "ฉันจะรายงานจุดบกพร่องได้อย่างไร?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "คุณสามารถส่งอีเมลรายงานข้อบกพร่องถึงทีมสนับสนุนของเราได้โดยตรงที่keshoraai@gmail.comการคลิกวิดเจ็ตความช่วยเหลือในแท็บ \"บัญชีและการใช้งาน\" จะเป็นการเติมเทมเพลตการสนับสนุนที่มีรายละเอียดส่วนขยายไว้ล่วงหน้าเพื่อช่วยเราในการวินิจฉัยปัญหา",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "ทำไมมันขึ้นว่า 'เกินโควต้า'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "คำเตือน 'เกินโควต้า' หมายความว่าคุณได้ใช้งานการใช้งานที่จัดสรรไปแล้วสำหรับรอบการใช้งานของแผนของคุณ: ผู้ใช้ฟรีจะถูกจำกัดการเขียนซ้ำ 5 ครั้งต่อวัน; ผู้ใช้รายสัปดาห์จะได้รับการเขียนซ้ำ 140 ครั้ง; ผู้ใช้ Pro รายเดือนจะได้รับการเขียนซ้ำ 600 ครั้ง; และผู้ใช้ Yearly Ultimate ได้รับการเขียนซ้ำ 9,000 ครั้ง โควต้าจะรีเซ็ตโดยอัตโนมัติตามรอบ (ทุกวันในเวลาเที่ยงคืนตามเวลาท้องถิ่น หรือตามขอบเขตรายสัปดาห์/รายเดือน/รายปี) คุณสามารถอัปเกรดเป็นระดับที่สูงกว่าได้ในหน้า 'บัญชีและการใช้งาน' เพื่อกลับมาให้บริการได้ทันที",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "กำลังส่งออก...",
+    "description": "Locale key: exportingStatus"
+  }
+}

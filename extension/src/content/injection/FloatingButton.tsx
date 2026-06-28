@@ -102,8 +102,8 @@ export const FloatingButton: React.FC<FloatingButtonProps> = ({ rect, onClick })
       onMouseLeave={(e) => {
         (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1)';
       }}
-      title="AI Rewrite"
-      aria-label="Rewrite with AI"
+      title={chrome.i18n.getMessage('popupTitleLabel')}
+      aria-label={chrome.i18n.getMessage('floatingButtonAria')}
     >
       <SparkleIcon />
       <style>{`

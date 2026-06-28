@@ -1,0 +1,44 @@
+✨ Skriv om tekst hvor som helst på nettet umiddelbart ved hjelp av toppmoderne AI.
+
+Lei av å kopiere og lime inn tekst i chattevinduer for å fikse det du skriver? Med AI Rewrite Anywhere kan du markere eller velge hvilken som helst tekst på hvilken som helst nettside (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X og mer) og omskrive den umiddelbart.
+
+Drevet av en smart AI-reservekjede som bruker store språkmodeller på toppnivå (inkludert OpenAI GPT, Google Gemini, Anthropic Claude og Groq åpen kildekode Llama), sikrer utvidelsen maksimal oppetid og lynraske svar ved automatisk å dirigere forespørsler til neste tilgjengelige leverandør hvis en støter på et tjenesteavbrudd.
+
+🚀 NØKKELFUNKSJONER:
+- 🖱️ Fremhev og omskriv: Bare fremhev tekst på hvilken som helst nettside. En flytende tryllestav-knapp vises nær markøren. Klikk på den for å skrive om umiddelbart.
+- 🖱️ Integrasjon av kontekstmeny: Høyreklikk på et valg for å få tilgang til 13 forskjellige omskrivingsmoduser direkte fra nettleserens kontekstmeny.
+- ⌨️ Kommandopalett (Ctrl+Shift+K): Åpne et raskt, tastatursentrisk grensesnitt for å skrive tilpassede meldinger eller utløse hurtigforhåndsinnstillinger uten å berøre musen.
+- 📋 Full omskrivingshistorikk og innstillinger: Få tilgang til et vakkert sidepanel på dashbordet for å gjennomgå tidligere omskrivninger, eksportere logger i flere formater og konfigurere preferanser.
+- 🔄 Sømløs AI Fallback: Nyt uavbrutt tjeneste. Hvis primærmodellen mislykkes, bytter utvidelsen automatisk til neste tilgjengelige modell transparent.
+- 🔐 Sikker Google-pålogging: Rask, beskyttet autentisering som synkroniserer innstillingene dine på tvers av enheter trygt.
+
+🎯 13 DYNAMISKE OMSKRIVINGSMODI:
+1. Forbedre: Polsk skrivestruktur og ordforråd automatisk.
+2. Grammatikk: Korriger stave-, tegnsettings- og syntaksfeil.
+3. Profesjonell: Hev språket ditt for profesjonell korrespondanse.
+4. Vennlig: Legg til varme og tilgjengelighet til meldingene dine.
+5. Formell: Juster frasering for offisielle dokumenter og forretningsbrev.
+6. Uformelt: Lag avslappet, samtaletekst for sosiale omgivelser.
+7. Overbevisende: Strukturer ideer for å overbevise, pitche eller markedsføre effektivt.
+8. Trygg: Prosjektsikkerhet, autoritet og sterk overbevisning.
+9. Forkort: Kondenser lange avsnitt til konsise høydepunkter.
+10. Utvid: Forklar og bygg på korte kulepunkter eller fraser.
+11. Forenkle: Oversett sjargong eller komplekse tanker til et klart, lesbart språk.
+12. Humaniser: Omstrukturer robotiske AI-utkast for å lese naturlig.
+13. Egendefinert ledetekst: Skriv inn nøyaktig hva du vil at AI skal gjøre med utvalget.
+
+📂 PREMIUM EKSPORTFORMATER:
+Eksporter omskrivingsloggen din lokalt eller synkroniser direkte til skytjenester:
+- PDF (gratis og premium)
+- Markdown (MD)
+- TXT
+- Bilde (IMG)
+- JSON
+- Utklippstavle kopi
+- Skyintegrering: Lagre direkte i Dropbox eller Google Drive.
+
+🔒 PERSONVERN OG SIKKERHET VED DESIGN:
+Personvern er vår primære forpliktelse. Vi behandler kun den spesifikke teksten du velger for aktiv omskriving. Valget ditt overføres trygt gjennom SSL-kryptering til vår backend API for å utføre forespørselen og lagres ikke langsiktig på serverne våre. Din personlige nettleserhistorikk er fullstendig beskyttet.
+
+📧 KONTAKT OG SUPPORT:
+Har du spørsmål, forslag eller feilrapporter? Kontakt oss direkte påkeshoraai@gmail.com. Vi er forpliktet til regelmessige oppdateringer og funksjonsforespørsler!

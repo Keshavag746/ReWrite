@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Zvýrazněte text kdekoli. Okamžité přepisování pomocí AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Otevřete paletu příkazů AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Zlepšit psaní",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Opravit gramatiku",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Dělejte profesionály",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Buďte přátelští",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Buďte formální",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Dělejte příležitostně",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Přesvědčte se",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Ujistěte se",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanizovat",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Vlastní výzva...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Zlepšit se",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Gramatika",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesionál",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Přátelský",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formální",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Neformální",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Přesvědčivé",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Jistý",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Zkraťte",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Rozbalte",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Zjednodušte",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanizovat",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Vlastní",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Načítání...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Přepište text kdekoli",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Přihlaste se pomocí Google a začněte přepisovat text na libovolném webu s umělou inteligencí.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Přihlašování...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Přihlaste se pomocí Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Zdarma",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Denní použití",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(neomezeno)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Vyberte text na libovolné stránce → kliknutím na tlačítko ✨ jej přepište. Nebo stiskněteCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Otevřete historii a nastavení",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Odhlásit se",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Přihlášení se nezdařilo",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Přepsání se nezdařilo",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Tato sekce je v současné době ve výstavbě.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Chcete-li zobrazit nastavení, přihlaste se.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Účet a použití",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Přepsat historii",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Nastavení",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Stáhnout",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Nápověda a časté dotazy",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Obecná konfigurace",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Téma rozhraní",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Tmavý režim",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Světelný režim",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Výchozí přepisovací tón",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Vymazat celou historii",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Zatím žádné přepisy",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Zvýrazněte text na libovolné stránce a začněte kliknutím na ✨. Zde se zobrazí vaše historie.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Opravdu chcete smazat tuto položku historie přepisů?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Opravdu chcete trvale smazat celou historii přepisování? Toto nelze vrátit zpět.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Nepodařilo se smazat položku:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Historii se nepodařilo vymazat:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Původní text",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Přepsaný text",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Smazat",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopírovat Přepsáno",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Zkopírováno!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Načíst starší přepisy",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Podpora a obchodní dotazy",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Obraťte se na:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Často kladené otázky",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Pro pomoc nebo pro nahlášení chyby",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-mailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Denní bezplatný limit",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Bezplatná úroveň: 5 přepsání/den. Resetuje se denně o půlnoci.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Přepisujte text kdekoli bez omezení.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Dávkově přepište veškerý obsah. Synchronizace do cloudu. Žádná omezení.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Nabídka pro včasné přijetí: Další zvýšení ceny u 500 prémiových uživatelů. Zajistěte si toto tempo na celý život!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Americký trh ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indický trh (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Platby v amerických dolarech jsou v současné době udržovány. Přejděte prosím na tarif indického trhu (₹) nebo nás kontaktujte na adresekeshoraai@gmail.coms žádostí o pomoc.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Týdenní",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Pouze 57 ¢ / den)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Měsíčně ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Pouze 33 ¢ / den)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Každoročně 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Pouze 21 ¢ / den)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Jen 21 ₹ / den)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Jen 13 ₹ / den)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Jen 8₹ / den)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ týden",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ měsíc",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ rok",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Dobré pro občasné použití",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Většina uživatelů volí tento plán",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Nejlepší hodnota pro náročné uživatele",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "NEJOBLÍBENĚJŠÍ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "NEJLEPŠÍ HODNOTA - 2 MĚSÍCE ZDARMA",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Hodnocení 5.0 • 🔒 Bezpečné platby • ✔️ Zrušit kdykoli",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Jste student nebo výzkumník, který si nemůže dovolit předplatné? Pošlete e-mail na adresukeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Máte již licenční klíč?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Zadejte licenční klíč...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktivovat",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 přepsání týdně",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Odemknout hromadné přepisování",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Přístup k prémiovým nastavením",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, synchronizace Dropboxu",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Prémiové motivy",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Inteligentní organizace složek",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Zážitek bez reklam",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 přepsání za měsíc",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9 000 přepsání ročně",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% sleva na další rozšíření",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Prioritní e-mailová podpora",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Formát exportu",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "V bezplatném plánu je k dispozici pouze export do PDF. Chcete-li odemknout další formáty exportu, upgradujte na Pro/Premium.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Formát názvu souboru",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Vyberte, jak se budou exportované soubory jmenovat.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Historie přepsání – datum (např. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Vlastní název",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Zadejte vlastní název souboru...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Exportovat místní soubor",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Uložit do Dropboxu 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Uložit na Disk Google ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Cloudové zálohování je k dispozici pouze u placených plánů. Upgradujte na Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Ověření Dropboxu bylo zrušeno.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Nepodařilo se získat přístupový token Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Ověření Disku Google se nezdařilo.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Nahrání na Disk Google se nezdařilo:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Chyba Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Nebyla nalezena žádná historie k exportu.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Historie krásně naformátovaná a zkopírovaná do schránky!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Historie bezpečně uložená do vašeho Dropboxu!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Historie je bezpečně uložena na vašem Disku Google!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Export dokončen!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Přepište pomocí AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Přepis AI",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Zavřít",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Původní text",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Vyberte režim, který chcete přepsat...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Vyměňte",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopírovat",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Zkopírováno",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Zkuste to znovu",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Uložit",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Na bezplatném plánu je k dispozici pouze režim „Vylepšit“. Upgradujte na verzi Pro a odemkněte všech 13 režimů.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Na bezplatném plánu je k dispozici pouze režim „Vylepšit“. Upgradujte na Pro/Premium, abyste odemkli všech 13 režimů přepisování.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Paleta příkazů AI Rewrite",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Plán zdarma (vlastní výzvy uzamčeny)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Vlastní výzva je uzamčena na bezplatném plánu...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "např. Přepište pro LinkedIn, udělejte to přesvědčivým...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Na bezplatném plánu je k dispozici pouze režim „Vylepšit“. Chcete-li odemknout všechny funkce, upgradujte na Pro/Premium.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Na bezplatném plánu je k dispozici pouze režim „Vylepšit“. Chcete-li odemknout všechny režimy, upgradujte na Pro/Premium.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Historie",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Nastavení",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Zatím žádné přepisy.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Zvýrazněte text na libovolné stránce a začněte kliknutím na ✨.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "originál:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Přepsáno:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Načíst více",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "účet",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Dnes přepisuje",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Resetuje",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktivní ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI Engine",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Jak přepíšu text na webu?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Jednoduše zvýrazněte nebo vyberte libovolný text na libovolné webové stránce. V blízkosti kurzoru se automaticky objeví plovoucí tlačítko kouzelné hůlky ('✨'). Kliknutím na tuto ikonu se otevře vyskakovací okno interaktivního přepisu, kde můžete vybrat tón přepisu (např. Zlepšení, Gramatika, Profesionální, Nenáročné, Rozšířit nebo Zkrátit), aby AI přepsala obsah za vás. Rozhraní můžete také spustit pomocí zástupce palety příkazů (Ctrl+Shift+Pna Windows/Linux neboCmd+Shift+Pna macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Které modely AI jsou podporovány?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "V současné době podporujeme nejmodernější LLM včetně OpenAI GPT (např. GPT-4o-mini), Google Gemini, Antropic Claude a Groq open-source modely (jako Llama 3) pro vysoce výkonné a bleskurychlé zpracování textu.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Jsou moje data v bezpečí?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ano, soukromí je hlavní prioritou. Zpracováváme pouze konkrétní text, který vyberete k přepsání. Text je bezpečně přenesen do našeho backendového rozhraní API, aby mohl provést požadavek. Vaši historii textových protokolů neukládáme dlouhodobě na našich serverech, nesdílíme je s třetími stranami ani je nepoužíváme k trénování modelů umělé inteligence. Rozšíření navíc běží v izolovaném prostředí, aby byla zajištěna ochrana vaší osobní historie procházení.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Jaký je rozdíl mezi plány Free a Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Plán zdarma poskytuje 5 přepisů za den, omezený výhradně na tón „Zlepšit“ a formát stahování/exportu „PDF“. Integrace Dropbox a Google Drive jsou také uzamčeny. Placené plány (Weekly, Monthly Pro a Yearly Ultimate) odemykají všech 6 tónů, všech 6 formátů stahování (PDF, Markdown, TXT, IMG, JSON a Clipboard Copy) a integrace cloudového zálohování pro prémiový zážitek bez omezení.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Proč jsou některé přepisovací tóny, exportní formáty a cloudové zálohy uzamčeny v plánu zdarma?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Provozování nejmodernějších modelů umělé inteligence (jako jsou GPT-4o-mini, Gemini a Claude) a správa cloudové synchronizace vyžaduje značnou serverovou infrastrukturu, výpočetní výkon a přímé náklady na rozhraní API pro každou akci. Aby byla naše služba udržitelná a zároveň stále nabízela plně funkční bezplatnou možnost, pokrývá bezplatný plán základní požadavky (5 denních přepisů s tónem „Zlepšit“ a místní generování PDF). Plány předplatného dotují náklady na prémiové tóny (Grammar, Professional, Casual, Expand, Shorten), cloudové konektory (Dropbox, Google Drive) a exporty více formátů (Markdown, TXT, IMG, JSON, COPY), což zajišťuje, že můžeme podporovat vysoký výkon, aktivní aktualizace a přísné soukromí bez reklam.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Jak aktivuji svůj licenční klíč?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Po dokončení nákupu předplatného vložte svůj licenční klíč do pole ověření klíče v dolní části stránky „Účet a použití“ na řídicím panelu a klikněte na „Aktivovat licenci“. Podrobnosti vašeho plánu účtu se okamžitě aktualizují v úložišti vašeho prohlížeče.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Funguje to v Dokumentech Google nebo Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ano, rozšíření je plně kompatibilní s oblíbenými editory a portály s formátovaným textem, jako jsou Dokumenty Google, Notion, Gmail, LinkedIn, Slack web a Twitter/X. Pokud je plovoucí tlačítko ve vlastní aplikaci zakázáno, můžete svůj výběr přepsat pomocí klávesové zkratky Paleta příkazů.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Mohu použít svůj vlastní klíč API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Pro zajištění bezproblémového zážitku typu plug-and-play jsou všechny náklady na používání rozhraní API plně pokryty vaším plánem předplatného. V současné době nemusíte konfigurovat vlastní klíče API. Plánujeme však podporovat vlastní uživatelské konfigurace API v budoucí aktualizaci zaměřené na vývojáře.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Jak změním výchozí přepisovací tón?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Výchozí tón přepisu můžete nastavit na kartě Nastavení tohoto panelu možností. Uložením předvolby se po kliknutí na ikonu kouzelné hůlky automaticky přepne na tento tón, i když v případě potřeby můžete tóny ve vyskakovacím okně přepínat.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Proč se někdy neobjeví plovoucí tlačítko?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Tlačítko kouzelné hůlky vyžaduje minimální délku výběru textu, aby se zabránilo náhodnému překrytí. Standardní zásady zabezpečení prohlížeče navíc přísně blokují vkládání obsahu na určité privilegované stránky, jako je Internetový obchod Chrome (chrome.google.com) a stránky interní konfigurace (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Mohu zkopírovat přepsaný text, aniž bych nahradil originál?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ano, uvnitř plovoucího vyskakovacího okna přepisu můžete kliknout na ikonu 'Kopírovat'. To zkopíruje nově přepsanou verzi přímo do vaší schránky, což vám umožní vložit ji kamkoli chcete, aniž byste nahradili nebo ovlivnili původní obsah na webové stránce.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Jak zruším své předplatné?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Své předplatné můžete kdykoli spravovat nebo zrušit kliknutím na odkaz na zákaznický fakturační portál uvedený v e-mailu s potvrzením nákupu. Pokud e-mail nemůžete najít, kontaktujte nás na adresekeshoraai@gmail.coma my vám pomůžeme.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Co dělá 'Rozbalit' tón?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Tón „Rozbalit“ využívá generativní inteligenci k vybudování a propracování vybraného textu, přidává bohaté detaily, kontext a správnou gramatickou strukturu krátkým myšlenkám, odrážkám nebo frázím, přičemž původní záměr zachovává nedotčený.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Nabízíte studentskou slevu?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ano, podporujeme studenty, pedagogy a akademické výzkumníky. Nabízíme 30% slevu na všechny placené předplatné. Pošlete nám e-mail na adresukeshoraai@gmail.comze své oficiální školní nebo univerzitní e-mailové adresy (doména .edu nebo akademická) a požádejte o slevový kód.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Existuje možnost hromadného přepisu?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ano, uživatelé prémiové úrovně mohou využívat hromadné přepisování. Namísto výběru jednotlivých segmentů můžete otevřít boční panel rozšíření a vložit celé dokumenty nebo odstavce a upravit je najednou.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Jak nahlásím chybu?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Hlášení o chybách můžete poslat e-mailem přímo našemu týmu podpory na adresukeshoraai@gmail.com. Kliknutím na widget nápovědy na kartě „Účet a použití“ se předem vyplní šablona podpory obsahující podrobnosti o rozšíření, které nám pomohou diagnostikovat problém.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Proč je tam uvedeno „Kvóta překročena“?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Upozornění „Kvóta překročena“ znamená, že jste spotřebovali své přidělené využití pro aktivní cyklus vašeho plánu: Bezplatní uživatelé jsou omezeni na 5 přepsání denně; Týdenní uživatelé získají 140 přepsání; Měsíční uživatelé Pro získají 600 přepsání; a uživatelé Ultimate ročně obdrží 9 000 přepsání. Kvóty se resetují automaticky na základě cyklu (denně o půlnoci místního času nebo podle pohyblivých týdenních/měsíčních/ročních hranic). Na stránce „Účet a použití“ můžete upgradovat na vyšší úroveň a službu okamžitě obnovit.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Probíhá export...",
+    "description": "Locale key: exportingStatus"
+  }
+}

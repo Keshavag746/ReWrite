@@ -7,6 +7,8 @@ export const DownloadHistory: React.FC = () => {
   const [customTitle, setCustomTitle] = useState('');
   const [exporting, setExporting] = useState(false);
   const [userPlan, setUserPlan] = useState<string>('free');
+  const [showGDriveConsent, setShowGDriveConsent] = useState(false);
+  const [pendingExport, setPendingExport] = useState<(() => void) | null>(null);
 
   useEffect(() => {
     chrome.storage.local.get('ai_rewrite_user', (result) => {
@@ -61,13 +63,13 @@ export const DownloadHistory: React.FC = () => {
 
       chrome.identity.launchWebAuthFlow({ url: authUrl, interactive: true }, (redirectUrl) => {
         if (chrome.runtime.lastError || !redirectUrl) {
-          reject(new Error(chrome.runtime.lastError?.message || 'Dropbox authentication cancelled.'));
+          reject(new Error(chrome.runtime.lastError?.message || chrome.i18n.getMessage('dropboxAuthCancelled')));
           return;
         }
         
         const hash = new URL(redirectUrl).hash;
         if (!hash) {
-          reject(new Error('Failed to obtain Dropbox access token.'));
+          reject(new Error(chrome.i18n.getMessage('dropboxTokenFailed')));
           return;
         }
         
@@ -76,17 +78,22 @@ export const DownloadHistory: React.FC = () => {
         if (token) {
           resolve(token);
         } else {
-          reject(new Error('Failed to obtain Dropbox access token.'));
+          reject(new Error(chrome.i18n.getMessage('dropboxTokenFailed')));
         }
       });
     });
   };
 
-  const authenticateGoogleDrive = (): Promise<string> => {
+  const authenticateGoogleDrive = (interactive: boolean = true): Promise<string> => {
     return new Promise((resolve, reject) => {
-      chrome.identity.getAuthToken({ interactive: true }, (token) => {
+      chrome.identity.getAuthToken({ 
+        interactive,
+        scopes: [
+          'https://www.googleapis.com/auth/drive.file'
+        ]
+      }, (token) => {
         if (chrome.runtime.lastError || !token) {
-          reject(new Error(chrome.runtime.lastError?.message || 'Google Drive authentication failed.'));
+          reject(new Error(chrome.runtime.lastError?.message || chrome.i18n.getMessage('gdriveAuthFailed')));
         } else {
           resolve(token);
         }
@@ -107,7 +114,7 @@ export const DownloadHistory: React.FC = () => {
     });
     
     if (!res.ok) {
-      throw new Error(`Google Drive upload failed: ${res.statusText}`);
+      throw new Error(`${chrome.i18n.getMessage('gdriveUploadFailed')}${res.statusText}`);
     }
   };
 
@@ -127,7 +134,7 @@ export const DownloadHistory: React.FC = () => {
     });
     if (!res.ok) {
       const errText = await res.text();
-      throw new Error(`Dropbox API Error (${res.status}): ${errText}`);
+      throw new Error(`${chrome.i18n.getMessage('dropboxUploadFailed')}(${res.status}): ${errText}`);
     }
   };
 
@@ -146,9 +153,19 @@ export const DownloadHistory: React.FC = () => {
         }
       } else if (destination === 'gdrive') {
         try {
-          cloudToken = await authenticateGoogleDrive();
-        } catch (e: any) {
-          alert(e.message);
+          cloudToken = await authenticateGoogleDrive(false);
+        } catch (err) {
+          setPendingExport(() => async () => {
+            try {
+              setExporting(true);
+              await authenticateGoogleDrive(true);
+              handleExport('gdrive');
+            } catch (e: any) {
+              alert(e.message);
+              setExporting(false);
+            }
+          });
+          setShowGDriveConsent(true);
           setExporting(false);
           return;
         }
@@ -157,7 +174,7 @@ export const DownloadHistory: React.FC = () => {
       const items = await fetchHistory();
       
       if (items.length === 0) {
-        alert('No history found to export.');
+        alert(chrome.i18n.getMessage('noHistoryToExport'));
         setExporting(false);
         return;
       }
@@ -215,7 +232,7 @@ export const DownloadHistory: React.FC = () => {
           triggerDownload(txtStr, 'text/plain', `${filename}.txt`);
         } else {
           await navigator.clipboard.writeText(txtStr);
-          alert('History beautifully formatted and copied to clipboard!');
+          alert(chrome.i18n.getMessage('copySuccessAlert'));
         }
       } else if (formatToUse === 'MD') {
         let mdStr = `# AI Rewrite Anywhere - History Export\n\n`;
@@ -328,11 +345,11 @@ export const DownloadHistory: React.FC = () => {
 
       setExporting(false);
       if (destination === 'dropbox') {
-        alert('History securely saved to your Dropbox!');
+        alert(chrome.i18n.getMessage('dropboxSuccessAlert'));
       } else if (destination === 'gdrive') {
-        alert('History securely saved to your Google Drive!');
+        alert(chrome.i18n.getMessage('gdriveSuccessAlert'));
       } else if (format !== 'COPY') {
-        alert('Export complete!');
+        alert(chrome.i18n.getMessage('exportCompleteAlert'));
       }
     } catch (err: any) {
       console.error(err);
@@ -343,13 +360,83 @@ export const DownloadHistory: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-      <h1 style={{ fontSize: '28px', fontWeight: 700, marginBottom: '24px', color: 'var(--text-main)' }}>Download</h1>
+      {showGDriveConsent && (
+        <div style={{
+          position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
+          backgroundColor: 'rgba(0,0,0,0.65)', backdropFilter: 'blur(8px)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          zIndex: 9999, padding: '20px'
+        }}>
+          <div style={{
+            background: 'var(--bg-card)', border: '1px solid var(--border)',
+            borderRadius: '16px', padding: '32px', maxWidth: '440px', width: '100%',
+            textAlign: 'center', boxShadow: '0 20px 40px rgba(0,0,0,0.3)',
+          }}>
+            <div style={{
+              width: '56px', height: '56px', borderRadius: '12px',
+              backgroundColor: 'rgba(124, 110, 248, 0.1)', display: 'flex',
+              alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px'
+            }}>
+              {/* Google Drive Colored Triangles Logo */}
+              <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.53 3.65l6.94 12.02H1.6L8.53 3.65z" fill="#0066DA" />
+                <path d="M22.4 15.67L15.47 3.65H8.53l6.93 12.02h6.94z" fill="#00AA47" />
+                <path d="M15.47 15.67H1.6l6.93 12h13.87l-6.93-12z" fill="#FFBA00" />
+              </svg>
+            </div>
+            <h3 style={{ fontSize: '20px', fontWeight: 600, color: 'var(--text-main)', margin: '0 0 12px 0' }}>
+              Connect Google Drive
+            </h3>
+            <p style={{ fontSize: '14px', color: 'var(--text-muted)', lineHeight: '1.6', margin: '0 0 24px 0' }}>
+              Rewrite Anywhere only needs permission to create and access the files that it creates in your Google Drive.<br/><br/>
+              <strong>We cannot view or modify your existing Drive files.</strong>
+            </p>
+            <div style={{ display: 'flex', gap: '12px' }}>
+              <button 
+                onClick={() => {
+                  setShowGDriveConsent(false);
+                  if (pendingExport) {
+                    pendingExport();
+                    setPendingExport(null);
+                  }
+                }}
+                style={{
+                  flex: 1, padding: '12px', borderRadius: '8px', border: 'none',
+                  background: 'var(--primary)', color: '#ffffff', fontWeight: 600,
+                  fontSize: '14px', cursor: 'pointer', transition: 'opacity 0.2s'
+                }}
+                onMouseOver={(e) => e.currentTarget.style.opacity = '0.9'}
+                onMouseOut={(e) => e.currentTarget.style.opacity = '1'}
+              >
+                Connect Google Drive
+              </button>
+              <button 
+                onClick={() => {
+                  setShowGDriveConsent(false);
+                  setPendingExport(null);
+                  setExporting(false);
+                }}
+                style={{
+                  flex: 1, padding: '12px', borderRadius: '8px', border: '1px solid var(--border)',
+                  background: 'transparent', color: 'var(--text-muted)', fontWeight: 600,
+                  fontSize: '14px', cursor: 'pointer'
+                }}
+                onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.05)'}
+                onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      <h1 style={{ fontSize: '28px', fontWeight: 700, marginBottom: '24px', color: 'var(--text-main)' }}>{chrome.i18n.getMessage('sidebarDownload')}</h1>
 
       <div style={{
         background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: '12px',
         padding: '24px'
       }}>
-        <h2 style={{ fontSize: '16px', margin: '0 0 20px 0', color: 'var(--text-main)' }}>Export Format</h2>
+        <h2 style={{ fontSize: '16px', margin: '0 0 20px 0', color: 'var(--text-main)' }}>{chrome.i18n.getMessage('exportFormat')}</h2>
         
         <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginBottom: '32px' }}>
           {formats.map(f => {
@@ -359,7 +446,7 @@ export const DownloadHistory: React.FC = () => {
                 key={f.id}
                 onClick={() => {
                   if (isLocked) {
-                    alert('Only PDF export is available on the free plan. Please upgrade to Pro/Premium to unlock other export formats.');
+                    alert(chrome.i18n.getMessage('freePlanLimitAlert'));
                     return;
                   }
                   setFormat(f.id);
@@ -392,8 +479,8 @@ export const DownloadHistory: React.FC = () => {
         </div>
 
         <div style={{ marginBottom: '32px' }}>
-          <label style={{ display: 'block', fontSize: '14px', fontWeight: 600, marginBottom: '8px', color: 'var(--text-main)' }}>Filename Format</label>
-          <div style={{ color: 'var(--text-muted)', fontSize: '13px', marginBottom: '8px' }}>Choose how exported files are named.</div>
+          <label style={{ display: 'block', fontSize: '14px', fontWeight: 600, marginBottom: '8px', color: 'var(--text-main)' }}>{chrome.i18n.getMessage('filenameFormatLabel')}</label>
+          <div style={{ color: 'var(--text-muted)', fontSize: '13px', marginBottom: '8px' }}>{chrome.i18n.getMessage('filenameFormatDesc')}</div>
           <select 
             value={filenameFormat}
             onChange={(e) => setFilenameFormat(e.target.value)}
@@ -402,14 +489,14 @@ export const DownloadHistory: React.FC = () => {
               padding: '12px 16px', borderRadius: '8px', fontSize: '14px', outline: 'none', marginBottom: '12px'
             }}
           >
-            <option value="date">Rewrite History - Date (e.g. RewriteHistory_2026-06-23)</option>
-            <option value="custom">Custom Title</option>
+            <option value="date">{chrome.i18n.getMessage('optionDate')}</option>
+            <option value="custom">{chrome.i18n.getMessage('optionCustom')}</option>
           </select>
 
           {filenameFormat === 'custom' && (
             <input 
               type="text" 
-              placeholder="Enter custom filename..." 
+              placeholder={chrome.i18n.getMessage('customFilenamePlaceholder')} 
               value={customTitle}
               onChange={(e) => setCustomTitle(e.target.value)}
               style={{
@@ -430,13 +517,13 @@ export const DownloadHistory: React.FC = () => {
               display: 'flex', alignItems: 'center', gap: '8px', opacity: exporting ? 0.7 : 1, flex: '1 1 200px', justifyContent: 'center'
             }}
           >
-            {exporting ? 'Exporting...' : 'Export Local File'}
+            {exporting ? chrome.i18n.getMessage('exportingStatus') : chrome.i18n.getMessage('btnExportLocal')}
           </button>
           
           <button 
             onClick={() => {
               if (userPlan === 'free') {
-                alert('Cloud backup is only available on paid plans. Please upgrade to Pro/Premium.');
+                alert(chrome.i18n.getMessage('cloudBackupLockedAlert'));
                 return;
               }
               handleExport('dropbox');
@@ -448,13 +535,13 @@ export const DownloadHistory: React.FC = () => {
               display: 'flex', alignItems: 'center', gap: '8px', opacity: (exporting || userPlan === 'free') ? 0.6 : 1, flex: '1 1 200px', justifyContent: 'center'
             }}
           >
-            {exporting ? 'Exporting...' : 'Save to Dropbox 📦'} {userPlan === 'free' && '🔒'}
+            {exporting ? chrome.i18n.getMessage('exportingStatus') : chrome.i18n.getMessage('btnSaveDropbox')} {userPlan === 'free' && '🔒'}
           </button>
 
           <button 
             onClick={() => {
               if (userPlan === 'free') {
-                alert('Cloud backup is only available on paid plans. Please upgrade to Pro/Premium.');
+                alert(chrome.i18n.getMessage('cloudBackupLockedAlert'));
                 return;
               }
               handleExport('gdrive');
@@ -466,7 +553,7 @@ export const DownloadHistory: React.FC = () => {
               display: 'flex', alignItems: 'center', gap: '8px', opacity: (exporting || userPlan === 'free') ? 0.6 : 1, flex: '1 1 200px', justifyContent: 'center'
             }}
           >
-            {exporting ? 'Exporting...' : 'Save to Google Drive ☁️'} {userPlan === 'free' && '🔒'}
+            {exporting ? chrome.i18n.getMessage('exportingStatus') : chrome.i18n.getMessage('btnSaveGDrive')} {userPlan === 'free' && '🔒'}
           </button>
         </div>
       </div>

@@ -129,9 +129,9 @@ export const PopupMain: React.FC = () => {
       <div style={s.container}>
         <div style={s.header}>
           <SparkleIcon />
-          <span style={s.title}>AI Rewrite Anywhere</span>
+          <span style={s.title}>{chrome.i18n.getMessage('appName')}</span>
         </div>
-        <div style={{ color: '#8B8B9A', textAlign: 'center' as const, marginTop: '40px' }}>Loading...</div>
+        <div style={{ color: '#8B8B9A', textAlign: 'center' as const, marginTop: '40px' }}>{chrome.i18n.getMessage('loading')}</div>
       </div>
     );
   }
@@ -141,13 +141,13 @@ export const PopupMain: React.FC = () => {
       <div style={s.container}>
         <div style={s.header}>
           <SparkleIcon />
-          <span style={s.title}>AI Rewrite Anywhere</span>
+          <span style={s.title}>{chrome.i18n.getMessage('appName')}</span>
         </div>
         <div style={{ ...s.card, textAlign: 'center' as const }}>
           <div style={{ fontSize: '32px', marginBottom: '12px' }}>✨</div>
-          <div style={{ ...s.value, marginBottom: '6px' }}>Rewrite text anywhere</div>
+          <div style={{ ...s.value, marginBottom: '6px' }}>{chrome.i18n.getMessage('rewriteTextAnywhere')}</div>
           <div style={{ color: '#8B8B9A', fontSize: '13px', marginBottom: '20px' }}>
-            Sign in with Google to start rewriting text on any website with AI.
+            {chrome.i18n.getMessage('signInText')}
           </div>
           {error && <div style={{ color: '#f87171', fontSize: '12px', marginBottom: '12px' }}>{error}</div>}
           <button
@@ -155,7 +155,7 @@ export const PopupMain: React.FC = () => {
             disabled={authLoading}
             style={{ ...s.btn, ...s.primaryBtn }}
           >
-            {authLoading ? 'Signing in...' : '🔐 Sign in with Google'}
+            {authLoading ? chrome.i18n.getMessage('signingIn') : chrome.i18n.getMessage('signInBtn')}
           </button>
         </div>
       </div>
@@ -163,12 +163,16 @@ export const PopupMain: React.FC = () => {
   }
 
   const usagePercent = usage && usage.limit > 0 ? (usage.count / usage.limit) * 100 : 0;
+  
+  // Format quick tip with style-preserved <kbd> tag
+  const tipText = chrome.i18n.getMessage('quickTip');
+  const tipParts = tipText.split('Ctrl+Shift+K');
 
   return (
     <div style={s.container}>
       <div style={s.header}>
         <SparkleIcon />
-        <span style={s.title}>AI Rewrite Anywhere</span>
+        <span style={s.title}>{chrome.i18n.getMessage('appName')}</span>
       </div>
 
       {/* User info */}
@@ -180,11 +184,13 @@ export const PopupMain: React.FC = () => {
           </div>
           <span style={{
             padding: '3px 10px', borderRadius: '999px', fontSize: '11px', fontWeight: 600,
-            background: user.plan === 'pro' ? 'rgba(124,110,248,0.2)' : '#2A2A32',
-            color: user.plan === 'pro' ? '#7C6EF8' : '#8B8B9A',
-            border: `1px solid ${user.plan === 'pro' ? '#7C6EF8' : '#3A3A45'}`,
+            background: user.plan !== 'free' ? 'rgba(124,110,248,0.2)' : '#2A2A32',
+            color: user.plan !== 'free' ? '#7C6EF8' : '#8B8B9A',
+            border: `1px solid ${user.plan !== 'free' ? '#7C6EF8' : '#3A3A45'}`,
           }}>
-            {user.plan === 'pro' ? '⚡ Pro' : 'Free'}
+            {user.plan === 'free' 
+              ? chrome.i18n.getMessage('planFree') 
+              : (user.plan === 'pro' ? (chrome.i18n.getMessage('planPro') || 'Pro') : (user.plan.charAt(0).toUpperCase() + user.plan.slice(1)))}
           </span>
         </div>
       </div>
@@ -193,9 +199,9 @@ export const PopupMain: React.FC = () => {
       {usage && (
         <div style={s.card}>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-            <span style={s.label}>Daily Usage</span>
+            <span style={s.label}>{chrome.i18n.getMessage('dailyUsage')}</span>
             <span style={{ fontSize: '13px', color: '#F0F0F2' }}>
-              {usage.count}{usage.limit > 0 ? ` / ${usage.limit}` : ' (unlimited)'}
+              {usage.count}{usage.limit > 0 ? ` / ${usage.limit}` : ` ${chrome.i18n.getMessage('unlimited')}`}
             </span>
           </div>
           {usage.limit > 0 && (
@@ -213,16 +219,22 @@ export const PopupMain: React.FC = () => {
       {/* Quick tip */}
       <div style={{ ...s.card, background: 'rgba(124,110,248,0.08)', border: '1px solid rgba(124,110,248,0.2)' }}>
         <div style={{ fontSize: '12px', color: '#A89EFA' }}>
-          💡 Select text on any page → click the ✨ button to rewrite. Or press <kbd style={{ background: '#2A2A32', padding: '1px 5px', borderRadius: '3px' }}>Ctrl+Shift+K</kbd>
+          {tipParts.length > 1 ? (
+            <>
+              {tipParts[0]}
+              <kbd style={{ background: '#2A2A32', padding: '1px 5px', borderRadius: '3px' }}>Ctrl+Shift+K</kbd>
+              {tipParts[1]}
+            </>
+          ) : tipText}
         </div>
       </div>
 
       {/* Buttons */}
       <button onClick={openOptions} style={{ ...s.btn, ...s.primaryBtn, marginBottom: '8px' }}>
-        📋 Open History & Settings
+        {chrome.i18n.getMessage('btnOpenHistorySettings')}
       </button>
       <button onClick={handleLogout} style={{ ...s.btn, ...s.secondaryBtn }}>
-        Sign Out
+        {chrome.i18n.getMessage('btnSignOut')}
       </button>
     </div>
   );

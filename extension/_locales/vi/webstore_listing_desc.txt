@@ -1,0 +1,44 @@
+✨ Viết lại văn bản ở bất cứ đâu trên web ngay lập tức bằng AI hiện đại.
+
+Bạn cảm thấy mệt mỏi với việc sao chép và dán văn bản vào cửa sổ trò chuyện để sửa bài viết của mình? Với AI Rewrite Anywhere, bạn có thể đánh dấu hoặc chọn bất kỳ văn bản nào trên bất kỳ trang web nào (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, v.v.) và viết lại ngay lập tức.
+
+Được hỗ trợ bởi chuỗi dự phòng AI thông minh sử dụng các mô hình ngôn ngữ lớn hàng đầu (bao gồm OpenAI GPT, Google Gemini, Anthropic Claude và Llama nguồn mở Groq), tiện ích này đảm bảo thời gian hoạt động tối đa và phản hồi nhanh như chớp bằng cách tự động định tuyến các yêu cầu đến nhà cung cấp có sẵn tiếp theo nếu một nhà cung cấp gặp phải gián đoạn dịch vụ.
+
+🚀 TÍNH NĂNG CHÍNH:
+- 🖱️ Đánh dấu & Viết lại: Chỉ cần đánh dấu văn bản trên bất kỳ trang web nào. Nút cây đũa thần nổi xuất hiện gần con trỏ của bạn. Bấm vào nó để viết lại ngay lập tức.
+- 🖱️ Tích hợp Menu ngữ cảnh: Nhấp chuột phải vào bất kỳ lựa chọn nào để truy cập 13 chế độ viết lại riêng biệt trực tiếp từ menu ngữ cảnh của trình duyệt.
+- ⌨️ Bảng lệnh (Ctrl+Shift+K): Mở giao diện nhanh, tập trung vào bàn phím để nhập lời nhắc tùy chỉnh hoặc kích hoạt các cài đặt trước nhanh mà không cần chạm vào chuột.
+- 📋 Lịch sử viết lại đầy đủ & Cài đặt: Truy cập bảng điều khiển bên trang tổng quan đẹp mắt để xem lại các lần viết lại trước đây, xuất nhật ký ở nhiều định dạng và định cấu hình tùy chọn.
+- 🔄 Dự phòng AI liền mạch: Tận hưởng dịch vụ không bị gián đoạn. Nếu mô hình chính bị lỗi, tiện ích mở rộng sẽ tự động chuyển sang mô hình có sẵn tiếp theo một cách minh bạch.
+- 🔐 Đăng nhập bằng Google an toàn: Xác thực nhanh chóng, được bảo vệ, đồng bộ hóa cài đặt của bạn trên các thiết bị một cách an toàn.
+
+🎯 13 CHẾ ĐỘ VIẾT LẠI NĂNG ĐỘNG:
+1. Cải thiện: Cấu trúc văn bản và từ vựng tiếng Ba Lan tự động.
+2. Ngữ pháp: Sửa lỗi chính tả, dấu câu, cú pháp.
+3. Chuyên nghiệp: Nâng cao ngôn ngữ của bạn để giao tiếp chuyên nghiệp.
+4. Thân thiện: Thêm sự ấm áp và dễ tiếp cận cho tin nhắn của bạn.
+5. Trang trọng: Điều chỉnh cách diễn đạt cho các tài liệu chính thức và thư kinh doanh.
+6. Thông thường: Tạo văn bản trò chuyện, thoải mái cho môi trường xã hội.
+7. Thuyết phục: Cấu trúc các ý tưởng để thuyết phục, chào hàng hoặc tiếp thị một cách hiệu quả.
+8. Tự tin: Dự án chắc chắn, uy quyền và niềm tin mạnh mẽ.
+9. Rút ngắn: Cô đọng những đoạn văn dài thành những điểm nhấn ngắn gọn.
+10. Mở rộng: Diễn đạt và xây dựng dựa trên các dấu đầu dòng hoặc cụm từ ngắn.
+11. Đơn giản hóa: Dịch những biệt ngữ hoặc những suy nghĩ phức tạp thành ngôn ngữ rõ ràng, dễ đọc.
+12. Nhân bản hóa: Cơ cấu lại các bản nháp AI của robot để đọc một cách tự nhiên.
+13. Lời nhắc tùy chỉnh: Nhập chính xác những gì bạn muốn AI thực hiện với lựa chọn.
+
+📂 HÌNH THỨC XUẤT CAO CẤP:
+Xuất lịch sử viết lại của bạn cục bộ hoặc đồng bộ hóa trực tiếp với các dịch vụ đám mây:
+- PDF (Miễn phí & Cao cấp)
+- Đánh dấu (MD)
+- TXT
+- Hình ảnh (IMG)
+- JSON
+- Sao chép bảng nhớ tạm
+- Tích hợp đám mây: Lưu trực tiếp vào Dropbox hoặc Google Drive.
+
+🔒 RIÊNG TƯ & BẢO MẬT THEO THIẾT KẾ:
+Quyền riêng tư là cam kết chính của chúng tôi. Chúng tôi chỉ xử lý văn bản cụ thể mà bạn chọn để viết lại. Lựa chọn của bạn được truyền an toàn thông qua mã hóa SSL tới API phụ trợ của chúng tôi để thực hiện yêu cầu và không được lưu trữ lâu dài trên máy chủ của chúng tôi. Lịch sử duyệt web cá nhân của bạn được bảo vệ hoàn toàn.
+
+📧 LIÊN HỆ & HỖ TRỢ:
+Có câu hỏi, đề xuất hoặc báo cáo lỗi? Liên hệ trực tiếp với chúng tôi tạikeshoraai@gmail.com. Chúng tôi cam kết cập nhật thường xuyên và yêu cầu tính năng!

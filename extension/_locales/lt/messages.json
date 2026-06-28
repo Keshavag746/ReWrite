@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Perrašyti bet kur – AI teksto perrašytojas",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Pažymėkite tekstą bet kur. Iškart perrašykite naudodami AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Atidarykite AI perrašymo komandų paletę",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI perrašyti →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Tobulinkite rašymą",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Pataisyti gramatiką",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Tapk profesionalu",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Būkite draugiški",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Padarykite oficialų",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Padarykite kasdienį",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Padarykite įtikinamą",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Pasitikite savimi",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanizuokite",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Tinkintas raginimas...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Tobulėti",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Gramatika",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesionalus",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Draugiškas",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Oficialus",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Kasdienis",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Įtikinantis",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Pasitiki",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Sutrumpinti",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Išplėsti",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Supaprastinkite",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanizuoti",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Pagal užsakymą",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Įkeliama...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Perrašykite tekstą bet kur",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Prisijunkite naudodami „Google“, kad pradėtumėte perrašyti tekstą bet kurioje svetainėje naudodami AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Prisijungiama...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Prisijunkite naudodami \"Google\".",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Nemokama",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Kasdienis naudojimas",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(neribota)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Pasirinkite tekstą bet kuriame puslapyje → spustelėkite mygtuką ✨, kad perrašytumėte. Arba paspauskiteCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Atidarykite istoriją ir nustatymus",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Atsijungti",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Prisijungti nepavyko",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Perrašyti nepavyko",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Šiuo metu ši dalis yra statoma.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Jei norite peržiūrėti nustatymus, prisijunkite.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Paskyra ir naudojimas",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Perrašyti istoriją",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Nustatymai",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Atsisiųsti",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Pagalba ir DUK",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI perrašymo prietaisų skydelis",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Bendroji konfigūracija",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Sąsajos tema",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Tamsusis režimas",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Šviesos režimas",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Numatytasis perrašymo tonas",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Išvalyti visą istoriją",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Dar nėra perrašymų",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Pažymėkite tekstą bet kuriame puslapyje ir spustelėkite ✨, kad pradėtumėte. Jūsų istorija bus rodoma čia.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Ar tikrai norite ištrinti šį perrašymo istorijos elementą?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Ar tikrai norite visam laikui ištrinti visą perrašymo istoriją? To negalima anuliuoti.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Nepavyko ištrinti elemento:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Nepavyko išvalyti istorijos:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Originalus tekstas",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Perrašytas tekstas",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Ištrinti",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopija perrašyta",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Nukopijuotas!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Įkelti senesnius perrašymus",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Pagalba ir verslo užklausos",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Kreipkitės adresu:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Dažnai užduodami klausimai",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Norėdami padėti arba pranešti apie klaidą",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "El. paštaskeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Dienos nemokamas limitas",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Nemokama pakopa: 5 perrašymai per dieną. Iš naujo nustatoma kasdien vidurnaktį.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Perrašykite tekstą bet kur be apribojimų.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Perrašykite visą savo turinį paketu. Sinchronizuoti su debesimi. Jokių apribojimų.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ankstyvojo pritaikytojo pasiūlymas: kitas kainos padidinimas 500 Premium vartotojų. Užfiksuokite šį tarifą visam gyvenimui!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 JAV rinka ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indijos turgus (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Šiuo metu atliekami mokėjimai JAV doleriais. Jei reikia pagalbos, pereikite prie Indijos rinkos (₹) plano arba susisiekite su mumiskeshoraai@gmail.com.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Kas savaitę",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Tik 57¢ / diena)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Kas mėnesį ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Tik 33¢ / diena)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Kasmet 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Tik 21¢ / diena)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Tik 21 rupija per dieną)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Tik 13 rupijų per dieną)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Tik 8 rupijų per dieną)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/savaitę",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ mėn",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ metai",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Tinka retkarčiais naudoti",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Dauguma vartotojų pasirenka šį planą",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Geriausia vertė patyrusiems vartotojams",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "POPULIARIAUSI",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "GERIAUSIA VERTĖ – 2 MĖNESIAI NEMOKAMAI",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 įvertinimas • 🔒 Saugūs mokėjimai • ✔️ Atšaukti bet kada",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ar esate studentas ar mokslininkas, kuris negali sau leisti prenumeratos? El. paštukeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Jau turite licencijos raktą?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Įveskite licencijos raktą...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Suaktyvinti",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 perrašymų per savaitę",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Atrakinkite masinį perrašymą",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Prieiga prie aukščiausios kokybės nustatymų",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Aukščiausios kokybės temos",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Išmaniųjų aplankų organizavimas",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Patirtis be skelbimų",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 perrašymų per mėnesį",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9000 perrašymų per metus",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% nuolaida kitiems plėtiniams",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Prioritetinis palaikymas el. paštu",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Eksporto formatas",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Pagal nemokamą planą galima eksportuoti tik PDF. Naujovinkite į „Pro“ / „Premium“, kad atrakintumėte kitus eksporto formatus.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Failo vardo formatas",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Pasirinkite, kaip pavadinti eksportuotus failus.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Perrašymo istorija – data (pvz., RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Pasirinktinis pavadinimas",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Įveskite pasirinktinį failo pavadinimą...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Eksportuoti vietinį failą",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Išsaugoti Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Išsaugoti Google diske ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Atsarginė kopija debesyje pasiekiama tik mokamuose planuose. Naujovinkite į Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "„Dropbox“ autentifikavimas atšauktas.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Nepavyko gauti „Dropbox“ prieigos prieigos rakto.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Nepavyko autentifikuoti „Google“ disko.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Nepavyko įkelti „Google“ disko:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API klaida",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Eksportuotinos istorijos nerasta.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Istorija gražiai suformatuota ir nukopijuota į mainų sritį!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Istorija saugiai išsaugota jūsų „Dropbox“!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Istorija saugiai išsaugota jūsų „Google“ diske!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Eksportas baigtas!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Perrašyti su AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI perrašymas",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Uždaryti",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Originalus tekstas",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Pasirinkite režimą, kurį norite perrašyti...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Pakeiskite",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopijuoti",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Nukopijuotas",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Bandykite dar kartą",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Išsaugoti",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Nemokamajame plane galimas tik režimas „Patobulinti“. Naujovinkite į Pro, kad atrakintumėte visus 13 režimų.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Nemokamajame plane galimas tik režimas „Patobulinti“. Naujovinkite į Pro/Premium, kad atrakintumėte visus 13 perrašymo režimų.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI perrašymo komandų paletė",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Nemokamas planas (užrakinti tinkinti raginimai)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Pasirinktinis raginimas užrakintas nemokamame plane...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "pvz. Perrašykite „LinkedIn“, padarykite tai įtikinamą...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Nemokamajame plane galimas tik režimas „Patobulinti“. Naujovinkite į „Pro“ / „Premium“, kad atrakintumėte visas funkcijas.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Nemokamajame plane galimas tik režimas „Patobulinti“. Jei norite atrakinti visus režimus, atnaujinkite į „Pro“ / „Premium“.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Istorija",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Nustatymai",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Dar nėra perrašymų.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Pažymėkite tekstą bet kuriame puslapyje ir spustelėkite ✨, kad pradėtumėte.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Originalus:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Perrašyta:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Įkelti daugiau",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "sąskaita",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Perrašo šiandien",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Iš naujo nustato",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktyvus ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI variklis",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI perrašymo variklis",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Kaip perrašyti tekstą svetainėje?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Tiesiog paryškinkite arba pasirinkite bet kurį tekstą bet kuriame tinklalapyje. Plaukiojantis stebuklingos lazdelės mygtukas („✨“) automatiškai pasirodys šalia jūsų žymeklio. Spustelėjus šią piktogramą, atidaromas interaktyvus perrašymo langas, kuriame galite pasirinkti perrašymo toną (pvz., Patobulinti, Gramatika, Profesionalus, Atsitiktinis, Išplėsti arba Sutrumpinti), kad AI perrašytų turinį už jus. Taip pat galite suaktyvinti sąsają naudodami komandų paletės spartųjį klavišą (Ctrl+Shift+Psistemoje „Windows“ / „Linux“ arbaCmd+Shift+P, jei naudojate „MacOS“).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Kurie AI modeliai palaikomi?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Šiuo metu palaikome pažangiausius LLM, įskaitant OpenAI GPT (pvz., GPT-4o-mini), Google Gemini, Anthropic Claude ir Groq atvirojo kodo modelius (pvz., Llama 3), skirtus didelio našumo, žaibiškam teksto apdorojimui.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Ar mano duomenys saugūs?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Taip, privatumas yra pagrindinis prioritetas. Apdorojame tik konkretų tekstą, kurį pasirinkote perrašyti. Tekstas saugiai perduodamas į mūsų užpakalinės programos API, kad būtų įvykdyta užklausa. Mes nesaugome jūsų teksto žurnalo istorijos ilgai savo serveriuose, nesidaliname ja su trečiosiomis šalimis ir nenaudojame AI modeliams mokyti. Be to, plėtinys veikia smėlio dėžės aplinkoje, kad būtų apsaugota jūsų asmeninė naršymo istorija.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Kuo skiriasi nemokami ir „Pro“ planai?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Nemokamas planas numato 5 perrašymus per dieną, tik naudojant toną „Patobulinti“ ir „PDF“ atsisiuntimo / eksportavimo formatą. „Dropbox“ ir „Google“ disko integracijos taip pat užrakintos. Mokami planai („Weekly“, „Monhly Pro“ ir „ Yearly Ultimate“) atrakina visus 6 tonus, visus 6 atsisiuntimo formatus (PDF, Markdown, TXT, IMG, JSON ir Clipboard Copy) ir debesies atsarginių kopijų integravimą, kad būtų užtikrinta aukščiausios kokybės, be apribojimų.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Kodėl tam tikri perrašymo tonai, eksportavimo formatai ir debesies atsarginės kopijos yra užrakintos nemokamame plane?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Norint naudoti pažangiausius AI modelius (pvz., GPT-4o-mini, Gemini ir Claude) ir valdyti debesų sinchronizavimą, reikia didelės serverio infrastruktūros, skaičiavimo galios ir tiesioginių API išlaidų kiekvienam veiksmui. Kad mūsų paslauga būtų tvari ir vis dar siūlo visiškai funkcionalią nemokamą parinktį, nemokamas planas apima pagrindinius reikalavimus (5 kasdieniniai perrašymai naudojant toną „Patobulinti“ ir vietinis PDF generavimas). Prenumeratos planai subsidijuoja aukščiausios kokybės tonų (Gramatika, Profesionalus, Kasdienis, Išplėsti, Sutrumpinti), debesies jungčių (Dropbox, Google Drive) ir kelių formatų eksporto (Markdown, TXT, IMG, JSON, COPY) išlaidas, užtikrinant, kad galime palaikyti didelį našumą, aktyvius atnaujinimus ir griežtą privatumą be skelbimų.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Kaip suaktyvinti licencijos raktą?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Užbaigę prenumeratos įsigijimą, įklijuokite savo licencijos raktą į rakto patvirtinimo lauką, esantį prietaisų skydelio puslapio „Paskyra ir naudojimas“ apačioje, ir spustelėkite „Suaktyvinti licenciją“. Išsami paskyros plano informacija bus akimirksniu atnaujinta naršyklės saugykloje.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Ar tai veikia „Google“ dokumentuose ar „Notion“?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Taip, plėtinys visiškai suderinamas su populiariais redaktoriais ir raiškiojo teksto portalais, tokiais kaip Google Docs, Notion, Gmail, LinkedIn, Slack web ir Twitter/X. Jei pasirinktoje programoje slankusis mygtukas išjungtas, pasirinkimui perrašyti galite naudoti komandų paletės spartųjį klavišą.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Ar galiu naudoti savo API raktą?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Kad būtų užtikrintas sklandus „plug and play“ naudojimas, visos API naudojimo išlaidos visiškai padengiamos pagal jūsų prenumeratos planą. Šiuo metu jums nereikia konfigūruoti savo API raktų. Tačiau būsimame į kūrėjus orientuotame naujinime planuojame palaikyti tinkintas vartotojo API konfigūracijas.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Kaip pakeisti numatytąjį perrašymo toną?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Numatytąjį perrašymo toną galite nustatyti šio parinkčių skydelio skirtuke Nustatymai. Spustelėjus stebuklingos lazdelės piktogramą, išsaugojus savo nuostatas, automatiškai bus nustatytas numatytasis tonas, nors prireikus vis tiek galite perjungti tonus iššokančiajame lange.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Kodėl kartais nepasirodo plūduriuojantis mygtukas?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Stebuklingos lazdelės mygtukui reikalingas minimalus pasirinkto teksto ilgis, kad būtų išvengta atsitiktinių perdangų. Be to, standartinė naršyklės saugos politika griežtai blokuoja turinio įvedimą tam tikruose privilegijuotuose puslapiuose, pvz., „Chrome“ internetinėje parduotuvėje (chrome.google.com) ir vidiniuose konfigūracijos puslapiuose (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Ar galiu nukopijuoti perrašytą tekstą nepakeisdamas originalo?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Taip, slankiajame perrašymo lange galite spustelėti piktogramą „Kopijuoti“. Taip naujai perrašyta versija nukopijuojama tiesiai į mainų sritį, todėl galite ją įklijuoti bet kur, nekeičiant ir nepažeidžiant pradinio tinklalapio turinio.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Kaip atšaukti prenumeratą?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Prenumeratą galite tvarkyti arba atšaukti bet kuriuo metu spustelėdami klientų atsiskaitymo portalo nuorodą, pateiktą pirkimo patvirtinimo el. laiške. Jei negalite rasti el. laiško, susisiekite su mumiskeshoraai@gmail.comir mes jums padėsime.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Ką daro tonas „Išplėsti“?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Tonas „Išplėsti“ naudoja generatyvųjį intelektą, kad sukurtų ir išplėtotų jūsų pasirinktą tekstą, pridedant išsamios informacijos, konteksto ir tinkamos gramatinės struktūros prie trumpų minčių, punktų ar frazių, išlaikant pirminį tikslą.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Ar siūlote studentų nuolaidą?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Taip, mes remiame studentus, pedagogus ir akademinius mokslininkus. Visiems mokamiems prenumeratos planams siūlome 30% nuolaidą. Atsiųskite mums el. laišką adresukeshoraai@gmail.comiš savo oficialaus mokyklos ar universiteto el. pašto adreso (.edu arba akademinio domeno), kad paprašytumėte nuolaidos kodo.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Ar yra masinio perrašymo galimybė?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Taip, aukščiausios klasės vartotojai gali naudoti masinį perrašymą. Užuot pasirinkę atskirus segmentus, galite atidaryti plėtinio šoninį skydelį ir įklijuoti visus dokumentus ar pastraipas, kad pakeistumėte juos vienu ypu.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Kaip pranešti apie klaidą?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Pranešimus apie klaidas galite siųsti el. paštu tiesiogiai mūsų palaikymo komandai adresukeshoraai@gmail.com. Spustelėjus pagalbos valdiklį skirtuke „Paskyra ir naudojimas“, bus iš anksto užpildytas palaikymo šablonas su išsamia plėtinio informacija, kuri padės mums diagnozuoti problemą.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Kodėl parašyta „Kvota viršyta“?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Įspėjimas „Kvota viršyta“ reiškia, kad išnaudojote savo plano aktyviam ciklui skirtą kiekį: nemokami naudotojai gali perrašyti iki 5 kartų per dieną; Kassavaitiniai vartotojai gauna 140 perrašymų; Mėnesio Pro vartotojai gauna 600 perrašymų; ir Metinis Ultimate naudotojai gauna 9 000 perrašymų. Kvotos iš naujo nustatomos automatiškai, atsižvelgiant į ciklą (kasdien vidurnaktį vietos laiku arba kintančias savaitės/mėnesio/metų ribas). Puslapyje „Paskyra ir naudojimas“ galite naujovinti į aukštesnę pakopą, kad paslauga būtų atnaujinta nedelsiant.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Eksportuojama...",
+    "description": "Locale key: exportingStatus"
+  }
+}

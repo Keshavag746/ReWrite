@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Menulis Ulang Di Mana Saja - Penulis Ulang Teks AI",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Sorot teks di mana saja. Menulis ulang secara instan dengan AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Buka palet perintah AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Menulis Ulang →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Tingkatkan Menulis",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Perbaiki Tata Bahasa",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Jadikan Profesional",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Jadikan Ramah",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Jadikan Formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Buat Santai",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Menjadikan Persuasif",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Membuat Percaya Diri",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Memanusiakan",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Perintah Kustom...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Tingkatkan",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Tata bahasa",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesional",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Ramah",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩Formal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Santai",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Persuasif",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Percaya diri",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Persingkat",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Perluas",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Sederhanakan",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Memanusiakan",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Kustom",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Memuat...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Tulis ulang teks di mana saja",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Masuk dengan Google untuk mulai menulis ulang teks di situs web mana pun dengan AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Masuk...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Masuk dengan Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Gratis",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Penggunaan Sehari-hari",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(tidak terbatas)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Pilih teks di halaman mana pun → klik tombol ✨ untuk menulis ulang. Atau tekanCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Buka Riwayat & Pengaturan",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Keluar",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Gagal masuk",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Gagal menulis ulang",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Bagian ini sedang dalam tahap pembangunan.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Silakan masuk untuk melihat pengaturan.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Akun & Penggunaan",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Menulis Ulang Sejarah",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Pengaturan",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Unduh",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Bantuan & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "Dasbor Penulisan Ulang AI",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Konfigurasi Umum",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Tema Antarmuka",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Mode Gelap",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Modus Cahaya",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Nada Penulisan Ulang Default",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Hapus Semua Riwayat",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Belum ada penulisan ulang",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Sorot teks di halaman mana pun dan klik ✨ untuk memulai. Riwayat Anda akan muncul di sini.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Apakah Anda yakin ingin menghapus item riwayat penulisan ulang ini?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Apakah Anda yakin ingin menghapus seluruh riwayat penulisan ulang Anda secara permanen? Hal ini tidak dapat dibatalkan.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Gagal menghapus item:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Gagal menghapus riwayat:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Teks Asli",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Teks yang Ditulis Ulang",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Hapus",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Salin Ditulis Ulang",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Disalin!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Muat penulisan ulang yang lebih lama",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Dukungan & Pertanyaan Bisnis",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Hubungi di:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Pertanyaan yang Sering Diajukan",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Untuk bantuan atau untuk melaporkan bug",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Surelkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Batas Gratis Harian",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Tingkat gratis: 5 penulisan ulang/hari. Direset setiap hari pada tengah malam.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Tulis ulang teks di mana saja tanpa batas.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch menulis ulang semua konten Anda. Sinkronkan ke cloud. Tidak ada batasan.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Penawaran Pengguna Awal: Kenaikan harga berikutnya pada 500 pengguna Premium. Kunci tarif ini seumur hidup!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇮🇩 Pasar AS ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮nai Pasar India (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Pembayaran dalam Dolar AS saat ini sedang dalam pemeliharaan. Silakan beralih ke paket Pasar India (₹) atau hubungi kami dikeshoraai@gmail.comuntuk bantuan.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Mingguan",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Hanya 57¢ / hari)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Bulanan ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Hanya 33¢ / hari)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Tahunan 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Hanya 21¢ / hari)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Hanya ₹21 / hari)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Hanya ₹13 / hari)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Hanya ₹8 / hari)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ minggu",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ bulan",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ tahun",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Bagus untuk penggunaan sesekali",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Sebagian besar pengguna memilih paket ini",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Nilai terbaik bagi pengguna listrik",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "PALING POPULER",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "NILAI TERBAIK - GRATIS 2 BULAN",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Peringkat 5.0 • 🔒 Pembayaran Aman • ✔️ Batalkan kapan saja",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Apakah Anda seorang pelajar atau peneliti yang tidak mampu berlangganan? Silakan kirim email kekeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Sudah punya kunci lisensi?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Masukkan kunci lisensi...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktifkan",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Penulisan ulang per minggu",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Buka Kunci Penulisan Ulang Massal",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Akses Pengaturan Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Sinkronisasi Dropbox",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Tema Premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Organisasi Folder Cerdas",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Pengalaman Bebas Iklan",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Penulisan ulang per bulan",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 Penulisan ulang per tahun",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Diskon 50% untuk ekstensi lainnya",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Dukungan Email Prioritas",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Format Ekspor",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Hanya ekspor PDF yang tersedia pada paket gratis. Harap tingkatkan ke Pro/Premium untuk membuka kunci format ekspor lainnya.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Format Nama File",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Pilih bagaimana file yang diekspor diberi nama.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Riwayat Penulisan Ulang - Tanggal (mis. RewriteHistory_23-06-2026)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Judul Kustom",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Masukkan nama file khusus...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Ekspor File Lokal",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Simpan ke Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Simpan ke Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Pencadangan cloud hanya tersedia pada paket berbayar. Silakan tingkatkan ke Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Otentikasi Dropbox dibatalkan.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Gagal mendapatkan token akses Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Otentikasi Google Drive gagal.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Gagal mengunggah Google Drive:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Kesalahan API Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Tidak ditemukan riwayat untuk diekspor.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Sejarah diformat dengan indah dan disalin ke clipboard!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Riwayat disimpan dengan aman ke Dropbox Anda!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Riwayat disimpan dengan aman ke Google Drive Anda!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Ekspor selesai!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Menulis ulang dengan AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Penulisan Ulang AI",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Tutup",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Teks asli",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Pilih mode untuk menulis ulang...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Ganti",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Salin",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Disalin",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Coba lagi",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Simpan",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Hanya mode \"Tingkatkan\" yang tersedia pada paket gratis. Harap tingkatkan ke Pro untuk membuka kunci semua 13 mode.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Hanya mode \"Tingkatkan\" yang tersedia pada paket gratis. Harap tingkatkan ke Pro/Premium untuk membuka semua 13 mode penulisan ulang.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Palet Perintah Penulisan Ulang AI",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Paket Gratis (Permintaan khusus dikunci)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Perintah khusus dikunci pada Paket Gratis...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "misalnya Tulis ulang untuk LinkedIn, Jadikan ini persuasif...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Hanya mode \"Tingkatkan\" yang tersedia pada paket gratis. Harap tingkatkan ke Pro/Premium untuk membuka kunci semua fitur.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Hanya mode \"Tingkatkan\" yang tersedia pada paket gratis. Harap tingkatkan ke Pro/Premium untuk membuka kunci semua mode.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Sejarah",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Pengaturan",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Belum ada penulisan ulang.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Sorot teks di halaman mana pun dan klik ✨ untuk memulai.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Asli:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Ditulis ulang:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Muat lebih banyak",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Akun",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Menulis ulang hari ini",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Menyetel ulang",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktif ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Mesin AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Mesin Penulisan Ulang AI",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Bagaimana cara menulis ulang teks di situs web?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Cukup sorot atau pilih teks apa pun di halaman web mana pun. Tombol tongkat ajaib mengambang ('✨') akan otomatis muncul di dekat kursor Anda. Mengklik ikon ini akan membuka popup penulisan ulang interaktif, di mana Anda dapat memilih nada penulisan ulang (seperti Tingkatkan, Tata Bahasa, Profesional, Santai, Perluas, atau Persingkat) agar AI dapat menulis ulang konten untuk Anda. Anda juga dapat memicu antarmuka melalui pintasan Command Palette (Ctrl+Shift+Pdi Windows/Linux atauCmd+Shift+Pdi macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Model AI manakah yang didukung?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Saat ini kami mendukung LLM canggih termasuk GPT OpenAI (misalnya, GPT-4o-mini), Gemini dari Google, Claude dari Anthropic, dan model sumber terbuka Groq (seperti Llama 3) untuk pemrosesan teks berperforma tinggi dan secepat kilat.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Apakah data saya aman?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ya, privasi adalah prioritas utama. Kami hanya memproses teks tertentu yang Anda pilih untuk ditulis ulang. Teks tersebut dikirim dengan aman ke API backend kami untuk melakukan permintaan. Kami tidak menyimpan riwayat log teks Anda dalam jangka panjang di server kami, kami juga tidak membaginya dengan pihak ketiga atau menggunakannya untuk melatih model AI. Selain itu, ekstensi ini berjalan di lingkungan sandbox untuk memastikan riwayat penjelajahan pribadi Anda terlindungi.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Apa perbedaan antara paket Gratis dan Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Paket Gratis menyediakan 5 penulisan ulang per hari, dibatasi secara eksklusif pada nada 'Tingkatkan' dan format unduhan/ekspor 'PDF'. Integrasi Dropbox dan Google Drive juga terkunci. Paket berbayar (Mingguan, Pro Bulanan, dan Ultimate Tahunan) membuka semua 6 nada, semua 6 format unduhan (PDF, Markdown, TXT, IMG, JSON, dan Clipboard Copy), dan integrasi cadangan cloud untuk pengalaman premium dan bebas batasan.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Mengapa nada penulisan ulang, format ekspor, dan cadangan cloud tertentu dikunci pada paket Gratis?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Menjalankan model AI yang canggih (seperti GPT-4o-mini, Gemini, dan Claude) dan mengelola sinkronisasi cloud memerlukan infrastruktur server yang besar, daya komputasi, dan biaya API langsung untuk setiap tindakan. Untuk membuat layanan kami berkelanjutan sambil tetap menawarkan opsi gratis yang berfungsi penuh, paket Gratis mencakup persyaratan dasar (5 penulisan ulang setiap hari dengan nada 'Tingkatkan' dan pembuatan PDF lokal). Paket berlangganan mensubsidi biaya nada premium (Grammar, Professional, Casual, Expand, Shorten), konektor cloud (Dropbox, Google Drive), dan ekspor berbagai format (Markdown, TXT, IMG, JSON, COPY), memastikan kami dapat mendukung kinerja tinggi, pembaruan aktif, dan privasi ketat tanpa iklan.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Bagaimana cara mengaktifkan kunci lisensi saya?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Setelah menyelesaikan pembelian langganan Anda, tempelkan kunci lisensi Anda di bidang validasi kunci di bagian bawah halaman 'Akun & Penggunaan' di dasbor dan klik 'Aktifkan Lisensi'. Detail paket akun Anda akan langsung diperbarui di penyimpanan browser Anda.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Apakah ini berfungsi di Google Docs atau Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ya, ekstensi ini sepenuhnya kompatibel dengan editor populer dan portal teks kaya seperti Google Docs, Notion, Gmail, LinkedIn, Slack web, dan Twitter/X. Jika tombol mengambang dinonaktifkan pada aplikasi kustom, Anda dapat menggunakan pintasan keyboard Command Palette untuk menulis ulang pilihan Anda.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Bisakah saya menggunakan kunci API saya sendiri?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Untuk memberikan pengalaman plug-and-play yang lancar, semua biaya penggunaan API ditanggung sepenuhnya dalam paket berlangganan Anda. Saat ini, Anda tidak perlu mengonfigurasi kunci API Anda sendiri. Namun, kami berencana untuk mendukung konfigurasi API pengguna khusus dalam pembaruan berorientasi pengembang di masa mendatang.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Bagaimana cara mengubah nada penulisan ulang default?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Anda dapat mengatur nada penulisan ulang default di tab Pengaturan pada panel opsi ini. Menyimpan preferensi Anda secara otomatis akan menjadi nada default ketika mengklik ikon tongkat ajaib, meskipun Anda masih dapat mengganti nada di popup bila diperlukan.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Mengapa tombol mengambang terkadang tidak muncul?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Tombol tongkat ajaib memerlukan panjang pemilihan teks minimum untuk mencegah overlay yang tidak disengaja. Selain itu, kebijakan keamanan browser standar secara ketat memblokir penyuntikan konten pada laman istimewa tertentu, seperti Toko Web Chrome (chrome.google.com) dan laman konfigurasi internal (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Bisakah saya menyalin teks yang ditulis ulang tanpa mengganti aslinya?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ya, di dalam popup penulisan ulang yang mengambang, Anda dapat mengklik ikon 'Salin'. Ini menyalin versi yang baru ditulis ulang langsung ke clipboard Anda, memungkinkan Anda menempelkannya di mana pun Anda suka tanpa mengganti atau memengaruhi konten asli di halaman web.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Bagaimana cara membatalkan langganan saya?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Anda dapat mengelola atau membatalkan langganan Anda kapan saja dengan mengeklik tautan portal penagihan pelanggan yang tersedia di email konfirmasi pembelian Anda. Jika Anda tidak dapat menemukan email tersebut, hubungi kami dikeshoraai@gmail.comdan kami akan membantu Anda.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Apa fungsi nada 'Perluas'?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Nada 'Perluas' menggunakan kecerdasan generatif untuk membangun dan menguraikan teks pilihan Anda, menambahkan detail yang kaya, konteks, dan struktur tata bahasa yang tepat ke pemikiran singkat, poin-poin, atau frasa sambil menjaga maksud aslinya tetap utuh.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Apakah Anda menawarkan diskon pelajar?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ya, kami mendukung pelajar, pendidik, dan peneliti akademis. Kami menawarkan diskon 30% untuk semua paket berlangganan berbayar. Email kami dikeshoraai@gmail.comdari alamat email resmi sekolah atau universitas Anda (domain .edu atau akademik) untuk meminta kode diskon Anda.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Apakah ada opsi penulisan ulang massal?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ya, pengguna tingkat premium dapat menggunakan penulisan ulang massal. Daripada memilih segmen individual, Anda dapat membuka panel samping ekstensi dan menempelkan seluruh dokumen atau paragraf untuk memodifikasinya sekaligus.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Bagaimana cara melaporkan bug?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Anda dapat mengirimkan laporan bug melalui email langsung ke tim dukungan kami dikeshoraai@gmail.com. Mengklik widget bantuan di tab 'Akun & Penggunaan' akan mengisi template dukungan yang berisi detail ekstensi untuk membantu kami mendiagnosis masalah tersebut.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Mengapa tertulis 'Kuota Terlampaui'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Peringatan 'Kuota Terlampaui' berarti Anda telah menggunakan jatah penggunaan untuk siklus aktif paket Anda: Pengguna gratis dibatasi hingga 5 penulisan ulang setiap hari; Pengguna mingguan mendapatkan 140 penulisan ulang; Pengguna Pro bulanan mendapatkan 600 penulisan ulang; dan pengguna Ultimate Tahunan menerima 9.000 penulisan ulang. Kuota disetel ulang secara otomatis berdasarkan siklus (setiap hari pada tengah malam waktu setempat, atau berdasarkan batas mingguan/bulanan/tahunan yang bergulir). Anda dapat meningkatkan ke tingkat yang lebih tinggi di halaman 'Akun & Penggunaan' untuk segera melanjutkan layanan.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Mengekspor",
+    "description": "Locale key: exportingStatus"
+  }
+}

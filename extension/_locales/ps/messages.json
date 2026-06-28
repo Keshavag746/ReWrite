@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "هرچیرې بیا ولیکئ - د AI متن بیا لیکونکی",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "متن هرچیرې روښانه کړئ. د AI سره سمدلاسه بیا ولیکئ.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "د AI بیا لیکلو کمانډ پیلیټ خلاص کړئ",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI بیا لیکل →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ لیکنه ښه کول",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ ګرامر اصلاح کړئ",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 مسلکي جوړ کړئ",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 دوستي وکړئ",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 رسمي کړئ",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 عادي جوړ کړئ",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 قانع کوونکی جوړ کړئ",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 ډاډه اوسئ",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 انسان کول",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ دودیز پرامپټ...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ ښه کول",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ ګرامر",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 مسلکي",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 دوستانه",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 رسمي",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 عادي",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 هڅونکی",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 ډاډمن",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ لنډول",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 پراخول",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 ساده کول",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 انسان کول",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ ګمرک",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "بار کول...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "متن هرچیرې بیا ولیکئ",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "د AI سره په هره ویب پاڼه کې د متن بیا لیکلو پیل کولو لپاره د ګوګل سره لاسلیک وکړئ.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "لاسلیک کول...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 د ګوګل سره ننوتل",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ پرو",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "وړيا",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "ورځنی استعمال",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(لامحدود)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 په هره پاڼه کې متن وټاکئ → د بیا لیکلو لپاره ✨ تڼۍ کلیک وکړئ. یاCtrl+Shift+Kفشار ورکړئ",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 تاریخ او ترتیبات خلاص کړئ",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "لاسلیک کول",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "ننوتل ناکام شول",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "بیا لیکل ناکام شول",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "دا برخه اوس د جوړیدو په حال کې ده.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "مهرباني وکړئ د ترتیباتو لیدو لپاره لاسلیک وکړئ.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "حساب او کارول",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "تاریخ بیا لیکل",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "ترتیبات",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ډاونلوډ کړئ",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "مرسته او FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "د AI بیا لیکلو ډشبورډ",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "عمومي ترتیب",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "د انٹرفیس موضوع",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "تیاره حالت",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "د رڼا حالت",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "د ډیفالټ بیا لیکلو ټون",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ ټول تاریخ پاک کړئ",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "تر اوسه هیڅ بیا لیکل نه دي",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "په هره پاڼه کې متن روښانه کړئ او د پیل کولو لپاره ✨ کلیک وکړئ. ستاسو تاریخ به دلته ښکاره شي.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "ایا تاسو ډاډه یاست چې تاسو د دې بیا لیکلو تاریخ توکي حذف کول غواړئ؟",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "ایا تاسو ډاډه یاست چې تاسو غواړئ خپل د بیا لیکلو ټول تاریخ د تل لپاره حذف کړئ؟ دا نشي رد کیدی.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "د توکي په حذفولو کې پاتې راغلل:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "د تاریخ په پاکولو کې پاتې راغلی:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "اصلي متن",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "بیا لیکل شوی متن",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ ړنګول",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 کاپي بیا لیکل",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ کاپي شوی!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "زاړه بیا لیکل پورته کړئ",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "د ملاتړ او سوداګرۍ پوښتنې",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "ته ورشئ:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "په مکرر ډول پوښتل شوي پوښتنې",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "د مرستې لپاره یا د بګ راپور ورکولو لپاره",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "بریښنالیکkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "د ورځني وړیا حد",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "وړیا درجه: 5 بیا لیکل / ورځ. هره ورځ په نیمه شپه بیا تنظیمیږي.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "متن هرچیرې پرته له کوم محدودیت څخه ولیکئ.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "بیچ ستاسو ټول مینځپانګه بیا ولیکئ. د بادل سره همغږي. هیڅ بندیز نشته.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 د اډاپټر دمخه وړاندیز: د 500 پریمیم کاروونکو کې د راتلونکي نرخ زیاتوالی. د ژوند لپاره دا نرخ بند کړئ!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 د متحده ایالاتو بازار ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 هندي بازار (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "د متحده ایاالتو ډالر تادیات اوس مهال د ساتنې لاندې دي. مهرباني وکړئ د هند بازار (₹) پلان ته لاړشئ یا د مرستې لپاره موږ سره پهkeshoraai@gmail.comکې اړیکه ونیسئ.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "اونیزه",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(یوازې 57¢ / ورځ)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "میاشتنۍ ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(یوازې 33¢ / ورځ)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "کلنۍ 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(یوازې 21¢ / ورځ)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(یوازې 21 روپۍ / ورځ)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(یوازې 13 روپۍ / ورځ)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(یوازې 8 روپۍ / ورځ)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ اونۍ",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ میاشت",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ کال",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "د وختي استعمال لپاره ښه",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "ډیری کاروونکي دا پلان غوره کوي",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "د بریښنا کاروونکو لپاره غوره ارزښت",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "ډیر مشهور",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "غوره ارزښت - 2 میاشتې وړیا",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 درجه بندي • 🔒 خوندي تادیات • ✔️ هر وخت لغوه کړئ",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "ایا تاسو یو زده کونکی یا څیړونکی یاست چې د ګډون توان نلري؟ مهرباني وکړئ بریښنالیکkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "لا دمخه د جواز کیلي لرئ؟",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "د جواز کیلي داخل کړئ ...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "فعالول",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "په هره اونۍ کې 140 بیا لیکل",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "بلک بیا لیکل خلاص کړئ",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "د پریمیم ترتیباتو لاسرسی",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive، Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "پریمیم موضوعات",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "د سمارټ فولډر تنظیم",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "د اعلان څخه پاکه تجربه",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "په میاشت کې 600 بیا لیکل",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "په کال کې 9,000 بیا لیکل",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50٪ نور تمدیدونه",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "د لومړیتوب بریښنالیک ملاتړ",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "د صادراتو بڼه",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "یوازې د PDF صادرات په وړیا پلان کې شتون لري. مهرباني وکړئ پرو / پریمیم ته لوړ کړئ ترڅو نور صادراتي فارمیټونه خلاص کړئ.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "د فایل نوم بڼه",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "غوره کړئ چې څنګه صادر شوي فایلونه نومول کیږي.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "د بیا لیکلو تاریخ - نیټه (د بیلګې په توګه RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "دودیز سرلیک",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "د دودیز فایل نوم دننه کړئ ...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "محلي فایل صادر کړئ",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "ډراپ باکس ته خوندي کړئ 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "په ګوګل ډرایو کې خوندي کړئ ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "د کلاوډ بیک اپ یوازې په تادیه شوي پلانونو کې شتون لري. مهرباني وکړئ پرو / پریمیم ته لوړ کړئ.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "د ډراپ باکس تصدیق لغوه شو.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "د Dropbox لاسرسي نښه ترلاسه کولو کې پاتې راغلل.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "د ګوګل ډرایو تصدیق ناکام شو.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "د ګوګل ډرایو اپلوډ ناکام شو:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API تېروتنه",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "د صادرولو لپاره هیڅ تاریخ ونه موندل شو.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "تاریخ په ښکلي ډول فارمیټ شوی او کلپ بورډ ته کاپي شوی!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "تاریخ په خوندي ډول ستاسو ډراپ باکس کې خوندي شوی!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "تاریخ په خوندي ډول ستاسو په ګوګل ډرایو کې خوندي شوی!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "صادرات بشپړ شول!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "د AI سره بیا ولیکئ",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI بیا لیکل",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "تړل",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "اصلي متن",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "د بیا لیکلو لپاره یو حالت غوره کړئ...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "پر ځای",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "کاپي",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ کاپي شوی",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ بیا هڅه وکړئ",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "خوندي کړئ",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "یوازې د \"ښه کولو\" حالت په وړیا پلان کې شتون لري. مهرباني وکړئ پرو ته لوړ کړئ ترڅو ټول 13 حالتونه خلاص کړئ.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "یوازې د \"ښه کولو\" حالت په وړیا پلان کې شتون لري. مهرباني وکړئ پرو / پریمیم ته لوړ کړئ ترڅو ټول 13 د بیا لیکلو حالتونه خلاص کړئ.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI د کمانډ پیلټ بیا لیکل",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ وړیا پلان (د ګمرک پرامپټونه بند شوي)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "ګمرک پرامپټ په وړیا پلان کې بند دی ...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "د مثال په توګه د LinkedIn لپاره بیا ولیکئ، دا هڅونکي کړئ ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "یوازې د \"ښه کولو\" حالت په وړیا پلان کې شتون لري. مهرباني وکړئ پرو / پریمیم ته لوړ کړئ ترڅو ټولې ځانګړتیاوې خلاصې کړئ.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "یوازې د \"ښه کولو\" حالت په وړیا پلان کې شتون لري. مهرباني وکړئ پرو / پریمیم ته لوړ کړئ ترڅو ټول حالتونه خلاص کړئ.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 تاریخ",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ ترتیبات",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "تر اوسه هیڅ بیا لیکل نه دي.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "په هره پاڼه کې متن روښانه کړئ او د پیل کولو لپاره ✨ کلیک وکړئ.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "اصلي:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ بیا لیکل شوی:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "نور پورته کړئ",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "حساب",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "نن بیا لیکي",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "بیا تنظیمول",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "فعاله ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "د AI انجن",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI د بیا لیکلو انجن",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "زه څنګه په ویب پاڼه کې متن بیا لیکم؟",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "په ساده ډول په هره ویب پاڼه کې کوم متن روښانه کړئ یا غوره کړئ. د تیرولو جادو وینډ تڼۍ ('✨') به په اتوماتيک ډول ستاسو کرسر ته نږدې ښکاره شي. په دې آیکون کلیک کول د متقابل بیا لیکلو پاپ اپ خلاصوي، چیرې چې تاسو کولی شئ د بیا لیکلو ټون غوره کړئ (لکه ښه کول، ګرامر، مسلکي، آرامۍ، پراخول، یا لنډ کول) ترڅو AI ته اجازه ورکړي چې ستاسو لپاره مینځپانګې بیا ولیکي. تاسو کولی شئ د کمانډ پیلیټ شارټ کټ (Ctrl+Shift+Pپه وینډوز/لینکس یاCmd+Shift+Pپه macOS کې) له لارې هم انٹرفیس متحرک کولی شئ.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "کوم AI ماډلونه ملاتړ کیږي؟",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "موږ اوس مهال د لوړ فعالیت، د بریښنا ګړندي متن پروسس کولو لپاره د OpenAI GPT (د بیلګې په توګه GPT-4o-mini)، د ګوګل جیمني، د انټروپیک کلاډ، او د Groq خلاصې سرچینې ماډلونه (لکه لاما 3) په شمول د عصري LLMs ملاتړ کوو.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "ایا زما معلومات خوندي دي؟",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "هو، محرمیت یو اصلي لومړیتوب دی. موږ یوازې هغه ځانګړي متن پروسس کوو چې تاسو یې د بیا لیکلو لپاره غوره کوئ. متن په خوندي ډول زموږ د بیک انډ API ته لیږدول کیږي ترڅو غوښتنه ترسره کړي. موږ ستاسو د متن لاګ تاریخ په خپلو سرورونو کې د اوږدې مودې لپاره نه ذخیره کوو، او نه یې د دریمې ډلې سره شریکوو یا د AI ماډلونو روزنې لپاره یې کاروو. برسیره پردې، تمدید په شګه شوي چاپیریال کې پرمخ ځي ترڅو ډاډ ترلاسه کړي چې ستاسو د شخصي لټون کولو تاریخ خوندي دی.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "د وړیا او پرو پلانونو ترمینځ څه توپیر دی؟",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "وړیا پلان هره ورځ 5 بیا لیکل چمتو کوي، په ځانګړې توګه د 'ښه کولو' ټون او 'PDF' ډاونلوډ / صادراتو بڼه پورې محدود دی. ډراپ باکس او د ګوګل ډرایو ادغام هم لاک شوي دي. تادیه شوي پلانونه (اونیز ، میاشتنی پرو ، او کلني الټیمیټ) ټول 6 ټونونه خلاص کړئ ، ټول 6 ډاونلوډ فارمیټونه (PDF ، مارک ډاون ، TXT ، IMG ، JSON ، او د کلپ بورډ کاپي) ، او د پریمیم ، محدودیت څخه پاک تجربې لپاره د کلاوډ بیک اپ ادغام.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "ولې ځینې بیا لیکل شوي ټونونه ، د صادراتو فارمیټونه ، او د کلاوډ بیک اپ په وړیا پلان کې بند دي؟",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "د عصري AI ماډلونو چلول (لکه GPT-4o-mini، Gemini، او Claude) او د کلاوډ ترکیب اداره کول د هر عمل لپاره د پام وړ سرور زیربنا، کمپیوټري ځواک، او مستقیم API لګښتونو ته اړتیا لري. د دې لپاره چې زموږ خدمت دوامداره کړي پداسې حال کې چې لاهم د بشپړ فعال وړیا اختیار وړاندیز کوي ، وړیا پلان لومړني اړتیاوې پوښي (د 'ښه کولو' ټون او ځایی پی ډی ایف نسل سره 5 ورځني بیا لیکل). د ګډون پلانونه د پریمیم ټونز لګښتونه سبسایډي کوي (ګرامر، مسلکي، آرامۍ، پراخول، لنډول)، کلاوډ نښلونکي (ډراپ باکس، ګوګل ډرایو)، او د ډیری فارمیټ صادرات (مارک ډاون، TXT، IMG، JSON، کاپي)، دا ډاډه کوي چې موږ کولی شو د لوړ فعالیت، فعال تازه معلوماتو، او سخت محرمیت پرته ملاتړ وکړو.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "زه څنګه د خپل جواز کیلي فعال کړم؟",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "د خپل ګډون پیرود بشپړولو وروسته، په ډشبورډ کې د 'حساب او کارونې' پاڼې په پای کې د کلیدي تایید په ساحه کې د خپل جواز کیلي پیسټ کړئ او 'لایسنس فعال کړئ' کلیک وکړئ. ستاسو د حساب پلان توضیحات به سمدلاسه ستاسو د براوزر ذخیره کې تازه شي.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "ایا دا په ګوګل ډاکس یا تصور کې کار کوي؟",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "هو، دا تمدید د مشهور ایډیټرانو او بډایه متن پورټلونو لکه ګوګل ډاکس، نوشن، جی میل، لینکډین، سلیک ویب، او ټویټر/X سره په بشپړه توګه مطابقت لري. که چیرې تیریدل تڼۍ په دودیز غوښتنلیک کې غیر فعال وي، تاسو کولی شئ د خپل انتخاب بیا لیکلو لپاره د کمانډ پیلټ کیبورډ شارټ کټ وکاروئ.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "ایا زه کولی شم خپل د API کیلي وکاروم؟",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "د بې سیمه، پلګ او لوبې تجربې چمتو کولو لپاره، د API کارولو ټول لګښتونه ستاسو د ګډون پلان لاندې په بشپړه توګه پوښل شوي. اوس مهال، تاسو اړتیا نلرئ خپل API کیلي تنظیم کړئ. په هرصورت، موږ پالن لرو چې د راتلونکي پراختیا کونکي په اړه تازه معلومات کې د دودیز کاروونکي API ترتیبونو ملاتړ وکړو.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "زه څنګه د ډیفالټ بیا لیکلو ټون بدلولی شم؟",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "تاسو کولی شئ د دې اختیارونو پینل تنظیماتو ټب کې خپل ډیفالټ بیا لیکل ټون تنظیم کړئ. ستاسو د غوره توب خوندي کول به په اوتومات ډول دې ټون ته ډیفالټ شي کله چې د جادو وینډ آئیکون کلیک وکړئ ، که څه هم تاسو لاهم کولی شئ د اړتیا په وخت کې په پاپ اپ کې ټون بدل کړئ.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "ولې کله ناکله د تیریدلو تڼۍ نه ښکاري؟",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "د جادو وینډ تڼۍ د ناڅاپي پوښونو مخنیوي لپاره د متن لږترلږه انتخاب اوږدوالي ته اړتیا لري. برسېره پردې، د براوزر معیاري پالیسۍ په ځینو امتیازاتو پاڼو کې د منځپانګې انجیکشنونه په کلکه بندوي، لکه د کروم ویب پلورنځی (chrome.google.com) او داخلي ترتیب پاڼې (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "ایا زه کولی شم چې بیا لیکل شوی متن د اصلي ځای پرځای کولو پرته کاپي کړم؟",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "هو، د تیر شوي بیا لیکلو پاپ اپ دننه، تاسو کولی شئ د 'کاپي' عکس کلیک وکړئ. دا نوې بیا لیکل شوې نسخه مستقیم ستاسو کلپ بورډ ته کاپي کوي، تاسو ته اجازه درکوي چې دا په هر ځای کې چې تاسو یې غواړئ پیسټ کړئ پرته له دې چې د ویب پاڼې اصلي مینځپانګه بدله یا اغیزه وکړي.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "زه څنګه خپل ګډون لغوه کړم؟",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "تاسو کولی شئ په هر وخت کې ستاسو د پیرود تایید بریښنالیک کې چمتو شوي د پیرودونکي بلینګ پورټل لینک کلیک کولو سره خپل ګډون اداره یا لغوه کړئ. که تاسو نشئ کولی بریښنالیک ومومئ، موږ سره پهkeshoraai@gmail.comاړیکه ونیسئ او موږ به ستاسو سره مرسته وکړو.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "د 'پراخولو' ټون څه کوي؟",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "د 'پراخولو' ټون ستاسو په ټاکل شوي متن کې د جوړولو او توضیح کولو لپاره تولیدي هوښیارتیا کاروي ، د اصلي ارادې ساتلو په وخت کې لنډ افکارو ، بلیټ ټکو یا جملو ته بډایه توضیحات ، شرایط او مناسب ګرامري جوړښت اضافه کوي.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "ایا تاسو د زده کونکي تخفیف وړاندیز کوئ؟",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "هو، موږ د زده کونکو، ښوونکو، او اکادمیک څیړونکو ملاتړ کوو. موږ د ټولو تادیه شوي ګډون پلانونو کې 30٪ تخفیف وړاندیز کوو. موږ ته د خپل رسمي ښوونځي یا پوهنتون بریښنالیک پتې (.edu یا اکاډمیک ډومین) څخه پهkeshoraai@gmail.comکې بریښنالیک راکړئ ترڅو ستاسو د تخفیف کوډ غوښتنه وکړئ.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "ایا د لوی بیا لیکلو اختیار شتون لري؟",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "هو، د پریمیم درجې کاروونکي کولی شي د لوی بیا لیکلو څخه کار واخلي. د انفرادي برخو غوره کولو پرځای، تاسو کولی شئ د توسیع اړخ پینل پرانیزئ او ټول اسناد یا پراګرافونه پیسټ کړئ ترڅو دوی په یوځل کې تعدیل کړي.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "زه څنګه د بګ راپور ورکوم؟",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "تاسو کولی شئ د بګ راپورونه مستقیم زموږ د ملاتړ ټیم ته پهkeshoraai@gmail.comکې بریښنالیک وکړئ. د 'حساب او کارونې' ټب کې د مرستې ویجټ کلیک کول به د ملاتړ ټیمپلیټ مخکې له مخکې ډک کړي چې د تمدید توضیحات لري ترڅو موږ سره د مسلې په تشخیص کې مرسته وکړي.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "ولې دا وايي چې 'کوټه زیاته شوې'؟",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "د 'کوټې څخه ډیر شوی' خبرداری پدې معنی دی چې تاسو د خپل پلان د فعال دورې لپاره خپل تخصیص شوی کارول مصرف کړي دي: وړیا کارونکي د 5 ورځني بیا لیکلو پورې محدود دي؛ په اونۍ کې کاروونکي 140 بیا لیکونه ترلاسه کوي؛ د میاشتني پرو کاروونکي 600 بیا لیکل ترلاسه کوي؛ او کلنۍ حتمي کاروونکي 9,000 بیا لیکل ترلاسه کوي. کوټې په اوتومات ډول د دورې پراساس بیا تنظیم کیږي (هره ورځ د ځایی وخت په نیمه شپه کې ، یا په اونۍ / میاشتنۍ / کلني حدونو کې رول کول). تاسو کولی شئ د 'حساب او کارونې' پا pageې کې لوړې درجې ته لوړ شئ ترڅو سمدلاسه خدمت بیا پیل کړئ.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "صادریږي ...",
+    "description": "Locale key: exportingStatus"
+  }
+}

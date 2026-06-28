@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - переписчик текста с помощью искусственного интеллекта",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Выделите текст где угодно. Переписывайте мгновенно с помощью ИИ.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Открыть палитру команд AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "Переписывание ИИ →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Улучшить письмо",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Исправить грамматику",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Стать профессионалом",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Подружитесь",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Сделайте формальным",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Сделать повседневным",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Сделайте убедительным",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Будьте уверены в себе",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Очеловечить",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Пользовательская подсказка...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Улучшить",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Грамматика",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼Профессионал",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Дружелюбный",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Формальный",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Повседневный",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Убедительный",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Уверенный",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Сократить",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Развернуть",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Упростить",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Гуманизировать",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Пользовательский",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Загрузка...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Переписать текст где угодно",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Войдите в систему с помощью Google, чтобы начать переписывать текст на любом веб-сайте с помощью ИИ.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Вход в систему...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Войдите через Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Про",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Бесплатно",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Ежедневное использование",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(без ограничений)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Выделите текст на любой странице → нажмите кнопку ✨, чтобы переписать. Или нажмитеCtrl+Shift+K.",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Открыть историю и настройки",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Выйти",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Не удалось войти",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Перезаписать не удалось",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Этот раздел в настоящее время находится в разработке.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Пожалуйста, войдите, чтобы просмотреть настройки.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Аккаунт и использование",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Переписать историю",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Настройки",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Скачать",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Помощь и часто задаваемые вопросы",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "ИИ переписывает панель управления",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Общая конфигурация",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Тема интерфейса",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Темный режим",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Светлый режим",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Звук перезаписи по умолчанию",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Очистить всю историю",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Перезаписей пока нет",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Выделите текст на любой странице и нажмите ✨, чтобы начать. Ваша история появится здесь.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Вы уверены, что хотите удалить этот элемент истории перезаписи?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Вы уверены, что хотите навсегда удалить всю историю перезаписи? Это невозможно отменить.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Не удалось удалить элемент:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Не удалось очистить историю:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Исходный текст",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Переписанный текст",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Удалить",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Копия переписана",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Скопировано!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Загрузить старые перезаписи",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Поддержка и деловые вопросы",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Обратитесь по адресу:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Часто задаваемые вопросы",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Чтобы получить помощь или сообщить об ошибке",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Электронная почтаkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Дневной бесплатный лимит",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Уровень бесплатного пользования: 5 перезаписей в день. Сбрасывается ежедневно в полночь.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Переписывайте текст где угодно без ограничений.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Пакетная перезапись всего вашего контента. Синхронизация с облаком. Никаких ограничений.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Предложение для ранних пользователей: следующее повышение цен при 500 премиум-пользователях. Зафиксируйте этот тариф на всю жизнь!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Рынок США ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Индийский рынок (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Платежи в долларах США в настоящее время поддерживаются. Перейдите на тарифный план для индийского рынка (₹) или свяжитесь с нами по адресуkeshoraai@gmail.comдля получения помощи.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Еженедельно",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Всего 57 центов в день)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Ежемесячно ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Всего 33 цента в день)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Ежегодно 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Всего 21 цент в день)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Всего ₹21 в день)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(всего 13 рупий в день)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(всего 8 рупий в день)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ неделя",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ месяц",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ год",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Хорошо подходит для периодического использования",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Большинство пользователей выбирают этот план",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Лучшее соотношение цены и качества для опытных пользователей",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "САМЫЕ ПОПУЛЯРНЫЕ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ЛУЧШАЯ ЦЕНА — 2 МЕСЯЦА БЕСПЛАТНО",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Рейтинг 5,0 • 🔒 Безопасные платежи • ✔️ Отмена в любое время",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Вы студент или исследователь, который не может позволить себе подписку? Отправьте электронное письмо по адресуkeshoraai@gmail.com.",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "У вас уже есть лицензионный ключ?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Введите лицензионный ключ...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Активировать",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 переписываний в неделю",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Разблокировать массовую перезапись",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Доступ к премиум-настройкам",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, синхронизация с Dropbox",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Премиум темы",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Умная организация папок",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Опыт без рекламы",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 перезаписей в месяц",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9000 перезаписей в год",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Скидка 50% на другие расширения",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Приоритетная поддержка по электронной почте",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Формат экспорта",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "В бесплатном плане доступен только экспорт PDF. Пожалуйста, обновите версию до Pro/Premium, чтобы разблокировать другие форматы экспорта.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Формат имени файла",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Выберите, как называть экспортированные файлы.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "История перезаписи — дата (например, RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Пользовательский заголовок",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Введите собственное имя файла...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Экспортировать локальный файл",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Сохранить в Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Сохраните на Google Диск ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Резервное копирование в облаке доступно только в платных планах. Пожалуйста, обновите версию до Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Аутентификация Dropbox отменена.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Не удалось получить токен доступа к Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Аутентификация Google Диска не удалась.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Не удалось загрузить на Google Диск:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Ошибка API Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "История для экспорта не найдена.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "История прекрасно отформатирована и скопирована в буфер обмена!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "История надежно сохраняется в вашем Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "История надежно сохраняется на вашем Google Диске!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Экспорт завершен!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Перепишите с помощью ИИ",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Переписывание ИИ",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Закрыть",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Исходный текст",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Выберите режим для перезаписи...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Заменить",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Копировать",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Скопировано",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Повторить попытку",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Сохранить",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "В бесплатном плане доступен только режим «Улучшение». Пожалуйста, обновите версию до Pro, чтобы разблокировать все 13 режимов.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "В бесплатном плане доступен только режим «Улучшение». Пожалуйста, обновите версию до Pro/Premium, чтобы разблокировать все 13 режимов перезаписи.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Палитра команд AI Rewrite",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Бесплатный план (пользовательские подсказки заблокированы)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Пользовательское приглашение заблокировано на бесплатном плане...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "например Перепишите для LinkedIn, сделайте это убедительным...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "В бесплатном плане доступен только режим «Улучшение». Пожалуйста, обновите версию до Pro/Premium, чтобы разблокировать все функции.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "В бесплатном плане доступен только режим «Улучшение». Пожалуйста, обновите версию до Pro/Premium, чтобы разблокировать все режимы.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 История",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Настройки",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Переписываний пока нет.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Выделите текст на любой странице и нажмите ✨, чтобы начать.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Оригинал:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Переписано:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Загрузить больше",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Аккаунт",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Переписывает сегодня",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Сбрасывает",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Активный ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI-движок",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Механизм перезаписи AI",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Как переписать текст на сайте?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Просто выделите или выберите любой текст на любой веб-странице. Рядом с курсором автоматически появится плавающая кнопка-волшебная палочка («✨»). При нажатии на этот значок открывается всплывающее окно интерактивной перезаписи, в котором вы можете выбрать тон перезаписи (например, «Улучшить», «Грамматика», «Профессиональный», «Обычный», «Расширить» или «Сократить»), чтобы позволить ИИ переписать контент за вас. Вы также можете активировать интерфейс с помощью ярлыка на палитре команд (Ctrl+Shift+Pв Windows/Linux илиCmd+Shift+Pв macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Какие модели искусственного интеллекта поддерживаются?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "В настоящее время мы поддерживаем самые современные модели LLM, включая GPT OpenAI (например, GPT-4o-mini), Gemini от Google, Claude от Anthropic и модели с открытым исходным кодом Groq (такие как Llama 3) для высокопроизводительной и молниеносной обработки текста.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Мои данные в безопасности?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Да, конфиденциальность является основным приоритетом. Мы обрабатываем только конкретный текст, который вы выбираете для переписывания. Текст безопасно передается в наш серверный API для выполнения запроса. Мы не храним историю вашего текстового журнала на наших серверах в течение длительного времени, не передаем ее третьим лицам и не используем для обучения моделей ИИ. Кроме того, расширение работает в изолированной среде, чтобы обеспечить защиту вашей личной истории посещений.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "В чем разница между планами Free и Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Бесплатный план предусматривает 5 переписываний в день, ограниченных исключительно звуком «Улучшение» и форматом загрузки/экспорта «PDF». Интеграция Dropbox и Google Drive также заблокирована. Платные планы (Weekly, Monthly Pro и Yearly Ultimate) открывают все 6 тонов, все 6 форматов загрузки (PDF, Markdown, TXT, IMG, JSON и Clipboard Copy), а также интеграцию облачного резервного копирования для получения премиум-услуг без ограничений.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Почему определенные сигналы перезаписи, форматы экспорта и резервные копии в облаке заблокированы в бесплатном плане?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Для запуска современных моделей искусственного интеллекта (таких как GPT-4o-mini, Gemini и Claude) и управления облачной синхронизацией требуется существенная серверная инфраструктура, вычислительная мощность и прямые затраты на API для каждого действия. Чтобы сделать наш сервис устойчивым и в то же время предлагать полнофункциональный бесплатный вариант, бесплатный план покрывает основные требования (5 ежедневных переписываний с тональным сигналом «Улучшить» и локальное создание PDF-файлов). Планы подписки субсидируют расходы на премиальные мелодии (Grammar, Professional, Casual, Expand, Shorten), облачные коннекторы (Dropbox, Google Drive) и экспорт в несколько форматов (Markdown, TXT, IMG, JSON, COPY), гарантируя, что мы можем поддерживать высокую производительность, активные обновления и строгую конфиденциальность без рекламы.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Как активировать лицензионный ключ?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "После завершения покупки подписки вставьте свой лицензионный ключ в поле проверки ключа в нижней части страницы «Учетная запись и использование» на панели управления и нажмите «Активировать лицензию». Информация о плане вашей учетной записи мгновенно обновится в памяти вашего браузера.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Это работает в Google Docs или Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Да, расширение полностью совместимо с популярными редакторами и порталами форматированного текста, такими как Google Docs, Notion, Gmail, LinkedIn, Slack Web и Twitter/X. Если плавающая кнопка отключена в пользовательском приложении, вы можете использовать сочетание клавиш на палитре команд, чтобы переписать свой выбор.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Могу ли я использовать свой собственный ключ API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Чтобы обеспечить бесперебойную работу по принципу «подключи и работай», все расходы на использование API полностью покрываются вашим планом подписки. В настоящее время вам не нужно настраивать собственные ключи API. Однако мы планируем поддерживать пользовательские конфигурации API в будущем обновлении, ориентированном на разработчиков.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Как изменить тон перезаписи по умолчанию?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Вы можете установить тон перезаписи по умолчанию на вкладке «Настройки» этой панели параметров. При сохранении ваших предпочтений по умолчанию при нажатии на значок волшебной палочки автоматически будет выбран этот тон, хотя при необходимости вы все равно можете переключать тон во всплывающем окне.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Почему иногда не появляется плавающая кнопка?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Для кнопки «Волшебная палочка» требуется минимальная длина выделения текста, чтобы предотвратить случайное наложение. Кроме того, стандартные политики безопасности браузера строго блокируют внедрение контента на определенные привилегированные страницы, такие как Интернет-магазин Chrome (chrome.google.com) и страницы внутренней конфигурации (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Можно ли скопировать переписанный текст, не заменяя оригинал?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Да, внутри всплывающего всплывающего окна перезаписи вы можете щелкнуть значок «Копировать». При этом новая переписанная версия копируется прямо в буфер обмена, что позволяет вам вставить ее куда угодно, не заменяя и не затрагивая исходное содержимое веб-страницы.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Как мне отменить подписку?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Вы можете управлять своей подпиской или отменить ее в любое время, щелкнув ссылку на портал выставления счетов для клиентов, указанную в электронном письме с подтверждением покупки. Если вы не можете найти электронное письмо, свяжитесь с нами по адресуkeshoraai@gmail.com, и мы вам поможем.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Что делает тон «Расширение»?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Тон «Расширение» использует генеративный интеллект для создания и уточнения выбранного текста, добавляя подробные детали, контекст и правильную грамматическую структуру к коротким мыслям, пунктам списка или фразам, сохраняя при этом исходное намерение.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Вы предлагаете студенческие скидки?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Да, мы поддерживаем студентов, преподавателей и научных исследователей. Мы предлагаем скидку 30% на все платные планы подписки. Напишите нам по адресуkeshoraai@gmail.comсо своего официального адреса электронной почты школы или университета (.edu или академический домен), чтобы запросить код скидки.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Есть ли возможность массовой перезаписи?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Да, пользователи премиум-уровня могут использовать массовое переписывание. Вместо того, чтобы выбирать отдельные сегменты, вы можете открыть боковую панель расширения и вставить целые документы или абзацы, чтобы изменить их за один раз.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Как сообщить об ошибке?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Вы можете отправлять отчеты об ошибках по электронной почте непосредственно в нашу службу поддержки по адресуkeshoraai@gmail.com. Если щелкнуть виджет справки на вкладке «Учетная запись и использование», будет предварительно заполнен шаблон поддержки, содержащий сведения о расширении, которые помогут нам диагностировать проблему.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Почему пишет «Квота превышена»?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Предупреждение «Квота превышена» означает, что вы израсходовали отведенное для активного цикла вашего плана использование: бесплатные пользователи ограничены 5 ежедневными перезаписями; Еженедельно пользователи получают 140 перезаписей; Пользователи Monthly Pro получают 600 перезаписей; и пользователи Yearly Ultimate получают 9000 перезаписей. Квоты сбрасываются автоматически в зависимости от цикла (ежедневно в полночь по местному времени или в зависимости от еженедельных, ежемесячных или годовых границ). Вы можете перейти на более высокий уровень на странице «Учетная запись и использование», чтобы немедленно возобновить обслуживание.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Экспорт...",
+    "description": "Locale key: exportingStatus"
+  }
+}

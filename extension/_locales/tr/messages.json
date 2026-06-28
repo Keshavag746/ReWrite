@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Her Yerde Yeniden Yaz - AI Metin Yeniden Yazıcı",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Herhangi bir yerde metni vurgulayın. Yapay zeka ile anında yeniden yazın.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Yeniden Yazma komut paletini açın",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Yeniden Yazma →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Yazmayı Geliştir",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Dilbilgisini Düzelt",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Profesyonel Olun",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Dostça Olun",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Resmi Ol",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Rahat Yapın",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 İkna Edici Olun",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Kendinize Güvenin",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 İnsanlaştırma",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Özel İstem...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Geliştir",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Dilbilgisi",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesyonel",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Dost canlısı",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Resmi",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Gündelik",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 İkna edici",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Kendine güvenen",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️Kısalt",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Genişlet",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Basitleştirin",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 İnsanileştirme",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Özel",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Yükleniyor...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Metni istediğiniz yerde yeniden yazın",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Yapay zeka ile herhangi bir web sitesinde metni yeniden yazmaya başlamak için Google ile oturum açın.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Oturum açılıyor...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google ile oturum açın",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Profesyonel",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Ücretsiz",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Günlük Kullanım",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(sınırsız)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Herhangi bir sayfadaki metni seçin → yeniden yazmak için ✨ düğmesine tıklayın. VeyaCtrl+Shift+Ktuşuna basın",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Geçmişi ve Ayarları Aç",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Oturumu Kapat",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Giriş başarısız oldu",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Yeniden yazma başarısız oldu",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Bu bölüm şu anda yapım aşamasındadır.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Ayarları görüntülemek için lütfen oturum açın.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Hesap ve Kullanım",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Geçmişi Yeniden Yaz",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Ayarlar",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "İndir",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Yardım ve SSS",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Yeniden Yazma Kontrol Paneli",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Genel Yapılandırma",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Arayüz Teması",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Karanlık Mod",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Işık Modu",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Varsayılan Yeniden Yazma Tonu",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Tüm Geçmişi Temizle",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Henüz yeniden yazma yok",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Herhangi bir sayfadaki metni vurgulayın ve başlamak için ✨ seçeneğine tıklayın. Geçmişiniz burada görünecek.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Bu yeniden yazma geçmişi öğesini silmek istediğinizden emin misiniz?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Yeniden yazma geçmişinizin tamamını kalıcı olarak silmek istediğinizden emin misiniz? Bu geri alınamaz.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Öğe silinemedi:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Geçmiş temizlenemedi:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Orijinal Metin",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Yeniden Yazılmış Metin",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Sil",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Yeniden Yazılmış Kopyala",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kopyalandı!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Daha eski yeniden yazmaları yükle",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Destek ve İş Soruları",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Şu adresten ulaşın:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Sıkça Sorulan Sorular",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Yardım için veya bir hatayı bildirmek için",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-postakeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Günlük Ücretsiz Limit",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Ücretsiz katman: Günde 5 yeniden yazma. Her gün gece yarısı sıfırlanır.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Metni istediğiniz yerde sınırsız olarak yeniden yazın.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Tüm içeriğinizi toplu olarak yeniden yazın. Bulutla senkronize edin. Kısıtlama yok.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Erken Benimseyen Teklifi: 500 Premium kullanıcıda bir sonraki fiyat artışı. Ömür boyu bu oranı sabitleyin!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 ABD Pazarı ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Hindistan Pazarı (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "ABD Doları ödemeleri şu anda bakımda. Lütfen Hindistan Pazarı (₹) planına geçin veya yardım içinkeshoraai@gmail.comadresinden bizimle iletişime geçin.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Haftalık",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Sadece 57¢ / gün)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Aylık ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Sadece 33¢ / gün)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Yıllık 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Sadece 21¢ / gün)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Sadece ₹21 / gün)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Sadece ₹13 / gün)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Sadece ₹8 / gün)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ hafta",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ ay",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ yıl",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Ara sıra kullanım için iyi",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Çoğu kullanıcı bu planı seçiyor",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Uzman kullanıcılar için en iyi değer",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "EN POPÜLER",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "EN İYİ DEĞER - 2 AY ÜCRETSİZ",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5,0 puan • 🔒 Güvenli Ödemeler • ✔️ İstediğiniz zaman iptal edin",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Abonelik ücretini ödeyemeyen bir öğrenci veya araştırmacı mısınız? Lütfenkeshoraai@gmail.comadresine e-posta gönderin",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Zaten bir lisans anahtarınız var mı?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Lisans anahtarını girin...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Etkinleştir",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "Haftada 140 Yeniden Yazma",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Toplu Yeniden Yazmanın Kilidini Aç",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Premium Ayarlar Erişimi",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Senkronizasyonu",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium Temalar",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Akıllı Klasör Organizasyonu",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Reklamsız Deneyim",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "Aylık 600 Yeniden Yazma",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "Yılda 9.000 Yeniden Yazma",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Diğer uzantılarda %50 indirim",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Öncelikli E-posta Desteği",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Dışa Aktarma Formatı",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Ücretsiz planda yalnızca PDF dışa aktarımı mevcuttur. Diğer dışa aktarma formatlarının kilidini açmak için lütfen Pro/Premium'a yükseltin.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Dosya Adı Formatı",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Dışa aktarılan dosyaların nasıl adlandırılacağını seçin.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Yeniden Yazma Geçmişi - Tarih (ör. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Özel Başlık",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Özel dosya adını girin...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Yerel Dosyayı Dışa Aktar",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox'a kaydet 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google Drive'a kaydet ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Bulut yedekleme yalnızca ücretli planlarda mevcuttur. Lütfen Pro/Premium'a yükseltin.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox kimlik doğrulaması iptal edildi.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox erişim belirteci alınamadı.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive kimlik doğrulaması başarısız oldu.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive yüklemesi başarısız oldu:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API Hatası",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Dışa aktarılacak geçmiş bulunamadı.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Geçmiş güzelce biçimlendirildi ve panoya kopyalandı!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Geçmiş güvenli bir şekilde Dropbox'ınıza kaydedildi!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Geçmiş güvenli bir şekilde Google Drive'ınıza kaydedildi!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Dışa aktarma tamamlandı!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI ile yeniden yazın",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Yapay Zeka Yeniden Yazma",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Kapat",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Orijinal metin",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Yeniden yazmak için bir mod seçin...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Değiştir",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopyala",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kopyalandı",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Yeniden dene",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Kaydet",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Ücretsiz planda yalnızca \"İyileştirme\" modu mevcuttur. 13 modun tamamının kilidini açmak için lütfen Pro'ya yükseltin.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Ücretsiz planda yalnızca \"İyileştirme\" modu mevcuttur. 13 yeniden yazma modunun tamamının kilidini açmak için lütfen Pro/Premium'a yükseltin.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Yeniden Yazma Komut Paleti",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Ücretsiz Plan (Özel istemler kilitli)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Özel istem Ücretsiz Planda kilitlendi...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "örneğin LinkedIn için yeniden yazın, bunu ikna edici hale getirin...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Ücretsiz planda yalnızca \"İyileştirme\" modu mevcuttur. Tüm özelliklerin kilidini açmak için lütfen Pro/Premium'a yükseltin.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Ücretsiz planda yalnızca \"İyileştirme\" modu mevcuttur. Tüm modların kilidini açmak için lütfen Pro/Premium'a yükseltin.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Tarih",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Ayarlar",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Henüz yeniden yazma yok.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Herhangi bir sayfadaki metni vurgulayın ve başlamak için ✨ seçeneğine tıklayın.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Orijinal:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Yeniden Yazıldı:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Daha fazlasını yükle",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Hesap",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Bugün yeniden yazıyor",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Sıfırlar",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktif ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Yapay Zeka Motoru",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Yapay Zeka Yeniden Yazma Motoru",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Bir web sitesindeki metni nasıl yeniden yazarım?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Herhangi bir web sayfasındaki herhangi bir metni vurgulamanız veya seçmeniz yeterlidir. İmlecinizin yanında otomatik olarak yüzen bir sihirli değnek düğmesi ('✨') görünecektir. Bu simgeye tıklamak etkileşimli yeniden yazma açılır penceresini açar; burada yapay zekanın içeriği sizin için yeniden yazmasına izin vermek üzere bir yeniden yazma tonu (İyileştirme, Dilbilgisi, Profesyonel, Basit, Genişlet veya Kısalt gibi) seçebilirsiniz. Arayüzü Komut Paleti kısayolu aracılığıyla da tetikleyebilirsiniz (Windows/Linux'taCtrl+Shift+Pveya macOS'taCmd+Shift+P).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Hangi AI modelleri destekleniyor?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Şu anda yüksek performanslı, ışık hızında metin işleme için OpenAI'nin GPT'si (örn. GPT-4o-mini), Google'ın Gemini, Anthropic'in Claude ve Groq açık kaynak modelleri (Llama 3 gibi) dahil olmak üzere son teknolojiye sahip LLM'leri destekliyoruz.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Verilerim güvende mi?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Evet, gizlilik temel bir önceliktir. Yalnızca yeniden yazmak için seçtiğiniz belirli metni işleriz. Metin, isteğin gerçekleştirilmesi için güvenli bir şekilde arka uç API'mize iletilir. Metin günlüğü geçmişinizi uzun vadeli olarak sunucularımızda saklamayız, üçüncü taraflarla paylaşmayız veya yapay zeka modellerini eğitmek için kullanmayız. Ayrıca uzantı, kişisel tarama geçmişinizin korunmasını sağlamak için korumalı alanda çalışır.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Ücretsiz ve Pro planlar arasındaki fark nedir?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Ücretsiz plan günde 5 yeniden yazma olanağı sağlar ve yalnızca 'Geliştir' tonu ve 'PDF' indirme/dışa aktarma biçimiyle sınırlıdır. Dropbox ve Google Drive entegrasyonları da kilitli. Ücretli planlar (Haftalık, Aylık Pro ve Yıllık Ultimate), premium, kısıtlamasız bir deneyim için 6 tonun tamamının, 6 indirme formatının (PDF, Markdown, TXT, IMG, JSON ve Clipboard Copy) ve bulut yedekleme entegrasyonlarının kilidini açar.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Ücretsiz planda neden belirli yeniden yazma tonları, dışa aktarma formatları ve bulut yedeklemeleri kilitli?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "En son teknolojiye sahip yapay zeka modellerini (GPT-4o-mini, Gemini ve Claude gibi) çalıştırmak ve bulut senkronizasyonunu yönetmek, önemli miktarda sunucu altyapısı, bilgi işlem gücü ve her eylem için doğrudan API maliyetleri gerektirir. Tamamen işlevsel ücretsiz bir seçenek sunarken hizmetimizi sürdürülebilir kılmak için Ücretsiz plan, temel gereksinimleri kapsar ('Geliştir' tonuyla günde 5 yeniden yazma ve yerel PDF oluşturma). Abonelik planları, premium tonların (Grammar, Professional, Casual, Expand, Shorten), bulut bağlayıcılarının (Dropbox, Google Drive) ve çoklu format dışa aktarmalarının (Markdown, TXT, IMG, JSON, COPY) maliyetlerini karşılayarak yüksek performansı, aktif güncellemeleri ve reklamlar olmadan katı gizliliği destekleyebilmemizi sağlar.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Lisans anahtarımı nasıl etkinleştiririm?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Abonelik satın alma işleminizi tamamladıktan sonra, lisans anahtarınızı kontrol panelindeki 'Hesap ve Kullanım' sayfasının alt kısmındaki anahtar doğrulama alanına yapıştırın ve 'Lisansı Etkinleştir'i tıklayın. Hesap planı ayrıntılarınız tarayıcı depolama alanınızda anında güncellenecektir.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Bu, Google Dokümanlar'da veya Notion'da çalışıyor mu?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Evet, uzantı Google Dokümanlar, Notion, Gmail, LinkedIn, Slack web ve Twitter/X gibi popüler düzenleyiciler ve zengin metin portallarıyla tamamen uyumludur. Özel bir uygulamada kayan düğme devre dışı bırakılırsa seçiminizi yeniden yazmak için Komut Paleti klavye kısayolunu kullanabilirsiniz.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Kendi API anahtarımı kullanabilir miyim?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Sorunsuz bir tak ve çalıştır deneyimi sağlamak için tüm API kullanım maliyetleri tamamen abonelik planınız kapsamında karşılanır. Şu anda kendi API anahtarlarınızı yapılandırmanıza gerek yoktur. Ancak gelecekteki geliştirici odaklı bir güncellemede özel kullanıcı API yapılandırmalarını desteklemeyi planlıyoruz.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Varsayılan yeniden yazma tonunu nasıl değiştiririm?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Varsayılan yeniden yazma tonunuzu bu seçenekler panelinin Ayarlar sekmesinde ayarlayabilirsiniz. Tercihinizi kaydettiğinizde, sihirli değnek simgesine tıkladığınızda varsayılan olarak bu ton otomatik olarak ayarlanır, ancak yine de gerektiğinde açılır pencerede tonları değiştirebilirsiniz.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Kayan düğme neden bazen görünmüyor?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Sihirli değnek düğmesi, kazara bindirmeleri önlemek için minimum seçim uzunluğunda bir metin gerektirir. Ayrıca, standart tarayıcı güvenlik politikaları, Chrome Web Mağazası (chrome.google.com) ve dahili yapılandırma sayfaları (chrome://) gibi belirli ayrıcalıklı sayfalara içerik enjeksiyonunu kesinlikle engeller.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Yeniden yazılan metni orijinali değiştirmeden kopyalayabilir miyim?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Evet, kayan yeniden yazma açılır penceresinde 'Kopyala' simgesine tıklayabilirsiniz. Bu, yeni yeniden yazılan sürümü doğrudan panonuza kopyalar ve web sayfasındaki orijinal içeriği değiştirmeden veya etkilemeden istediğiniz yere yapıştırmanıza olanak tanır.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Aboneliğimi nasıl iptal edebilirim?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Satın alma onayı e-postanızda sağlanan müşteri faturalandırma portalı bağlantısını tıklayarak aboneliğinizi istediğiniz zaman yönetebilir veya iptal edebilirsiniz. E-postayı bulamıyorsanızkeshoraai@gmail.comadresinden bizimle iletişime geçin; size yardımcı olacağız.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'Genişlet' tonu ne işe yarar?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'Genişlet' tonu, seçtiğiniz metni oluşturmak ve detaylandırmak için üretken zekayı kullanır; orijinal amacı olduğu gibi korurken kısa düşüncelere, madde işaretlerine veya ifadelere zengin ayrıntılar, bağlam ve uygun dilbilgisi yapısı ekler.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Öğrenci indiriminiz var mı?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Evet, öğrencileri, eğitimcileri ve akademik araştırmacıları destekliyoruz. Tüm ücretli abonelik planlarında %30 indirim sunuyoruz. İndirim kodunuzu istemek için resmi okul veya üniversite e-posta adresinizden (.edu veya akademik alan adı)keshoraai@gmail.comadresinden bize e-posta gönderin.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Toplu yeniden yazma seçeneği var mı?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Evet, premium katman kullanıcıları toplu yeniden yazma özelliğinden yararlanabilir. Tek tek bölümleri seçmek yerine, uzantının yan panelini açabilir ve tüm belgeleri veya paragrafları yapıştırarak bunları tek seferde değiştirebilirsiniz.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Bir hatayı nasıl bildirebilirim?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Hata raporlarını doğrudankeshoraai@gmail.comadresinden destek ekibimize e-postayla gönderebilirsiniz. 'Hesap ve Kullanım' sekmesindeki yardım widget'ını tıkladığınızda, sorunu teşhis etmemize yardımcı olacak uzantı ayrıntılarını içeren bir destek şablonu önceden doldurulur.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Neden 'Kota Aşıldı' yazıyor?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "'Kota Aşıldı' uyarısı, planınızın aktif döngüsü boyunca tahsis edilen kullanımınızı tükettiğiniz anlamına gelir: Ücretsiz kullanıcılar günlük 5 yeniden yazma işlemiyle sınırlıdır; Haftalık kullanıcılar 140 yeniden yazma hakkına sahiptir; Aylık Pro kullanıcıları 600 yeniden yazma hakkına sahiptir; ve Yıllık Ultimate kullanıcıları 9.000 yeniden yazma hakkına sahiptir. Kotalar döngüye göre otomatik olarak sıfırlanır (her gün yerel saatle gece yarısı veya değişen haftalık/aylık/yıllık sınırlara göre). Hizmeti hemen sürdürmek için 'Hesap ve Kullanım' sayfasında daha yüksek bir seviyeye yükseltebilirsiniz.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Dışa aktarılıyo...",
+    "description": "Locale key: exportingStatus"
+  }
+}

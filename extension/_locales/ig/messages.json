@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Degharịa ebe ọ bụla - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Mee ka ederede pụta ìhè ebe ọ bụla. Jiri AI deegharịa ozugbo.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Mepee palette iwu idegharị AI",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Degharịa →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Melite Odide",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Dozie ụtọ asụsụ",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Mee ọkachamara",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Mee enyi",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Mee Formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Mee Casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Mee ka o doo anya",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Nwee obi ike",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Mepụta mmadụ",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Omenala ngwa ngwa...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Melite",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Ụtọasụsụ",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Ọkachamara",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Enyi na enyi",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 nkịtị",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Na-ekwenye ekwenye",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Obi ike",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Mkpụbelata",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Gbasaa",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Mee ka ọ dị mfe",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Mepụta mmadụ",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Omenala",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Na-ebu...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Dee ederede ebe ọ bụla",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Soro Google banye ka ịmalite idegharị ederede na webụsaịtị ọ bụla na AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Ịbanye...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Jiri Google banye",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "N'efu",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Ojiji kwa ụbọchị",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(akparaghị ókè)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Họrọ ederede na ibe ọ bụla → pịa bọtịnụ ✨ iji degharịa. Ma ọ bụ pịaCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Mepee Akụkọ & Ntọala",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Banye",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Nbanye adaghị",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Idegharị adaghị",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "A na-arụ ngalaba a ugbu a.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Biko banye ka ilele ntọala.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Akaụntụ & Ojiji",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Degharịa akụkọ ihe mere eme",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Ntọala",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Budata",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Enyemaka & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Nhazi izugbe",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Okwu Interface",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Ọnọdụ gbara ọchịchịrị",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Ọnọdụ ọkụ",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Degharịa ụda nke an-kpọ",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Hichapụ akụkọ ihe mere eme niile",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Ọnweghị ndegharị ọzọ",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Mee ka ederede pụta ìhè na ibe ọ bụla wee pịa ✨ ka ịmalite. Akụkọ gị ga-apụta ebe a.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Ị ji n'aka na ị chọrọ ihichapụ ihe a na-edegharị ihe akụkọ ihe mere eme?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Ị ji n'aka na ịchọrọ ihichapụ akụkọ ihe mere eme gị niile? Enweghị ike imegharị nke a.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Ihichapụ ihe agaghị eme:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Ihichapụ akụkọ ihe mere eme agaghị:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Ederede izizi",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Ederede edegharịrị",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Hichapụ",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Detuo edegharị",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Eṅomiri!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Bunye ndị ochie na-edegharị",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Nkwado & Ajụjụ Azụmahịa",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Gaa na:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Ajụjụ a na-ajụkarị",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Maka enyemaka ma ọ bụ ịkọ ahụhụ",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Emailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Oke efu kwa ụbọchị",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Ọkwa efu: 5 na-edegharị kwa ụbọchị. Na-emegharị kwa ụbọchị n'etiti abalị.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Degharịa ederede ebe ọ bụla na-enweghị oke.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch degharịa ọdịnaya gị niile. Mekọrịta na igwe ojii. Enweghị mgbochi.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Enyemaka Onye Nkwado Oge: Mmụba ọnụahịa na-esote na ndị ọrụ adịchaghị 500. Mkpọchi na ọnụego a maka ndụ!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "Ahịa US ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indian Market (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "A na-edozi ịkwụ ụgwọ dollar US ugbu a. Biko gbanwee gaa na atụmatụ ahịa ahịa India (₹) ma ọ bụ kpọtụrụ anyị nakeshoraai@gmail.commaka enyemaka.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Kwa izu",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Naanị 57 ¢ kwa ụbọchị)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Kwa ọnwa ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Naanị 33 ¢ kwa ụbọchị)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Kwa afọ 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(naanị 21 ¢ kwa ụbọchị)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Naanị ₹ 21 / ụbọchị)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Naanị ₹ 13 / ụbọchị)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Nanị ₹ 8 / ụbọchị)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ izu",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ ọnwa",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ afọ",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Ọ dị mma maka iji oge ụfọdụ",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Ọtụtụ ndị ọrụ na-ahọrọ atụmatụ a",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Uru kacha mma maka ndị ọrụ ike",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "Kacha ewu ewu",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "Uru kacha mma - ọnwa 2 n'efu",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Ring • 🔒 Ịkwụ ụgwọ echekwara • ✔️ Kagbuo oge ọ bụla",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ị bụ nwa akwụkwọ ma ọ bụ onye nyocha na-enweghị ike ị nweta ndenye aha? Biko ziterekeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Ị nwere igodo ikike?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Tinye igodo ikike...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Mee ka ọ rụọ ọrụ",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 na-edegharị kwa izu",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Mepee nnukwu idegharị",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Nweta Ntọala adịchaghị",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox mmekọrịta",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Gburugburu adịchaghị",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Ụlọ nchekwa Smart",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Ahụmahụ enweghị mgbasa ozi",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 na-edegharị kwa ọnwa",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 na-edegharị kwa afọ",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% kwụsịrị mgbakwunye ndị ọzọ",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Nkwado Email ụzọ",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Usoro mbupu",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Naanị mbupụ PDF dị na atụmatụ efu. Biko kwalite ka ọ bụrụ Pro/Premium iji kpọghee ụdị mbupu ndị ọzọ.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Ụdị aha faịlụ",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Họrọ ka esi akpọ aha faịlụ mbupụ.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Degharịa akụkọ ihe mere eme - Ụbọchị (dịka ọmụmaatụ RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Aha omenala",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Tinye aha faịlụ ahaziri iche...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Mbupụ faịlụ mpaghara",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Chekwaa na Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Chekwaa na Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Ndabere igwe ojii dị naanị na atụmatụ akwụ ụgwọ. Biko kwalite gaa na Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Kagbuo njirimara Dropbox.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Enwetaghị akara ohere Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Nyocha Google Drive adaghị.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Nbulite Google mbanye adaghị:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API mperi",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Ọnweghị akụkọ ihe mere eme achọtara mbupu.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Haziri ma depụtaghachi akụkọ ihe mere eme na bọọdụ!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "echekwara akụkọ ihe mere eme na nchekwa Dropbox gị!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Edobere akụkọ ihe mere eme na Google Drive gị!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Mbupu zuru ezu!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Jiri AI deegharịa",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Degharịa",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Mechie",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Ederede izizi",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Họrọ ọnọdụ iji degharịa...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Dochie",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Detuo",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Eṅomiri",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Gbalịa ọzọ",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Chekwa",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Naanị ọnọdụ \"Mmelite\" dị na atụmatụ efu. Biko kwalite gaa na Pro ka imepe ụdịdị iri na atọ niile.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Naanị ọnọdụ \"Mmelite\" dị na atụmatụ efu. Biko kwalite ka ọ bụrụ Pro/Premium iji kpọghee ụdị ndegharị iri na atọ niile.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Atụmatụ efu (kpọchiri ekpochi mkpali)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Akpọchiri ngwa ngwa omenala na atụmatụ efu...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "eg. Degharịa maka LinkedIn, mee ka nke a kwenye...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Naanị ọnọdụ \"Mmelite\" dị na atụmatụ efu. Biko kwalite na Pro/Premium ka imepe atụmatụ niile.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Naanị ọnọdụ \"Mmelite\" dị na atụmatụ efu. Biko kwalite na Pro/Premium ka imepe ụdịdị niile.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Akụkọ ihe mere eme",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Ntọala",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Ọnweghị ndegharị ọzọ.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Mee ka ederede pụta ìhè na ibe ọ bụla wee pịa ✨ ka ịmalite.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Nke izizi:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Edegharịrị:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Ibu ibu ọzọ",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Akaụntụ",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Na-edegharị taa",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Tọgharia",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Na-arụ ọrụ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Igwe AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Kedu ka m ga-esi edegharị ederede na webụsaịtị?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Naanị pụta ìhè ma ọ bụ họrọ ederede ọ bụla na ibe weebụ ọ bụla. Bọtịnụ wand anwansi na-ese n'elu mmiri ('✨') ga-apụta ozugbo n'akụkụ cursor gị. Ịpị akara ngosi a na-emepe popup rewrite mmekọrịta, ebe ị nwere ike họrọ ụda idegharị (dị ka Melite, Grammar, Professional, Casual, Expand, or Shorten) ka AI degharịa gị ọdịnaya. Ị nwekwara ike ịkpalite interface ahụ site na ụzọ mkpirisi Palette Command (Ctrl+Shift+Pna Windows/Linux ma ọ bụCmd+Shift+Pna macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Kedu ụdị AI na-akwado?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Anyị na-akwado LLM nke ọgbara ọhụrụ gụnyere OpenAI's GPT (dịka, GPT-4o-mini), Google's Gemini, Anthropic's Claude, na Groq ụdị mepere emepe (dị ka Llama 3) maka ịrụ ọrụ dị elu, nhazi ederede ọkụ ọkụ.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Enwere data m echekwara?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ee, nzuzo bụ isi ihe kacha mkpa. Anyị na-ahazi naanị ederede akọwapụtara nke ị họọrọ maka idegharị. A na-ebunye ederede ahụ n'enweghị nsogbu na API backend anyị iji mee arịrịọ ahụ. Anyị anaghị echekwa ndekọ ndekọ ederede gị ogologo oge na sava anyị, anyị anaghị ekerịta ya na ndị ọzọ ma ọ bụ jiri ya zụọ ụdị AI. Na mgbakwunye, ndọtị ahụ na-aga n'ime ebe nwere igbe aja iji hụ na echekwara akụkọ ihe nchọgharị nkeonwe gị.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Kedu ihe dị iche n'etiti atụmatụ Free na Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Atụmatụ efu ahụ na-enye ndegharị 5 kwa ụbọchị, machibidoro naanị maka ụda 'Melite' yana 'PDF' ụdị nbudata/bupu. Akpọchikwara njikọta Dropbox na Google Drive. Atụmatụ akwụ ụgwọ (kwa izu, Pro kwa ọnwa, na kwa afọ) kpọghee ụda isii niile, ụdị nbudata 6 niile (PDF, Markdown, TXT, IMG, JSON, na Clipboard Copy), yana ntinye nkwado igwe ojii maka ahụmịhe adịchaghị, enweghị mmachi.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Kedu ihe kpatara eji kpọchie ụfọdụ ụda idegharị, ụdị mbupụ, na nkwado igwe ojii na atụmatụ efu?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Ụdị AI nke ọgbara ọhụrụ na-agba ọsọ (dị ka GPT-4o-mini, Gemini, na Claude) na ijikwa mmekọrịta igwe ojii chọrọ nnukwu akụrụngwa nkesa, gbakọọ ike, yana ọnụ ahịa API kpọmkwem maka omume ọ bụla. Iji mee ka ọrụ anyị na-adigide ka anyị ka na-enye nhọrọ efu na-arụ ọrụ zuru oke, atụmatụ efu na-ekpuchi ihe ndị dị mkpa (5 na-eji ụda 'Emezi' na ọgbọ PDF na mpaghara na-edegharị kwa ụbọchị). Atụmatụ ndenye aha na-akwado ụgwọ nke ụda adịchaghị (grammar, ọkachamara, Casual, Expand, Shorten), njikọ igwe ojii (Dropbox, Google Drive), na ọtụtụ mbupụ usoro (Markdown, TXT, IMG, JSON, COPY), na-ahụ na anyị nwere ike ịkwado arụmọrụ dị elu, mmelite na-arụ ọrụ, yana nzuzo siri ike na-enweghị mgbasa ozi.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Kedu otu m ga-esi gbanye igodo ikike m?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Mgbe ịzụrụ ndenye aha gị, mado igodo ikike gị n'ime igodo nkwado dị na ala nke ibe 'Akaụntụ & ojiji' na dashboard wee pịa' Tinye akwụkwọ ikike. Nkọwa atụmatụ akaụntụ gị ga-emelite ozugbo na nchekwa ihe nchọgharị gị.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Nke a ọ na-arụ ọrụ na Google Docs ma ọ bụ echiche?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ee, ndọtị ahụ dakọtara nke ọma na ndị editọ ama ama yana ọnụ ụzọ ederede bara ụba dị ka Google Docs, Notion, Gmail, LinkedIn, Slack web, na Twitter/X. Ọ bụrụ na agbanyụrụ bọtịnụ na-ese n'elu mmiri na ngwa omenala, ịnwere ike iji ụzọ mkpirisi ahụigodo Command Palette iji degharịa nhọrọ gị.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Enwere m ike iji igodo API nke m?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Iji nye ahụmịhe nkwụnye na egwuregwu enweghị nkebi, kpuchiri ọnụ ahịa ojiji API niile n'okpuru atụmatụ ndenye aha gị. Ugbu a, ịgaghị ahazi igodo API nke gị. Agbanyeghị, anyị na-eme atụmatụ ịkwado nhazi API onye ọrụ omenala na nwelite dabere na onye nrụpụta n'ọdịnihu.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Kedu otu m ga-esi gbanwee ụda idegharị ndabara?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Ị nwere ike ịtọ ụda idegharị ndabara gị na taabụ Ntọala nke otu nhọrọ a. Ịchekwa mmasị gị ga-adaba na ụda ahụ ozugbo mgbe ịpịrị akara ngosi anwansi, n'agbanyeghị na ị ka nwere ike ịgbanwe ụda na popup mgbe achọrọ ya.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Kedu ihe kpatara bọtịnụ na-ese n'elu mmiri anaghị apụta mgbe ụfọdụ?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Bọtịnụ wand anwansi chọrọ opekata mpe nhọrọ ogologo ederede iji gbochie machie na mberede. Ọzọkwa, ụkpụrụ nchekwa ihe nchọgharị ọkọlọtọ na-egbochi ịgbanye ọdịnaya n'ụfọdụ ibe dị mkpa, dị ka Ụlọ Ahịa Weebụ Chrome (chrome.google.com) na ibe nhazi ime (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Enwere m ike iṅomi ederede edegharịrị na-edoghị nke mbụ?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ee, n'ime popup rewrite sere n'elu, ị nwere ike pịa akara ngosi 'Copy'. Nke a na-eṅomi ụdị edegharịrị ọhụrụ ozugbo na klipbọọdụ gị, na-enye gị ohere mado ya ebe ọ bụla masịrị gị na-edoghị ma ọ bụ na-emetụta ọdịnaya mbụ dị na ibe weebụ.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Kedu otu m ga-esi kagbuo ndenye aha m?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Ị nwere ike ijikwa ma ọ bụ kagbuo ndenye aha gị n'oge ọ bụla site na ịpị njikọ ọnụ ụzọ ịgba ụgwọ ndị ahịa nyere na email nkwenye ịzụrụ ihe. Ọ bụrụ na ịnweghị ike ịchọta ozi-e ahụ, kpọtụrụ anyị nakeshoraai@gmail.comanyị ga-enyere gị aka.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Kedu ihe ụda 'Expand' na-eme?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Ụda 'Expand' na-eji ọgụgụ isi na-emepụta ihe na-ewulite na ịkọwapụta na ederede gị ahọpụtara, na-agbakwunye nkọwa bara ụba, ihe gbara ya gburugburu, na nhazi ụtọasụsụ dabara adaba na echiche mkpirisi, isi mgbo, ma ọ bụ nkebiokwu ka ị na-edobe ebumnobi mbụ ahụ ka ọ ghara ịdị.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Ị na-ewepuru nwata akwụkwọ ego?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ee, anyị na-akwado ụmụ akwụkwọ, ndị nkuzi, na ndị nyocha agụmakwụkwọ. Anyị na-enye mbelata 30% n'ofe atụmatụ ndenye aha akwụ ụgwọ niile. Email anyị nakeshoraai@gmail.comsite na adreesị ozi-e ụlọ akwụkwọ gọọmentị ma ọ bụ mahadum (.edu ma ọ bụ ngalaba agụmakwụkwọ) iji rịọ koodu mbelata gị.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Enwere nnukwu nhọrọ idegharị?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ee, ndị ọrụ ọkwa ọkwa dị elu nwere ike iji ọtụtụ ndegharị. Kama ịhọrọ ngalaba n'otu n'otu, ị nwere ike mepee akụkụ ndọtị ahụ wee mado akwụkwọ ma ọ bụ paragraf niile iji gbanwee ha n'otu oge.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Kedu ka m ga-esi kọọ ahụhụ?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Ị nwere ike izipu mkpesa ahụhụ ozugbo na ndị otu nkwado anyị nakeshoraai@gmail.com. Ịpị wijetị enyemaka dị na taabụ 'Akaụntụ & Ojiji' ga-ebu ụzọ mepụta ndebiri nkwado nwere nkọwa ndọtị iji nyere anyị aka ịchọpụta nsogbu ahụ.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Gịnị kpatara o ji sị 'Nwapụta gafere'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Ịdọ aka ná ntị 'Kota gafere' pụtara na ị ririla ojiji e kenyere gị maka usoro ọrụ atụmatụ gị: Ndị ọrụ efu na-ejedebe na ndegharị 5 kwa ụbọchị; Ndị ọrụ kwa izu na-enweta 140 rewrite; Ndị ọrụ Pro kwa ọnwa na-enweta 600 rewrite; na Yearly Ultimate ndị ọrụ na-anata 9,000 rewrite. Tọgharia oke na-akpaghị aka dabere na okirikiri (kwa ụbọchị n'etiti abalị n'oge mpaghara, ma ọ bụ na-atụgharị kwa izu / ọnwa / oke kwa afọ). Ị nwere ike kwalite gaa n'ọkwa dị elu na ibe 'Account & Use' ka ịmaliteghachi ọrụ ozugbo.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Na-ebupụ...",
+    "description": "Locale key: exportingStatus"
+  }
+}

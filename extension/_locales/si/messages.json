@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "ඕනෑම තැනක නැවත ලියන්න - AI පෙළ නැවත ලියන්න",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "ඕනෑම තැනක පෙළ උද්දීපනය කරන්න. AI සමඟ ක්ෂණිකව නැවත ලියන්න.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewrite command palette විවෘත කරන්න",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI නැවත ලියන්න →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ ලිවීම වැඩි දියුණු කරන්න",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ ව්‍යාකරණ සවි කරන්න",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 වෘත්තීය කරන්න",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 මිත්‍රශීලී වන්න",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 විධිමත් කරන්න",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 අනියම් කරන්න",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 ඒත්තු ගන්වන්න",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 විශ්වාස කරන්න",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 මානුෂීය කරන්න",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ අභිරුචි විමසුම...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ වැඩි දියුණු කරන්න",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ ව්‍යාකරණ",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 වෘත්තීය",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 මිත්‍රශීලී",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 විධිමත්",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 අනියම්",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 ඒත්තු ගැන්වීම",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 විශ්වාසයි",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ කෙටි කරන්න",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 පුළුල් කරන්න",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 සරල කරන්න",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 මානුෂීය කරන්න",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ අභිරුචි",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "පූරණය වෙමින්...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "ඕනෑම තැනක පෙළ නැවත ලියන්න",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI සමඟ ඕනෑම වෙබ් අඩවියක පෙළ නැවත ලිවීම ආරම්භ කිරීමට Google සමඟින් පුරන්න.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "පුරනය වෙමින්...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google සමඟින් පුරන්න",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "නොමිලේ",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "දෛනික භාවිතය",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(අසීමිත)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 ඕනෑම පිටුවක පෙළ තෝරන්න → නැවත ලිවීමට ✨ බොත්තම ක්ලික් කරන්න. නැතහොත්Ctrl+Shift+Kඔබන්න",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 ඉතිහාසය සහ සැකසීම් විවෘත කරන්න",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "වරනය වන්න",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "පුරනය වීම අසාර්ථක විය",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "නැවත ලිවීම අසාර්ථක විය",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "මෙම කොටස දැනට ඉදිවෙමින් පවතී.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "සැකසීම් බැලීමට කරුණාකර පුරනය වන්න.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "ගිණුම සහ භාවිතය",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "ඉතිහාසය නැවත ලියන්න",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "සැකසීම්",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "බාගන්න",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "උදව් සහ නිතර අසන පැන",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI නැවත ලිවීමේ උපකරණ පුවරුව",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "සාමාන්ය වින්යාසය",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "අතුරු මුහුණත තේමාව",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "අඳුරු මාදිලිය",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "ආලෝක මාදිලිය",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "පෙරනිමි නැවත ලිවීමේ ස්වරය",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ සියලුම ඉතිහාසය හිස් කරන්න",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "තවම නැවත ලියන්නේ නැත",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "ඕනෑම පිටුවක පෙළ උද්දීපනය කර ආරම්භ කිරීමට ✨ ක්ලික් කරන්න. ඔබේ ඉතිහාසය මෙහි දිස්වනු ඇත.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "ඔබට මෙම නැවත ලිවීමේ ඉතිහාස අයිතමය මැකීමට අවශ්‍ය බව විශ්වාසද?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "ඔබට ඔබේ සම්පූර්ණ නැවත ලිවීමේ ඉතිහාසය ස්ථිරවම මැකීමට අවශ්‍ය බව විශ්වාසද? මෙය ආපසු හැරවිය නොහැක.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "අයිතමය මැකීමට අසමත් විය:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "ඉතිහාසය හිස් කිරීමට අසමත් විය:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "මුල් පෙළ",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "නැවත ලියන ලද පෙළ",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ මකන්න",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 පිටපත නැවත ලියා ඇත",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ පිටපත් කරන ලදී!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "පැරණි නැවත ලිවීම් පූරණය කරන්න",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "සහාය සහ ව්‍යාපාර විමසීම්",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "වෙත ළඟා වන්න:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "නිතර අසන ප්රශ්න",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "උදව් සඳහා හෝ දෝෂයක් වාර්තා කිරීමට",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "විද්‍යුත් තැපෑලkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "දිනපතා නොමිලේ සීමාව",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "නිදහස් ස්ථරය: නැවත ලිවීම් 5/දිනකට. දිනපතා මධ්‍යම රාත්‍රියේ නැවත සකසයි.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "සීමාවකින් තොරව ඕනෑම තැනක පෙළ නැවත ලියන්න.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "කණ්ඩායම ඔබගේ සියලුම අන්තර්ගතයන් නැවත ලියන්න. වලාකුළට සමමුහුර්ත කරන්න. සීමාවන් නොමැත.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter Offer: මීළඟ මිල වැඩි කිරීම වාරික පරිශීලකයින් 500 කින්. ජීවිතය සඳහා මෙම අනුපාතය අගුලු දමන්න!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 එක්සත් ජනපද වෙළඳපොළ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 ඉන්දියානු වෙළෙඳපොළ (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "එක්සත් ජනපද ඩොලර් ගෙවීම් දැනට නඩත්තු වෙමින් පවතී. කරුණාකර ඉන්දියානු වෙළෙඳපොළ (₹) සැලැස්මට මාරු වන්න හෝ සහාය සඳහාkeshoraai@gmail.comහිදී අප හා සම්බන්ධ වන්න.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "සතිපතා",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(දිනකට 57¢ පමණි)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "මාසික ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(දිනකට 33¢ පමණි)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "වාර්ෂිකව 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(දිනකට 21¢ පමණි)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(දිනකට රුපියල් 21 ක් පමණි)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(දිනකට රුපියල් 13 ක් පමණි)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(දිනකට රුපියල් 8 ක් පමණි)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ සතිය",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ මාසය",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ වර්ෂය",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "ඉඳහිට භාවිතා කිරීම සඳහා හොඳයි",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "බොහෝ පරිශීලකයින් මෙම සැලසුම තෝරා ගනී",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "බලශක්ති භාවිතා කරන්නන් සඳහා හොඳම වටිනාකම",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "වඩාත්ම ජනප්රිය",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "හොඳම වටිනාකම - මාස 2ක් නොමිලේ",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 ශ්‍රේණිගත කිරීම • 🔒 ආරක්ෂිත ගෙවීම් • ✔️ ඕනෑම වේලාවක අවලංගු කරන්න",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "ඔබ දායකත්වයක් ලබා ගත නොහැකි ශිෂ්‍යයෙක් හෝ පර්යේෂකයෙක්ද? කරුණාකර විද්‍යුත් තැපෑලkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "දැනටමත් බලපත්‍ර යතුරක් තිබේද?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "බලපත්‍ර යතුර ඇතුළු කරන්න...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "සක්රිය කරන්න",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "සතියකට නැවත ලිවීම් 140 ක්",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "තොග නැවත ලිවීම අගුළු හරින්න",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "වාරික සැකසුම් ප්‍රවේශය",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "වාරික තේමා",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "ස්මාර්ට් ෆෝල්ඩර සංවිධානය",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "දැන්වීම්-රහිත අත්දැකීම",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "මසකට 600ක් නැවත ලියයි",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "වසරකට 9,000 නැවත ලියයි",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "අනෙකුත් දිගු සඳහා 50% වට්ටමක්",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "ප්‍රමුඛතා විද්‍යුත් තැපැල් සහාය",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "අපනයන ආකෘතිය",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "PDF අපනයනය පමණක් නොමිලේ සැලසුමේ ඇත. වෙනත් අපනයන ආකෘති අගුලු හැරීමට කරුණාකර Pro/Premium වෙත උත්ශ්‍රේණි කරන්න.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "ගොනු නාමය ආකෘතිය",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "නිර්යාත කළ ගොනු නම් කරන ආකාරය තෝරන්න.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "ඉතිහාසය නැවත ලියන්න - දිනය (උදා. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "අභිරුචි මාතෘකාව",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "අභිරුචි ගොනු නාමය ඇතුලත් කරන්න...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "දේශීය ගොනුව අපනයනය කරන්න",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox වෙත සුරකින්න 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google Drive වෙත සුරකින්න ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Cloud උපස්ථය ලබා ගත හැක්කේ ගෙවන සැලසුම් මත පමණි. කරුණාකර Pro/Premium වෙත උත්ශ්‍රේණි කරන්න.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox සත්‍යාපනය අවලංගු කරන ලදී.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox ප්‍රවේශ ටෝකනය ලබා ගැනීමට අපොහොසත් විය.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive සත්‍යාපනය අසාර්ථක විය.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive උඩුගත කිරීම අසාර්ථක විය:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API දෝෂය",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "අපනයනය කිරීමට ඉතිහාසයක් හමු නොවීය.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "ඉතිහාසය ලස්සනට ෆෝමැට් කර පසුරු පුවරුවට පිටපත් කර ඇත!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "ඉතිහාසය ආරක්ෂිතව ඔබගේ Dropbox වෙත සුරකින ලදි!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "ඉතිහාසය ආරක්ෂිතව ඔබගේ Google Drive වෙත සුරකින ලදී!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "අපනයනය සම්පූර්ණයි!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI සමඟ නැවත ලියන්න",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI නැවත ලියන්න",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "වසන්න",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "මුල් පෙළ",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "නැවත ලිවීමට මාදිලියක් තෝරන්න...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "ආදේශ කරන්න",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "පිටපත් කරන්න",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ පිටපත් කරන ලදී",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ නැවත උත්සාහ කරන්න",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "සුරකින්න",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "නොමිලේ සැලසුමේ ඇත්තේ \"වැඩිදියුණු කිරීම\" මාදිලිය පමණි. මාතයන් 13ම අගුලු හැරීමට කරුණාකර Pro වෙත උත්ශ්‍රේණි කරන්න.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "නොමිලේ සැලසුමේ ඇත්තේ \"වැඩිදියුණු කිරීම\" මාදිලිය පමණි. නැවත ලිවීමේ ක්‍රම 13ම අගුලු හැරීමට කරුණාකර Pro/Premium වෙත උත්ශ්‍රේණි කරන්න.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ නොමිලේ සැලැස්ම (අභිරුචි විමසුම් අගුලු දමා ඇත)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "අභිරුචි විමසුම නිදහස් සැලැස්ම මත අගුලු දමා ඇත...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "උදා. LinkedIn සඳහා නැවත ලියන්න, මෙය ඒත්තු ගන්වන්න...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "නොමිලේ සැලසුමේ ඇත්තේ \"වැඩිදියුණු කිරීම\" මාදිලිය පමණි. සියලුම විශේෂාංග අගුලු හැරීමට කරුණාකර Pro/Premium වෙත උත්ශ්‍රේණි කරන්න.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "නොමිලේ සැලසුමේ ඇත්තේ \"වැඩිදියුණු කිරීම\" මාදිලිය පමණි. සියලු මාතයන් අගුලු හැරීමට කරුණාකර Pro/Premium වෙත උත්ශ්‍රේණි කරන්න.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 ඉතිහාසය",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ සැකසීම්",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "තවම නැවත ලියන්නේ නැත.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "ඕනෑම පිටුවක පෙළ උද්දීපනය කර ආරම්භ කිරීමට ✨ ක්ලික් කරන්න.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "මුල්:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ නැවත ලියා ඇත:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "වැඩිපුර පටවන්න",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "ගිණුම",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "අද නැවත ලියයි",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "නැවත සකස් කරයි",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "ක්රියාකාරී ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI එන්ජිම",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI නැවත ලියන එන්ජිම",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "වෙබ් අඩවියක පෙළ නැවත ලියන්නේ කෙසේද?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "ඕනෑම වෙබ් පිටුවක ඕනෑම පෙළක් සරලව උද්දීපනය කරන්න හෝ තෝරන්න. ඔබේ කර්සරය අසල පාවෙන මැජික් යෂ්ටිය බොත්තමක් ('✨') ස්වයංක්‍රීයව දිස්වනු ඇත. මෙම නිරූපකය ක්ලික් කිරීමෙන් අන්තර්ක්‍රියාකාරී නැවත ලිවීමේ උත්පතනය විවෘත වේ, එහිදී ඔබට නැවත ලිවීමේ ස්වරයක් (වැඩිදියුණු කිරීම, ව්‍යාකරණ, වෘත්තීය, අනියම්, පුළුල් කිරීම, හෝ කෙටි කිරීම වැනි) තෝරාගත හැකි අතර එමඟින් ඔබ වෙනුවෙන් අන්තර්ගතය නැවත ලිවීමට AI හට ඉඩ සලසයි. ඔබට Command Palette කෙටිමඟ (Ctrl+Shift+PWindows/Linux මත හෝCmd+Shift+PmacOS මත) හරහාද අතුරු මුහුණත ක්‍රියාරම්භ කළ හැක.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "කුමන AI මාදිලි සඳහා සහය දක්වයිද?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "අපි දැනට ඉහළ ක්‍රියාකාරී, අකුණු-වේග පෙළ සැකසීම සඳහා OpenAI හි GPT (උදා: GPT-4o-mini), Google හි Gemini, Anthropic's Claude, සහ Groq විවෘත-මූලාශ්‍ර ආකෘති (Llama 3 වැනි) ඇතුළු අති නවීන LLMs සඳහා සහය දෙමු.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "මගේ දත්ත ආරක්ෂිතද?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "ඔව්, පෞද්ගලිකත්වය මූලික ප්‍රමුඛතාවයකි. නැවත ලිවීම සඳහා ඔබ තෝරන විශේෂිත පෙළ පමණක් අපි සකසමු. ඉල්ලීම ඉටු කිරීමට පෙළ ආරක්ෂිතව අපගේ පසුපෙළ API වෙත සම්ප්‍රේෂණය කෙරේ. අපි ඔබේ පෙළ ලොග් ඉතිහාසය දිගු කාලීනව අපගේ සේවාදායකයන් මත ගබඩා නොකරමු, අපි එය තෙවන පාර්ශවයන් සමඟ බෙදා නොගනිමු හෝ AI ආකෘති පුහුණු කිරීමට භාවිතා නොකරමු. අතිරේකව, ඔබේ පුද්ගලික ගවේෂණ ඉතිහාසය ආරක්ෂා කර ඇති බව සහතික කිරීම සඳහා දිගුව වැලිපිල්ල පරිසරයක ක්‍රියාත්මක වේ.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Free සහ Pro සැලසුම් අතර වෙනස කුමක්ද?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "නොමිලේ සැලසුම දිනකට නැවත ලිවීම් 5 ක් සපයයි, එය 'වැඩිදියුණු කරන්න' ස්වරය සහ 'PDF' බාගැනීම්/අපනයන ආකෘතියට පමණක් සීමා වේ. Dropbox සහ Google Drive ඒකාබද්ධ කිරීම් ද අගුලු දමා ඇත. ගෙවූ සැලසුම් (සතිපතා, මාසික ප්‍රෝ, සහ වාර්ෂික අවසාන) සියලුම නාද 6 අගුලු හරියි, සියලුම බාගැනීම් ආකෘති 6 (PDF, Markdown, TXT, IMG, JSON, සහ Clipboard Copy) සහ වාරික, සීමා රහිත අත්දැකීමක් සඳහා ක්ලවුඩ් උපස්ථ ඒකාබද්ධ කිරීම්.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "සමහර නැවත ලියන නාද, අපනයන ආකෘති සහ වලාකුළු උපස්ථ නිදහස් සැලැස්ම මත අගුලු දමා ඇත්තේ ඇයි?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "අති නවීන AI මාදිලි ධාවනය කිරීම (GPT-4o-mini, Gemini, සහ Claude වැනි) සහ ක්ලවුඩ් සමමුහුර්තකරණය කළමනාකරණය කිරීම සඳහා සෑම ක්‍රියාවක් සඳහාම සැලකිය යුතු සේවාදායක යටිතල පහසුකම්, ගණනය කිරීමේ බලය සහ සෘජු API පිරිවැය අවශ්‍ය වේ. සම්පුර්ණයෙන්ම ක්‍රියාකාරී නිදහස් විකල්පයක් ලබා දෙන අතරම අපගේ සේවාව තිරසාර කිරීමට, නොමිලේ සැලසුම මූලික අවශ්‍යතා ආවරණය කරයි ('වැඩිදියුණු කිරීමේ' ස්වරය සහ දේශීය PDF උත්පාදනය සමඟ දෛනිකව නැවත ලියන 5ක්). ග්‍රාහකත්ව සැලසුම් මඟින් වාරික නාද (ව්‍යාකරණ, වෘත්තීය, අනියම්, පුළුල් කිරීම, කෙටි කිරීම), ක්ලවුඩ් සම්බන්ධක (ඩ්‍රොප්බොක්ස්, ගූගල් ඩ්‍රයිව්) සහ බහු ආකෘති නිර්යාත (මාර්ක්ඩවුන්, TXT, IMG, JSON, COPY) සඳහා සහනාධාර ලබා දෙයි, ඉහළ කාර්ය සාධනයක්, සක්‍රීය යාවත්කාලීන කිරීම් සහ දැඩි පෞද්ගලිකත්වයකින් තොරව අපට සහාය විය හැකි බව සහතික කරයි.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "මගේ බලපත්‍ර යතුර සක්‍රිය කරන්නේ කෙසේද?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "ඔබගේ දායකත්ව මිලදී ගැනීම සම්පූර්ණ කිරීමෙන් පසු, උපකරණ පුවරුවේ 'ගිණුම් සහ භාවිතය' පිටුවේ පතුලේ ඇති යතුරු වලංගුකරණ ක්ෂේත්‍රයේ ඔබේ බලපත්‍ර යතුර අලවා 'බලපත්‍රය සක්‍රිය කරන්න' ක්ලික් කරන්න. ඔබගේ ගිණුම් සැලසුම් විස්තර ඔබගේ බ්‍රවුසර ආචයනය තුළ ක්ෂණිකව යාවත්කාලීන වේ.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "මෙය Google Docs හෝ Notion මත ක්‍රියා කරයිද?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "ඔව්, දිගුව Google Docs, Notion, Gmail, LinkedIn, Slack web, සහ Twitter/X වැනි ජනප්‍රිය සංස්කාරකවරුන් සහ පොහොසත් පෙළ ද්වාර සමඟ සම්පුර්ණයෙන්ම අනුකූල වේ. අභිරුචි යෙදුමක පාවෙන බොත්තම අක්‍රිය කර ඇත්නම්, ඔබට ඔබේ තේරීම නැවත ලිවීමට Command Palette යතුරුපුවරු කෙටිමඟ භාවිතා කළ හැක.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "මට මගේම API යතුර භාවිතා කළ හැකිද?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "බාධාවකින් තොරව, ප්ලග්-ඇන්ඩ්-ප්ලේ අත්දැකීමක් ලබා දීම සඳහා, සියලුම API භාවිත වියදම් සම්පූර්ණයෙන්ම ඔබේ දායකත්ව සැලැස්ම යටතේ ආවරණය කෙරේ. දැනට, ඔබට ඔබේම API යතුරු වින්‍යාස කිරීමට අවශ්‍ය නැත. කෙසේ වෙතත්, අපි අනාගත සංවර්ධක-නැඹුරු යාවත්කාලීන කිරීමකදී අභිරුචි පරිශීලක API වින්‍යාස කිරීම් සඳහා සහය දැක්වීමට සැලසුම් කරමු.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "පෙරනිමි නැවත ලිවීමේ ස්වරය වෙනස් කරන්නේ කෙසේද?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "ඔබට මෙම විකල්ප පැනලයේ සැකසීම් ටැබය තුළ ඔබේ පෙරනිමි නැවත ලිවීමේ ස්වරය සැකසිය හැක. ඔබට අවශ්‍ය විටදී උත්පතන තුළ ස්වර මාරු කළ හැකි වුවද, මැජික් යෂ්ටිය නිරූපකය ක්ලික් කරන විට ඔබේ මනාපය සුරැකීම ස්වයංක්‍රීයව එම ස්වරයට පෙරනිමි වේ.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "පාවෙන බොත්තම සමහර විට නොපෙන්වන්නේ ඇයි?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "මැජික් යෂ්ටිය බොත්තමට අහම්බෙන් උඩින් වැලැක්වීම සඳහා අවම පෙළ තෝරා ගැනීමේ දිගක් අවශ්‍ය වේ. තවද, සම්මත බ්‍රවුසර ආරක්ෂණ ප්‍රතිපත්ති Chrome Web Store (chrome.google.com) සහ අභ්‍යන්තර වින්‍යාස පිටු (chrome://) වැනි ඇතැම් වරප්‍රසාද ලත් පිටු මත අන්තර්ගත එන්නත් දැඩි ලෙස අවහිර කරයි.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "මට මුල් පිටපත ප්‍රතිස්ථාපනය නොකර නැවත ලියන ලද පෙළ පිටපත් කළ හැකිද?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "ඔව්, පාවෙන නැවත ලිවීමේ උත්පතනය තුළ, ඔබට 'පිටපත් කරන්න' අයිකනය ක්ලික් කළ හැක. මෙය අලුතින් නැවත ලියන ලද අනුවාදය කෙළින්ම ඔබේ පසුරු පුවරුවට පිටපත් කරයි, වෙබ් පිටුවේ මුල් අන්තර්ගතය ප්‍රතිස්ථාපනය කිරීම හෝ බලපෑම් කිරීමකින් තොරව ඔබ කැමති ඕනෑම තැනක එය ඇලවීමට ඔබට ඉඩ සලසයි.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "මම මගේ දායකත්වය අවලංගු කරන්නේ කෙසේද?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "ඔබේ මිලදී ගැනීම තහවුරු කිරීමේ විද්‍යුත් තැපෑලෙහි සපයා ඇති පාරිභෝගික බිල්පත් ද්වාර සබැඳිය ක්ලික් කිරීමෙන් ඔබට ඕනෑම වේලාවක ඔබේ දායකත්වය කළමනාකරණය කිරීමට හෝ අවලංගු කිරීමට හැකිය. ඔබට විද්‍යුත් තැපෑල සොයාගත නොහැකි නම්,keshoraai@gmail.comහිදී අප හා සම්බන්ධ වන්න, අපි ඔබට සහාය වන්නෙමු.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'Expand' ස්වරය කරන්නේ කුමක්ද?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'Expand' ස්වරය මුල් අභිප්‍රාය නොවෙනස්ව තබා ගනිමින් කෙටි සිතුවිලි, බුලට් පොයින්ට් හෝ වාක්‍ය ඛණ්ඩවලට පොහොසත් විස්තර, සන්දර්භය සහ නිසි ව්‍යාකරණ ව්‍යුහයක් එක් කරමින්, ඔබේ තෝරාගත් පෙළ ගොඩ නැගීමට සහ විස්තාරණය කිරීමට උත්පාදක බුද්ධිය භාවිතා කරයි.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "ඔබ ශිෂ්ය වට්ටමක් දෙනවාද?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "ඔව්, අපි සිසුන්ට, අධ්‍යාපනඥයින්ට සහ ශාස්ත්‍රීය පර්යේෂකයන්ට සහාය දෙමු. සියලුම ගෙවන දායකත්ව සැලසුම් හරහා අපි 30% ක වට්ටමක් ලබා දෙන්නෙමු. ඔබගේ වට්ටම් කේතය ඉල්ලා සිටීමට ඔබගේ නිල පාසලෙන් හෝ විශ්ව විද්‍යාල විද්‍යුත් තැපැල් ලිපිනයෙන් (.edu හෝ ශාස්ත්‍රීය වසම)keshoraai@gmail.comහිදී අපට විද්‍යුත් තැපැල් කරන්න.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "තොග නැවත ලිවීමේ විකල්පයක් තිබේද?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "ඔව්, වාරික ස්ථර පරිශීලකයින්ට තොග නැවත ලිවීම භාවිතා කළ හැක. තනි කොටස් තෝරා ගැනීම වෙනුවට, ඔබට දිගු පැති පැනලය විවෘත කර සම්පූර්ණ ලේඛන හෝ ඡේද එකවර වෙනස් කිරීමට ඇලවිය හැක.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "මම දෝෂයක් වාර්තා කරන්නේ කෙසේද?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "ඔබට දෝෂ වාර්තා සෘජුවමkeshoraai@gmail.comහිදී අපගේ සහාය කණ්ඩායමට විද්‍යුත් තැපැල් කළ හැක. 'ගිණුම් සහ භාවිතය' ටැබය තුළ ඇති උදවු විජට් ක්ලික් කිරීමෙන් අපට ගැටලුව හඳුනා ගැනීමට උදවු කිරීමට දිගු විස්තර අඩංගු ආධාරක අච්චුවක් පූර්ව-පුරනය කරනු ඇත.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "කෝටා ඉක්මවූවා යැයි කියන්නේ ඇයි?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "'පංගුව ඉක්මවා' අනතුරු ඇඟවීමක් යනු ඔබ ඔබේ සැලසුමේ ක්‍රියාකාරී චක්‍රය සඳහා ඔබට වෙන් කළ භාවිතය පරිභෝජනය කර ඇති බවයි: නොමිලේ භාවිතා කරන්නන් දිනපතා නැවත ලිවීම් 5කට සීමා වේ; සතිපතා පරිශීලකයින්ට නැවත ලිවීම් 140 ක් ලැබේ; මාසික ප්‍රෝ භාවිතා කරන්නන් 600ක් නැවත ලියනවා; සහ වාර්ෂික Ultimate පරිශීලකයින්ට නැවත ලිවීම් 9,000 ක් ලැබේ. චක්‍රය මත පදනම්ව කෝටා ස්වයංක්‍රීයව නැවත සකසනු ලැබේ (දිනපතා මධ්‍යම රාත්‍රියේ දේශීය වේලාවෙන්, හෝ පෙරළෙන සතිපතා/මාසික/වාර්ෂික සීමාවන් මත). ඔබට වහාම සේවාව නැවත ආරම්භ කිරීමට 'ගිණුම් සහ භාවිතය' පිටුවෙහි ඉහළ ස්ථරයකට උත්ශ්‍රේණි කළ හැක.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "අපනයනය කරමින්...",
+    "description": "Locale key: exportingStatus"
+  }
+}

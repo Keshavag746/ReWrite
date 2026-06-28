@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { RewriteMode, RewriteResponse, ChromeMessage } from '../../shared/types/index';
 import { TextReplacer } from '../replacement/TextReplacer';
-import { REWRITE_MODE_LABELS } from '../../shared/constants/rewriteModes';
 
 interface RewritePopupProps {
   selectedText: string;
   initialMode?: RewriteMode;
   rect: DOMRect;
   onClose: () => void;
+  autoRun?: boolean;
 }
 
 type PopupState = 'idle' | 'loading' | 'done' | 'error';
@@ -17,6 +17,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   initialMode = 'improve',
   rect,
   onClose,
+  autoRun = true,
 }) => {
   const [mode, setMode] = useState<RewriteMode>(initialMode);
   const [userPlan, setUserPlan] = useState<string>('free');
@@ -62,7 +63,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
       const plan = user?.plan || 'free';
 
       if (plan === 'free' && selectedMode !== 'improve') {
-        throw new Error('Only the "Improve" mode is available on the free plan. Please upgrade to Pro to unlock all 13 modes.');
+        throw new Error(chrome.i18n.getMessage('freePlanModesAlert'));
       }
 
       const response = await new Promise<RewriteResponse>((resolve, reject) => {
@@ -80,12 +81,12 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
       setOutput(response.output);
       setState('done');
     } catch (err) {
-      setErrorMsg(err instanceof Error ? err.message : 'Rewrite failed');
+      setErrorMsg(err instanceof Error ? err.message : chrome.i18n.getMessage('rewriteFailed'));
       setState('error');
     }
   }, [selectedText]);
 
-  // Load user plan on mount and auto-rewrite
+  // Load user plan on mount and auto-rewrite if autoRun is true
   useEffect(() => {
     chrome.storage.local.get('ai_rewrite_user', (result) => {
       const user = result['ai_rewrite_user'];
@@ -93,8 +94,10 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
         setUserPlan(user.plan);
       }
     });
-    doRewrite(initialMode);
-  }, [doRewrite, initialMode]);
+    if (autoRun) {
+      doRewrite(initialMode);
+    }
+  }, [doRewrite, initialMode, autoRun]);
 
   // Close on Escape
   useEffect(() => {
@@ -119,7 +122,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
 
   const handleModeChange = (newMode: RewriteMode) => {
     if (userPlan === 'free' && newMode !== 'improve') {
-      alert('Only the "Improve" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all 13 rewrite modes.');
+      alert(chrome.i18n.getMessage('freePlanModesPopupAlert'));
       return;
     }
     setMode(newMode);
@@ -146,7 +149,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
   };
 
   return (
-    <div style={styles.overlay} onClick={(e) => e.stopPropagation()} role="dialog" aria-label="AI Rewrite">
+    <div style={styles.overlay} onClick={(e) => e.stopPropagation()} role="dialog" aria-label={chrome.i18n.getMessage('popupTitleLabel')}>
       <style>{`
         @keyframes aiPopupSlideIn {
           from { opacity: 0; transform: translateY(-8px); }
@@ -163,12 +166,12 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <span style={{ fontSize: '16px' }}>✨</span>
-          <span style={{ fontWeight: 600, color: '#F0F0F2' }}>AI Rewrite</span>
+          <span style={{ fontWeight: 600, color: '#F0F0F2' }}>{chrome.i18n.getMessage('popupTitleLabel')}</span>
         </div>
         <button
           onClick={onClose}
           style={{ background: 'none', border: 'none', color: '#8B8B9A', cursor: 'pointer', fontSize: '18px', lineHeight: 1 }}
-          aria-label="Close"
+          aria-label={chrome.i18n.getMessage('popupCloseLabel')}
         >×</button>
       </div>
 
@@ -186,14 +189,14 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
                 borderRadius: '999px',
                 border: `1px solid ${mode === m ? '#7C6EF8' : '#2A2A32'}`,
                 background: mode === m ? '#7C6EF8' : 'transparent',
-                color: mode === m ? 'white' : (isLocked ? '#4A4A52' : '#8B8B9A'),
+                color: mode === m ? 'white' : (isLocked ? '#8B8B9A' : '#E4E4E7'),
                 cursor: 'pointer',
                 fontSize: '12px',
                 fontWeight: mode === m ? 600 : 400,
-                opacity: isLocked ? 0.6 : 1,
+                opacity: isLocked ? 0.75 : 1,
               }}
             >
-              {REWRITE_MODE_LABELS[m]} {isLocked && '🔒'}
+              {chrome.i18n.getMessage('mode_' + m)} {isLocked && '🔒'}
             </button>
           );
         })}
@@ -205,7 +208,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
           onClick={() => setShowOriginal(!showOriginal)}
           style={{ background: 'none', border: 'none', color: '#8B8B9A', cursor: 'pointer', fontSize: '12px', padding: 0 }}
         >
-          {showOriginal ? '▾' : '▸'} Original text
+          {showOriginal ? '▾' : '▸'} {chrome.i18n.getMessage('popupOriginalTextLabel')}
         </button>
         {showOriginal && (
           <div style={{
@@ -249,7 +252,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
           <p style={{ margin: 0, color: '#f87171', fontSize: '13px' }}>⚠️ {errorMsg}</p>
         )}
         {state === 'idle' && (
-          <p style={{ margin: 0, color: '#8B8B9A', fontSize: '13px' }}>Select a mode to rewrite...</p>
+          <p style={{ margin: 0, color: '#8B8B9A', fontSize: '13px' }}>{chrome.i18n.getMessage('popupPlaceholder')}</p>
         )}
       </div>
 
@@ -267,7 +270,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
             fontWeight: 600, fontSize: '13px',
           }}
         >
-          Replace
+          {chrome.i18n.getMessage('btnReplace')}
         </button>
         <button
           className="ai-btn"
@@ -280,7 +283,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
             fontSize: '13px',
           }}
         >
-          {copied ? '✓ Copied' : 'Copy'}
+          {copied ? chrome.i18n.getMessage('btnCopied') : chrome.i18n.getMessage('btnCopy')}
         </button>
         <button
           className="ai-btn"
@@ -293,7 +296,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
             fontSize: '13px',
           }}
         >
-          ↺ Retry
+          {chrome.i18n.getMessage('btnRetry')}
         </button>
         <button
           className="ai-btn"
@@ -313,7 +316,7 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
             fontSize: '13px',
           }}
         >
-          Save
+          {chrome.i18n.getMessage('btnSave')}
         </button>
       </div>
     </div>

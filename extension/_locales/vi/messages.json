@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Viết lại mọi nơi - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Đánh dấu văn bản ở bất cứ đâu. Viết lại ngay lập tức với AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Mở bảng lệnh AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "Viết lại AI →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Cải thiện khả năng viết",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Sửa lỗi ngữ pháp",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Tạo nên sự chuyên nghiệp",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Tạo sự thân thiện",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Làm trang trọng",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Làm cho sự giản dị",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Tạo sức thuyết phục",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Tạo sự tự tin",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Nhân hóa",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Lời nhắc tùy chỉnh...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Cải thiện",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Ngữ pháp",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Chuyên nghiệp",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Thân thiện",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 trang trọng",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Bình thường",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Thuyết phục",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Tự tin",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Rút ngắn",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Mở rộng",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Đơn giản hóa",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Nhân hóa",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Tùy chỉnh",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Đang tải...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Viết lại văn bản ở bất cứ đâu",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Đăng nhập bằng Google để bắt đầu viết lại văn bản trên bất kỳ trang web nào có AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Đang đăng nhập...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Đăng nhập bằng Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Chuyên nghiệp",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "miễn phí",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Sử dụng hàng ngày",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(không giới hạn)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Chọn văn bản trên bất kỳ trang nào → nhấp vào nút ✨ để viết lại. Hoặc nhấnCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Mở Lịch sử & Cài đặt",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Đăng xuất",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Đăng nhập không thành công",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Viết lại không thành công",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Phần này hiện đang được xây dựng.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Vui lòng đăng nhập để xem cài đặt.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Tài khoản & Cách sử dụng",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Viết lại lịch sử",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Cài đặt",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Tải xuống",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Trợ giúp & Câu hỏi thường gặp",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "Bảng điều khiển viết lại AI",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Cấu hình chung",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Chủ đề giao diện",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Chế độ tối",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Chế độ ánh sáng",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Giai điệu viết lại mặc định",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Xóa tất cả lịch sử",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Chưa có viết lại",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Đánh dấu văn bản trên bất kỳ trang nào và nhấp vào ✨ để bắt đầu. Lịch sử của bạn sẽ xuất hiện ở đây.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Bạn có chắc chắn muốn xóa mục lịch sử viết lại này không?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Bạn có chắc chắn muốn xóa vĩnh viễn toàn bộ lịch sử viết lại của mình không? Điều này không thể hoàn tác được.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Không thể xóa mục:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Không thể xóa lịch sử:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Văn bản gốc",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Văn bản viết lại",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Xóa",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Sao chép viết lại",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Đã sao chép!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Tải các bản viết lại cũ hơn",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Hỗ trợ & Yêu cầu kinh doanh",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Hãy liên hệ tại:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Câu hỏi thường gặp",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Để được trợ giúp hoặc báo cáo lỗi",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Emailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Giới hạn miễn phí hàng ngày",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Bậc miễn phí: 5 lần viết lại/ngày. Đặt lại hàng ngày vào lúc nửa đêm.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Viết lại văn bản ở bất cứ đâu mà không có giới hạn.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Viết lại hàng loạt tất cả nội dung của bạn. Đồng bộ hóa với đám mây. Không có hạn chế.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ưu đãi dành cho người dùng sớm: Lần tăng giá tiếp theo cho 500 người dùng Premium. Giữ tỷ lệ này suốt đời!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Thị trường Mỹ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Chợ Ấn Độ (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Thanh toán bằng đô la Mỹ hiện đang được bảo trì. Vui lòng chuyển sang gói Thị trường Ấn Độ (₹) hoặc liên hệ với chúng tôi theo sốkeshoraai@gmail.comđể được hỗ trợ.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "hàng tuần",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Chỉ 57¢ / ngày)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Hàng tháng ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Chỉ 33¢ / ngày)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Hàng năm 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Chỉ 21¢ / ngày)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Chỉ ₹21 / ngày)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Chỉ ₹13 / ngày)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Chỉ ₹8 / ngày)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ tuần",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ tháng",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ năm",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Tốt cho việc sử dụng thường xuyên",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Hầu hết người dùng chọn gói này",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Giá trị tốt nhất cho người dùng thành thạo",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "PHỔ BIẾN NHẤT",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "GIÁ TRỊ TỐT NHẤT - MIỄN PHÍ 2 THÁNG",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Xếp hạng 5.0 • 🔒 Thanh toán an toàn • ✔️ Hủy bất cứ lúc nào",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Bạn là sinh viên hoặc nhà nghiên cứu không đủ khả năng đăng ký? Vui lòng gửi email tớikeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Bạn đã có key bản quyền chưa?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Nhập mã bản quyền...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Kích hoạt",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 lần viết lại mỗi tuần",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Mở khóa Viết lại hàng loạt",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Quyền truy cập cài đặt cao cấp",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "Đồng bộ hóa GDrive, Dropbox",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Chủ đề cao cấp",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Tổ chức thư mục thông minh",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Trải nghiệm không có quảng cáo",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 lần viết lại mỗi tháng",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 lần viết lại mỗi năm",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Giảm 50% các tiện ích mở rộng khác",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Hỗ trợ qua email ưu tiên",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Định dạng xuất",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Chỉ xuất PDF có sẵn trên gói miễn phí. Vui lòng nâng cấp lên Pro/Premium để mở khóa các định dạng xuất khác.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Định dạng tên tệp",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Chọn cách đặt tên cho tệp đã xuất.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Lịch sử viết lại - Ngày (ví dụ: RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Tiêu đề tùy chỉnh",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Nhập tên tệp tùy chỉnh...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Xuất tệp cục bộ",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Lưu vào Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Lưu vào Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Sao lưu đám mây chỉ khả dụng trên các gói trả phí. Vui lòng nâng cấp lên Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Xác thực Dropbox đã bị hủy.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Không lấy được mã thông báo truy cập Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Xác thực Google Drive không thành công.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Tải lên Google Drive không thành công:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Lỗi API Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Không tìm thấy lịch sử để xuất.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Lịch sử được định dạng đẹp mắt và sao chép vào clipboard!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Lịch sử được lưu an toàn vào Dropbox của bạn!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Lịch sử được lưu an toàn vào Google Drive của bạn!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Xuất khẩu hoàn tất!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Viết lại bằng AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Viết lại AI",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Đóng",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Văn bản gốc",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Chọn chế độ để viết lại...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Thay thế",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Sao chép",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Sao chép",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Thử lại",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Lưu",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Chỉ có chế độ \"Cải thiện\" khả dụng trên gói miễn phí. Hãy nâng cấp lên Pro để mở khóa tất cả 13 chế độ.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Chỉ có chế độ \"Cải thiện\" khả dụng trên gói miễn phí. Vui lòng nâng cấp lên Pro/Premium để mở khóa tất cả 13 chế độ viết lại.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Bảng lệnh viết lại AI",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Gói miễn phí (Đã khóa lời nhắc tùy chỉnh)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Lời nhắc tùy chỉnh bị khóa trên Gói miễn phí...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "ví dụ: Viết lại cho LinkedIn, Làm điều này thuyết phục...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Chỉ có chế độ \"Cải thiện\" khả dụng trên gói miễn phí. Vui lòng nâng cấp lên Pro/Premium để mở khóa tất cả các tính năng.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Chỉ có chế độ \"Cải thiện\" khả dụng trên gói miễn phí. Vui lòng nâng cấp lên Pro/Premium để mở khóa tất cả các chế độ.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Lịch sử",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Cài đặt",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Chưa có viết lại.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Đánh dấu văn bản trên bất kỳ trang nào và nhấp vào ✨ để bắt đầu.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Bản gốc:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Viết lại:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Tải thêm",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Tài khoản",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Viết lại hôm nay",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Đặt lại",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Đang hoạt động ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Công cụ AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Công cụ viết lại AI",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Làm cách nào để viết lại văn bản trên một trang web?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Chỉ cần đánh dấu hoặc chọn bất kỳ văn bản nào trên bất kỳ trang web nào. Nút cây đũa thần nổi ('✨') sẽ tự động xuất hiện gần con trỏ của bạn. Nhấp vào biểu tượng này sẽ mở cửa sổ bật lên viết lại tương tác, nơi bạn có thể chọn giai điệu viết lại (chẳng hạn như Cải thiện, Ngữ pháp, Chuyên nghiệp, Thông thường, Mở rộng hoặc Rút ngắn) để cho phép AI viết lại nội dung cho bạn. Bạn cũng có thể kích hoạt giao diện thông qua phím tắt Bảng lệnh (Ctrl+Shift+Ptrên Windows/Linux hoặcCmd+Shift+Ptrên macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Những mô hình AI nào được hỗ trợ?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Chúng tôi hiện hỗ trợ các LLM tiên tiến bao gồm GPT của OpenAI (ví dụ: GPT-4o-mini), Gemini của Google, Claude của Anthropic và các mô hình nguồn mở Groq (như Llama 3) để xử lý văn bản nhanh như chớp, hiệu suất cao.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Dữ liệu của tôi có an toàn không?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Có, quyền riêng tư là ưu tiên cốt lõi. Chúng tôi chỉ xử lý văn bản cụ thể mà bạn chọn để viết lại. Văn bản được truyền an toàn tới API phụ trợ của chúng tôi để thực hiện yêu cầu. Chúng tôi không lưu trữ lâu dài lịch sử nhật ký văn bản của bạn trên máy chủ của mình và chúng tôi cũng không chia sẻ nó với bên thứ ba hoặc sử dụng nó để đào tạo các mô hình AI. Ngoài ra, tiện ích mở rộng chạy trong môi trường hộp cát để đảm bảo lịch sử duyệt web cá nhân của bạn được bảo vệ.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Sự khác biệt giữa gói Free và Pro là gì?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Gói Miễn phí cung cấp 5 lần viết lại mỗi ngày, chỉ giới hạn ở âm 'Cải thiện' và định dạng tải xuống/xuất 'PDF'. Tích hợp Dropbox và Google Drive cũng bị khóa. Các gói trả phí (Weekly, Monthly Pro và Yearly Ultimate) mở khóa tất cả 6 tông màu, tất cả 6 định dạng tải xuống (PDF, Markdown, TXT, IMG, JSON và Clipboard Copy) cũng như tích hợp sao lưu đám mây để có trải nghiệm cao cấp, không hạn chế.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Tại sao một số âm viết lại, định dạng xuất và bản sao lưu đám mây nhất định bị khóa trên gói Miễn phí?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Việc chạy các mô hình AI tiên tiến (chẳng hạn như GPT-4o-mini, Gemini và Claude) và quản lý đồng bộ hóa đám mây yêu cầu cơ sở hạ tầng máy chủ đáng kể, sức mạnh tính toán và chi phí API trực tiếp cho mọi hành động. Để làm cho dịch vụ của chúng tôi bền vững trong khi vẫn cung cấp tùy chọn miễn phí đầy đủ chức năng, gói Miễn phí đáp ứng các yêu cầu cơ bản (5 lần viết lại hàng ngày với âm điệu 'Cải thiện' và tạo PDF cục bộ). Các gói đăng ký trợ cấp chi phí cho các âm cao cấp (Ngữ pháp, Chuyên nghiệp, Thông thường, Mở rộng, Rút ngắn), trình kết nối đám mây (Dropbox, Google Drive) và xuất nhiều định dạng (Markdown, TXT, IMG, JSON, COPY), đảm bảo chúng tôi có thể hỗ trợ hiệu suất cao, cập nhật tích cực và quyền riêng tư nghiêm ngặt mà không có quảng cáo.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Làm cách nào để kích hoạt mã cấp phép của tôi?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Sau khi hoàn tất việc mua đăng ký, hãy dán khóa cấp phép của bạn vào trường xác thực khóa ở cuối trang 'Tài khoản & Cách sử dụng' trên bảng điều khiển và nhấp vào 'Kích hoạt Giấy phép'. Chi tiết gói tài khoản của bạn sẽ cập nhật ngay lập tức trong bộ nhớ trình duyệt của bạn.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Tính năng này có hoạt động trên Google Docs hoặc Notion không?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Có, tiện ích mở rộng này hoàn toàn tương thích với các trình soạn thảo phổ biến và các cổng văn bản đa dạng thức như Google Docs, Notion, Gmail, LinkedIn, Slack web và Twitter/X. Nếu nút nổi bị tắt trên ứng dụng tùy chỉnh, bạn có thể sử dụng phím tắt Bảng lệnh để viết lại lựa chọn của mình.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Tôi có thể sử dụng khóa API của riêng mình không?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Để cung cấp trải nghiệm plug-and-play liền mạch, tất cả chi phí sử dụng API đều được chi trả đầy đủ theo gói đăng ký của bạn. Hiện tại, bạn không cần phải định cấu hình khóa API của riêng mình. Tuy nhiên, chúng tôi dự định hỗ trợ cấu hình API người dùng tùy chỉnh trong bản cập nhật hướng tới nhà phát triển trong tương lai.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Làm cách nào để thay đổi âm báo viết lại mặc định?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Bạn có thể đặt âm viết lại mặc định của mình trong tab Cài đặt của bảng tùy chọn này. Việc lưu tùy chọn của bạn sẽ tự động mặc định âm báo đó khi nhấp vào biểu tượng cây đũa thần, mặc dù bạn vẫn có thể chuyển đổi âm báo trong cửa sổ bật lên khi cần.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Tại sao đôi khi nút nổi không xuất hiện?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Nút cây đũa thần yêu cầu độ dài văn bản được lựa chọn tối thiểu để ngăn chặn các lớp phủ vô tình. Hơn nữa, các chính sách bảo mật tiêu chuẩn của trình duyệt chặn nghiêm ngặt việc chèn nội dung trên một số trang đặc quyền nhất định, chẳng hạn như Cửa hàng Chrome trực tuyến (chrome.google.com) và các trang cấu hình nội bộ (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Tôi có thể sao chép văn bản viết lại mà không thay thế bản gốc không?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Có, bên trong cửa sổ bật lên viết lại nổi, bạn có thể nhấp vào biểu tượng 'Sao chép'. Thao tác này sẽ sao chép thẳng phiên bản mới được viết lại vào khay nhớ tạm của bạn, cho phép bạn dán phiên bản đó vào bất kỳ đâu bạn muốn mà không thay thế hoặc ảnh hưởng đến nội dung gốc trên trang web.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Làm cách nào để hủy đăng ký của tôi?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Bạn có thể quản lý hoặc hủy đăng ký của mình bất kỳ lúc nào bằng cách nhấp vào liên kết cổng thanh toán khách hàng được cung cấp trong email xác nhận mua hàng của bạn. Nếu bạn không thể tìm thấy email, hãy liên hệ với chúng tôi theo sốkeshoraai@gmail.comvà chúng tôi sẽ hỗ trợ bạn.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Âm 'Mở rộng' làm gì?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Giọng điệu 'Mở rộng' sử dụng trí thông minh tổng quát để xây dựng và trau chuốt văn bản đã chọn của bạn, thêm các chi tiết phong phú, ngữ cảnh và cấu trúc ngữ pháp phù hợp vào những suy nghĩ ngắn, dấu đầu dòng hoặc cụm từ trong khi vẫn giữ nguyên ý định ban đầu.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Bạn có giảm giá cho sinh viên không?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Có, chúng tôi hỗ trợ sinh viên, nhà giáo dục và nhà nghiên cứu học thuật. Chúng tôi cung cấp giảm giá 30% cho tất cả các gói đăng ký trả phí. Gửi email cho chúng tôi theo địa chỉkeshoraai@gmail.comtừ địa chỉ email trường học hoặc trường đại học chính thức của bạn (.edu hoặc miền học thuật) để yêu cầu mã giảm giá.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Có tùy chọn viết lại hàng loạt không?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Có, người dùng cấp cao hơn có thể sử dụng tính năng viết lại hàng loạt. Thay vì chọn các phân đoạn riêng lẻ, bạn có thể mở bảng điều khiển bên của tiện ích mở rộng và dán toàn bộ tài liệu hoặc đoạn văn để sửa đổi chúng cùng một lúc.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Làm cách nào để báo cáo lỗi?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Bạn có thể gửi báo cáo lỗi trực tiếp qua email tới nhóm hỗ trợ của chúng tôi tạikeshoraai@gmail.com. Nhấp vào tiện ích trợ giúp trong tab 'Tài khoản & Cách sử dụng' sẽ điền trước mẫu hỗ trợ chứa chi tiết tiện ích mở rộng để giúp chúng tôi chẩn đoán sự cố.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Tại sao lại báo 'Đã vượt quá hạn ngạch'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Cảnh báo 'Vượt quá hạn ngạch' có nghĩa là bạn đã sử dụng hết mức sử dụng được phân bổ cho chu kỳ hoạt động của gói của mình: Người dùng miễn phí bị giới hạn 5 lần viết lại hàng ngày; Người dùng hàng tuần nhận được 140 lần viết lại; Người dùng Pro hàng tháng nhận được 600 lần viết lại; và người dùng Ultimate hàng năm nhận được 9.000 lượt viết lại. Hạn ngạch được đặt lại tự động dựa trên chu kỳ (hàng ngày vào lúc nửa đêm theo giờ địa phương hoặc theo ranh giới luân phiên hàng tuần/hàng tháng/hàng năm). Bạn có thể nâng cấp lên cấp cao hơn trên trang 'Tài khoản & Cách sử dụng' để tiếp tục dịch vụ ngay lập tức.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Đang xuất...",
+    "description": "Locale key: exportingStatus"
+  }
+}

@@ -4,36 +4,38 @@ import { RewriteMode } from '../shared/types/index';
 import contentScriptUrl from '../content/index.tsx?script';
 
 // ─── Context Menus ────────────────────────────────────────────────────────────
-const REWRITE_MODES: { id: RewriteMode; title: string }[] = [
-  { id: 'improve', title: '✨ Improve Writing' },
-  { id: 'grammar', title: '✅ Fix Grammar' },
-  { id: 'professional', title: '💼 Make Professional' },
-  { id: 'friendly', title: '😊 Make Friendly' },
-  { id: 'formal', title: '🎩 Make Formal' },
-  { id: 'casual', title: '👋 Make Casual' },
-  { id: 'persuasive', title: '🎯 Make Persuasive' },
-  { id: 'confident', title: '💪 Make Confident' },
-  { id: 'shorten', title: '✂️ Shorten' },
-  { id: 'expand', title: '📖 Expand' },
-  { id: 'simplify', title: '🔤 Simplify' },
-  { id: 'humanize', title: '🤖→👤 Humanize' },
-  { id: 'custom', title: '⚡ Custom Prompt...' },
+const REWRITE_MODES: RewriteMode[] = [
+  'improve', 'grammar', 'professional', 'friendly', 'formal', 'casual',
+  'persuasive', 'confident', 'shorten', 'expand', 'simplify', 'humanize', 'custom'
 ];
 
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener((details) => {
+  // Set uninstall URL
+  chrome.runtime.setUninstallURL(
+    'https://docs.google.com/forms/d/e/1FAIpQLSezTnAZjAIOLXFYB9w-PcDE2GOdYfEmkgFZ-YYdRFmpDvifyA/viewform?usp=publish-editor'
+  );
+
+  // Open options page on initial installation
+  if (details.reason === 'install') {
+    chrome.runtime.openOptionsPage();
+  }
+
   // Create parent menu item
   chrome.contextMenus.create({
     id: 'ai-rewrite-parent',
-    title: 'AI Rewrite →',
+    title: chrome.i18n.getMessage('contextMenuParent'),
     contexts: ['selection'],
   });
 
   // Create child items for each mode
-  for (const mode of REWRITE_MODES) {
+  for (const modeId of REWRITE_MODES) {
+    const key = (modeId === 'shorten' || modeId === 'expand' || modeId === 'simplify')
+      ? `mode_${modeId}`
+      : `contextMenu_${modeId}`;
     chrome.contextMenus.create({
-      id: `ai-rewrite-${mode.id}`,
+      id: `ai-rewrite-${modeId}`,
       parentId: 'ai-rewrite-parent',
-      title: mode.title,
+      title: chrome.i18n.getMessage(key),
       contexts: ['selection'],
     });
   }

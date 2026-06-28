@@ -1,0 +1,44 @@
+✨ Zamonaviy AI yordamida matnni Internetning istalgan joyida bir zumda qayta yozing.
+
+Yozuvlaringizni tuzatish uchun matnni chat oynalariga nusxalash va joylashtirishdan charchadingizmi? AI Rewrite Anywhere yordamida istalgan veb-saytdagi istalgan matnni ajratib ko‘rsatish yoki tanlash mumkin (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X va boshqalar) va uni bir zumda qayta yozishingiz mumkin.
+
+Yuqori darajadagi yirik til modellari (jumladan, OpenAI GPT, Google Gemini, Anthropic Claude va Groq ochiq manbali Llama) yordamida aqlli AI zaxira zanjiri bilan taʼminlangan kengaytma, agar xizmat uzilishiga duch kelsa, soʻrovlarni keyingi mavjud provayderga avtomatik yoʻnaltirish orqali maksimal ish vaqti va yashin tezligida javob beradi.
+
+🚀 ASOSIY XUSUSIYATLAR:
+- 🖱️ Ajratish va qayta yozish: istalgan veb-sahifadagi matnni shunchaki ajratib ko'rsatish. Kursor yonida suzuvchi sehrli tayoqcha tugmasi paydo bo'ladi. Darhol qayta yozish uchun uni bosing.
+- 🖱️ Kontekst menyusi integratsiyasi: Brauzerning kontekst menyusidan to'g'ridan-to'g'ri 13 ta qayta yozish rejimiga kirish uchun istalgan tanlovni o'ng tugmasini bosing.
+- ⌨️ Buyruqlar palitrasi (Ctrl+Shift+K): Sichqonchaga tegmasdan maxsus takliflarni kiritish yoki tezkor sozlamalarni ishga tushirish uchun tezkor, klaviaturaga asoslangan interfeysni oching.
+- 📋 Toʻliq qayta yozish tarixi va sozlamalari: Oʻtgan qayta yozishlarni koʻrib chiqish, jurnallarni bir nechta formatda eksport qilish va afzalliklarni sozlash uchun chiroyli asboblar paneli yon paneliga kiring.
+- 🔄 Uzluksiz sun'iy intellektni tiklash: uzluksiz xizmatdan bahramand bo'ling. Agar asosiy model muvaffaqiyatsiz bo'lsa, kengaytma avtomatik ravishda keyingi mavjud modelga shaffof tarzda o'tadi.
+- 🔐 Xavfsiz Google tizimiga kirish: sozlamalaringizni qurilmalar oʻrtasida xavfsiz sinxronlashtiradigan tezkor va himoyalangan autentifikatsiya.
+
+🎯 13 DINAMIK QAYTA YOZISH REJIMLARI:
+1. Yaxshilang: Polsha yozuv tuzilishi va soʻz boyligini avtomatik ravishda.
+2. Grammatika: Imlo, tinish belgilari va sintaktik xatolarni tuzatish.
+3. Professional: Professional yozishmalar uchun tilingizni ko'taring.
+4. Do'stona: xabarlaringizga iliqlik va qulaylik qo'shing.
+5. Rasmiy: Rasmiy hujjatlar va ish xatlari uchun iboralarni sozlang.
+6. Tasodifiy: Ijtimoiy sozlamalar uchun qulay, suhbat matnini yarating.
+7. Ishonchli: g'oyalarni samarali tarzda ishontirish, taklif qilish yoki bozorga chiqarish uchun tuzing.
+8. Ishonchli: loyihaning aniqligi, hokimiyat va kuchli ishonch.
+9. Qisqartirish: uzun paragraflarni qisqacha ajratib ko'rsatish.
+10. Kengaytiring: qisqa o'q nuqtalari yoki iboralarni talaffuz qiling va ularga asoslang.
+11. Soddalashtiring: jargon yoki murakkab fikrlarni tushunarli, o‘qilishi mumkin bo‘lgan tilga tarjima qiling.
+12. Insoniylashtirish: Robotik AI qoralamalarini tabiiy o'qish uchun qayta tuzing.
+13. Maxsus taklif: Tanlov bilan AI nima qilishni xohlayotganingizni aniq yozing.
+
+📂 PREMIUM EKSPORT FORMATLARI:
+Qayta yozish tarixini mahalliy sifatida eksport qiling yoki bevosita bulut xizmatlariga sinxronlang:
+- PDF (bepul va Premium)
+- Markdown (MD)
+- TXT
+- Rasm (IMG)
+- JSON
+- Bufer nusxasi
+- Bulutli integratsiya: to'g'ridan-to'g'ri Dropbox yoki Google Drive-ga saqlang.
+
+🔒 DIZAYN BO'YICHA MAXFIYLIK VA XAVFSIZLIK:
+Maxfiylik bizning asosiy majburiyatimizdir. Biz faqat faol qayta yozish uchun siz tanlagan matnni qayta ishlaymiz. Sizning tanlovingiz so'rovni bajarish uchun SSL shifrlash orqali bizning backend API-ga xavfsiz uzatiladi va serverlarimizda uzoq muddat saqlanmaydi. Shaxsiy ko'rish tarixingiz to'liq himoyalangan.
+
+📧 MUROJAAT VA YORDAM:
+Savollaringiz, takliflaringiz yoki xatolar haqida hisobotingiz bormi? Biz bilan bevositakeshoraai@gmail.comorqali bog‘laning. Biz muntazam yangilanishlar va xususiyat so'rovlariga sodiqmiz!

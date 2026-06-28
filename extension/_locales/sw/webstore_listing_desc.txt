@@ -1,0 +1,44 @@
+✨ Andika upya maandishi popote kwenye wavuti papo hapo kwa kutumia AI ya hali ya juu.
+
+Je, umechoshwa na kunakili na kubandika maandishi kwenye madirisha ya gumzo ili kurekebisha maandishi yako? Ukiwa na AI Andika Upya Mahali Popote, unaweza kuangazia au kuchagua maandishi yoyote kwenye tovuti yoyote (Hati za Google, Notion, Gmail, LinkedIn, Slack, Twitter/X, na zaidi) na uandike upya papo hapo.
+
+Inaendeshwa na msururu mahiri wa urejeshaji wa AI kwa kutumia miundo ya kiwango cha juu cha lugha (ikiwa ni pamoja na OpenAI GPT, Google Gemini, Anthropic Claude, na Groq chanzo huria Llama), kiendelezi huhakikisha majibu ya juu zaidi ya saa na kasi ya umeme kwa kuelekeza maombi kiotomatiki kwa mtoa huduma anayefuata iwapo mtu atakumbana na ukatizaji wa huduma.
+
+🚀 SIFA MUHIMU:
+- 🖱️ Angazia na Uandike Upya: Angazia maandishi kwenye ukurasa wowote wa tovuti. Kitufe kinachoelea cha fimbo kinaonekana karibu na kiteuzi chako. Bofya ili kuandika upya papo hapo.
+- 🖱️ Muunganisho wa Menyu ya Muktadha: Bofya kulia chaguo lolote ili kufikia aina 13 tofauti za kuandika upya moja kwa moja kutoka kwa menyu ya muktadha ya kivinjari.
+- ⌨️ Ubao wa Agizo (Ctrl+Shift+K): Fungua kiolesura chenye kasi, kilicho katikati ya kibodi ili kuandika vidokezo maalum au kuanzisha mipangilio ya awali bila kugusa kipanya.
+- 📋 Historia na Mipangilio Kamili ya Kuandika Upya: Fikia paneli nzuri ya kando ya dashibodi ili kukagua maandishi yaliyopita, kuhamisha kumbukumbu katika miundo mingi na kusanidi mapendeleo.
+- 🔄 Urejeshaji wa AI usio na Mfumo: Furahia huduma isiyokatizwa. Iwapo muundo msingi hautafaulu, kiendelezi hubadilika kiotomatiki hadi kielelezo kinachofuata kwa uwazi.
+- 🔐 Linda Kuingia kwa Kutumia Google: Uthibitishaji wa haraka na unaolindwa ambao husawazisha mipangilio yako kwenye vifaa vyote kwa usalama.
+
+🎯 NJIA 13 ZA KUANDIKA UPYA:
+1. Boresha: muundo wa uandishi wa Kipolandi na msamiati moja kwa moja.
+2. Sarufi: Sahihisha makosa ya tahajia, uakifishaji na sintaksia.
+3. Mtaalamu: Inue lugha yako kwa mawasiliano ya kitaaluma.
+4. Kirafiki: Ongeza uchangamfu na ufikivu kwa jumbe zako.
+5. Rasmi: Rekebisha maneno kwa hati rasmi na barua za biashara.
+6. Kawaida: Unda maandishi tulivu, ya mazungumzo kwa mipangilio ya kijamii.
+7. Kushawishi: Weka mawazo ya muundo ili kushawishi, kutangaza, au soko kwa ufanisi.
+8. Kujiamini: Uhakika wa mradi, mamlaka, na usadikisho mkubwa.
+9. Fupisha: Finya aya ndefu ziwe mambo mafupi mafupi.
+10. Panua: Fafanua na ujenge juu ya nukta fupi za vitone au vishazi.
+11. Rahisisha: Tafsiri jargon au mawazo changamano katika lugha iliyo wazi na inayoweza kusomeka.
+12. Binadamu: Rekebisha rasimu za AI za roboti ili kusoma kawaida.
+13. Uhakika Maalum: Andika kile unachotaka AI ifanye na uteuzi.
+
+📂 MIUNDO YA PREMIUM USAFIRISHAJI:
+Hamisha historia yako ya kuandika upya ndani ya nchi au kusawazisha moja kwa moja kwa huduma za wingu:
+- PDF (Bure & Premium)
+- Markdown (MD)
+- TXT
+- Picha (IMG)
+- JSON
+- Nakala ya Ubao wa kunakili
+- Ujumuishaji wa Wingu: Hifadhi moja kwa moja kwenye Dropbox au Hifadhi ya Google.
+
+🔒 FARAGHA NA USALAMA KWA KUBUNI:
+Faragha ndiyo ahadi yetu kuu. Tunachakata tu maandishi maalum unayochagua kwa uandishi unaoendelea. Chaguo lako hutumwa kwa usalama kupitia usimbaji fiche wa SSL hadi API yetu ya nyuma ili kutekeleza ombi na haihifadhiwi kwa muda mrefu kwenye seva zetu. Historia yako ya kuvinjari ya kibinafsi imelindwa kabisa.
+
+📧 WASILIANA NA MSAADA:
+Je, una maswali, mapendekezo au ripoti za hitilafu? Wasiliana nasi moja kwa moja kupitiakeshoraai@gmail.com. Tumejitolea kusasisha mara kwa mara na maombi ya kipengele!

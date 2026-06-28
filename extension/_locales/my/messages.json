@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "မည်သည့်နေရာတွင်မဆို စာသားကို အသားပေးဖော်ပြပါ။ AI ဖြင့်ချက်ချင်းပြန်ရေးပါ။",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewrite command palette ကိုဖွင့်ပါ။",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ စာရေးခြင်း တိုးတက်စေခြင်း။",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Grammar ပြုပြင်ပါ။",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Professional ဖြစ်အောင်လုပ်ပါ။",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 အဆင်ပြေပါစေ။",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 တရားဝင်လုပ်ပါ။",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 ပေါ့ပေါ့ပါးပါး လုပ်ပါ။",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 ဖွဲ့နွဲ့တတ်ပါစေ။",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 ယုံကြည်မှုရှိပါစေ။",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 လူသားဆန်သည်။",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ စိတ်ကြိုက်အမှာစာ...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ တိုးတက်စေတယ်။",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅သဒ္ဒါ",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 ပရော်ဖက်ရှင်နယ်",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 အဆင်ပြေတယ်။",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 တရားဝင်",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 ပေါ့ပေါ့ပါးပါး",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 ဖွဲ့နွဲ့ခြင်း။",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪ယုံကြည်မှု",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ အတိုချုံ့ပါ။",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 ချဲ့ထွင်ပါ။",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 ရိုးရှင်းအောင်လုပ်ပါ။",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 လူသားဆန်ပါ။",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ စိတ်ကြိုက်",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "ဖွင့်နေသည်...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "ဘယ်နေရာမဆို စာသားပြန်ရေးပါ။",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI ဖြင့် မည်သည့်ဝဘ်ဆိုက်တွင်မဆို စာသားပြန်လည်ရေးသားခြင်းကို စတင်ရန် Google ဖြင့် ဝင်ရောက်ပါ။",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "လက်မှတ်ထိုးဝင်နေသည်...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google ဖြင့် အကောင့်ဝင်ပါ။",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "အခမဲ့",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "နေ့စဉ်အသုံးပြုမှု",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(အကန့်အသတ်မရှိ)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 မည်သည့်စာမျက်နှာရှိ စာသားကို ရွေးချယ်ပါ → ပြန်လည်ရေးရန် ✨ ခလုတ်ကို နှိပ်ပါ။ သို့မဟုတ်Ctrl+Shift+Kကိုနှိပ်ပါ",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 မှတ်တမ်းနှင့် ဆက်တင်များကို ဖွင့်ပါ။",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "ထွက်ပါ။",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "အကောင့်ဝင်ခြင်း မအောင်မြင်ပါ။",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "ပြန်လည်ရေးသားခြင်း မအောင်မြင်ပါ။",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "ဤအပိုင်းကို လက်ရှိဆောက်လုပ်ဆဲဖြစ်သည်။",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "ဆက်တင်များကိုကြည့်ရှုရန် ကျေးဇူးပြု၍ လက်မှတ်ထိုးဝင်ပါ။",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "အကောင့်နှင့် အသုံးပြုမှု",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "သမိုင်းကို ပြန်ရေးပါ။",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "ဆက်တင်များ",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "အကူအညီနှင့် FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "အထွေထွေဖွဲ့စည်းမှု",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "မျက်နှာပြင် အပြင်အဆင်",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "အမှောင်မုဒ်",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "အလင်းမုဒ်",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "ပုံသေ အသံပြန်ရေးပါ။",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ သမိုင်းအားလုံးကို ရှင်းလင်းပါ။",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "ပြန်လည်ရေးသားခြင်းမရှိသေးပါ။",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "စတင်ရန် မည်သည့်စာမျက်နှာရှိ စာသားကို အသားပေး၍ ✨ နှိပ်ပါ။ သင့်မှတ်တမ်းကို ဤနေရာတွင် ပေါ်လာပါမည်။",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "ဤပြန်လည်ရေးသားခြင်းမှတ်တမ်းကို ဖျက်လိုသည်မှာ သေချာပါသလား။",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "သင်၏ပြန်လည်ရေးသားမှုမှတ်တမ်းတစ်ခုလုံးကို အပြီးတိုင်ဖျက်လိုသည်မှာ သေချာပါသလား။ ဒါကို ပြန်ပြင်လို့ မရပါဘူး။",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "အကြောင်းအရာကို ဖျက်၍မရပါ",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "မှတ်တမ်းကို ရှင်းလင်းရန် မအောင်မြင်ပါ",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "မူရင်းစာသား",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "ပြန်လည်ရေးသားထားသော စာသား",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ ဖျက်ပါ။",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Copy Rewritten",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ ကူးယူထားသည်။",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "အဟောင်းများကို ပြန်ရေးပါ။",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "ပံ့ပိုးမှုနှင့် လုပ်ငန်းဆိုင်ရာ စုံစမ်းမေးမြန်းမှုများ",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "ဆက်သွယ်ပါ-",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "အမေးများသောမေးခွန်းများ",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "အကူအညီအတွက် သို့မဟုတ် ချွတ်ယွင်းချက်တစ်ခု သတင်းပို့ရန်",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "အီးမေးလ်keshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "နေ့စဉ် အခမဲ့ ကန့်သတ်ချက်",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "အခမဲ့အဆင့်- တစ်ရက်လျှင် 5 ကြိမ် ပြန်လည်ရေးသားခြင်း။ နေ့စဉ် သန်းခေါင်ယံတွင် ပြန်လည်သတ်မှတ်သည်။",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "မည်သည့်နေရာတွင်မဆို အကန့်အသတ်မရှိ စာသားပြန်လည်ရေးပါ။",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "သင့်အကြောင်းအရာအားလုံးကို အသုတ်လိုက် ပြန်ရေးပါ။ cloud သို့ စင့်ခ်လုပ်ပါ။ ကန့်သတ်ချက်များမရှိပါ။",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 အစောပိုင်းလက်ခံသူကမ်းလှမ်းချက်- ပရီမီယံအသုံးပြုသူ 500 တွင် နောက်စျေးနှုန်းတိုးမည်။ ဤနှုန်းထားတွင် ဘဝအတွက် သော့ခတ်ပါ။",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 US စျေးကွက် ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 အိန္ဒိယဈေးကွက် (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "US Dollar ပေးချေမှုများကို လက်ရှိတွင် ပြုပြင်ထိန်းသိမ်းလျက်ရှိသည်။ ကျေးဇူးပြု၍ အိန္ဒိယစျေးကွက် (₹) အစီအစဉ်သို့ ပြောင်းပါ သို့မဟုတ် အကူအညီအတွက်keshoraai@gmail.comတွင် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "အပတ်စဉ်",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(57¢/ရက်သာ)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "လစဉ်⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(33¢/ရက်သာ)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "နှစ်အလိုက် 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(21¢/ရက်သာ)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(₹21/ရက် သာ)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(₹13/ရက် သာ)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(₹8/ရက် သာ)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ တစ်ပတ်",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ လ",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ နှစ်",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "ရံဖန်ရံခါ အသုံးပြုရန် ကောင်းမွန်သည်။",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "အသုံးပြုသူအများစုသည် ဤအစီအစဉ်ကို ရွေးချယ်ကြသည်။",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "ပါဝါအသုံးပြုသူများအတွက် အကောင်းဆုံးတန်ဖိုး",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "လူကြိုက်အများဆုံး",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "အကောင်းဆုံးတန်ဖိုး - 2 လ အခမဲ့",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Rating • 🔒 Secure Payments • ✔️ အချိန်မရွေး Cancel",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "သင်သည် စာရင်းသွင်းမှု မတတ်နိုင်သော ကျောင်းသား သို့မဟုတ် သုတေသီလား။ ကျေးဇူးပြု၍keshoraai@gmail.comသို့ အီးမေးလ်ပို့ပါ",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "လိုင်စင်သော့ ရှိနေပြီလား။",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "လိုင်စင်ကီးထည့်ပါ...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "အသက်သွင်းပါ။",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "တစ်ပတ်လျှင် 140 Rewrite",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Bulk Rewrite ကို လော့ခ်ဖွင့်ပါ။",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "ပရီမီယံ ဆက်တင်များ အသုံးပြုခွင့်",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive၊ Dropbox စင့်ခ်လုပ်ခြင်း။",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "ပရီမီယံ အပြင်အဆင်များ",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Smart Folder အဖွဲ့အစည်း",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "ကြော်ငြာမပါသော အတွေ့အကြုံ",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "တစ်လလျှင် 600 Rewrite",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "တစ်နှစ်လျှင် 9,000 Rewrite",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "အခြား extension များကို 50% လျှော့စျေး",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "ဦးစားပေးအီးမေးလ်ပံ့ပိုးမှု",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "ဖော်မတ်ထုတ်ရန်",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "အခမဲ့ အစီအစဉ်တွင် PDF ထုတ်ယူခြင်းသာ ရနိုင်သည်။ အခြားထုတ်ကုန်ဖော်မတ်များကို လော့ခ်ဖွင့်ရန် Pro/Premium သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "ဖိုင်အမည်ဖော်မတ်",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "ထုတ်ယူထားသောဖိုင်များကို အမည်မည်ကဲ့သို့ ရွေးချယ်ပါ။",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "မှတ်တမ်းကို ပြန်ရေးပါ - ရက်စွဲ (ဥပမာ RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "စိတ်ကြိုက်ခေါင်းစဉ်",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "စိတ်ကြိုက်ဖိုင်အမည်ထည့်ပါ...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Local File ကို ထုတ်ယူပါ။",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox တွင် သိမ်းဆည်းပါ။",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "☁️ Google Drive သို့ သိမ်းဆည်းပါ။",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Cloud Backup ကို အခပေး အစီအစဉ်များတွင်သာ ရနိုင်ပါသည်။ ကျေးဇူးပြု၍ Pro/Premium သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox အထောက်အထားစိစစ်ခြင်းကို ပယ်ဖျက်လိုက်ပါပြီ။",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox အသုံးပြုခွင့် တိုကင်ရယူရန် မအောင်မြင်ပါ။",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive အထောက်အထားစိစစ်ခြင်း မအောင်မြင်ပါ။",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive အပ်လုဒ် မအောင်မြင်ပါ-",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API အမှား",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "တင်ပို့ရန် မှတ်တမ်းမရှိပါ။",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "မှတ်တမ်းကို လှပစွာ ဖော်မတ်ထားပြီး ကလစ်ဘုတ်သို့ ကူးယူထားသည်။",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "မှတ်တမ်းကို သင်၏ Dropbox တွင် လုံခြုံစွာ သိမ်းဆည်းထားသည်။",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "မှတ်တမ်းကို သင်၏ Google Drive တွင် လုံခြုံစွာ သိမ်းဆည်းထားသည်။",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "ထုတ်ယူမှု ပြီးပါပြီ။",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI ဖြင့် ပြန်ရေးပါ။",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI ကို ပြန်ရေးပါ။",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "ပိတ်လိုက်",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "မူရင်းစာသား",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "ပြန်ရေးရန် မုဒ်ကို ရွေးပါ...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "အစားထိုးပါ။",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "ကော်ပီ",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ ကူးယူထားပါသည်။",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ ထပ်လုပ်ကြည့်ပါ။",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "သိမ်းဆည်းပါ။",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "အခမဲ့အစီအစဉ်တွင် \"မြှင့်တင်ရန်\" မုဒ်ကိုသာ ရနိုင်သည်။ မုဒ် 13 ခုလုံးကို လော့ခ်ဖွင့်ရန် Pro သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "အခမဲ့အစီအစဉ်တွင် \"မြှင့်တင်ရန်\" မုဒ်ကိုသာ ရနိုင်သည်။ ပြန်လည်ရေးသားမုဒ် 13 ခုအားလုံးကို လော့ခ်ဖွင့်ရန် Pro/Premium သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Command Palette ကို ပြန်ရေးပါ။",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ အခမဲ့အစီအစဉ် (စိတ်ကြိုက်အချက်ပြမှုများကို လော့ခ်ချထားသည်)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "အခမဲ့အစီအစဉ်တွင် စိတ်ကြိုက်အချက်ပြမှုကို လော့ခ်ချထားသည်။",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "ဥပမာ LinkedIn အတွက် ပြန်လည်ရေးသားပါ၊ ဤအရာအား ဆွဲဆောင်နိုင်ပါစေ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "အခမဲ့အစီအစဉ်တွင် \"မြှင့်တင်ရန်\" မုဒ်ကိုသာ ရနိုင်သည်။ ဝန်ဆောင်မှုအားလုံးကို လော့ခ်ဖွင့်ရန် ကျေးဇူးပြု၍ Pro/Premium သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "အခမဲ့အစီအစဉ်တွင် \"မြှင့်တင်ရန်\" မုဒ်ကိုသာ ရနိုင်သည်။ မုဒ်အားလုံးကို လော့ခ်ဖွင့်ရန် ကျေးဇူးပြု၍ Pro/Premium သို့ အဆင့်မြှင့်ပါ။",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 သမိုင်း",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ ဆက်တင်များ",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "ပြန်လည်ရေးသားခြင်းမရှိသေးပါ။",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "စတင်ရန် မည်သည့်စာမျက်နှာရှိ စာသားကို အသားပေး၍ ✨ နှိပ်ပါ။",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "မူရင်း-",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ ပြန်လည်ရေးသားသည်-",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "ပိုတင်ပါ။",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "အကောင့်",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "ဒီနေ့ ပြန်ရေးတယ်။",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "ပြန်လည်သတ်မှတ်သည်။",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "တက်ကြွစွာ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI အင်ဂျင်",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "ဝဘ်ဆိုက်တစ်ခုတွင် စာသားကို မည်သို့ပြန်ရေးရမည်နည်း။",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "မည်သည့်ဝဘ်စာမျက်နှာရှိ မည်သည့်စာသားကိုမဆို မီးမောင်းထိုးပြပါ သို့မဟုတ် ရွေးချယ်ပါ။ ရေပေါ်မှော်တုတ်ခလုတ် ('✨') သည် သင့်ကာဆာအနီးတွင် အလိုအလျောက်ပေါ်လာပါမည်။ ဤအိုင်ကွန်ကို နှိပ်ခြင်းဖြင့် AI သည် သင့်အတွက် အကြောင်းအရာကို ပြန်လည်ရေးသားခွင့်ပေးရန်အတွက် ပြန်လည်ရေးသားသည့် လေသံ (ဥပမာ တိုးတက်ရန်၊ သဒ္ဒါ၊ ပရော်ဖက်ရှင်နယ်၊ ပေါ့ပေါ့ပါးပါး၊ ချဲ့ထွင်ရန် သို့မဟုတ် အတိုချုံ့ခြင်း) ကို ရွေးချယ်နိုင်သည့် အပြန်အလှန်အကျိုးသက်ရောက်သော ပြန်လည်ရေးရေးပေါ့ပ်အပ်ကို ဖွင့်ပေးပါသည်။ Command Palette shortcut (Ctrl+Shift+PWindows/Linux သို့မဟုတ် macOS တွင်Cmd+Shift+P) မှတဆင့် အင်တာဖေ့စ်ကို အစပျိုးနိုင်သည်။",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "မည်သည့် AI မော်ဒယ်များကို ပံ့ပိုးပေးသနည်း။",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "ကျွန်ုပ်တို့သည် လက်ရှိတွင် OpenAI ၏ GPT (ဥပမာ၊ GPT-4o-mini)၊ Google ၏ Gemini၊ Anthropic's Claude နှင့် Groq ပွင့်လင်းအရင်းအမြစ်မော်ဒယ်များ (Llama 3 ကဲ့သို့သော) စွမ်းဆောင်ရည်မြင့်၊ အလင်း-မြန်ဆန်သော စာသားလုပ်ဆောင်မှုအတွက် အပါအဝင် ခေတ်မီသော LLM များကို ပံ့ပိုးပေးပါသည်။",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "ကျွန်ုပ်၏ဒေတာသည် လုံခြုံပါသလား။",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "ဟုတ်ကဲ့၊ ကိုယ်ရေးကိုယ်တာသည် အဓိကဦးစားပေးဖြစ်သည်။ ပြန်လည်ရေးသားရန်အတွက် သင်ရွေးချယ်ထားသော သီးခြားစာသားများကိုသာ ကျွန်ုပ်တို့ လုပ်ဆောင်ပါသည်။ တောင်းဆိုချက်ကို လုပ်ဆောင်ရန် စာသားကို ကျွန်ုပ်တို့၏ backend API သို့ လုံခြုံစွာ ပေးပို့ထားပါသည်။ ကျွန်ုပ်တို့သည် သင်၏ စာသားမှတ်တမ်းမှတ်တမ်းကို ကျွန်ုပ်တို့၏ဆာဗာများပေါ်တွင် ရေရှည်သိမ်းဆည်းထားခြင်းမရှိပါ၊ ၎င်းကို ပြင်ပအဖွဲ့အစည်းများနှင့် မျှဝေခြင်း သို့မဟုတ် AI မော်ဒယ်များကို လေ့ကျင့်ရန်အတွက် ၎င်းကိုအသုံးပြုပါ။ ထို့အပြင်၊ သင်၏ကိုယ်ရေးကိုယ်တာရှာဖွေမှုမှတ်တမ်းကို အကာအကွယ်ပေးကြောင်း သေချာစေရန်အတွက် တိုးချဲ့မှုသည် သဲပုံးရှိသော ပတ်ဝန်းကျင်တွင် လုပ်ဆောင်သည်။",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Free နှင့် Pro အစီအစဉ်များကြား ကွာခြားချက်ကား အဘယ်နည်း။",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "အခမဲ့အစီအစဥ်သည် တစ်ရက်လျှင် ပြန်လည်ရေးသားမှု 5 ခု ပေးဆောင်ပြီး 'တိုးတက်အောင်' အသံနှင့် 'PDF' ဒေါင်းလုဒ်/ထုတ်ယူခြင်းဖော်မတ်အတွက် သီးသန့်ကန့်သတ်ထားသည်။ Dropbox နှင့် Google Drive ပေါင်းစပ်မှုများကိုလည်း လော့ခ်ချထားသည်။ အခပေးအစီအစဉ်များ (အပတ်စဉ်၊ လစဉ် Pro နှင့် နှစ်အလိုက် အဆုံးစွန်သော) သည် အသံ 6 လုံး၊ ဒေါင်းလုဒ်ဖော်မတ် 6 ခု (PDF၊ Markdown၊ TXT၊ IMG၊ JSON နှင့် Clipboard Copy) နှင့် ပရီမီယံ၊ ကန့်သတ်မှုကင်းသော အတွေ့အကြုံအတွက် cloud backup ပေါင်းစည်းမှုများကို လော့ခ်ဖွင့်ပါ။",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "အခမဲ့ အစီအစဉ်တွင် အချို့သော ပြန်ရေးသည့် အသံများ၊ ထုတ်ယူသည့် ဖော်မတ်များနှင့် cloud အရန်များကို အဘယ်ကြောင့် သော့ခတ်ထားသနည်း။",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "ခေတ်မီဆန်းသစ်သော AI မော်ဒယ်များကို လုပ်ဆောင်ခြင်း (ဥပမာ GPT-4o-mini၊ Gemini၊ နှင့် Claude) နှင့် cloud ထပ်တူပြုခြင်းကို စီမံခန့်ခွဲခြင်းသည် များပြားလှသော ဆာဗာအခြေခံအဆောက်အအုံ၊ တွက်ချက်မှုစွမ်းအားနှင့် လုပ်ဆောင်ချက်တိုင်းအတွက် တိုက်ရိုက် API ကုန်ကျစရိတ်များ လိုအပ်ပါသည်။ ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုကို အပြည့်အဝလုပ်ဆောင်နိုင်သော အခမဲ့ရွေးချယ်ခွင့်ကို ပေးဆောင်နေချိန်တွင် ရေရှည်တည်တံ့စေရန်၊ အခမဲ့အစီအစဉ်သည် အခြေခံလိုအပ်ချက်များကို အကျုံးဝင်သည် (နေ့စဉ် 5 စောင်ကို 'တိုးတက်အောင်' အသံနှင့် ဒေသတွင်း PDF မျိုးဆက်ဖြင့် ပြန်လည်ရေးသားပါသည်။ စာရင်းသွင်းမှုအစီအစဉ်များသည် ပရီမီယံသံစဉ်များ (Grammar၊ Professional၊ Casual၊ Expand၊ Shorten)၊ cloud ချိတ်ဆက်မှုများ (Dropbox၊ Google Drive) နှင့် ဖော်မတ်အများအပြား တင်ပို့မှုများ (Markdown၊ TXT၊ IMG၊ JSON၊ COPY)၊ ကျွန်ုပ်တို့သည် မြင့်မားသောစွမ်းဆောင်ရည်၊ တက်ကြွသောအပ်ဒိတ်များနှင့် ကြော်ငြာမပါဘဲ တင်းကျပ်သော ကိုယ်ရေးကိုယ်တာများကို ပံ့ပိုးပေးနိုင်ကြောင်း သေချာစေပါသည်။",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "ကျွန်ုပ်၏လိုင်စင်ကီးကို မည်သို့အသက်သွင်းနိုင်မည်နည်း။",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "သင်၏စာရင်းသွင်းဝယ်ယူမှု အပြီးသတ်ပြီးနောက်၊ ဒက်ရှ်ဘုတ်ရှိ 'အကောင့်နှင့် အသုံးပြုမှု' စာမျက်နှာ၏အောက်ခြေရှိ သော့အတည်ပြုအကွက်တွင် သင့်လိုင်စင်ကီးကို ကူးထည့်ကာ 'လိုင်စင်ကို အသက်သွင်းပါ' ကိုနှိပ်ပါ။ သင့်အကောင့်အစီအစဉ်အသေးစိတ်အချက်အလက်များကို သင့်ဘရောက်ဆာသိုလှောင်မှုတွင် ချက်ချင်းအပ်ဒိတ်လုပ်ပါမည်။",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "၎င်းသည် Google Docs သို့မဟုတ် Notion တွင် အလုပ်လုပ်ပါသလား။",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "ဟုတ်ပါသည်၊ တိုးချဲ့မှုသည် Google Docs၊ Notion၊ Gmail၊ LinkedIn၊ Slack ဝဘ်၊ နှင့် Twitter/X ကဲ့သို့သော နာမည်ကြီး တည်းဖြတ်သူများနှင့် ကြွယ်ဝသော စာသားပေါ်တယ်များနှင့် အပြည့်အဝ တွဲဖက်အသုံးပြုနိုင်ပါသည်။ စိတ်ကြိုက်အပလီကေးရှင်းတစ်ခုတွင် ရေပေါ်ခလုတ်ကို ပိတ်ထားပါက၊ သင်သည် သင်၏ရွေးချယ်မှုကို ပြန်လည်ရေးရန် Command Palette ကီးဘုတ်ဖြတ်လမ်းကို အသုံးပြုနိုင်သည်။",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "ကျွန်ုပ်၏ကိုယ်ပိုင် API ကီးကို သုံးနိုင်ပါသလား။",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "ချောမွေ့မှုမရှိသော၊ ပလပ်စတစ်ဆော့ကစားခြင်းအတွေ့အကြုံကို ပေးဆောင်ရန်၊ API အသုံးပြုမှုကုန်ကျစရိတ်အားလုံးကို သင့်စာရင်းသွင်းမှုအစီအစဉ်အောက်တွင် အပြည့်အဝ အကျုံးဝင်ပါသည်။ လက်ရှိတွင်၊ သင်သည် သင်၏ကိုယ်ပိုင် API သော့များကို ပြင်ဆင်သတ်မှတ်ရန် မလိုအပ်ပါ။ သို့သော်လည်း၊ ကျွန်ုပ်တို့သည် အနာဂတ် developer-oriented update တွင် စိတ်ကြိုက်အသုံးပြုသူ API ဖွဲ့စည်းမှုပုံစံများကို ပံ့ပိုးရန် စီစဉ်ထားပါသည်။",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "မူရင်းပြန်ရေးသည့်အသံကို မည်သို့ပြောင်းရမည်နည်း။",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "ဤရွေးချယ်မှုအကန့်၏ ဆက်တင်များတက်ဘ်တွင် သင်၏မူလပြန်လည်ရေးသားသည့်အသံကို သင်သတ်မှတ်နိုင်သည်။ လိုအပ်ချိန်တွင် ပေါ့ပ်အပ်တွင် အသံပြောင်းနိုင်သော်လည်း၊ သင်၏စိတ်ကြိုက်ရွေးချယ်မှုကို သိမ်းဆည်းခြင်းသည် မှော်တုတ်တံအိုင်ကွန်ကို နှိပ်သည့်အခါ ထိုလေသံသို့ အလိုအလျောက် ပုံသေသွားပါမည်။",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "အဘယ်ကြောင့် တခါတရံတွင် ရေပေါ်ခလုတ်မပေါ်သနည်း။",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Magic wand ခလုတ်သည် မတော်တဆ ထပ်ဆင့်မှုများကို ကာကွယ်ရန် စာသားရွေးချယ်မှု အရှည် အနည်းဆုံး လိုအပ်သည်။ ထို့အပြင်၊ ပုံမှန်ဘရောက်ဆာလုံခြုံရေးမူဝါဒများသည် Chrome ဝဘ်စတိုး (chrome.google.com) နှင့် အတွင်းပိုင်းဖွဲ့စည်းမှုစာမျက်နှာများ (chrome://) ကဲ့သို့သော အခွင့်ထူးခံစာမျက်နှာအချို့တွင် အကြောင်းအရာထိုးသွင်းမှုများကို တင်းကြပ်စွာ ပိတ်ဆို့ထားသည်။",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "မူရင်းကို မအစားထိုးဘဲ ပြန်လည်ရေးထားသော စာသားကို ကူးယူနိုင်ပါသလား။",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "ဟုတ်ကဲ့၊ ရေပေါ်ပြန်ရေးတဲ့ ပေါ့ပ်အပ်အတွင်း၊ 'ကော်ပီ' အိုင်ကွန်ကို နှိပ်နိုင်ပါတယ်။ ၎င်းသည် အသစ်ပြန်လည်ရေးသားထားသောဗားရှင်းကို သင့်ကလစ်ဘုတ်သို့ တိုက်ရိုက်ကူးယူထားပြီး ဝဘ်စာမျက်နှာရှိ မူရင်းအကြောင်းအရာကို အစားထိုးခြင်း သို့မဟုတ် မထိခိုက်စေဘဲ သင်နှစ်သက်သည့်နေရာတိုင်းတွင် ကူးထည့်နိုင်စေမည်ဖြစ်သည်။",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "ကျွန်ုပ်၏ စာရင်းသွင်းမှုကို မည်သို့ ပယ်ဖျက်နိုင်မည်နည်း။",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "သင့်ဝယ်ယူမှုအတည်ပြုချက်အီးမေးလ်တွင် ပေးထားသည့် ဖောက်သည်ငွေတောင်းခံလွှာပေါ်တယ်လင့်ခ်ကို နှိပ်ခြင်းဖြင့် သင့်စာရင်းသွင်းမှုကို အချိန်မရွေး စီမံခန့်ခွဲနိုင် သို့မဟုတ် ပယ်ဖျက်နိုင်သည်။ အီးမေးလ်ကို သင်ရှာမတွေ့ပါက၊keshoraai@gmail.comတွင် ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပြီး ကျွန်ုပ်တို့ သင့်ကို ကူညီဆောင်ရွက်ပေးပါမည်။",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'Expand' tone က ဘာလုပ်သလဲ။",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'ချဲ့ထွင်ခြင်း' လေသံသည် သင်ရွေးချယ်ထားသော စာသားပေါ်တွင် ကြွယ်ဝသောအသေးစိတ်အချက်အလက်များ၊ အကြောင်းအရာနှင့် မှန်ကန်သော သဒ္ဒါဖွဲ့စည်းပုံတို့ကို ပေါင်းစပ်ထည့်သွင်းရန် ဉာဏ်ရည်ဉာဏ်သွေးကို အသုံးပြုထားပြီး မူလရည်ရွယ်ချက်ကို နဂိုအတိုင်း ထိန်းသိမ်းထားခြင်းဖြင့် တိုတောင်းသော အကြံဉာဏ်များ၊",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "ကျောင်းသားအထူးလျှော့စျေးပေးပါသလား?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "ဟုတ်တယ်၊ ကျောင်းသားတွေ၊ ပညာတတ်တွေနဲ့ ပညာရေးသုတေသီတွေကို ပံ့ပိုးပေးတယ်။ ကျွန်ုပ်တို့သည် အခပေးစာရင်းသွင်းမှု အစီအစဉ်အားလုံးတွင် 30% လျှော့စျေးကို ပေးဆောင်ပါသည်။ သင်၏ လျှော့စျေးကုဒ်ကို တောင်းဆိုရန်အတွက် သင်၏တရားဝင်ကျောင်း သို့မဟုတ် တက္ကသိုလ်အီးမေးလ်လိပ်စာ (.edu သို့မဟုတ် ပညာရေးဒိုမိန်း) မှkeshoraai@gmail.comသို့ အီးမေးလ်ပို့ပါ။",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "အစုလိုက် ပြန်လည်ရေးရန် ရွေးချယ်စရာ ရှိပါသလား။",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "ဟုတ်ကဲ့၊ ပရီမီယံအဆင့်အသုံးပြုသူများသည် အစုလိုက်ပြန်လည်ရေးသားခြင်းကို အသုံးပြုနိုင်ပါသည်။ တစ်ပိုင်းချင်းစီကို ရွေးမည့်အစား၊ သင်သည် တိုးချဲ့မှုဘေးဘောင်ကိုဖွင့်ပြီး စာရွက်စာတမ်း သို့မဟုတ် စာပိုဒ်တစ်ခုလုံးကို တစ်ချက်တည်းမွမ်းမံပြင်ဆင်နိုင်သည်။",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "ချို့ယွင်းချက်တစ်ခုကို မည်သို့တင်ပြရမည်နည်း။",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "သင်သည် ကျွန်ုပ်တို့၏ပံ့ပိုးကူညီမှုအဖွဲ့ထံသို့keshoraai@gmail.comတွင် ချွတ်ယွင်းချက်အစီရင်ခံစာများကို တိုက်ရိုက်အီးမေးလ်ပို့နိုင်ပါသည်။ 'အကောင့်နှင့် အသုံးပြုမှု' တဘ်ရှိ အကူအညီဝစ်ဂျက်ကို နှိပ်ခြင်းဖြင့် ပြဿနာကို ရှာဖွေဖော်ထုတ်ရာတွင် အထောက်အကူဖြစ်စေရန် တိုးချဲ့မှုအသေးစိတ်များပါရှိသော ပံ့ပိုးမှုပုံစံကို ကြိုတင်ဖြည့်ပေးပါမည်။",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "'Quota Exceeded' လို့ ဘာကြောင့် ပြောတာလဲ။",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "'Quota ကျော်လွန်သည်' သတိပေးချက်သည် သင့်အစီအစဉ်၏ အသက်ဝင်နေသော စက်ဝန်းအတွက် သင်ချထားပေးထားသော အသုံးပြုမှုကို သုံးစွဲသွားပြီဟု ဆိုလိုသည်- အခမဲ့အသုံးပြုသူများသည် နေ့စဉ်ပြန်လည်ရေးသားမှု 5 ခုသာ ကန့်သတ်ထားပါသည်။ အပတ်စဉ်အသုံးပြုသူများသည် ပြန်လည်ရေးသားမှု ၁၄၀ ရရှိသည်။ လစဉ် Pro အသုံးပြုသူများသည် ပြန်လည်ရေးသားခြင်း 600 ရရှိသည်။ နှင့် နှစ်အလိုက် Ultimate အသုံးပြုသူများသည် ပြန်လည်ရေးသားမှု 9,000 ရရှိသည်။ စက်ဝန်းအပေါ် အခြေခံ၍ ခွဲတမ်းများကို အလိုအလျောက် ပြန်လည်သတ်မှတ်သည် (နေ့စဉ် ဒေသစံတော်ချိန် ညသန်းခေါင်အချိန်၊ သို့မဟုတ် အပတ်စဉ်/လစဉ်/နှစ်အလိုက် နယ်နိမိတ်များပေါ်တွင်)။ ဝန်ဆောင်မှုကိုချက်ချင်းပြန်လည်စတင်ရန်အတွက် 'အကောင့်နှင့်အသုံးပြုမှု' စာမျက်နှာတွင် ပိုမိုမြင့်မားသောအဆင့်သို့ အဆင့်မြှင့်နိုင်ပါသည်။",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "တင်ပို့နေသည်...",
+    "description": "Locale key: exportingStatus"
+  }
+}

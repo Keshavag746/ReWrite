@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "إعادة الكتابة في أي مكان - أداة إعادة كتابة النصوص بالذكاء الاصطناعي",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "قم بتمييز النص في أي مكان. أعد الكتابة على الفور باستخدام الذكاء الاصطناعي.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "افتح لوحة أوامر إعادة كتابة الذكاء الاصطناعي",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "إعادة كتابة الذكاء الاصطناعي →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ تحسين الكتابة",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ إصلاح القواعد",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 اجعلها احترافية",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 كن ودودًا",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 اجعله رسميًا",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 اجعلها غير رسمية",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 اجعل مقنعًا",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 كن واثقًا",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 أنسنة",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ موجه مخصص...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ تحسين",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ القواعد",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 احترافية",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 ودية",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 رسمي",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 كاجوال",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 مقنعة",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 واثق",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ تقصير",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 توسيع",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 تبسيط",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 أنسنة",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡مخصص",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "جار التحميل...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "إعادة كتابة النص في أي مكان",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "قم بتسجيل الدخول باستخدام Google لبدء إعادة كتابة النص على أي موقع ويب باستخدام الذكاء الاصطناعي.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "تسجيل الدخول...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 قم بتسجيل الدخول باستخدام جوجل",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ برو",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "مجاني",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "الاستخدام اليومي",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(غير محدود)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 حدد نصًا في أي صفحة → انقر فوق الزر ✨ لإعادة الكتابة. أو اضغط علىCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 افتح السجل والإعدادات",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "تسجيل الخروج",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "فشل تسجيل الدخول",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "فشلت إعادة الكتابة",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "هذا القسم قيد الإنشاء حاليًا.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "الرجاء تسجيل الدخول لعرض الإعدادات.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "الحساب والاستخدام",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "إعادة كتابة التاريخ",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "الإعدادات",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "تحميل",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "المساعدة والأسئلة الشائعة",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "إعادة كتابة لوحة القيادة بالذكاء الاصطناعي",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "التكوين العام",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "موضوع الواجهة",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "الوضع المظلم",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "وضع الضوء",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "نغمة إعادة الكتابة الافتراضية",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ مسح كل التاريخ",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "لا يوجد إعادة كتابة حتى الآن",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "قم بتمييز النص في أي صفحة وانقر على ✨ للبدء. سيظهر تاريخك هنا.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "هل أنت متأكد أنك تريد حذف عنصر سجل إعادة الكتابة هذا؟",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "هل أنت متأكد أنك تريد حذف سجل إعادة الكتابة بالكامل بشكل دائم؟ لا يمكن التراجع عن هذا.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "فشل حذف العنصر:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "فشل في مسح السجل:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "النص الأصلي",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "إعادة كتابة النص",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ حذف",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 نسخة معاد كتابتها",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ منقول!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "تحميل عمليات إعادة الكتابة القديمة",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "الدعم والاستفسارات التجارية",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "تواصل معنا على:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "الأسئلة المتداولة",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "للحصول على مساعدة أو للإبلاغ عن خطأ",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "البريد الإلكترونيkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "الحد المجاني اليومي",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "الطبقة المجانية: 5 عمليات إعادة كتابة/اليوم. إعادة تعيين يوميا في منتصف الليل.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "أعد كتابة النص في أي مكان بلا حدود.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "دفعة إعادة كتابة كل المحتوى الخاص بك. المزامنة مع السحابة. لا قيود.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 عرض المتبني المبكر: زيادة السعر التالية عند 500 مستخدم مميز. قفل في هذا المعدل مدى الحياة!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 سوق الولايات المتحدة ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 السوق الهندي (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "المدفوعات بالدولار الأمريكي قيد الصيانة حاليًا. يرجى التبديل إلى خطة السوق الهندية (₹) أو الاتصال بنا علىkeshoraai@gmail.comللحصول على المساعدة.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "أسبوعيا",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(فقط 57 سنتًا / يوم)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "شهرية ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(فقط 33 سنتًا / يوم)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "سنوي 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(فقط 21 سنت / يوم)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(فقط 21 روبية هندية / يوم)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(فقط 13 روبية هندية / يوم)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(فقط 8 روبية هندية / يوم)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ أسبوع",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ شهر",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ سنة",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "جيد للاستخدام في بعض الأحيان",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "يختار معظم المستخدمين هذه الخطة",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "أفضل قيمة لمستخدمي الطاقة",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "الأكثر شعبية",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "أفضل قيمة - شهرين مجانًا",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ تقييم 5.0 • 🔒 المدفوعات الآمنة • ✔️ إلغاء في أي وقت",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "هل أنت طالب أو باحث لا تستطيع تحمل تكاليف الاشتراك؟ يرجى إرسال بريد إلكتروني إلىkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "هل لديك مفتاح ترخيص بالفعل؟",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "أدخل مفتاح الترخيص...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "تفعيل",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 إعادة كتابة في الأسبوع",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "فتح إعادة الكتابة المجمعة",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "الوصول إلى الإعدادات المميزة",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "جي درايف، دروببوإكس سينك",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "مواضيع متميزة",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "منظمة المجلدات الذكية",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "تجربة خالية من الإعلانات",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 إعادة كتابة شهريا",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9000 إعادة كتابة في السنة",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "خصم 50% على الإضافات الأخرى",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "أولوية دعم البريد الإلكتروني",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "تنسيق التصدير",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "يتوفر تصدير PDF فقط في الخطة المجانية. يرجى الترقية إلى Pro/Premium لفتح تنسيقات التصدير الأخرى.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "تنسيق اسم الملف",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "اختر كيفية تسمية الملفات المصدرة.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "إعادة كتابة السجل - التاريخ (على سبيل المثال، RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "عنوان مخصص",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "أدخل اسم الملف المخصص...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "تصدير الملف المحلي",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "احفظه في Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "احفظه في Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "النسخ الاحتياطي السحابي متاح فقط على الخطط المدفوعة. يرجى الترقية إلى Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "تم إلغاء مصادقة Dropbox.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "فشل في الحصول على رمز الوصول إلى Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "فشلت مصادقة Google Drive.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "فشل تحميل Google Drive:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "خطأ في واجهة برمجة تطبيقات Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "لم يتم العثور على سجل للتصدير.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "التاريخ منسق بشكل جميل ونسخه إلى الحافظة!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "تم حفظ السجل بشكل آمن في Dropbox الخاص بك!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "تم حفظ السجل بشكل آمن على Google Drive الخاص بك!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "اكتمل التصدير!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "أعد الكتابة باستخدام الذكاء الاصطناعي",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "إعادة كتابة الذكاء الاصطناعي",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "إغلاق",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "النص الأصلي",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "حدد وضعًا لإعادة الكتابة...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "استبدال",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "نسخ",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ منقول",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ أعد المحاولة",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "حفظ",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "يتوفر وضع \"التحسين\" فقط في الخطة المجانية. يرجى الترقية إلى Pro لفتح جميع الأوضاع الثلاثة عشر.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "يتوفر وضع \"التحسين\" فقط في الخطة المجانية. يرجى الترقية إلى Pro/Premium لفتح جميع أوضاع إعادة الكتابة الـ 13.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI إعادة كتابة لوحة الأوامر",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ خطة مجانية (المطالبات المخصصة مقفلة)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "تم قفل المطالبة المخصصة على الخطة المجانية...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "على سبيل المثال أعد الكتابة لـ LinkedIn، اجعل هذا مقنعًا...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "يتوفر وضع \"التحسين\" فقط في الخطة المجانية. يرجى الترقية إلى Pro/Premium لفتح جميع الميزات.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "يتوفر وضع \"التحسين\" فقط في الخطة المجانية. يرجى الترقية إلى Pro/Premium لفتح جميع الأوضاع.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 التاريخ",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ الإعدادات",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "لا يوجد إعادة كتابة حتى الآن.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "قم بتمييز النص في أي صفحة وانقر على ✨ للبدء.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "الأصل:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ إعادة الكتابة:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "تحميل المزيد",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "الحساب",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "يعيد الكتابة اليوم",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "يعيد",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "نشط ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "محرك الذكاء الاصطناعي",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ محرك إعادة كتابة الذكاء الاصطناعي",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "كيف يمكنني إعادة كتابة النص على موقع ويب؟",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "ما عليك سوى تمييز أو تحديد أي نص على أي صفحة ويب. سيظهر زر العصا السحرية العائمة ('✨') تلقائيًا بالقرب من المؤشر. يؤدي النقر فوق هذا الرمز إلى فتح نافذة إعادة الكتابة التفاعلية المنبثقة، حيث يمكنك تحديد نغمة إعادة الكتابة (مثل تحسين أو نحوي أو احترافي أو غير رسمي أو توسيع أو تقصير) للسماح للذكاء الاصطناعي بإعادة كتابة المحتوى نيابةً عنك. يمكنك أيضًا تشغيل الواجهة عبر اختصار Command Palette (Ctrl+Shift+Pعلى نظامي التشغيل Windows/Linux أوCmd+Shift+Pعلى نظام التشغيل macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "ما هي نماذج الذكاء الاصطناعي المدعومة؟",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "نحن ندعم حاليًا أحدث برامج LLM بما في ذلك نماذج GPT الخاصة بـ OpenAI (على سبيل المثال، GPT-4o-mini)، ونماذج Gemini من Google، وAnthropic's Claude، وGroq مفتوحة المصدر (مثل Llama 3) لمعالجة النصوص بسرعة البرق وعالية الأداء.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "هل بياناتي آمنة؟",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "نعم، الخصوصية هي الأولوية الأساسية. نحن نقوم فقط بمعالجة النص المحدد الذي تحدده لإعادة كتابته. يتم نقل النص بأمان إلى واجهة برمجة التطبيقات الخلفية لدينا لتنفيذ الطلب. نحن لا نقوم بتخزين سجل سجل النص الخاص بك على المدى الطويل على خوادمنا، ولا نشاركه مع أطراف ثالثة أو نستخدمه لتدريب نماذج الذكاء الاصطناعي. بالإضافة إلى ذلك، يعمل الامتداد في بيئة محمية لضمان حماية سجل التصفح الشخصي الخاص بك.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "ما هو الفرق بين الخطط المجانية والبرو؟",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "توفر الخطة المجانية 5 عمليات إعادة كتابة يوميًا، وتقتصر حصريًا على \"تحسين\" النغمة وتنسيق التنزيل/التصدير \"PDF\". يتم أيضًا قفل عمليات تكامل Dropbox وGoogle Drive. تفتح الخطط المدفوعة (الأسبوعية، والشهرية الاحترافية، والسنوية Ultimate) جميع النغمات الستة، وجميع تنسيقات التنزيل الستة (PDF، وMarkdown، وTXT، وIMG، وJSON، وClipboard Copy)، وعمليات تكامل النسخ الاحتياطي السحابي للحصول على تجربة متميزة وخالية من القيود.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "لماذا يتم قفل بعض نغمات إعادة الكتابة وتنسيقات التصدير والنسخ الاحتياطية السحابية على الخطة المجانية؟",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "يتطلب تشغيل أحدث نماذج الذكاء الاصطناعي (مثل GPT-4o-mini وGemini وClaude) وإدارة المزامنة السحابية بنية تحتية كبيرة للخادم وقوة حوسبة وتكاليف مباشرة لواجهة برمجة التطبيقات (API) لكل إجراء. لجعل خدمتنا مستدامة مع الاستمرار في تقديم خيار مجاني يعمل بكامل طاقته، تغطي الخطة المجانية المتطلبات الأساسية (5 عمليات إعادة كتابة يومية باستخدام نغمة \"التحسين\" وإنشاء ملفات PDF محلية). تدعم خطط الاشتراك تكاليف النغمات المتميزة (النحوية، والمهنية، والعادية، والتوسيع، والتقصير)، والموصلات السحابية (Dropbox، وGoogle Drive)، والتصديرات المتعددة التنسيقات (Markdown، TXT، IMG، JSON، COPY)، مما يضمن قدرتنا على دعم الأداء العالي والتحديثات النشطة والخصوصية الصارمة بدون إعلانات.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "كيف أقوم بتنشيط مفتاح الترخيص الخاص بي؟",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "بعد إكمال عملية شراء الاشتراك، الصق مفتاح الترخيص الخاص بك في حقل التحقق من صحة المفتاح أسفل صفحة \"الحساب والاستخدام\" على لوحة المعلومات وانقر على \"تنشيط الترخيص\". سيتم تحديث تفاصيل خطة حسابك على الفور في مساحة تخزين المتصفح لديك.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "هل يعمل هذا على محرّر مستندات Google أو Notion؟",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "نعم، الامتداد متوافق تمامًا مع المحررين المشهورين وبوابات النصوص الغنية مثل Google Docs وNotion وGmail وLinkedIn وSlack web وTwitter/X. إذا تم تعطيل الزر العائم في تطبيق مخصص، فيمكنك استخدام اختصار لوحة المفاتيح Command Palette لإعادة كتابة اختيارك.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "هل يمكنني استخدام مفتاح API الخاص بي؟",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "لتوفير تجربة توصيل وتشغيل سلسة، تتم تغطية جميع تكاليف استخدام واجهة برمجة التطبيقات (API) بالكامل بموجب خطة الاشتراك الخاصة بك. حاليًا، لا تحتاج إلى تكوين مفاتيح API الخاصة بك. ومع ذلك، فإننا نخطط لدعم تكوينات واجهة برمجة التطبيقات المخصصة للمستخدم في التحديث المستقبلي الموجه للمطورين.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "كيف أقوم بتغيير نغمة إعادة الكتابة الافتراضية؟",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "يمكنك ضبط نغمة إعادة الكتابة الافتراضية الخاصة بك في علامة التبويب \"الإعدادات\" بلوحة الخيارات هذه. سيؤدي حفظ تفضيلاتك إلى تعيين تلك النغمة تلقائيًا عند النقر على أيقونة العصا السحرية، على الرغم من أنه لا يزال بإمكانك تبديل النغمات في النافذة المنبثقة عند الحاجة.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "لماذا لا يظهر الزر العائم في بعض الأحيان؟",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "يتطلب زر العصا السحرية حدًا أدنى لطول النص لمنع التراكبات غير المقصودة. علاوة على ذلك، تمنع سياسات أمان المتصفح القياسية بشكل صارم إدخال المحتوى في بعض الصفحات المميزة، مثل سوق Chrome الإلكتروني (chrome.google.com) وصفحات التكوين الداخلية (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "هل يمكنني نسخ النص المعاد كتابته دون استبدال النص الأصلي؟",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "نعم، داخل النافذة العائمة المنبثقة لإعادة الكتابة، يمكنك النقر فوق أيقونة \"نسخ\". يؤدي هذا إلى نسخ النسخة المعاد كتابتها حديثًا مباشرة إلى الحافظة الخاصة بك، مما يسمح لك بلصقها في أي مكان تريد دون استبدال المحتوى الأصلي على صفحة الويب أو التأثير عليه.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "كيف يمكنني إلغاء اشتراكي؟",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "يمكنك إدارة اشتراكك أو إلغاؤه في أي وقت عن طريق النقر فوق رابط بوابة فواتير العملاء الموجود في رسالة تأكيد الشراء الإلكترونية. إذا لم تتمكن من تحديد موقع البريد الإلكتروني، فاتصل بنا علىkeshoraai@gmail.comوسنساعدك.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "ماذا تفعل نغمة \"التوسيع\"؟",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "تستخدم نغمة \"التوسيع\" الذكاء التوليدي لبناء النص المحدد وتوضيحه، وإضافة تفاصيل غنية وسياق وبنية نحوية مناسبة للأفكار القصيرة أو النقاط أو العبارات مع الحفاظ على الهدف الأصلي سليمًا.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "هل تقدم خصم للطلاب؟",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "نعم، نحن ندعم الطلاب والمعلمين والباحثين الأكاديميين. نحن نقدم خصمًا بنسبة 30٪ على جميع خطط الاشتراك المدفوعة. راسلنا عبر البريد الإلكتروني علىkeshoraai@gmail.comمن عنوان البريد الإلكتروني الرسمي لمدرستك أو جامعتك (.edu أو المجال الأكاديمي) لطلب رمز الخصم الخاص بك.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "هل هناك خيار إعادة الكتابة بالجملة؟",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "نعم، يمكن لمستخدمي الطبقة المميزة الاستفادة من إعادة الكتابة المجمعة. بدلاً من تحديد مقاطع فردية، يمكنك فتح اللوحة الجانبية للامتداد ولصق المستندات أو الفقرات بأكملها لتعديلها دفعة واحدة.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "كيف يمكنني الإبلاغ عن خطأ؟",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "يمكنك إرسال تقارير الأخطاء عبر البريد الإلكتروني مباشرة إلى فريق الدعم لدينا علىkeshoraai@gmail.com. سيؤدي النقر على أداة المساعدة في علامة التبويب \"الحساب والاستخدام\" إلى تعبئة نموذج دعم مسبقًا يحتوي على تفاصيل الإضافة لمساعدتنا في تشخيص المشكلة.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "لماذا يقول \"تم تجاوز الحصة\"؟",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "يعني تحذير \"تجاوز الحصة\" أنك استهلكت الاستخدام المخصص للدورة النشطة لخطتك: يقتصر المستخدمون المجانيون على 5 عمليات إعادة كتابة يومية؛ يحصل المستخدمون الأسبوعيون على 140 إعادة كتابة؛ يحصل مستخدمو Pro شهريًا على 600 عملية إعادة كتابة؛ ويتلقى مستخدمو Ultimate السنوي 9000 إعادة كتابة. يتم إعادة تعيين الحصص تلقائيًا بناءً على الدورة (يوميًا عند منتصف الليل بالتوقيت المحلي، أو على الحدود الأسبوعية/الشهرية/السنوية). يمكنك الترقية إلى مستوى أعلى في صفحة \"الحساب والاستخدام\" لاستئناف الخدمة على الفور.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "يتم التصدير...",
+    "description": "Locale key: exportingStatus"
+  }
+}

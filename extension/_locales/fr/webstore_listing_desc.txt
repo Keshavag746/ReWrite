@@ -1,0 +1,44 @@
+✨ Réécrivez instantanément du texte n'importe où sur le Web à l'aide d'une IA de pointe.
+
+Fatigué de copier et coller du texte dans les fenêtres de discussion pour corriger votre écriture ? Avec AI Rewrite Anywhere, vous pouvez surligner ou sélectionner n'importe quel texte sur n'importe quel site Web (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, etc.) et le réécrire instantanément.
+
+Alimentée par une chaîne de repli d'IA intelligente utilisant des modèles de langages étendus de premier plan (notamment OpenAI GPT, Google Gemini, Anthropic Claude et Groq open-source Llama), l'extension garantit une disponibilité maximale et des réponses ultra-rapides en acheminant automatiquement les demandes vers le prochain fournisseur disponible en cas d'interruption de service.
+
+🚀 PRINCIPALES CARACTÉRISTIQUES :
+- 🖱️ Surligner et réécrire : surlignez simplement le texte sur n'importe quelle page Web. Un bouton de baguette magique flottant apparaît à côté de votre curseur. Cliquez dessus pour réécrire instantanément.
+- 🖱️ Intégration du menu contextuel : cliquez avec le bouton droit sur n'importe quelle sélection pour accéder à 13 modes de réécriture distincts directement depuis le menu contextuel du navigateur.
+- ⌨️ Palette de commandes (Ctrl+Shift+K) : ouvrez une interface rapide et centrée sur le clavier pour saisir des invites personnalisées ou déclencher des préréglages rapides sans toucher la souris.
+- 📋 Historique et paramètres complets de réécriture : accédez à un magnifique panneau latéral de tableau de bord pour consulter les réécritures passées, exporter les journaux dans plusieurs formats et configurer les préférences.
+- 🔄 Repli transparent de l'IA : profitez d'un service ininterrompu. Si le modèle principal échoue, l’extension passe automatiquement au modèle disponible suivant de manière transparente.
+- 🔐 Connexion sécurisée à Google : authentification rapide et protégée qui synchronise vos paramètres sur tous les appareils en toute sécurité.
+
+🎯 13 MODES DE RÉÉCRITURE DYNAMIQUE :
+1. Améliorer : peaufiner automatiquement la structure d'écriture et le vocabulaire.
+2. Grammaire : corrigez les erreurs d’orthographe, de ponctuation et de syntaxe.
+3. Professionnel : Élevez votre langue pour la correspondance professionnelle.
+4. Convivial : ajoutez de la chaleur et de l'accessibilité à vos messages.
+5. Formel : Ajustez la formulation des documents officiels et des lettres commerciales.
+6. Décontracté : créez un texte conversationnel détendu pour les environnements sociaux.
+7. Persuasif : structurez les idées pour convaincre, présenter ou commercialiser efficacement.
+8. Confiant : certitude du projet, autorité et forte conviction.
+9. Raccourcir : condensez les longs paragraphes en points saillants concis.
+10. Développez : énoncez et développez des puces ou des phrases courtes.
+11. Simplifiez : traduisez le jargon ou les pensées complexes dans un langage clair et lisible.
+12. Humaniser : Restructurer les brouillons de l'IA robotique pour les lire naturellement.
+13. Invite personnalisée : saisissez exactement ce que vous voulez que l'IA fasse avec la sélection.
+
+📂 FORMATS D'EXPORTATION PREMIUM :
+Exportez votre historique de réécriture localement ou synchronisez-le directement avec les services cloud :
+- PDF (gratuit et premium)
+- Démarquage (MD)
+-TXT
+-Image (IMG)
+-JSON
+- Copie du Presse-papiers
+- Intégration Cloud : enregistrez directement sur Dropbox ou Google Drive.
+
+🔒 CONFIDENTIALITÉ ET SÉCURITÉ PAR CONCEPTION :
+La confidentialité est notre principal engagement. Nous traitons uniquement le texte spécifique que vous sélectionnez pour une réécriture active. Votre sélection est transmise en toute sécurité via le cryptage SSL à notre API backend pour exécuter la demande et n'est pas stockée à long terme sur nos serveurs. Votre historique de navigation personnel est entièrement protégé.
+
+📧 CONTACT & ASSISTANCE :
+Vous avez des questions, des suggestions ou des rapports de bogues ? Contactez-nous directement àkeshoraai@gmail.com. Nous nous engageons à des mises à jour régulières et des demandes de fonctionnalités !

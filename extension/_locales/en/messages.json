@@ -1,0 +1,806 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Highlight text anywhere. Rewrite instantly with AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Open AI Rewrite command palette",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Improve Writing",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Fix Grammar",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Make Professional",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Make Friendly",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Make Formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Make Casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Make Persuasive",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Make Confident",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanize",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Custom Prompt...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Improve",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Grammar",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Professional",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Friendly",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Casual",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Persuasive",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Confident",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Shorten",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Expand",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Simplify",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanize",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Custom",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Rewrite text anywhere",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Sign in with Google to start rewriting text on any website with AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Signing in...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Sign in with Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Free",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Daily Usage",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(unlimited)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Select text on any page → click the ✨ button to rewrite. Or press Ctrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Open History & Settings",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Sign Out",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Login failed",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Rewrite failed",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "This section is currently under construction.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Please sign in to view settings.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Account & Usage",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Rewrite History",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Settings",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Download",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Help & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "General Configuration",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Interface Theme",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Dark Mode",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Light Mode",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Default Rewrite Tone",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Clear All History",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "No rewrites yet",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Highlight text on any page and click ✨ to get started. Your history will appear here.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Are you sure you want to delete this rewrite history item?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Are you sure you want to permanently delete your entire rewrite history? This cannot be undone.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Failed to delete item: ",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Failed to clear history: ",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Original Text",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Rewritten Text",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Delete",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Copy Rewritten",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Copied!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Load older rewrites",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Support & Business Inquiries",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Reach out at: ",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Frequently Asked Questions",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "For help or to report a bug",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Email keshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Daily Free Limit",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Free tier: 5 rewrites/day. Resets daily at midnight.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Rewrite text anywhere without limits.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch rewrite all your content. Sync to the cloud. No restrictions.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter Offer: Next price increase at 500 Premium users. Lock in this rate for life!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 US Market ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indian Market (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "US Dollar payments are currently under maintenance. Please switch to the Indian Market (₹) plan or contact us at keshoraai@gmail.com for assistance.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Weekly",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Just 57¢ / day)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Monthly ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Just 33¢ / day)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Yearly 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Just 21¢ / day)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Just ₹21 / day)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Just ₹13 / day)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Just ₹8 / day)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ week",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ month",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ year",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Good for occasional use",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Most users choose this plan",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Best value for power users",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "MOST POPULAR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "BEST VALUE - 2 MONTHS FREE",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Rating • 🔒 Secure Payments • ✔️ Cancel anytime",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Are you a student or researcher who can't afford a subscription? Please email keshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Already have a license key?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Enter license key...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activate",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Rewrites per week",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Unlock Bulk Rewrite",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Premium Settings Access",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium Themes",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Smart Folder Organization",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Ad-free Experience",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Rewrites per month",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 Rewrites per year",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% off other extensions",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Priority Email Support",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Export Format",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Only PDF export is available on the free plan. Please upgrade to Pro/Premium to unlock other export formats.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Filename Format",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Choose how exported files are named.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Rewrite History - Date (e.g. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Custom Title",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Enter custom filename...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Export Local File",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Save to Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Save to Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "exportingStatus": {
+    "message": "Exporting...",
+    "description": "Locale key: exportingStatus"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Cloud backup is only available on paid plans. Please upgrade to Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox authentication cancelled.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Failed to obtain Dropbox access token.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive authentication failed.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive upload failed: ",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API Error ",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "No history found to export.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "History beautifully formatted and copied to clipboard!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "History securely saved to your Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "History securely saved to your Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Export complete!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Rewrite with AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Close",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Original text",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Select a mode to rewrite...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Replace",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Copy",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Copied",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Retry",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Save",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Only the \"Improve\" mode is available on the free plan. Please upgrade to Pro to unlock all 13 modes.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Only the \"Improve\" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all 13 rewrite modes.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Free Plan (Custom prompts locked)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Custom prompt is locked on Free Plan...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "e.g. Rewrite for LinkedIn, Make this persuasive...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Only the \"Improve\" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all features.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Only the \"Improve\" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all modes.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 History",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Settings",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "No rewrites yet.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Highlight text on any page and click ✨ to get started.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Original:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Rewritten:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Load more",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Account",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Rewrites today",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Resets ",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Active ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI Engine",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "btnSignInToSubscribe": {
+    "message": "Sign in to Subscribe",
+    "description": "Locale key: btnSignInToSubscribe"
+  },
+  "faq_q_0": {
+    "message": "How do I rewrite text on a website?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Simply highlight or select any text on any webpage. A floating magic wand button ('✨') will automatically appear near your cursor. Clicking this icon opens the interactive rewrite popup, where you can select a rewrite tone (such as Improve, Grammar, Professional, Casual, Expand, or Shorten) to let the AI rewrite the content for you. You can also trigger the interface via the Command Palette shortcut (Ctrl+Shift+P on Windows/Linux or Cmd+Shift+P on macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Which AI models are supported?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "We currently support state-of-the-art LLMs including OpenAI's GPT (e.g., GPT-4o-mini), Google's Gemini, Anthropic's Claude, and Groq open-source models (such as Llama 3) for high-performance, lightning-fast text processing.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Is my data secure?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Yes, privacy is a core priority. We only process the specific text you select for rewriting. The text is safely transmitted to our backend API to perform the request. We do not store your text log history long-term on our servers, nor do we share it with third parties or use it to train AI models. Additionally, the extension runs in a sandboxed environment to ensure your personal browsing history is protected.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "What is the difference between Free and Pro plans?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "The Free plan provides 5 rewrites per day, restricted exclusively to the 'Improve' tone and 'PDF' download/export format. Dropbox and Google Drive integrations are also locked. Paid plans (Weekly, Monthly Pro, and Yearly Ultimate) unlock all 6 tones, all 6 download formats (PDF, Markdown, TXT, IMG, JSON, and Clipboard Copy), and cloud backup integrations for a premium, restriction-free experience.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Why are certain rewrite tones, export formats, and cloud backups locked on the Free plan?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Running state-of-the-art AI models (such as GPT-4o-mini, Gemini, and Claude) and managing cloud synchronization requires substantial server infrastructure, compute power, and direct API costs for every action. To make our service sustainable while still offering a fully functional free option, the Free plan covers basic requirements (5 daily rewrites with the 'Improve' tone and local PDF generation). The subscription plans subsidize the costs of premium tones (Grammar, Professional, Casual, Expand, Shorten), cloud connectors (Dropbox, Google Drive), and multiple format exports (Markdown, TXT, IMG, JSON, COPY), ensuring we can support high performance, active updates, and strict privacy without ads.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "How do I activate my license key?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "After completing your subscription purchase, paste your license key in the key validation field at the bottom of the 'Account & Usage' page on the dashboard and click 'Activate License'. Your account plan details will instantly update in your browser storage.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Does this work on Google Docs or Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Yes, the extension is fully compatible with popular editors and rich text portals like Google Docs, Notion, Gmail, LinkedIn, Slack web, and Twitter/X. If the floating button is disabled on a custom application, you can use the Command Palette keyboard shortcut to rewrite your selection.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Can I use my own API key?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "To provide a seamless, plug-and-play experience, all API usage costs are fully covered under your subscription plan. Currently, you do not need to configure your own API keys. However, we plan to support custom user API configurations in a future developer-oriented update.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "How do I change the default rewrite tone?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "You can set your default rewrite tone in the Settings tab of this options panel. Saving your preference will automatically default to that tone when clicking the magic wand icon, though you can still switch tones in the popup when needed.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Why doesn't the floating button appear sometimes?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "The magic wand button requires a minimum selection length of text to prevent accidental overlays. Furthermore, standard browser security policies strictly block content injections on certain privileged pages, such as the Chrome Web Store (chrome.google.com) and internal configuration pages (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Can I copy the rewritten text without replacing the original?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Yes, inside the floating rewrite popup, you can click the 'Copy' icon. This copies the newly rewritten version straight to your clipboard, allowing you to paste it anywhere you like without replacing or affecting the original content on the webpage.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "How do I cancel my subscription?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "You can manage or cancel your subscription at any time by clicking the customer billing portal link provided in your purchase confirmation email. If you cannot locate the email, contact us at keshoraai@gmail.com and we will assist you.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "What does 'Expand' tone do?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "The 'Expand' tone uses generative intelligence to build out and elaborate on your selected text, adding rich details, context, and proper grammatical structure to short thoughts, bullet points, or phrases while keeping the original intent intact.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Do you offer a student discount?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Yes, we support students, educators, and academic researchers. We offer a 30% discount across all paid subscription plans. Email us at keshoraai@gmail.com from your official school or university email address (.edu or academic domain) to request your discount code.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Is there a bulk rewrite option?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Yes, premium tier users can make use of bulk rewriting. Instead of selecting individual segments, you can open the extension side panel and paste entire documents or paragraphs to modify them in one go.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "How do I report a bug?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "You can email bug reports directly to our support team at keshoraai@gmail.com. Clicking the help widget in the 'Account & Usage' tab will pre-populate a support template containing extension details to help us diagnose the issue.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Why does it say 'Quota Exceeded'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "A 'Quota Exceeded' warning means you have consumed your allotted usage for your plan's active cycle: Free users are limited to 5 daily rewrites; Weekly users get 140 rewrites; Monthly Pro users get 600 rewrites; and Yearly Ultimate users receive 9,000 rewrites. Quotas reset automatically based on the cycle (daily at midnight local time, or on rolling weekly/monthly/yearly boundaries). You can upgrade to a higher tier on the 'Account & Usage' page to resume service immediately.",
+    "description": "Locale key: faq_a_16"
+  }
+}

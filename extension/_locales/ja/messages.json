@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "どこでも書き換え - AI テキスト リライター",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "任意の場所のテキストを強調表示します。 AIで瞬時に書き換える。",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewriteコマンドパレットを開く",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AIリライト→",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ ライティングを改善する",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ 文法を修正する",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 プロフェッショナルになる",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 フレンドリーにしましょう",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 フォーマルにする",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 カジュアルにする",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 説得力を持たせる",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 自信を持ってください",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 人間化",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ カスタム プロンプト...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨改善する",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ 文法",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼プロフェッショナル",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 フレンドリー",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 フォーマル",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 カジュアル",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 説得力がある",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪自信あり",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️短くする",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 拡大する",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 簡素化",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 人間化",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ カスタム",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "読み込み中...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "どこでもテキストを書き換える",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Google でサインインすると、あらゆる Web サイト上のテキストを AI で書き換えることができます。",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "サインイン中...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Googleでサインイン",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ プロ",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "無料",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "毎日の使用量",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(無制限)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 任意のページのテキストを選択 → ✨ ボタンをクリックして書き換えます。またはCtrl+Shift+Kを押してください",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 履歴と設定を開く",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "サインアウト",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "ログインに失敗しました",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "書き換えに失敗しました",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "このセクションは現在建設中です。",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "設定を表示するにはサインインしてください。",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "アカウントと使用法",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "履歴を書き換える",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "設定",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ダウンロード",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "ヘルプとよくある質問",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AIリライトダッシュボード",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "一般的な構成",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "インターフェースのテーマ",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "ダークモード",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "ライトモード",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "デフォルトの書き換えトーン",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ すべての履歴をクリア",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "まだ書き換えはありません",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "任意のページのテキストを強調表示し、「✨」をクリックして開始します。ここにあなたの履歴が表示されます。",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "この書き換え履歴項目を削除してもよろしいですか?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "書き換え履歴全体を完全に削除してもよろしいですか?これを元に戻すことはできません。",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "アイテムの削除に失敗しました:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "履歴をクリアできませんでした:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "原文",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "書き換えられたテキスト",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️削除",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 コピーが書き直されました",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ コピーされました!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "古いリライトをロードする",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "サポート＆ビジネスのお問い合わせ",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "連絡先:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "よくある質問",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "ヘルプまたはバグの報告が必要な場合",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "keshoraai@gmail.comにメールで送信する",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "毎日の無料制限",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "無料枠: 1 日あたり 5 回の書き換え。毎日午前0時にリセットされます。",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "制限なくどこでもテキストを書き換えることができます。",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "すべてのコンテンツをバッチで書き換えます。クラウドに同期します。制限はありません。",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 早期導入者オファー: 500 プレミアム ユーザーで次回の価格が引き上げられます。このレートを一生固定してください!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 米国市場 ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 インディアン マーケット (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "米ドルでの支払いは現在メンテナンス中です。 Indian Market (₹) プランに切り替えるか、keshoraai@gmail.comまでお問い合わせください。",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "毎週",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(1日あたりたったの57¢)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "月刊⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(1日あたりたったの33¢)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "毎年💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(1日たったの21¢)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(1 日あたりわずか ₹21)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(1 日あたりわずか ₹13)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(1 日あたりわずか ₹8)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/週",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/月",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/年",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "たまに使うのに良い",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "ほとんどのユーザーがこのプランを選択します",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "パワーユーザーにとって最高の価値",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "最も人気のある",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ベストバリュー - 2 か月間無料",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 評価 • 🔒 安全な支払い • ✔️ いつでもキャンセル可能",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "あなたは定期購読料を支払う余裕のない学生または研究者ですか?keshoraai@gmail.comにメールしてください",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "すでにライセンス キーをお持ちですか?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "ライセンスキーを入力してください...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "アクティブ化",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "1週間あたり140回のリライト",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "一括書き換えのロックを解除する",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "プレミアム設定へのアクセス",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive、Dropbox同期",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "プレミアムテーマ",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "スマートフォルダーの構成",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "広告なしのエクスペリエンス",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "1 か月あたり 600 件のリライト",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "年間 9,000 回の書き換え",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "他の拡張機能が 50% オフ",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "優先メールサポート",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "エクスポート形式",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "無料プランではPDFエクスポートのみ可能です。他のエクスポート形式のロックを解除するには、Pro/Premium にアップグレードしてください。",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "ファイル名の形式",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "エクスポートされたファイルに名前を付ける方法を選択します。",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "書き換え履歴 - 日付 (例: RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "カスタムタイトル",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "カスタム ファイル名を入力してください...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "ローカルファイルのエクスポート",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox に保存 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google ドライブに保存します ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "クラウドバックアップは有料プランでのみ利用可能です。 Pro/Premium にアップグレードしてください。",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropboxの認証が解除されました。",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox アクセス トークンの取得に失敗しました。",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Googleドライブの認証に失敗しました。",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google ドライブのアップロードに失敗しました:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API エラー",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "エクスポートする履歴が見つかりません。",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "履歴が美しくフォーマットされてクリップボードにコピーされました。",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "履歴は Dropbox に安全に保存されます。",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "履歴は Google ドライブに安全に保存されます。",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "エクスポートが完了しました！",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AIで書き換える",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AIリライト",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "閉じる",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "原文",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "書き換えるモードを選択してください...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "交換する",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "コピー",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ コピーされました",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ 再試行",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "保存",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "無料プランでは「改善」モードのみご利用いただけます。 13 モードすべてのロックを解除するには、Pro にアップグレードしてください。",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "無料プランでは「改善」モードのみご利用いただけます。 13 個すべての書き換えモードのロックを解除するには、Pro/Premium にアップグレードしてください。",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI書き換えコマンドパレット",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ 無料プラン (カスタムプロンプトはロックされています)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "無料プランではカスタム プロンプトがロックされています...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "例: LinkedIn 用に書き直して、説得力のあるものにしてください...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "無料プランでは「改善」モードのみご利用いただけます。すべての機能を利用するには、Pro/Premium にアップグレードしてください。",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "無料プランでは「改善」モードのみご利用いただけます。すべてのモードのロックを解除するには、Pro/Premium にアップグレードしてください。",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 歴史",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️設定",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "まだ書き直しはありません。",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "任意のページのテキストを強調表示し、「✨」をクリックして開始します。",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "オリジナル:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→書き直しました：",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "さらにロードする",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "アカウント",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "今日書き直します",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "リセット",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "アクティブ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AIエンジン",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI書き換えエンジン",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Web サイト上のテキストを書き換えるにはどうすればよいですか?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Web ページ上のテキストをハイライト表示または選択するだけです。カーソルの近くに浮かぶ魔法の杖ボタン (「✨」) が自動的に表示されます。このアイコンをクリックすると、インタラクティブな書き換えポップアップが開き、書き換えトーン (改善、文法、プロフェッショナル、カジュアル、拡張、短縮など) を選択して、AI にコンテンツを書き換えさせることができます。コマンド パレットのショートカット (Windows/Linux の場合はCtrl+Shift+P、macOS の場合はCmd+Shift+P) を使用してインターフェイスをトリガーすることもできます。",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "どの AI モデルがサポートされていますか?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "現在、OpenAI の GPT (GPT-4o-mini など)、Google の Gemini、Anthropic の Claude、Groq オープンソース モデル (Llama 3 など) を含む最先端の LLM をサポートしており、高性能で超高速のテキスト処理を実現しています。",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "私のデータは安全ですか?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "はい、プライバシーは最優先事項です。書き換え対象として選択した特定のテキストのみが処理されます。テキストはバックエンド API に安全に送信され、リクエストが実行されます。当社は、テキスト ログ履歴を当社のサーバーに長期保存したり、第三者と共有したり、AI モデルのトレーニングに使用したりすることはありません。さらに、拡張機能はサンドボックス環境で実行され、個人の閲覧履歴が確実に保護されます。",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Free プランと Pro プランの違いは何ですか?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "無料プランでは 1 日あたり 5 回のリライトが可能で、「改善」トーンと「PDF」ダウンロード/エクスポート形式に限定されます。 Dropbox と Google Drive の統合もロックされています。有料プラン (ウィークリー、マンスリー プロ、およびイヤーリー Ultimate) では、6 つのトーンすべて、6 つのダウンロード形式すべて (PDF、Markdown、TXT、IMG、JSON、およびクリップボード コピー)、およびクラウド バックアップの統合のロックが解除され、プレミアムで制限のないエクスペリエンスが得られます。",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "特定の書き換えトーン、エクスポート形式、クラウド バックアップが無料プランでロックされているのはなぜですか?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "最先端の AI モデル (GPT-4o-mini、Gemini、Claude など) を実行し、クラウド同期を管理するには、すべてのアクションに相当なサーバー インフラストラクチャ、コンピューティング能力、および API の直接コストが必要です。完全に機能する無料オプションを提供しながらサービスを持続可能にするために、無料プランでは基本的な要件 (「改善」トーンによる毎日 5 回の書き換えとローカル PDF 生成) がカバーされています。サブスクリプション プランでは、プレミアム トーン (文法、プロフェッショナル、カジュアル、拡張、短縮)、クラウド コネクタ (Dropbox、Google Drive)、および複数形式のエクスポート (Markdown、TXT、IMG、JSON、COPY) のコストを補助し、広告なしで高性能、アクティブな更新、および厳格なプライバシーをサポートできるようにします。",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "ライセンス キーをアクティベートするにはどうすればよいですか?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "サブスクリプションの購入が完了したら、ダッシュボードの「アカウントと使用状況」ページの下部にあるキー検証フィールドにライセンス キーを貼り付け、「ライセンスをアクティブ化」をクリックします。アカウント プランの詳細は、ブラウザのストレージ内で即座に更新されます。",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "これは Google Docs または Notion で機能しますか?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "はい、この拡張機能は、Google Docs、Notion、Gmail、LinkedIn、Slack Web、Twitter/X などの一般的なエディターやリッチ テキスト ポータルと完全な互換性があります。カスタム アプリケーションでフローティング ボタンが無効になっている場合は、コマンド パレットのキーボード ショートカットを使用して選択内容を書き換えることができます。",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "自分の API キーを使用できますか?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "シームレスなプラグアンドプレイ エクスペリエンスを提供するために、すべての API 使用コストはサブスクリプション プランで全額カバーされます。現時点では、独自の API キーを構成する必要はありません。ただし、将来の開発者向けのアップデートでカスタム ユーザー API 構成をサポートする予定です。",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "デフォルトの書き換えトーンを変更するにはどうすればよいですか?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "このオプション パネルの [設定] タブでデフォルトの書き換えトーンを設定できます。設定を保存すると、魔法の杖アイコンをクリックすると自動的にそのトーンがデフォルトになりますが、必要に応じてポップアップでトーンを切り替えることもできます。",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "フローティング ボタンが時々表示されないのはなぜですか?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "魔法の杖ボタンでは、偶発的なオーバーレイを防ぐために、テキストの最小選択長が必要です。さらに、標準のブラウザ セキュリティ ポリシーは、Chrome Web ストア (chrome.google.com) や内部設定ページ (chrome://) などの特定の特権ページへのコンテンツ インジェクションを厳しくブロックします。",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "元のテキストを置き換えずに、書き換えられたテキストをコピーできますか?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "はい、フローティング書き換えポップアップ内で、「コピー」アイコンをクリックできます。これにより、新しく書き換えられたバージョンがクリップボードに直接コピーされ、Web ページ上の元のコンテンツを置き換えたり影響を与えたりすることなく、好きな場所に貼り付けることができます。",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "サブスクリプションをキャンセルするにはどうすればよいですか?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "購入確認メールに記載されている顧客請求ポータルのリンクをクリックすると、いつでもサブスクリプションを管理またはキャンセルできます。メールが見つからない場合は、keshoraai@gmail.comまでご連絡ください。サポートさせていただきます。",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "「拡張」トーンは何をしますか?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "「拡張」トーンは、生成インテリジェンスを使用して、選択したテキストを構築して詳しく説明し、元の意図をそのままにしながら、短い考え、箇条書き、またはフレーズに豊かな詳細、コンテキスト、および適切な文法構造を追加します。",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "学生割引はありますか？",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "はい、私たちは学生、教育者、学術研究者をサポートしています。すべての有料サブスクリプション プランに対して 30% 割引を提供します。割引コードをリクエストするには、学校または大学の公式電子メール アドレス (.edu または学術ドメイン) からkeshoraai@gmail.comまで電子メールを送信してください。",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "一括書き換えオプションはありますか?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "はい、プレミアム層のユーザーは一括書き換えを利用できます。個々のセグメントを選択する代わりに、拡張機能のサイド パネルを開いてドキュメント全体または段落を貼り付けて、一度に変更することができます。",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "バグを報告するにはどうすればよいですか?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "バグ レポートは、サポート チーム (keshoraai@gmail.com) に直接電子メールで送信できます。 [アカウントと使用状況] タブのヘルプ ウィジェットをクリックすると、問題の診断に役立つ拡張機能の詳細を含むサポート テンプレートが事前に入力されます。",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "「割り当てを超過しました」と表示されるのはなぜですか?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "「クォータ超過」の警告は、プランのアクティブなサイクルに割り当てられた使用量を消費したことを意味します。無料ユーザーの場合、1 日の書き換えは 5 回に制限されています。毎週のユーザーは 140 回のリライトを受けます。 Monthly Pro ユーザーは 600 回の書き換えが可能です。年間 Ultimate ユーザーは 9,000 回のリライトを受けられます。クォータは、サイクル (現地時間の毎日午前 0 時、または毎週、毎月、毎年の境界に基づいて) に基づいて自動的にリセットされます。 「アカウントと使用状況」ページで上位レベルにアップグレードすると、サービスをすぐに再開できます。",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "エクスポート実行中",
+    "description": "Locale key: exportingStatus"
+  }
+}

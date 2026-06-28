@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Označite besedilo kjer koli. Takoj prepišite z AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Odprite ukazno paleto AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Prepiši →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Izboljšajte pisanje",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Popravi slovnico",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Naredite profesionalno",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Bodite prijazni",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Bodite formalni",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Naj bo ležerno",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Naj bodo prepričljivi",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Bodite samozavestni",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humaniziraj",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Poziv po meri ...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Izboljšajte",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Slovnica",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesionalno",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Prijazni",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Uradno",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Ležerno",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Prepričljivo",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Samozavestni",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Skrajšajte",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Razširi",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Poenostavite",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanizirajte",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Po meri",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Nalaganje...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Prepišite besedilo kjer koli",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Prijavite se z Googlom, da začnete prepisovati besedilo na katerem koli spletnem mestu z AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Prijava ...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Prijavite se z Googlom",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Brezplačno",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Dnevna uporaba",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(neomejeno)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Izberite besedilo na kateri koli strani → kliknite gumb ✨ za prepis. Ali pritisniteCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Odprite Zgodovino in nastavitve",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Odjava",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Prijava ni uspela",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Ponovno pisanje ni uspelo",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Ta del je trenutno v izdelavi.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Za ogled nastavitev se prijavite.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Račun in uporaba",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Ponovno napišite zgodovino",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "nastavitve",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Prenos",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Pomoč in pogosta vprašanja",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Splošna konfiguracija",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Tema vmesnika",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Temni način",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Svetlobni način",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Privzeti ton prepisovanja",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Počisti vso zgodovino",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Brez prepisov še",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Označite besedilo na kateri koli strani in kliknite ✨, da začnete. Vaša zgodovina bo prikazana tukaj.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Ali ste prepričani, da želite izbrisati ta element zgodovine ponovnega pisanja?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Ali ste prepričani, da želite trajno izbrisati celotno zgodovino ponovnega pisanja? Tega ni mogoče razveljaviti.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Elementa ni bilo mogoče izbrisati:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Zgodovine ni bilo mogoče izbrisati:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Izvirno besedilo",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Prepisano besedilo",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Izbriši",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopiraj prepisano",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kopirano!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Naloži starejše prepise",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Podpora in poslovna vprašanja",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Obrnite se na:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Pogosto zastavljena vprašanja",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Za pomoč ali prijavo napake",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-poštakeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Dnevna brezplačna omejitev",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Brezplačna stopnja: 5 prepisov/dan. Ponastavi se vsak dan ob polnoči.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Prepišite besedilo kjer koli brez omejitev.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Paketno prepišite vso svojo vsebino. Sinhronizacija z oblakom. Brez omejitev.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ponudba za zgodnje uporabnike: Naslednje zvišanje cene pri 500 Premium uporabnikih. Zaklenite to stopnjo za vse življenje!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Ameriški trg ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indijska tržnica (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Plačila v ameriških dolarjih trenutno potekajo. Za pomoč preklopite na paket Indian Market (₹) ali nas kontaktirajte nakeshoraai@gmail.com.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Tedensko",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Samo 57 ¢ / dan)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Mesečno ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Samo 33 ¢ / dan)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Letno 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Samo 21 ¢ / dan)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Samo ₹21/dan)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Samo ₹13/dan)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Samo ₹8 / dan)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ teden",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ mesec",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ leto",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Dobro za občasno uporabo",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Večina uporabnikov se odloči za ta načrt",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Najboljša vrednost za napredne uporabnike",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "NAJBOLJ PRILJUBLJENO",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "NAJBOLJŠA VREDNOST - 2 MESECA BREZPLAČNO",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Ocena 5,0 • 🔒 Varna plačila • ✔️ Prekličite kadar koli",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ste študent ali raziskovalec, ki si ne more privoščiti naročnine? Pošljite e-pošto nakeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Že imate licenčni ključ?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Vnesite licenčni ključ ...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktiviraj",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 prepisov na teden",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Odkleni množično prepisovanje",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Premium dostop do nastavitev",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium teme",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Pametna organizacija map",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Izkušnja brez oglasov",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 prepisov na mesec",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 prepisov na leto",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% popusta na druge razširitve",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Prednostna podpora po e-pošti",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Izvozni format",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "V brezplačnem načrtu je na voljo samo izvoz PDF. Nadgradite na Pro/Premium, da odklenete druge formate za izvoz.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Oblika imena datoteke",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Izberite, kako se poimenujejo izvožene datoteke.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Ponovno pisanje zgodovine – datum (npr. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Naslov po meri",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Vnesite ime datoteke po meri ...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Izvozi lokalno datoteko",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Shrani v Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Shrani v Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Varnostno kopiranje v oblak je na voljo samo pri plačljivih paketih. Nadgradite na Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Preverjanje pristnosti Dropbox preklicano.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Pridobitev žetona za dostop Dropbox ni uspela.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Preverjanje pristnosti Google Drive ni uspelo.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Nalaganje v Google Drive ni uspelo:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Napaka Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Zgodovina za izvoz ni bila najdena.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Zgodovina je lepo oblikovana in kopirana v odložišče!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Zgodovina je varno shranjena v vašem Dropboxu!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Zgodovina je varno shranjena v vaš Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Izvoz končan!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Prepišite z AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Zapri",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Izvirno besedilo",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Izberite način za ponovno pisanje ...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Zamenjaj",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopiraj",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kopirano",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Poskusi znova",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Shrani",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "V brezplačnem načrtu je na voljo samo način »Izboljšaj«. Nadgradite na Pro, da odklenete vseh 13 načinov.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "V brezplačnem načrtu je na voljo samo način »Izboljšaj«. Nadgradite na Pro/Premium, da odklenete vseh 13 načinov prepisovanja.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Brezplačni načrt (pozivi po meri so zaklenjeni)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Poziv po meri je zaklenjen v brezplačnem načrtu ...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "npr. Prepišite za LinkedIn, naredite to prepričljivo ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "V brezplačnem načrtu je na voljo samo način »Izboljšaj«. Nadgradite na Pro/Premium, da odklenete vse funkcije.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "V brezplačnem načrtu je na voljo samo način »Izboljšaj«. Za odklepanje vseh načinov nadgradite na Pro/Premium.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Zgodovina",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Nastavitve",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Brez prepisov še.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Označite besedilo na kateri koli strani in kliknite ✨, da začnete.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Original:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Prepisano:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Naloži več",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Račun",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Danes prepisuje",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Ponastavi",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktiven ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Motor AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Kako prepišem besedilo na spletni strani?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Preprosto označite ali izberite poljubno besedilo na kateri koli spletni strani. Gumb lebdeče čarobne palice ('✨') se bo samodejno prikazal blizu vašega kazalca. S klikom na to ikono se odpre interaktivno pojavno okno za ponovno pisanje, kjer lahko izberete ton za ponovno pisanje (kot je Izboljšaj, Slovnica, Profesionalno, Priložnostno, Razširi ali Skrajšaj), da AI prepiše vsebino namesto vas. Vmesnik lahko sprožite tudi prek bližnjice Command Palette (Ctrl+Shift+Pv sistemu Windows/Linux aliCmd+Shift+Pv sistemu macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Kateri modeli AI so podprti?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Trenutno podpiramo najsodobnejše LLM-je, vključno z odprtokodnimi modeli OpenAI GPT (npr. GPT-4o-mini), Googlovim Gemini, Anthropicovim Claudeom in Groqom (kot je Llama 3) za visoko zmogljivo in bliskovito hitro obdelavo besedila.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Ali so moji podatki varni?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Da, zasebnost je glavna prednostna naloga. Obdelamo samo določeno besedilo, ki ga izberete za prepis. Besedilo se varno prenese v naš zaledni API za izvedbo zahteve. Vaše zgodovine besedilnega dnevnika ne shranjujemo dolgoročno na naših strežnikih, niti je ne delimo s tretjimi osebami ali je uporabljamo za usposabljanje modelov AI. Poleg tega se razširitev izvaja v peskovniku, da zagotovi zaščito vaše osebne zgodovine brskanja.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Kakšna je razlika med paketoma Free in Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Brezplačni načrt omogoča 5 prepisov na dan, omejenih izključno na »Izboljšani« ton in format za prenos/izvoz »PDF«. Zaklenjeni sta tudi integraciji Dropbox in Google Drive. Plačljivi načrti (Tedenski, Mesečni Pro in Letni Ultimate) odklenejo vseh 6 tonov, vseh 6 formatov za prenos (PDF, Markdown, TXT, IMG, JSON in Clipboard Copy) in integracije varnostnega kopiranja v oblaku za vrhunsko izkušnjo brez omejitev.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Zakaj so nekateri toni prepisovanja, izvozni formati in varnostne kopije v oblaku zaklenjeni v brezplačnem paketu?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Izvajanje najsodobnejših modelov umetne inteligence (kot so GPT-4o-mini, Gemini in Claude) in upravljanje sinhronizacije v oblaku zahteva precejšnjo infrastrukturo strežnika, računalniško moč in neposredne stroške API-ja za vsako dejanje. Da bi bila naša storitev trajnostna, hkrati pa še vedno ponuja popolnoma funkcionalno brezplačno možnost, brezplačni načrt pokriva osnovne zahteve (5 dnevnih prepisov s tonom »Izboljšaj« in lokalno ustvarjanje PDF). Naročniški načrti subvencionirajo stroške vrhunskih tonov (Grammar, Professional, Casual, Expand, Shorten), povezovalnikov v oblaku (Dropbox, Google Drive) in izvozov več formatov (Markdown, TXT, IMG, JSON, COPY), kar zagotavlja, da lahko podpiramo visoko zmogljivost, aktivne posodobitve in strogo zasebnost brez oglasov.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Kako aktiviram svoj licenčni ključ?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Ko zaključite nakup naročnine, prilepite licenčni ključ v polje za preverjanje ključa na dnu strani »Račun in uporaba« na nadzorni plošči in kliknite »Aktiviraj licenco«. Podrobnosti vašega načrta računa se bodo takoj posodobile v shrambi vašega brskalnika.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Ali to deluje v Google Dokumentih ali Notionu?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Da, razširitev je popolnoma združljiva s priljubljenimi urejevalniki in portali z obogatenim besedilom, kot so Google Docs, Notion, Gmail, LinkedIn, Slack web in Twitter/X. Če je plavajoči gumb onemogočen v aplikaciji po meri, lahko uporabite bližnjico na tipkovnici Command Palette, da prepišete svoj izbor.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Ali lahko uporabim svoj ključ API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Da bi zagotovili brezhibno izkušnjo plug-and-play, so vsi stroški uporabe API-ja v celoti pokriti z vašim naročniškim načrtom. Trenutno vam ni treba konfigurirati lastnih ključev API. Vendar nameravamo v prihodnji posodobitvi, usmerjeni v razvijalce, podpreti konfiguracije uporabniškega API-ja po meri.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Kako spremenim privzeti ton prepisovanja?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Privzeti ton prepisovanja lahko nastavite na zavihku Nastavitve na tej plošči z možnostmi. Če shranite svojo nastavitev, bo ta ton samodejno privzet, ko kliknete ikono čarobne paličice, čeprav lahko po potrebi še vedno zamenjate tone v pojavnem oknu.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Zakaj se lebdeči gumb včasih ne prikaže?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Gumb čarobne paličice zahteva minimalno dolžino izbire besedila, da prepreči nenamerno prekrivanje. Poleg tega standardni varnostni pravilniki brskalnika strogo blokirajo vstavljanje vsebine na določene privilegirane strani, kot so spletna trgovina Chrome (chrome.google.com) in notranje konfiguracijske strani (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Ali lahko kopiram prepisano besedilo, ne da bi zamenjal izvirnik?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Da, znotraj plavajočega pojavnega okna za ponovno pisanje lahko kliknete ikono »Kopiraj«. To kopira novo prepisano različico naravnost v odložišče, kar vam omogoča, da jo prilepite kamor koli želite, ne da bi zamenjali ali vplivali na izvirno vsebino na spletni strani.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Kako prekličem naročnino?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Svojo naročnino lahko kadar koli upravljate ali prekličete tako, da kliknete povezavo do portala za obračun strank, ki je navedena v potrditvenem e-poštnem sporočilu o nakupu. Če ne najdete e-pošte, nas kontaktirajte nakeshoraai@gmail.comin pomagali vam bomo.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Kaj naredi ton »Razširi«?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Ton »Razširi« uporablja generativno inteligenco za gradnjo in izpopolnjevanje vašega izbranega besedila, dodajanje bogatih podrobnosti, konteksta in pravilne slovnične strukture kratkim mislim, točkam ali besednim zvezam, pri čemer ohranja prvotni namen nedotaknjen.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Ali ponujate študentski popust?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Da, podpiramo študente, učitelje in akademske raziskovalce. Ponujamo 30% popust na vse plačljive naročnine. Pošljite nam e-pošto nakeshoraai@gmail.coms svojega uradnega e-poštnega naslova šole ali univerze (.edu ali akademska domena), da zahtevate kodo za popust.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Ali obstaja možnost množičnega prepisovanja?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Da, uporabniki premium ravni lahko uporabljajo množično prepisovanje. Namesto da izberete posamezne segmente, lahko odprete stransko ploščo razširitve in prilepite celotne dokumente ali odstavke, da jih spremenite naenkrat.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Kako prijavim napako?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Poročila o napakah lahko po e-pošti pošljete neposredno naši skupini za podporo nakeshoraai@gmail.com. Če kliknete pripomoček za pomoč na zavihku »Račun in uporaba«, boste vnaprej izpolnili predlogo za podporo, ki vsebuje podrobnosti razširitve, ki nam bodo v pomoč pri diagnosticiranju težave.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Zakaj piše 'Kvota presežena'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Opozorilo 'Kvota presežena' pomeni, da ste porabili svojo dodeljeno porabo za aktivni cikel vašega načrta: brezplačni uporabniki so omejeni na 5 dnevnih prepisov; Tedenski uporabniki prejmejo 140 prepisov; Mesečni uporabniki Pro prejmejo 600 prepisov; uporabniki letnega Ultimate pa prejmejo 9000 prepisov. Kvote se samodejno ponastavijo glede na cikel (vsak dan ob polnoči po lokalnem času ali na tekočih tedenskih/mesečnih/letnih mejah). Na strani »Račun in uporaba« lahko nadgradite na višjo raven in takoj nadaljujete s storitvijo.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Izvozi...",
+    "description": "Locale key: exportingStatus"
+  }
+}

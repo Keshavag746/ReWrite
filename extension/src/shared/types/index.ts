@@ -15,7 +15,7 @@ export type RewriteMode =
 
 export type AIModel = 'gpt-oss-120b' | 'groq-llama' | 'claude-sonnet' | 'gemini-2.5-flash' | 'gpt-5-mini';
 
-export type UserPlan = 'free' | 'pro';
+export type UserPlan = 'free' | 'pro' | 'weekly' | 'monthly' | 'yearly';
 
 export interface RewriteRequest {
   text: string;

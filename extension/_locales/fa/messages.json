@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "متن را در هر جایی برجسته کنید. فوراً با هوش مصنوعی بازنویسی کنید.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "پالت فرمان AI Rewrite را باز کنید",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI بازنویسی →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ نوشتن را بهبود ببخشید",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ اصلاح گرامر",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 حرفه ای کنید",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 دوستانه بسازید",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 رسمی کنید",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 کژوال بسازید",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 متقاعد کننده شوید",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 اعتماد به نفس داشته باشید",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 انسان سازی کنید",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ درخواست سفارشی...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ بهبود",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ گرامر",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 حرفه ای",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 دوستانه",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 رسمی",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 اتفاقی",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 متقاعد کننده",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 با اعتماد به نفس",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ کوتاه کنید",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 گسترش دهید",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 ساده کنید",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 انسان سازی کنید",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ سفارشی",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "در حال بارگیری...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "متن را در هر جایی بازنویسی کنید",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "برای شروع بازنویسی متن در هر وب سایتی با هوش مصنوعی، با Google وارد شوید.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "ورود به سیستم...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 با گوگل وارد شوید",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ حرفه ای",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "رایگان",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "استفاده روزانه",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(نامحدود)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 متن را در هر صفحه انتخاب کنید → برای بازنویسی روی دکمه ✨ کلیک کنید. یاCtrl+Shift+Kرا فشار دهید",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 تاریخچه و تنظیمات را باز کنید",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "از سیستم خارج شوید",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "ورود ناموفق بود",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "بازنویسی انجام نشد",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "این بخش در حال حاضر در حال ساخت است.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "لطفا برای مشاهده تنظیمات وارد شوید.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "حساب و استفاده",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "بازنویسی تاریخ",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "تنظیمات",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "دانلود کنید",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "راهنما و سوالات متداول",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "داشبورد بازنویسی هوش مصنوعی",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "پیکربندی عمومی",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "تم رابط",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "حالت تاریک",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "حالت نور",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "آهنگ بازنویسی پیش‌فرض",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ تمام تاریخچه را پاک کنید",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "هنوز بازنویسی نشده است",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "متن را در هر صفحه برجسته کنید و برای شروع روی ✨ کلیک کنید. سابقه شما در اینجا ظاهر می شود.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "آیا مطمئن هستید که می خواهید این مورد تاریخچه بازنویسی را حذف کنید؟",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "آیا مطمئن هستید که می خواهید برای همیشه کل تاریخچه بازنویسی خود را حذف کنید؟ این قابل واگرد نیست.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "مورد حذف نشد:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "تاریخچه پاک نشد:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "متن اصلی",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "متن بازنویسی شده",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ حذف کنید",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 کپی بازنویسی شده است",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ کپی شده!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "بازنویسی های قدیمی تر را بارگیری کنید",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "پشتیبانی و سوالات تجاری",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "تماس بگیرید:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "سوالات متداول",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "برای کمک یا گزارش یک اشکال",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "ایمیلkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "محدودیت روزانه رایگان",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "سطح رایگان: 5 بازنویسی در روز. هر روز در نیمه شب بازنشانی می شود.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "متن را در هر جایی بدون محدودیت بازنویسی کنید.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "دسته ای تمام محتوای خود را بازنویسی کنید. همگام سازی با ابر بدون محدودیت",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 پیشنهاد پذیرنده زودهنگام: افزایش قیمت بعدی در 500 کاربر Premium. این نرخ را برای زندگی قفل کنید!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 بازار ایالات متحده (دلار)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 بازار هند (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "پرداخت های دلار آمریکا در حال حاضر تحت مراقبت است. لطفاً به طرح بازار هند (₹) بروید یا برای راهنمایی با ما با شمارهkeshoraai@gmail.comتماس بگیرید.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "هفتگی",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(فقط 57¢ / روز)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "ماهانه ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(فقط 33¢ / روز)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "سالانه 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(فقط 21¢ / روز)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(فقط 21 روپیه در روز)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(فقط 13 روپیه در روز)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(فقط 8 روپیه در روز)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ هفته",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ ماه",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ سال",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "برای استفاده گاه به گاه خوب است",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "اکثر کاربران این طرح را انتخاب می کنند",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "بهترین ارزش برای کاربران قدرتمند",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "محبوب ترین",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "بهترین ارزش - 2 ماه رایگان",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ رتبه 5.0 • 🔒 پرداخت ایمن • ✔️ هر زمان خواستید لغو کنید",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "آیا شما دانشجو یا محققی هستید که توانایی پرداخت اشتراک را ندارید؟ لطفاً بهkeshoraai@gmail.comایمیل بزنید",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "آیا از قبل یک کلید مجوز دارید؟",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "کلید مجوز را وارد کنید...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "فعال کنید",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 بازنویسی در هفته",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "بازنویسی انبوه را باز کنید",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "دسترسی به تنظیمات حق بیمه",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive، Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "تم های ممتاز",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "سازماندهی پوشه هوشمند",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "تجربه بدون آگهی",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 بازنویسی در ماه",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9000 بازنویسی در سال",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% تخفیف سایر افزونه ها",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "پشتیبانی ایمیل اولویت دار",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "فرمت صادرات",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "فقط صادرات PDF در طرح رایگان در دسترس است. لطفاً برای باز کردن سایر قالب‌های صادراتی، آن را به Pro/Premium ارتقا دهید.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "فرمت نام فایل",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "نحوه نامگذاری فایل های صادر شده را انتخاب کنید.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "بازنویسی تاریخچه - تاریخ (به عنوان مثال RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "عنوان سفارشی",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "نام فایل سفارشی را وارد کنید...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "صادرات فایل محلی",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "ذخیره در Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "ذخیره در Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "پشتیبان‌گیری ابری فقط در طرح‌های پولی در دسترس است. لطفاً به Pro/Premium ارتقا دهید.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "احراز هویت Dropbox لغو شد.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "دریافت رمز دسترسی Dropbox ناموفق بود.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "احراز هویت Google Drive ناموفق بود.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "آپلود Google Drive انجام نشد:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "خطای Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "هیچ سابقه ای برای صادرات یافت نشد.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "تاریخچه به زیبایی فرمت شده و در کلیپ بورد کپی شده است!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "تاریخچه به طور ایمن در Dropbox شما ذخیره شده است!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "سابقه به طور ایمن در Google Drive شما ذخیره شد!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "صادرات کامل شد!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "با هوش مصنوعی بازنویسی کنید",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI بازنویسی",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "بستن",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "متن اصلی",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "یک حالت برای بازنویسی انتخاب کنید...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "جایگزین کنید",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "کپی کنید",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ کپی شده",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ دوباره امتحان کنید",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "ذخیره کنید",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "فقط حالت \"بهبود\" در طرح رایگان موجود است. لطفاً برای باز کردن قفل تمام 13 حالت، به Pro ارتقا دهید.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "فقط حالت \"بهبود\" در طرح رایگان موجود است. لطفاً به Pro/Premium ارتقا دهید تا تمام 13 حالت بازنویسی باز شود.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ طرح رایگان (اعلام سفارشی قفل شده است)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "درخواست سفارشی در طرح رایگان قفل شده است...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "به عنوان مثال برای لینکدین بازنویسی کنید، این را متقاعد کنید...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "فقط حالت \"بهبود\" در طرح رایگان موجود است. لطفاً برای باز کردن قفل همه ویژگی‌ها، به Pro/Premium ارتقا دهید.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "فقط حالت \"بهبود\" در طرح رایگان موجود است. لطفاً برای باز کردن قفل همه حالت‌ها، به Pro/Premium ارتقا دهید.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 تاریخچه",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ تنظیمات",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "هنوز بازنویسی نشده است",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "متن را در هر صفحه برجسته کنید و برای شروع روی ✨ کلیک کنید.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "اصل:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "← بازنویسی:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "بیشتر بارگیری کنید",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "حساب",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "امروز بازنویسی می کند",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "بازنشانی می کند",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "فعال ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "موتور هوش مصنوعی",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "چگونه می توانم متن را در یک وب سایت بازنویسی کنم؟",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "به سادگی هر متنی را در هر صفحه وب برجسته یا انتخاب کنید. یک دکمه چوب جادویی شناور ('✨') به طور خودکار در نزدیکی مکان نما ظاهر می شود. با کلیک بر روی این نماد، پنجره بازنویسی تعاملی باز می‌شود، جایی که می‌توانید یک آهنگ بازنویسی (مانند بهبود، گرامر، حرفه‌ای، گاه به گاه، گسترش یا کوتاه کردن) را انتخاب کنید تا به هوش مصنوعی اجازه دهید محتوا را برای شما بازنویسی کند. همچنین می توانید رابط را از طریق میانبر Command Palette (Ctrl+Shift+Pدر Windows/Linux یاCmd+Shift+Pدر macOS) فعال کنید.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "کدام مدل های هوش مصنوعی پشتیبانی می شوند؟",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "ما در حال حاضر از پیشرفته‌ترین LLM‌ها از جمله GPT OpenAI (مانند GPT-4o-mini)، مدل‌های Google's Gemini، Anthropic's Claude و Groq (مانند Llama 3) برای پردازش متن با کارایی بالا و سریع پشتیبانی می‌کنیم.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "آیا داده های من امن است؟",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "بله، حریم خصوصی یک اولویت اصلی است. ما فقط متن خاصی را که برای بازنویسی انتخاب کرده اید پردازش می کنیم. متن به طور ایمن به API پشتیبان ما برای انجام درخواست منتقل می شود. ما تاریخچه گزارش متن شما را به مدت طولانی در سرورهای خود ذخیره نمی کنیم و آن را با اشخاص ثالث به اشتراک نمی گذاریم یا از آن برای آموزش مدل های هوش مصنوعی استفاده نمی کنیم. علاوه بر این، برنامه افزودنی در یک محیط sandbox اجرا می شود تا از سابقه مرور شخصی شما محافظت شود.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "تفاوت بین برنامه های رایگان و پرو چیست؟",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "طرح رایگان روزانه 5 بازنویسی را ارائه می دهد که منحصراً به لحن «بهبود» و فرمت دانلود/صادرات «PDF» محدود می شود. ادغام های Dropbox و Google Drive نیز قفل هستند. برنامه‌های پولی (هفتگی، ماهانه حرفه‌ای و سالانه نهایی) قفل تمام 6 آهنگ، هر 6 فرمت دانلود (PDF، Markdown، TXT، IMG، JSON، و Clipboard Copy) و ادغام‌های پشتیبان‌گیری ابری را برای تجربه ممتاز و بدون محدودیت باز می‌کنند.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "چرا برخی از آهنگ‌های بازنویسی، فرمت‌های صادراتی و پشتیبان‌گیری‌های ابری در طرح رایگان قفل شده‌اند؟",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "اجرای مدل های پیشرفته هوش مصنوعی (مانند GPT-4o-mini، Gemini، و Claude) و مدیریت همگام سازی ابری به زیرساخت سرور قابل توجه، قدرت محاسباتی و هزینه های مستقیم API برای هر اقدام نیاز دارد. برای پایدار کردن خدمات ما در حالی که هنوز یک گزینه رایگان کاملاً کاربردی ارائه می‌کند، طرح رایگان الزامات اساسی را پوشش می‌دهد (5 بازنویسی روزانه با لحن «بهبود» و تولید PDF محلی). طرح‌های اشتراک هزینه‌های آهنگ‌های ممتاز (گرامر، حرفه‌ای، گاه به گاه، گسترش، کوتاه)، رابط‌های ابری (Dropbox، Google Drive) و صادرات چند فرمت (Markdown، TXT، IMG، JSON، COPY) را یارانه می‌دهد، و تضمین می‌کند که می‌توانیم از عملکرد بالا، به‌روزرسانی‌های فعال و حفظ حریم خصوصی سخت بدون تبلیغات پشتیبانی کنیم.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "چگونه کلید مجوز خود را فعال کنم؟",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "پس از تکمیل خرید اشتراک، کلید مجوز خود را در قسمت تأیید کلید در پایین صفحه «حساب و استفاده» در داشبورد قرار دهید و روی «فعال کردن مجوز» کلیک کنید. جزئیات طرح حساب شما فوراً در فضای ذخیره سازی مرورگر شما به روز می شود.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "آیا این در Google Docs یا Notion کار می کند؟",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "بله، برنامه افزودنی کاملاً با ویرایشگرهای محبوب و پورتال های متن غنی مانند Google Docs، Notion، Gmail، LinkedIn، Slack web و Twitter/X سازگار است. اگر دکمه شناور در یک برنامه سفارشی غیرفعال است، می توانید از میانبر صفحه کلید Command Palette برای بازنویسی انتخاب خود استفاده کنید.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "آیا می توانم از کلید API خودم استفاده کنم؟",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "برای ارائه یک تجربه بدون درز، plug-and-play، تمام هزینه های استفاده از API به طور کامل تحت طرح اشتراک شما پوشش داده می شود. در حال حاضر، نیازی به پیکربندی کلیدهای API خود ندارید. با این حال، ما قصد داریم از تنظیمات API کاربر سفارشی در به‌روزرسانی توسعه‌گرای آینده پشتیبانی کنیم.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "چگونه آهنگ بازنویسی پیش فرض را تغییر دهم؟",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "می‌توانید آهنگ پیش‌فرض بازنویسی خود را در تب تنظیمات این پانل گزینه‌ها تنظیم کنید. ذخیره تنظیمات برگزیده شما هنگام کلیک کردن روی نماد عصای جادویی به طور خودکار روی آن آهنگ پیش‌فرض می‌شود، اگرچه همچنان می‌توانید در صورت نیاز، آهنگ‌ها را در پنجره بازشو تغییر دهید.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "چرا گاهی اوقات دکمه شناور ظاهر نمی شود؟",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "دکمه عصای جادویی به حداقل طول متن برای جلوگیری از همپوشانی تصادفی نیاز دارد. علاوه بر این، خط‌مشی‌های استاندارد امنیتی مرورگر به‌شدت تزریق محتوا را در برخی از صفحات دارای امتیاز، مانند فروشگاه وب Chrome (chrome.google.com) و صفحات پیکربندی داخلی (chrome://) مسدود می‌کند.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "آیا می توانم متن بازنویسی شده را بدون جایگزین کردن متن اصلی کپی کنم؟",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "بله، در داخل پنجره بازنویسی شناور، می‌توانید روی نماد «کپی» کلیک کنید. این نسخه جدید بازنویسی شده را مستقیماً در کلیپ بورد شما کپی می کند و به شما امکان می دهد آن را در هر جایی که دوست دارید بدون جایگزین کردن یا تأثیرگذاری بر محتوای اصلی در صفحه وب جای گذاری کنید.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "چگونه اشتراک خود را لغو کنم؟",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "می‌توانید در هر زمان با کلیک روی پیوند پورتال صورت‌حساب مشتری ارائه شده در ایمیل تأیید خرید، اشتراک خود را مدیریت یا لغو کنید. اگر نمی توانید ایمیل را پیدا کنید، با ما درkeshoraai@gmail.comتماس بگیرید و ما به شما کمک خواهیم کرد.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "صدای \"Expand\" چه کاری انجام می دهد؟",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "لحن «بسط» از هوش مولد برای ایجاد و تشریح متن انتخابی شما استفاده می‌کند و جزئیات غنی، زمینه و ساختار گرامری مناسب را به افکار کوتاه، نقاط گلوله یا عبارات اضافه می‌کند و در عین حال هدف اصلی را دست نخورده نگه می‌دارد.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "آیا تخفیف دانشجویی می دهید؟",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "بله، ما از دانشجویان، مربیان و پژوهشگران دانشگاهی حمایت می کنیم. ما 30٪ تخفیف در تمام برنامه های اشتراک پولی ارائه می دهیم. برای درخواست کد تخفیف خود، از آدرس ایمیل رسمی مدرسه یا دانشگاه خود (.edu یا دامنه دانشگاهی) به آدرسkeshoraai@gmail.comایمیل بزنید.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "آیا گزینه بازنویسی انبوه وجود دارد؟",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "بله، کاربران سطح برتر می توانند از بازنویسی انبوه استفاده کنند. به‌جای انتخاب بخش‌های جداگانه، می‌توانید پانل کناری افزونه را باز کنید و کل اسناد یا پاراگراف‌ها را جای‌گذاری کنید تا آنها را یکباره تغییر دهید.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "چگونه یک اشکال را گزارش کنم؟",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "می‌توانید گزارش‌های اشکال را مستقیماً به تیم پشتیبانی ما درkeshoraai@gmail.comایمیل کنید. با کلیک بر روی ابزارک راهنما در برگه «حساب و استفاده» یک الگوی پشتیبانی حاوی جزئیات برنامه افزودنی از قبل پر می شود تا به ما در تشخیص مشکل کمک کند.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "چرا می گوید \"سهمیه فراتر رفت\"؟",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "اخطار «بیش از حد سهمیه» به این معنی است که شما مصرف اختصاص داده شده خود را برای چرخه فعال طرح خود مصرف کرده اید: کاربران رایگان به 5 بازنویسی روزانه محدود می شوند. کاربران هفتگی 140 بازنویسی دریافت می کنند. کاربران ماهانه Pro 600 بازنویسی دریافت می کنند. و کاربران Yearly Ultimate 9000 بازنویسی دریافت می کنند. سهمیه ها به طور خودکار بر اساس چرخه بازنشانی می شوند (روزانه در نیمه شب به وقت محلی، یا بر اساس مرزهای هفتگی/ماهانه/سالانه). می‌توانید در صفحه «حساب و استفاده» به سطح بالاتری ارتقا دهید تا خدمات را فوراً از سر بگیرید.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "در حال برون بری...",
+    "description": "Locale key: exportingStatus"
+  }
+}

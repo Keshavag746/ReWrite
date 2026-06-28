@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "ಎಲ್ಲಿಯಾದರೂ ಪುನಃ ಬರೆಯಿರಿ - AI ಪಠ್ಯ ಮರುಬರಹ",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "ಎಲ್ಲಿಯಾದರೂ ಪಠ್ಯವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ. AI ನೊಂದಿಗೆ ತಕ್ಷಣವೇ ಪುನಃ ಬರೆಯಿರಿ.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI ರಿರೈಟ್ ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್ ತೆರೆಯಿರಿ",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI ಪುನಃ ಬರೆಯಿರಿ →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ ಬರವಣಿಗೆಯನ್ನು ಸುಧಾರಿಸಿ",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ ವ್ಯಾಕರಣವನ್ನು ಸರಿಪಡಿಸಿ",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 ವೃತ್ತಿಪರರಾಗಿ",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 ಸೌಹಾರ್ದಯುತವಾಗಿ ವರ್ತಿಸಿ",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 ಫಾರ್ಮಲ್ ಮಾಡಿ",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 ಕ್ಯಾಶುಯಲ್ ಮಾಡಿ",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 ಮನವೊಲಿಸುವ ಹಾಗೆ ಮಾಡಿ",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 ಆತ್ಮವಿಶ್ವಾಸದಿಂದಿರಿ",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 ಮಾನವೀಯಗೊಳಿಸು",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ ಕಸ್ಟಮ್ ಪ್ರಾಂಪ್ಟ್...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ ಸುಧಾರಿಸಿ",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ ವ್ಯಾಕರಣ",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 ವೃತ್ತಿಪರ",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 ಸೌಹಾರ್ದ",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 ಔಪಚಾರಿಕ",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 ಕ್ಯಾಶುಯಲ್",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 ಮನವೊಲಿಸುವ",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 ಆತ್ಮವಿಶ್ವಾಸ",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ ಕಡಿಮೆ ಮಾಡಿ",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 ವಿಸ್ತರಿಸಿ",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 ಸರಳಗೊಳಿಸಿ",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 ಮಾನವೀಯಗೊಳಿಸು",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ ಕಸ್ಟಮ್",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "ಎಲ್ಲಿಯಾದರೂ ಪಠ್ಯವನ್ನು ಪುನಃ ಬರೆಯಿರಿ",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI ನೊಂದಿಗೆ ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪಠ್ಯವನ್ನು ಪುನಃ ಬರೆಯುವುದನ್ನು ಪ್ರಾರಂಭಿಸಲು Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "ಸೈನ್ ಇನ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ ಪ್ರೊ",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "ಉಚಿತ",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "ದೈನಂದಿನ ಬಳಕೆ",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ಅನಿಯಮಿತ)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 ಯಾವುದೇ ಪುಟದಲ್ಲಿ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ → ಪುನಃ ಬರೆಯಲು ✨ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ಅಥವಾCtrl+Shift+Kಒತ್ತಿರಿ",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 ಇತಿಹಾಸ ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "ಸೈನ್ ಔಟ್",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "ಪುನಃ ಬರೆಯಲು ವಿಫಲವಾಗಿದೆ",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "ಈ ವಿಭಾಗವು ಪ್ರಸ್ತುತ ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಲು ದಯವಿಟ್ಟು ಸೈನ್ ಇನ್ ಮಾಡಿ.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "ಖಾತೆ ಮತ್ತು ಬಳಕೆ",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "ಇತಿಹಾಸವನ್ನು ಪುನಃ ಬರೆಯಿರಿ",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "ಸಹಾಯ ಮತ್ತು FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI ರಿರೈಟ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "ಸಾಮಾನ್ಯ ಸಂರಚನೆ",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "ಇಂಟರ್ಫೇಸ್ ಥೀಮ್",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "ಡಾರ್ಕ್ ಮೋಡ್",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "ಲೈಟ್ ಮೋಡ್",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "ಡೀಫಾಲ್ಟ್ ರಿರೈಟ್ ಟೋನ್",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ ಎಲ್ಲಾ ಇತಿಹಾಸವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಪುನಃ ಬರೆಯಲಾಗಿಲ್ಲ",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "ಯಾವುದೇ ಪುಟದಲ್ಲಿ ಪಠ್ಯವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ ಮತ್ತು ಪ್ರಾರಂಭಿಸಲು ✨ ಕ್ಲಿಕ್ ಮಾಡಿ. ನಿಮ್ಮ ಇತಿಹಾಸವು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "ಈ ಪುನಃ ಬರೆಯುವ ಇತಿಹಾಸ ಐಟಂ ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಪುನಃ ಬರೆಯುವ ಇತಿಹಾಸವನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ? ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "ಐಟಂ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "ಇತಿಹಾಸವನ್ನು ತೆರವುಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "ಮೂಲ ಪಠ್ಯ",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "ಪುನಃ ಬರೆಯಲಾದ ಪಠ್ಯ",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ ಅಳಿಸಿ",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 ನಕಲು ಪುನಃ ಬರೆಯಲಾಗಿದೆ",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "ಹಳೆಯ ಮರುಬರಹಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "ಬೆಂಬಲ ಮತ್ತು ವ್ಯಾಪಾರ ವಿಚಾರಣೆಗಳು",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "ಇಲ್ಲಿಗೆ ತಲುಪಿ:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "ಸಹಾಯಕ್ಕಾಗಿ ಅಥವಾ ದೋಷವನ್ನು ವರದಿ ಮಾಡಲು",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "ಇಮೇಲ್keshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "ದೈನಂದಿನ ಉಚಿತ ಮಿತಿ",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "ಉಚಿತ ಶ್ರೇಣಿ: 5 ಪುನಃ ಬರೆಯುವುದು/ದಿನ. ಪ್ರತಿದಿನ ಮಧ್ಯರಾತ್ರಿಯಲ್ಲಿ ಮರುಹೊಂದಿಸುತ್ತದೆ.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "ಮಿತಿಯಿಲ್ಲದೆ ಎಲ್ಲಿಯಾದರೂ ಪಠ್ಯವನ್ನು ಪುನಃ ಬರೆಯಿರಿ.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "ಬ್ಯಾಚ್ ನಿಮ್ಮ ಎಲ್ಲಾ ವಿಷಯವನ್ನು ಪುನಃ ಬರೆಯಿರಿ. ಕ್ಲೌಡ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಿ. ಯಾವುದೇ ನಿರ್ಬಂಧಗಳಿಲ್ಲ.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 ಆರಂಭಿಕ ಅಡಾಪ್ಟರ್ ಆಫರ್: 500 ಪ್ರೀಮಿಯಂ ಬಳಕೆದಾರರಿಗೆ ಮುಂದಿನ ಬೆಲೆ ಹೆಚ್ಚಳ. ಜೀವನಕ್ಕಾಗಿ ಈ ದರವನ್ನು ಲಾಕ್ ಮಾಡಿ!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 US ಮಾರುಕಟ್ಟೆ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 ಭಾರತೀಯ ಮಾರುಕಟ್ಟೆ (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "US ಡಾಲರ್ ಪಾವತಿಗಳು ಪ್ರಸ್ತುತ ನಿರ್ವಹಣೆಯಲ್ಲಿವೆ. ದಯವಿಟ್ಟು ಭಾರತೀಯ ಮಾರುಕಟ್ಟೆ (₹) ಯೋಜನೆಗೆ ಬದಲಿಸಿ ಅಥವಾ ಸಹಾಯಕ್ಕಾಗಿkeshoraai@gmail.comನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "ಸಾಪ್ತಾಹಿಕ",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(ಕೇವಲ 57¢ / ದಿನ)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "ಮಾಸಿಕ ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(ಕೇವಲ 33¢ / ದಿನ)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "ವಾರ್ಷಿಕ 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(ಕೇವಲ 21¢ / ದಿನ)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(ಕೇವಲ ₹21 / ದಿನ)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(ಕೇವಲ ₹13 / ದಿನ)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(ಕೇವಲ ₹8 / ದಿನ)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ ವಾರ",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ ತಿಂಗಳು",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ ವರ್ಷ",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "ಸಾಂದರ್ಭಿಕ ಬಳಕೆಗೆ ಒಳ್ಳೆಯದು",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "ಹೆಚ್ಚಿನ ಬಳಕೆದಾರರು ಈ ಯೋಜನೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡುತ್ತಾರೆ",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "ವಿದ್ಯುತ್ ಬಳಕೆದಾರರಿಗೆ ಉತ್ತಮ ಮೌಲ್ಯ",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "ಅತ್ಯಂತ ಜನಪ್ರಿಯ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ಉತ್ತಮ ಮೌಲ್ಯ - 2 ತಿಂಗಳು ಉಚಿತ",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 ರೇಟಿಂಗ್ • 🔒 ಸುರಕ್ಷಿತ ಪಾವತಿಗಳು • ✔️ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ರದ್ದುಗೊಳಿಸಿ",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "ನೀವು ಚಂದಾದಾರಿಕೆಯನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗದ ವಿದ್ಯಾರ್ಥಿ ಅಥವಾ ಸಂಶೋಧಕರಾಗಿದ್ದೀರಾ? ದಯವಿಟ್ಟು ಇಮೇಲ್keshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "ಈಗಾಗಲೇ ಪರವಾನಗಿ ಕೀಲಿಯನ್ನು ಹೊಂದಿರುವಿರಾ?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "ಪರವಾನಗಿ ಕೀಲಿಯನ್ನು ನಮೂದಿಸಿ...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "ವಾರಕ್ಕೆ 140 ಪುನಃ ಬರೆಯುತ್ತಾರೆ",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "ಬಲ್ಕ್ ರಿರೈಟ್ ಅನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "ಪ್ರೀಮಿಯಂ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪ್ರವೇಶ",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, ಡ್ರಾಪ್‌ಬಾಕ್ಸ್ ಸಿಂಕ್",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "ಪ್ರೀಮಿಯಂ ಥೀಮ್‌ಗಳು",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಫೋಲ್ಡರ್ ಸಂಸ್ಥೆ",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "ಜಾಹೀರಾತು-ಮುಕ್ತ ಅನುಭವ",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "ತಿಂಗಳಿಗೆ 600 ಪುನಃ ಬರೆಯುತ್ತಾರೆ",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "ವರ್ಷಕ್ಕೆ 9,000 ಪುನಃ ಬರೆಯುತ್ತಾರೆ",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "ಇತರ ವಿಸ್ತರಣೆಗಳಲ್ಲಿ 50% ರಿಯಾಯಿತಿ",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "ಆದ್ಯತೆಯ ಇಮೇಲ್ ಬೆಂಬಲ",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "ರಫ್ತು ಸ್ವರೂಪ",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ PDF ರಫ್ತು ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಇತರ ರಫ್ತು ಸ್ವರೂಪಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಪ್ರೊ/ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "ಫೈಲ್ ಹೆಸರಿನ ಸ್ವರೂಪ",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "ರಫ್ತು ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಹೇಗೆ ಹೆಸರಿಸಲಾಗಿದೆ ಎಂಬುದನ್ನು ಆರಿಸಿ.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "ಇತಿಹಾಸವನ್ನು ಪುನಃ ಬರೆಯಿರಿ - ದಿನಾಂಕ (ಉದಾ. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "ಕಸ್ಟಮ್ ಶೀರ್ಷಿಕೆ",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "ಕಸ್ಟಮ್ ಫೈಲ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "ಸ್ಥಳೀಯ ಫೈಲ್ ಅನ್ನು ರಫ್ತು ಮಾಡಿ",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "ಡ್ರಾಪ್‌ಬಾಕ್ಸ್‌ಗೆ ಉಳಿಸಿ 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google ಡ್ರೈವ್‌ಗೆ ಉಳಿಸಿ ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "ಕ್ಲೌಡ್ ಬ್ಯಾಕಪ್ ಪಾವತಿಸಿದ ಯೋಜನೆಗಳಲ್ಲಿ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ದಯವಿಟ್ಟು ಪ್ರೊ/ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "ಡ್ರಾಪ್‌ಬಾಕ್ಸ್ ದೃಢೀಕರಣವನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "ಡ್ರಾಪ್‌ಬಾಕ್ಸ್ ಪ್ರವೇಶ ಟೋಕನ್ ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google ಡ್ರೈವ್ ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google ಡ್ರೈವ್ ಅಪ್‌ಲೋಡ್ ವಿಫಲವಾಗಿದೆ:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "ಡ್ರಾಪ್‌ಬಾಕ್ಸ್ API ದೋಷ",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "ರಫ್ತು ಮಾಡಲು ಯಾವುದೇ ಇತಿಹಾಸ ಕಂಡುಬಂದಿಲ್ಲ.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "ಇತಿಹಾಸವನ್ನು ಸುಂದರವಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "ನಿಮ್ಮ ಡ್ರಾಪ್‌ಬಾಕ್ಸ್‌ನಲ್ಲಿ ಇತಿಹಾಸವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಉಳಿಸಲಾಗಿದೆ!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "ನಿಮ್ಮ Google ಡ್ರೈವ್‌ನಲ್ಲಿ ಇತಿಹಾಸವನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಉಳಿಸಲಾಗಿದೆ!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "ರಫ್ತು ಪೂರ್ಣಗೊಂಡಿದೆ!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI ನೊಂದಿಗೆ ಪುನಃ ಬರೆಯಿರಿ",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI ಪುನಃ ಬರೆಯಿರಿ",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "ಮುಚ್ಚಿ",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "ಮೂಲ ಪಠ್ಯ",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "ಪುನಃ ಬರೆಯಲು ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "ಬದಲಾಯಿಸಿ",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "ನಕಲು ಮಾಡಿ",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ ನಕಲಿಸಲಾಗಿದೆ",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ ಮರುಪ್ರಯತ್ನಿಸಿ",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "ಉಳಿಸಿ",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ \"ಸುಧಾರಿಸು\" ಮೋಡ್ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಎಲ್ಲಾ 13 ಮೋಡ್‌ಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಪ್ರೊಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ \"ಸುಧಾರಿಸು\" ಮೋಡ್ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಎಲ್ಲಾ 13 ರಿರೈಟ್ ಮೋಡ್‌ಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಪ್ರೊ/ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI ರಿರೈಟ್ ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ ಉಚಿತ ಯೋಜನೆ (ಕಸ್ಟಮ್ ಪ್ರಾಂಪ್ಟ್‌ಗಳನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ ಕಸ್ಟಮ್ ಪ್ರಾಂಪ್ಟ್ ಲಾಕ್ ಆಗಿದೆ...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "ಉದಾ. ಲಿಂಕ್ಡ್‌ಇನ್‌ಗಾಗಿ ಪುನಃ ಬರೆಯಿರಿ, ಇದನ್ನು ಮನವೊಲಿಸುವ ಹಾಗೆ ಮಾಡಿ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ \"ಸುಧಾರಿಸು\" ಮೋಡ್ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಎಲ್ಲಾ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಪ್ರೊ/ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ \"ಸುಧಾರಿಸು\" ಮೋಡ್ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಎಲ್ಲಾ ಮೋಡ್‌ಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ದಯವಿಟ್ಟು ಪ್ರೊ/ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 ಇತಿಹಾಸ",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಪುನಃ ಬರೆಯಲಾಗಿಲ್ಲ.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "ಯಾವುದೇ ಪುಟದಲ್ಲಿ ಪಠ್ಯವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ ಮತ್ತು ಪ್ರಾರಂಭಿಸಲು ✨ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "ಮೂಲ:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ ಪುನಃ ಬರೆಯಲಾಗಿದೆ:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "ಹೆಚ್ಚು ಲೋಡ್ ಮಾಡಿ",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "ಖಾತೆ",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "ಇಂದು ಪುನಃ ಬರೆಯುತ್ತಾರೆ",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "ಮರುಹೊಂದಿಸುತ್ತದೆ",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "ಸಕ್ರಿಯ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI ಎಂಜಿನ್",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI ರಿರೈಟ್ ಎಂಜಿನ್",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಪಠ್ಯವನ್ನು ಪುನಃ ಬರೆಯುವುದು ಹೇಗೆ?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "ಯಾವುದೇ ವೆಬ್‌ಪುಟದಲ್ಲಿ ಯಾವುದೇ ಪಠ್ಯವನ್ನು ಸರಳವಾಗಿ ಹೈಲೈಟ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆಮಾಡಿ. ತೇಲುವ ಮ್ಯಾಜಿಕ್ ವಾಂಡ್ ಬಟನ್ ('✨') ನಿಮ್ಮ ಕರ್ಸರ್ ಬಳಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗೋಚರಿಸುತ್ತದೆ. ಈ ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವುದರಿಂದ ಸಂವಾದಾತ್ಮಕ ಪುನಃ ಬರೆಯುವ ಪಾಪ್‌ಅಪ್ ತೆರೆಯುತ್ತದೆ, ಅಲ್ಲಿ ನೀವು ಪುನಃ ಬರೆಯುವ ಟೋನ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು (ಉದಾಹರಣೆಗೆ ಸುಧಾರಿಸಿ, ವ್ಯಾಕರಣ, ವೃತ್ತಿಪರ, ಸಾಂದರ್ಭಿಕ, ವಿಸ್ತರಿಸಿ, ಅಥವಾ ಸಂಕ್ಷಿಪ್ತಗೊಳಿಸಿ) ನಿಮಗಾಗಿ ವಿಷಯವನ್ನು ಪುನಃ ಬರೆಯಲು AI ಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ. ನೀವು ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್ ಶಾರ್ಟ್‌ಕಟ್ ಮೂಲಕ ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಟ್ರಿಗರ್ ಮಾಡಬಹುದು (Ctrl+Shift+PWindows/Linux ನಲ್ಲಿ ಅಥವಾCmd+Shift+PmacOS ನಲ್ಲಿ).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "ಯಾವ AI ಮಾದರಿಗಳು ಬೆಂಬಲಿತವಾಗಿದೆ?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "ನಾವು ಪ್ರಸ್ತುತ ಉನ್ನತ-ಕಾರ್ಯಕ್ಷಮತೆ, ಮಿಂಚಿನ-ವೇಗದ ಪಠ್ಯ ಪ್ರಕ್ರಿಯೆಗಾಗಿ OpenAI ನ GPT (ಉದಾ., GPT-4o-mini), Google ನ ಜೆಮಿನಿ, ಆಂಥ್ರೊಪಿಕ್ಸ್ ಕ್ಲೌಡ್ ಮತ್ತು Groq ತೆರೆದ ಮೂಲ ಮಾದರಿಗಳು (Llama 3 ನಂತಹ) ಸೇರಿದಂತೆ ಅತ್ಯಾಧುನಿಕ LLM ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತೇವೆ.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "ನನ್ನ ಡೇಟಾ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "ಹೌದು, ಗೌಪ್ಯತೆಯು ಒಂದು ಪ್ರಮುಖ ಆದ್ಯತೆಯಾಗಿದೆ. ನೀವು ಪುನಃ ಬರೆಯಲು ಆಯ್ಕೆಮಾಡಿದ ನಿರ್ದಿಷ್ಟ ಪಠ್ಯವನ್ನು ಮಾತ್ರ ನಾವು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತೇವೆ. ವಿನಂತಿಯನ್ನು ನಿರ್ವಹಿಸಲು ಪಠ್ಯವನ್ನು ನಮ್ಮ ಬ್ಯಾಕೆಂಡ್ API ಗೆ ಸುರಕ್ಷಿತವಾಗಿ ರವಾನಿಸಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಪಠ್ಯ ಲಾಗ್ ಇತಿಹಾಸವನ್ನು ನಾವು ನಮ್ಮ ಸರ್ವರ್‌ಗಳಲ್ಲಿ ದೀರ್ಘಕಾಲ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ, ಅಥವಾ ನಾವು ಅದನ್ನು ಮೂರನೇ ವ್ಯಕ್ತಿಗಳೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ ಅಥವಾ AI ಮಾದರಿಗಳಿಗೆ ತರಬೇತಿ ನೀಡಲು ಬಳಸುವುದಿಲ್ಲ. ಹೆಚ್ಚುವರಿಯಾಗಿ, ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಬ್ರೌಸಿಂಗ್ ಇತಿಹಾಸವನ್ನು ರಕ್ಷಿಸಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ವಿಸ್ತರಣೆಯು ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್ ಮಾಡಿದ ಪರಿಸರದಲ್ಲಿ ಚಲಿಸುತ್ತದೆ.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "ಉಚಿತ ಮತ್ತು ಪ್ರೊ ಯೋಜನೆಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯು ದಿನಕ್ಕೆ 5 ಪುನಃ ಬರೆಯುವಿಕೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ, ಇದನ್ನು 'ಸುಧಾರಿಸು' ಟೋನ್ ಮತ್ತು 'PDF' ಡೌನ್‌ಲೋಡ್/ರಫ್ತು ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪ್ರತ್ಯೇಕವಾಗಿ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ಡ್ರಾಪ್‌ಬಾಕ್ಸ್ ಮತ್ತು ಗೂಗಲ್ ಡ್ರೈವ್ ಏಕೀಕರಣಗಳನ್ನು ಸಹ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ. ಪಾವತಿಸಿದ ಯೋಜನೆಗಳು (ಸಾಪ್ತಾಹಿಕ, ಮಾಸಿಕ ಪ್ರೊ ಮತ್ತು ವಾರ್ಷಿಕ ಅಲ್ಟಿಮೇಟ್) ಎಲ್ಲಾ 6 ಟೋನ್‌ಗಳು, ಎಲ್ಲಾ 6 ಡೌನ್‌ಲೋಡ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳು (PDF, ಮಾರ್ಕ್‌ಡೌನ್, TXT, IMG, JSON ಮತ್ತು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ನಕಲು) ಮತ್ತು ಪ್ರೀಮಿಯಂ, ನಿರ್ಬಂಧ-ಮುಕ್ತ ಅನುಭವಕ್ಕಾಗಿ ಕ್ಲೌಡ್ ಬ್ಯಾಕಪ್ ಸಂಯೋಜನೆಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "ಉಚಿತ ಯೋಜನೆಯಲ್ಲಿ ಕೆಲವು ರಿರೈಟ್ ಟೋನ್‌ಗಳು, ರಫ್ತು ಫಾರ್ಮ್ಯಾಟ್‌ಗಳು ಮತ್ತು ಕ್ಲೌಡ್ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಏಕೆ ಲಾಕ್ ಮಾಡಲಾಗಿದೆ?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "ಅತ್ಯಾಧುನಿಕ AI ಮಾದರಿಗಳನ್ನು ಚಾಲನೆ ಮಾಡುವುದು (ಉದಾಹರಣೆಗೆ GPT-4o-mini, Gemini, ಮತ್ತು Claude) ಮತ್ತು ಕ್ಲೌಡ್ ಸಿಂಕ್ರೊನೈಸೇಶನ್ ನಿರ್ವಹಣೆಗೆ ಗಣನೀಯ ಸರ್ವರ್ ಮೂಲಸೌಕರ್ಯ, ಕಂಪ್ಯೂಟ್ ಪವರ್ ಮತ್ತು ಪ್ರತಿ ಕ್ರಿಯೆಗೆ ನೇರ API ವೆಚ್ಚಗಳು ಬೇಕಾಗುತ್ತವೆ. ಸಂಪೂರ್ಣ ಕ್ರಿಯಾತ್ಮಕ ಉಚಿತ ಆಯ್ಕೆಯನ್ನು ನೀಡುತ್ತಿರುವಾಗಲೂ ನಮ್ಮ ಸೇವೆಯನ್ನು ಸಮರ್ಥನೀಯವಾಗಿಸಲು, ಉಚಿತ ಯೋಜನೆಯು ಮೂಲಭೂತ ಅವಶ್ಯಕತೆಗಳನ್ನು ಒಳಗೊಂಡಿದೆ (5 ದೈನಂದಿನ 'ಸುಧಾರಿತ' ಟೋನ್ ಮತ್ತು ಸ್ಥಳೀಯ PDF ಉತ್ಪಾದನೆಯೊಂದಿಗೆ ಪುನಃ ಬರೆಯುತ್ತದೆ). ಚಂದಾದಾರಿಕೆ ಯೋಜನೆಗಳು ಪ್ರೀಮಿಯಂ ಟೋನ್‌ಗಳ (ವ್ಯಾಕರಣ, ವೃತ್ತಿಪರ, ಕ್ಯಾಶುಯಲ್, ಎಕ್ಸ್‌ಪಾಂಡ್, ಶಾರ್ಟ್‌ನ್), ಕ್ಲೌಡ್ ಕನೆಕ್ಟರ್‌ಗಳು (ಡ್ರಾಪ್‌ಬಾಕ್ಸ್, ಗೂಗಲ್ ಡ್ರೈವ್) ಮತ್ತು ಬಹು ಫಾರ್ಮ್ಯಾಟ್ ರಫ್ತುಗಳಿಗೆ (ಮಾರ್ಕ್‌ಡೌನ್, TXT, IMG, JSON, COPY) ವೆಚ್ಚವನ್ನು ಸಬ್ಸಿಡಿ ಮಾಡುತ್ತದೆ, ನಾವು ಹೆಚ್ಚಿನ ಕಾರ್ಯಕ್ಷಮತೆ, ಸಕ್ರಿಯ ನವೀಕರಣಗಳು ಮತ್ತು ಕಟ್ಟುನಿಟ್ಟಾದ ಗೌಪ್ಯತೆಯನ್ನು ಬೆಂಬಲಿಸಬಹುದು ಎಂದು ಖಚಿತಪಡಿಸುತ್ತದೆ.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "ನನ್ನ ಪರವಾನಗಿ ಕೀಲಿಯನ್ನು ನಾನು ಹೇಗೆ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "ನಿಮ್ಮ ಚಂದಾದಾರಿಕೆ ಖರೀದಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ, ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿನ 'ಖಾತೆ ಮತ್ತು ಬಳಕೆ' ಪುಟದ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಕೀ ಮೌಲ್ಯೀಕರಣ ಕ್ಷೇತ್ರದಲ್ಲಿ ನಿಮ್ಮ ಪರವಾನಗಿ ಕೀಲಿಯನ್ನು ಅಂಟಿಸಿ ಮತ್ತು 'ಪರವಾನಗಿಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ. ನಿಮ್ಮ ಖಾತೆಯ ಯೋಜನೆ ವಿವರಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ತಕ್ಷಣವೇ ನವೀಕರಿಸಲ್ಪಡುತ್ತವೆ.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "ಇದು Google ಡಾಕ್ಸ್ ಅಥವಾ ನೋಟಿನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "ಹೌದು, ವಿಸ್ತರಣೆಯು ಜನಪ್ರಿಯ ಸಂಪಾದಕರು ಮತ್ತು Google ಡಾಕ್ಸ್, ನೋಶನ್, ಜಿಮೇಲ್, ಲಿಂಕ್ಡ್‌ಇನ್, ಸ್ಲಾಕ್ ವೆಬ್ ಮತ್ತು ಟ್ವಿಟರ್/ಎಕ್ಸ್‌ನಂತಹ ಶ್ರೀಮಂತ ಪಠ್ಯ ಪೋರ್ಟಲ್‌ಗಳೊಂದಿಗೆ ಸಂಪೂರ್ಣವಾಗಿ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ. ಕಸ್ಟಮ್ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಫ್ಲೋಟಿಂಗ್ ಬಟನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ, ನಿಮ್ಮ ಆಯ್ಕೆಯನ್ನು ಪುನಃ ಬರೆಯಲು ನೀವು ಕಮಾಂಡ್ ಪ್ಯಾಲೆಟ್ ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ಬಳಸಬಹುದು.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "ನಾನು ನನ್ನ ಸ್ವಂತ API ಕೀಯನ್ನು ಬಳಸಬಹುದೇ?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "ತಡೆರಹಿತ, ಪ್ಲಗ್-ಮತ್ತು-ಪ್ಲೇ ಅನುಭವವನ್ನು ಒದಗಿಸಲು, ಎಲ್ಲಾ API ಬಳಕೆಯ ವೆಚ್ಚಗಳನ್ನು ನಿಮ್ಮ ಚಂದಾದಾರಿಕೆ ಯೋಜನೆಯ ಅಡಿಯಲ್ಲಿ ಸಂಪೂರ್ಣವಾಗಿ ಒಳಗೊಂಡಿದೆ. ಪ್ರಸ್ತುತ, ನಿಮ್ಮ ಸ್ವಂತ API ಕೀಗಳನ್ನು ನೀವು ಕಾನ್ಫಿಗರ್ ಮಾಡುವ ಅಗತ್ಯವಿಲ್ಲ. ಆದಾಗ್ಯೂ, ಭವಿಷ್ಯದ ಡೆವಲಪರ್-ಆಧಾರಿತ ಅಪ್‌ಡೇಟ್‌ನಲ್ಲಿ ಕಸ್ಟಮ್ ಬಳಕೆದಾರ API ಕಾನ್ಫಿಗರೇಶನ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲು ನಾವು ಯೋಜಿಸುತ್ತೇವೆ.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "ಡೀಫಾಲ್ಟ್ ರಿರೈಟ್ ಟೋನ್ ಅನ್ನು ನಾನು ಹೇಗೆ ಬದಲಾಯಿಸುವುದು?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "ಈ ಆಯ್ಕೆಗಳ ಪ್ಯಾನೆಲ್‌ನ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ರಿರೈಟ್ ಟೋನ್ ಅನ್ನು ನೀವು ಹೊಂದಿಸಬಹುದು. ನಿಮ್ಮ ಪ್ರಾಶಸ್ತ್ಯವನ್ನು ಉಳಿಸುವುದು ಮ್ಯಾಜಿಕ್ ವಾಂಡ್ ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆ ಟೋನ್‌ಗೆ ಡೀಫಾಲ್ಟ್ ಆಗುತ್ತದೆ, ಆದರೂ ನೀವು ಇನ್ನೂ ಅಗತ್ಯವಿದ್ದಾಗ ಪಾಪ್‌ಅಪ್‌ನಲ್ಲಿ ಟೋನ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಬಹುದು.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "ಫ್ಲೋಟಿಂಗ್ ಬಟನ್ ಕೆಲವೊಮ್ಮೆ ಏಕೆ ಕಾಣಿಸುವುದಿಲ್ಲ?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "ಆಕಸ್ಮಿಕ ಮೇಲ್ಪದರಗಳನ್ನು ತಡೆಗಟ್ಟಲು ಮ್ಯಾಜಿಕ್ ವಾಂಡ್ ಬಟನ್‌ಗೆ ಪಠ್ಯದ ಕನಿಷ್ಠ ಆಯ್ಕೆಯ ಉದ್ದದ ಅಗತ್ಯವಿದೆ. ಇದಲ್ಲದೆ, ಪ್ರಮಾಣಿತ ಬ್ರೌಸರ್ ಸುರಕ್ಷತಾ ನೀತಿಗಳು Chrome ವೆಬ್ ಅಂಗಡಿ (chrome.google.com) ಮತ್ತು ಆಂತರಿಕ ಕಾನ್ಫಿಗರೇಶನ್ ಪುಟಗಳಂತಹ (chrome://) ಕೆಲವು ಸವಲತ್ತು ಹೊಂದಿರುವ ಪುಟಗಳಲ್ಲಿ ವಿಷಯ ಇಂಜೆಕ್ಷನ್‌ಗಳನ್ನು ಕಟ್ಟುನಿಟ್ಟಾಗಿ ನಿರ್ಬಂಧಿಸುತ್ತದೆ.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "ಮೂಲವನ್ನು ಬದಲಿಸದೆ ನಾನು ಪುನಃ ಬರೆಯಲಾದ ಪಠ್ಯವನ್ನು ನಕಲಿಸಬಹುದೇ?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "ಹೌದು, ಫ್ಲೋಟಿಂಗ್ ರಿರೈಟ್ ಪಾಪ್‌ಅಪ್ ಒಳಗೆ, ನೀವು 'ಕಾಪಿ' ಐಕಾನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಬಹುದು. ಇದು ಹೊಸದಾಗಿ ಪುನಃ ಬರೆಯಲಾದ ಆವೃತ್ತಿಯನ್ನು ನೇರವಾಗಿ ನಿಮ್ಮ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸುತ್ತದೆ, ವೆಬ್‌ಪುಟದಲ್ಲಿನ ಮೂಲ ವಿಷಯವನ್ನು ಬದಲಿಸದೆ ಅಥವಾ ಪರಿಣಾಮ ಬೀರದೆ ನೀವು ಎಲ್ಲಿ ಬೇಕಾದರೂ ಅದನ್ನು ಅಂಟಿಸಲು ಅನುಮತಿಸುತ್ತದೆ.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "ನನ್ನ ಚಂದಾದಾರಿಕೆಯನ್ನು ನಾನು ಹೇಗೆ ರದ್ದುಗೊಳಿಸುವುದು?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "ನಿಮ್ಮ ಖರೀದಿಯ ದೃಢೀಕರಣ ಇಮೇಲ್‌ನಲ್ಲಿ ಒದಗಿಸಲಾದ ಗ್ರಾಹಕ ಬಿಲ್ಲಿಂಗ್ ಪೋರ್ಟಲ್ ಲಿಂಕ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಚಂದಾದಾರಿಕೆಯನ್ನು ನಿರ್ವಹಿಸಬಹುದು ಅಥವಾ ರದ್ದುಗೊಳಿಸಬಹುದು. ನಿಮಗೆ ಇಮೇಲ್ ಅನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ,keshoraai@gmail.comನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ ಮತ್ತು ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತೇವೆ.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'ವಿಸ್ತರಿಸು' ಟೋನ್ ಏನು ಮಾಡುತ್ತದೆ?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'ವಿಸ್ತರಿಸು' ಟೋನ್ ನಿಮ್ಮ ಆಯ್ಕೆಮಾಡಿದ ಪಠ್ಯವನ್ನು ನಿರ್ಮಿಸಲು ಮತ್ತು ವಿವರಿಸಲು ಉತ್ಪಾದಕ ಬುದ್ಧಿವಂತಿಕೆಯನ್ನು ಬಳಸುತ್ತದೆ, ಮೂಲ ಉದ್ದೇಶವನ್ನು ಹಾಗೆಯೇ ಇರಿಸಿಕೊಂಡು ಸಣ್ಣ ಆಲೋಚನೆಗಳು, ಬುಲೆಟ್ ಪಾಯಿಂಟ್‌ಗಳು ಅಥವಾ ನುಡಿಗಟ್ಟುಗಳಿಗೆ ಶ್ರೀಮಂತ ವಿವರಗಳು, ಸಂದರ್ಭ ಮತ್ತು ಸರಿಯಾದ ವ್ಯಾಕರಣ ರಚನೆಯನ್ನು ಸೇರಿಸುತ್ತದೆ.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "ನೀವು ವಿದ್ಯಾರ್ಥಿ ರಿಯಾಯಿತಿಯನ್ನು ನೀಡುತ್ತೀರಾ?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "ಹೌದು, ನಾವು ವಿದ್ಯಾರ್ಥಿಗಳು, ಶಿಕ್ಷಕರು ಮತ್ತು ಶೈಕ್ಷಣಿಕ ಸಂಶೋಧಕರನ್ನು ಬೆಂಬಲಿಸುತ್ತೇವೆ. ಎಲ್ಲಾ ಪಾವತಿಸಿದ ಚಂದಾದಾರಿಕೆ ಯೋಜನೆಗಳಲ್ಲಿ ನಾವು 30% ರಿಯಾಯಿತಿಯನ್ನು ನೀಡುತ್ತೇವೆ. ನಿಮ್ಮ ರಿಯಾಯಿತಿ ಕೋಡ್ ಅನ್ನು ವಿನಂತಿಸಲು ನಿಮ್ಮ ಅಧಿಕೃತ ಶಾಲೆ ಅಥವಾ ವಿಶ್ವವಿದ್ಯಾಲಯದ ಇಮೇಲ್ ವಿಳಾಸದಿಂದ (.edu ಅಥವಾ ಶೈಕ್ಷಣಿಕ ಡೊಮೇನ್) ನಮಗೆkeshoraai@gmail.comಗೆ ಇಮೇಲ್ ಮಾಡಿ.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "ಬಲ್ಕ್ ರಿರೈಟ್ ಆಯ್ಕೆ ಇದೆಯೇ?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "ಹೌದು, ಪ್ರೀಮಿಯಂ ಶ್ರೇಣಿಯ ಬಳಕೆದಾರರು ಬಲ್ಕ್ ರಿರೈಟಿಂಗ್ ಅನ್ನು ಬಳಸಿಕೊಳ್ಳಬಹುದು. ಪ್ರತ್ಯೇಕ ವಿಭಾಗಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡುವ ಬದಲು, ನೀವು ವಿಸ್ತರಣೆಯ ಬದಿಯ ಫಲಕವನ್ನು ತೆರೆಯಬಹುದು ಮತ್ತು ಸಂಪೂರ್ಣ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಅಥವಾ ಪ್ಯಾರಾಗಳನ್ನು ಒಂದೇ ಸಮಯದಲ್ಲಿ ಮಾರ್ಪಡಿಸಲು ಅಂಟಿಸಬಹುದು.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "ನಾನು ದೋಷವನ್ನು ಹೇಗೆ ವರದಿ ಮಾಡುವುದು?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "ನೀವುkeshoraai@gmail.comನಲ್ಲಿ ನಮ್ಮ ಬೆಂಬಲ ತಂಡಕ್ಕೆ ನೇರವಾಗಿ ದೋಷ ವರದಿಗಳನ್ನು ಇಮೇಲ್ ಮಾಡಬಹುದು. 'ಖಾತೆ ಮತ್ತು ಬಳಕೆ' ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಸಹಾಯ ವಿಜೆಟ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವುದರಿಂದ ಸಮಸ್ಯೆಯನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಲು ವಿಸ್ತರಣೆಯ ವಿವರಗಳನ್ನು ಹೊಂದಿರುವ ಬೆಂಬಲ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ಪೂರ್ವ-ಪಾಪ್ಯುಲೇಟ್ ಮಾಡುತ್ತದೆ.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "ಇದು 'ಕೋಟಾ ಮೀರಿದೆ' ಎಂದು ಏಕೆ ಹೇಳುತ್ತದೆ?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "'ಕೋಟಾ ಮೀರಿದೆ' ಎಚ್ಚರಿಕೆ ಎಂದರೆ ನಿಮ್ಮ ಯೋಜನೆಯ ಸಕ್ರಿಯ ಸೈಕಲ್‌ಗಾಗಿ ನೀವು ನಿಗದಿಪಡಿಸಿದ ಬಳಕೆಯನ್ನು ನೀವು ಸೇವಿಸಿದ್ದೀರಿ ಎಂದರ್ಥ: ಉಚಿತ ಬಳಕೆದಾರರು 5 ದೈನಂದಿನ ಪುನಃ ಬರೆಯಲು ಸೀಮಿತವಾಗಿರುತ್ತಾರೆ; ಸಾಪ್ತಾಹಿಕ ಬಳಕೆದಾರರು 140 ಪುನಃ ಬರೆಯುತ್ತಾರೆ; ಮಾಸಿಕ ಪ್ರೊ ಬಳಕೆದಾರರು 600 ಪುನಃ ಬರೆಯುತ್ತಾರೆ; ಮತ್ತು ವಾರ್ಷಿಕ ಅಲ್ಟಿಮೇಟ್ ಬಳಕೆದಾರರು 9,000 ಪುನಃ ಬರೆಯುತ್ತಾರೆ. ಕೋಟಾಗಳು ಚಕ್ರವನ್ನು ಆಧರಿಸಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುಹೊಂದಿಸಲ್ಪಡುತ್ತವೆ (ದಿನನಿತ್ಯ ಮಧ್ಯರಾತ್ರಿ ಸ್ಥಳೀಯ ಸಮಯ, ಅಥವಾ ರೋಲಿಂಗ್ ಸಾಪ್ತಾಹಿಕ/ಮಾಸಿಕ/ವಾರ್ಷಿಕ ಗಡಿಗಳು). ಸೇವೆಯನ್ನು ತಕ್ಷಣವೇ ಪುನರಾರಂಭಿಸಲು ನೀವು 'ಖಾತೆ ಮತ್ತು ಬಳಕೆ' ಪುಟದಲ್ಲಿ ಉನ್ನತ ಶ್ರೇಣಿಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಬಹುದು.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "ಎಕ್ಸ್‌ಪೋರ್ಟ್‌ ಆಗುತ್ತಿದೆ",
+    "description": "Locale key: exportingStatus"
+  }
+}

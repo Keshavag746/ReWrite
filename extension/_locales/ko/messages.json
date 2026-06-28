@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "어디서나 다시 쓰기 - AI 텍스트 재작성기",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "어디서나 텍스트를 강조표시합니다. AI로 즉시 다시 작성하세요.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewrite 명령 팔레트 열기",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI 재작성 →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ 글쓰기 능력 향상",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ 문법 수정",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 전문가로 만들기",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 친근하게 지내세요",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 정식으로 만들기",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 캐주얼하게 만들기",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 설득력 있게 만들기",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 자신감을 가지세요",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 인간화",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ 사용자 정의 프롬프트...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ 개선",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ 문법",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 전문가",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 친절해요",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 공식",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 캐주얼",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 설득력",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 자신감",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ 단축",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 확장",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 단순화",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 인간화",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ 커스텀",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "로드 중...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "어디서나 텍스트 다시 쓰기",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI로 웹사이트의 텍스트를 다시 작성하려면 Google에 로그인하세요.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "로그인 중...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 구글로 로그인",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ 프로",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "무료",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "일일 사용량",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(무제한)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 페이지에서 텍스트를 선택하고 → 다시 작성하려면 ✨ 버튼을 클릭하세요. 또는Ctrl+Shift+K을 누르세요.",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 오픈 기록 및 설정",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "로그아웃",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "로그인 실패",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "다시 쓰기 실패",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "이 구간은 현재 공사중입니다.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "설정을 보려면 로그인하세요.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "계정 및 사용량",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "기록 다시 쓰기",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "설정",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "다운로드",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "도움말 및 FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI 재작성 대시보드",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "일반 구성",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "인터페이스 테마",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "다크 모드",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "라이트 모드",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "기본 재작성 톤",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ 모든 기록 지우기",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "아직 재작성이 없습니다.",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "시작하려면 페이지의 텍스트를 강조표시하고 ✨를 클릭하세요. 기록이 여기에 표시됩니다.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "이 다시 쓰기 기록 항목을 삭제하시겠습니까?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "전체 재작성 기록을 영구적으로 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "항목을 삭제하지 못했습니다:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "기록을 지우지 못했습니다:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "원본 텍스트",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "다시 작성된 텍스트",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ 삭제",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 복사 재작성",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ 복사되었습니다!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "이전 재작성 로드",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "지원 및 비즈니스 문의",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "다음 주소로 연락하세요:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "자주 묻는 질문",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "도움이 필요하거나 버그를 보고하려면",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "이메일keshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "일일 무료 한도",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "무료 등급: 재작성 5회/일. 매일 자정에 초기화됩니다.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "제한 없이 어디서나 텍스트를 다시 작성할 수 있습니다.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "모든 콘텐츠를 일괄 다시 작성합니다. 클라우드에 동기화하세요. 제한이 없습니다.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 얼리 어답터 혜택: 프리미엄 사용자 500명에게 다음 가격 인상이 적용됩니다. 평생 이 비율을 유지하세요!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 미국 시장 ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 인도 시장 (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "현재 미국 달러 결제가 점검 중입니다. 인도 시장(₹) 요금제로 전환하거나keshoraai@gmail.com로 문의하여 도움을 받으세요.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "주간",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(단지 57센트/일)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "월간 ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(단지 33센트/일)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "매년 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(단지 21센트/일)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(단 ₹21/일)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(단 ₹13/일)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(단 ₹8/일)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/주",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/월",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/년",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "가끔 사용하기에 좋음",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "대부분의 사용자가 이 플랜을 선택합니다.",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "파워 유저를 위한 최고의 가치",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "가장 인기 있는",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "최고의 가치 - 2개월 무료",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 평점 • 🔒 안전한 결제 • ✔️ 언제든지 취소 가능",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "구독료를 감당할 수 없는 학생이나 연구원이신가요?keshoraai@gmail.com로 이메일을 보내주세요.",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "이미 라이센스 키가 있습니까?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "라이센스 키를 입력하세요...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "활성화",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "주당 140번 재작성",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "대량 재작성 잠금 해제",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "프리미엄 설정 액세스",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox 동기화",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "프리미엄 테마",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "스마트 폴더 구성",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "광고 없는 경험",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "월 600회 재작성",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "연간 9,000건의 재작성",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "다른 확장 프로그램 50% 할인",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "우선 이메일 지원",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "내보내기 형식",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "무료 플랜에서는 PDF 내보내기만 가능합니다. 다른 내보내기 형식의 잠금을 해제하려면 Pro/Premium으로 업그레이드하십시오.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "파일 이름 형식",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "내보낸 파일의 이름을 지정하는 방법을 선택합니다.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "재작성 기록 - 날짜(예: RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "맞춤 제목",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "맞춤 파일 이름을 입력하세요...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "로컬 파일 내보내기",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox에 저장 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google 드라이브에 저장 ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "클라우드 백업은 유료 요금제에서만 사용할 수 있습니다. Pro/Premium으로 업그레이드하세요.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox 인증이 취소되었습니다.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox 액세스 토큰을 획득하지 못했습니다.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google 드라이브 인증에 실패했습니다.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google 드라이브 업로드 실패:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "드롭박스 API 오류",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "내보낼 기록이 없습니다.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "기록이 아름답게 형식화되어 클립보드에 복사되었습니다!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "기록이 Dropbox에 안전하게 저장되었습니다!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "기록이 Google 드라이브에 안전하게 저장되었습니다!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "내보내기 완료!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI로 다시 작성",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI 재작성",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "닫기",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "원본 텍스트",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "다시 작성할 모드를 선택하세요...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "바꾸기",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "복사",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ 복사됨",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ 재시도",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "저장",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "무료 플랜에서는 \"개선\" 모드만 사용할 수 있습니다. 13개 모드를 모두 잠금 해제하려면 Pro로 업그레이드하세요.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "무료 플랜에서는 \"개선\" 모드만 사용할 수 있습니다. 13가지 재작성 모드를 모두 잠금 해제하려면 Pro/Premium으로 업그레이드하세요.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI 재작성 명령 팔레트",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ 무료 플랜(맞춤 프롬프트 잠김)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "무료 플랜에서는 맞춤 프롬프트가 잠겨 있습니다...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "예를 들어 LinkedIn을 위해 다시 작성하여 설득력 있게 만드세요...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "무료 플랜에서는 \"개선\" 모드만 사용할 수 있습니다. 모든 기능을 잠금 해제하려면 Pro/Premium으로 업그레이드하세요.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "무료 플랜에서는 \"개선\" 모드만 사용할 수 있습니다. 모든 모드를 잠금 해제하려면 Pro/Premium으로 업그레이드하세요.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 역사",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ 설정",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "아직 재작성이 없습니다.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "시작하려면 페이지의 텍스트를 강조표시하고 ✨를 클릭하세요.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "원본:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ 재작성:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "더 로드하기",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "계정",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "오늘 다시 작성",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "재설정",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "활성 ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI 엔진",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI 재작성 엔진",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "웹사이트의 텍스트를 어떻게 다시 쓰나요?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "웹페이지의 텍스트를 강조표시하거나 선택하기만 하면 됩니다. 떠다니는 마술봉 버튼('✨')이 커서 근처에 자동으로 나타납니다. 이 아이콘을 클릭하면 AI가 콘텐츠를 다시 작성할 수 있도록 재작성 톤(예: 개선, 문법, 전문, 캐주얼, 확장 또는 단축)을 선택할 수 있는 대화형 재작성 팝업이 열립니다. 명령 팔레트 바로 가기(Windows/Linux의 경우Ctrl+Shift+P또는 macOS의 경우Cmd+Shift+P)를 통해 인터페이스를 트리거할 수도 있습니다.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "어떤 AI 모델이 지원되나요?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "현재 우리는 고성능, 초고속 텍스트 처리를 위해 OpenAI의 GPT(예: GPT-4o-mini), Google의 Gemini, Anthropic의 Claude 및 Groq 오픈 소스 모델(예: Llama 3)을 포함한 최첨단 LLM을 지원합니다.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "내 데이터는 안전합니까?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "예, 개인정보 보호는 최우선 사항입니다. 우리는 귀하가 재작성을 위해 선택한 특정 텍스트만 처리합니다. 요청을 수행하기 위해 텍스트가 백엔드 API로 안전하게 전송됩니다. 당사는 귀하의 텍스트 로그 기록을 당사 서버에 장기간 저장하지 않으며 이를 제3자와 공유하거나 AI 모델 훈련에 사용하지도 않습니다. 또한 확장 프로그램은 개인 검색 기록을 보호하기 위해 샌드박스 환경에서 실행됩니다.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "무료 플랜과 프로 플랜의 차이점은 무엇입니까?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "무료 플랜은 하루 5번의 재작성을 제공하며 '개선' 톤 및 'PDF' 다운로드/내보내기 형식으로만 제한됩니다. Dropbox 및 Google Drive 통합도 잠겨 있습니다. 유료 플랜(주간, 월간 Pro 및 연간 Ultimate)은 6가지 톤, 6가지 다운로드 형식(PDF, Markdown, TXT, IMG, JSON 및 클립보드 복사) 및 클라우드 백업 통합을 모두 잠금 해제하여 제한 없는 프리미엄 환경을 제공합니다.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "무료 플랜에서 특정 재작성 톤, 내보내기 형식 및 클라우드 백업이 잠겨 있는 이유는 무엇입니까?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "최첨단 AI 모델(예: GPT-4o-mini, Gemini 및 Claude)을 실행하고 클라우드 동기화를 관리하려면 모든 작업에 대해 상당한 서버 인프라, 컴퓨팅 성능 및 직접적인 API 비용이 필요합니다. 완전한 기능을 갖춘 무료 옵션을 제공하면서 지속 가능한 서비스를 만들기 위해 무료 플랜에는 기본 요구 사항이 포함됩니다('개선' 톤 및 로컬 PDF 생성으로 매일 5회 재작성). 구독 플랜은 프리미엄 톤(Grammar, Professional, Casual, Expand, Shorten), 클라우드 커넥터(Dropbox, Google Drive) 및 다양한 형식 내보내기(Markdown, TXT, IMG, JSON, COPY) 비용을 지원하여 광고 없는 고성능, 활성 업데이트 및 엄격한 개인 정보 보호를 지원할 수 있습니다.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "라이센스 키를 어떻게 활성화하나요?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "구독 구매를 완료한 후 대시보드의 '계정 및 사용량' 페이지 하단에 있는 키 확인 필드에 라이선스 키를 붙여넣고 '라이선스 활성화'를 클릭하세요. 귀하의 계정 계획 세부정보는 귀하의 브라우저 저장 공간에 즉시 업데이트됩니다.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Google Docs나 Notion에서 작동하나요?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "예, 확장 프로그램은 Google Docs, Notion, Gmail, LinkedIn, Slack 웹 및 Twitter/X와 같은 인기 있는 편집기 및 서식 있는 텍스트 포털과 완벽하게 호환됩니다. 사용자 정의 응용 프로그램에서 부동 버튼이 비활성화된 경우 명령 팔레트 키보드 단축키를 사용하여 선택 항목을 다시 작성할 수 있습니다.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "내 API 키를 사용할 수 있나요?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "원활한 플러그 앤 플레이 환경을 제공하기 위해 모든 API 사용 비용은 구독 플랜에 전액 포함됩니다. 현재는 자체 API 키를 구성할 필요가 없습니다. 그러나 향후 개발자 중심 업데이트에서는 사용자 지정 사용자 API 구성을 지원할 계획입니다.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "기본 다시 쓰기 톤을 어떻게 변경합니까?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "이 옵션 패널의 설정 탭에서 기본 재작성 톤을 설정할 수 있습니다. 기본 설정을 저장하면 마술 지팡이 아이콘을 클릭할 때 해당 톤이 자동으로 기본값으로 지정되지만, 필요할 때 팝업에서 톤을 전환할 수도 있습니다.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "가끔 플로팅 버튼이 나타나지 않는 이유는 무엇입니까?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "마술 지팡이 버튼에는 실수로 오버레이되는 것을 방지하기 위해 최소한의 텍스트 선택 길이가 필요합니다. 또한 표준 브라우저 보안 정책은 Chrome 웹 스토어(chrome.google.com) 및 내부 구성 페이지(chrome://)와 같은 특정 권한이 있는 페이지에 대한 콘텐츠 삽입을 엄격히 차단합니다.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "원본을 바꾸지 않고 다시 작성된 텍스트를 복사할 수 있나요?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "예, 부동 재작성 팝업 내에서 '복사' 아이콘을 클릭할 수 있습니다. 이렇게 하면 새로 다시 작성된 버전이 클립보드에 바로 복사되므로 웹페이지의 원본 콘텐츠를 바꾸거나 영향을 주지 않고 원하는 곳에 붙여넣을 수 있습니다.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "구독을 어떻게 취소하나요?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "구매 확인 이메일에 제공된 고객 청구 포털 링크를 클릭하면 언제든지 구독을 관리하거나 취소할 수 있습니다. 이메일을 찾을 수 없는 경우keshoraai@gmail.com(으)로 문의해 주시면 도와드리겠습니다.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "'확장' 톤의 기능은 무엇인가요?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "'확장' 톤은 생성 지능을 사용하여 선택한 텍스트를 구축하고 정교하게 만들고 원래 의도를 그대로 유지하면서 짧은 생각, 주요 항목 또는 문구에 풍부한 세부 정보, 맥락 및 적절한 문법 구조를 추가합니다.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "학생 할인을 제공하나요?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "예, 우리는 학생, 교육자, 학술 연구원을 지원합니다. 모든 유료 구독 플랜에 대해 30% 할인을 제공합니다. 할인 코드를 요청하려면 공식 학교 또는 대학 이메일 주소(.edu 또는 학술 도메인)에서keshoraai@gmail.com로 이메일을 보내세요.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "대량 재작성 옵션이 있나요?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "예, 프리미엄 등급 사용자는 대량 재작성을 사용할 수 있습니다. 개별 세그먼트를 선택하는 대신 확장 측면 패널을 열고 전체 문서나 단락을 붙여넣어 한 번에 수정할 수 있습니다.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "버그를 신고하려면 어떻게 해야 하나요?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "keshoraai@gmail.com의 지원팀에 직접 버그 보고서를 이메일로 보낼 수 있습니다. '계정 및 사용' 탭에서 도움말 위젯을 클릭하면 문제 진단에 도움이 되는 확장 세부정보가 포함된 지원 템플릿이 미리 채워집니다.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "왜 '할당량 초과'라고 표시되나요?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "'할당량 초과' 경고는 계획의 활성 주기 동안 할당된 사용량을 소비했음을 의미합니다. 무료 사용자는 일일 재작성 횟수가 5회로 제한됩니다. 주간 사용자는 140번의 재작성을 받습니다. 월간 Pro 사용자는 600번의 재작성을 받습니다. 연간 Ultimate 사용자는 9,000번의 재작성을 받습니다. 할당량은 주기(현지 시간으로 매일 자정 또는 주간/월간/연간 경계)에 따라 자동으로 재설정됩니다. '계정 및 사용량' 페이지에서 상위 등급으로 업그레이드하시면 즉시 서비스를 재개하실 수 있습니다.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "내보내는 중...",
+    "description": "Locale key: exportingStatus"
+  }
+}

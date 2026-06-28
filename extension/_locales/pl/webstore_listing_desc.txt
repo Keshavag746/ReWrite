@@ -1,0 +1,44 @@
+✨ Przepisz tekst w dowolnym miejscu w Internecie, korzystając z najnowocześniejszej sztucznej inteligencji.
+
+Masz dość kopiowania i wklejania tekstu do okien czatu, aby poprawić swoje pisanie? Dzięki AI Rewrite Anywhere możesz zaznaczyć lub zaznaczyć dowolny tekst na dowolnej stronie internetowej (Dokumenty Google, Notion, Gmail, LinkedIn, Slack, Twitter/X i inne) i natychmiast go przepisać.
+
+Obsługiwane przez inteligentny łańcuch awaryjny AI wykorzystujący najwyższej klasy duże modele językowe (w tym OpenAI GPT, Google Gemini, Anthropic Claude i Groq open source Llama), rozszerzenie zapewnia maksymalny czas pracy i błyskawiczne reakcje, automatycznie przekierowując żądania do następnego dostępnego dostawcy, jeśli wystąpi przerwa w świadczeniu usług.
+
+🚀 KLUCZOWE CECHY:
+- 🖱️ Zaznacz i napisz ponownie: po prostu zaznacz tekst na dowolnej stronie internetowej. W pobliżu kursora pojawi się przycisk pływającej magicznej różdżki. Kliknij, aby natychmiast przepisać.
+- 🖱️ Integracja z menu kontekstowym: kliknij dowolny wybór prawym przyciskiem myszy, aby uzyskać dostęp do 13 różnych trybów przepisywania bezpośrednio z menu kontekstowego przeglądarki.
+- ⌨️ Paleta poleceń (Ctrl+Shift+K): Otwórz szybki interfejs oparty na klawiaturze, aby wpisywać niestandardowe podpowiedzi lub uruchamiać szybkie ustawienia wstępne bez dotykania myszy.
+- 📋 Pełna historia i ustawienia przepisywania: Uzyskaj dostęp do pięknego panelu bocznego pulpitu nawigacyjnego, aby przeglądać poprzednie przepisywania, eksportować dzienniki w wielu formatach i konfigurować preferencje.
+- 🔄 Bezproblemowe przywracanie sztucznej inteligencji: ciesz się nieprzerwaną obsługą. Jeśli podstawowy model zawiedzie, rozszerzenie automatycznie przełącza się na następny dostępny model w sposób przezroczysty.
+- 🔐 Bezpieczne logowanie Google: szybkie, chronione uwierzytelnianie, które bezpiecznie synchronizuje Twoje ustawienia na różnych urządzeniach.
+
+🎯 13 DYNAMICZNYCH TRYBÓW PRZEPISU:
+1. Popraw: automatycznie strukturę polskiego pisma i słownictwo.
+2. Gramatyka: Popraw błędy ortograficzne, interpunkcyjne i składniowe.
+3. Profesjonalizm: podnieś swój poziom języka w profesjonalnej korespondencji.
+4. Przyjazny: dodaj ciepło i przystępność do swoich wiadomości.
+5. Formalne: Dostosuj sformułowania w dokumentach oficjalnych i pismach biznesowych.
+6. Swobodny: Twórz luźne, konwersacyjne teksty na potrzeby spotkań towarzyskich.
+7. Perswazja: Konstruuj pomysły, aby skutecznie przekonywać, promować lub promować.
+8. Pewny siebie: Pewność projektu, autorytet i silne przekonanie.
+9. Skróć: Skondensuj długie akapity w zwięzłe podkreślenia.
+10. Rozwiń: Opowiadaj i opieraj się na krótkich wypunktowaniach lub wyrażeniach.
+11. Uprość: Przetłumacz żargon lub złożone myśli na jasny, czytelny język.
+12. Humanizuj: Przebuduj wersje robocze sztucznej inteligencji, aby czytać je w sposób naturalny.
+13. Niestandardowy monit: wpisz dokładnie, co ma zrobić sztuczna inteligencja z wyborem.
+
+📂 FORMATY EKSPORTU PREMIUM:
+Eksportuj historię przepisywania lokalnie lub synchronizuj bezpośrednio z usługami w chmurze:
+- PDF (bezpłatny i premium)
+- Przecena (MD)
+- TXT
+- Obraz (IMG)
+-JSON
+- Kopia ze schowka
+- Integracja z chmurą: Zapisz bezpośrednio w Dropbox lub Google Drive.
+
+🔒 PRYWATNOŚĆ I BEZPIECZEŃSTWO Z założenia:
+Prywatność jest naszym głównym zobowiązaniem. Przetwarzamy wyłącznie wybrany przez Ciebie tekst do aktywnego przepisywania. Twój wybór jest bezpiecznie przesyłany za pomocą szyfrowania SSL do naszego interfejsu API zaplecza w celu wykonania żądania i nie jest przechowywany długoterminowo na naszych serwerach. Twoja osobista historia przeglądania jest całkowicie chroniona.
+
+📧 KONTAKT I WSPARCIE:
+Masz pytania, sugestie lub raporty o błędach? Skontaktuj się z nami bezpośrednio pod adresemkeshoraai@gmail.com. Zależy nam na regularnych aktualizacjach i prośbach o nowe funkcje!

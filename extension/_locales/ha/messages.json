@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Sake rubuta Ko'ina - AI Mai Sake Rubutun Rubutun",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Hana rubutu a ko'ina. Sake rubutawa nan take tare da AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Buɗe AI Sake rubuta palette na umarni",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Sake rubuta →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Inganta Rubutu",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Gyara Nahawu",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Mai Sana'a",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Sada Zumunci",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Yi Formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Yi Casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Yi Lallashi",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Amincewa",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Dan Adam",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Kwamfuta na Musamman...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Inganta",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Nahawu",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Kwararren",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Sada zumunci",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formal",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Casual",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Lallashi",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Amincewa",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Gajere",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Fadada",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Sauƙaƙe",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Mutum",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Custom",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Ana lodawa...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Sake rubuta rubutu a ko'ina",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Shiga tare da Google don fara sake rubuta rubutu akan kowane gidan yanar gizo tare da AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Ana shiga...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Shiga tare da Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Kyauta",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Amfanin yau da kullun",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(Unlimited)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Zaɓi rubutu a kowane shafi → danna maɓallin ✨ don sake rubutawa. Ko kuma dannaCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Bude Tarihi & Saituna",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Fita",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "An kasa shiga",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "An kasa sake rubutawa",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "A halin yanzu ana kan gina wannan sashe.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Da fatan za a shiga don duba saitunan.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Asusu & Amfani",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Sake rubuta Tarihi",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Saituna",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Zazzagewa",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Taimako & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Sake rubuta Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Gabaɗaya Kanfigareshan",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Jigon Interface",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Yanayin duhu",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Yanayin Haske",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Sautin Sake rubuta Tsohuwar",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Share Duk Tarihi",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Babu sake rubutawa tukuna",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Hana rubutu akan kowane shafi kuma danna ✨ don farawa. Tarihin ku zai bayyana anan.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Shin kun tabbata kuna son share wannan abun tarihin sake rubutawa?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Shin kun tabbata kuna son share tarihin sake rubutawa na dindindin? Ba za a iya soke wannan ba.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "An kasa share abu:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "An kasa share tarihi:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Rubutun Asali",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Rubutun Rubutu",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Share",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kwafi An sake rubutawa",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kwafi!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Load tsofaffin sake rubutawa",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Taimako & Binciken Kasuwanci",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Shiga a:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Tambayoyin da ake yawan yi",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Don taimako ko bayar da rahoton bug",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Imelkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Iyakar Kyauta ta Kullum",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Matakin kyauta: sake rubutawa 5 a rana. Sake saiti kullum da tsakar dare.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Sake rubuta rubutu a ko'ina ba tare da iyaka ba.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch sake rubuta duk abun cikin ku. Daidaita ga gajimare. Babu ƙuntatawa.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Bayar da Talla ta Farko: Haɓaka farashi na gaba a masu amfani da Premium 500. Kulle a cikin wannan ƙimar don rayuwa!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Kasuwar Amurka ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Kasuwar Indiya (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Ana biyan kuɗin dalar Amurka a halin yanzu. Da fatan za a canza zuwa shirin Kasuwar Indiya (₹) ko tuntuɓe mu akeshoraai@gmail.comdon taimako.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "mako-mako",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Kawai 57 ¢ / rana)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Wata-wata ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Kawai 33 ¢ / rana)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Duk shekara 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Kawai 21 ¢ / rana)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Kawai ₹ 21 / rana)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Kawai ₹ 13 / rana)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Kawai ₹ 8 / rana)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ mako",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ wata",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ shekara",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Yana da kyau don amfani lokaci-lokaci",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Yawancin masu amfani suna zaɓar wannan shirin",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Mafi kyawun ƙima ga masu amfani da wutar lantarki",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "MAFI SHARHI",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "MAFI KYAU - KYAUTA WATA 2",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Rating • 🔒 Amintaccen Biyan Kuɗi • ✔️ Soke kowane lokaci",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Shin kai dalibi ne ko mai bincike wanda ba zai iya biyan kuɗi ba? Da fatan za a yi imelkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Kuna da maɓallin lasisi?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Shigar da maɓallin lasisi...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Kunna",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Yana sake rubutawa kowane mako",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Buɗe Babban Sake rubutawa",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "isa ga Saitunan Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Jigogi na Premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Ƙungiyar Fayil Mai Waya",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Kwarewa marar talla",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Yana sake rubutawa kowane wata",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 Yana sake rubutawa kowace shekara",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% kashe sauran kari",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Tallafin Imel na fifiko",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Tsarin fitarwa",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Ana samun fitarwar PDF kawai akan shirin kyauta. Da fatan za a haɓaka zuwa Pro/Premium don buɗe wasu tsarin fitarwa.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Tsarin Sunan fayil",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Zaɓi yadda ake sunan fayilolin da aka fitar.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Sake rubuta Tarihi - Kwanan wata (misali Sake rubuta Tarihi_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Taken al'ada",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Shigar da sunan fayil na al'ada...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Fitar da Fayil na gida",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Ajiye zuwa Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Ajiye zuwa Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Ana samun madadin Cloud akan tsare-tsaren biya kawai. Da fatan za a haɓaka zuwa Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "An soke amincin Dropbox.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "An kasa samun alamar shiga Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Tabbacin Google Drive ya kasa.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "An kasa loda Google Drive:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Kuskuren Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Babu tarihin da aka samo don fitarwa.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "An tsara tarihi da kyau kuma an kwafi shi zuwa allo!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "An adana tarihi amintacce a cikin Dropbox ɗin ku!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "An adana tarihi cikin aminci a cikin Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "An gama fitarwa!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Sake rubutawa tare da AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Sake rubutawa",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Kusa",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Rubutun asali",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Zaɓi yanayin don sake rubutawa...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Sauya",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kwafi",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kwafi",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Sake gwadawa",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Ajiye",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Yanayin \"Inganta\" kawai yana samuwa akan shirin kyauta. Da fatan za a haɓaka zuwa Pro don buɗe duk hanyoyin 13.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Yanayin \"Inganta\" kawai yana samuwa akan shirin kyauta. Da fatan za a haɓaka zuwa Pro/Premium don buɗe duk hanyoyin sake rubutawa guda 13.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Sake rubuta Rubutun Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Shirye-shiryen Kyauta (Kulle abubuwan da suka dace)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "An kulle faɗakarwar al'ada akan Tsarin Kyauta...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "misali Sake rubutawa don LinkedIn, Sanya wannan mai gamsarwa...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Yanayin \"Inganta\" kawai yana samuwa akan shirin kyauta. Da fatan za a haɓaka zuwa Pro/Premium don buɗe duk fasalulluka.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Yanayin \"Inganta\" kawai yana samuwa akan shirin kyauta. Da fatan za a haɓaka zuwa Pro/Premium don buɗe duk hanyoyin.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Tarihi",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Saituna",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Babu sake rubutawa tukuna.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Hana rubutu akan kowane shafi kuma danna ✨ don farawa.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Na asali:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ An sake rubutawa:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Ƙara ƙarin",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Asusu",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Yana sake rubutawa yau",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Sake saiti",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aiki ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Injin AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Sake rubuta Injin",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Ta yaya zan sake rubuta rubutu akan gidan yanar gizo?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Kawai haskaka ko zaɓi kowane rubutu akan kowane shafin yanar gizon. Maɓallin wand ɗin sihiri mai iyo ('✨') zai bayyana ta atomatik kusa da siginan ku. Danna wannan alamar yana buɗe budowar sake rubutawa mai mu'amala, inda zaku iya zaɓar sautin sake rubutawa (kamar Ingantawa, Nahawu, Ƙwararru, Casual, Faɗawa, ko Gajarta) don barin AI ta sake rubuta muku abun ciki. Hakanan zaka iya kunna mu'amala ta hanyar gajeriyar hanyar Palette Command (Ctrl+Shift+Pakan Windows/Linux koCmd+Shift+Pakan macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Wadanne nau'ikan AI ke tallafawa?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "A halin yanzu muna tallafawa na zamani LLMs ciki har da OpenAI's GPT (misali, GPT-4o-mini), Google's Gemini, Anthropic's Claude, da Groq samfurin buɗe tushen (kamar Llama 3) don babban aiki, sarrafa rubutu mai saurin walƙiya.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Shin bayanana suna da tsaro?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ee, keɓantawa shine babban fifiko. Mu kawai aiwatar da takamaiman rubutun da kuka zaɓa don sake rubutawa. Ana watsa rubutun cikin aminci zuwa API ɗin mu na baya don aiwatar da buƙatar. Ba ma adana tarihin rubutun ku na dogon lokaci akan sabar mu, kuma ba ma raba shi tare da wasu mutane ko amfani da shi don horar da ƙirar AI. Bugu da ƙari, tsawaita yana gudana a cikin mahalli mai yashi don tabbatar da kare tarihin binciken ku na sirri.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Menene bambanci tsakanin tsare-tsaren Kyauta da Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Shirin Kyauta yana ba da sake rubutawa guda 5 a kowace rana, keɓaɓɓen keɓance ga sautin 'Inganta' da 'PDF' zazzagewa/tsarin fitarwa. Haɗin Dropbox da Google Drive kuma an kulle su. Shirye-shiryen da aka biya (Mako-mako, Pro na wata-wata, da Ƙarshen Shekara) suna buɗe duk sautunan 6, duk nau'ikan zazzagewa guda 6 (PDF, Markdown, TXT, IMG, JSON, da Kwafin Clipboard), da haɗe-haɗen madadin girgije don ƙima, ƙwarewa mara ƙima.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Me yasa aka kulle wasu sautunan sake rubutawa, tsarin fitarwa, da madogaran girgije akan shirin Kyauta?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Gudun samfuran AI na zamani (kamar GPT-4o-mini, Gemini, da Claude) da sarrafa aiki tare da girgije yana buƙatar mahimman kayan aikin uwar garken, ƙididdige iko, da farashin API kai tsaye ga kowane aiki. Don sa sabis ɗinmu ya dore yayin da yake ba da cikakken zaɓi na kyauta, shirin Kyauta ya ƙunshi buƙatu na yau da kullun (sake rubutawa 5 kowace rana tare da sautin 'Inganta' da tsarar PDF na gida). Shirye-shiryen biyan kuɗi suna ba da gudummawar farashin sautunan ƙima (Grammar, Professional, Casual, Expand, Shorten), masu haɗa girgije (Dropbox, Google Drive), da fitar da tsari da yawa (Markdown, TXT, IMG, JSON, COPY), yana tabbatar da cewa za mu iya tallafawa babban aiki, sabuntawa mai aiki, da tsayayyen sirri ba tare da talla ba.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Ta yaya zan kunna maɓallin lasisi na?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Bayan kammala siyan kuɗin ku, liƙa maɓallin lasisin ku a cikin maɓalli na ingantaccen filin a ƙasan shafin 'Account & Use' akan dashboard kuma danna 'Kunna Lasisi'. Cikakkun bayanan tsarin asusun ku za su ɗaukaka nan take a ma'ajiyar burauzar ku.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Shin wannan yana aiki akan Google Docs ko Ra'ayi?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ee, tsawaita yana da cikakkiyar jituwa tare da shahararrun editoci da wadatattun hanyoyin rubutu kamar Google Docs, Ra'ayi, Gmail, LinkedIn, Slack yanar gizo, da Twitter/X. Idan maɓallin mai iyo ya kashe akan aikace-aikacen al'ada, zaku iya amfani da gajeriyar hanyar madanni na Palette Command don sake rubuta zaɓinku.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Zan iya amfani da maɓallin API na na?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Don samar da kwarewa mara kyau, toshe-da-wasa, duk farashin amfani da API an rufe su gabaɗaya ƙarƙashin shirin biyan kuɗin ku. A halin yanzu, ba kwa buƙatar saita maɓallan API ɗin ku. Koyaya, muna shirin tallafawa saitin API na mai amfani na al'ada a cikin sabuntawa mai dacewa da haɓakawa na gaba.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Ta yaya zan canza tsohuwar sautin sake rubutawa?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Kuna iya saita sautin sake rubutawa ta tsoho a cikin Saitunan shafin na wannan rukunin zaɓuɓɓuka. Ajiye abin da kuka fi so zai kasance ta atomatik zuwa waccan sautin lokacin danna gunkin sihirin wand, kodayake har yanzu kuna iya canza sautuna a cikin fitowar lokacin da ake buƙata.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Me yasa maɓallin iyo baya bayyana wani lokaci?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Maɓallin wand ɗin sihiri yana buƙatar ƙaramin zaɓi na tsayin rubutu don hana rufewar bazata. Bugu da ƙari, daidaitattun manufofin tsaro na burauza suna toshe alluran abun ciki akan wasu shafuka masu gata, kamar Shagon Yanar Gizon Chrome (chrome.google.com) da shafukan daidaitawa na ciki (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Zan iya kwafin rubutun da aka sake rubuta ba tare da maye gurbin na asali ba?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ee, a cikin bututun sake rubutawa, zaku iya danna alamar 'Copy'. Wannan yana kwafin sabon sigar da aka sake rubutawa kai tsaye zuwa allon allo, yana ba ku damar liƙa shi a duk inda kuke so ba tare da maye gurbin ko shafar ainihin abun ciki a shafin yanar gizon ba.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Ta yaya zan soke biyan kuɗi na?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Kuna iya sarrafa ko soke biyan kuɗin ku a kowane lokaci ta danna hanyar haɗin yanar gizon abokin ciniki da aka bayar a cikin imel ɗin tabbatar da siyan ku. Idan ba za ku iya gano imel ɗin ba, tuntuɓe mu akeshoraai@gmail.comkuma za mu taimaka muku.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Me sautin 'Expand' yake yi?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Sautin 'Expand' yana amfani da basirar ƙirƙira don haɓakawa da yin ƙarin bayani akan rubutun da kuka zaɓa, ƙara cikakkun bayanai, mahallin, da ingantaccen tsarin nahawu zuwa gajerun tunani, makirusai, ko jimloli yayin kiyaye ainihin niyya.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Kuna bayar da rangwamen dalibai?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ee, muna tallafawa ɗalibai, malamai, da masu binciken ilimi. Muna ba da rangwamen 30% akan duk tsare-tsaren biyan kuɗi da aka biya. Yi mana imel akeshoraai@gmail.comdaga adireshin imel ɗinku na hukuma ko jami'a (.edu ko yankin ilimi) don neman lambar rangwame.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Akwai babban zaɓi na sake rubutawa?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ee, masu amfani da matakin ƙimar ƙima na iya yin amfani da sake rubutu mai yawa. Maimakon zabar sassa guda ɗaya, zaku iya buɗe ɓangaren gefen tsawaita kuma liƙa duka takardu ko sakin layi don gyara su gaba ɗaya.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Ta yaya zan ba da rahoton bug?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Kuna iya aiko da rahotannin kwaro kai tsaye zuwa ga ƙungiyar tallafin mu akeshoraai@gmail.com. Danna widget din taimako a cikin shafin 'Account & Use' zai riga ya cika samfurin goyan bayan da ke dauke da bayanan tsawo don taimaka mana gano matsalar.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Me yasa aka ce 'Kwanta ya wuce'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Gargadi na 'Quota Exceeded' yana nufin kun cinye amfanin da aka ba ku don sake zagayowar shirin ku: Masu amfani kyauta suna iyakance ga sake rubutawa 5 kullum; Masu amfani da mako-mako suna samun sake rubutawa 140; Masu amfani da Pro na wata-wata suna samun sake rubutawa 600; kuma Masu amfani da Ƙarshen Shekara suna karɓar sake rubutawa 9,000. Sake saitin ƙididdiga ta atomatik dangane da zagayowar (kullum da tsakar dare lokacin gida, ko kan iyakoki na mako-mako/wata-shekara/shekara). Kuna iya haɓakawa zuwa babban bene akan shafin 'Account & Use' don ci gaba da sabis nan da nan.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Fitarwa...",
+    "description": "Locale key: exportingStatus"
+  }
+}

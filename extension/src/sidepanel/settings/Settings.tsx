@@ -53,7 +53,7 @@ export const Settings: React.FC = () => {
   if (!user) {
     return (
       <div style={{ textAlign: 'center' as const, color: '#8B8B9A', padding: '40px 20px' }}>
-        Please sign in to view settings.
+        {chrome.i18n.getMessage('loginRequiredSettings')}
       </div>
     );
   }
@@ -64,7 +64,7 @@ export const Settings: React.FC = () => {
     <div>
       {/* Account */}
       <div style={s.section}>
-        <div style={s.sectionTitle}>Account</div>
+        <div style={s.sectionTitle}>{chrome.i18n.getMessage('sidepanelAccount')}</div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
             <div style={s.label}>{user.name}</div>
@@ -72,11 +72,13 @@ export const Settings: React.FC = () => {
           </div>
           <span style={{
             padding: '3px 10px', borderRadius: '999px', fontSize: '11px', fontWeight: 700,
-            background: user.plan === 'pro' ? 'rgba(124,110,248,0.15)' : '#2A2A32',
-            color: user.plan === 'pro' ? '#7C6EF8' : '#8B8B9A',
-            border: `1px solid ${user.plan === 'pro' ? '#7C6EF8' : '#3A3A45'}`,
+            background: user.plan !== 'free' ? 'rgba(124,110,248,0.15)' : '#2A2A32',
+            color: user.plan !== 'free' ? '#7C6EF8' : '#8B8B9A',
+            border: `1px solid ${user.plan !== 'free' ? '#7C6EF8' : '#3A3A45'}`,
           }}>
-            {user.plan === 'pro' ? '⚡ Pro' : 'Free'}
+            {user.plan === 'free' 
+              ? chrome.i18n.getMessage('planFree') 
+              : (user.plan === 'pro' ? (chrome.i18n.getMessage('planPro') || 'Pro') : (user.plan.charAt(0).toUpperCase() + user.plan.slice(1)))}
           </span>
         </div>
       </div>
@@ -84,11 +86,11 @@ export const Settings: React.FC = () => {
       {/* Usage */}
       {usage && (
         <div style={s.section}>
-          <div style={s.sectionTitle}>Daily Usage</div>
+          <div style={s.sectionTitle}>{chrome.i18n.getMessage('dailyUsage')}</div>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-            <span style={s.sublabel}>Rewrites today</span>
+            <span style={s.sublabel}>{chrome.i18n.getMessage('sidepanelRewritesToday')}</span>
             <span style={{ fontSize: '13px', color: '#F0F0F2', fontWeight: 500 }}>
-              {usage.count}{usage.limit > 0 ? ` / ${usage.limit}` : ' (unlimited)'}
+              {usage.count}{usage.limit > 0 ? ` / ${usage.limit}` : ` ${chrome.i18n.getMessage('unlimited')}`}
             </span>
           </div>
           {usage.limit > 0 && (
@@ -101,7 +103,7 @@ export const Settings: React.FC = () => {
                 }} />
               </div>
               <div style={s.sublabel}>
-                Resets {new Date(usage.resetAt).toLocaleDateString('en-US', { weekday: 'short', hour: '2-digit', minute: '2-digit' })}
+                {chrome.i18n.getMessage('sidepanelResets')}{new Date(usage.resetAt).toLocaleDateString('en-US', { weekday: 'short', hour: '2-digit', minute: '2-digit' })}
               </div>
             </>
           )}
@@ -110,14 +112,14 @@ export const Settings: React.FC = () => {
 
       {/* AI Engine */}
       <div style={s.section}>
-        <div style={s.sectionTitle}>AI Engine</div>
+        <div style={s.sectionTitle}>{chrome.i18n.getMessage('sidepanelEngineTitle')}</div>
         <div style={{
           padding: '10px 14px', borderRadius: '8px',
           border: '1px solid #7C6EF8', background: 'rgba(124,110,248,0.1)',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
         }}>
-          <span style={{ fontSize: '13px', color: '#F0F0F2' }}>✨ AI Rewrite Engine</span>
-          <span style={{ color: '#7C6EF8', fontSize: '14px', fontWeight: 600 }}>Active ✓</span>
+          <span style={{ fontSize: '13px', color: '#F0F0F2' }}>{chrome.i18n.getMessage('sidepanelEngineLabel')}</span>
+          <span style={{ color: '#7C6EF8', fontSize: '14px', fontWeight: 600 }}>{chrome.i18n.getMessage('sidepanelEngineActive')}</span>
         </div>
       </div>
 
@@ -130,7 +132,7 @@ export const Settings: React.FC = () => {
           color: '#f87171', cursor: 'pointer', fontWeight: 500, fontSize: '13px',
         }}
       >
-        Sign Out
+        {chrome.i18n.getMessage('btnSignOut')}
       </button>
     </div>
   );

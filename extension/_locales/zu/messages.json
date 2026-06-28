@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Bhala kabusha noma kuphi - Isibhali Kabusha sombhalo we-AI",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Gqamisa umbhalo noma yikuphi. Bhala kabusha ngokushesha nge-AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Vula iphalethi yomyalo wokubhala kabusha kwe-AI",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "I-AI Bhala kabusha →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Thuthukisa Ukubhala",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Lungisa uhlelo lolimi",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Yenza Ubuchwepheshe",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Yenza Ubungane",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Yenza Ngokusemthethweni",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Yenza Okuvamile",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Yenza Ukukholisa",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Yenza Ukuzethemba",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Yenza umuntu",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Ukwaziswa Ngokwezifiso...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Thuthukisa",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Uhlelo lolimi",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Uchwepheshe",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Unobungane",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Okuhlelekile",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Okuvamile",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Iyakholisa",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Ngiyazethemba",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Fushanisa",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Nweba",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Yenza kube lula",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Yenza umuntu",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Ngokwezifiso",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Iyalayisha...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Bhala kabusha umbhalo noma yikuphi",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Ngena ngemvume nge-Google ukuze uqale ukubhala kabusha umbhalo kunoma iyiphi iwebhusayithi nge-AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Ingena ngemvume...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Ngena ngemvume nge-Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Iphrofayili",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Mahhala",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Ukusetshenziswa Kwansuku zonke",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(okungenamkhawulo)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Khetha umbhalo kunoma yiliphi ikhasi → chofoza inkinobho ✨ ukuze ubhale kabusha. Noma cindezelaCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Vula umlando nezilungiselelo",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Phuma",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Ukungena ngemvume kuhlulekile",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Ukubhala kabusha kuhlulekile",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Lesi sigaba siyakhiwa njengamanje.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Sicela ungene ngemvume ukuze ubuke izilungiselelo.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "I-akhawunti nokusetshenziswa",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Bhala kabusha Umlando",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Izilungiselelo",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Landa",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Usizo & Imibuzo Evame Ukubuzwa",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "Ideshibhodi Yokubhala Kabusha ye-AI",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Ukucushwa Okujwayelekile",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Itimu Yesixhumanisi",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Imodi Emnyama",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Imodi Ekhanyayo",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Okuzenzakalelayo Bhala kabusha Ithoni",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Sula Wonke Umlando",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Akukho okubhalwe kabusha okwamanje",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Gqamisa umbhalo kunoma yiliphi ikhasi bese uchofoza ✨ ukuze uqalise. Umlando wakho uzovela lapha.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Uqinisekile ukuthi ufuna ukususa le nto yomlando wokubhala kabusha?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Ingabe uqinisekile ukuthi ufuna ukususa unomphela wonke umlando wakho wokubhala kabusha? Lokhu akukwazi ukuhlehliswa.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Yehlulekile ukususa into:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Yehlulekile ukusula umlando:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Umbhalo Wasekuqaleni",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Umbhalo Obhalwe Kabusha",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Susa",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopisha Ibhalwe Kabusha",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Ikopishiwe!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Layisha imibhalo ebhalwe kabusha endala",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Ukusekela & Imibuzo Yebhizinisi",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Finyelela ku:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Imibuzo Evame Ukubuzwa",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Ukuze uthole usizo noma ukubika iphutha",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "I-imeyilikeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Umkhawulo Wamahhala Wansuku zonke",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Isigaba samahhala: 5 kubhalwa kabusha/ngosuku. Isethwa kabusha nsuku zonke phakathi kwamabili.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Bhala kabusha umbhalo noma yikuphi ngaphandle kwemikhawulo.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Iqoqo bhala kabusha konke okuqukethwe kwakho. Vumelanisa efwini. Ayikho imikhawulo.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ukunikezwa Kwe-Adopter Yangaphambi kwesikhathi: Ukunyuka kwentengo elandelayo kubasebenzisi abangama-Premium abangu-500. Khiya kuleli zinga impilo yonke!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Imakethe yase-US ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Imakethe YaseNdiya ( ₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Izinkokhelo ze-US Dollar zisalungiswa okwamanje. Sicela ushintshele ohlelweni lwe-Indian Market ( ₹) noma usithinte ku-keshoraai@gmail.comukuze uthole usizo.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Maviki onke",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(I-57¢ nje / ngosuku)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Nyanga zonke ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(33¢ nje / ngosuku)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Minyaka yonke 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(21¢ nje / ngosuku)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Ngaphandle kuka-R21 / ngosuku)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Ngaphandle kuka-R13 / ngosuku)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(R8 nje / ngosuku)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ isonto",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ ngenyanga",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ ngonyaka",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Kuhle ukusetshenziswa ngezikhathi ezithile",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Iningi labasebenzisi likhetha lolu hlelo",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Inani elingcono kakhulu labasebenzisi bamandla",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "OKUDUMILE KAKHULU",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "INANI ELIHLE KAHLE - IZINYANGA EZI-2 MAHHALA",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Isilinganiso • 🔒 Vikela Izinkokhelo • ✔️ Khansela noma nini",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ingabe ungumfundi noma umcwaningi ongakwazi ukukhokhela ukubhalisa? Sicela uthumele i-imeyili ku-keshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Usuvele unokhiye welayisensi?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Faka ukhiye welayisensi...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Yenza kusebenze",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Iphinda ibhalwe ngeviki",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Vula I-Bulk Rewrite",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Ukufinyelela Izilungiselelo Ze-Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Izingqikithi ze-Premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Inhlangano Yefolda Ehlakaniphile",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Umuzwa ongenazikhangiso",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Ibhala kabusha ngenyanga",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "I-9,000 Ibhala kabusha ngonyaka",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% isephulelo kwezinye izandiso",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Ukusekelwa Kwe-imeyili Okubalulekile",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Thumela Ifomethi",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Ukuthunyelwa kwe-PDF kuphela okutholakala ohlelweni lwamahhala. Sicela uthuthukele ku-Pro/Premium ukuze uvule amanye amafomethi wokuthekelisa.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Ifomethi yegama lefayela",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Khetha ukuthi amafayela athunyelwe aqanjwa kanjani.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Bhala kabusha Umlando - Idethi (isb. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Isihloko Ngokwezifiso",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Faka igama lefayela langokwezifiso...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Khipha Ifayela Lendawo",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Londoloza ku-Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Londoloza ku-Google Drayivu ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Ikhophi yasenqolobaneni yamafu itholakala kuphela ezinhlelweni ezikhokhelwayo. Sicela uthuthukele ku-Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Ukufakazela ubuqiniso be-Dropbox kukhanseliwe.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Yehlulekile ukuthola ithokheni yokufinyelela ye-Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Ukuqinisekisa kwe-Google Drayivu kuhlulekile.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Ukulayisha kwe-Google Drayivu kuhlulekile:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Iphutha le-Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Awukho umlando otholakele wokuthekelisa.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Umlando ufomethwe kahle futhi ukopishelwe ebhodini lokunamathisela!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Umlando ulondolozwe ngokuphephile ku-Dropbox yakho!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Umlando ulondolozwe ngokuvikelekile ku-Google Drive yakho!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Ukuthunyelwa kuqediwe!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Bhala kabusha nge-AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "I-AI Bhala kabusha",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Vala",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Umbhalo wangempela",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Khetha imodi ozoyibhala kabusha...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Faka esikhundleni",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopisha",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Ikopishiwe",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Phinda uzame",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Londoloza",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Imodi ethi \"Thuthukisa\" kuphela etholakala ohlelweni lwamahhala. Sicela uthuthukele ku-Pro ukuze uvule zonke izindlela eziyi-13.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Imodi ethi \"Thuthukisa\" kuphela etholakala ohlelweni lwamahhala. Sicela uthuthukele ku-Pro/Premium ukuze uvule wonke amamodi okubhala kabusha angu-13.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ I-AI Phinda Ubhale Iphalethi Yomyalo",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Uhlelo Lwamahhala (Imiyalelo yangokwezifiso ikhiyiwe)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Ukwaziswa kwangokwezifiso kukhiyiwe Kuhlelo Lwamahhala...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "isib. Bhala kabusha i-LinkedIn, Yenza lokhu kuthandeke...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Imodi ethi \"Thuthukisa\" kuphela etholakala ohlelweni lwamahhala. Sicela uthuthukele ku-Pro/Premium ukuze uvule zonke izici.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Imodi ethi \"Thuthukisa\" kuphela etholakala ohlelweni lwamahhala. Sicela uthuthukele ku-Pro/Premium ukuze uvule wonke amamodi.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Umlando",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Izilungiselelo",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Akukho okubhalwe kabusha okwamanje.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Gqamisa umbhalo kunoma yiliphi ikhasi bese uchofoza ✨ ukuze uqalise.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Okwangempela:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Ibhalwe kabusha:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Layisha okuningi",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "I-akhawunti",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Ibhala kabusha namuhla",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Isetha kabusha",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Iyasebenza ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Injini ye-AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ I-AI Yokubhala Kabusha Injini",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Ngiwubhala kanjani kabusha umbhalo kuwebhusayithi?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Vele ugqamise noma ukhethe noma yimuphi umbhalo kunoma yiliphi ikhasi lewebhu. Inkinobho ye-wand yomlingo entantayo ('✨') izovela ngokuzenzakalelayo eduze kwekhesa yakho. Ukuchofoza lesi sithonjana kuvula isigelekeqe sokubhala kabusha esisebenzisanayo, lapho ungakhetha khona ithoni yokubhala kabusha (njengokuthi Thuthukisa, Uhlelo Lolimi, Obuchwepheshile, Okuvamile, Nweba, noma Fushanisa) ukuze uvumele i-AI ikubhalele kabusha okuqukethwe. Ungaphinda uqalise isixhumi esibonakalayo usebenzisa isinqamuleli se-Command Palette (Ctrl+Shift+Pku-Windows/Linux nomaCmd+Shift+Pku-macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Imaphi amamodeli e-AI asekelwayo?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Okwamanje sisekela ama-LLM asezingeni eliphezulu afaka i-OpenAI's GPT (isb., GPT-4o-mini), i-Gemini ye-Google, i-Anthropic's Claude, kanye namamodeli omthombo ovulekile we-Groq (njenge-Llama 3) okusebenza okuphezulu, ukucubungula umbhalo osheshayo.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Ingabe idatha yami ivikelekile?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Yebo, ubumfihlo buyinto ebaluleke kakhulu. Sicubungula kuphela umbhalo othize owukhethele ukuwubhala kabusha. Umbhalo udluliselwa ngokuphephile ku-API yethu yasemuva ukuze senze isicelo. Asiwugcini umlando wakho werekhodi lombhalo wesikhathi eside kumaseva ethu, futhi asabelani ngawo nezinkampani zangaphandle noma siwusebenzisele ukuqeqesha amamodeli e-AI. Ukwengeza, isandiso sisebenza endaweni ene-sandbox ukuze uqinisekise ukuthi umlando wakho wokuphequlula uvikelekile.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Uyini umehluko phakathi kwezinhlelo zamahhala nezePro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Uhlelo lwamahhala luhlinzeka ngokubhala kabusha okungu-5 ngosuku, kukhawulelwe kuphela kwithoni ethi 'Thuthukisa' kanye nefomethi yokulanda/yokuthekelisa ye-'PDF'. Ukuhlanganiswa kwe-Dropbox ne-Google Drayivu nakho kukhiyiwe. Izinhlelo ezikhokhelwayo (Maviki onke, I-Pro Monthly, kanye Nokugcina Kwangonyaka) zivula wonke amathoni angu-6, wonke amafomethi okulanda angu-6 (PDF, Markdown, TXT, IMG, JSON, ne-Clipboard Copy), kanye nokuhlanganiswa kwekhophi yasenqolobaneni yamafu ukuze uthole i-premium, umuzwa ongenamikhawulo.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Kungani amathoni athile okubhala kabusha, amafomethi wokuthekelisa, nezipele zamafu kukhiyiwe ohlelweni lwamahhala?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Ukuqalisa amamodeli e-AI yesimanje (njenge-GPT-4o-mini, i-Gemini, ne-Claude) nokuphatha ukuvumelanisa kwamafu kudinga ingqalasizinda yeseva enkulu, amandla wokubala, kanye nezindleko ze-API eziqondile kuso sonke isenzo. Ukuze senze isevisi yethu iqine kuyilapho sisanikeza inketho yamahhala esebenza ngokugcwele, icebo Lamahhala lihlanganisa izidingo eziyisisekelo (ukubhala kabusha kwansuku zonke oku-5 ngethoni ethi 'Thuthukisa' kanye nokukhiqizwa kwe-PDF kwasendaweni). Izinhlelo zokubhalisa zixhasa izindleko zamathoni e-premium (I-Grammar, Professional, Casual, Nweba, Fushanisa), izixhumi zamafu (i-Dropbox, i-Google Drayivu), kanye nokuthunyelwa kwefomethi eminingi (Markdown, TXT, IMG, JSON, COPY), ukuqinisekisa ukuthi singakwazi ukusekela ukusebenza okuphezulu, izibuyekezo ezisebenzayo, nobumfihlo obuqinile ngaphandle kwezikhangiso.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Ngiwuvula kanjani ukhiye wami welayisense?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Ngemva kokuqeda ukuthenga kwakho okubhalisele, namathisela ukhiye wakho welayisense endaweni yokuqinisekisa engukhiye ezansi kwekhasi elithi 'I-akhawunti Nokusetshenziswa' kudeshibhodi bese uchofoza okuthi 'Vula Ilayisensi'. Imininingwane yohlelo lwe-akhawunti yakho izobuyekezwa khona manjalo kusitoreji sakho sesiphequluli.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Ingabe lokhu kusebenza ku-Google Amadokhumenti noma i-Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Yebo, isandiso sihambisana ngokugcwele nabahleli abadumile nezingosi zombhalo ezinothile njenge-Google Amadokhumenti, Notion, Gmail, LinkedIn, Slack web, kanye ne-Twitter/X. Uma inkinobho entantayo ivaliwe kuhlelo lokusebenza olungokwezifiso, ungasebenzisa isinqamuleli sekhibhodi ye-Command Palette ukuze ubhale kabusha okukhethile.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Ngingakwazi ukusebenzisa ukhiye wami we-API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Ukuze unikeze umuzwa ongenazihibe, we-plug-and-play, zonke izindleko zokusebenzisa i-API zimbozwe ngokugcwele ngaphansi kohlelo lwakho lokubhalisa. Okwamanje, awudingi ukumisa okhiye bakho be-API. Nokho, sihlela ukusekela ukulungiselelwa kwe-API yomsebenzisi ngokwezifiso kusibuyekezo esizayo esiqondiswe kunjiniyela.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Ngiyishintsha kanjani ithoni yokubhala kabusha ezenzakalelayo?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Ungasetha ithoni yakho yokubhala kabusha ezenzakalelayo kuthebhu Yezilungiselelo yale phaneli yezinketho. Ukulondoloza okuncamelayo kuzozenzakalela kuleyo toni uma uchofoza isithonjana se-magic wand, nakuba usengashintsha amathoni ku-popup uma kudingeka.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Kungani inkinobho entantayo ingaveli ngezinye izikhathi?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Inkinobho ye-wand yomlingo idinga ubude obuncane bokukhetha bombhalo ukuze kuvinjelwe ukumbondelana ngephutha. Ngaphezu kwalokho, izinqubomgomo zokuphepha ezijwayelekile zesiphequluli zivimba ngokuqinile imijovo yokuqukethwe kumakhasi athile akhethekile, njengeSitolo Sewebhu Se-Chrome (chrome.google.com) namakhasi okulungiselelwa kwangaphakathi (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Ngingakwazi ukukopisha umbhalo obhalwe kabusha ngaphandle kokufaka owokuqala?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Yebo, ngaphakathi kwe-popup yokubhala kabusha entantayo, ungachofoza isithonjana esithi 'Kopisha'. Lokhu kukopisha inguqulo esanda kubhalwa kabusha ngqo ebhodini lakho lokunamathisela, okukuvumela ukuthi uyinamathisele noma kuphi lapho uthanda khona ngaphandle kokufaka esikhundleni noma ukuphazamisa okuqukethwe kwasekuqaleni ekhasini lewebhu.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Ngikukhansela kanjani ukubhalisa kwami?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Ungaphatha noma ukhansele ukubhalisa kwakho nganoma yisiphi isikhathi ngokuchofoza isixhumanisi sephothali yekhasimende esinikezwe ku-imeyili yakho yokuqinisekisa ukuthenga. Uma ungakwazi ukuyithola i-imeyili, xhumana nathi ku-keshoraai@gmail.comfuthi sizokusiza.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Yenzani ithoni ethi 'Nweba'?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Iphimbo elithi 'Nweba' lisebenzisa ubuhlakani obukhiqizayo ukwakha nokuchaza kabanzi ngombhalo wakho owukhethile, wengeze imininingwane ecebile, umongo, kanye nesakhiwo sohlelo esifanele emicabangweni emifushane, amaphuzu ezinhlamvu, noma imishwana kuyilapho ugcina inhloso yokuqala injalo.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Ingabe unikeza umfundi isaphulelo?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Yebo, siyabasekela abafundi, othisha, nabacwaningi bezemfundo. Sinikeza isaphulelo sika-30% kuzo zonke izinhlelo zokubhaliselwe okukhokhelwayo. Sithumele i-imeyili ku-keshoraai@gmail.comekhelini le-imeyili lesikole sakho noma lenyuvesi (.edu noma isizinda semfundo) ukuze ucele ikhodi yakho yesaphulelo.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Ingabe ikhona inketho yokubhala kabusha ngobuningi?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Yebo, abasebenzisi bezinga eliphezulu bangasebenzisa ukubhala kabusha kwenqwaba. Esikhundleni sokukhetha amasegimenti angawodwana, ungavula iphaneli eseceleni yesandiso bese unamathisele wonke amadokhumenti noma izigaba ukuze uziguqule ngesikhathi esisodwa.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Ngisibika kanjani isiphazamisi?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Ungathumela imibiko yeziphazamisi nge-imeyili ethimbeni lethu labasekeli ku-keshoraai@gmail.com. Ukuchofoza iwijethi yosizo kuthebhu 'I-akhawunti Nokusetshenziswa' kuzogcwalisa kusengaphambili isifanekiso sosekelo esiqukethe imininingwane yesandiso ukuze usisize sihlonze inkinga.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Kungani ithi 'I-Quota Yeqile'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Isexwayiso 'Seqiwe Isabelo-mali' sisho ukuthi usebenzise ukusetshenziswa kwakho owabelwe umjikelezo osebenzayo wohlelo lwakho: Abasebenzisi bamahhala bakhawulelwe ekubhaleni kabusha kwansuku zonke okungu-5; Abasebenzisi bamasonto onke bathola ukubhala kabusha okungu-140; Abasebenzisi benyanga bePro bathola ukubhala kabusha okungu-600; futhi Abasebenzisi be-Yearly Ultimate bathola ukubhala kabusha okungu-9,000. Izabelo zisethwa kabusha ngokuzenzakalelayo ngokususelwe kumjikelezo (nsuku zonke phakathi kwamabili ngesikhathi sasendaweni, noma emngceleni weviki/nyanga/nyanga zonke). Ungathuthukela esigabeni esiphezulu ekhasini elithi 'I-akhawunti Nokusetshenziswa' ukuze uqalise kabusha isevisi ngokushesha.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Iyathumela...",
+    "description": "Locale key: exportingStatus"
+  }
+}

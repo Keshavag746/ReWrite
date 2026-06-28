@@ -1,0 +1,44 @@
+✨ A legmodernebb mesterséges intelligencia segítségével azonnal írhat át szöveget bárhol az interneten.
+
+Belefáradt, hogy szöveget másol és illeszt be a chat ablakokba, hogy javítsa írásait? Az AI Rewrite Anywhere segítségével bármely webhelyen (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X stb.) bármilyen szöveget kiemelhet vagy kijelölhet, és azonnal átírhatja.
+
+A csúcskategóriás, nagy nyelvi modelleket (beleértve az OpenAI GPT-t, a Google Geminit, az Anthropic Claude-ot és a Groq nyílt forráskódú Llama-t) használó intelligens mesterségesintelligencia-lánc által működtetett bővítmény maximális üzemidőt és villámgyors válaszokat biztosít azáltal, hogy szolgáltatáskimaradás esetén a kéréseket automatikusan a következő elérhető szolgáltatóhoz irányítja.
+
+🚀 FŐBB JELLEMZŐK:
+- 🖱️ Kiemelés és átírás: Egyszerűen jelölje ki a szöveget bármely weboldalon. Egy lebegő varázspálca gomb jelenik meg a kurzor közelében. Kattintson rá az azonnali újraíráshoz.
+- 🖱️ Helyi menü integrációja: Kattintson a jobb gombbal bármelyik kijelölésre a 13 különböző átírási mód eléréséhez közvetlenül a böngésző helyi menüjéből.
+- ⌨️ Parancspaletta (Ctrl+Shift+K): Nyisson meg egy gyors, billentyűzet-központú felületet egyéni promptok beírásához vagy gyors előre beállított értékek aktiválásához az egér érintése nélkül.
+- 📋 Teljes átírási előzmények és beállítások: Nyissa meg az irányítópult gyönyörű oldalsó paneljét, ahol áttekintheti a múltbeli átírásokat, exportálhatja a naplókat több formátumban, és konfigurálhatja a beállításokat.
+- 🔄 Zökkenőmentes mesterséges intelligencia: Élvezze a megszakítás nélküli szolgáltatást. Ha az elsődleges modell meghibásodik, a bővítmény automatikusan átvált a következő elérhető modellre, átláthatóan.
+- 🔐 Biztonságos Google-bejelentkezés: Gyors, védett hitelesítés, amely biztonságosan szinkronizálja beállításait az eszközök között.
+
+🎯 13 DINAMIKUS ÚJRAÍRÁSI MÓD:
+1. Javítás: Lengyel írásszerkezet és szókincs automatikusan.
+2. Nyelvtan: Helyesírási, írásjelek és szintaktikai hibák javítása.
+3. Szakmai: Emelje fel a nyelvet a szakmai levelezéshez.
+4. Barátságos: adjon melegséget és megközelíthetőséget az üzenetekhez.
+5. Formális: Állítsa be a hivatalos dokumentumok és üzleti levelek megfogalmazását.
+6. Alkalmi: Hozzon létre nyugodt, társalgási szöveget a közösségi beállításokhoz.
+7. Meggyőző: Strukturálja az ötleteket a meggyőzés, a bemutatás vagy a hatékony marketing érdekében.
+8. Magabiztos: a projekt bizonyossága, tekintélye és erős meggyőződése.
+9. Rövidítés: A hosszú bekezdéseket tömör kiemelésekbe tömörítse.
+10. Bővítés: rövid felsoroláspontokra vagy kifejezésekre építsen és építsen.
+11. Egyszerűsítés: Fordítsa le a zsargont vagy az összetett gondolatokat tiszta, olvasható nyelvre.
+12. Humanizálás: A robotikus mesterséges intelligencia piszkozatainak átstrukturálása a természetes olvasáshoz.
+13. Egyéni prompt: Írja be, hogy pontosan mit szeretne a mesterséges intelligencia a kijelöléssel.
+
+📂 PREMIUM EXPORTFORMÁTUMOK:
+Exportálja átírási előzményeit helyileg, vagy szinkronizálja közvetlenül a felhőszolgáltatásokkal:
+- PDF (ingyenes és prémium)
+- Markdown (MD)
+- TXT
+- Kép (IMG)
+- JSON
+- Vágólap másolás
+- Felhőintegráció: Mentse közvetlenül a Dropboxba vagy a Google Drive-ba.
+
+🔒 ADATVÉDELEM ÉS BIZTONSÁG TERVEZÉSÉVEL:
+Az adatvédelem elsődleges elkötelezettségünk. Csak az aktív újraíráshoz kiválasztott szöveget dolgozzuk fel. Kiválasztását SSL-titkosításon keresztül biztonságosan továbbítjuk a háttér API-hoz a kérés végrehajtásához, és nem tároljuk hosszú távon a szervereinken. Személyes böngészési előzményei teljes mértékben védettek.
+
+📧 KAPCSOLAT ÉS TÁMOGATÁS:
+Kérdései, javaslatai vagy hibajelentései vannak? Forduljon hozzánk közvetlenül akeshoraai@gmail.comcímen. Elkötelezettek vagyunk a rendszeres frissítések és funkciók iránti igények iránt!

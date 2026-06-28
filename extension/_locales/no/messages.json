@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Fremhev tekst hvor som helst. Skriv om umiddelbart med AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Åpne kommandopaletten for AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Forbedre skrivingen",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Fiks grammatikk",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Gjør profesjonell",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Vær vennlig",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Gjør det formelt",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Gjør uformell",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Gjør overbevisende",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Gjør deg selvsikker",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humaniser",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Egendefinert forespørsel...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Forbedre",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Grammatikk",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesjonell",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Vennlig",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formell",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Uformelt",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Overbevisende",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Selvsikker",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Forkort",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Utvid",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Forenkle",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humaniser",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Egendefinert",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Laster inn...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Skriv om tekst hvor som helst",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Logg på med Google for å begynne å skrive om tekst på et hvilket som helst nettsted med AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Logger på ...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Logg på med Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Gratis",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Daglig bruk",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ubegrenset)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Velg tekst på en hvilken som helst side → klikk på ✨-knappen for å skrive om. Eller trykkCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Åpne Logg og innstillinger",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Logg ut",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Innlogging mislyktes",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Omskriving mislyktes",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Denne delen er under bygging.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Logg på for å se innstillingene.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Konto og bruk",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Omskriv historien",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Innstillinger",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Last ned",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Hjelp og vanlige spørsmål",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Generell konfigurasjon",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Grensesnittstema",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Mørk modus",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Lysmodus",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Standard omskrivingstone",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Slett all historikk",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Ingen omskrivninger ennå",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Marker tekst på en hvilken som helst side og klikk ✨ for å komme i gang. Historien din vises her.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Er du sikker på at du vil slette dette omskrivingshistorikkelementet?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Er du sikker på at du vil slette hele omskrivingsloggen din permanent? Dette kan ikke angres.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Kunne ikke slette elementet:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Kunne ikke tømme loggen:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Originaltekst",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Omskrevet tekst",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Slett",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopi omskrevet",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kopiert!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Last inn eldre omskrivinger",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Support og forretningsforespørsler",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Ta kontakt på:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Ofte stilte spørsmål",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "For hjelp eller for å rapportere en feil",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-postkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Daglig gratisgrense",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Gratis nivå: 5 omskrivinger/dag. Tilbakestilles daglig ved midnatt.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Skriv om tekst hvor som helst uten begrensninger.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch omskriv alt innholdet ditt. Synkroniser til skyen. Ingen restriksjoner.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter-tilbud: Neste prisøkning ved 500 Premium-brukere. Lås på denne prisen for livet!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 USAs marked ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indisk marked (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Betalinger i amerikanske dollar er for tiden under vedlikehold. Bytt til planen for det indiske markedet (₹) eller kontakt oss påkeshoraai@gmail.comfor å få hjelp.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Ukentlig",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Bare 57 ¢ / dag)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Månedlig ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Bare 33¢ / dag)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Årlig 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Bare 21¢ / dag)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Bare INR 21 per dag)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Bare INR 13 per dag)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Bare 8 INR/dag)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ uke",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ måned",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ år",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "God til sporadisk bruk",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "De fleste brukere velger denne planen",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Best verdi for superbrukere",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "MEST POPULÆR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "BESTE VERDI - 2 MÅNEDER GRATIS",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0-vurdering • 🔒 Sikre betalinger • ✔️ Avbryt når som helst",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Er du student eller forsker som ikke har råd til abonnement? Send en e-post tilkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Har du allerede en lisensnøkkel?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Skriv inn lisensnøkkel...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktiver",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 omskrivinger per uke",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Lås opp Bulk Rewrite",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Tilgang til premiuminnstillinger",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium-temaer",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Smart mappeorganisasjon",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Annonsefri opplevelse",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 omskrivinger per måned",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9 000 omskrivinger per år",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50 % rabatt på andre utvidelser",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Prioritert e-poststøtte",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Eksporter format",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Kun PDF-eksport er tilgjengelig på gratisplanen. Oppgrader til Pro/Premium for å låse opp andre eksportformater.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Filnavnformat",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Velg hvordan eksporterte filer skal navngis.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Omskriv historikk – dato (f.eks. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Egendefinert tittel",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Skriv inn egendefinert filnavn...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Eksporter lokal fil",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Lagre til Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Lagre til Google Disk ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Skysikkerhetskopiering er kun tilgjengelig på betalte planer. Vennligst oppgrader til Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox-autentisering kansellert.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Kunne ikke hente Dropbox-tilgangstoken.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Disk-autentisering mislyktes.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Disk-opplasting mislyktes:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API-feil",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Fant ingen historikk å eksportere.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Historie vakkert formatert og kopiert til utklippstavlen!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Historien er trygt lagret i Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Logg lagret sikkert på Google Disk!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Eksporten er fullført!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Omskriv med AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Lukk",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Originaltekst",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Velg en modus for å omskrive...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Bytt ut",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopier",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kopiert",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Prøv på nytt",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Lagre",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Bare «Forbedre»-modus er tilgjengelig på gratisplanen. Oppgrader til Pro for å låse opp alle 13 modusene.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Bare «Forbedre»-modus er tilgjengelig på gratisplanen. Oppgrader til Pro/Premium for å låse opp alle de 13 omskrivingsmodusene.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite Command Palette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Gratis plan (egendefinerte forespørsler låst)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Egendefinert forespørsel er låst på gratisplan...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "f.eks. Omskriv for LinkedIn, gjør dette overbevisende...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Bare «Forbedre»-modus er tilgjengelig på gratisplanen. Oppgrader til Pro/Premium for å låse opp alle funksjoner.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Bare «Forbedre»-modus er tilgjengelig på gratisplanen. Oppgrader til Pro/Premium for å låse opp alle moduser.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Historie",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Innstillinger",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Ingen omskrivninger ennå.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Marker tekst på en hvilken som helst side og klikk ✨ for å komme i gang.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Original:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Omskrevet:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Last inn mer",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Konto",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Omskriver i dag",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Tilbakestiller",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktiv ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI-motor",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Hvordan omskriver jeg tekst på en nettside?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Bare marker eller velg hvilken som helst tekst på hvilken som helst nettside. En flytende tryllestav-knapp ('✨') vises automatisk nær markøren. Ved å klikke på dette ikonet åpnes den interaktive omskriving-popupen, der du kan velge en omskrivingstone (som Forbedre, Grammatikk, Profesjonell, Casual, Expand eller Shorten) for å la AI-en skrive om innholdet for deg. Du kan også utløse grensesnittet via kommandopalett-snarveien (Ctrl+Shift+Ppå Windows/Linux ellerCmd+Shift+Ppå macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Hvilke AI-modeller støttes?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Vi støtter for øyeblikket toppmoderne LLM-er, inkludert OpenAIs GPT (f.eks. GPT-4o-mini), Googles Gemini, Anthropics Claude og Groq åpen kildekode-modeller (som Llama 3) for høy ytelse, lynrask tekstbehandling.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Er dataene mine sikre?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ja, personvern er en kjerneprioritet. Vi behandler kun den spesifikke teksten du velger for omskriving. Teksten overføres trygt til vår backend API for å utføre forespørselen. Vi lagrer ikke tekstloggloggen din langsiktig på serverne våre, og vi deler den heller ikke med tredjeparter eller bruker den til å trene AI-modeller. I tillegg kjører utvidelsen i et sandkassemiljø for å sikre at din personlige nettleserhistorikk er beskyttet.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Hva er forskjellen mellom gratis- og pro-planer?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Gratisplanen gir 5 omskrivinger per dag, utelukkende begrenset til «Forbedre»-tonen og «PDF»-nedlastings-/eksportformat. Dropbox- og Google Drive-integrasjoner er også låst. Betalte planer (Weekly, Monthly Pro og Yearly Ultimate) låser opp alle 6 tonene, alle 6 nedlastingsformatene (PDF, Markdown, TXT, IMG, JSON og Clipboard Copy), og sky-sikkerhetskopiintegrasjoner for en førsteklasses, begrensningsfri opplevelse.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Hvorfor er visse omskrivingstoner, eksportformater og skysikkerhetskopier låst på gratisplanen?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Å kjøre state-of-the-art AI-modeller (som GPT-4o-mini, Gemini og Claude) og administrere skysynkronisering krever betydelig serverinfrastruktur, datakraft og direkte API-kostnader for hver handling. For å gjøre tjenesten vår bærekraftig samtidig som den tilbyr et fullt funksjonelt gratisalternativ, dekker gratisplanen grunnleggende krav (5 daglige omskrivinger med «Forbedre»-tonen og lokal PDF-generering). Abonnementsplanene subsidierer kostnadene for premiumtoner (Grammatikk, Profesjonell, Casual, Expand, Shorten), skykoblinger (Dropbox, Google Drive) og eksport av flere formater (Markdown, TXT, IMG, JSON, COPY), og sikrer at vi kan støtte høy ytelse, aktive oppdateringer og strengt personvern uten annonser.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Hvordan aktiverer jeg lisensnøkkelen min?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Etter at du har fullført abonnementskjøpet, limer du inn lisensnøkkelen i nøkkelvalideringsfeltet nederst på 'Konto og bruk'-siden på dashbordet og klikker på 'Aktiver lisens'. Kontoplanopplysningene dine oppdateres umiddelbart i nettleserlagringen din.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Fungerer dette på Google Docs eller Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ja, utvidelsen er fullt kompatibel med populære redaktører og riktekstportaler som Google Docs, Notion, Gmail, LinkedIn, Slack web og Twitter/X. Hvis den flytende knappen er deaktivert på et tilpasset program, kan du bruke kommandopalett-tastatursnarveien til å omskrive valget ditt.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Kan jeg bruke min egen API-nøkkel?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "For å gi en sømløs plug-and-play-opplevelse dekkes alle API-brukskostnader fullt ut av abonnementet ditt. For øyeblikket trenger du ikke å konfigurere dine egne API-nøkler. Vi planlegger imidlertid å støtte tilpassede bruker-API-konfigurasjoner i en fremtidig utviklerorientert oppdatering.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Hvordan endrer jeg standard omskrivingstone?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Du kan angi standard omskrivingstone i kategorien Innstillinger i dette alternativpanelet. Hvis du lagrer preferansene dine, vil den tonen automatisk som standard når du klikker på tryllestavikonet, selv om du fortsatt kan bytte toner i popup-vinduet når det er nødvendig.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Hvorfor vises ikke den flytende knappen noen ganger?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Tryllestav-knappen krever en minimumslengde på tekst for å forhindre utilsiktede overlegg. Videre blokkerer standard nettlesersikkerhetsretningslinjer strengt innholdsinjeksjoner på visse privilegerte sider, for eksempel Chrome Nettmarked (chrome.google.com) og interne konfigurasjonssider (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Kan jeg kopiere den omskrevne teksten uten å erstatte originalen?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ja, inne i den flytende omskriving-popupen kan du klikke på \"Kopier\"-ikonet. Dette kopierer den nylig omskrevne versjonen rett til utklippstavlen, slik at du kan lime den inn hvor som helst du vil uten å erstatte eller påvirke det originale innholdet på nettsiden.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Hvordan kansellerer jeg abonnementet mitt?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Du kan administrere eller kansellere abonnementet ditt når som helst ved å klikke på koblingen til kundefaktureringsportalen i e-posten med kjøpsbekreftelsen. Hvis du ikke finner e-posten, kontakt oss påkeshoraai@gmail.com, så hjelper vi deg.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Hva gjør \"Expand\"-tonen?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "\"Utvid\"-tonen bruker generativ intelligens til å bygge ut og utdype den valgte teksten, og legge til rike detaljer, kontekst og riktig grammatisk struktur til korte tanker, punktpunkter eller fraser samtidig som den opprinnelige intensjonen er intakt.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Tilbyr du studentrabatt?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ja, vi støtter studenter, lærere og akademiske forskere. Vi tilbyr 30 % rabatt på alle betalte abonnementsplaner. Send oss ​​en e-post påkeshoraai@gmail.comfra den offisielle e-postadressen for skolen eller universitetet (.edu eller akademisk domene) for å be om rabattkoden din.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Er det et alternativ for masseomskriving?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ja, premium tier-brukere kan benytte seg av masseomskriving. I stedet for å velge individuelle segmenter, kan du åpne sidepanelet for utvidelsen og lime inn hele dokumenter eller avsnitt for å endre dem på én gang.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Hvordan rapporterer jeg en feil?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Du kan sende feilrapporter direkte til vårt støtteteam påkeshoraai@gmail.com. Ved å klikke på hjelpemodulen i fanen \"Konto og bruk\" vil du forhåndsutfylle en støttemal som inneholder utvidelsesdetaljer for å hjelpe oss med å diagnostisere problemet.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Hvorfor står det 'Quota Exceeded'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "En 'Quota Exceeded'-advarsel betyr at du har brukt opp tildelt bruk for planens aktive syklus: Gratis brukere er begrenset til 5 daglige omskrivinger; Ukentlige brukere får 140 omskrivinger; Månedlige Pro-brukere får 600 omskrivinger; og årlige Ultimate-brukere mottar 9000 omskrivinger. Kvoter tilbakestilles automatisk basert på syklusen (daglig ved midnatt lokal tid, eller på rullende ukentlige/månedlige/årlige grenser). Du kan oppgradere til et høyere nivå på 'Konto og bruk'-siden for å gjenoppta tjenesten umiddelbart.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Eksportere...",
+    "description": "Locale key: exportingStatus"
+  }
+}

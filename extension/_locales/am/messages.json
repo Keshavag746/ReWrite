@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "በማንኛውም ቦታ እንደገና ይፃፉ - AI ጽሑፍን እንደገና ይፃፉ",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "ጽሑፍን በማንኛውም ቦታ ያድምቁ። በ AI ወዲያውኑ ይፃፉ።",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "የ AI እንደገና ጻፍ የትእዛዝ ቤተ-ስዕል ይክፈቱ",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI እንደገና ጻፍ →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ አጻጻፍን አሻሽል።",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ ሰዋስው አስተካክል።",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 ፕሮፌሽናል ያድርጉ",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 ወዳጅ ሁን",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 መደበኛ አድርግ",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 ተራ አድርግ",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 አሳማኝ ያድርጉ",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 በራስ መተማመን",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 ሰው ማድረግ",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ ብጁ ጥያቄ...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ አሻሽል።",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ ሰዋሰው",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 ባለሙያ",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 ተግባቢ",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 መደበኛ",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 ተራ",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 አሳማኝ",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 በራስ መተማመን",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ ማሳጠር",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 ዘርጋ",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 ቀለል አድርግ",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 ሰው ማድረግ",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ ብጁ",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "በመጫን ላይ...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "በማንኛውም ቦታ ጽሑፍ እንደገና ይፃፉ",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "በማንኛውም ድህረ ገጽ ላይ ከ AI ጋር ጽሑፍ እንደገና መጻፍ ለመጀመር በGoogle ይግቡ።",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "በመግባት ላይ...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 በGoogle ይግቡ",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ ፕሮ",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "ነፃ",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "ዕለታዊ አጠቃቀም",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ያልተገደበ)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 በማንኛውም ገጽ ላይ ጽሑፍ ይምረጡ → እንደገና ለመፃፍ ✨ የሚለውን ቁልፍ ይጫኑ። ወይምCtrl+Shift+Kን ይጫኑ",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 ታሪክ እና መቼቶች ክፈት",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "ዘግተህ ውጣ",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "መግባት አልተሳካም።",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "እንደገና መፃፍ አልተሳካም።",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "ይህ ክፍል በአሁኑ ጊዜ በመገንባት ላይ ነው.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "እባክዎ ቅንብሮችን ለማየት ይግቡ።",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "መለያ እና አጠቃቀም",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "ታሪክን እንደገና ፃፍ",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "ቅንብሮች",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "አውርድ",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "እገዛ እና የሚጠየቁ ጥያቄዎች",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI እንደገና ጻፍ ዳሽቦርድ",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "አጠቃላይ ውቅር",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "የበይነገጽ ገጽታ",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "ጨለማ ሁነታ",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "የብርሃን ሁነታ",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "ነባሪ ቃና እንደገና ጻፍ",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ ሁሉንም ታሪክ አጽዳ",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "እስካሁን ምንም እንደገና የተጻፈ የለም።",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "በማንኛውም ገጽ ላይ ጽሑፍን ያድምቁ እና ለመጀመር ✨ ን ጠቅ ያድርጉ። ታሪክህ እዚህ ይታያል።",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "እርግጠኛ ነዎት ይህን እንደገና የመፃፍ ታሪክ ንጥል መሰረዝ ይፈልጋሉ?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "እርግጠኛ ነህ ሙሉውን የመፃፍ ታሪክህን እስከመጨረሻው መሰረዝ ትፈልጋለህ? ይህ ሊቀለበስ አይችልም።",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "ንጥሉን መሰረዝ አልተሳካም፦",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "ታሪክን ማጽዳት አልተሳካም፦",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "ኦሪጅናል ጽሑፍ",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "እንደገና የተጻፈ ጽሑፍ",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ ሰርዝ",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 ቅጂ እንደገና ተፃፈ",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ ተገልብጧል!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "የቆዩ ድጋሚ ጽሁፎችን ጫን",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "ድጋፍ እና የንግድ ጥያቄዎች",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "በሚከተለው ይድረሱ:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "በተደጋጋሚ የሚጠየቁ ጥያቄዎች",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "ለእርዳታ ወይም ስህተትን ሪፖርት ለማድረግ",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "ኢሜይልkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "ዕለታዊ ነፃ ገደብ",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "ነፃ ደረጃ: 5 ድጋሚ ይጽፋል/ቀን። እኩለ ሌሊት ላይ በየቀኑ እንደገና ይጀምራል።",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "ያለገደብ በየትኛውም ቦታ ላይ ጽሑፍ እንደገና ይፃፉ።",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "ባች ሁሉንም ይዘትዎን እንደገና ይፃፉ። ከደመናው ጋር አስምር። ምንም ገደቦች የሉም።",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 የቅድሚያ አሳዳጊ አቅርቦት፡ የሚቀጥለው የዋጋ ጭማሪ በ500 የፕሪሚየም ተጠቃሚዎች። ለሕይወት በዚህ መጠን ውስጥ ቆልፍ!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 የአሜሪካ ገበያ ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 የህንድ ገበያ (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "የአሜሪካ ዶላር ክፍያዎች በአሁኑ ጊዜ በጥገና ላይ ናቸው። እባክዎ ወደ የህንድ ገበያ (₹) እቅድ ይቀይሩ ወይም ለእርዳታ በkeshoraai@gmail.comያግኙን።",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "በየሳምንቱ",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(በቀን 57 ¢ ብቻ)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "ወርሃዊ ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(በቀን 33 ¢ ብቻ)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "በየአመቱ 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(በቀን 21 ¢ ብቻ)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(በቀን 21 ብር ብቻ)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(በቀን 13 ብር ብቻ)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(በቀን 8 ብር ብቻ)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ ሳምንት",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ ወር",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ አመት",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "አልፎ አልፎ ለመጠቀም ጥሩ",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "አብዛኛዎቹ ተጠቃሚዎች ይህንን እቅድ ይመርጣሉ",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "ለኃይል ተጠቃሚዎች ምርጥ ዋጋ",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "በጣም ታዋቂ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ምርጥ ዋጋ - 2 ወራት ነፃ",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 ደረጃ አሰጣጥ • 🔒 ደህንነቱ የተጠበቀ ክፍያዎች • ✔️ በማንኛውም ጊዜ ይሰርዙ",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "የደንበኝነት ምዝገባ መግዛት የማይችሉ ተማሪ ወይም ተመራማሪ ነዎት? እባክዎን ለkeshoraai@gmail.comኢሜይል ያድርጉ",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "የፍቃድ ቁልፍ አለህ?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "የፍቃድ ቁልፍ አስገባ...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "አግብር",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 በሳምንት እንደገና ይጽፋል",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "በጅምላ እንደገና ጻፍን ይክፈቱ",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "የፕሪሚየም ቅንብሮች መዳረሻ",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive፣ Dropbox ማመሳሰል",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "ፕሪሚየም ገጽታዎች",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "ስማርት አቃፊ ድርጅት",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "ከማስታወቂያ-ነጻ ልምድ",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "በወር 600 ይጽፋል",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 በዓመት እንደገና ይጽፋል",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "ከሌሎች ቅጥያዎች 50% ቅናሽ",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "ቅድሚያ የሚሰጠው ኢሜይል ድጋፍ",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "ወደ ውጭ ላክ ቅርጸት",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "በነጻ ዕቅዱ ላይ ፒዲኤፍ ወደ ውጭ መላክ ብቻ ይገኛል። ሌሎች ወደ ውጭ መላኪያ ቅርጸቶችን ለመክፈት እባክዎ ወደ ፕሮ/ፕሪሚየም ያሻሽሉ።",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "የፋይል ስም ቅርጸት",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "ወደ ውጭ የሚላኩ ፋይሎች እንዴት እንደሚሰየሙ ይምረጡ።",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "ታሪክን እንደገና ፃፍ - ቀን (ለምሳሌ ታሪክን እንደገና መፃፍ_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "ብጁ ርዕስ",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "ብጁ የፋይል ስም አስገባ...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "አካባቢያዊ ፋይል ወደ ውጪ ላክ",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "ወደ Dropbox 📦 ያስቀምጡ",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google Drive ላይ አስቀምጥ ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "የክላውድ ምትኬ የሚገኘው በሚከፈልባቸው እቅዶች ላይ ብቻ ነው። እባክዎ ወደ ፕሮ/ፕሪሚየም ያሻሽሉ።",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox ማረጋገጥ ተሰርዟል።",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "የ Dropbox መዳረሻ ማስመሰያ ማግኘት አልተሳካም።",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "የGoogle Drive ማረጋገጥ አልተሳካም።",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive መጫን አልተሳካም፦",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API ስህተት",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "ወደ ውጭ ለመላክ ምንም ታሪክ አልተገኘም።",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "ታሪክ በሚያምር ሁኔታ ተቀርጾ ወደ ቅንጥብ ሰሌዳ ተቀድቷል!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "ታሪክ ደህንነቱ በተጠበቀ ሁኔታ ወደ የእርስዎ Dropbox ተቀምጧል!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "ታሪክ ደህንነቱ በተጠበቀ ሁኔታ ወደ Google Drive ተቀምጧል!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "ወደ ውጭ መላክ ተጠናቅቋል!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "በ AI እንደገና ይፃፉ",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI እንደገና ፃፍ",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "ዝጋ",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "ኦሪጅናል ጽሑፍ",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "እንደገና ለመፃፍ ሁነታን ይምረጡ...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "ተካ",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "ቅዳ",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ ተገልብጧል",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ እንደገና ይሞክሩ",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "አስቀምጥ",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "በነጻ እቅድ ላይ \"አሻሽል\" ሁነታ ብቻ ነው የሚገኘው. እባክዎ ሁሉንም 13 ሁነታዎች ለመክፈት ወደ ፕሮ ያሻሽሉ።",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "በነጻ እቅድ ላይ \"አሻሽል\" ሁነታ ብቻ ነው የሚገኘው. እባክዎ ሁሉንም 13 ዳግም መፃፍ ሁነታ ለመክፈት ወደ Pro/Premium ያሻሽሉ።",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI የትእዛዝ ቤተ-ስዕልን እንደገና ጻፍ",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ ነፃ እቅድ (ብጁ ጥያቄዎች ተቆልፈዋል)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "ብጁ ጥያቄ በነጻ እቅድ ላይ ተቆልፏል...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "ለምሳሌ. ለLinkedIn እንደገና ይፃፉ፣ ይህን አሳማኝ ያድርጉት...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "በነጻ እቅድ ላይ \"አሻሽል\" ሁነታ ብቻ ነው የሚገኘው. ሁሉንም ባህሪያት ለመክፈት እባክዎ ወደ ፕሮ/ፕሪሚየም ያሻሽሉ።",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "በነጻ እቅድ ላይ \"አሻሽል\" ሁነታ ብቻ ነው የሚገኘው. እባክዎ ሁሉንም ሁነታዎች ለመክፈት ወደ Pro/Premium ያሻሽሉ።",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 ታሪክ",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ ቅንብሮች",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "እስካሁን ምንም እንደገና የተጻፈ የለም።",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "በማንኛውም ገጽ ላይ ጽሑፍን ያድምቁ እና ለመጀመር ✨ ን ጠቅ ያድርጉ።",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "ኦሪጅናል፡",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ እንደገና ተፃፈ፡-",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "ተጨማሪ ጫን",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "መለያ",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "ዛሬ እንደገና ይጽፋል",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "ዳግም ያስጀምራል።",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "ንቁ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI ሞተር",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI እንደገና መፃፍ ሞተር",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "በድር ጣቢያ ላይ ጽሑፍን እንዴት እንደገና መፃፍ እችላለሁ?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "በቀላሉ በማንኛውም ድረ-ገጽ ላይ ማንኛውንም ጽሑፍ ያደምቁ ወይም ይምረጡ። ተንሳፋፊ የአስማት ቁልፍ ('✨') በራስ-ሰር ከጠቋሚዎ አጠገብ ይታያል። ይህንን አዶ ጠቅ ማድረግ AI ይዘቱን እንደገና እንዲጽፍልዎት ለማድረግ እንደገና የሚፃፍ ቃና (እንደ አሻሽል፣ ሰዋሰው፣ ፕሮፌሽናል፣ ተራ፣ ማስፋት ወይም ማሳጠር ያሉ) በይነተገናኝ ዳግም መፃፍ ብቅ ባይ ይከፍታል። እንዲሁም በይነገጹን በ Command Palette አቋራጭ (Ctrl+Shift+Pበዊንዶውስ/ሊኑክስ ወይምCmd+Shift+Pበማክኦኤስ) ማስጀመር ይችላሉ።",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "የትኞቹ የ AI ሞዴሎች ይደገፋሉ?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "በአሁኑ ጊዜ የዘመናዊ LLMsን እንደግፋለን የOpenAI's GPT (ለምሳሌ GPT-4o-mini)፣ Google's Gemini፣ Anthropic's Claude እና Groq ክፍት ምንጭ ሞዴሎች (እንደ ላማ 3 ያሉ) ለከፍተኛ አፈጻጸም፣ መብረቅ-ፈጣን የጽሁፍ ሂደት።",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "የእኔ ውሂብ ደህንነቱ የተጠበቀ ነው?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "አዎ፣ ግላዊነት ዋነኛው ቅድሚያ ነው። እንደገና ለመፃፍ የመረጡትን ልዩ ጽሑፍ ብቻ ነው የምናስኬደው። ጥያቄውን ለመፈጸም ጽሑፉ ደህንነቱ በተጠበቀ ሁኔታ ወደ የእኛ የጀርባ ኤፒአይ ተላልፏል። የጽሑፍ ምዝግብ ማስታወሻ ታሪክዎን ለረጅም ጊዜ በአገልጋዮቻችን ላይ አናከማችም ወይም ለሶስተኛ ወገኖች አናጋራውም ወይም AI ሞዴሎችን ለማሰልጠን አንጠቀምበትም። በተጨማሪም፣ የእርስዎ የግል የአሰሳ ታሪክ የተጠበቀ መሆኑን ለማረጋገጥ ቅጥያው በአሸዋ በተሸፈነ አካባቢ ውስጥ ይሰራል።",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "በነጻ እና በፕሮ እቅዶች መካከል ያለው ልዩነት ምንድነው?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "የነጻው እቅድ በቀን 5 ድጋሚ ጽሁፎችን ይሰጣል፣ ለ'አሻሽል' ቃና እና 'PDF' ማውረድ/መላክ ቅርጸት ብቻ የተገደበ። Dropbox እና Google Drive ውህደቶች እንዲሁ ተቆልፈዋል። የሚከፈልባቸው ዕቅዶች (ሳምንታዊ፣ ወርሃዊ ፕሮ እና አመታዊ መጨረሻ) ሁሉንም 6 ቶን፣ ሁሉንም 6 የሚወርዱ ቅርጸቶችን (PDF፣ Markdown፣ TXT፣ IMG፣ JSON፣ እና ክሊፕቦርድ ቅጂ) እና የደመና ምትኬ ውህደቶችን ለፕሪሚየም ከገደብ-ነጻ ልምድን ይክፈቱ።",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "አንዳንድ የድጋሚ ቃናዎች፣ የኤክስፖርት ቅርጸቶች እና የደመና ምትኬዎች ለምን በነጻ ዕቅዱ ላይ ተቆልፈዋል?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "ዘመናዊ የኤአይአይ ሞዴሎችን (እንደ GPT-4o-mini፣ Gemini እና Claude ያሉ) ማስኬድ እና የደመና ማመሳሰልን ማስተዳደር ለእያንዳንዱ እርምጃ ከፍተኛ የአገልጋይ መሠረተ ልማት፣ የኃይል ስሌት እና ቀጥተኛ የኤፒአይ ወጪዎችን ይጠይቃል። አሁንም ሙሉ በሙሉ የሚሰራ ነፃ አማራጭ እየሰጠን አገልግሎታችንን ዘላቂ ለማድረግ፣ የነጻው እቅድ መሰረታዊ መስፈርቶችን ይሸፍናል (5 በየቀኑ 'አሻሽል' በሚለው ቃና እና በአካባቢው ፒዲኤፍ ማመንጨት ይፃፋል)። የምዝገባ ዕቅዶቹ ከፍተኛ አፈጻጸምን፣ ንቁ ማሻሻያዎችን እና ጥብቅ ግላዊነትን ያለማስታወቂያ መደገፍ እንድንችል የሚያረጋግጡ የፕሪሚየም ቶን (ሰዋሰው፣ ፕሮፌሽናል፣ ተራ፣ አስፋ፣ ማሳጠር)፣ የደመና ማገናኛዎች (Dropbox፣ Google Drive) እና በርካታ ቅርጸቶች (Markdown፣ TXT፣ IMG፣ JSON፣ COPY) ወጪዎችን ይደግፋሉ።",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "የፍቃድ ቁልፌን እንዴት ማንቃት እችላለሁ?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "የደንበኝነት ምዝገባ ግዢዎን ከጨረሱ በኋላ የፍቃድ ቁልፉን በዳሽቦርዱ ላይ ባለው 'መለያ እና አጠቃቀም' ገጽ ግርጌ ባለው ቁልፍ ማረጋገጫ መስክ ላይ ይለጥፉ እና 'ፍቃድ አግብር' ን ጠቅ ያድርጉ። የመለያዎ እቅድ ዝርዝሮች በአሳሽዎ ማከማቻ ውስጥ ወዲያውኑ ይዘምናሉ።",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "ይሄ በGoogle ሰነዶች ወይም ኖሽን ላይ ይሰራል?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "አዎ፣ ቅጥያው ከታዋቂ አርታዒያን እና እንደ ጎግል ሰነዶች፣ ኖሽን፣ ጂሜይል፣ ሊንክድኒድ፣ Slack ድር እና ትዊተር/X ካሉ የበለጸጉ የጽሁፍ መግቢያዎች ጋር ሙሉ ለሙሉ ተኳሃኝ ነው። ተንሳፋፊው ቁልፍ በብጁ መተግበሪያ ላይ ከተሰናከለ ምርጫዎን እንደገና ለመፃፍ የ Command Palette ቁልፍ ሰሌዳ አቋራጭን መጠቀም ይችላሉ።",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "የራሴን API ቁልፍ መጠቀም እችላለሁ?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "እንከን የለሽ፣ ተሰኪ እና ጨዋታ ተሞክሮ ለማቅረብ ሁሉም የኤፒአይ የአጠቃቀም ወጪዎች ሙሉ በሙሉ በደንበኝነት ምዝገባ ዕቅድዎ የተሸፈኑ ናቸው። በአሁኑ ጊዜ የእራስዎን የኤፒአይ ቁልፎች ማዋቀር አያስፈልግዎትም። ነገር ግን፣ ለወደፊት ገንቢ-ተኮር ዝማኔ ብጁ ተጠቃሚ የኤፒአይ አወቃቀሮችን ለመደገፍ አቅደናል።",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "ነባሪውን እንደገና የመፃፍ ድምጽ እንዴት መለወጥ እችላለሁ?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "በዚህ የአማራጮች ፓነል ውስጥ ባለው የቅንብሮች ትር ውስጥ ነባሪውን እንደገና የመፃፍ ድምጽዎን ማቀናበር ይችላሉ። የአስማት ዋልድ አዶውን ጠቅ ሲያደርጉ ምርጫዎን ማስቀመጥ በራስ-ሰር ወደ ቃና ነባሪ ይሆናል፣ ምንም እንኳን አሁንም በብቅ-ባይ ውስጥ ድምጾችን መቀየር ቢችሉም።",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "ለምንድነው ተንሳፋፊው አዝራር አንዳንድ ጊዜ አይታይም?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "በአጋጣሚ መደራረብን ለመከላከል የአስማት ዋልድ ቁልፍ ቢያንስ የመምረጫ ርዝመት ያስፈልገዋል። በተጨማሪም መደበኛ የአሳሽ ደህንነት ፖሊሲዎች እንደ Chrome ድር ማከማቻ (chrome.google.com) እና የውስጥ ውቅር ገፆች (chrome://) ባሉ ልዩ ልዩ ገፆች ላይ የይዘት መርፌዎችን በጥብቅ ያግዳሉ።",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "ዋናውን ሳይተካ እንደገና የተጻፈውን ጽሑፍ መቅዳት እችላለሁ?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "አዎ፣ በተንሳፋፊው ድጋሚ ጻፍ ብቅ ባይ ውስጥ፣ የ'ኮፒ' አዶን ጠቅ ማድረግ ይችላሉ። ይህ አዲስ የተፃፈውን ስሪት በቀጥታ ወደ ክሊፕቦርድዎ ይገለበጣል፣ ይህም በድረ-ገፁ ላይ ያለውን ዋናውን ይዘት ሳይቀይሩት ወይም ሳይነኩ በፈለጉት ቦታ እንዲለጥፉት ያስችልዎታል።",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "የደንበኝነት ምዝገባዬን እንዴት መሰረዝ እችላለሁ?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "በግዢ ማረጋገጫ ኢሜልዎ ውስጥ የቀረበውን የደንበኛ ክፍያ ፖርታል አገናኝ ጠቅ በማድረግ ምዝገባዎን በማንኛውም ጊዜ ማስተዳደር ወይም መሰረዝ ይችላሉ። ኢሜይሉን ማግኘት ካልቻሉ በkeshoraai@gmail.comላይ ያግኙን እና እንረዳዎታለን።",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "የ'Expand' ቃና ምን ያደርጋል?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "የ'Expand' ቃና የመረጡትን ጽሑፍ ለመገንባት እና ለማብራራት፣ የበለጸጉ ዝርዝሮችን፣ አውድ እና ትክክለኛ ሰዋሰዋዊ መዋቅርን ወደ አጫጭር ሀሳቦች፣ ነጥቦች ወይም ሀረጎች በማከል የመነሻ እውቀትን ይጠቀማል።",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "የተማሪ ቅናሽ ታደርጋለህ?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "አዎ፣ ተማሪዎችን፣ አስተማሪዎችን፣ እና የአካዳሚክ ተመራማሪዎችን እንደግፋለን። በሁሉም የሚከፈልባቸው የምዝገባ ዕቅዶች ላይ የ30% ቅናሽ እናቀርባለን። የቅናሽ ኮድዎን ለመጠየቅ ከኦፊሴላዊው ትምህርት ቤትዎ ወይም ዩኒቨርሲቲዎ ኢሜል አድራሻ (.edu ወይም Academy domain) በkeshoraai@gmail.comይላኩልን።",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "በጅምላ እንደገና መፃፍ አማራጭ አለ?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "አዎ፣ የፕሪሚየም ደረጃ ተጠቃሚዎች የጅምላ ዳግም መፃፍን መጠቀም ይችላሉ። ነጠላ ክፍሎችን ከመምረጥ ይልቅ የኤክስቴንሽን የጎን ፓነልን ከፍተው በአንድ ጊዜ ለማሻሻል ሁሉንም ሰነዶች ወይም አንቀጾች መለጠፍ ይችላሉ.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "ስህተትን እንዴት ሪፖርት አደርጋለሁ?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "የሳንካ ሪፖርቶችን በቀጥታ በkeshoraai@gmail.comለድጋፍ ቡድናችን ኢሜይል ማድረግ ትችላለህ። በ'መለያ እና አጠቃቀም' ትር ውስጥ የእገዛ መግብርን ጠቅ ማድረግ ችግሩን እንድንመረምር የሚረዳን የቅጥያ ዝርዝሮችን የያዘ የድጋፍ አብነት ቀድሞ ይሞላል።",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "ለምን 'ኮታ ታልፏል' የሚለው?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "የ'ኮታ አልፏል' ማስጠንቀቂያ ማለት ለዕቅድዎ ንቁ ዑደት የተመደበውን አጠቃቀም በልተዋል፡ ነፃ ተጠቃሚዎች ለ 5 ዕለታዊ ድጋሚ ጽሁፎች ተወስነዋል። ሳምንታዊ ተጠቃሚዎች 140 ድጋሚ ይጽፋሉ; ወርሃዊ ፕሮ ተጠቃሚዎች 600 ድጋሚ ይፃፉ; እና Yearly Ultimate ተጠቃሚዎች 9,000 ድጋሚ ጽሁፎችን ይቀበላሉ። በዑደቱ (በየቀኑ እኩለ ሌሊት በአካባቢው ሰዓት፣ ወይም በየሳምንቱ/ወርሃዊ/ዓመት ድንበሮች) ላይ በመመስረት ኮታዎች በራስ ሰር ዳግም ይጀመራሉ። ወዲያውኑ አገልግሎት ለመቀጠል በ'መለያ እና አጠቃቀም' ገጽ ላይ ወደ ከፍተኛ ደረጃ ማሻሻል ይችላሉ።",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "ኤክስፖርት እየተደረገ ያለ",
+    "description": "Locale key: exportingStatus"
+  }
+}

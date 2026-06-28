@@ -1,0 +1,44 @@
+✨ Kirjoita tekstiä uudelleen missä tahansa verkossa välittömästi käyttämällä huipputeknistä tekoälyä.
+
+Oletko kyllästynyt kopioimaan ja liittämään tekstiä chat-ikkunoihin kirjoituksesi korjaamiseksi? AI Rewrite Anywhere -sovelluksella voit korostaa tai valita minkä tahansa tekstin millä tahansa verkkosivustolla (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X ja muut) ja kirjoittaa sen uudelleen välittömästi.
+
+Laajennus perustuu älykkään tekoälyn varaketjuun, joka käyttää huippuluokan suuria kielimalleja (mukaan lukien OpenAI GPT, Google Gemini, Anthropic Claude ja Groq avoimen lähdekoodin Llama). Laajennus varmistaa maksimaalisen käytettävyyden ja salamannopeat vastaukset reitittämällä pyynnöt automaattisesti seuraavalle saatavilla olevalle palveluntarjoajalle palvelukatkoksen sattuessa.
+
+🚀 TÄRKEIMMÄT OMINAISUUDET:
+- 🖱️ Korosta ja kirjoita uudelleen: Korosta vain tekstiä millä tahansa verkkosivulla. Kohdistimen lähelle ilmestyy kelluva taikasauvapainike. Napsauta sitä kirjoittaaksesi uudelleen välittömästi.
+- 🖱️ Kontekstivalikon integrointi: Napsauta hiiren kakkospainikkeella mitä tahansa valintaa päästäksesi 13 erilliseen uudelleenkirjoitustilaan suoraan selaimen kontekstivalikosta.
+- ⌨️ Komentopaletti (Ctrl+Shift+K): Avaa nopea, näppäimistökeskeinen käyttöliittymä kirjoittaaksesi mukautettuja kehotteita tai käynnistääksesi pika-esiasetuksia koskematta hiirtä.
+- 📋 Täysi uudelleenkirjoitushistoria ja asetukset: Käytä kaunista kojelaudan sivupaneelia tarkastellaksesi aiempia uudelleenkirjoituksia, viedäksesi lokeja useissa muodoissa ja määrittääksesi asetuksia.
+- 🔄 Saumaton tekoälyn varmistus: Nauti keskeytymättömästä palvelusta. Jos ensisijainen malli epäonnistuu, laajennus vaihtaa automaattisesti seuraavaan saatavilla olevaan malliin avoimesti.
+- 🔐 Suojattu Google-sisäänkirjautuminen: Nopea, suojattu todennus, joka synkronoi asetukset laitteiden välillä turvallisesti.
+
+🎯 13 DYNAAMISTA UUDELLEENKÄYTTÖTILAa:
+1. Paranna: Puolan kirjoitusrakenne ja sanasto automaattisesti.
+2. Kielioppi: Korjaa kirjoitus-, välimerkit ja syntaksivirheet.
+3. Ammattilainen: Paranna kielenkäyttöäsi ammatillista kirjeenvaihtoa varten.
+4. Ystävällinen: Lisää lämpöä ja lähestyttävyyttä viesteihisi.
+5. Muodollinen: Muokkaa virallisten asiakirjojen ja liikekirjeiden sanamuotoa.
+6. Rento: Luo rentoa, keskustelua herättävää tekstiä sosiaalisiin tilanteisiin.
+7. Vakuuttava: rakentele ideoita vakuuttaaksesi, esitelläksesi tai markkinoidaksesi tehokkaasti.
+8. Itsevarma: Projektin varmuus, auktoriteetti ja vahva vakaumus.
+9. Lyhennä: Tiivistä pitkät kappaleet tiiviiksi korostuksiksi.
+10. Laajenna: Selvitä ja rakenna lyhyitä luettelomerkkejä tai lauseita.
+11. Yksinkertaista: Käännä ammattikieltä tai monimutkaisia ​​ajatuksia selkeälle, luettavalle kielelle.
+12. Humanisoi: Muokkaa robottien tekoälyluonnoksia niin, että ne voivat lukea luonnollisesti.
+13. Mukautettu kehote: Kirjoita tarkalleen, mitä haluat tekoälyn tekevän valinnalla.
+
+📂 PREMIUM VIENTIMUODOT:
+Vie uudelleenkirjoitushistoriasi paikallisesti tai synkronoi suoraan pilvipalveluihin:
+- PDF (ilmainen ja premium)
+- Markdown (MD)
+- TXT
+- Kuva (IMG)
+- JSON
+- Leikepöydän kopio
+- Pilviintegraatio: Tallenna suoraan Dropboxiin tai Google Driveen.
+
+🔒 YKSITYISYYDEN SUOJA JA TURVALLISUUS SUUNNITTELULLA:
+Yksityisyys on ensisijainen sitoumuksemme. Käsittelemme vain tietyn valitsemasi tekstin aktiiviseen uudelleenkirjoitukseen. Valintasi siirretään turvallisesti SSL-salauksen kautta taustasovellusliittymäämme suorittamaan pyyntö, eikä sitä tallenneta palvelimillemme pitkäaikaisesti. Henkilökohtainen selaushistoriasi on täysin suojattu.
+
+📧 OTA YHTEYTTÄ JA TUKI:
+Onko sinulla kysyttävää, ehdotuksia tai virheraportteja? Ota yhteyttä suoraan osoitteeseenkeshoraai@gmail.com. Olemme sitoutuneet säännöllisiin päivityksiin ja ominaisuuspyyntöihin!

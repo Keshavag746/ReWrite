@@ -1,0 +1,44 @@
+✨ Herschrijf tekst overal op internet onmiddellijk met behulp van de modernste AI.
+
+Ben je het beu om tekst in chatvensters te kopiëren en te plakken om je schrijven te verbeteren? Met AI Rewrite Anywhere kunt u elke tekst op elke website (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X en meer) markeren of selecteren en deze onmiddellijk herschrijven.
+
+Aangedreven door een slimme AI-fallback-keten die gebruik maakt van grote taalmodellen van het hoogste niveau (waaronder OpenAI GPT, Google Gemini, Anthropic Claude en Groq open-source Llama), zorgt de extensie voor maximale uptime en bliksemsnelle reacties door verzoeken automatisch door te sturen naar de volgende beschikbare provider als er sprake is van een serviceonderbreking.
+
+🚀 BELANGRIJKSTE KENMERKEN:
+- 🖱️ Markeren en herschrijven: markeer eenvoudig tekst op elke webpagina. Er verschijnt een zwevende toverstafknop naast uw cursor. Klik erop om onmiddellijk te herschrijven.
+- 🖱️ Contextmenu-integratie: klik met de rechtermuisknop op een selectie om rechtstreeks vanuit het contextmenu van de browser toegang te krijgen tot 13 verschillende herschrijfmodi.
+- ⌨️ Commandopalet (Ctrl+Shift+K): Open een snelle, toetsenbordgerichte interface om aangepaste aanwijzingen te typen of snelle voorinstellingen te activeren zonder de muis aan te raken.
+- 📋 Volledige herschrijfgeschiedenis en instellingen: krijg toegang tot een prachtig zijpaneel op het dashboard om eerdere herschrijvingen te bekijken, logbestanden in meerdere formaten te exporteren en voorkeuren te configureren.
+- 🔄 Naadloze AI Fallback: geniet van ononderbroken service. Als het primaire model uitvalt, schakelt de extensie automatisch transparant over naar het volgende beschikbare model.
+- 🔐 Veilig inloggen bij Google: snelle, beschermde authenticatie die uw instellingen veilig op verschillende apparaten synchroniseert.
+
+🎯 13 DYNAMISCHE HERSCHRIJFMODI:
+1. Verbeteren: automatisch de schrijfstructuur en woordenschat polijsten.
+2. Grammatica: Corrigeer spelling-, interpunctie- en syntaxisfouten.
+3. Professioneel: verhoog uw taalgebruik voor professionele correspondentie.
+4. Vriendelijk: voeg warmte en benaderbaarheid toe aan uw berichten.
+5. Formeel: Pas de formulering van officiële documenten en zakelijke brieven aan.
+6. Casual: maak ontspannen, gemoedelijke tekst voor sociale situaties.
+7. Overtuigend: Structureer ideeën om effectief te overtuigen, te pitchen of op de markt te brengen.
+8. Zelfverzekerd: projectzekerheid, autoriteit en sterke overtuiging.
+9. Inkorten: condenseer lange paragrafen tot beknopte hoogtepunten.
+10. Uitbreiden: Uitwerken en voortbouwen op korte opsommingen of zinsdelen.
+11. Vereenvoudigen: Vertaal jargon of complexe gedachten in duidelijke, leesbare taal.
+12. Humaniseren: Herstructureer robot-AI-concepten zodat ze op natuurlijke wijze kunnen worden gelezen.
+13. Aangepaste prompt: typ precies wat u wilt dat de AI met de selectie doet.
+
+📂 PREMIUM EXPORTFORMATEN:
+Exporteer uw herschrijfgeschiedenis lokaal of synchroniseer rechtstreeks met cloudservices:
+- PDF (gratis en premium)
+- Prijsverlaging (MD)
+- TXT
+- Afbeelding (IMG)
+- JSON
+- Klembordkopie
+- Cloudintegratie: rechtstreeks opslaan in Dropbox of Google Drive.
+
+🔒 PRIVACY & VEILIGHEID DOOR ONTWERP:
+Privacy is onze voornaamste verplichting. Wij verwerken alleen de specifieke tekst die u selecteert voor actief herschrijven. Uw selectie wordt veilig verzonden via SSL-codering naar onze backend API om het verzoek uit te voeren en wordt niet langdurig op onze servers opgeslagen. Uw persoonlijke browsegeschiedenis is volledig beschermd.
+
+📧 CONTACT & ONDERSTEUNING:
+Heeft u vragen, suggesties of bugrapporten? Neem rechtstreeks contact met ons op viakeshoraai@gmail.com. We streven naar regelmatige updates en functieverzoeken!

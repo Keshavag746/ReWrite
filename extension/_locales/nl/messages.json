@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Overal herschrijven - AI-tekstrewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Markeer tekst overal. Herschrijf onmiddellijk met AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Open het AI Rewrite-opdrachtpalet",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI herschrijven →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Verbeter het schrijven",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Grammatica corrigeren",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Maak professioneel",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Maak vriendelijk",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Maak formeel",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Maak casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Maak overtuigend",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Zorg voor zelfvertrouwen",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humaniseren",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Aangepaste prompt...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨Verbeteren",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Grammatica",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Professioneel",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Vriendelijk",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formeel",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋Informeel",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯Overtuigend",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Zelfverzekerd",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️Verkorten",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Uitbreiden",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Vereenvoudig",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humaniseren",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Op maat",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Laden...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Herschrijf tekst waar u maar wilt",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Meld u aan bij Google om tekst op elke website met AI te herschrijven.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Aanmelden...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Log in met Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Gratis",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Dagelijks gebruik",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(onbeperkt)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Selecteer tekst op een willekeurige pagina → klik op de knop ✨ om te herschrijven. Of druk opCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Open Geschiedenis en instellingen",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Uitloggen",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Inloggen mislukt",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Herschrijven is mislukt",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Dit gedeelte is momenteel in aanbouw.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Meld u aan om de instellingen te bekijken.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Account en gebruik",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Herschrijf de geschiedenis",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Instellingen",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Downloaden",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Hulp en veelgestelde vragen",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Herschrijf-dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Algemene configuratie",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Interface-thema",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Donkere modus",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Lichte modus",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Standaard herschrijftoon",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Wis alle geschiedenis",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Nog geen herschrijvingen",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Markeer tekst op een willekeurige pagina en klik op ✨ om aan de slag te gaan. Je geschiedenis verschijnt hier.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Weet u zeker dat u dit herschrijfgeschiedenisitem wilt verwijderen?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Weet u zeker dat u uw volledige herschrijfgeschiedenis definitief wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Kan item niet verwijderen:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Kan de geschiedenis niet wissen:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Originele tekst",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Herschreven tekst",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Verwijderen",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopieer herschreven",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Gekopieerd!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Laad oudere herschrijvingen",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Ondersteuning en zakelijke vragen",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Neem contact op met:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Veelgestelde vragen",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Voor hulp of om een bug te melden",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-mailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Dagelijkse gratis limiet",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Gratis niveau: 5 herschrijvingen/dag. Wordt dagelijks om middernacht gereset.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Herschrijf tekst waar dan ook, zonder grenzen.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Herschrijf al uw inhoud in batches. Synchroniseer met de cloud. Geen beperkingen.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter-aanbieding: volgende prijsverhoging bij 500 Premium-gebruikers. Leg dit tarief levenslang vast!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Amerikaanse markt ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indiase markt (€)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Betalingen in Amerikaanse dollars zijn momenteel in onderhoud. Schakel over naar het Indian Market (₹)-abonnement of neem contact met ons op viakeshoraai@gmail.comvoor hulp.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Wekelijks",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Slechts 57 ¢ / dag)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Maandelijks ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Slechts 33 ¢ / dag)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Jaarlijks 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Slechts 21 ¢ / dag)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Slechts ₹ 21 per dag)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Slechts ₹ 13 per dag)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Slechts ₹ 8 per dag)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ week",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ maand",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ jaar",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Goed voor incidenteel gebruik",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "De meeste gebruikers kiezen voor dit plan",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Beste waarde voor ervaren gebruikers",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "MEEST POPULAIR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "BESTE WAARDE - 2 MAANDEN GRATIS",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5,0 beoordeling • 🔒 Veilige betalingen • ✔️ Annuleer op elk gewenst moment",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ben jij een student of onderzoeker en kun je geen abonnement betalen? Stuur een e-mail naarkeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Heeft u al een licentiesleutel?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Licentiesleutel invoeren...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Activeer",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 herschrijvingen per week",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Ontgrendel bulkherschrijving",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Toegang tot Premium-instellingen",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox-synchronisatie",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium-thema's",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Slimme maporganisatie",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Advertentievrije ervaring",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 herschrijvingen per maand",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 herschrijvingen per jaar",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% korting op andere extensies",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Prioritaire e-mailondersteuning",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Exportformaat",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Alleen PDF-export is beschikbaar in het gratis abonnement. Upgrade naar Pro/Premium om andere exportformaten te ontgrendelen.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Bestandsnaamformaat",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Kies hoe geëxporteerde bestanden worden genoemd.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Geschiedenis herschrijven - Datum (bijv. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Aangepaste titel",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Voer een aangepaste bestandsnaam in...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Lokaal bestand exporteren",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Opslaan in Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Opslaan in Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Cloudback-up is alleen beschikbaar bij betaalde abonnementen. Upgrade naar Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox-verificatie geannuleerd.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Kan Dropbox-toegangstoken niet verkrijgen.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive-verificatie mislukt.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Uploaden naar Google Drive mislukt:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API-fout",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Er is geen geschiedenis gevonden om te exporteren.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Geschiedenis prachtig opgemaakt en gekopieerd naar het klembord!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Geschiedenis veilig opgeslagen in je Dropbox!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Geschiedenis veilig opgeslagen op uw Google Drive!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Exporteren voltooid!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Herschrijf met AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI herschrijven",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Sluiten",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Originele tekst",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Selecteer een modus om te herschrijven...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Vervangen",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopieer",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Gekopieerd",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Opnieuw proberen",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Opslaan",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Alleen de modus 'Verbeteren' is beschikbaar in het gratis abonnement. Upgrade naar Pro om alle 13 modi te ontgrendelen.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Alleen de modus 'Verbeteren' is beschikbaar in het gratis abonnement. Upgrade naar Pro/Premium om alle 13 herschrijfmodi te ontgrendelen.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI-opdrachtpalet voor herschrijven",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Gratis abonnement (aangepaste aanwijzingen vergrendeld)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Aangepaste prompt is vergrendeld op het gratis abonnement...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "bijv. Herschrijf voor LinkedIn, maak dit overtuigend...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Alleen de modus 'Verbeteren' is beschikbaar in het gratis abonnement. Upgrade naar Pro/Premium om alle functies te ontgrendelen.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Alleen de modus 'Verbeteren' is beschikbaar in het gratis abonnement. Upgrade naar Pro/Premium om alle modi te ontgrendelen.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Geschiedenis",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Instellingen",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Nog geen herschrijvingen.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Markeer tekst op een willekeurige pagina en klik op ✨ om aan de slag te gaan.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Origineel:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Herschreven:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Laad meer",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Rekening",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Vandaag herschreven",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Resetten",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Actief ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI-motor",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI-herschrijfengine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Hoe herschrijf ik tekst op een website?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Markeer of selecteer eenvoudigweg tekst op een webpagina. Er verschijnt automatisch een zwevende toverstafknop ('✨') naast uw cursor. Als u op dit pictogram klikt, wordt de interactieve pop-up voor herschrijven geopend, waar u een herschrijftoon kunt selecteren (zoals Verbeteren, Grammatica, Professioneel, Casual, Uitbreiden of Inkorten) zodat de AI de inhoud voor u kan herschrijven. U kunt de interface ook activeren via de sneltoets Opdrachtpalet (Ctrl+Shift+Pop Windows/Linux ofCmd+Shift+Pop macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Welke AI-modellen worden ondersteund?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "We ondersteunen momenteel de modernste LLM's, waaronder OpenAI's GPT (bijv. GPT-4o-mini), Google's Gemini, Anthropic's Claude en Groq open-source modellen (zoals Llama 3) voor krachtige, razendsnelle tekstverwerking.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Zijn mijn gegevens veilig?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ja, privacy is een kernprioriteit. Wij verwerken alleen de specifieke tekst die u selecteert om te herschrijven. De tekst wordt veilig verzonden naar onze backend API om het verzoek uit te voeren. We bewaren uw tekstloggeschiedenis niet langdurig op onze servers, delen deze ook niet met derden of gebruiken deze niet om AI-modellen te trainen. Bovendien draait de extensie in een sandbox-omgeving om ervoor te zorgen dat uw persoonlijke browsegeschiedenis wordt beschermd.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Wat is het verschil tussen Free- en Pro-abonnementen?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Het gratis abonnement biedt 5 herschrijvingen per dag, uitsluitend beperkt tot de 'Verbeter'-toon en het' PDF'-download-/exportformaat. Dropbox- en Google Drive-integraties zijn ook vergrendeld. Betaalde abonnementen (Weekly, Monthly Pro en Yearly Ultimate) ontgrendelen alle 6 tonen, alle 6 downloadformaten (PDF, Markdown, TXT, IMG, JSON en Clipboard Copy) en cloudback-upintegraties voor een premium, beperkingsvrije ervaring.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Waarom zijn bepaalde herschrijftonen, exportformaten en cloudback-ups vergrendeld in het gratis abonnement?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Het uitvoeren van de modernste AI-modellen (zoals GPT-4o-mini, Gemini en Claude) en het beheren van cloudsynchronisatie vereist een aanzienlijke serverinfrastructuur, rekenkracht en directe API-kosten voor elke actie. Om onze service duurzaam te maken en toch een volledig functionele gratis optie te bieden, dekt het gratis abonnement de basisvereisten (5 dagelijkse herschrijvingen met de toon 'Verbeteren' en lokale PDF-generatie). De abonnementsplannen subsidiëren de kosten van premium tonen (Grammar, Professional, Casual, Expand, Shorten), cloudconnectors (Dropbox, Google Drive) en export in meerdere formaten (Markdown, TXT, IMG, JSON, COPY), waardoor we hoge prestaties, actieve updates en strikte privacy zonder advertenties kunnen ondersteunen.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Hoe activeer ik mijn licentiesleutel?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Nadat u uw abonnementsaankoop heeft voltooid, plakt u uw licentiesleutel in het sleutelvalidatieveld onderaan de pagina 'Account & Gebruik' op het dashboard en klikt u op 'Licentie activeren'. De gegevens van uw accountplan worden onmiddellijk bijgewerkt in uw browseropslag.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Werkt dit op Google Docs of Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ja, de extensie is volledig compatibel met populaire editors en rich-text-portals zoals Google Docs, Notion, Gmail, LinkedIn, Slack web en Twitter/X. Als de zwevende knop is uitgeschakeld in een aangepaste toepassing, kunt u de sneltoets Commandopalet gebruiken om uw selectie te herschrijven.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Kan ik mijn eigen API-sleutel gebruiken?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Om een naadloze, plug-and-play-ervaring te bieden, worden alle API-gebruikskosten volledig gedekt door uw abonnement. Momenteel hoeft u uw eigen API-sleutels niet te configureren. We zijn echter van plan om aangepaste gebruikers-API-configuraties te ondersteunen in een toekomstige, op ontwikkelaars gerichte update.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Hoe wijzig ik de standaard herschrijftoon?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "U kunt uw standaard herschrijftoon instellen op het tabblad Instellingen van dit optiepaneel. Als u uw voorkeur opslaat, wordt automatisch die toon ingesteld wanneer u op het toverstafpictogram klikt, hoewel u indien nodig nog steeds van toon kunt wisselen in de pop-up.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Waarom verschijnt de zwevende knop soms niet?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Voor de toverstafknop is een minimale selectietekst vereist om onbedoelde overlays te voorkomen. Bovendien blokkeert het standaard browserbeveiligingsbeleid strikt inhoudinjecties op bepaalde bevoorrechte pagina's, zoals de Chrome Web Store (chrome.google.com) en interne configuratiepagina's (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Kan ik de herschreven tekst kopiëren zonder het origineel te vervangen?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ja, in de zwevende herschrijfpop-up kunt u op het pictogram 'Kopiëren' klikken. Hiermee wordt de nieuw herschreven versie rechtstreeks naar uw klembord gekopieerd, zodat u deze waar u maar wilt kunt plakken zonder de originele inhoud op de webpagina te vervangen of te beïnvloeden.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Hoe zeg ik mijn abonnement op?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "U kunt uw abonnement op elk gewenst moment beheren of annuleren door op de link naar het klantfactureringsportaal te klikken die u in uw aankoopbevestigingsmail vindt. Als u de e-mail niet kunt vinden, neem dan contact met ons op viakeshoraai@gmail.comen wij zullen u helpen.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Wat doet de 'Expand'-toon?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "De toon 'Uitbreiden' maakt gebruik van generatieve intelligentie om de geselecteerde tekst uit te bouwen en uit te werken, waarbij rijke details, context en de juiste grammaticale structuur worden toegevoegd aan korte gedachten, opsommingstekens of zinsneden, terwijl de oorspronkelijke bedoeling intact blijft.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Bieden jullie studentenkorting aan?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ja, we ondersteunen studenten, docenten en academische onderzoekers. We bieden 30% korting op alle betaalde abonnementen. E-mail ons opkeshoraai@gmail.comvanaf uw officiële e-mailadres van uw school of universiteit (.edu of academisch domein) om uw kortingscode aan te vragen.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Is er een optie voor bulkherschrijven?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ja, premium gebruikers kunnen gebruik maken van bulkherschrijven. In plaats van individuele segmenten te selecteren, kunt u het zijpaneel van de uitbreiding openen en hele documenten of alinea's plakken om ze in één keer te wijzigen.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Hoe rapporteer ik een bug?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "U kunt bugrapporten rechtstreeks naar ons ondersteuningsteam e-mailen opkeshoraai@gmail.com. Als u op de Help-widget op het tabblad 'Account en gebruik' klikt, wordt vooraf een ondersteuningssjabloon ingevuld met extensiegegevens om ons te helpen het probleem te diagnosticeren.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Waarom staat er 'quotum overschreden'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Een waarschuwing 'Quota overschreden' betekent dat u het toegewezen gebruik voor de actieve cyclus van uw abonnement heeft verbruikt: Gratis gebruikers zijn beperkt tot 5 dagelijkse herschrijvingen; Wekelijkse gebruikers krijgen 140 herschrijvingen; Maandelijkse Pro-gebruikers krijgen 600 herschrijvingen; en Yearly Ultimate-gebruikers ontvangen 9.000 herschrijvingen. Quota worden automatisch gereset op basis van de cyclus (dagelijks om middernacht lokale tijd, of op voortschrijdende wekelijkse/maandelijkse/jaarlijkse grenzen). U kunt op de pagina 'Account en gebruik' upgraden naar een hoger niveau om de service onmiddellijk te hervatten.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Exporteren...",
+    "description": "Locale key: exportingStatus"
+  }
+}

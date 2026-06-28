@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Andika Upya Mahali Popote - Mwandishi wa maandishi wa AI",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Angazia maandishi popote. Andika upya mara moja ukitumia AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Fungua palette ya amri ya AI",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Andika Upya →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Boresha Uandishi",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Rekebisha Sarufi",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Fanya Utaalam",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Fanya Rafiki",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Fanya Rasmi",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Fanya Kawaida",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Fanya Ushawishi",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Jiamini",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Fanya ubinadamu",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Kidokezo Maalum...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Boresha",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Sarufi",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Mtaalamu",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Kirafiki",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Rasmi",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Kawaida",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Inashawishi",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Kujiamini",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Fupisha",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Panua",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Rahisisha",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Fanya ubinadamu",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Maalum",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Inapakia...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Andika upya maandishi popote",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Ingia kwa kutumia Google ili kuanza kuandika upya maandishi kwenye tovuti yoyote kwa kutumia AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Inaingia...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Ingia kwa kutumia Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Bure",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Matumizi ya Kila siku",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(isiyo na kikomo)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Chagua maandishi kwenye ukurasa wowote → bofya kitufe cha ✨ ili kuandika upya. Au bonyezaCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Fungua Historia na Mipangilio",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Ondoka",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Kuingia kumeshindwa",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Imeshindwa kuandika upya",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Sehemu hii inajengwa kwa sasa.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Tafadhali ingia ili kutazama mipangilio.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Akaunti na Matumizi",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Andika Upya Historia",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Mipangilio",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Pakua",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Usaidizi na Maswali Yanayoulizwa Mara kwa Mara",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Andika Upya Dashibodi",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Usanidi wa Jumla",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Mandhari ya Kiolesura",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Hali ya Giza",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Hali ya Mwanga",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Toni Chaguomsingi ya Kuandika Upya",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Futa Historia Yote",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Bado hakuna maandishi mapya",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Angazia maandishi kwenye ukurasa wowote na ubofye ✨ ili kuanza. Historia yako itaonekana hapa.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Je, una uhakika unataka kufuta kipengele hiki cha kuandika upya historia?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Je, una uhakika unataka kufuta kabisa historia yako yote ya kuandika upya? Hili haliwezi kutenduliwa.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Imeshindwa kufuta kipengee:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Imeshindwa kufuta historia:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Maandishi Asilia",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Maandishi Yanayoandikwa Upya",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Futa",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Nakili Iliyoandikwa Upya",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Imenakiliwa!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Pakia maandishi ya zamani",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Usaidizi na Maswali ya Biashara",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Fikia kwa:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Maswali Yanayoulizwa Mara Kwa Mara",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Kwa usaidizi au kuripoti hitilafu",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Barua pepekeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Kiwango cha Bure cha Kila Siku",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Kiwango cha bure: huandika tena 5 kwa siku. Huwekwa upya kila siku usiku wa manane.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Andika upya maandishi popote bila kikomo.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Kundi andika upya maudhui yako yote. Sawazisha kwenye wingu. Hakuna vikwazo.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ofa ya Mapema kwa Watumiaji: Kupanda kwa bei inayofuata kwa watumiaji 500 wa Premium. Funga kwa kiwango hiki cha maisha!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Soko la Marekani ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Soko la India ( ₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Malipo ya Dola ya Marekani yanafanyiwa matengenezo kwa sasa. Tafadhali badili hadi mpango wa Soko la India ( ₹) au wasiliana nasi kupitiakeshoraai@gmail.comkwa usaidizi.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Kila wiki",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(57¢ tu kwa siku)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Kila mwezi ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(33¢ tu kwa siku)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Kila mwaka 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(21¢ tu kwa siku)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(R21 tu kwa siku)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "($13 tu kwa siku)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "($8 tu kwa siku)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ wiki",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ mwezi",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ mwaka",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Nzuri kwa matumizi ya mara kwa mara",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Watumiaji wengi huchagua mpango huu",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Thamani bora kwa watumiaji wa nishati",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "MAARUFU SANA",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "THAMANI BORA - MIEZI 2 BILA MALIPO",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Ukadiriaji • 🔒 Salama Malipo • ✔️ Ghairi wakati wowote",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Je, wewe ni mwanafunzi au mtafiti ambaye hawezi kumudu usajili? Tafadhali tuma barua pepe kwakeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Je, tayari una ufunguo wa leseni?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Weka ufunguo wa leseni...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Washa",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Huandika upya kwa wiki",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Fungua Kuandika tena Wingi",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Ufikiaji wa Mipangilio ya Premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Usawazishaji wa Dropbox",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Mandhari ya Kulipiwa",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Shirika la Folda Mahiri",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Uzoefu Bila Matangazo",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Huandika tena kwa mwezi",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 Huandika tena kwa mwaka",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Punguzo la 50% kwenye viendelezi vingine",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Msaada wa Barua Pepe Kipaumbele",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Hamisha Umbizo",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Uhamishaji wa PDF pekee ndio unapatikana kwenye mpango wa bila malipo. Tafadhali pata toleo jipya la Pro/Premium ili kufungua miundo mingine ya kuhamisha.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Umbizo la Jina la faili",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Chagua jinsi faili zinazohamishwa zinavyoitwa.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Andika Upya Historia - Tarehe (k.m. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Kichwa Maalum",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Weka jina la faili maalum...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Hamisha Faili ya Ndani",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Hifadhi kwenye Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Hifadhi kwenye Hifadhi ya Google ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Hifadhi rudufu ya wingu inapatikana tu kwenye mipango inayolipishwa. Tafadhali pata toleo jipya la Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Uthibitishaji wa Dropbox umeghairiwa.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Imeshindwa kupata tokeni ya ufikiaji ya Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Uthibitishaji wa Hifadhi ya Google umeshindwa.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Upakiaji wa Hifadhi ya Google umeshindwa:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Hitilafu ya API ya Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Hakuna historia iliyopatikana ya kuhamisha.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Historia imeumbizwa vyema na kunakiliwa kwenye ubao wa kunakili!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Historia imehifadhiwa kwa usalama kwenye Dropbox yako!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Historia imehifadhiwa kwa usalama kwenye Hifadhi yako ya Google!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Usafirishaji umekamilika!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Andika upya ukitumia AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Andika Upya",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Funga",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Maandishi asilia",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Chagua hali ya kuandika upya...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Badilisha",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Nakili",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Imenakiliwa",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Jaribu tena",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Hifadhi",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Tu \"Boresha\" hali inapatikana kwenye mpango wa bure. Tafadhali pata toleo jipya la Pro ili kufungua aina zote 13.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Tu \"Boresha\" hali inapatikana kwenye mpango wa bure. Tafadhali pata toleo jipya la Pro/Premium ili ufungue hali zote 13 za kuandika upya.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Andika Upya Ubao wa Amri",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Mpango Bila Malipo (Vidokezo maalum vimefungwa)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Kidokezo maalum kimefungwa kwenye Mpango Bila Malipo...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "k.m. Andika upya kwa ajili ya LinkedIn, Fanya hili liwe la kushawishi...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Tu \"Boresha\" hali inapatikana kwenye mpango wa bure. Tafadhali pata toleo jipya la Pro/Premium ili kufungua vipengele vyote.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Tu \"Boresha\" hali inapatikana kwenye mpango wa bure. Tafadhali pata toleo jipya la Pro/Premium ili kufungua aina zote.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Historia",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Mipangilio",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Bado hakuna maandishi mapya.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Angazia maandishi kwenye ukurasa wowote na ubofye ✨ ili kuanza.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Asili:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Imeandikwa upya:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Pakia zaidi",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Akaunti",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Inaandika tena leo",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Huweka upya",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Imetumika ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Injini ya AI",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Injini ya Kuandika Upya ya AI",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Je, ninawezaje kuandika upya maandishi kwenye tovuti?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Angazia tu au uchague maandishi yoyote kwenye ukurasa wowote wa tovuti. Kitufe kinachoelea cha fimbo ('✨') kitaonekana kiotomatiki karibu na kiteuzi chako. Kubofya ikoni hii hufungua dirisha ibukizi la kuandika upya shirikishi, ambapo unaweza kuchagua toni ya kuandika upya (kama vile Boresha, Sarufi, Taaluma, Kawaida, Panua, au Fupisha) ili kuruhusu AI ikuandikie upya maudhui. Unaweza pia kuanzisha kiolesura kupitia njia ya mkato ya Palette ya Amri (Ctrl+Shift+Pkwenye Windows/Linux auCmd+Shift+Pkwenye macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Ni aina gani za AI zinaungwa mkono?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Kwa sasa tunaauni LLM za kisasa ikiwa ni pamoja na OpenAI's GPT (k.m., GPT-4o-mini), Gemini ya Google, Claude ya Anthropic, na miundo huria ya Groq (kama vile Llama 3) kwa uchapaji wa maandishi wa utendakazi wa juu, wa haraka sana.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Je, data yangu ni salama?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ndiyo, faragha ni kipaumbele cha msingi. Tunachakata tu maandishi mahususi unayochagua ili kuandikwa upya. Maandishi yanatumwa kwa usalama kwa API yetu ya nyuma ili kutekeleza ombi. Hatuhifadhi kumbukumbu yako ya kumbukumbu ya muda mrefu kwenye seva zetu, wala hatuishiriki na watu wengine au kuitumia kutoa mafunzo kwa miundo ya AI. Zaidi ya hayo, kiendelezi huendeshwa katika mazingira ya sanduku la mchanga ili kuhakikisha historia yako ya kuvinjari ya kibinafsi inalindwa.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Kuna tofauti gani kati ya mipango ya Bure na Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Mpango Bila Malipo hutoa maandishi 5 upya kwa siku, yaliyozuiliwa kwa sauti ya 'Boresha' na umbizo la upakuaji/hamisha la 'PDF'. Viunganishi vya Dropbox na Hifadhi ya Google pia vimefungwa. Mipango inayolipishwa (Kila Wiki, Kila Mwezi Pro, na Mwisho wa Mwaka) hufungua toni zote 6, miundo yote 6 ya upakuaji (PDF, Markdown, TXT, IMG, JSON, na Nakala ya Ubao Clipboard), na viunganishi vya chelezo za wingu kwa matumizi ya hali ya juu, bila vikwazo.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Kwa nini baadhi ya toni za kuandika upya, miundo ya kusafirisha nje, na hifadhi rudufu za wingu zimefungwa kwenye mpango Bila malipo?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Kuendesha miundo ya hali ya juu ya AI (kama vile GPT-4o-mini, Gemini, na Claude) na kudhibiti usawazishaji wa wingu kunahitaji miundombinu kubwa ya seva, nguvu ya kukokotoa, na gharama za moja kwa moja za API kwa kila kitendo. Ili kufanya huduma yetu kuwa endelevu huku tukitoa chaguo lisilolipishwa linalofanya kazi kikamilifu, Mpango Bila malipo unashughulikia mahitaji ya kimsingi (huandika upya 5 kila siku kwa toni ya 'Boresha' na uzalishaji wa ndani wa PDF). Mipango ya usajili hutoa ruzuku kwa gharama za toni za malipo (Sarufi, Taaluma, Kawaida, Panua, Fupisha), viunganishi vya wingu (Dropbox, Hifadhi ya Google), na uhamishaji wa miundo mingi (Markdown, TXT, IMG, JSON, COPY), kuhakikisha kuwa tunaweza kutumia utendakazi wa hali ya juu, masasisho amilifu, na faragha kali bila matangazo.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Je, ninawezaje kuwezesha ufunguo wangu wa leseni?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Baada ya kukamilisha ununuzi wako wa usajili, bandika ufunguo wako wa leseni katika sehemu muhimu ya uthibitishaji chini ya ukurasa wa 'Akaunti na Matumizi' kwenye dashibodi na ubofye 'Amilisha Leseni'. Maelezo ya mpango wa akaunti yako yatasasishwa papo hapo katika hifadhi yako ya kivinjari.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Je, hii inafanya kazi kwenye Hati za Google au Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ndiyo, kiendelezi kinaoana kikamilifu na wahariri maarufu na tovuti za maandishi tajiri kama vile Hati za Google, Notion, Gmail, LinkedIn, Slack web, na Twitter/X. Ikiwa kitufe cha kuelea kimezimwa kwenye programu maalum, unaweza kutumia njia ya mkato ya kibodi ya Palette ya Amri kuandika upya chaguo lako.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Je, ninaweza kutumia ufunguo wangu wa API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Ili kutoa utumiaji usio na mshono, wa programu-jalizi-na-kucheza, gharama zote za matumizi ya API hulipwa kikamilifu chini ya mpango wako wa usajili. Kwa sasa, huhitaji kusanidi funguo zako za API. Hata hivyo, tunapanga kusaidia usanidi wa API ya mtumiaji maalum katika sasisho la siku zijazo linalolengwa na msanidi programu.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Je, ninabadilishaje toni chaguomsingi ya kuandika upya?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Unaweza kuweka toni chaguomsingi ya kuandika upya katika kichupo cha Mipangilio cha kidirisha hiki cha chaguo. Kuhifadhi mapendeleo yako kutabadilika kiotomatiki kwa toni hiyo wakati wa kubofya ikoni ya uchawi, ingawa bado unaweza kubadilisha toni kwenye dirisha ibukizi inapohitajika.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Kwa nini kitufe cha kuelea hakionekani wakati mwingine?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Kitufe cha uchawi kinahitaji urefu wa chini wa uteuzi wa maandishi ili kuzuia viwekeleo kwa bahati mbaya. Zaidi ya hayo, sera za kawaida za usalama za kivinjari huzuia kabisa udungaji wa maudhui kwenye kurasa fulani maalum, kama vile Duka la Chrome kwenye Wavuti (chrome.google.com) na kurasa za usanidi wa ndani (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Je, ninaweza kunakili maandishi yaliyoandikwa upya bila kubadilisha ya asili?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ndiyo, ndani ya dirisha ibukizi la kuandika upya linaloelea, unaweza kubofya aikoni ya 'Nakili'. Hii inakili toleo jipya lililoandikwa upya moja kwa moja kwenye ubao wako wa kunakili, na kukuruhusu kulibandika popote unapopenda bila kubadilisha au kuathiri maudhui asili kwenye ukurasa wa tovuti.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Je, ninaghairi vipi usajili wangu?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Unaweza kudhibiti au kughairi usajili wako wakati wowote kwa kubofya kiungo cha tovuti ya malipo ya mteja kilichotolewa katika barua pepe yako ya kuthibitisha ununuzi. Ikiwa huwezi kupata barua pepe hiyo, wasiliana nasi kupitiakeshoraai@gmail.comna tutakusaidia.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Toni ya 'Panua' hufanya nini?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Toni ya 'Panua' hutumia akili kukuza na kufafanua maandishi uliyochagua, na kuongeza maelezo mafupi, muktadha na muundo sahihi wa kisarufi kwa mawazo mafupi, nukta nundu, au vifungu vya maneno huku dhamira asilia ikiendelea.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Je, unatoa punguzo kwa wanafunzi?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ndiyo, tunasaidia wanafunzi, waelimishaji na watafiti wa kitaaluma. Tunatoa punguzo la 30% kwa mipango yote ya usajili unaolipishwa. Tutumie barua pepe kwakeshoraai@gmail.comkutoka kwa barua pepe yako rasmi ya shule au chuo kikuu (.edu au kikoa cha masomo) ili kuomba msimbo wako wa punguzo.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Je, kuna chaguo la kuandika upya kwa wingi?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ndiyo, watumiaji wa daraja la kwanza wanaweza kutumia kuandika upya kwa wingi. Badala ya kuchagua sehemu mahususi, unaweza kufungua kidirisha cha upande wa kiendelezi na ubandike hati nzima au aya ili kuzirekebisha mara moja.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Je, ninaripotije mdudu?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Unaweza kutuma ripoti za hitilafu moja kwa moja kwa timu yetu ya usaidizi kupitiakeshoraai@gmail.com. Kubofya wijeti ya usaidizi katika kichupo cha 'Akaunti na Matumizi' kutajaza mapema kiolezo cha usaidizi kilicho na maelezo ya kiendelezi ili kutusaidia kutambua tatizo.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Kwa nini inasema 'Quota Imezidi'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Onyo la 'Nafasi Imezidi' inamaanisha kuwa umetumia matumizi yako uliyogawiwa kwa kipindi amilifu cha mpango wako: Watumiaji wasiolipishwa ni wa kuandika upya mara 5 kila siku; Watumiaji wa kila wiki hupata maandishi 140; Watumiaji wa kila mwezi wa Pro hupata maandishi 600 upya; na Watumiaji wa Ultimate wa Kila Mwaka hupokea maandishi 9,000 upya. Nafasi huwekwa upya kiotomatiki kulingana na mzunguko (kila siku saa sita usiku saa za ndani, au kwa kuweka mipaka ya kila wiki/mwezi/mwaka). Unaweza kupata daraja la juu zaidi kwenye ukurasa wa 'Akaunti na Matumizi' ili kuendelea na huduma mara moja.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Inasafirisha...",
+    "description": "Locale key: exportingStatus"
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Przepisuj gdziekolwiek - przepisywanie tekstu AI",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Zaznacz tekst w dowolnym miejscu. Przepisuj natychmiast dzięki AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Otwórz paletę poleceń AI Rewrite",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "Przepisz AI →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Popraw pisanie",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Napraw gramatykę",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Bądź profesjonalistą",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Bądź przyjazny",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Bądź formalny",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Bądź swobodny",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Bądź przekonujący",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Bądź pewny siebie",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖 →👤 Humanizuj",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Niestandardowy monit...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Popraw się",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Gramatyka",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profesjonalnie",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Przyjazny",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formalne",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Na co dzień",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Przekonujące",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Pewny siebie",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Skróć",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Rozwiń",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Uprość",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanizuj",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Niestandardowe",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Ładowanie...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Przepisz tekst w dowolnym miejscu",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Zaloguj się w Google, aby rozpocząć przepisywanie tekstu w dowolnej witrynie internetowej wyposażonej w sztuczną inteligencję.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Logowanie...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Zaloguj się za pomocą Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Zawodowiec",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Bezpłatny",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Codzienne użytkowanie",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(nieograniczony)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Zaznacz tekst na dowolnej stronie → kliknij przycisk ✨, aby napisać go ponownie. Lub naciśnijCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Otwórz historię i ustawienia",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Wyloguj się",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Logowanie nie powiodło się",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Ponowne zapisanie nie powiodło się",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Ten odcinek jest aktualnie w budowie.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Zaloguj się, aby zobaczyć ustawienia.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Konto i użytkowanie",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Przepisz historię",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Ustawienia",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Pobierz",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Pomoc i często zadawane pytania",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "Panel przepisywania AI",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Konfiguracja ogólna",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Motyw interfejsu",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Tryb ciemny",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Tryb światła",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Domyślny dźwięk przepisywania",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Wyczyść całą historię",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Nie ma jeszcze żadnych przeróbek",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Zaznacz tekst na dowolnej stronie i kliknij ✨, aby rozpocząć. Twoja historia pojawi się tutaj.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Czy na pewno chcesz usunąć ten element historii przepisywania?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Czy na pewno chcesz trwale usunąć całą historię przepisywania? Tego nie można cofnąć.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Nie udało się usunąć elementu:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Nie udało się wyczyścić historii:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Tekst oryginalny",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Przepisany tekst",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Usuń",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopia przepisana",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Skopiowano!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Załaduj starsze przeróbki",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Wsparcie i zapytania biznesowe",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Skontaktuj się pod adresem:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Często zadawane pytania",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Aby uzyskać pomoc lub zgłosić błąd",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-mailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Dzienny bezpłatny limit",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Poziom bezpłatny: 5 przepisań dziennie. Resetuje się codziennie o północy.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Przepisuj tekst w dowolnym miejscu, bez ograniczeń.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Przepisz wsadowo całą zawartość. Synchronizuj z chmurą. Żadnych ograniczeń.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Oferta dla wczesnych użytkowników: kolejna podwyżka ceny przy 500 użytkownikach Premium. Zablokuj tę stawkę na całe życie!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 Rynek amerykański ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Targ indyjski (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Płatności w dolarach amerykańskich są obecnie w fazie konserwacji. Przejdź na plan indyjski (₹) lub skontaktuj się z nami pod adresemkeshoraai@gmail.com, aby uzyskać pomoc.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Co tydzień",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Tylko 57 ¢ / dzień)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Miesięcznie ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Tylko 33 ¢ / dzień)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Rocznie 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Tylko 21 ¢ / dzień)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Tylko 21 INR dziennie)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Tylko 13 INR dziennie)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Tylko 8 INR / dzień)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ tydzień",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ miesiąc",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ rok",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Dobry do okazjonalnego użytku",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Większość użytkowników wybiera ten plan",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Najlepsza wartość dla zaawansowanych użytkowników",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "NAJPOPULARNIEJSZE",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "NAJLEPSZA WARTOŚĆ - 2 MIESIĄCE ZA DARMO",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Ocena 5,0 • 🔒 Bezpieczne płatności • ✔️ Anuluj w dowolnym momencie",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Jesteś studentem lub naukowcem i nie stać Cię na abonament? Wyślij e-mail na adreskeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Masz już klucz licencyjny?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Wprowadź klucz licencyjny...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktywuj",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 przeróbek tygodniowo",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Odblokuj zbiorcze przepisywanie",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Dostęp do ustawień premium",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, synchronizacja z Dropboxem",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Motywy premium",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Inteligentna organizacja folderów",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Doświadczenie bez reklam",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 przeróbek miesięcznie",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9000 ponownych zapisów rocznie",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% zniżki na inne rozszerzenia",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Priorytetowa pomoc e-mailowa",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Format eksportu",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "W planie bezpłatnym dostępny jest wyłącznie eksport do pliku PDF. Uaktualnij do wersji Pro/Premium, aby odblokować inne formaty eksportu.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Format nazwy pliku",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Wybierz sposób nazywania eksportowanych plików.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Historia przepisywania - data (np. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Tytuł niestandardowy",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Wprowadź niestandardową nazwę pliku...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Eksportuj plik lokalny",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Zapisz w Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Zapisz na Dysku Google ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Kopia zapasowa w chmurze jest dostępna tylko w płatnych planach. Uaktualnij do wersji Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Uwierzytelnianie Dropbox zostało anulowane.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Nie udało się uzyskać tokena dostępu Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Uwierzytelnienie Dysku Google nie powiodło się.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Przesyłanie na Dysk Google nie powiodło się:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Błąd interfejsu API Dropbox",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Nie znaleziono historii do wyeksportowania.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Historia pięknie sformatowana i skopiowana do schowka!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Historia bezpiecznie zapisana na Twoim Dropboxie!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Historia bezpiecznie zapisana na Twoim Dysku Google!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Eksport zakończony!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Przepisz za pomocą AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "Przepisz AI",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Zamknij",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Tekst oryginalny",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Wybierz tryb do przepisania...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Wymień",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopiuj",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Skopiowano",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Spróbuj ponownie",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Zapisz",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "W planie bezpłatnym dostępny jest wyłącznie tryb „Ulepsz”. Uaktualnij do wersji Pro, aby odblokować wszystkie 13 trybów.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "W planie bezpłatnym dostępny jest wyłącznie tryb „Ulepsz”. Uaktualnij do wersji Pro/Premium, aby odblokować wszystkie 13 trybów przepisywania.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ Paleta poleceń AI Rewrite",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Plan bezpłatny (monity niestandardowe zablokowane)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Podpowiedź niestandardowa jest zablokowana w planie bezpłatnym...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "np. Napisz ponownie na LinkedIn, spraw, aby było to przekonujące...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "W planie bezpłatnym dostępny jest wyłącznie tryb „Ulepsz”. Aby odblokować wszystkie funkcje, uaktualnij do wersji Pro/Premium.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "W planie bezpłatnym dostępny jest wyłącznie tryb „Ulepsz”. Aby odblokować wszystkie tryby, uaktualnij do wersji Pro/Premium.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Historia",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Ustawienia",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Nie ma jeszcze żadnych przeróbek.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Zaznacz tekst na dowolnej stronie i kliknij ✨, aby rozpocząć.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Oryginał:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Przepisano:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Załaduj więcej",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Konto",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Przepisuje dzisiaj",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Resetuje",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktywny ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "Silnik sztucznej inteligencji",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ Silnik przepisywania AI",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Jak przepisać tekst na stronie internetowej?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Po prostu zaznacz lub zaznacz dowolny tekst na dowolnej stronie internetowej. Przycisk pływającej magicznej różdżki („✨”) pojawi się automatycznie w pobliżu kursora. Kliknięcie tej ikony powoduje otwarcie interaktywnego wyskakującego okienka przepisywania, w którym możesz wybrać ton przepisywania (taki jak Poprawa, Gramatyka, Profesjonalny, Na co dzień, Rozwiń lub Skróć), aby sztuczna inteligencja przepisała treść za Ciebie. Interfejs można także uruchomić za pomocą skrótu w palecie poleceń (Ctrl+Shift+Pw systemie Windows/Linux lubCmd+Shift+Pw systemie macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Które modele AI są obsługiwane?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Obecnie obsługujemy najnowocześniejsze modele LLM, w tym GPT OpenAI (np. GPT-4o-mini), Gemini firmy Google, Claude firmy Anthropic i modele open source Groq (takie jak Llama 3) w celu zapewnienia wysokiej wydajności i błyskawicznego przetwarzania tekstu.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Czy moje dane są bezpieczne?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Tak, prywatność jest naszym głównym priorytetem. Przetwarzamy wyłącznie wybrany przez Ciebie tekst do przepisania. Tekst jest bezpiecznie przesyłany do naszego interfejsu API zaplecza w celu wykonania żądania. Nie przechowujemy długoterminowo historii logów tekstowych na naszych serwerach, nie udostępniamy jej stronom trzecim ani nie wykorzystujemy do uczenia modeli AI. Dodatkowo rozszerzenie działa w środowisku piaskownicy, aby zapewnić ochronę Twojej osobistej historii przeglądania.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Jaka jest różnica między planami Free i Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Darmowy plan zapewnia 5 zapisów dziennie, ograniczonych wyłącznie do tonu „Ulepsz” i formatu pobierania/eksportu „PDF”. Integracje Dropbox i Dysku Google są również zablokowane. Płatne plany (Weekly, Monthly Pro i Yearly Ultimate) odblokowują wszystkie 6 tonów, wszystkie 6 formatów pobierania (PDF, Markdown, TXT, IMG, JSON i Clipboard Copy) oraz integrację kopii zapasowych w chmurze, zapewniając najwyższą jakość i brak ograniczeń.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Dlaczego niektóre dźwięki przepisywania, formaty eksportu i kopie zapasowe w chmurze są zablokowane w planie Free?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Uruchamianie najnowocześniejszych modeli sztucznej inteligencji (takich jak GPT-4o-mini, Gemini i Claude) oraz zarządzanie synchronizacją w chmurze wymaga znacznej infrastruktury serwerowej, mocy obliczeniowej i bezpośrednich kosztów API dla każdego działania. Aby zapewnić trwałość naszej usługi, a jednocześnie oferować w pełni funkcjonalną bezpłatną opcję, plan Bezpłatny obejmuje podstawowe wymagania (5 codziennych zapisów z dźwiękiem „Ulepsz” i lokalne generowanie plików PDF). Plany subskrypcji subsydiują koszty dźwięków premium (Grammar, Professional, Casual, Expand, Shorten), łączników w chmurze (Dropbox, Google Drive) i eksportu do wielu formatów (Markdown, TXT, IMG, JSON, COPY), zapewniając wysoką wydajność, aktywne aktualizacje i ścisłą prywatność bez reklam.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Jak aktywować klucz licencyjny?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Po sfinalizowaniu zakupu subskrypcji wklej klucz licencyjny w polu weryfikacji klucza na dole strony „Konto i użycie” w panelu kontrolnym i kliknij „Aktywuj licencję”. Szczegóły planu konta zostaną natychmiast zaktualizowane w pamięci przeglądarki.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Czy to działa w Dokumentach Google lub Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Tak, rozszerzenie jest w pełni kompatybilne z popularnymi edytorami i portalami z tekstem bogatym, takimi jak Dokumenty Google, Notion, Gmail, LinkedIn, Slack web i Twitter/X. Jeśli pływający przycisk jest wyłączony w aplikacji niestandardowej, możesz użyć skrótu klawiaturowego Paleta poleceń, aby przepisać swój wybór.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Czy mogę użyć własnego klucza API?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Aby zapewnić bezproblemową obsługę typu plug-and-play, wszystkie koszty korzystania z API są w pełni pokrywane w ramach Twojego planu subskrypcji. Obecnie nie ma potrzeby konfigurowania własnych kluczy API. Planujemy jednak obsługę niestandardowych konfiguracji interfejsu API użytkownika w przyszłej aktualizacji skierowanej do programistów.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Jak zmienić domyślny dźwięk przepisywania?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Możesz ustawić domyślny dźwięk ponownego zapisu na karcie Ustawienia tego panelu opcji. Zapisanie preferencji spowoduje automatyczne ustawienie domyślnego dźwięku po kliknięciu ikony magicznej różdżki, chociaż w razie potrzeby nadal możesz zmieniać dźwięki w wyskakującym okienku.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Dlaczego czasami pływający przycisk nie pojawia się?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Przycisk różdżki wymaga zaznaczenia minimalnej długości tekstu, aby zapobiec przypadkowym nałożeniu. Co więcej, standardowe zasady bezpieczeństwa przeglądarki ściśle blokują wstrzykiwanie treści na niektórych uprzywilejowanych stronach, takich jak Chrome Web Store (chrome.google.com) i wewnętrzne strony konfiguracji (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Czy mogę skopiować przepisany tekst bez zastępowania oryginału?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Tak, w pływającym wyskakującym okienku do przepisywania możesz kliknąć ikonę „Kopiuj”. Spowoduje to skopiowanie nowo napisanej wersji bezpośrednio do schowka, umożliwiając wklejenie jej w dowolnym miejscu bez zastępowania lub wpływania na oryginalną treść strony internetowej.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Jak anulować subskrypcję?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Możesz zarządzać subskrypcją lub ją anulować w dowolnym momencie, klikając łącze do portalu rozliczeniowego klienta podane w wiadomości e-mail z potwierdzeniem zakupu. Jeśli nie możesz zlokalizować wiadomości e-mail, skontaktuj się z nami pod adresemkeshoraai@gmail.com, a my Ci pomożemy.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Do czego służy dźwięk „Rozwiń”?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Ton „Rozwiń” wykorzystuje inteligencję generatywną do budowania i rozwijania wybranego tekstu, dodając bogate szczegóły, kontekst i odpowiednią strukturę gramatyczną do krótkich myśli, wypunktowań lub wyrażeń, zachowując przy tym nienaruszoną pierwotną intencję.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Czy oferujecie zniżkę studencką?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Tak, wspieramy studentów, nauczycieli i badaczy akademickich. Oferujemy 30% zniżki na wszystkie płatne plany subskrypcyjne. Wyślij do nas e-mail na adreskeshoraai@gmail.comze swojego oficjalnego szkolnego lub uniwersyteckiego adresu e-mail (domena .edu lub akademicka), aby poprosić o kod rabatowy.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Czy istnieje opcja zbiorczego przepisywania?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Tak, użytkownicy premium mogą korzystać z masowego przepisywania. Zamiast wybierać pojedyncze segmenty, możesz otworzyć boczny panel rozszerzenia i wklejać całe dokumenty lub akapity, aby je modyfikować za jednym razem.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Jak zgłosić błąd?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Możesz wysłać raporty o błędach bezpośrednio do naszego zespołu pomocy technicznej pod adresemkeshoraai@gmail.com. Kliknięcie widżetu pomocy na karcie „Konto i użycie” spowoduje wstępne wypełnienie szablonu pomocy zawierającego szczegóły rozszerzenia, które pomogą nam zdiagnozować problem.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Dlaczego jest napisane „Przekroczono kwotę”?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Ostrzeżenie „Przekroczono limit” oznacza, że wykorzystałeś przydzielone wykorzystanie w aktywnym cyklu planu: Bezpłatni użytkownicy są ograniczeni do 5 przepisów dziennie; Tygodniowo użytkownicy otrzymują 140 przepisań; Użytkownicy wersji Pro miesięcznie otrzymują 600 przepisań; a użytkownicy rocznej wersji Ultimate otrzymują 9000 przepisań. Limity resetują się automatycznie w oparciu o cykl (codziennie o północy czasu lokalnego lub w oparciu o zmieniające się limity tygodniowe/miesięczne/roczne). Możesz przejść na wyższy poziom na stronie „Konto i użycie”, aby natychmiast wznowić usługę.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Eksportuje...",
+    "description": "Locale key: exportingStatus"
+  }
+}

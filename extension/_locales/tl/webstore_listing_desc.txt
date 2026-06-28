@@ -1,0 +1,44 @@
+✨ Isulat muli ang teksto saanman sa web kaagad gamit ang makabagong AI.
+
+Pagod na sa pagkopya at pag-paste ng text sa mga chat window para ayusin ang iyong pagsusulat? Sa AI Rewrite Anywhere, maaari mong i-highlight o pumili ng anumang text sa anumang website (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, at higit pa) at isulat muli ito kaagad.
+
+Pinapatakbo ng isang matalinong AI fallback chain gamit ang top-tier na malalaking modelo ng wika (kabilang ang OpenAI GPT, Google Gemini, Anthropic Claude, at Groq open-source Llama), tinitiyak ng extension ang maximum na uptime at mabilis na kidlat na mga tugon sa pamamagitan ng awtomatikong pagruruta ng mga kahilingan sa susunod na available na provider kung makatagpo ng pagkaantala ng serbisyo.
+
+🚀 PANGUNAHING TAMPOK:
+- 🖱️ Highlight & Rewrite: I-highlight lang ang text sa anumang webpage. May lalabas na floating magic wand button malapit sa iyong cursor. I-click ito upang isulat muli kaagad.
+- 🖱️ Pagsasama ng Menu ng Konteksto: I-right-click ang anumang seleksyon upang ma-access ang 13 natatanging rewrite mode nang direkta mula sa menu ng konteksto ng browser.
+- ⌨️ Command Palette (Ctrl+Shift+K): Magbukas ng mabilis, keyboard-centric na interface para mag-type ng mga custom na prompt o mag-trigger ng mga quick preset nang hindi hinahawakan ang mouse.
+- 📋 Buong Rewrite History at Mga Setting: Mag-access ng magandang sidepanel ng dashboard para suriin ang mga nakaraang rewrite, i-export ang mga log sa maraming format, at i-configure ang mga kagustuhan.
+- 🔄 Seamless AI Fallback: I-enjoy ang walang patid na serbisyo. Kung nabigo ang pangunahing modelo, awtomatikong lilipat ang extension sa susunod na available na modelo nang malinaw.
+- 🔐 Secure Google Sign-In: Mabilis, protektadong pagpapatotoo na sini-sync ang iyong mga setting sa mga device nang ligtas.
+
+🎯 13 DYNAMIC REWRITE MODE:
+1. Pagbutihin: Awtomatikong istraktura ng pagsulat ng Polish at bokabularyo.
+2. Grammar: Tamang spelling, punctuation, at syntax errors.
+3. Propesyonal: Itaas ang iyong wika para sa propesyonal na sulat.
+4. Friendly: Magdagdag ng init at madaling lapitan sa iyong mga mensahe.
+5. Pormal: Ayusin ang mga parirala para sa mga opisyal na dokumento at liham pangnegosyo.
+6. Kaswal: Gumawa ng nakakarelaks at nakakausap na teksto para sa mga social setting.
+7. Persuasive: Bumuo ng mga ideya upang kumbinsihin, itayo, o mabisang i-market.
+8. Tiwala: Katiyakan ng proyekto, awtoridad, at matibay na paniniwala.
+9. Paikliin: Paliitin ang mahahabang talata upang maging maigsi ang mga highlight.
+10. Palawakin: Magsalita at bumuo sa mga maikling bullet point o parirala.
+11. Pasimplehin: Isalin ang jargon o kumplikadong mga kaisipan sa malinaw, nababasang wika.
+12. Humanize: I-restructure ang mga robotic AI draft para natural na mabasa.
+13. Custom na Prompt: I-type kung ano mismo ang gusto mong gawin ng AI sa pagpili.
+
+📂 MGA PREMIUM EXPORT FORMATS:
+I-export ang iyong kasaysayan ng muling pagsulat nang lokal o direktang i-sync sa mga serbisyo ng cloud:
+- PDF (Libre at Premium)
+- Markdown (MD)
+- TXT
+- Larawan (IMG)
+- JSON
+- Clipboard Copy
+- Pagsasama ng Cloud: Direktang i-save sa Dropbox o Google Drive.
+
+🔒 PRIVACY AT SEGURIDAD AYON SA DESIGN:
+Ang privacy ay ang aming pangunahing pangako. Pinoproseso lang namin ang partikular na text na iyong pinili para sa aktibong muling pagsulat. Ang iyong pagpili ay ligtas na ipinadala sa pamamagitan ng SSL encryption sa aming backend API upang maisagawa ang kahilingan at hindi naka-imbak ng pangmatagalan sa aming mga server. Ang iyong personal na kasaysayan ng pagba-browse ay ganap na protektado.
+
+📧 CONTACT at SUPPORT:
+May mga tanong, mungkahi, o ulat ng bug? Direktang makipag-ugnayan sa amin sakeshoraai@gmail.com. Kami ay nakatuon sa mga regular na update at mga kahilingan sa tampok!

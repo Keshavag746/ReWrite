@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Rewrite Anywhere – KI-Textrewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Markieren Sie Text überall. Mit KI sofort umschreiben.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Öffnen Sie die AI Rewrite-Befehlspalette",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "KI-Umschreibung →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Verbessern Sie das Schreiben",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Korrigieren Sie die Grammatik",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Machen Sie professionell",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Machen Sie sich freundlich",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Machen Sie es formell",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Machen Sie es lässig",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Machen Sie überzeugend",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Seien Sie selbstbewusst",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanisieren",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Benutzerdefinierte Eingabeaufforderung ...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Verbessern",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Grammatik",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Professionell",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Freundlich",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Formell",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Lässig",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Überzeugend",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Selbstbewusst",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Kürzen",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Erweitern",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Vereinfachen",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanisieren",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Benutzerdefiniert",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Laden...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Schreiben Sie Text überall um",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Melden Sie sich bei Google an, um Text auf jeder Website mit KI neu zu schreiben.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Anmelden...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Melden Sie sich mit Google an",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Profi",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Kostenlos",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Täglicher Gebrauch",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(unbegrenzt)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Wählen Sie Text auf einer beliebigen Seite aus → klicken Sie zum Umschreiben auf die Schaltfläche ✨. Oder drücken SieCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Öffnen Sie Verlauf und Einstellungen",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Abmelden",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Die Anmeldung ist fehlgeschlagen",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Das Umschreiben ist fehlgeschlagen",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Dieser Abschnitt befindet sich derzeit im Aufbau.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Bitte melden Sie sich an, um die Einstellungen anzuzeigen.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Konto und Nutzung",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Geschichte neu schreiben",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Einstellungen",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Herunterladen",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Hilfe und FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "KI-Rewrite-Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Allgemeine Konfiguration",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Schnittstellenthema",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Dunkler Modus",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Lichtmodus",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Standard-Umschreibton",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Gesamten Verlauf löschen",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Noch keine Umschreibungen",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Markieren Sie Text auf einer beliebigen Seite und klicken Sie auf ✨, um zu beginnen. Ihr Verlauf wird hier angezeigt.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Sind Sie sicher, dass Sie dieses Element im Umschreibungsverlauf löschen möchten?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Sind Sie sicher, dass Sie Ihren gesamten Umschreibungsverlauf dauerhaft löschen möchten? Dies kann nicht rückgängig gemacht werden.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Element konnte nicht gelöscht werden:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Der Verlauf konnte nicht gelöscht werden:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Originaltext",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Umgeschriebener Text",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Löschen",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Kopie neu geschrieben",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Kopiert!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Laden Sie ältere Umschreibungen",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Support- und Geschäftsanfragen",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Kontaktieren Sie uns unter:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Häufig gestellte Fragen",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Für Hilfe oder um einen Fehler zu melden",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-Mailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Tägliches Gratislimit",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Kostenloses Kontingent: 5 Umschreibungen/Tag. Wird täglich um Mitternacht zurückgesetzt.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Schreiben Sie Texte überall und ohne Einschränkungen um.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Schreiben Sie alle Ihre Inhalte stapelweise neu. Mit der Cloud synchronisieren. Keine Einschränkungen.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Early Adopter-Angebot: Nächste Preiserhöhung bei 500 Premium-Benutzern. Sichern Sie sich diesen Tarif lebenslang!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 US-Markt ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indischer Markt (£)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Zahlungen in US-Dollar werden derzeit gewartet. Bitte wechseln Sie zum Plan für den indischen Markt (£) oder kontaktieren Sie uns unterkeshoraai@gmail.com, um Unterstützung zu erhalten.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Wöchentlich",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Nur 57¢/Tag)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Monatlich ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Nur 33¢/Tag)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Jährlich 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Nur 21¢/Tag)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Nur 21 ₹ / Tag)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Nur 13 ₹ / Tag)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Nur ₹8/Tag)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ Woche",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ Monat",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ Jahr",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Gut für den gelegentlichen Gebrauch",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Die meisten Benutzer entscheiden sich für diesen Plan",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Bestes Preis-Leistungs-Verhältnis für Power-User",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "AM BELIEBTESTEN",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "BESTES PREIS-LEISTUNGS-VERHÄLTNIS – 2 MONATE KOSTENLOS",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ Bewertung 5,0 • 🔒 Sichere Zahlungen • ✔️ Jederzeit kündbar",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Sind Sie Student oder Forscher und können sich kein Abonnement leisten? Bitte senden Sie eine E-Mail ankeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Sie haben bereits einen Lizenzschlüssel?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Lizenzschlüssel eingeben...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktivieren",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Umschreibungen pro Woche",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Schalten Sie Bulk Rewrite frei",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Zugriff auf Premium-Einstellungen",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox-Synchronisierung",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium-Themen",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Intelligente Ordnerorganisation",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Werbefreies Erlebnis",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Umschreibungen pro Monat",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9.000 Umschreibungen pro Jahr",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50 % Rabatt auf andere Erweiterungen",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Bevorzugter E-Mail-Support",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Exportformat",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Im kostenlosen Plan ist nur der PDF-Export verfügbar. Bitte aktualisieren Sie auf Pro/Premium, um andere Exportformate freizuschalten.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Dateinamenformat",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Wählen Sie aus, wie exportierte Dateien benannt werden sollen.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Verlauf neu schreiben – Datum (z. B. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Benutzerdefinierter Titel",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Geben Sie einen benutzerdefinierten Dateinamen ein...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Lokale Datei exportieren",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "In Dropbox speichern 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Auf Google Drive speichern ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Cloud-Backup ist nur bei kostenpflichtigen Plänen verfügbar. Bitte upgraden Sie auf Pro/Premium.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox-Authentifizierung abgebrochen.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Das Dropbox-Zugriffstoken konnte nicht abgerufen werden.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Die Google Drive-Authentifizierung ist fehlgeschlagen.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Beim Hochladen auf Google Drive ist ein Fehler aufgetreten:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox-API-Fehler",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Es wurde kein Verlauf zum Exportieren gefunden.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Verlauf wunderschön formatiert und in die Zwischenablage kopiert!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Der Verlauf wird sicher in Ihrer Dropbox gespeichert!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Der Verlauf wird sicher auf Ihrem Google Drive gespeichert!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Export abgeschlossen!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Mit KI neu schreiben",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "KI-Umschreibung",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Schließen",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Originaltext",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Wählen Sie einen Modus zum Umschreiben aus...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Ersetzen",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Kopieren",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Kopiert",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Wiederholen",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Speichern",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Im kostenlosen Plan ist nur der Modus „Verbessern“ verfügbar. Bitte aktualisieren Sie auf Pro, um alle 13 Modi freizuschalten.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Im kostenlosen Plan ist nur der Modus „Verbessern“ verfügbar. Bitte aktualisieren Sie auf Pro/Premium, um alle 13 Rewrite-Modi freizuschalten.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Rewrite-Befehlspalette",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Kostenloser Plan (Benutzerdefinierte Eingabeaufforderungen gesperrt)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Die benutzerdefinierte Eingabeaufforderung ist im kostenlosen Plan gesperrt ...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "z.B. Schreiben Sie für LinkedIn neu, machen Sie dies überzeugend ...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Im kostenlosen Plan ist nur der Modus „Verbessern“ verfügbar. Bitte aktualisieren Sie auf Pro/Premium, um alle Funktionen freizuschalten.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Im kostenlosen Plan ist nur der Modus „Verbessern“ verfügbar. Bitte aktualisieren Sie auf Pro/Premium, um alle Modi freizuschalten.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Geschichte",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Einstellungen",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Noch keine Umschreibungen.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Markieren Sie Text auf einer beliebigen Seite und klicken Sie auf ✨, um zu beginnen.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Original:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Umgeschrieben:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Mehr laden",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Konto",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Wird heute neu geschrieben",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Zurücksetzen",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktiv ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "KI-Engine",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ KI-Rewrite-Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Wie schreibe ich Text auf einer Website um?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Markieren oder wählen Sie einfach einen beliebigen Text auf einer beliebigen Webseite aus. Eine schwebende Zauberstab-Schaltfläche („✨“) erscheint automatisch in der Nähe Ihres Cursors. Wenn Sie auf dieses Symbol klicken, wird das interaktive Popup zum Umschreiben geöffnet, in dem Sie einen Ton zum Umschreiben auswählen können (z. B. „Verbessern“, „Grammatik“, „Professionell“, „Lässig“, „Erweitern“ oder „Verkürzen“), damit die KI den Inhalt für Sie neu schreibt. Sie können die Schnittstelle auch über die Befehlspalettenverknüpfung (Ctrl+Shift+Punter Windows/Linux oderCmd+Shift+Punter macOS) auslösen.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Welche KI-Modelle werden unterstützt?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Wir unterstützen derzeit hochmoderne LLMs, darunter GPT von OpenAI (z. B. GPT-4o-mini), Gemini von Google, Claude von Anthropic und Open-Source-Modelle von Groq (wie Llama 3) für leistungsstarke, blitzschnelle Textverarbeitung.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Sind meine Daten sicher?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ja, Datenschutz hat oberste Priorität. Wir verarbeiten nur den konkreten Text, den Sie zum Umschreiben auswählen. Der Text wird sicher an unsere Backend-API übertragen, um die Anfrage auszuführen. Wir speichern Ihren Textprotokollverlauf nicht langfristig auf unseren Servern, geben ihn auch nicht an Dritte weiter und verwenden ihn auch nicht zum Trainieren von KI-Modellen. Darüber hinaus wird die Erweiterung in einer Sandbox-Umgebung ausgeführt, um sicherzustellen, dass Ihr persönlicher Browserverlauf geschützt ist.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Was ist der Unterschied zwischen Free- und Pro-Plänen?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Der kostenlose Plan bietet 5 Umschreibungen pro Tag, die ausschließlich auf den „Improve“-Ton und das „PDF“-Download-/Exportformat beschränkt sind. Dropbox- und Google Drive-Integrationen sind ebenfalls gesperrt. Bezahlte Pläne (Weekly, Monthly Pro und Yearly Ultimate) schalten alle 6 Töne, alle 6 Downloadformate (PDF, Markdown, TXT, IMG, JSON und Clipboard Copy) sowie Cloud-Backup-Integrationen für ein Premium-Erlebnis ohne Einschränkungen frei.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Warum sind bestimmte Rewrite-Töne, Exportformate und Cloud-Backups im Free-Plan gesperrt?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Die Ausführung hochmoderner KI-Modelle (wie GPT-4o-mini, Gemini und Claude) und die Verwaltung der Cloud-Synchronisierung erfordern erhebliche Serverinfrastruktur, Rechenleistung und direkte API-Kosten für jede Aktion. Um unseren Service nachhaltig zu gestalten und gleichzeitig eine voll funktionsfähige kostenlose Option anzubieten, deckt der kostenlose Plan die Grundanforderungen ab (5 tägliche Umschreibungen mit dem „Verbessern“-Ton und lokale PDF-Generierung). Die Abonnementpläne subventionieren die Kosten für Premium-Töne (Grammar, Professional, Casual, Expand, Shorten), Cloud-Anschlüsse (Dropbox, Google Drive) und Exporte in mehrere Formate (Markdown, TXT, IMG, JSON, COPY) und stellen so sicher, dass wir hohe Leistung, aktive Updates und strengen Datenschutz ohne Werbung unterstützen können.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Wie aktiviere ich meinen Lizenzschlüssel?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Fügen Sie nach Abschluss Ihres Abonnementkaufs Ihren Lizenzschlüssel in das Schlüsselvalidierungsfeld unten auf der Seite „Konto & Nutzung“ im Dashboard ein und klicken Sie auf „Lizenz aktivieren“. Die Details Ihres Kontoplans werden sofort in Ihrem Browserspeicher aktualisiert.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Funktioniert das in Google Docs oder Notion?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ja, die Erweiterung ist vollständig kompatibel mit gängigen Editoren und Rich-Text-Portalen wie Google Docs, Notion, Gmail, LinkedIn, Slack Web und Twitter/X. Wenn die schwebende Schaltfläche in einer benutzerdefinierten Anwendung deaktiviert ist, können Sie die Tastenkombination „Befehlspalette“ verwenden, um Ihre Auswahl neu zu schreiben.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Kann ich meinen eigenen API-Schlüssel verwenden?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Um ein nahtloses Plug-and-Play-Erlebnis zu bieten, sind alle API-Nutzungskosten vollständig im Rahmen Ihres Abonnementplans abgedeckt. Derzeit müssen Sie keine eigenen API-Schlüssel konfigurieren. Wir planen jedoch, in einem zukünftigen entwicklerorientierten Update benutzerdefinierte Benutzer-API-Konfigurationen zu unterstützen.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Wie ändere ich den Standard-Umschreibton?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Sie können Ihren Standard-Umschreibton auf der Registerkarte „Einstellungen“ dieses Optionsfelds festlegen. Beim Speichern Ihrer Präferenz wird automatisch dieser Ton standardmäßig verwendet, wenn Sie auf das Zauberstab-Symbol klicken. Sie können jedoch bei Bedarf im Popup immer noch zwischen den Tönen wechseln.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Warum erscheint die schwebende Schaltfläche manchmal nicht?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Für die Schaltfläche „Zauberstab“ ist eine Mindestauswahllänge des Textes erforderlich, um versehentliche Überlagerungen zu verhindern. Darüber hinaus blockieren Standard-Browser-Sicherheitsrichtlinien strikt Inhaltsinjektionen auf bestimmten privilegierten Seiten, wie dem Chrome Web Store (chrome.google.com) und internen Konfigurationsseiten (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Kann ich den umgeschriebenen Text kopieren, ohne das Original zu ersetzen?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ja, im schwebenden Rewrite-Popup können Sie auf das Symbol „Kopieren“ klicken. Dadurch wird die neu geschriebene Version direkt in Ihre Zwischenablage kopiert, sodass Sie sie an einer beliebigen Stelle einfügen können, ohne den ursprünglichen Inhalt auf der Webseite zu ersetzen oder zu beeinträchtigen.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Wie kann ich mein Abonnement kündigen?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Sie können Ihr Abonnement jederzeit verwalten oder kündigen, indem Sie auf den Link zum Kundenabrechnungsportal klicken, der in Ihrer Kaufbestätigungs-E-Mail enthalten ist. Wenn Sie die E-Mail nicht finden können, kontaktieren Sie uns unterkeshoraai@gmail.comund wir helfen Ihnen weiter.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Was bewirkt der „Erweitern“-Ton?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Der „Erweitern“-Ton nutzt generative Intelligenz, um Ihren ausgewählten Text auszubauen und zu vertiefen, indem er kurzen Gedanken, Aufzählungspunkten oder Phrasen reichhaltige Details, Kontext und die richtige grammatikalische Struktur hinzufügt und dabei die ursprüngliche Absicht beibehält.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Bieten Sie einen Studentenrabatt an?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ja, wir unterstützen Studierende, Pädagogen und akademische Forscher. Wir bieten 30 % Rabatt auf alle kostenpflichtigen Abonnements. Senden Sie uns eine E-Mail ankeshoraai@gmail.comvon Ihrer offiziellen E-Mail-Adresse Ihrer Schule oder Universität (.edu oder akademische Domain), um Ihren Rabattcode anzufordern.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Gibt es eine Option zum Massenumschreiben?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ja, Benutzer der Premium-Stufe können das Massenumschreiben nutzen. Anstatt einzelne Segmente auszuwählen, können Sie den Seitenbereich der Erweiterung öffnen und ganze Dokumente oder Absätze einfügen, um sie auf einmal zu ändern.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Wie melde ich einen Fehler?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Sie können Fehlerberichte direkt per E-Mail an unser Support-Team unterkeshoraai@gmail.comsenden. Durch Klicken auf das Hilfe-Widget auf der Registerkarte „Konto und Nutzung“ wird eine Support-Vorlage mit Erweiterungsdetails vorab ausgefüllt, die uns bei der Diagnose des Problems helfen.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Warum steht dort „Kontingent überschritten“?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Die Warnung „Kontingent überschritten“ bedeutet, dass Sie die zugeteilte Nutzung für den aktiven Zyklus Ihres Plans aufgebraucht haben: Kostenlose Benutzer sind auf 5 tägliche Umschreibungen beschränkt; Wöchentliche Benutzer erhalten 140 Umschreibungen; Monatliche Pro-Benutzer erhalten 600 Umschreibungen; und jährliche Ultimate-Benutzer erhalten 9.000 Umschreibungen. Kontingente werden je nach Zyklus automatisch zurückgesetzt (täglich um Mitternacht Ortszeit oder nach gleitenden wöchentlichen/monatlichen/jährlichen Grenzen). Sie können auf der Seite „Konto & Nutzung“ auf eine höhere Stufe upgraden, um den Dienst sofort wieder aufzunehmen.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Wird exportiert....",
+    "description": "Locale key: exportingStatus"
+  }
+}

@@ -1,0 +1,55 @@
+# Chrome Web Store Listing - SEO Optimized
+
+This document contains the SEO-optimized metadata for **AI Rewrite Anywhere** to maximize discoverability and downloads.
+
+## Extension Title (Max 45 characters)
+`Rewrite Anywhere — AI Text Rewriter`
+
+## Short Description (Max 132 characters)
+`Highlight text on any site to rewrite, improve, fix grammar, or change tone instantly with OpenAI, Gemini & Claude.`
+
+## Long Description (Max 16,000 characters)
+`✨ Rewrite text anywhere on the web instantly using state-of-the-art AI.
+
+Tired of copying and pasting text into chat windows to fix your writing? With AI Rewrite Anywhere, you can highlight or select any text on any website (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, and more) and rewrite it instantly.
+
+Powered by a smart AI fallback chain using top-tier large language models (including OpenAI GPT, Google Gemini, Anthropic Claude, and Groq open-source Llama), the extension ensures maximum uptime and lightning-fast responses by automatically routing requests to the next available provider if one encounters a service interruption.
+
+🚀 KEY FEATURES:
+- 🖱️ Highlight & Rewrite: Simply highlight text on any webpage. A floating magic wand button appears near your cursor. Click it to rewrite instantly.
+- 🖱️ Context Menu Integration: Right-click any selection to access 13 distinct rewrite modes directly from the browser's context menu.
+- ⌨️ Command Palette (Ctrl+Shift+K): Open a fast, keyboard-centric interface to type custom prompts or trigger quick presets without touching the mouse.
+- 📋 Full Rewrite History & Settings: Access a beautiful dashboard sidepanel to review past rewrites, export logs in multiple formats, and configure preferences.
+- 🔄 Seamless AI Fallback: Enjoy uninterrupted service. If the primary model fails, the extension automatically switches to the next available model transparently.
+- 🔐 Secure Google Sign-In: Quick, protected authentication that syncs your settings across devices safely.
+
+🎯 13 DYNAMIC REWRITE MODES:
+1. Improve: Polish writing structure and vocabulary automatically.
+2. Grammar: Correct spelling, punctuation, and syntax errors.
+3. Professional: Elevate your language for professional correspondence.
+4. Friendly: Add warmth and approachability to your messages.
+5. Formal: Adjust phrasing for official documents and business letters.
+6. Casual: Create relaxed, conversational text for social settings.
+7. Persuasive: Structure ideas to convince, pitch, or market effectively.
+8. Confident: Project certainty, authority, and strong conviction.
+9. Shorten: Condense lengthy paragraphs into concise highlights.
+10. Expand: Elocute and build on short bullet points or phrases.
+11. Simplify: Translate jargon or complex thoughts into clear, readable language.
+12. Humanize: Restructure robotic AI drafts to read naturally.
+13. Custom Prompt: Type exactly what you want the AI to do with the selection.
+
+📂 PREMIUM EXPORT FORMATS:
+Export your rewrite history locally or sync directly to cloud services:
+- PDF (Free & Premium)
+- Markdown (MD)
+- TXT
+- Image (IMG)
+- JSON
+- Clipboard Copy
+- Cloud Integration: Save directly to Dropbox or Google Drive.
+
+🔒 PRIVACY & SECURITY BY DESIGN:
+Privacy is our primary commitment. We only process the specific text you select for active rewriting. Your selection is safely transmitted through SSL encryption to our backend API to perform the request and is not stored long-term on our servers. Your personal browsing history is completely protected.
+
+📧 CONTACT & SUPPORT:
+Have questions, suggestions, or bug reports? Contact us directly at keshoraai@gmail.com. We are committed to regular updates and feature requests!

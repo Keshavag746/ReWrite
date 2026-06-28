@@ -1,0 +1,44 @@
+✨ Skriv om text var som helst på webben direkt med hjälp av toppmodern AI.
+
+Trött på att kopiera och klistra in text i chattfönster för att fixa ditt skrivande? Med AI Rewrite Anywhere kan du markera eller välja vilken text som helst på vilken webbplats som helst (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X och mer) och skriva om den direkt.
+
+Drivs av en smart reservkedja för AI som använder stora språkmodeller på toppnivå (inklusive OpenAI GPT, Google Gemini, Anthropic Claude och Groq open source Llama), försäkrar tillägget maximal drifttid och blixtsnabba svar genom att automatiskt dirigera förfrågningar till nästa tillgängliga leverantör om man stöter på ett tjänstavbrott.
+
+🚀 NYCKELFUNKTIONER:
+- 🖱️ Markera och skriva om: Markera helt enkelt text på vilken webbsida som helst. En flytande trollstavsknapp visas nära markören. Klicka på den för att skriva om direkt.
+- 🖱️ Integrering av kontextmeny: Högerklicka på valfritt val för att komma åt 13 distinkta omskrivningslägen direkt från webbläsarens snabbmeny.
+- ⌨️ Kommandopalett (Ctrl+Shift+K): Öppna ett snabbt, tangentbordscentrerat gränssnitt för att skriva anpassade uppmaningar eller utlösa snabba förinställningar utan att röra musen.
+- 📋 Fullständig omskrivningshistorik och inställningar: Få tillgång till en vacker sidopanel på instrumentpanelen för att granska tidigare omskrivningar, exportera loggar i flera format och konfigurera inställningar.
+- 🔄 Seamless AI Fallback: Njut av oavbruten service. Om den primära modellen misslyckas växlar tillägget automatiskt till nästa tillgängliga modell transparent.
+- 🔐 Säker Google-inloggning: Snabb, skyddad autentisering som synkroniserar dina inställningar mellan enheter på ett säkert sätt.
+
+🎯 13 DYNAMISKA OMSKRIVSLÄGEN:
+1. Förbättra: polsk skrivstruktur och ordförråd automatiskt.
+2. Grammatik: Korrigera stavnings-, skiljetecken- och syntaxfel.
+3. Professionellt: Lyft ditt språk för professionell korrespondens.
+4. Vänlig: Lägg till värme och tillgänglighet till dina meddelanden.
+5. Formell: Justera frasering för officiella dokument och affärsbrev.
+6. Casual: Skapa avslappnad, konversationstext för sociala miljöer.
+7. Övertygande: Strukturera idéer för att övertyga, pitcha eller marknadsföra effektivt.
+8. Säker: Projektsäkerhet, auktoritet och stark övertygelse.
+9. Förkorta: Sammanfatta långa stycken till koncisa höjdpunkter.
+10. Expandera: Uttala och bygg på korta kulpunkter eller fraser.
+11. Förenkla: Översätt jargong eller komplexa tankar till ett tydligt, läsbart språk.
+12. Humanisera: Omstrukturera robotiska AI-utkast så att de kan läsas naturligt.
+13. Anpassad prompt: Skriv exakt vad du vill att AI ska göra med valet.
+
+📂 PREMIUM EXPORTFORMAT:
+Exportera din omskrivningshistorik lokalt eller synkronisera direkt till molntjänster:
+- PDF (gratis och premium)
+- Markdown (MD)
+- TXT
+- Bild (IMG)
+- JSON
+- Urklippskopia
+- Molnintegrering: Spara direkt till Dropbox eller Google Drive.
+
+🔒 SEKRETESS OCH SÄKERHET BY DESIGN:
+Sekretess är vårt primära åtagande. Vi bearbetar endast den specifika text du väljer för aktiv omskrivning. Ditt val överförs säkert genom SSL-kryptering till vårt backend-API för att utföra begäran och lagras inte långsiktigt på våra servrar. Din personliga webbhistorik är helt skyddad.
+
+📧 KONTAKT & SUPPORT:
+Har du frågor, förslag eller felrapporter? Kontakta oss direkt påkeshoraai@gmail.com. Vi är engagerade i regelbundna uppdateringar och funktionsförfrågningar!

@@ -1,0 +1,44 @@
+✨ Riscrivi istantaneamente il testo ovunque sul Web utilizzando l'intelligenza artificiale all'avanguardia.
+
+Stanco di copiare e incollare testo nelle finestre di chat per correggere la tua scrittura? Con AI Rewrite Anywhere, puoi evidenziare o selezionare qualsiasi testo su qualsiasi sito web (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X e altro) e riscriverlo all'istante.
+
+Alimentata da una catena di fallback intelligente basata sull'intelligenza artificiale che utilizza modelli linguistici di alto livello (tra cui OpenAI GPT, Google Gemini, Anthropic Claude e Groq open source Llama), l'estensione garantisce il massimo tempo di attività e risposte rapidissime instradando automaticamente le richieste al successivo fornitore disponibile in caso di interruzione del servizio.
+
+🚀 CARATTERISTICHE PRINCIPALI:
+- 🖱️ Evidenzia e riscrivi: evidenzia semplicemente il testo su qualsiasi pagina web. Accanto al cursore viene visualizzato il pulsante fluttuante di una bacchetta magica. Fare clic per riscrivere immediatamente.
+- 🖱️ Integrazione del menu contestuale: fai clic con il pulsante destro del mouse su qualsiasi selezione per accedere a 13 distinte modalità di riscrittura direttamente dal menu contestuale del browser.
+- ⌨️ Tavolozza comandi (Ctrl+Shift+K): apri un'interfaccia veloce basata sulla tastiera per digitare istruzioni personalizzate o attivare preimpostazioni rapide senza toccare il mouse.
+- 📋 Cronologia e impostazioni di riscrittura complete: accedi a un bellissimo pannello laterale della dashboard per rivedere le riscritture passate, esportare i registri in più formati e configurare le preferenze.
+- 🔄 Fallback AI senza soluzione di continuità: goditi un servizio ininterrotto. Se il modello principale fallisce, l'estensione passa automaticamente al successivo modello disponibile in modo trasparente.
+- 🔐 Accesso sicuro a Google: autenticazione rapida e protetta che sincronizza le tue impostazioni su tutti i dispositivi in ​​modo sicuro.
+
+🎯 13 MODALITÀ DI RISCRITTURA DINAMICA:
+1. Miglioramento: struttura della scrittura e vocabolario polacco automaticamente.
+2. Grammatica: correggere gli errori di ortografia, punteggiatura e sintassi.
+3. Professionale: migliora il tuo linguaggio per la corrispondenza professionale.
+4. Amichevole: aggiungi calore e accessibilità ai tuoi messaggi.
+5. Formale: adattare la frase per i documenti ufficiali e le lettere commerciali.
+6. Casual: crea testo rilassato e colloquiale per ambienti sociali.
+7. Persuasivo: strutturare le idee per convincere, presentare o commercializzare in modo efficace.
+8. Fiducioso: certezza del progetto, autorità e forte convinzione.
+9. Accorciare: condensa i paragrafi lunghi in evidenziazioni concise.
+10. Espandi: pronuncia e costruisci su brevi elenchi puntati o frasi.
+11. Semplifica: traduci termini tecnici o pensieri complessi in un linguaggio chiaro e leggibile.
+12. Umanizzare: ristrutturare le bozze dell’intelligenza artificiale robotica per leggerle in modo naturale.
+13. Prompt personalizzato: digita esattamente ciò che vuoi che l'IA faccia con la selezione.
+
+📂FORMATI ESPORTAZIONE PREMIUM:
+Esporta la cronologia di riscrittura localmente o sincronizzala direttamente sui servizi cloud:
+- PDF (gratuito e premium)
+- Ribasso (MD)
+-TXT
+- Immagine (IMG)
+- JSON
+- Copia negli appunti
+- Integrazione cloud: salva direttamente su Dropbox o Google Drive.
+
+🔒 PRIVACY E SICUREZZA PER DESIGN:
+La privacy è il nostro impegno primario. Elaboriamo solo il testo specifico selezionato per la riscrittura attiva. La tua selezione viene trasmessa in modo sicuro tramite crittografia SSL alla nostra API backend per eseguire la richiesta e non viene archiviata a lungo termine sui nostri server. La tua cronologia di navigazione personale è completamente protetta.
+
+📧 CONTATTO E SUPPORTO:
+Hai domande, suggerimenti o segnalazioni di bug? Contattaci direttamente all'indirizzokeshoraai@gmail.com. Ci impegniamo a fornire aggiornamenti regolari e richieste di funzionalità!

@@ -1,0 +1,44 @@
+✨ Rescrie text oriunde pe web instantaneu folosind AI de ultimă generație.
+
+V-ați săturat să copiați și să lipiți text în ferestrele de chat pentru a vă repara scrisul? Cu AI Rewrite Anywhere, puteți evidenția sau selecta orice text de pe orice site web (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X și multe altele) și îl puteți rescrie instantaneu.
+
+Alimentată de un lanț de rezervă inteligent AI, care utilizează modele de limbă mari de top (inclusiv OpenAI GPT, Google Gemini, Anthropic Claude și Groq open-source Llama), extensia asigură timp maxim de funcționare și răspunsuri fulgerătoare prin direcționarea automată a cererilor către următorul furnizor disponibil dacă întâmpinați o întrerupere a serviciului.
+
+🚀 CARACTERISTICI CHEIE:
+- 🖱️ Evidențiați și rescrieți: pur și simplu evidențiați textul pe orice pagină web. Un buton plutitor de baghetă magică apare lângă cursorul dvs. Faceți clic pe el pentru a rescrie instantaneu.
+- 🖱️ Integrarea meniului contextual: faceți clic dreapta pe orice selecție pentru a accesa 13 moduri distincte de rescriere direct din meniul contextual al browserului.
+- ⌨️ Paleta de comenzi (Ctrl+Shift+K): deschideți o interfață rapidă, centrată pe tastatură, pentru a introduce solicitări personalizate sau pentru a declanșa presetări rapide fără a atinge mouse-ul.
+- 📋 Istoricul complet al rescrierii și setările: accesați un panou lateral frumos al tabloului de bord pentru a revizui rescrierile anterioare, a exporta jurnalele în mai multe formate și a configura preferințele.
+- 🔄 Seamless AI Fallback: Bucurați-vă de servicii neîntrerupte. Dacă modelul principal eșuează, extensia trece automat la următorul model disponibil în mod transparent.
+- 🔐 Conectare Google securizată: autentificare rapidă și protejată, care vă sincronizează setările pe dispozitive în siguranță.
+
+🎯 13 MODURI DE RESCRIERE DINAMICĂ:
+1. Îmbunătățiți: structura și vocabularul în limba poloneză automat.
+2. Gramatică: greșeli corecte de ortografie, de punctuație și de sintaxă.
+3. Profesionist: Creșteți-vă limba pentru corespondența profesională.
+4. Prietenos: adăugați căldură și accesibilitate mesajelor dvs.
+5. Formal: Ajustați formularea pentru documentele oficiale și scrisorile de afaceri.
+6. Casual: Creați text relaxat, conversațional pentru setările sociale.
+7. Persuasiv: Structurați ideile pentru a convinge, a prezenta sau a comercializa în mod eficient.
+8. Încrezător: certitudinea proiectului, autoritate și convingere puternică.
+9. Scurtați: condensați paragrafele lungi în sublinii concise.
+10. Extindeți: Elocuți și construiți pe puncte sau fraze scurte.
+11. Simplificați: traduceți jargonul sau gândurile complexe într-un limbaj clar și ușor de citit.
+12. Umanizați: restructurați schițele robotizate AI pentru a le citi în mod natural.
+13. Solicitare personalizată: Introduceți exact ceea ce doriți ca AI să facă cu selecția.
+
+📂 FORMATE DE EXPORT PREMIUM:
+Exportați istoricul rescrierii local sau sincronizați-vă direct cu serviciile cloud:
+- PDF (gratuit și premium)
+- Reducere (MD)
+- TXT
+- Imagine (IMG)
+- JSON
+- Copiere clipboard
+- Integrare în cloud: Salvați direct în Dropbox sau Google Drive.
+
+🔒 CONFIDENTIALITATE SI SECURITATE PRIN DESIGN:
+Confidențialitatea este angajamentul nostru principal. Procesăm doar textul pe care îl selectați pentru rescriere activă. Selecția dvs. este transmisă în siguranță prin criptare SSL către API-ul nostru backend pentru a efectua solicitarea și nu este stocată pe termen lung pe serverele noastre. Istoricul dvs. personal de navigare este complet protejat.
+
+📧 CONTACT & SUPORT:
+Aveți întrebări, sugestii sau rapoarte de erori? Contactați-ne direct lakeshoraai@gmail.com. Ne angajăm să facem actualizări regulate și solicitări de funcții!

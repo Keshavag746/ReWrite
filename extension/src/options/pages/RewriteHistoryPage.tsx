@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { RewriteHistoryItem, ChromeMessage, PaginatedHistory } from '../../shared/types/index';
-import { REWRITE_MODE_LABELS } from '../../shared/constants/rewriteModes';
 
 export const RewriteHistoryPage: React.FC = () => {
   const [items, setItems] = useState<RewriteHistoryItem[]>([]);
@@ -49,7 +48,7 @@ export const RewriteHistoryPage: React.FC = () => {
   };
 
   const deleteItem = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this rewrite history item?')) return;
+    if (!confirm(chrome.i18n.getMessage('deleteConfirm'))) return;
     try {
       const response = await new Promise<{ success?: boolean; error?: string }>((resolve, reject) => {
         chrome.runtime.sendMessage(
@@ -63,12 +62,12 @@ export const RewriteHistoryPage: React.FC = () => {
       if (response.error) throw new Error(response.error);
       setItems((prev) => prev.filter((item) => item.id !== id));
     } catch (err) {
-      alert('Failed to delete item: ' + (err instanceof Error ? err.message : err));
+      alert(chrome.i18n.getMessage('failedToDelete') + (err instanceof Error ? err.message : err));
     }
   };
 
   const clearAllHistory = async () => {
-    if (!confirm('Are you sure you want to permanently delete your entire rewrite history? This cannot be undone.')) return;
+    if (!confirm(chrome.i18n.getMessage('clearAllConfirm'))) return;
     try {
       const response = await new Promise<{ success?: boolean; error?: string }>((resolve, reject) => {
         chrome.runtime.sendMessage(
@@ -83,7 +82,7 @@ export const RewriteHistoryPage: React.FC = () => {
       setItems([]);
       setHasMore(false);
     } catch (err) {
-      alert('Failed to clear history: ' + (err instanceof Error ? err.message : err));
+      alert(chrome.i18n.getMessage('failedToClear') + (err instanceof Error ? err.message : err));
     }
   };
 
@@ -91,13 +90,13 @@ export const RewriteHistoryPage: React.FC = () => {
     return (
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-          <h1 style={{ fontSize: '28px', fontWeight: 700, margin: 0, color: 'var(--text-main)' }}>Rewrite History</h1>
+          <h1 style={{ fontSize: '28px', fontWeight: 700, margin: 0, color: 'var(--text-main)' }}>{chrome.i18n.getMessage('sidebarRewriteHistory')}</h1>
         </div>
         <div style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '60px 20px', background: 'var(--bg-card)', borderRadius: '12px', border: '1px solid var(--border)' }}>
           <div style={{ fontSize: '48px', marginBottom: '16px' }}>📋</div>
-          <div style={{ fontSize: '18px', fontWeight: 600, color: 'var(--text-main)', marginBottom: '8px' }}>No rewrites yet</div>
+          <div style={{ fontSize: '18px', fontWeight: 600, color: 'var(--text-main)', marginBottom: '8px' }}>{chrome.i18n.getMessage('noRewritesTitle')}</div>
           <div style={{ fontSize: '14px' }}>
-            Highlight text on any page and click ✨ to get started. Your history will appear here.
+            {chrome.i18n.getMessage('noRewritesDesc')}
           </div>
         </div>
       </div>
@@ -107,7 +106,7 @@ export const RewriteHistoryPage: React.FC = () => {
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-        <h1 style={{ fontSize: '28px', fontWeight: 700, margin: 0, color: 'var(--text-main)' }}>Rewrite History</h1>
+        <h1 style={{ fontSize: '28px', fontWeight: 700, margin: 0, color: 'var(--text-main)' }}>{chrome.i18n.getMessage('sidebarRewriteHistory')}</h1>
         <button
           onClick={clearAllHistory}
           style={{
@@ -116,7 +115,7 @@ export const RewriteHistoryPage: React.FC = () => {
             transition: 'all 0.2s', outline: 'none'
           }}
         >
-          🗑️ Clear All History
+          {chrome.i18n.getMessage('btnClearAllHistory')}
         </button>
       </div>
       
@@ -131,7 +130,7 @@ export const RewriteHistoryPage: React.FC = () => {
                 padding: '4px 12px', borderRadius: '999px', fontSize: '12px', fontWeight: 600,
                 background: 'var(--icon-bg)', color: 'var(--text-main)', border: '1px solid var(--border)',
               }}>
-                {REWRITE_MODE_LABELS[item.mode]}
+                {chrome.i18n.getMessage('mode_' + item.mode)}
               </span>
               <span style={{ color: 'var(--text-muted)', fontSize: '13px' }}>
                 {new Date(item.createdAt).toLocaleString('en-US', {
@@ -142,14 +141,14 @@ export const RewriteHistoryPage: React.FC = () => {
 
             <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
               <div style={{ flex: '1 1 400px' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '8px' }}>Original Text</div>
+                <div style={{ color: 'var(--text-muted)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '8px' }}>{chrome.i18n.getMessage('originalTextLabel')}</div>
                 <div style={{ color: 'var(--text-muted)', fontSize: '14px', lineHeight: 1.6, fontStyle: 'italic', background: 'var(--bg-main)', padding: '16px', borderRadius: '8px', border: '1px solid var(--border)' }}>
                   {item.originalText}
                 </div>
               </div>
 
               <div style={{ flex: '1 1 400px' }}>
-                <div style={{ color: 'var(--text-muted)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '8px' }}>Rewritten Text</div>
+                <div style={{ color: 'var(--text-muted)', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '8px' }}>{chrome.i18n.getMessage('rewrittenTextLabel')}</div>
                 <div style={{ color: 'var(--text-main)', fontSize: '14px', lineHeight: 1.6, background: 'var(--primary-bg)', padding: '16px', borderRadius: '8px', border: '1px solid rgba(124, 110, 248, 0.2)' }}>
                   {item.rewrittenText}
                 </div>
@@ -167,7 +166,7 @@ export const RewriteHistoryPage: React.FC = () => {
                   transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '6px', outline: 'none'
                 }}
               >
-                🗑️ Delete
+                {chrome.i18n.getMessage('btnDelete')}
               </button>
               <button
                 style={{
@@ -179,7 +178,7 @@ export const RewriteHistoryPage: React.FC = () => {
                 }}
                 onClick={() => copyToClipboard(item.rewrittenText, item.id)}
               >
-                {copiedId === item.id ? '✓ Copied!' : '📋 Copy Rewritten'}
+                {copiedId === item.id ? chrome.i18n.getMessage('copiedStatus') : chrome.i18n.getMessage('btnCopyRewritten')}
               </button>
             </div>
           </div>
@@ -195,7 +194,7 @@ export const RewriteHistoryPage: React.FC = () => {
               marginTop: '8px', transition: 'all 0.2s', outline: 'none'
             }}
           >
-            {loading ? 'Loading...' : 'Load older rewrites'}
+            {loading ? chrome.i18n.getMessage('loading') : chrome.i18n.getMessage('btnLoadOlder')}
           </button>
         )}
       </div>

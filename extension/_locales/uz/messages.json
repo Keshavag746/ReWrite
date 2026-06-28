@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Har qanday joyda qayta yozish - AI matnni qayta yozish",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Matnni istalgan joyda ajratib ko'rsatish. AI yordamida darhol qayta yozing.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "AI Rewrite buyruqlar palitrasini oching",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Qayta yozish →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Yozishni yaxshilang",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Grammatikani tuzatish",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Professional qiling",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Do'stona munosabatda bo'ling",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Rasmiy qiling",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Tasodifiy qiling",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Ishontiruvchi qiling",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Ishonch hosil qiling",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Insoniylashtirish",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Maxsus taklif...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Yaxshilash",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Grammatika",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Professional",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Do'stona",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Rasmiy",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Oddiy",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Ishontiruvchi",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Ishonchli",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Qisqartirish",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Kengaytirish",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Soddalashtiring",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Insoniylashtirish",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Maxsus",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Yuklanmoqda...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Matnni istalgan joyda qayta yozing",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "AI yordamida istalgan veb-saytda matnni qayta yozishni boshlash uchun Google bilan tizimga kiring.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Kirish...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Google bilan tizimga kiring",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Bepul",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Kundalik foydalanish",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(cheksiz)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Istalgan sahifadagi matnni tanlang → qayta yozish uchun ✨ tugmasini bosing. YokiCtrl+Shift+Ktugmasini bosing",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Tarix va sozlamalarni oching",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Chiqish",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Kirish amalga oshmadi",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Qayta yozish amalga oshmadi",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Bu qism hozirda qurilmoqda.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Sozlamalarni ko‘rish uchun tizimga kiring.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Hisob va foydalanish",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Tarixni qayta yozish",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Sozlamalar",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Yuklab olish",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Yordam va tez-tez so'raladigan savollar",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI qayta yozish boshqaruv paneli",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Umumiy konfiguratsiya",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Interfeys mavzusi",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Qorong'i rejim",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Nur rejimi",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Standart qayta yozish ohangi",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Barcha tarixni tozalash",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Hozircha qayta yozilmagan",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Istalgan sahifadagi matnni ajratib ko'rsatish va boshlash uchun ✨ tugmasini bosing. Tarixingiz shu yerda chiqadi.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Haqiqatan ham bu qayta yozish tarixini oʻchirib tashlamoqchimisiz?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Toʻliq qayta yozish tarixini butunlay oʻchirib tashlamoqchimisiz? Buni ortga qaytarib bo‘lmaydi.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Elementni o‘chirib bo‘lmadi:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Tarixni o‘chirib bo‘lmadi:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Asl matn",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Qayta yozilgan matn",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ O'chirish",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Qayta yozilgan nusxa",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Nusxa olindi!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Eski qayta yozishlarni yuklang",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Yordam va biznes so'rovlari",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Quyidagi manzilga murojaat qiling:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Tez-tez so'raladigan savollar",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Yordam yoki xato haqida xabar berish uchun",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Emailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Kunlik bepul chegara",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Bepul daraja: kuniga 5 marta qayta yozish. Har kuni yarim tunda tiklanadi.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Cheklovsiz istalgan joyda matnni qayta yozing.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Butun tarkibingizni qayta yozing. Bulut bilan sinxronlash. Hech qanday cheklovlar yo'q.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Erta qabul qilish taklifi: 500 ta Premium foydalanuvchisida keyingi narx oshishi. Hayot uchun bu stavkani qulflang!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 AQSH bozori ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Hindiston bozori (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "AQSh dollari bo'yicha to'lovlar hozirda saqlanmoqda. Iltimos, Hindiston bozori (₹) rejasiga oʻting yoki yordam uchunkeshoraai@gmail.commanzili orqali biz bilan bogʻlaning.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Haftalik",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Kuniga atigi 57¢)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Oylik ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Kuniga atigi 33¢)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Yillik 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Kuniga atigi 21¢)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Kuniga atigi ₹21)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Kuniga atigi ₹13)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Kuniga atigi ₹8)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ hafta",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ oy",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ yil",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Vaqti-vaqti bilan foydalanish uchun yaxshi",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Aksariyat foydalanuvchilar ushbu rejani tanlaydilar",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Quvvatli foydalanuvchilar uchun eng yaxshi qiymat",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "ENG MASHXUR",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "ENG YAXSHI QIYMAT - 2 OY BEPUL",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 reytingi • 🔒 Xavfsiz toʻlovlar • ✔️ Istalgan vaqtda bekor qiling",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Siz obunani to'lay olmaydigan talaba yoki tadqiqotchimisiz? Iltimos,keshoraai@gmail.comelektron pochta manzilini yuboring",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Allaqachon litsenziya kaliti bormi?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Litsenziya kalitini kiriting...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Faollashtirish",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "Haftada 140 ta qayta yozish",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Ommaviy qayta yozishni qulfdan chiqaring",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Premium sozlamalarga kirish",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Premium mavzular",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Aqlli papka tashkiloti",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Reklamasiz tajriba",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "Oyiga 600 ta qayta yozish",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "Yiliga 9000 ta qayta yozish",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "Boshqa kengaytmalarga 50% chegirma",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Ustuvor elektron pochta yordami",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Eksport formati",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Bepul rejada faqat PDF eksporti mavjud. Boshqa eksport formatlarini ochish uchun Pro/Premium-ga yangilang.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Fayl nomi formati",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Eksport qilingan fayllar qanday nomlanishini tanlang.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Tarixni qayta yozish - Sana (masalan, RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Maxsus sarlavha",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Maxsus fayl nomini kiriting...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Mahalliy faylni eksport qilish",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Dropbox 📦 ga saqlang",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Google Drive xizmatiga saqlang ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Bulutli zaxira faqat pulli rejalarda mavjud. Iltimos, Pro/Premium ga yangilang.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Dropbox autentifikatsiyasi bekor qilindi.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Dropbox kirish tokenini olinmadi.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Google Drive autentifikatsiyasi amalga oshmadi.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Google Drive-ga yuklanmadi:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API xatosi",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Eksport qilinadigan tarix topilmadi.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Tarix chiroyli formatlangan va vaqtinchalik xotiraga nusxalangan!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Tarix Dropbox-ga xavfsiz tarzda saqlangan!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Tarix Google Diskingizga xavfsiz saqlangan!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Eksport tugallandi!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "AI bilan qayta yozing",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI qayta yozish",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Yopish",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Asl matn",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Qayta yozish uchun rejimni tanlang...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "O'zgartiring",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Nusxalash",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Nusxa olindi",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Qayta urinib ko'ring",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Saqlash",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Bepul rejada faqat \"Yaxshilash\" rejimi mavjud. Barcha 13 rejimni qulfdan chiqarish uchun Pro-ga yangilang.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Bepul rejada faqat \"Yaxshilash\" rejimi mavjud. Barcha 13 qayta yozish rejimini ochish uchun Pro/Premium-ga yangilang.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI qayta yozish buyruqlar palitrasi",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Bepul tarif (Maxsus maslahatlar qulflangan)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Bepul tarifda maxsus taklif qulflangan...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "masalan. LinkedIn uchun qayta yozing, buni ishonarli qiling...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Bepul rejada faqat \"Yaxshilash\" rejimi mavjud. Barcha funksiyalarni ochish uchun Pro/Premium ga yangilang.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Bepul rejada faqat \"Yaxshilash\" rejimi mavjud. Barcha rejimlarni qulfdan chiqarish uchun Pro/Premium-ga yangilang.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Tarix",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Sozlamalar",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Hozircha qayta yozilmagan.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Istalgan sahifadagi matnni ajratib ko'rsatish va boshlash uchun ✨ tugmasini bosing.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Asl:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Qayta yozilgan:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Ko'proq yuklash",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Hisob",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Bugun qayta yozadi",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Qayta tiklash",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Faol ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI dvigateli",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI qayta yozish mexanizmi",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Qanday qilib veb-saytdagi matnni qayta yozishim mumkin?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Istalgan veb-sahifadagi istalgan matnni shunchaki ajratib ko'rsatish yoki tanlang. Kursor yonida suzuvchi sehrli tayoqcha tugmasi ('✨') avtomatik ravishda paydo bo'ladi. Ushbu belgini bosish interaktiv qayta yozish qalqib chiquvchi oynasini ochadi, bu yerda siz AIga tarkibni siz uchun qayta yozishga ruxsat berish uchun qayta yozish ohangini (masalan, yaxshilash, grammatika, professional, tasodifiy, kengaytirish yoki qisqartirish) tanlashingiz mumkin. Shuningdek, interfeysni buyruqlar palitrasi yorlig‘i (Windows/Linux’daCtrl+Shift+Pyoki macOS’daCmd+Shift+P) orqali ishga tushirishingiz mumkin.",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Qaysi AI modellari qo'llab-quvvatlanadi?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Hozirda biz eng zamonaviy LLMlarni qo‘llab-quvvatlaymiz, jumladan, OpenAI’ning GPT (masalan, GPT-4o-mini), Google’ning Gemini, Anthropic’s Claude va Groq ochiq manba modellari (masalan, Llama 3) yuqori unumdorlikdagi, chaqmoq tezligida matnni qayta ishlash.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Mening maʼlumotlarim xavfsizmi?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Ha, maxfiylik asosiy ustuvorlikdir. Biz faqat qayta yozish uchun siz tanlagan matnni qayta ishlaymiz. Matn so'rovni bajarish uchun bizning backend API-ga xavfsiz uzatiladi. Biz sizning matn jurnalingiz tarixini serverlarimizda uzoq muddatli saqlamaymiz yoki uni uchinchi tomonlar bilan baham ko'rmaymiz yoki undan AI modellarini o'rgatish uchun foydalanmaymiz. Bundan tashqari, kengaytma sizning shaxsiy ko'rish tarixingiz himoyalanganligini ta'minlash uchun sinov muhitida ishlaydi.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Bepul va Pro rejalari o'rtasidagi farq nima?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Bepul reja kuniga 5 marta qayta yozishni ta'minlaydi, faqat \"Yaxshilash\" ohangi va \"PDF\" yuklab olish/eksport formati bilan cheklangan. Dropbox va Google Drive integratsiyasi ham qulflangan. Pulli rejalar (Haftalik, Oylik Pro va Yillik Ultimate) barcha 6 tonnani, barcha 6 yuklab olish formatlarini (PDF, Markdown, TXT, IMG, JSON va Clipboard Copy) va bulutli zaxira integratsiyalarini premium, cheklovsiz tajriba uchun qulfdan chiqaradi.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Nega ma'lum qayta yozish ohanglari, eksport formatlari va bulutli zaxira nusxalari Bepul rejada qulflangan?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Zamonaviy AI modellarini (masalan, GPT-4o-mini, Gemini va Claude) ishga tushirish va bulutli sinxronizatsiyani boshqarish har bir harakat uchun katta server infratuzilmasi, hisoblash quvvati va to‘g‘ridan-to‘g‘ri API xarajatlarini talab qiladi. To'liq ishlaydigan bepul variantni taklif qilgan holda xizmatimizni barqaror qilish uchun Bepul reja asosiy talablarni o'z ichiga oladi (\"Yaxshilash\" ohangi bilan har kuni 5 marta qayta yozish va mahalliy PDF yaratish). Obuna rejalari yuqori sifatli ohanglar (Grammatika, Professional, Casual, Expand, Shorten), bulutli konnektorlar (Dropbox, Google Drive) va bir nechta formatli eksportlar (Markdown, TXT, IMG, JSON, COPY) xarajatlarini subsidiya qilib, biz reklamalarsiz yuqori unumdorlikni, faol yangilanishlarni va qatʼiy maxfiylikni qoʻllab-quvvatlashimizni taʼminlaydi.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Litsenziya kalitimni qanday faollashtiraman?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Obunani xarid qilishni tugatgandan so'ng, boshqaruv panelidagi \"Hisob va foydalanish\" sahifasining pastki qismidagi kalitni tekshirish maydoniga litsenziya kalitingizni kiriting va \"Litsenziyani faollashtirish\" tugmasini bosing. Hisobingiz rejasi tafsilotlari brauzeringiz xotirasida darhol yangilanadi.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Bu Google Docs yoki Notion da ishlaydimi?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Ha, kengaytma Google Docs, Notion, Gmail, LinkedIn, Slack web va Twitter/X kabi mashhur muharrirlar va boy matn portallari bilan toʻliq mos keladi. Agar maxsus ilovada suzuvchi tugma o'chirilgan bo'lsa, siz tanlaganingizni qayta yozish uchun buyruqlar palitrasi klaviatura yorlig'idan foydalanishingiz mumkin.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "O'z API kalitimdan foydalana olamanmi?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Uzluksiz, plagin va oʻynash tajribasini taqdim etish uchun barcha API foydalanish xarajatlari obuna rejangiz doirasida toʻliq qoplanadi. Hozirda siz o'zingizning API kalitlaringizni sozlashingiz shart emas. Biroq, biz kelajakda ishlab chiquvchiga yo'naltirilgan yangilanishda foydalanuvchi API konfiguratsiyasini qo'llab-quvvatlashni rejalashtirmoqdamiz.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Standart qayta yozish ohangini qanday o'zgartirish mumkin?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Siz standart qayta yozish ohangini ushbu parametrlar panelining Sozlamalar yorlig'ida o'rnatishingiz mumkin. Sizning afzalligingizni saqlash sehrli tayoqcha belgisini bosganda avtomatik ravishda o'sha ohangga o'rnatiladi, ammo kerak bo'lganda qalqib chiquvchi oynada ohanglarni almashtirishingiz mumkin.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Nima uchun ba'zida suzuvchi tugma paydo bo'lmaydi?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Sehrli tayoqcha tugmasi tasodifiy qoplamalarni oldini olish uchun matnni tanlashning minimal uzunligini talab qiladi. Bundan tashqari, standart brauzer xavfsizlik siyosatlari Chrome internet doʻkoni (chrome.google.com) va ichki konfiguratsiya sahifalari (chrome://) kabi baʼzi imtiyozli sahifalarda kontent kiritishni qatʼiy ravishda bloklaydi.",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Qayta yozilgan matnni asl nusxasini almashtirmasdan nusxalashim mumkinmi?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Ha, suzuvchi qayta yozish qalqib chiquvchi oynasida siz \"Nusxalash\" belgisini bosishingiz mumkin. Bu yangi qayta yozilgan versiyani to'g'ridan-to'g'ri vaqtinchalik xotirangizga ko'chiradi va veb-sahifadagi asl tarkibni almashtirmasdan yoki unga ta'sir qilmasdan uni istalgan joyga joylashtirish imkonini beradi.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Qanday qilib obunani bekor qilishim mumkin?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Xaridni tasdiqlash elektron pochtasida ko‘rsatilgan mijozlar to‘lov portali havolasini bosish orqali istalgan vaqtda obunangizni boshqarishingiz yoki bekor qilishingiz mumkin. Agar elektron pochta manzilini topa olmasangiz,keshoraai@gmail.commanzili orqali biz bilan bog‘laning, biz sizga yordam beramiz.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "\"Kengaytirish\" ohangi nima qiladi?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "“Kengaytirish” ohangi tanlangan matnni ishlab chiqish va ishlab chiqish uchun generativ intellektdan foydalanadi, asl maqsadni saqlab qolgan holda qisqa fikrlar, nuqtalar yoki iboralarga boy tafsilotlar, kontekst va to‘g‘ri grammatik tuzilma qo‘shadi.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Talabalar uchun chegirma bormi?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Ha, biz talabalar, o'qituvchilar va akademik tadqiqotchilarni qo'llab-quvvatlaymiz. Biz barcha pullik obuna rejalarida 30% chegirma taklif qilamiz. Chegirma kodingizni soʻrash uchun rasmiy maktab yoki universitet elektron pochta manzilingizdan (.edu yoki akademik domen) bizgakeshoraai@gmail.comelektron pochta xabarini yuboring.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Ommaviy qayta yozish imkoniyati bormi?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Ha, premium darajadagi foydalanuvchilar ommaviy qayta yozishdan foydalanishlari mumkin. Alohida segmentlarni tanlash o'rniga, kengaytmaning yon panelini ochishingiz va ularni bir vaqtning o'zida o'zgartirish uchun butun hujjatlar yoki paragraflarni joylashtirishingiz mumkin.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Xato haqida qanday xabar berishim mumkin?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "Xatolik hisobotlarinikeshoraai@gmail.commanzili orqali to‘g‘ridan-to‘g‘ri qo‘llab-quvvatlash guruhimizga yuborishingiz mumkin. “Hisob va foydalanish” sahifasidagi yordam vidjetini bosish muammoni aniqlashda yordam berish uchun kengaytma tafsilotlarini o‘z ichiga olgan qo‘llab-quvvatlash shablonini oldindan to‘ldiradi.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Nima uchun unda \"Kvota oshib ketdi\" deb yozilgan?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "“Kvota oshib ketdi” ogohlantirishi rejangizning faol sikli uchun ajratilgan foydalanishni sarflaganingizni bildiradi: Bepul foydalanuvchilar kuniga 5 marta qayta yozish bilan cheklangan; Haftalik foydalanuvchilar 140 ta qayta yozishni olishadi; Oylik Pro foydalanuvchilari 600 ta qayta yozishni oladi; va Yillik Ultimate foydalanuvchilari 9000 ta qayta yozishni oladi. Kvotalar tsikl asosida avtomatik ravishda tiklanadi (har kuni mahalliy vaqt bilan yarim tunda yoki haftalik/oylik/yillik chegaralar bo'yicha). Xizmatni darhol davom ettirish uchun \"Hisob va foydalanish\" sahifasida yuqori darajaga o'tishingiz mumkin.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Eksport qilinmoqda",
+    "description": "Locale key: exportingStatus"
+  }
+}

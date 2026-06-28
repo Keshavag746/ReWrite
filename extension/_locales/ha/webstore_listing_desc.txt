@@ -1,0 +1,44 @@
+✨ Sake rubuta rubutu a ko'ina akan yanar gizo nan take ta amfani da AI na zamani.
+
+An gaji da kwafa da liƙa rubutu a cikin tagogin hira don gyara rubutunku? Tare da AI Sake rubuta Ko'ina, zaku iya haskaka ko zaɓi kowane rubutu akan kowane gidan yanar gizo (Google Docs, Notion, Gmail, LinkedIn, Slack, Twitter/X, da ƙari) kuma sake rubuta shi nan take.
+
+An ƙarfafa shi ta hanyar sarkar faɗuwar AI mai kaifin baki ta amfani da manyan nau'ikan harshe na sama (ciki har da OpenAI GPT, Google Gemini, Anthropic Claude, da Groq buɗe tushen Llama), tsawaita yana tabbatar da matsakaicin lokacin aiki da saurin walƙiya ta hanyar tura buƙatun kai tsaye ga mai samarwa na gaba idan mutum ya ci karo da katsewar sabis.
+
+🚀 MANYAN FALALAR:
+- 🖱️ Haskaka & Sake rubutawa: Kawai haskaka rubutu akan kowane shafin yanar gizon. Maɓallin wand ɗin sihiri mai yawo yana bayyana kusa da siginan ku. Danna shi don sake rubutawa nan take.
+- 🖱️ Haɗin Menu na mahallin: Danna-dama kowane zaɓi don samun dama ga hanyoyin sake rubutawa daban-daban guda 13 kai tsaye daga menu na mahallin mai binciken.
+- ⌨️ Palette Umurni (Ctrl+Shift+K): Buɗe mai sauri, mai tsaka-tsakin madannai don rubuta faɗakarwa na al'ada ko kunna saitattun saiti mai sauri ba tare da taɓa linzamin kwamfuta ba.
+- 📋 Cikakkun Sake Rubutun Tarihi & Saituna: Samun dama ga kyakkyawan dashboard panel don nazarin sake rubutawa da suka gabata, rajistan ayyukan fitarwa cikin tsari da yawa, da daidaita abubuwan da ake so.
+- 🔄 Faɗuwar AI mara kyau: Ji daɗin sabis mara yankewa. Idan samfurin farko ya gaza, tsawo yana canzawa ta atomatik zuwa samfurin da ake samu na gaba a bayyane.
+- 🔐 Amintaccen Shiga Google: Mai sauri, ingantaccen tabbaci wanda ke daidaita saitunan ku a cikin na'urori lafiya.
+
+🎯 13 DYNAMIC SAKE RUBUTA HANYOYIN:
+1. Inganta: Tsarin rubutun Poland da ƙamus ta atomatik.
+2. Nahawu: Daidaitaccen rubutun rubutu, rubutu, da kurakurai.
+3. Ƙwararru: Ƙara harshen ku don ƙwararrun wasiku.
+4. Abokai: Ƙara zafi da kusanci zuwa saƙonninku.
+5. Na yau da kullun: Daidaita jumla don takaddun hukuma da haruffan kasuwanci.
+6. Casual: Ƙirƙiri annashuwa, rubutu na tattaunawa don saitunan zamantakewa.
+7. Lallashi: Tsara ra'ayoyin don gamsarwa, fage, ko kasuwa yadda ya kamata.
+8. Amintacce: Tabbacin aikin, iko, da tabbataccen tabbaci.
+9. Gajarta: Tattara dogayen sakin layi zuwa fitattun bayanai.
+10. Fadada: Ƙaddamarwa da ginawa akan gajerun wuraren harsashi ko jimloli.
+11. Sauƙaƙe: Fassara jargon ko hadaddun tunani zuwa bayyanannen harshe mai iya karantawa.
+12. Humanize: Sake fasalin robotic AI zayyana don karanta ta halitta.
+13. Custom Prompt: Rubuta daidai abin da kuke son AI ya yi tare da zaɓin.
+
+📂 PREMIUM EXPORT FORMATS:
+Fitar da tarihin sake rubutawa cikin gida ko daidaita kai tsaye zuwa ayyukan gajimare:
+- PDF (Kyauta & Premium)
+- Matsakaicin (MD)
+- TXT
+- Hoto (IMG)
+- JSON
+- Kwafin allo
+- Haɗin kai: Ajiye kai tsaye zuwa Dropbox ko Google Drive.
+
+🔒 SIRRI & TSARO TA TSIRA:
+Keɓantawa shine alƙawarinmu na farko. Mu kawai aiwatar da takamaiman rubutun da kuka zaɓa don sake rubutawa mai aiki. Ana watsa zaɓinku cikin aminci ta hanyar ɓoyewar SSL zuwa API ɗin mu na baya don aiwatar da buƙatar kuma ba a adana shi na dogon lokaci akan sabar mu. Tarihin binciken ku na sirri yana da cikakken kariya.
+
+📧 SANARWA & TAIMAKO:
+Kuna da tambayoyi, shawarwari, ko rahotannin kwari? Tuntuɓe mu kai tsaye akeshoraai@gmail.com. Mun himmatu ga sabuntawa na yau da kullun da buƙatun fasali!

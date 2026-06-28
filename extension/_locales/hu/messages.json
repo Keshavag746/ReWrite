@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Újraírás bárhol – AI szövegújraíró",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Szöveg kiemelése bárhol. Azonnali átírás az AI segítségével.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Nyissa meg az AI Rewrite parancspalettát",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Rewrite →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Az írás fejlesztése",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Nyelvtan javítása",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Legyen profi",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Legyen barátságos",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Tedd formálissá",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Legyen alkalmi",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Legyen meggyőző",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Legyen magabiztos",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Humanizálni",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Egyéni felszólítás...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Javulj",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Nyelvtan",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Profi",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Barátságos",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Hivatalos",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Hétköznapi",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Meggyőző",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Magabiztos",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Rövidítse le",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Bővítse",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Egyszerűsíts",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Humanizálni",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Egyedi",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Betöltés...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Írjon át szöveget bárhol",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Jelentkezzen be a Google-lal, és kezdje el a szöveg átírását bármely webhelyen AI segítségével.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Bejelentkezés...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Jelentkezzen be a Google-lal",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Ingyenes",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Napi használat",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(korlátlan)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Válasszon szöveget bármelyik oldalon → kattintson a ✨ gombra az újraíráshoz. Vagy nyomja meg aCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Nyissa meg az Előzmények és beállítások elemet",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Jelentkezzen ki",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Sikertelen bejelentkezés",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Az újraírás nem sikerült",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Ez a rész jelenleg építés alatt áll.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Kérjük, jelentkezzen be a beállítások megtekintéséhez.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Fiók és használat",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Írja át a történelmet",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Beállítások elemre",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Letöltés",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Súgó és GYIK",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Rewrite Dashboard",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Általános konfiguráció",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Interfész téma",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Sötét mód",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Fény mód",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Alapértelmezett újraírási hang",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Az összes előzmény törlése",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Még nincs átírás",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Jelölje ki a szöveget bármelyik oldalon, és kattintson a ✨ gombra a kezdéshez. Az előzmények itt jelennek meg.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Biztosan törli ezt az átírási előzményelemet?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Biztos benne, hogy véglegesen törölni szeretné a teljes átírási előzményt? Ezt nem lehet visszavonni.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "Nem sikerült törölni az elemet:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Nem sikerült törölni az előzményeket:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Eredeti szöveg",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Újraírt szöveg",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Törlés",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Másolás átírva",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Másolva!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Régebbi átírások betöltése",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Támogatás és üzleti kérdések",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Érdeklődni a következő címen:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Gyakran Ismételt Kérdések",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Segítségért vagy hibajelentésért",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "E-mailkeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Napi ingyenes limit",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Ingyenes szint: 5 átírás/nap. Minden nap éjfélkor visszaáll.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Írjon át szöveget bárhol korlátozások nélkül.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Kötegelt újraírni az összes tartalmat. Szinkronizálás a felhővel. Nincs korlátozás.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Korai alkalmazói ajánlat: Következő áremelés 500 prémium felhasználónál. Zárd be ezt az árfolyamot egy életre!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "🇺🇸 amerikai piac ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Indiai piac (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Az amerikai dolláros fizetések jelenleg karbantartás alatt állnak. Kérjük, váltson az Indian Market (₹) csomagra, vagy forduljon hozzánk akeshoraai@gmail.comcímen segítségért.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Hetente",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(Csak 57 ¢ / nap)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Havi ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(Csak 33 ¢ / nap)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Évente 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(Csak 21 ¢ / nap)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(Csak 21 ₹ / nap)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(Csak 13 ₹ / nap)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(Csak 8 ₹ / nap)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ hét",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ hónap",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ év",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "Alkalmi használatra jó",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "A legtöbb felhasználó ezt a tervet választja",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "A legjobb ár-érték arány a hatékony felhasználók számára",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "LEGNÉPSZERŰBB",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "LEGJOBB ÉRTÉK - 2 HÓNAP INGYENES",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 minősítés • 🔒 Biztonságos fizetés • ✔️ Bármikor lemondható",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ön diák vagy kutató, aki nem engedheti meg magának az előfizetést? Kérjük, küldjön e-mailt akeshoraai@gmail.comcímre",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Van már licenckulcsod?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Adja meg a licenckulcsot...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Aktiválja",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 újraírás hetente",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Tömeges újraírás feloldása",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Prémium beállítások Hozzáférés",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Sync",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Prémium témák",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Intelligens mappaszervezés",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Hirdetésmentes élmény",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 újraírás havonta",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "Évente 9000 újraírás",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% kedvezmény egyéb bővítményekre",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Elsőbbségi e-mail támogatás",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Exportálási formátum",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "Az ingyenes csomagban csak PDF-exportálás érhető el. Kérjük, frissítsen Pro/Prémiumra, hogy feloldhasson más exportformátumokat.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Fájlnév formátum",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Válassza ki az exportált fájlok elnevezését.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Újraírási előzmények – dátum (pl. RewriteHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Egyéni cím",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Adja meg az egyéni fájlnevet...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Helyi fájl exportálása",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Mentés a Dropboxba 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Mentés a Google Drive-ra ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "A felhőalapú biztonsági mentés csak fizetős csomagok esetén érhető el. Kérjük, frissítsen Pro/Prémiumra.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "A Dropbox hitelesítés megszakítva.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "Nem sikerült megszerezni a Dropbox hozzáférési tokent.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "A Google Drive-hitelesítés nem sikerült.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "A Google Drive feltöltés sikertelen:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Dropbox API hiba",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Nem található exportálható előzmények.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Az előzmények gyönyörűen formázva és vágólapra másolva!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Az előzmények biztonságosan mentve a Dropboxba!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Az előzmények biztonságosan mentve a Google Drive-ra!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Az exportálás befejeződött!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Írd át AI-val",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Rewrite",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Bezárás",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Eredeti szöveg",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Válasszon módot az újraíráshoz...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Cserélje ki",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Másolás",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Másolva",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Próbáld újra",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Mentés",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Az ingyenes csomagban csak a „Javítás” mód érhető el. Kérjük, frissítsen Pro verzióra, hogy feloldja mind a 13 módot.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Az ingyenes csomagban csak a „Javítás” mód érhető el. Kérjük, frissítsen Pro/Prémiumra, hogy feloldja mind a 13 újraírási módot.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI újraírási parancspaletta",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Ingyenes előfizetés (az egyéni promptok zárolva)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Az egyéni prompt zárolva van az ingyenes csomagban...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "pl. Írja át a LinkedIn számára, tegye ezt meggyőzővé...",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Az ingyenes csomagban csak a „Javítás” mód érhető el. Kérjük, frissítsen Pro/Prémiumra az összes funkció feloldásához.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Az ingyenes csomagban csak a „Javítás” mód érhető el. Kérjük, frissítsen Pro/Prémiumra az összes mód feloldásához.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Történelem",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Beállítások",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Még nincs átírás.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Jelölje ki a szöveget bármelyik oldalon, és kattintson a ✨ gombra a kezdéshez.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Eredeti:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Újraírva:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Töltsön be többet",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "fiók",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Ma újraírja",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Visszaállítja",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Aktív ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI motor",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Rewrite Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Hogyan írhatok át szöveget egy webhelyen?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Egyszerűen jelölje ki vagy jelölje ki bármelyik szöveget bármely weboldalon. Egy lebegő varázspálca gomb („✨”) automatikusan megjelenik a kurzor közelében. Az ikonra kattintva megnyílik az interaktív újraírási előugró ablak, ahol kiválaszthat egy átírási hangot (például Javítás, Nyelvtan, Professzionális, Alkalmi, Kibontás vagy Rövidítés), hogy az AI átírja a tartalmat. A felületet a Command Palette parancsikon keresztül is elindíthatja (Ctrl+Shift+PWindows/Linux rendszeren vagyCmd+Shift+PmacOS rendszeren).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Mely AI modellek támogatottak?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Jelenleg a legmodernebb LLM-eket támogatjuk, beleértve az OpenAI GPT-jét (pl. GPT-4o-mini), a Google Gemini-t, az Anthropic-féle Claude-ot és a Groq nyílt forráskódú modelleket (például a Llama 3-at) a nagy teljesítményű, villámgyors szövegfeldolgozás érdekében.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Biztonságban vannak az adataim?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Igen, az adatvédelem alapvető prioritás. Csak az átírásra kiválasztott konkrét szöveget dolgozzuk fel. A szöveget a rendszer biztonságosan továbbítja a háttér API-nak a kérés végrehajtásához. Szöveges naplózási előzményeit nem tároljuk hosszú távon szervereinken, és nem osztjuk meg harmadik felekkel, és nem használjuk fel mesterséges intelligencia modellek betanítására. Ezenkívül a bővítmény homokozó környezetben fut, így biztosítva a személyes böngészési előzmények védelmét.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Mi a különbség az ingyenes és a Pro csomagok között?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Az ingyenes csomag napi 5 átírást biztosít, kizárólag az „Improve” hangszínre és a „PDF” letöltési/exportálási formátumra korlátozva. A Dropbox és a Google Drive integrációja szintén zárolva van. A fizetős csomagok (Weekly, Monthly Pro és Yearly Ultimate) mind a 6 hangszínt, mind a 6 letöltési formátumot (PDF, Markdown, TXT, IMG, JSON és Clipboard Copy), valamint felhőalapú biztonsági mentési integrációkat biztosítanak a prémium, korlátozásoktól mentes élményért.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Miért vannak bizonyos átírási hangok, exportformátumok és felhőalapú biztonsági mentések zárolva az ingyenes csomagban?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "A legmodernebb AI-modellek (mint például a GPT-4o-mini, a Gemini és a Claude) futtatásához és a felhőszinkronizáláshoz jelentős szerverinfrastruktúra, számítási teljesítmény és közvetlen API-költségek szükségesek minden egyes művelethez. Annak érdekében, hogy szolgáltatásunk fenntartható legyen, miközben továbbra is teljesen működőképes, ingyenes lehetőséget kínál, az ingyenes előfizetési csomag lefedi az alapvető követelményeket (napi 5 átírás „Javítás” hanggal és helyi PDF generálás). Az előfizetési tervek támogatják a prémium hangszínek (Grammar, Professional, Casual, Expand, Shorten), a felhőcsatlakozók (Dropbox, Google Drive) és a többféle formátumú export (Markdown, TXT, IMG, JSON, COPY) költségeit, biztosítva a nagy teljesítményt, az aktív frissítéseket és a szigorú adatvédelmet hirdetések nélkül.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Hogyan aktiválhatom a licenckulcsomat?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Az előfizetés megvásárlása után illessze be licenckulcsát az irányítópult „Fiók és használat” oldalának alján található kulcsérvényesítési mezőbe, majd kattintson a „Licenc aktiválása” gombra. Fiókcsomagjának részletei azonnal frissülnek a böngésző tárhelyén.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Működik ez a Google Dokumentumokban vagy a Notionban?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Igen, a bővítmény teljes mértékben kompatibilis az olyan népszerű szerkesztőkkel és rich text portálokkal, mint a Google Docs, a Notion, a Gmail, a LinkedIn, a Slack web és a Twitter/X. Ha a lebegő gomb le van tiltva egy egyéni alkalmazásban, a Command Palette billentyűparancsával átírhatja a kijelölést.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Használhatom a saját API-kulcsomat?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "A zökkenőmentes, plug-and-play élmény biztosítása érdekében az összes API-használati költséget teljes mértékben fedezi az előfizetési csomag. Jelenleg nincs szükség saját API-kulcsok konfigurálására. Terveink szerint azonban egy jövőbeli fejlesztőközpontú frissítésben támogatni fogjuk az egyéni felhasználói API-konfigurációkat.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Hogyan változtathatom meg az alapértelmezett átírási hangot?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "Az alapértelmezett átírási hangot a beállítások panel Beállítások lapján állíthatja be. A beállítás elmentése esetén a varázspálca ikonra kattintva automatikusan az adott hangszín lesz az alapértelmezett, bár szükség esetén továbbra is válthat hangot a felugró ablakban.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Miért nem jelenik meg néha a lebegő gomb?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "A varázspálca gombhoz minimális kiválasztási hosszúságú szöveg szükséges a véletlen átfedések elkerülése érdekében. Ezenkívül a böngésző szabványos biztonsági szabályzata szigorúan tiltja a tartalombefecskendezést bizonyos kiemelt oldalakon, például a Chrome Internetes áruházban (chrome.google.com) és a belső konfigurációs oldalakon (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Másolhatom az átírt szöveget az eredeti cseréje nélkül?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Igen, a lebegő átírási előugró ablakban kattintson a „Másolás” ikonra. Ez az újonnan átírt verziót közvetlenül a vágólapra másolja, így bárhová beillesztheti anélkül, hogy lecserélné vagy befolyásolná a weboldal eredeti tartalmát.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Hogyan mondhatom le az előfizetésemet?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "Előfizetését bármikor kezelheti vagy lemondhatja a vásárlást visszaigazoló e-mailben található ügyfélszámlázási portál linkre kattintva. Ha nem találja az e-mailt, lépjen kapcsolatba velünk akeshoraai@gmail.comcímen, és mi segítünk.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Mit csinál az „Expand” hang?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Az „Expand” hangnem generatív intelligenciát használ a kiválasztott szöveg felépítéséhez és kidolgozásához, gazdag részleteket, kontextust és megfelelő nyelvtani szerkezetet adva a rövid gondolatokhoz, pontokhoz vagy kifejezésekhez, miközben az eredeti szándékot érintetlenül hagyja.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Adsz diákkedvezményt?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Igen, támogatjuk a hallgatókat, oktatókat és tudományos kutatókat. 30% kedvezményt biztosítunk minden fizetett előfizetési csomagra. Kedvezménykód igényléséhez írjon nekünk akeshoraai@gmail.comcímre hivatalos iskolai vagy egyetemi e-mail címéről (.edu vagy egyetemi domain).",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Van tömeges átírási lehetőség?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Igen, a prémium szintű felhasználók használhatják a tömeges újraírást. Az egyes szegmensek kijelölése helyett megnyithatja a bővítmény oldalsó paneljét, és beillesztheti a teljes dokumentumokat vagy bekezdéseket, hogy azokat egy mozdulattal módosítsa.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Hogyan jelenthetek hibát?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "A hibajelentéseket e-mailben közvetlenül az ügyfélszolgálati csapatunknak küldheti el akeshoraai@gmail.comcímre. A „Fiók és használat” lapon a súgó widgetre kattintva előre kitölt egy támogatási sablont, amely a bővítmény részleteit tartalmazza a probléma diagnosztizálásához.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Miért van kiírva, hogy „Kvóta túllépve”?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "A „Kvóta túllépve” figyelmeztetés azt jelenti, hogy felhasználta a terv aktív ciklusára kiosztott felhasználást: Az ingyenes felhasználók napi 5 átírásra korlátozódnak; A heti felhasználók 140 átírást kapnak; A havi Pro felhasználók 600 átírást kapnak; és az Yearly Ultimate felhasználók 9000 átírást kapnak. A kvóták automatikusan visszaállnak a ciklus alapján (helyi idő szerint naponta éjfélkor, vagy gördülő heti/havi/évi határok szerint). A szolgáltatás azonnali folytatásához frissíthet magasabb szintre a „Fiók és használat” oldalon.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Exportálás...",
+    "description": "Locale key: exportingStatus"
+  }
+}

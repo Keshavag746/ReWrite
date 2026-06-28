@@ -1,7 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { verifyGoogleToken, upsertUser, generateJWT } from '../services/authService';
 import { trackLogin } from '../services/analyticsService';
-import { userCache } from '../utils/cache';
 
 const router = Router();
 
@@ -14,17 +13,8 @@ router.post('/google', async (req: Request, res: Response) => {
       return;
     }
 
-    const googlePayload = googleToken === 'mock-dev-token'
-      ? { sub: 'mock-google-id-123', email: 'keshoraai@gmail.com', name: 'Dev User' }
-      : await verifyGoogleToken(googleToken);
-
+    const googlePayload = await verifyGoogleToken(googleToken);
     const user = await upsertUser(googlePayload);
-
-    if (googleToken === 'mock-dev-token') {
-      user.plan = 'pro';
-      await user.save();
-      userCache.set(user._id.toString(), user);
-    }
 
     const token = generateJWT(user._id.toString());
 

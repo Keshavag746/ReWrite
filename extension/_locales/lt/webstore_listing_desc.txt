@@ -1,0 +1,44 @@
+✨ Nedelsdami perrašykite tekstą bet kurioje žiniatinklio vietoje naudodami naujausią AI.
+
+Pavargote kopijuoti ir įklijuoti tekstą į pokalbių langus, kad pataisytumėte rašymą? Naudodami AI Rewrite Anywhere galite paryškinti arba pasirinkti bet kurį tekstą bet kurioje svetainėje („Google Docs“, „Notion“, „Gmail“, „LinkedIn“, „Slack“, „Twitter/X“ ir kt.) ir akimirksniu jį perrašyti.
+
+Naudojamas išmaniosios AI atsarginės grandinės, naudojant aukščiausios klasės didelių kalbų modelius (įskaitant OpenAI GPT, Google Gemini, Anthropic Claude ir Groq atvirojo kodo Llama), plėtinys užtikrina maksimalų veikimo laiką ir žaibiškus atsakymus, automatiškai nukreipdamas užklausas kitam prieinamam teikėjui, jei nutrūktų paslauga.
+
+🚀 PAGRINDINĖS SAVYBĖS:
+- 🖱️ Paryškinimas ir perrašymas: tiesiog paryškinkite tekstą bet kuriame tinklalapyje. Netoli žymeklio pasirodo plūduriuojantis stebuklingos lazdelės mygtukas. Spustelėkite jį, kad iš karto perrašytumėte.
+- 🖱️ Kontekstinio meniu integravimas: dešiniuoju pelės mygtuku spustelėkite bet kurį pasirinkimą, kad pasiektumėte 13 skirtingų perrašymo režimų tiesiai iš naršyklės kontekstinio meniu.
+- ⌨️ Komandų paletė (Ctrl+Shift+K): atidarykite greitą, į klaviatūrą orientuotą sąsają, kad galėtumėte įvesti pasirinktinius raginimus arba suaktyvinti greitus išankstinius nustatymus neliesdami pelės.
+- 📋 Visa perrašymo istorija ir nustatymai: pasiekite gražų prietaisų skydelio šoninį skydelį, kad galėtumėte peržiūrėti ankstesnius perrašymus, eksportuoti žurnalus keliais formatais ir konfigūruoti nuostatas.
+- 🔄 Nepertraukiamas dirbtinio intelekto variantas: mėgaukitės nepertraukiama paslauga. Jei pirminis modelis sugenda, plėtinys automatiškai skaidriai persijungia į kitą galimą modelį.
+- 🔐 Saugus „Google“ prisijungimas: greitas, apsaugotas autentifikavimas, kuris saugiai sinchronizuoja nustatymus visuose įrenginiuose.
+
+🎯 13 DINAMINIO PERRAŠYMO REŽIMŲ:
+1. Tobulinti: lenkų kalbos rašymo struktūra ir žodynas automatiškai.
+2. Gramatika: ištaisykite rašybos, skyrybos ir sintaksės klaidas.
+3. Profesionalus: patobulinkite savo kalbą profesionaliam susirašinėjimui.
+4. Draugiškas: suteikite savo žinutėms šilumos ir prieinamumo.
+5. Formalus: pakoreguokite oficialių dokumentų ir verslo laiškų frazes.
+6. Kasdienis: kurkite ramų, pokalbio tekstą socialinėms aplinkoms.
+7. Įtikinantis: struktūrizuokite idėjas, kad įtikintumėte, pristatytumėte ar rinktumėte efektyviai.
+8. Pasitikintys: projekto tikrumas, autoritetas ir tvirtas įsitikinimas.
+9. Sutrumpinkite: sutraukite ilgas pastraipas į trumpus akcentus.
+10. Išplėskite: pabrėžkite ir remkitės trumpais taškais ar frazėmis.
+11. Supaprastinkite: išverskite žargoną ar sudėtingas mintis į aiškią, skaitomą kalbą.
+12. Humanizuoti: pertvarkykite robotų AI juodraščius, kad jie būtų skaitomi natūraliai.
+13. Custom Prompt: įveskite tiksliai tai, ką norite, kad AI atliktų pasirinkimu.
+
+📂 PREMIUM EKSPORTO FORMATAI:
+Eksportuokite perrašymo istoriją vietoje arba sinchronizuokite tiesiogiai su debesies paslaugomis:
+- PDF (nemokama ir aukščiausios kokybės)
+- Markdown (MD)
+- TXT
+- Vaizdas (IMG)
+- JSON
+- Iškarpinės kopija
+- Debesų integravimas: išsaugokite tiesiai į „Dropbox“ arba „Google“ diską.
+
+🔒 PRIVATUMAS IR SAUGUMAS PAGAL DIZAINĄ:
+Privatumas yra mūsų pagrindinis įsipareigojimas. Apdorojame tik konkretų tekstą, kurį pasirinkote aktyviam perrašymui. Jūsų pasirinkimas saugiai perduodamas naudojant SSL šifravimą į mūsų užpakalinės programos API, kad būtų įvykdyta užklausa, ir nėra ilgai saugomas mūsų serveriuose. Jūsų asmeninė naršymo istorija yra visiškai apsaugota.
+
+📧 KONTAKTAI IR PALAIKYMAS:
+Turite klausimų, pasiūlymų ar pranešimų apie klaidas? Susisiekite su mumis tiesiogiaikeshoraai@gmail.com. Esame įsipareigoję reguliariai atnaujinti ir teikti užklausas dėl funkcijų!

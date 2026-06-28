@@ -1,0 +1,44 @@
+✨ Bhala kabusha umbhalo noma yikuphi kuwebhu ngokushesha usebenzisa i-AI yesimanjemanje.
+
+Ukhathele ukukopisha nokunamathisela umbhalo emafasiteleni engxoxo ukuze ulungise ukubhala kwakho? Nge-AI Phinda Ubhale Noma Kukuphi, ungagqamisa noma ukhethe noma yimuphi umbhalo kunoma iyiphi iwebhusayithi (i-Google Amadokhumenti, i-Notion, i-Gmail, i-LinkedIn, i-Slack, i-Twitter/X, nokuningi) futhi uyibhale kabusha ngokushesha.
+
+Inikwa amandla iketango le-AI elihlakaniphile lokubuyela emuva lisebenzisa amamodeli ezilimi ezisezingeni eliphezulu (okuhlanganisa i-OpenAI GPT, i-Google Gemini, i-Anthropic Claude, ne-Groq yomthombo ovulekile we-Llama), isandiso siqinisekisa izimpendulo ezisheshayo nezisheshayo ngokuhambisa ngokuzenzakalelayo izicelo kumhlinzeki olandelayo otholakalayo uma umuntu ehlangabezana nokuphazamiseka kwesevisi.
+
+🚀 IZICI EZIYINHLOKO:
+- 🖱️ Gqamisa futhi ubhale kabusha: Vele ugqamise umbhalo kunoma yiliphi ikhasi lewebhu. Inkinobho ye-wand yomlingo entantayo ivela eduze kwekhesa yakho. Chofoza ukuze ubhale kabusha ngokushesha.
+- 🖱️ Ukuhlanganiswa Kwemenyu Yokuqukethwe: Chofoza kwesokudla noma iyiphi inketho ukuze ufinyelele izindlela ezihlukile zokubhala kabusha eziyi-13 ngokuqondile kumenyu yokuqukethwe yesiphequluli.
+- ⌨️ I-Command Palette (Ctrl+Shift+K): Vula isixhumi esibonakalayo esisheshayo, esimaphakathi nekhibhodi ukuze uthayiphe ukwaziswa ngokwezifiso noma uqalise ukusetha kusengaphambili ngaphandle kokuthinta igundane.
+- 📋 Umlando Ogcwele Wokubhala Kabusha Nezilungiselelo: Finyelela iphaneli eseceleni yedeshibhodi ukuze ubuyekeze okubhalwe kabusha okudlule, thumela amalogu ngamafomethi amaningi, futhi ulungiselele izintandokazi.
+- 🔄 Ukubuyela emuva kwe-AI engenamthungo: Jabulela isevisi engaphazamiseki. Uma imodeli eyinhloko ihluleka, isandiso sishintshela kumodeli elandelayo ngokusobala.
+- 🔐 Vikela Ukungena Ngemvume Kwe-Google: Ukuqinisekisa okusheshayo, okuvikelekile okuvumelanisa izilungiselelo zakho kuwo wonke amadivayisi ngokuphepha.
+
+🎯 13 IZINDLELA ZOKUBHALA KABUSHA:
+1. Thuthukisa: Isakhiwo sokubhala sesi-Polish nesilulumagama ngokuzenzakalelayo.
+2. Uhlelo lolimi: Lungisa amaphutha esipelingi, izimpawu zokubhala, kanye ne-syntax.
+3. Ochwepheshe: Phakamisa ulimi lwakho ukuze uthole izincwadi zochwepheshe.
+4. Bunobungane: Engeza imfudumalo nokungeneka emilayezweni yakho.
+5. Okuhlelekile: Lungisa umusho ukuze uthole imibhalo esemthethweni nezincwadi zebhizinisi.
+6. Okuvamile: Dala umbhalo okhululekile, oxoxayo wezilungiselelo zomphakathi.
+7. Ekhuthazayo: Yakha imibono ukuze ukholwe, uyiveze, noma imakethwe ngempumelelo.
+8. Ukuzethemba: Isiqiniseko sephrojekthi, igunya, kanye nokuqiniseka okuqinile.
+9. Fushanisa: Finyelela izigaba ezinde zibe amaphuzu avelele afingqiwe.
+10. Nweba: Dlula futhi wakhe phezu kwamaphoyinti amafushane noma imishwana.
+11. Yenza kube lula: Humusha i-jargon noma imicabango eyinkimbinkimbi ngolimi olucacile, olufundekayo.
+12. Yenza ubuntu: Hlela kabusha okusalungiswa kwe-robotic AI ukuze kufundwe ngokwemvelo.
+13. Ukwaziswa Ngokwezifiso: Thayipha lokho kanye ofuna i-AI ikwenze ngokukhetha.
+
+📂 AMAFOMU OKUTHUNYELWA AYI-PREMIUM:
+Khipha umlando wakho wokubhala kabusha endaweni noma vumelanisa ngokuqondile kumasevisi wamafu:
+- I-PDF (Yamahhala ne-Premium)
+- I-Markdown (MD)
+- I-TXT
+- Isithombe (IMG)
+- JSON
+- Ikhophi yebhodi lokunamathisela
+- Ukuhlanganiswa Kwefu: Londoloza ngokuqondile ku-Dropbox noma ku-Google Drayivu.
+
+🔒 UBUMFIHLO NOKUVIKELA NGOKWEQINA:
+Ubumfihlo yisibopho sethu esiyinhloko. Sicubungula kuphela umbhalo othile owukhethayo ukuze ubhale kabusha okusebenzayo. Ukukhetha kwakho kudluliselwa ngokuphephile ngokubethela kwe-SSL ku-API yethu esemuva ukuze wenze isicelo futhi ayigcinwa isikhathi eside eziphakelini zethu. Umlando wakho wokuphequlula uvikelekile ngokuphelele.
+
+📧 XHUMANA NOSEKELO:
+Unemibuzo, iziphakamiso, noma imibiko yeziphazamisi? Xhumana nathi ngokuqondile ku-keshoraai@gmail.com. Sizibophezele kuzibuyekezo ezijwayelekile kanye nezicelo zesici!

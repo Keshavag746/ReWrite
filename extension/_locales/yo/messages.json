@@ -1,0 +1,802 @@
+{
+  "appName": {
+    "message": "Atunkọ nibikibi - AI Text Rewriter",
+    "description": "Locale key: appName"
+  },
+  "appDesc": {
+    "message": "Ṣe afihan ọrọ nibikibi. Tunkọ lesekese pẹlu AI.",
+    "description": "Locale key: appDesc"
+  },
+  "commandDesc": {
+    "message": "Ṣii paleti aṣẹ Tunkọ AI",
+    "description": "Locale key: commandDesc"
+  },
+  "contextMenuParent": {
+    "message": "AI Tunkọ →",
+    "description": "Locale key: contextMenuParent"
+  },
+  "contextMenu_improve": {
+    "message": "✨ Ṣe ilọsiwaju kikọ",
+    "description": "Locale key: contextMenu_improve"
+  },
+  "contextMenu_grammar": {
+    "message": "✅ Ṣe atunṣe Giramu",
+    "description": "Locale key: contextMenu_grammar"
+  },
+  "contextMenu_professional": {
+    "message": "💼 Ṣe Ọjọgbọn",
+    "description": "Locale key: contextMenu_professional"
+  },
+  "contextMenu_friendly": {
+    "message": "😊 Ṣe Ọrẹ",
+    "description": "Locale key: contextMenu_friendly"
+  },
+  "contextMenu_formal": {
+    "message": "🎩 Ṣe Formal",
+    "description": "Locale key: contextMenu_formal"
+  },
+  "contextMenu_casual": {
+    "message": "👋 Ṣe Casual",
+    "description": "Locale key: contextMenu_casual"
+  },
+  "contextMenu_persuasive": {
+    "message": "🎯 Ṣe Persuasile",
+    "description": "Locale key: contextMenu_persuasive"
+  },
+  "contextMenu_confident": {
+    "message": "💪 Ṣe igbẹkẹle",
+    "description": "Locale key: contextMenu_confident"
+  },
+  "contextMenu_humanize": {
+    "message": "🤖→👤 Eda eniyan",
+    "description": "Locale key: contextMenu_humanize"
+  },
+  "contextMenu_custom": {
+    "message": "⚡ Ipese Aṣa...",
+    "description": "Locale key: contextMenu_custom"
+  },
+  "mode_improve": {
+    "message": "✨ Ilọsiwaju",
+    "description": "Locale key: mode_improve"
+  },
+  "mode_grammar": {
+    "message": "✅ Gírámà",
+    "description": "Locale key: mode_grammar"
+  },
+  "mode_professional": {
+    "message": "💼 Ọjọgbọn",
+    "description": "Locale key: mode_professional"
+  },
+  "mode_friendly": {
+    "message": "😊 Ore",
+    "description": "Locale key: mode_friendly"
+  },
+  "mode_formal": {
+    "message": "🎩 Lodo",
+    "description": "Locale key: mode_formal"
+  },
+  "mode_casual": {
+    "message": "👋 Àjọṣe",
+    "description": "Locale key: mode_casual"
+  },
+  "mode_persuasive": {
+    "message": "🎯 Oniroyin",
+    "description": "Locale key: mode_persuasive"
+  },
+  "mode_confident": {
+    "message": "💪 Igbẹkẹle",
+    "description": "Locale key: mode_confident"
+  },
+  "mode_shorten": {
+    "message": "✂️ Kukuru",
+    "description": "Locale key: mode_shorten"
+  },
+  "mode_expand": {
+    "message": "📖 Faagun",
+    "description": "Locale key: mode_expand"
+  },
+  "mode_simplify": {
+    "message": "🔤 Rọrun",
+    "description": "Locale key: mode_simplify"
+  },
+  "mode_humanize": {
+    "message": "🤖 Eda eniyan",
+    "description": "Locale key: mode_humanize"
+  },
+  "mode_custom": {
+    "message": "⚡ Aṣa",
+    "description": "Locale key: mode_custom"
+  },
+  "loading": {
+    "message": "Nkojọpọ...",
+    "description": "Locale key: loading"
+  },
+  "rewriteTextAnywhere": {
+    "message": "Tun ọrọ kọ nibikibi",
+    "description": "Locale key: rewriteTextAnywhere"
+  },
+  "signInText": {
+    "message": "Wọle pẹlu Google lati bẹrẹ atunkọ ọrọ lori oju opo wẹẹbu eyikeyi pẹlu AI.",
+    "description": "Locale key: signInText"
+  },
+  "signingIn": {
+    "message": "Wíwọlé...",
+    "description": "Locale key: signingIn"
+  },
+  "signInBtn": {
+    "message": "🔐 Wọle pẹlu Google",
+    "description": "Locale key: signInBtn"
+  },
+  "planPro": {
+    "message": "⚡ Pro",
+    "description": "Locale key: planPro"
+  },
+  "planFree": {
+    "message": "Ọfẹ",
+    "description": "Locale key: planFree"
+  },
+  "dailyUsage": {
+    "message": "Lojoojumọ Lilo",
+    "description": "Locale key: dailyUsage"
+  },
+  "unlimited": {
+    "message": "(ailopin)",
+    "description": "Locale key: unlimited"
+  },
+  "quickTip": {
+    "message": "💡 Yan ọrọ lori oju-iwe eyikeyi → tẹ bọtini ✨ lati tun kọ. Tabi tẹCtrl+Shift+K",
+    "description": "Locale key: quickTip"
+  },
+  "btnOpenHistorySettings": {
+    "message": "📋 Ṣii Itan & Eto",
+    "description": "Locale key: btnOpenHistorySettings"
+  },
+  "btnSignOut": {
+    "message": "Wọlé Jade",
+    "description": "Locale key: btnSignOut"
+  },
+  "loginFailed": {
+    "message": "Wọle kuna",
+    "description": "Locale key: loginFailed"
+  },
+  "rewriteFailed": {
+    "message": "Atunkọ kuna",
+    "description": "Locale key: rewriteFailed"
+  },
+  "underConstruction": {
+    "message": "Yi apakan ni Lọwọlọwọ labẹ ikole.",
+    "description": "Locale key: underConstruction"
+  },
+  "loginRequiredSettings": {
+    "message": "Jọwọ wọle lati wo awọn eto.",
+    "description": "Locale key: loginRequiredSettings"
+  },
+  "sidebarAccountUsage": {
+    "message": "Account & Lilo",
+    "description": "Locale key: sidebarAccountUsage"
+  },
+  "sidebarRewriteHistory": {
+    "message": "Tun Itan kọ",
+    "description": "Locale key: sidebarRewriteHistory"
+  },
+  "sidebarSettings": {
+    "message": "Eto",
+    "description": "Locale key: sidebarSettings"
+  },
+  "sidebarDownload": {
+    "message": "Gba lati ayelujara",
+    "description": "Locale key: sidebarDownload"
+  },
+  "sidebarHelpFAQ": {
+    "message": "Iranlọwọ & FAQ",
+    "description": "Locale key: sidebarHelpFAQ"
+  },
+  "sidebarDashboardTitle": {
+    "message": "AI Tun Dasibodu",
+    "description": "Locale key: sidebarDashboardTitle"
+  },
+  "generalConfig": {
+    "message": "Gbogbogbo iṣeto ni",
+    "description": "Locale key: generalConfig"
+  },
+  "interfaceTheme": {
+    "message": "Akori Interface",
+    "description": "Locale key: interfaceTheme"
+  },
+  "themeDark": {
+    "message": "Ipo Dudu",
+    "description": "Locale key: themeDark"
+  },
+  "themeLight": {
+    "message": "Ipo Imọlẹ",
+    "description": "Locale key: themeLight"
+  },
+  "defaultToneLabel": {
+    "message": "Ohun orin Atunkọ Aiyipada",
+    "description": "Locale key: defaultToneLabel"
+  },
+  "btnClearAllHistory": {
+    "message": "🗑️ Ko gbogbo itan-akọọlẹ kuro",
+    "description": "Locale key: btnClearAllHistory"
+  },
+  "noRewritesTitle": {
+    "message": "Ko si awọn atunko sibẹsibẹ",
+    "description": "Locale key: noRewritesTitle"
+  },
+  "noRewritesDesc": {
+    "message": "Ṣe afihan ọrọ si oju-iwe eyikeyi ki o tẹ ✨ lati bẹrẹ. Itan rẹ yoo han nibi.",
+    "description": "Locale key: noRewritesDesc"
+  },
+  "deleteConfirm": {
+    "message": "Ṣe o da ọ loju pe o fẹ paarẹ nkan itan atunko yii bi?",
+    "description": "Locale key: deleteConfirm"
+  },
+  "clearAllConfirm": {
+    "message": "Ṣe o da ọ loju pe o fẹ paarẹ gbogbo itan-akọọlẹ atunkọ rẹ patapata bi? Eyi ko le ṣe atunṣe.",
+    "description": "Locale key: clearAllConfirm"
+  },
+  "failedToDelete": {
+    "message": "O kuna lati pa nkan rẹ kuro:",
+    "description": "Locale key: failedToDelete"
+  },
+  "failedToClear": {
+    "message": "Kuna lati ko itan-akọọlẹ kuro:",
+    "description": "Locale key: failedToClear"
+  },
+  "originalTextLabel": {
+    "message": "Atilẹba Ọrọ",
+    "description": "Locale key: originalTextLabel"
+  },
+  "rewrittenTextLabel": {
+    "message": "Atunkọ Ọrọ",
+    "description": "Locale key: rewrittenTextLabel"
+  },
+  "btnDelete": {
+    "message": "🗑️ Parẹ",
+    "description": "Locale key: btnDelete"
+  },
+  "btnCopyRewritten": {
+    "message": "📋 Daakọ Tunkọ",
+    "description": "Locale key: btnCopyRewritten"
+  },
+  "copiedStatus": {
+    "message": "✓ Daakọ!",
+    "description": "Locale key: copiedStatus"
+  },
+  "btnLoadOlder": {
+    "message": "Fifuye agbalagba rewrites",
+    "description": "Locale key: btnLoadOlder"
+  },
+  "supportInquiriesLabel": {
+    "message": "Atilẹyin & Awọn ibeere Iṣowo",
+    "description": "Locale key: supportInquiriesLabel"
+  },
+  "supportReachOutText": {
+    "message": "Kan si ni:",
+    "description": "Locale key: supportReachOutText"
+  },
+  "faqTitle": {
+    "message": "Awọn ibeere Nigbagbogbo",
+    "description": "Locale key: faqTitle"
+  },
+  "billingHelp": {
+    "message": "Fun iranlọwọ tabi lati jabo kokoro kan",
+    "description": "Locale key: billingHelp"
+  },
+  "billingEmail": {
+    "message": "Imeelikeshoraai@gmail.com",
+    "description": "Locale key: billingEmail"
+  },
+  "dailyFreeLimit": {
+    "message": "Ifilelẹ Ọfẹ ojoojumọ",
+    "description": "Locale key: dailyFreeLimit"
+  },
+  "freeTierDesc": {
+    "message": "Ipele ọfẹ: 5 tunkọ / ọjọ. Tun lojoojumọ larin ọganjọ.",
+    "description": "Locale key: freeTierDesc"
+  },
+  "noLimitsTitle": {
+    "message": "Tun ọrọ kọ nibikibi laisi awọn opin.",
+    "description": "Locale key: noLimitsTitle"
+  },
+  "noLimitsDesc": {
+    "message": "Batch tun gbogbo akoonu rẹ kọ. Muṣiṣẹpọ si awọsanma. Ko si awọn ihamọ.",
+    "description": "Locale key: noLimitsDesc"
+  },
+  "earlyAdopterOffer": {
+    "message": "🎁 Ifunni Olukọni ni kutukutu: Ilọsiwaju idiyele atẹle ni awọn olumulo Ere 500. Titiipa ni oṣuwọn yii fun igbesi aye!",
+    "description": "Locale key: earlyAdopterOffer"
+  },
+  "marketUS": {
+    "message": "Oja AMẸRIKA ($)",
+    "description": "Locale key: marketUS"
+  },
+  "marketIN": {
+    "message": "🇮🇳 Ọja India (₹)",
+    "description": "Locale key: marketIN"
+  },
+  "billingMaintenanceAlert": {
+    "message": "Awọn sisanwo dola AMẸRIKA lọwọlọwọ wa labẹ itọju. Jọwọ yipada si ero ọja India (₹) tabi kan si wa nikeshoraai@gmail.comfun iranlọwọ.",
+    "description": "Locale key: billingMaintenanceAlert"
+  },
+  "weeklyPlanName": {
+    "message": "Osẹ-ọsẹ",
+    "description": "Locale key: weeklyPlanName"
+  },
+  "usdWeeklySub": {
+    "message": "(O kan 57 ¢ fun ọjọ kan)",
+    "description": "Locale key: usdWeeklySub"
+  },
+  "monthlyPlanName": {
+    "message": "Oṣooṣu ⭐",
+    "description": "Locale key: monthlyPlanName"
+  },
+  "usdMonthlySub": {
+    "message": "(O kan 33 ¢ fun ọjọ kan)",
+    "description": "Locale key: usdMonthlySub"
+  },
+  "yearlyPlanName": {
+    "message": "Odoodun 💎",
+    "description": "Locale key: yearlyPlanName"
+  },
+  "usdYearlySub": {
+    "message": "(O kan 21 ¢ / ọjọ)",
+    "description": "Locale key: usdYearlySub"
+  },
+  "inrWeeklySub": {
+    "message": "(O kan ₹21 fun ọjọ kan)",
+    "description": "Locale key: inrWeeklySub"
+  },
+  "inrMonthlySub": {
+    "message": "(O kan ₹ 13 / ọjọ)",
+    "description": "Locale key: inrMonthlySub"
+  },
+  "inrYearlySub": {
+    "message": "(O kan ₹ 8 / ọjọ)",
+    "description": "Locale key: inrYearlySub"
+  },
+  "pricingPeriodWeek": {
+    "message": "/ ọsẹ",
+    "description": "Locale key: pricingPeriodWeek"
+  },
+  "pricingPeriodMonth": {
+    "message": "/ osù",
+    "description": "Locale key: pricingPeriodMonth"
+  },
+  "pricingPeriodYear": {
+    "message": "/ odun",
+    "description": "Locale key: pricingPeriodYear"
+  },
+  "goodForOccasional": {
+    "message": "O dara fun lilo lẹẹkọọkan",
+    "description": "Locale key: goodForOccasional"
+  },
+  "mostUsersChoose": {
+    "message": "Pupọ awọn olumulo yan ero yii",
+    "description": "Locale key: mostUsersChoose"
+  },
+  "bestValuePower": {
+    "message": "Iye ti o dara julọ fun awọn olumulo agbara",
+    "description": "Locale key: bestValuePower"
+  },
+  "mostPopularBadge": {
+    "message": "Gbajumo julọ",
+    "description": "Locale key: mostPopularBadge"
+  },
+  "bestValueBadge": {
+    "message": "BEST IYE - 2 osu FREE",
+    "description": "Locale key: bestValueBadge"
+  },
+  "pricingRating": {
+    "message": "⭐ 5.0 Rating • 🔒 Awọn sisanwo to ni aabo • ✔️ Fagilee nigbakugba",
+    "description": "Locale key: pricingRating"
+  },
+  "pricingStudent": {
+    "message": "Ṣe o jẹ ọmọ ile-iwe tabi oniwadi ti ko le ṣe ṣiṣe alabapin kan? Jọwọ fi imeeli ranṣẹ sikeshoraai@gmail.com",
+    "description": "Locale key: pricingStudent"
+  },
+  "alreadyLicenseKey": {
+    "message": "Ṣe o ti ni bọtini iwe-aṣẹ tẹlẹ?",
+    "description": "Locale key: alreadyLicenseKey"
+  },
+  "licensePlaceholder": {
+    "message": "Tẹ bọtini iwe-aṣẹ sii...",
+    "description": "Locale key: licensePlaceholder"
+  },
+  "btnActivate": {
+    "message": "Mu ṣiṣẹ",
+    "description": "Locale key: btnActivate"
+  },
+  "feature_rewrites_weekly": {
+    "message": "140 Rewrites fun ọsẹ",
+    "description": "Locale key: feature_rewrites_weekly"
+  },
+  "feature_bulk_rewrite": {
+    "message": "Šii Olopobobo Tuntun",
+    "description": "Locale key: feature_bulk_rewrite"
+  },
+  "feature_settings_access": {
+    "message": "Wiwọle Eto Ere",
+    "description": "Locale key: feature_settings_access"
+  },
+  "feature_cloud_sync": {
+    "message": "GDrive, Dropbox Amuṣiṣẹpọ",
+    "description": "Locale key: feature_cloud_sync"
+  },
+  "feature_themes": {
+    "message": "Awọn akori Ere",
+    "description": "Locale key: feature_themes"
+  },
+  "feature_folders": {
+    "message": "Smart Folda Agbari",
+    "description": "Locale key: feature_folders"
+  },
+  "feature_ad_free": {
+    "message": "Iriri ti ko ni ipolowo",
+    "description": "Locale key: feature_ad_free"
+  },
+  "feature_rewrites_monthly": {
+    "message": "600 Rewrites fun osu",
+    "description": "Locale key: feature_rewrites_monthly"
+  },
+  "feature_rewrites_yearly": {
+    "message": "9,000 Atunkọ fun ọdun kan",
+    "description": "Locale key: feature_rewrites_yearly"
+  },
+  "feature_discount": {
+    "message": "50% pa awọn amugbooro miiran",
+    "description": "Locale key: feature_discount"
+  },
+  "feature_priority_support": {
+    "message": "Ayo Imeeli Support",
+    "description": "Locale key: feature_priority_support"
+  },
+  "exportFormat": {
+    "message": "Okeere kika",
+    "description": "Locale key: exportFormat"
+  },
+  "freePlanLimitAlert": {
+    "message": "PDF okeere nikan wa lori ero ọfẹ. Jọwọ ṣe igbesoke si Pro/Ere lati ṣii awọn ọna kika okeere miiran.",
+    "description": "Locale key: freePlanLimitAlert"
+  },
+  "filenameFormatLabel": {
+    "message": "Ọna kika faili",
+    "description": "Locale key: filenameFormatLabel"
+  },
+  "filenameFormatDesc": {
+    "message": "Yan bii awọn faili ti a ti okeere ṣe jẹ orukọ.",
+    "description": "Locale key: filenameFormatDesc"
+  },
+  "optionDate": {
+    "message": "Tun Itan-akọọlẹ kọ - Ọjọ (fun apẹẹrẹ AtunkọHistory_2026-06-23)",
+    "description": "Locale key: optionDate"
+  },
+  "optionCustom": {
+    "message": "Aṣa akọle",
+    "description": "Locale key: optionCustom"
+  },
+  "customFilenamePlaceholder": {
+    "message": "Tẹ orukọ faili aṣa sii...",
+    "description": "Locale key: customFilenamePlaceholder"
+  },
+  "btnExportLocal": {
+    "message": "Faili Agbegbe okeere",
+    "description": "Locale key: btnExportLocal"
+  },
+  "btnSaveDropbox": {
+    "message": "Fipamọ si Dropbox 📦",
+    "description": "Locale key: btnSaveDropbox"
+  },
+  "btnSaveGDrive": {
+    "message": "Fipamọ si Google Drive ☁️",
+    "description": "Locale key: btnSaveGDrive"
+  },
+  "cloudBackupLockedAlert": {
+    "message": "Afẹyinti awọsanma wa lori awọn ero isanwo nikan. Jọwọ ṣe igbesoke si Pro/Ere.",
+    "description": "Locale key: cloudBackupLockedAlert"
+  },
+  "dropboxAuthCancelled": {
+    "message": "Ijeri Dropbox fagile.",
+    "description": "Locale key: dropboxAuthCancelled"
+  },
+  "dropboxTokenFailed": {
+    "message": "O kuna lati gba ami iraye si Dropbox.",
+    "description": "Locale key: dropboxTokenFailed"
+  },
+  "gdriveAuthFailed": {
+    "message": "Ijeri Google Drive kuna.",
+    "description": "Locale key: gdriveAuthFailed"
+  },
+  "gdriveUploadFailed": {
+    "message": "Gbigbe Google Drive kuna:",
+    "description": "Locale key: gdriveUploadFailed"
+  },
+  "dropboxUploadFailed": {
+    "message": "Aṣiṣe Dropbox API",
+    "description": "Locale key: dropboxUploadFailed"
+  },
+  "noHistoryToExport": {
+    "message": "Ko si itan ti a rii lati okeere.",
+    "description": "Locale key: noHistoryToExport"
+  },
+  "copySuccessAlert": {
+    "message": "Itan-akọọlẹ ti ṣe ọna kika ati daakọ si agekuru agekuru!",
+    "description": "Locale key: copySuccessAlert"
+  },
+  "dropboxSuccessAlert": {
+    "message": "Itan-akọọlẹ ni aabo ni aabo si Dropbox rẹ!",
+    "description": "Locale key: dropboxSuccessAlert"
+  },
+  "gdriveSuccessAlert": {
+    "message": "Itan-akọọlẹ ni aabo ni aabo si Google Drive rẹ!",
+    "description": "Locale key: gdriveSuccessAlert"
+  },
+  "exportCompleteAlert": {
+    "message": "Okeere ti pari!",
+    "description": "Locale key: exportCompleteAlert"
+  },
+  "floatingButtonAria": {
+    "message": "Tun-kọ pẹlu AI",
+    "description": "Locale key: floatingButtonAria"
+  },
+  "popupTitleLabel": {
+    "message": "AI Tun kọ",
+    "description": "Locale key: popupTitleLabel"
+  },
+  "popupCloseLabel": {
+    "message": "Sunmọ",
+    "description": "Locale key: popupCloseLabel"
+  },
+  "popupOriginalTextLabel": {
+    "message": "Ọrọ atilẹba",
+    "description": "Locale key: popupOriginalTextLabel"
+  },
+  "popupPlaceholder": {
+    "message": "Yan ipo lati tun kọ...",
+    "description": "Locale key: popupPlaceholder"
+  },
+  "btnReplace": {
+    "message": "Rọpo",
+    "description": "Locale key: btnReplace"
+  },
+  "btnCopy": {
+    "message": "Daakọ",
+    "description": "Locale key: btnCopy"
+  },
+  "btnCopied": {
+    "message": "✓ Daakọ",
+    "description": "Locale key: btnCopied"
+  },
+  "btnRetry": {
+    "message": "↺ Tun gbiyanju",
+    "description": "Locale key: btnRetry"
+  },
+  "btnSave": {
+    "message": "Fipamọ",
+    "description": "Locale key: btnSave"
+  },
+  "freePlanModesAlert": {
+    "message": "Ipo “Imudara” nikan wa lori ero ọfẹ. Jọwọ ṣe igbesoke si Pro lati ṣii gbogbo awọn ipo 13.",
+    "description": "Locale key: freePlanModesAlert"
+  },
+  "freePlanModesPopupAlert": {
+    "message": "Ipo “Imudara” nikan wa lori ero ọfẹ. Jọwọ ṣe igbesoke si Pro/Ere lati ṣii gbogbo awọn ipo atunko 13.",
+    "description": "Locale key: freePlanModesPopupAlert"
+  },
+  "commandPaletteTitle": {
+    "message": "⚡ AI Tunkọ Paleti Òfin",
+    "description": "Locale key: commandPaletteTitle"
+  },
+  "commandPaletteFreeWarning": {
+    "message": "⚠️ Eto Ọfẹ (Titiipa awọn ilana aṣa)",
+    "description": "Locale key: commandPaletteFreeWarning"
+  },
+  "commandPalettePlaceholderFree": {
+    "message": "Ilana aṣa ti wa ni titiipa lori Eto Ọfẹ...",
+    "description": "Locale key: commandPalettePlaceholderFree"
+  },
+  "commandPalettePlaceholderPro": {
+    "message": "f.eks. Tun kọ fun LinkedIn, Ṣe eyi ni idaniloju…",
+    "description": "Locale key: commandPalettePlaceholderPro"
+  },
+  "commandPaletteLockedAlert": {
+    "message": "Ipo “Imudara” nikan wa lori ero ọfẹ. Jọwọ ṣe igbesoke si Pro/Ere lati ṣii gbogbo awọn ẹya.",
+    "description": "Locale key: commandPaletteLockedAlert"
+  },
+  "commandPaletteLockedModesAlert": {
+    "message": "Ipo “Imudara” nikan wa lori ero ọfẹ. Jọwọ ṣe igbesoke si Pro/Ere lati ṣii gbogbo awọn ipo.",
+    "description": "Locale key: commandPaletteLockedModesAlert"
+  },
+  "sidepanelHistoryTab": {
+    "message": "📋 Itan",
+    "description": "Locale key: sidepanelHistoryTab"
+  },
+  "sidepanelSettingsTab": {
+    "message": "⚙️ Eto",
+    "description": "Locale key: sidepanelSettingsTab"
+  },
+  "sidepanelNoHistory": {
+    "message": "Ko si awọn atunko sibẹsibẹ.",
+    "description": "Locale key: sidepanelNoHistory"
+  },
+  "sidepanelHighlightText": {
+    "message": "Ṣe afihan ọrọ si oju-iwe eyikeyi ki o tẹ ✨ lati bẹrẹ.",
+    "description": "Locale key: sidepanelHighlightText"
+  },
+  "sidepanelOriginal": {
+    "message": "Atilẹba:",
+    "description": "Locale key: sidepanelOriginal"
+  },
+  "sidepanelRewritten": {
+    "message": "→ Atunkọ:",
+    "description": "Locale key: sidepanelRewritten"
+  },
+  "sidepanelLoadMore": {
+    "message": "Kojọpọ diẹ sii",
+    "description": "Locale key: sidepanelLoadMore"
+  },
+  "sidepanelAccount": {
+    "message": "Iroyin",
+    "description": "Locale key: sidepanelAccount"
+  },
+  "sidepanelRewritesToday": {
+    "message": "Rewrites loni",
+    "description": "Locale key: sidepanelRewritesToday"
+  },
+  "sidepanelResets": {
+    "message": "Awọn atunto",
+    "description": "Locale key: sidepanelResets"
+  },
+  "sidepanelEngineActive": {
+    "message": "Ti nṣiṣe lọwọ ✓",
+    "description": "Locale key: sidepanelEngineActive"
+  },
+  "sidepanelEngineTitle": {
+    "message": "AI Enjini",
+    "description": "Locale key: sidepanelEngineTitle"
+  },
+  "sidepanelEngineLabel": {
+    "message": "✨ AI Atunkọ Engine",
+    "description": "Locale key: sidepanelEngineLabel"
+  },
+  "faq_q_0": {
+    "message": "Bawo ni MO ṣe tun ọrọ kọ lori oju opo wẹẹbu kan?",
+    "description": "Locale key: faq_q_0"
+  },
+  "faq_a_0": {
+    "message": "Nìkan saami tabi yan ọrọ eyikeyi lori oju opo wẹẹbu eyikeyi. Bọtini wand idan lilefoofo ('✨') yoo han ni aifọwọyi nitosi kọsọ rẹ. Tite aami yii ṣii agbejade atunko ibaraenisepo, nibi ti o ti le yan ohun orin atunko (bii Imudara, Grammar, Ọjọgbọn, Casual, Faagun, tabi Kuru) lati jẹ ki AI tun kọ akoonu naa fun ọ. O tun le ṣe okunfa wiwo nipasẹ ọna abuja Paleti aṣẹ (Ctrl+Shift+Plori Windows/Linux tabiCmd+Shift+Plori macOS).",
+    "description": "Locale key: faq_a_0"
+  },
+  "faq_q_1": {
+    "message": "Awọn awoṣe AI wo ni atilẹyin?",
+    "description": "Locale key: faq_q_1"
+  },
+  "faq_a_1": {
+    "message": "Lọwọlọwọ a ṣe atilẹyin awọn LLM-ti-ti-aworan pẹlu OpenAI's GPT (fun apẹẹrẹ, GPT-4o-mini), Google's Gemini, Anthropic's Claude, ati awọn awoṣe orisun-ìmọ Groq (bii Llama 3) fun iṣẹ ṣiṣe ti o ga, mimu-yara ọrọ sisẹ.",
+    "description": "Locale key: faq_a_1"
+  },
+  "faq_q_2": {
+    "message": "Se data mi ni aabo?",
+    "description": "Locale key: faq_q_2"
+  },
+  "faq_a_2": {
+    "message": "Bẹẹni, asiri jẹ pataki pataki. A ṣe ilana ọrọ kan pato ti o yan fun atunkọ. Ọrọ naa ti wa ni gbigbe lailewu si API ẹhin wa lati ṣe ibeere naa. A ko tọju itan akọọlẹ ọrọ rẹ fun igba pipẹ lori olupin wa, tabi a ko pin pẹlu awọn ẹgbẹ kẹta tabi lo lati kọ awọn awoṣe AI. Ni afikun, itẹsiwaju naa nṣiṣẹ ni agbegbe ti o ni iyanrin lati rii daju pe itan lilọ kiri ayelujara ti ara ẹni ni aabo.",
+    "description": "Locale key: faq_a_2"
+  },
+  "faq_q_3": {
+    "message": "Kini iyatọ laarin Ọfẹ ati awọn ero Pro?",
+    "description": "Locale key: faq_q_3"
+  },
+  "faq_a_3": {
+    "message": "Eto Ọfẹ n pese awọn atunko 5 fun ọjọ kan, ni ihamọ ni iyasọtọ si ohun orin 'Imudara' ati ọna kika 'PDF' lati ayelujara/okeere. Dropbox ati awọn iṣọpọ Google Drive tun wa ni titiipa. Awọn ero isanwo (Ọsẹ-ọsẹ, Pro oṣooṣu, ati Ọdun Ọdun) ṣii gbogbo awọn ohun orin 6, gbogbo awọn ọna kika igbasilẹ 6 (PDF, Markdown, TXT, IMG, JSON, ati Clipboard Copy), ati awọn iṣọpọ afẹyinti awọsanma fun Ere kan, iriri ti ko ni ihamọ.",
+    "description": "Locale key: faq_a_3"
+  },
+  "faq_q_4": {
+    "message": "Kini idi ti awọn ohun orin atunko, awọn ọna kika okeere, ati awọn afẹyinti awọsanma ti wa ni titiipa lori ero Ọfẹ naa?",
+    "description": "Locale key: faq_q_4"
+  },
+  "faq_a_4": {
+    "message": "Ṣiṣe awọn awoṣe AI-ti-ti-aworan (gẹgẹbi GPT-4o-mini, Gemini, ati Claude) ati iṣakoso amuṣiṣẹpọ awọsanma nilo awọn amayederun olupin ti o pọju, agbara iṣiro, ati awọn idiyele API taara fun gbogbo iṣe. Lati jẹ ki iṣẹ wa jẹ alagbero lakoko ti o n funni ni aṣayan ọfẹ ti iṣẹ ni kikun, ero Ọfẹ ni wiwa awọn ibeere ipilẹ (awọn atunko 5 lojoojumọ pẹlu ohun orin 'Imudara' ati iran PDF agbegbe). Awọn ero ṣiṣe alabapin n ṣe alabapin awọn idiyele ti awọn ohun orin Ere (Grammar, Ọjọgbọn, Casual, Faagun, Kuru), awọn asopọ awọsanma (Dropbox, Google Drive), ati awọn ọna okeere lọpọlọpọ (Markdown, TXT, IMG, JSON, COPY), ni idaniloju pe a le ṣe atilẹyin iṣẹ giga, awọn imudojuiwọn ti nṣiṣe lọwọ, ati ikọkọ ti o muna laisi ipolowo.",
+    "description": "Locale key: faq_a_4"
+  },
+  "faq_q_5": {
+    "message": "Bawo ni MO ṣe mu bọtini iwe-aṣẹ mi ṣiṣẹ?",
+    "description": "Locale key: faq_q_5"
+  },
+  "faq_a_5": {
+    "message": "Lẹhin ipari rira ṣiṣe alabapin rẹ, lẹẹmọ bọtini iwe-aṣẹ rẹ sinu aaye afọwọsi bọtini ni isalẹ oju-iwe 'Account & Lilo' lori dasibodu ki o tẹ 'Mu iwe-aṣẹ ṣiṣẹ'. Awọn alaye ero akọọlẹ rẹ yoo ṣe imudojuiwọn lesekese ni ibi ipamọ ẹrọ aṣawakiri rẹ.",
+    "description": "Locale key: faq_a_5"
+  },
+  "faq_q_6": {
+    "message": "Ṣe eyi ṣiṣẹ lori Awọn Docs Google tabi Imọran?",
+    "description": "Locale key: faq_q_6"
+  },
+  "faq_a_6": {
+    "message": "Bẹẹni, ifaagun naa ni ibamu ni kikun pẹlu awọn olootu olokiki ati awọn ọna abawọle ọrọ ọlọrọ bii Google Docs, Notion, Gmail, LinkedIn, Slack wẹẹbu, ati Twitter/X. Ti bọtini lilefoofo ba jẹ alaabo lori ohun elo aṣa, o le lo ọna abuja bọtini itẹwe Palette Command lati tun yiyan rẹ kọ.",
+    "description": "Locale key: faq_a_6"
+  },
+  "faq_q_7": {
+    "message": "Ṣe Mo le lo bọtini API ti ara mi?",
+    "description": "Locale key: faq_q_7"
+  },
+  "faq_a_7": {
+    "message": "Lati pese lainidi, iriri plug-ati-play, gbogbo awọn idiyele lilo API ni kikun bo labẹ ero ṣiṣe alabapin rẹ. Lọwọlọwọ, o ko nilo lati tunto awọn bọtini API tirẹ. Bibẹẹkọ, a gbero lati ṣe atilẹyin awọn atunto API olumulo aṣa ni imudojuiwọn-olugbese iwaju.",
+    "description": "Locale key: faq_a_7"
+  },
+  "faq_q_8": {
+    "message": "Bawo ni MO ṣe yi ohun orin atunko aiyipada pada?",
+    "description": "Locale key: faq_q_8"
+  },
+  "faq_a_8": {
+    "message": "O le ṣeto ohun orin atunko aiyipada rẹ ninu awọn Eto taabu ti nronu aṣayan yii. Fifipamọ ayanfẹ rẹ yoo jẹ aiyipada laifọwọyi si ohun orin yẹn nigbati o ba tẹ aami wand idan, botilẹjẹpe o tun le yi awọn ohun orin pada ninu agbejade nigbati o nilo.",
+    "description": "Locale key: faq_a_8"
+  },
+  "faq_q_9": {
+    "message": "Kilode ti bọtini lilefoofo ko han nigba miiran?",
+    "description": "Locale key: faq_q_9"
+  },
+  "faq_a_9": {
+    "message": "Bọtini wand idan nilo gigun yiyan ti o kere ju ti ọrọ lati yago fun awọn agbekọja lairotẹlẹ. Pẹlupẹlu, awọn ilana aabo aṣawakiri boṣewa ṣe idiwọ awọn abẹrẹ akoonu ni muna lori awọn oju-iwe ti o ni anfani, gẹgẹbi Ile itaja wẹẹbu Chrome (chrome.google.com) ati awọn oju-iwe iṣeto inu (chrome://).",
+    "description": "Locale key: faq_a_9"
+  },
+  "faq_q_10": {
+    "message": "Ṣe Mo le daakọ ọrọ ti a tun kọ laisi rirọpo atilẹba?",
+    "description": "Locale key: faq_q_10"
+  },
+  "faq_a_10": {
+    "message": "Bẹẹni, inu agbejade atunko lilefoofo, o le tẹ aami 'Daakọ'. Eyi daakọ ẹya tuntun ti a tun kọ taara si agekuru agekuru rẹ, gbigba ọ laaye lati lẹẹmọ nibikibi ti o fẹ laisi rirọpo tabi ni ipa lori akoonu atilẹba lori oju opo wẹẹbu naa.",
+    "description": "Locale key: faq_a_10"
+  },
+  "faq_q_11": {
+    "message": "Bawo ni MO ṣe fagile ṣiṣe alabapin mi?",
+    "description": "Locale key: faq_q_11"
+  },
+  "faq_a_11": {
+    "message": "O le ṣakoso tabi fagile ṣiṣe alabapin rẹ nigbakugba nipa tite ọna asopọ ọna asopọ ìdíyelé alabara ti a pese ninu imeeli ijẹrisi rira rẹ. Ti o ko ba le wa imeeli naa, kan si wa nikeshoraai@gmail.coma yoo ran ọ lọwọ.",
+    "description": "Locale key: faq_a_11"
+  },
+  "faq_q_12": {
+    "message": "Kini ohun orin 'Fagun' ṣe?",
+    "description": "Locale key: faq_q_12"
+  },
+  "faq_a_12": {
+    "message": "Ohun orin 'Fagun' naa nlo oye ti ipilẹṣẹ lati kọ jade ati ṣe alaye lori ọrọ ti o yan, fifi awọn alaye ọlọrọ kun, ọrọ-ọrọ, ati igbekalẹ girama to dara si awọn ero kukuru, awọn aaye ọta ibọn, tabi awọn gbolohun ọrọ lakoko ti o tọju idi atilẹba mule.",
+    "description": "Locale key: faq_a_12"
+  },
+  "faq_q_13": {
+    "message": "Se o nfun awon omo ile iwe ni eni?",
+    "description": "Locale key: faq_q_13"
+  },
+  "faq_a_13": {
+    "message": "Bẹẹni, a ṣe atilẹyin awọn ọmọ ile-iwe, awọn olukọni, ati awọn oniwadi ẹkọ. A funni ni ẹdinwo 30% kọja gbogbo awọn ero ṣiṣe alabapin isanwo. Fi imeeli ranṣẹ si wa nikeshoraai@gmail.comlati ile-iwe osise tabi adirẹsi imeeli ti ile-ẹkọ giga (.edu tabi aaye ẹkọ) lati beere koodu ẹdinwo rẹ.",
+    "description": "Locale key: faq_a_13"
+  },
+  "faq_q_14": {
+    "message": "Njẹ aṣayan atunkọ olopobobo wa bi?",
+    "description": "Locale key: faq_q_14"
+  },
+  "faq_a_14": {
+    "message": "Bẹẹni, awọn olumulo ipele Ere le ṣe lilo ti atunkọ olopobobo. Dipo yiyan awọn apakan kọọkan, o le ṣii ẹgbẹ ẹgbẹ itẹsiwaju ki o lẹẹmọ gbogbo awọn iwe aṣẹ tabi awọn paragira lati yi wọn pada ni ọna kan.",
+    "description": "Locale key: faq_a_14"
+  },
+  "faq_q_15": {
+    "message": "Bawo ni MO ṣe jabo kokoro kan?",
+    "description": "Locale key: faq_q_15"
+  },
+  "faq_a_15": {
+    "message": "O le fi imeeli ranṣẹ si awọn ijabọ kokoro taara si ẹgbẹ atilẹyin wa nikeshoraai@gmail.com. Titẹ ẹrọ ailorukọ iranlọwọ ni taabu 'Akọọlẹ & Lilo' yoo ṣaju agbejade awoṣe atilẹyin kan ti o ni awọn alaye itẹsiwaju ninu lati ṣe iranlọwọ fun wa lati ṣe iwadii ọran naa.",
+    "description": "Locale key: faq_a_15"
+  },
+  "faq_q_16": {
+    "message": "Kini idi ti o fi sọ pe 'Quota Exceeded'?",
+    "description": "Locale key: faq_q_16"
+  },
+  "faq_a_16": {
+    "message": "Ikilọ 'Quota Exceeded' tumọ si pe o ti jẹ lilo ti o pin fun ọna ṣiṣe eto rẹ: Awọn olumulo ọfẹ ni opin si awọn atunko ojoojumọ 5; Awọn olumulo osẹ gba awọn atunkọ 140; Awọn olumulo Pro oṣooṣu gba awọn atunkọ 600; ati Awọn olumulo Gbẹhin Ọdun gba awọn atunkọ 9,000. Atunto awọn ipin laifọwọyi da lori ọmọ (ojoojumọ ni aarin oru akoko agbegbe, tabi lori yiyi osẹ/oṣooṣu/awọn aala ọdun). O le ṣe igbesoke si ipele ti o ga julọ lori oju-iwe 'Account & Lilo' lati bẹrẹ iṣẹ pada lẹsẹkẹsẹ.",
+    "description": "Locale key: faq_a_16"
+  },
+  "exportingStatus": {
+    "message": "Ṣíṣe ìfiniṣẹ́sí...",
+    "description": "Locale key: exportingStatus"
+  }
+}

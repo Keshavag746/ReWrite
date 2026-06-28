@@ -6,12 +6,12 @@ import { RewritePopup } from './injection/RewritePopup';
 import { RewriteMode } from '../shared/types/index';
 
 // ─── Command Palette ──────────────────────────────────────────────────────────
-const QUICK_MODES: { label: string; mode: RewriteMode }[] = [
-  { label: 'Professional', mode: 'professional' },
-  { label: 'Shorter', mode: 'shorten' },
-  { label: 'Fix Grammar', mode: 'grammar' },
-  { label: 'Friendly', mode: 'friendly' },
-  { label: 'Persuasive', mode: 'persuasive' },
+const QUICK_MODES: { mode: RewriteMode }[] = [
+  { mode: 'professional' },
+  { mode: 'shorten' },
+  { mode: 'grammar' },
+  { mode: 'friendly' },
+  { mode: 'persuasive' },
 ];
 
 const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
@@ -31,7 +31,7 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
 
   const handleSubmit = (mode: RewriteMode, customPrompt?: string) => {
     if (userPlan === 'free' && mode !== 'improve') {
-      alert('Only the "Improve" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all features.');
+      alert(chrome.i18n.getMessage('commandPaletteLockedAlert'));
       return;
     }
     const selection = window.getSelection();
@@ -63,11 +63,11 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
           <div style={{ color: '#8B8B9A', fontSize: '12px' }}>
-            ⚡ AI Rewrite Command Palette
+            {chrome.i18n.getMessage('commandPaletteTitle')}
           </div>
           {userPlan === 'free' && (
             <div style={{ color: '#f59e0b', fontSize: '11px', fontWeight: 600 }}>
-              ⚠️ Free Plan (Custom prompts locked)
+              {chrome.i18n.getMessage('commandPaletteFreeWarning')}
             </div>
           )}
         </div>
@@ -80,7 +80,7 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             if (e.key === 'Escape') onClose();
           }}
           disabled={userPlan === 'free'}
-          placeholder={userPlan === 'free' ? "Custom prompt is locked on Free Plan..." : "e.g. Rewrite for LinkedIn, Make this persuasive..."}
+          placeholder={userPlan === 'free' ? chrome.i18n.getMessage('commandPalettePlaceholderFree') : chrome.i18n.getMessage('commandPalettePlaceholderPro')}
           style={{
             width: '100%', background: '#0F0F10', border: '1px solid #2A2A32',
             borderRadius: '8px', padding: '10px 12px', color: userPlan === 'free' ? '#5B5B6A' : '#F0F0F2',
@@ -96,7 +96,7 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                 key={q.mode}
                 onClick={() => {
                   if (isLocked) {
-                    alert('Only the "Improve" mode is available on the free plan. Please upgrade to Pro/Premium to unlock all modes.');
+                    alert(chrome.i18n.getMessage('commandPaletteLockedModesAlert'));
                   } else {
                     handleSubmit(q.mode);
                   }
@@ -108,7 +108,7 @@ const CommandPalette: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                   opacity: isLocked ? 0.6 : 1
                 }}
               >
-                {q.label} {isLocked && '🔒'}
+                {chrome.i18n.getMessage('mode_' + q.mode)} {isLocked && '🔒'}
               </button>
             );
           })}
@@ -136,11 +136,21 @@ function getOrCreateContainer(): { container: HTMLDivElement; root: Root } {
 type AppView =
   | { type: 'none' }
   | { type: 'button'; selection: SelectionInfo }
-  | { type: 'popup'; text: string; rect: DOMRect; mode: RewriteMode }
+  | { type: 'popup'; text: string; rect: DOMRect; mode: RewriteMode; autoRun?: boolean }
   | { type: 'commandPalette' };
 
 const App: React.FC = () => {
   const [view, setView] = useState<AppView>({ type: 'none' });
+  const [toast, setToast] = useState<string | null>(null);
+  const toastTimeoutRef = useRef<any>(null);
+
+  const showLoginToast = () => {
+    if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
+    setToast('Please sign in to the extension first to use AI Rewrite.');
+    toastTimeoutRef.current = setTimeout(() => {
+      setToast(null);
+    }, 10000);
+  };
 
   useEffect(() => {
     const tracker = new SelectionTracker((info) => {
@@ -153,8 +163,13 @@ const App: React.FC = () => {
     tracker.start();
 
     // Listen for messages from background (context menu / command palette)
-    const listener = (message: { type: string; payload?: { text?: string; mode?: RewriteMode } }) => {
+    const listener = async (message: { type: string; payload?: { text?: string; mode?: RewriteMode } }) => {
       if (message.type === 'OPEN_REWRITE_POPUP' && message.payload?.text) {
+        const result = await chrome.storage.local.get('ai_rewrite_jwt');
+        if (!result['ai_rewrite_jwt']) {
+          showLoginToast();
+          return;
+        }
         const selection = window.getSelection();
         const rect = selection?.rangeCount
           ? selection.getRangeAt(0).getBoundingClientRect()
@@ -164,6 +179,7 @@ const App: React.FC = () => {
           text: message.payload.text,
           rect,
           mode: message.payload.mode ?? 'improve',
+          autoRun: true,
         });
       }
       if (message.type === 'OPEN_COMMAND_PALETTE') {
@@ -185,43 +201,86 @@ const App: React.FC = () => {
       tracker.stop();
       chrome.runtime.onMessage.removeListener(listener);
       document.removeEventListener('click', handleDocClick, true);
+      if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
     };
   }, []);
 
-  if (view.type === 'none') return null;
+  return (
+    <>
+      {view.type === 'button' && (
+        <FloatingButton
+          rect={view.selection.rect}
+          onClick={async () => {
+            const result = await chrome.storage.local.get('ai_rewrite_jwt');
+            if (!result['ai_rewrite_jwt']) {
+              showLoginToast();
+              return;
+            }
+            setView({
+              type: 'popup',
+              text: view.selection.text,
+              rect: view.selection.rect,
+              mode: 'improve',
+              autoRun: false,
+            });
+          }}
+        />
+      )}
 
-  if (view.type === 'button') {
-    return (
-      <FloatingButton
-        rect={view.selection.rect}
-        onClick={() =>
-          setView({
-            type: 'popup',
-            text: view.selection.text,
-            rect: view.selection.rect,
-            mode: 'improve',
-          })
-        }
-      />
-    );
-  }
+      {view.type === 'popup' && (
+        <RewritePopup
+          selectedText={view.text}
+          initialMode={view.mode}
+          rect={view.rect}
+          autoRun={view.autoRun}
+          onClose={() => setView({ type: 'none' })}
+        />
+      )}
 
-  if (view.type === 'popup') {
-    return (
-      <RewritePopup
-        selectedText={view.text}
-        initialMode={view.mode}
-        rect={view.rect}
-        onClose={() => setView({ type: 'none' })}
-      />
-    );
-  }
+      {view.type === 'commandPalette' && (
+        <CommandPalette onClose={() => setView({ type: 'none' })} />
+      )}
 
-  if (view.type === 'commandPalette') {
-    return <CommandPalette onClose={() => setView({ type: 'none' })} />;
-  }
-
-  return null;
+      {toast && (
+        <div style={{
+          position: 'fixed',
+          bottom: '24px',
+          right: '24px',
+          zIndex: 2147483647,
+          background: '#1A1A1E',
+          color: '#F0F0F2',
+          border: '1px solid #7C6EF8',
+          boxShadow: '0 8px 30px rgba(0,0,0,0.5)',
+          borderRadius: '12px',
+          padding: '16px 20px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '12px',
+          fontFamily: 'Inter, system-ui, sans-serif',
+          fontSize: '14px',
+          fontWeight: 500,
+          maxWidth: '360px',
+          animation: 'aiToastSlideIn 200ms ease forwards',
+        }}>
+          <style>{`
+            @keyframes aiToastSlideIn {
+              from { opacity: 0; transform: translateY(12px) scale(0.95); }
+              to { opacity: 1; transform: translateY(0) scale(1); }
+            }
+          `}</style>
+          <span style={{ fontSize: '18px' }}>🔐</span>
+          <div style={{ flexGrow: 1, lineHeight: 1.4 }}>{toast}</div>
+          <button 
+            onClick={() => setToast(null)}
+            style={{
+              background: 'none', border: 'none', color: '#8B8B9A',
+              cursor: 'pointer', fontSize: '16px', fontWeight: 'bold', padding: 0
+            }}
+          >×</button>
+        </div>
+      )}
+    </>
+  );
 };
 
 // ─── Mount ────────────────────────────────────────────────────────────────────
