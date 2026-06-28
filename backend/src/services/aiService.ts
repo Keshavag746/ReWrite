@@ -29,22 +29,26 @@ export async function rewriteWithAI(
   const systemPrompt = getSystemPrompt(mode, customPrompt);
 
   const client = new OpenAI({
-    apiKey: process.env.GROQ_API_KEY,
-    baseURL: 'https://api.groq.com/openai/v1',
+    apiKey: process.env.OPENROUTER_API_KEY,
+    baseURL: 'https://openrouter.ai/api/v1',
+    defaultHeaders: {
+      'HTTP-Referer': 'https://github.com/Keshavag746/ReWrite',
+      'X-Title': 'AI Rewrite Anywhere',
+    }
   });
 
   const response = await client.chat.completions.create({
-    model: 'openai/gpt-oss-120b',
+    model: 'google/gemini-flash-1.5',
     messages: [
       { role: 'system', content: systemPrompt },
-      { role: 'user', content: text },
+      { role: 'user', content: sanitized },
     ],
     max_tokens: 2000,
   });
 
   return {
     output: response.choices[0]?.message?.content ?? '',
-    modelUsed: 'gpt-oss-120b',
+    modelUsed: 'gemini-flash-1.5',
     tokensUsed: response.usage?.total_tokens,
   };
 }

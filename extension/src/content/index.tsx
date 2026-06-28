@@ -123,13 +123,26 @@ let root: Root | null = null;
 let container: HTMLDivElement | null = null;
 
 function getOrCreateContainer(): { container: HTMLDivElement; root: Root } {
-  if (!container || !document.body.contains(container)) {
-    container = document.createElement('div');
-    container.id = 'ai-rewrite-anywhere-root';
-    document.body.appendChild(container);
-    root = createRoot(container);
+  let existing = document.getElementById('ai-rewrite-anywhere-root') as HTMLDivElement | null;
+  if (!existing) {
+    existing = document.createElement('div');
+    existing.id = 'ai-rewrite-anywhere-root';
+    if (document.body) {
+      document.body.appendChild(existing);
+    } else {
+      document.documentElement.appendChild(existing);
+    }
   }
-  return { container, root: root! };
+  container = existing;
+
+  const globalKey = '__ai_rewrite_root__';
+  const anyWindow = window as any;
+  if (!anyWindow[globalKey]) {
+    anyWindow[globalKey] = createRoot(existing);
+  }
+  root = anyWindow[globalKey];
+
+  return { container: container!, root: root! };
 }
 
 // ─── App Component ────────────────────────────────────────────────────────────
@@ -189,11 +202,11 @@ const App: React.FC = () => {
 
     chrome.runtime.onMessage.addListener(listener);
 
-    // Click-away to close button or popup
+    // Click-away to close button
     const handleDocClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (target.closest('#ai-rewrite-anywhere-root')) return;
-      setView((v) => (v.type === 'button' || v.type === 'popup' ? { type: 'none' } : v));
+      setView((v) => (v.type === 'button' ? { type: 'none' } : v));
     };
     document.addEventListener('click', handleDocClick, true);
 
@@ -270,7 +283,7 @@ const App: React.FC = () => {
           `}</style>
           <span style={{ fontSize: '18px' }}>🔐</span>
           <div style={{ flexGrow: 1, lineHeight: 1.4 }}>{toast}</div>
-          <button 
+          <button
             onClick={() => setToast(null)}
             style={{
               background: 'none', border: 'none', color: '#8B8B9A',

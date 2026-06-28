@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { RewriteMode, RewriteResponse, ChromeMessage } from '../../shared/types/index';
 import { TextReplacer } from '../replacement/TextReplacer';
 
@@ -27,35 +27,81 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
 
   const [copied, setCopied] = useState(false);
   const [showOriginal, setShowOriginal] = useState(false);
+  const [saved, setSaved] = useState(false);
 
   const MODES: RewriteMode[] = [
-    'improve','grammar','professional','friendly','formal','casual',
-    'persuasive','confident','shorten','expand','simplify','humanize','custom',
+    'improve', 'grammar', 'professional', 'friendly', 'formal', 'casual',
+    'persuasive', 'confident', 'shorten', 'expand', 'simplify', 'humanize', 'custom',
   ];
 
-  // Calculate popup position
+  // Calculate popup position constants
   const POPUP_WIDTH = 480;
   const POPUP_MAX_HEIGHT = 520;
   const MARGIN = 12;
 
-  // Position it just starting at the end of highlighted text
-  let top = rect.bottom + window.scrollY + MARGIN;
-  let left = rect.left + window.scrollX;
+  const getInitialPosition = useCallback(() => {
+    let topVal = rect.bottom + window.scrollY + MARGIN;
+    let leftVal = rect.left + window.scrollX;
 
-  const vpWidth = window.innerWidth;
-  if (left + POPUP_WIDTH > vpWidth - MARGIN) left = vpWidth - POPUP_WIDTH - MARGIN;
-  if (left < MARGIN) left = MARGIN;
+    const vpWidth = window.innerWidth;
+    if (leftVal + POPUP_WIDTH > vpWidth - MARGIN) leftVal = vpWidth - POPUP_WIDTH - MARGIN;
+    if (leftVal < MARGIN) leftVal = MARGIN;
 
-  // If there's not enough space below the new top position, shift it up
-  const spaceBelow = window.innerHeight - rect.bottom;
-  if (spaceBelow < POPUP_MAX_HEIGHT && rect.top > POPUP_MAX_HEIGHT) {
-    top = rect.top + window.scrollY - POPUP_MAX_HEIGHT - MARGIN;
-  }
+    const spaceBelow = window.innerHeight - rect.bottom;
+    if (spaceBelow < POPUP_MAX_HEIGHT && rect.top > POPUP_MAX_HEIGHT) {
+      topVal = rect.top + window.scrollY - POPUP_MAX_HEIGHT - MARGIN;
+    }
+    return { x: leftVal, y: topVal };
+  }, [rect]);
+
+  const [position, setPosition] = useState<{ x: number; y: number }>(() => getInitialPosition());
+  const [isDragging, setIsDragging] = useState(false);
+  const dragStartRef = useRef<{ offsetX: number; offsetY: number }>({ offsetX: 0, offsetY: 0 });
+
+  useEffect(() => {
+    setPosition(getInitialPosition());
+  }, [rect, getInitialPosition]);
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (e.button !== 0) return; // Only left click
+    const target = e.target as HTMLElement;
+    if (target.closest('button') || target.closest('input')) return;
+
+    setIsDragging(true);
+    dragStartRef.current = {
+      offsetX: e.clientX - position.x,
+      offsetY: e.clientY - position.y,
+    };
+    e.preventDefault();
+  };
+
+  useEffect(() => {
+    if (!isDragging) return;
+
+    const handleMouseMove = (e: MouseEvent) => {
+      const newX = e.clientX - dragStartRef.current.offsetX;
+      const newY = e.clientY - dragStartRef.current.offsetY;
+      setPosition({ x: newX, y: newY });
+    };
+
+    const handleMouseUp = () => {
+      setIsDragging(false);
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isDragging]);
 
   const doRewrite = useCallback(async (selectedMode: RewriteMode) => {
     setState('loading');
     setOutput('');
     setErrorMsg('');
+    setSaved(false);
 
     try {
       const result = await chrome.storage.local.get('ai_rewrite_user');
@@ -126,14 +172,15 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
       return;
     }
     setMode(newMode);
+    setSaved(false);
     doRewrite(newMode);
   };
 
   const styles = {
     overlay: {
       position: 'absolute' as const,
-      top: `${top}px`,
-      left: `${left}px`,
+      top: `${position.y}px`,
+      left: `${position.x}px`,
       width: `${POPUP_WIDTH}px`,
       zIndex: 2147483646,
       background: '#1A1A1E',
@@ -160,19 +207,48 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
         .ai-btn { transition: all 0.15s ease; }
         .ai-btn:hover { opacity: 0.85; transform: translateY(-1px); }
         .ai-btn:active { transform: translateY(0); }
+        .ai-close-btn { transition: all 0.15s ease; }
+        .ai-close-btn:hover { color: #EF4444 !important; transform: scale(1.25); }
+        .ai-close-btn:active { transform: scale(0.95); }
       `}</style>
 
       {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+      <div
+        onMouseDown={handleMouseDown}
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '12px',
+          cursor: isDragging ? 'grabbing' : 'grab',
+          userSelect: 'none',
+        }}
+      >
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <span style={{ fontSize: '16px' }}>✨</span>
           <span style={{ fontWeight: 600, color: '#F0F0F2' }}>{chrome.i18n.getMessage('popupTitleLabel')}</span>
+          <span style={{ fontSize: '10px', color: '#8B8B9A', marginLeft: '6px', fontStyle: 'italic' }}>({chrome.i18n.getMessage('dragToMoveLabel') || 'drag header to move'})</span>
         </div>
         <button
           onClick={onClose}
-          style={{ background: 'none', border: 'none', color: '#8B8B9A', cursor: 'pointer', fontSize: '18px', lineHeight: 1 }}
+          className="ai-close-btn"
+          style={{
+            background: 'none',
+            border: 'none',
+            color: '#F87171',
+            cursor: 'pointer',
+            fontSize: '26px',
+            lineHeight: 1,
+            fontWeight: 'bold',
+            padding: '4px 8px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
           aria-label={chrome.i18n.getMessage('popupCloseLabel')}
-        >×</button>
+        >
+          &times;
+        </button>
       </div>
 
       {/* Mode selector chips */}
@@ -300,23 +376,20 @@ export const RewritePopup: React.FC<RewritePopupProps> = ({
         </button>
         <button
           className="ai-btn"
-          onClick={async () => {
-            if (!output) return;
-            const msg: ChromeMessage = {
-              type: 'REWRITE_TEXT',
-              payload: { text: output, mode },
-            };
-            chrome.runtime.sendMessage(msg);
+          onClick={() => {
+            setSaved(true);
           }}
-          disabled={state !== 'done'}
+          disabled={state !== 'done' || saved}
           style={{
             padding: '8px 14px', borderRadius: '8px',
-            background: '#2A2A32', color: '#F0F0F2',
-            border: '1px solid #3A3A45', cursor: state === 'done' ? 'pointer' : 'not-allowed',
+            background: saved ? '#10B981' : '#2A2A32',
+            color: saved ? 'white' : '#F0F0F2',
+            border: saved ? '1px solid #10B981' : '1px solid #3A3A45',
+            cursor: state === 'done' && !saved ? 'pointer' : 'not-allowed',
             fontSize: '13px',
           }}
         >
-          {chrome.i18n.getMessage('btnSave')}
+          {saved ? 'Saved ✓' : chrome.i18n.getMessage('btnSave')}
         </button>
       </div>
     </div>
