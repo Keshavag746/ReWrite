@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, UsageInfo, ChromeMessage } from '../../shared/types/index';
-
-const BACKEND_URL = 'http://140.245.6.232:3001';
+import { BACKEND_URL } from '../../shared/utils/api';
 
 export const Settings: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);

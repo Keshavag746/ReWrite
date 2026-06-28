@@ -15,6 +15,11 @@ router.get('/payment-links', authMiddleware, async (req: AuthRequest, res: Respo
         weekly: process.env.RZP_WEEKLY_LINK_INR || 'https://rzp.io/rzp/si5BDcU',
         monthly: process.env.RZP_MONTHLY_LINK_INR || 'https://rzp.io/rzp/C52K7XQ',
         yearly: process.env.RZP_YEARLY_LINK_INR || 'https://rzp.io/rzp/r2MqQg4I',
+      },
+      USD: {
+        weekly: process.env.PAYPAL_WEEKLY_LINK_USD || 'https://www.paypal.com/ncp/payment/Y4JSUNV5C6QDE',
+        monthly: process.env.PAYPAL_MONTHLY_LINK_USD || 'https://www.paypal.com/ncp/payment/ZT6QQYLJBGS5Q',
+        yearly: process.env.PAYPAL_YEARLY_LINK_USD || 'https://www.paypal.com/ncp/payment/FPW6FAWR46VA6',
       }
     });
   } catch (err) {

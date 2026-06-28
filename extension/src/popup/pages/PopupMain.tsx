@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, UsageInfo, ChromeMessage } from '../../shared/types/index';
+import { BACKEND_URL } from '../../shared/utils/api';
 
 const SparkleIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -14,8 +15,6 @@ export const PopupMain: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [authLoading, setAuthLoading] = useState(false);
   const [error, setError] = useState('');
-
-  const BACKEND_URL = 'http://140.245.6.232:3001';
 
   useEffect(() => {
     loadUserData();

@@ -1,8 +1,7 @@
 import { AIProvider } from './AIProvider';
 import { AIModel, RewriteMode } from '../../shared/types/index';
 import { getStoredJWT } from '../auth/googleAuth';
-
-const BACKEND_URL = 'http://140.245.6.232:3001';
+import { BACKEND_URL } from '../../shared/utils/api';
 
 export class ClaudeProvider implements AIProvider {
   modelName: AIModel = 'claude-sonnet';

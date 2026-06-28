@@ -6,6 +6,7 @@ import { HelpFAQ } from './pages/HelpFAQ';
 import { DownloadHistory } from './pages/DownloadHistory';
 import { RewriteHistoryPage } from './pages/RewriteHistoryPage';
 import { User, UsageInfo } from '../shared/types/index';
+import { BACKEND_URL } from '../shared/utils/api';
 
 export const OptionsApp: React.FC = () => {
   const [activeTab, setActiveTab] = useState('account');
@@ -26,7 +27,7 @@ export const OptionsApp: React.FC = () => {
       }
 
       if (jwt) {
-        const res = await fetch('http://140.245.6.232:3001/api/usage', {
+        const res = await fetch(`${BACKEND_URL}/api/usage`, {
           headers: { Authorization: `Bearer ${jwt}` },
         });
         if (res.ok) {

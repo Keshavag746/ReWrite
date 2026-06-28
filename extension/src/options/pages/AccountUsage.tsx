@@ -16,6 +16,7 @@ export const AccountUsage: React.FC<AccountUsageProps> = ({ user, usage, onLogin
   const [currency, setCurrency] = useState<'USD' | 'INR'>('USD');
   const [paymentLinks, setPaymentLinks] = useState<{
     INR?: { weekly: string; monthly: string; yearly: string };
+    USD?: { weekly: string; monthly: string; yearly: string };
   } | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const toastTimeoutRef = useRef<any>(null);
@@ -41,7 +42,10 @@ export const AccountUsage: React.FC<AccountUsageProps> = ({ user, usage, onLogin
         if (!result['ai_rewrite_jwt']) return;
 
         // Fetch billing links
-        const links = await apiGet<{ INR: { weekly: string; monthly: string; yearly: string } }>('/api/billing/payment-links');
+        const links = await apiGet<{ 
+          INR: { weekly: string; monthly: string; yearly: string };
+          USD: { weekly: string; monthly: string; yearly: string };
+        }>('/api/billing/payment-links');
         setPaymentLinks(links);
       } catch (err) {
         console.error('[AccountUsage] Failed to load data:', err);
@@ -88,7 +92,7 @@ export const AccountUsage: React.FC<AccountUsageProps> = ({ user, usage, onLogin
       
       window.open(link, '_blank');
     } else {
-      const link = {
+      const link = paymentLinks?.USD?.[planKey] || {
         weekly: 'https://www.paypal.com/ncp/payment/Y4JSUNV5C6QDE',
         monthly: 'https://www.paypal.com/ncp/payment/ZT6QQYLJBGS5Q',
         yearly: 'https://www.paypal.com/ncp/payment/FPW6FAWR46VA6',

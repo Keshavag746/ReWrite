@@ -1,8 +1,7 @@
 import { ChromeMessage, RewriteRequest } from '../../shared/types/index';
 import { rewriteWithFallback } from '../ai/AIProviderFactory';
 import { loginWithGoogle, logout, getStoredUser } from '../auth/googleAuth';
-
-const BACKEND_URL = 'http://140.245.6.232:3001';
+import { BACKEND_URL } from '../../shared/utils/api';
 
 async function getJWT(): Promise<string> {
   const result = await chrome.storage.local.get('ai_rewrite_jwt');

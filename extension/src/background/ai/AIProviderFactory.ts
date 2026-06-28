@@ -1,7 +1,6 @@
 import { RewriteMode, RewriteResponse } from '../../shared/types/index';
 import { getStoredJWT } from '../auth/googleAuth';
-
-const BACKEND_URL = 'http://140.245.6.232:3001';
+import { BACKEND_URL } from '../../shared/utils/api';
 
 export async function rewriteWithFallback(
   text: string,
