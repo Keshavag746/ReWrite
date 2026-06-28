@@ -1,6 +1,7 @@
 // Service worker entry point — imports register all listeners
 import './messaging/messageHandler';
 import { RewriteMode } from '../shared/types/index';
+import contentScriptUrl from '../content/index.tsx?script';
 
 // ─── Context Menus ────────────────────────────────────────────────────────────
 const REWRITE_MODES: { id: RewriteMode; title: string }[] = [
@@ -52,10 +53,10 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   try {
     await chrome.scripting.executeScript({
       target: { tabId: tab.id },
-      files: ['src/content/index.tsx'],
+      files: [contentScriptUrl],
     });
-  } catch {
-    // Content script may already be injected — that's OK
+  } catch (err) {
+    console.error('Failed to inject content script:', err);
   }
 
   chrome.tabs.sendMessage(tab.id, {
@@ -73,10 +74,10 @@ chrome.commands.onCommand.addListener(async (command) => {
   try {
     await chrome.scripting.executeScript({
       target: { tabId: tab.id },
-      files: ['src/content/index.tsx'],
+      files: [contentScriptUrl],
     });
-  } catch {
-    // Already injected
+  } catch (err) {
+    console.error('Failed to inject content script for command palette:', err);
   }
 
   chrome.tabs.sendMessage(tab.id, { type: 'OPEN_COMMAND_PALETTE' });
