@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Mock delay to simulate network call
       setTimeout(() => {
         if (formFeedback) {
-          formFeedback.textContent = `Thank you, ${nameInput.value}! Your privacy inquiry has been logged securely. Neo Cortex support will respond to ${emailInput.value} within 48 hours.`;
+          formFeedback.textContent = `Thank you, ${nameInput.value}! Your privacy inquiry has been logged securely. Keshora support will respond to ${emailInput.value} within 48 hours.`;
           formFeedback.className = 'form-feedback success';
           formFeedback.style.display = 'block';
         }
